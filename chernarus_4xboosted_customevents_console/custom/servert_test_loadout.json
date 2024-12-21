@@ -142,7 +142,7 @@
                       "quantityMin": 1,
                       "quantityMax": 1
                     },
-                    "quickBarSlot": 2,
+                    "quickBarSlot": -1,
                     "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [
                       "Mag_Deagle_9rnd"
@@ -377,12 +377,23 @@
               "quantityMin": 1,
               "quantityMax": 1
             },
-            "quickBarSlot": 4,
+            "quickBarSlot": -1,
             "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": [
-              "Canteen"
-            ],
-            "complexChildrenTypes": []
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": [
+              {
+                "itemType": "Canteen",
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": 4,
+                "simpleChildrenUseDefaultAttributes": true,
+                "simpleChildrenTypes": []
+              }
+            ]
           }
         ]
       }
