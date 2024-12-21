@@ -132,7 +132,25 @@
                 },
                 "quickBarSlot": -1,
                 "simpleChildrenUseDefaultAttributes": true,
-                "simpleChildrenTypes": ["Deagle_Gold"]
+                "discreteItemSets": [
+                  {
+                    "itemType": "Deagle_Gold",
+                    "spawnWeight": 1,
+                    "attributes": {
+                      "healthMin": 1,
+                      "healthMax": 1,
+                      "quantityMin": 1,
+                      "quantityMax": 1
+                    },
+                    "quickBarSlot": 2,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                      "Mag_Deagle_9rnd"
+                    ],
+                    "complexChildrenTypes": []
+                  }
+                ],
+                "simpleChildrenTypes": []
               }
             ]
           }
@@ -196,14 +214,7 @@
               "BakedBeansCan_Opened",
               "AmmoBox_556x45Tracer_20Rnd",
               "AmmoBox_556x45Tracer_20Rnd",
-              "AmmoBox_556x45Tracer_20Rnd",
-              "SodaCan_Cola",
-              "SodaCan_Cola",
-              "SodaCan_Cola",
-              "Battery9V",
-              "Battery9V",
-              "Battery9V",
-              "ChernarusMap"
+              "AmmoBox_556x45Tracer_20Rnd"
             ],
             "complexChildrenTypes": []
           }
@@ -223,7 +234,12 @@
             },
             "quickBarSlot": -1,
             "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": ["BandageDressing","BandageDressing","Mag_Deagle_9rnd","Mag_Deagle_9rnd"],
+            "simpleChildrenTypes": [
+              "ChernarusMap",
+              "BandageDressing",
+              "BandageDressing",
+              "Mag_Deagle_9rnd",
+              "Mag_Deagle_9rnd"],
             "complexChildrenTypes": [
                 {
                 "itemType": "BandageDressing",
@@ -323,7 +339,18 @@
             },
             "quickBarSlot": -1,
             "simpleChildrenUseDefaultAttributes": false,
-            "simpleChildrenTypes": ["M4_Suppressor","M4_Suppressor","M4_Suppressor","WeaponCleaningKit"],
+            "simpleChildrenTypes": [
+              "M4_Suppressor",
+              "M4_Suppressor",
+              "M4_Suppressor",
+              "WeaponCleaningKit",
+              "SodaCan_Cola",
+              "SodaCan_Cola",
+              "SodaCan_Cola",
+              "Battery9V",
+              "Battery9V",
+              "Battery9V"
+             ],
             "complexChildrenTypes": []
           }
         ]
