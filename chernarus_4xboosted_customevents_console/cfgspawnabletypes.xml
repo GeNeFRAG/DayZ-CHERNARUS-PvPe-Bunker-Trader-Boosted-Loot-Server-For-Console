@@ -78,6 +78,13 @@
 		<damage min="0.0" max="0.0"/>
 	</type>
 	<type name="PlateCarrierVest">
+		<damage min="0.0" max="0.32"/>
+		<attachments chance="0.85">
+			<item name="PlateCarrierHolster" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.85">
+			<item name="PlateCarrierPouches" chance="1.00"/>
+		</attachments>
 	</type>
 	<type name="ChristmasHeadband_Antlers">
 		<damage min="0.0" max="0.0"/>
@@ -102,8 +109,17 @@
 		<attachments chance="0.85">
 			<item name="PlateCarrierHolster_Black" chance="1.00"/>
 		</attachments>
-		<attachments chance="0.15">
+		<attachments chance="0.85">
 			<item name="PlateCarrierPouches_Black" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="PlateCarrierVest_Green">
+		<damage min="0.0" max="0.32"/>
+		<attachments chance="0.85">
+			<item name="PlateCarrierHolster_Green" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.85">
+			<item name="PlateCarrierPouches_Green" chance="1.00"/>
 		</attachments>
 	</type>
 	<type name="SparkPlug">
