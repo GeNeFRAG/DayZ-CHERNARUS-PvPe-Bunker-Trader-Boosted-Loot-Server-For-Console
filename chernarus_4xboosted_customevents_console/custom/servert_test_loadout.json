@@ -132,7 +132,7 @@
                 },
                 "quickBarSlot": -1,
                 "simpleChildrenUseDefaultAttributes": true,
-                "discreteItemSets": [
+                "complexChildrenTypes": [
                   {
                     "itemType": "Deagle_Gold",
                     "spawnWeight": 1,
