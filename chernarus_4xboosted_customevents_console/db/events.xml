@@ -854,7 +854,7 @@
         <children/>
     </event>
     <event name="StaticSantaCrash">
-        <nominal>3</nominal>
+        <nominal>9</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>2100</lifetime>
