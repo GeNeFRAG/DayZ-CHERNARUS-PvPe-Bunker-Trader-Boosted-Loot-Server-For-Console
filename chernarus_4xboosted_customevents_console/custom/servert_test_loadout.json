@@ -249,8 +249,18 @@
                     "quantityMin": 1.0,
                     "quantityMax": 1.0
                 },
-                "quickBarSlot": 2
-                 }
+                "quickBarSlot": 0
+                },
+                {
+                "itemType": "HuntingKnife",
+                "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                },
+                "quickBarSlot": 3
+                }
             ]
           }
         ]
@@ -354,8 +364,28 @@
             "complexChildrenTypes": []
           }
         ]
+      },
+      {
+        "slotName": "Hips",
+        "discreteItemSets": [
+          {
+            "itemType": "HipPack_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": 4,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+              "Canteen"
+            ],
+            "complexChildrenTypes": []
+          }
+        ]
       }
     ],
-    "discreteUnsortedItemSets": [],
-    "_comment": "This loadout was generated, from dayzboosterz.com"
+    "discreteUnsortedItemSets": []
   }
