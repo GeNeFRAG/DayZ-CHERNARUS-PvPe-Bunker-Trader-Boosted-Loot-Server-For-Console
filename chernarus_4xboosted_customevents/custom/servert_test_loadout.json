@@ -1,0 +1,334 @@
+{
+    "name": "server_tester",
+    "spawnWeight": 1,
+    "characterTypes": [
+        "SurvivorM_Mirek",
+        "SurvivorM_Boris",
+        "SurvivorM_Cyril",
+        "SurvivorM_Denis",
+        "SurvivorM_Elias",
+        "SurvivorM_Francis",
+        "SurvivorM_Guo",
+        "SurvivorM_Hassan",
+        "SurvivorM_Indar",
+        "SurvivorM_Jose",
+        "SurvivorM_Kaito",
+        "SurvivorM_Lewis",
+        "SurvivorM_Manua",
+        "SurvivorM_Niki",
+        "SurvivorM_Oliver",
+        "SurvivorM_Peter",
+        "SurvivorM_Quinn",
+        "SurvivorM_Rolf",
+        "SurvivorM_Seth",
+        "SurvivorM_Taiki",
+        "SurvivorF_Eva",
+        "SurvivorF_Frida",
+        "SurvivorF_Gabi",
+        "SurvivorF_Helga",
+        "SurvivorF_Irena",
+        "SurvivorF_Judy",
+        "SurvivorF_Keiko",
+        "SurvivorF_Linda",
+        "SurvivorF_Maria",
+        "SurvivorF_Naomi",
+        "SurvivorF_Baty"
+    ],
+    "attachmentSlotItemSets": [
+      {
+        "slotName": "hands",
+        "discreteItemSets": [
+          {
+            "itemType": "M4A1_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": 1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+              "Mag_STANAG_60Rnd",
+              "M4_CQBBttstck",
+              "M4_PlasticHndgrd",
+              "M4_Suppressor"
+            ],
+            "complexChildrenTypes": [
+              {
+                "itemType": "ReflexOptic",
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": true,
+                "simpleChildrenTypes": ["Battery9V"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slotName": "shoulderR",
+        "discreteItemSets": [
+          {
+            "itemType": "M14",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": 2,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+              "ACOGOptic_6x",
+              "Mag_M14_20Rnd"
+            ],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Vest",
+        "discreteItemSets": [
+          {
+            "itemType": "PlateCarrierVest_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": [
+              {
+                "itemType": "PlateCarrierPouches_Black",
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": true,
+                "simpleChildrenTypes": ["Mag_STANAG_60Rnd","Mag_STANAG_60Rnd","Mag_STANAG_60Rnd","Mag_M14_20Rnd"]
+              },
+              {
+                "itemType": "PlateCarrierHolster_Black",
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": true,
+                "simpleChildrenTypes": ["Deagle_Gold"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slotName": "Headgear",
+        "discreteItemSets": [
+          {
+            "itemType": "GorkaHelmet_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Gloves",
+        "discreteItemSets": [
+          {
+            "itemType": "OMNOGloves_Gray",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Body",
+        "discreteItemSets": [
+          {
+            "itemType": "M65Jacket_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [
+              "BakedBeansCan_Opened",
+              "BakedBeansCan_Opened",
+              "BakedBeansCan_Opened",
+              "AmmoBox_556x45Tracer_20Rnd",
+              "AmmoBox_556x45Tracer_20Rnd",
+              "AmmoBox_556x45Tracer_20Rnd",
+              "SodaCan_Cola",
+              "SodaCan_Cola",
+              "SodaCan_Cola",
+              "Battery9V",
+              "Battery9V",
+              "Battery9V",
+              "ChernarusMap"
+            ],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Legs",
+        "discreteItemSets": [
+          {
+            "itemType": "CargoPants_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": ["BandageDressing","BandageDressing","Mag_Deagle_9rnd","Mag_Deagle_9rnd"],
+            "complexChildrenTypes": [
+                {
+                "itemType": "BandageDressing",
+                "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                },
+                "quickBarSlot": 2
+                 }
+            ]
+          }
+        ]
+      },
+      {
+        "slotName": "Feet",
+        "discreteItemSets": [
+          {
+            "itemType": "CombatBoots_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Eyewear",
+        "discreteItemSets": [
+          {
+            "itemType": "NVGHeadstrap",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": [
+              {
+                "itemType": "NVGoggles",
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": true,
+                "simpleChildrenTypes": ["Battery9V"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slotName": "Mask",
+        "discreteItemSets": [
+          {
+            "itemType": "BalaclavaMask_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": [],
+            "complexChildrenTypes": []
+          }
+        ]
+      },
+      {
+        "slotName": "Back",
+        "discreteItemSets": [
+          {
+            "itemType": "DryBag_Black",
+            "spawnWeight": 1,
+            "attributes": {
+              "healthMin": 1,
+              "healthMax": 1,
+              "quantityMin": 1,
+              "quantityMax": 1
+            },
+            "quickBarSlot": -1,
+            "simpleChildrenUseDefaultAttributes": false,
+            "simpleChildrenTypes": ["M4_Suppressor","M4_Suppressor","M4_Suppressor","WeaponCleaningKit"],
+            "complexChildrenTypes": []
+          }
+        ]
+      }
+    ],
+    "discreteUnsortedItemSets": [],
+    "_comment": "This loadout was generated, from dayzboosterz.com"
+  }
