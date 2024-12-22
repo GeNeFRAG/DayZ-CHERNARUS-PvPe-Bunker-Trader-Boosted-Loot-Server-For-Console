@@ -6,6 +6,7 @@ Gameplay:
 * For MNK players ingame map enabled (key M)
 * Increased server idle countdown to 1200sec (20min) for loot changes to happen
 * Custome player spawns in: Cherno, Elektro, Kamyshovo, Solnechny, Berenzino, Svetlojarsk, NWAF, Novaya, Putoshka, Novo
+* Custom player loadouts
 
 Loot:
 * All loot spawns with damage between 0.00 (pristine) - 0.32 (worn)
