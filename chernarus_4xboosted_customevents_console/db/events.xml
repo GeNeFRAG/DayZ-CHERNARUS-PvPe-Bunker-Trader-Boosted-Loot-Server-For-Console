@@ -798,8 +798,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_UH1Y"/>
-            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_Mi8_Crashed"/>
+            <child lootmax="15" lootmin="10" max="6" min="1" type="Wreck_UH1Y"/>
+            <child lootmax="15" lootmin="10" max="6" min="1" type="Wreck_Mi8_Crashed"/>
         </children>
     </event>
     <event name="StaticMilitaryConvoy">
@@ -868,7 +868,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="15" lootmin="10" max="3" min="1" type="Wreck_SantasSleigh"/>
+            <child lootmax="15" lootmin="10" max="9" min="1" type="Wreck_SantasSleigh"/>
         </children>
     </event>
     <event name="StaticTrain">
