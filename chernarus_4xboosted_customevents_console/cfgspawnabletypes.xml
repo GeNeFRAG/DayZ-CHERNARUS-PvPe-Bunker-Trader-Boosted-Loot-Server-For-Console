@@ -2450,8 +2450,8 @@
 			<item name="AK_PlasticHndgrd" chance="1.00"/>
 		</attachments>
 		<attachments chance="0.50">
-			<item name="KashtanOptic" chance="0.30"/>
-			<item name="PSO11Optic" chance="0.20"/>
+			<item name="KashtanOptic" chance="0.50"/>
+			<item name="PSO11Optic" chance="0.50"/>
 		</attachments>
 		<attachments chance="0.50">
 			<item name="AK_Suppressor" chance="1.00"/>
@@ -2469,11 +2469,11 @@
 		</attachments>
 		<attachments chance="0.30">
 			<item name="KashtanOptic" chance="0.50"/>
-			<item name="PSO11Optic" chance="0.30"/>
+			<item name="PSO11Optic" chance="0.50"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_45Rnd" chance="0.30"/>
-			<item name="Mag_AK74_30Rnd" chance="1.00"/>
+			<item name="Mag_AK74_30Rnd" chance="0.70"/>
 		</attachments>
 	</type>
 	<type name="AKS74U">
@@ -2494,7 +2494,7 @@
 		</attachments>
 		<attachments chance="0.30">
 			<item name="KashtanOptic" chance="0.50"/>
-			<item name="PSO11Optic" chance="0.30"/>
+			<item name="PSO11Optic" chance="0.50"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK101_30Rnd" chance="1.00"/>
@@ -2510,22 +2510,22 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="BUISOptic" chance="0.50"/>
-			<item name="M4_CarryHandleOptic" chance="1.00"/>
+			<item name="M4_CarryHandleOptic" chance="0.50"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Mag_CMAG_40Rnd" chance="0.30"/>
-			<item name="Mag_CMAG_10Rnd" chance="0.50"/>
-			<item name="Mag_CMAG_20Rnd" chance="0.70"/>
-			<item name="Mag_CMAG_30Rnd" chance="1.00"/>
+			<item name="Mag_CMAG_40Rnd" chance="0.50"/>
+			<item name="Mag_CMAG_10Rnd" chance="0.10"/>
+			<item name="Mag_CMAG_20Rnd" chance="0.10"/>
+			<item name="Mag_CMAG_30Rnd" chance="0.30"/>
 		</attachments>
 	</type>
 	<type name="M16A2">
 		<damage min="0.1" max="0.32"/>
 		<attachments chance="1.00">
-			<item name="Mag_CMAG_40Rnd" chance="0.15"/>
-			<item name="Mag_CMAG_10Rnd" chance="0.50"/>
-			<item name="Mag_CMAG_20Rnd" chance="0.70"/>
-			<item name="Mag_CMAG_30Rnd" chance="1.00"/>
+			<item name="Mag_CMAG_40Rnd" chance="0.50"/>
+			<item name="Mag_CMAG_10Rnd" chance="0.10"/>
+			<item name="Mag_CMAG_20Rnd" chance="0.10"/>
+			<item name="Mag_CMAG_30Rnd" chance="0.30"/>
 		</attachments>
 	</type>
 	<type name="FAMAS">
@@ -2539,10 +2539,10 @@
 			<item name="Mag_Aug_30Rnd" chance="1.0"/>
 		</attachments>
 		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15"/>
-			<item name="M4_T3NRDSOptic" chance="0.15"/>
-			<item name="ReflexOptic" chance="0.15"/>
-			<item name="ACOGOptic" chance="0.15"/>
+			<item name="BUISOptic" chance="0.25"/>
+			<item name="M4_T3NRDSOptic" chance="0.25"/>
+			<item name="ReflexOptic" chance="0.25"/>
+			<item name="ACOGOptic" chance="0.25"/>
 		</attachments>	
 		<attachments chance="0.10">
 			<item name="TLRLight" chance="1.00"/>
@@ -2618,7 +2618,7 @@
 			<item name="HuntingOptic" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Mag_Ruger1022_30Rnd" chance="0.30"/>
+			<item name="Mag_Ruger1022_30Rnd" chance="0.50"/>
 			<item name="Mag_Ruger1022_15Rnd" chance="0.50"/>
 		</attachments>
 	</type>
@@ -2637,11 +2637,11 @@
 			<item name="Mag_Scout_5Rnd" chance="1.00"/>
 		</attachments>
 		<attachments chance="0.25">
-			<item name="M4_T3NRDSOptic" chance="0.25"/>
-			<item name="M68Optic" chance="0.25"/>
-			<item name="ACOGOptic" chance="0.25"/>
-			<item name="ACOGOptic_6x" chance="0.25"/>
-			<item name="M4_Suppressor" chance="0.25"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="M68Optic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.20"/>
+			<item name="ACOGOptic_6x" chance="0.20"/>
+			<item name="M4_Suppressor" chance="0.20"/>
 		</attachments>
 	</type>
 	<type name="Scout_Chernarus">
@@ -2649,11 +2649,11 @@
 			<item name="Mag_Scout_5Rnd" chance="1.00"/>
 		</attachments>
 		<attachments chance="0.25">
-			<item name="M4_T3NRDSOptic" chance="0.25"/>
-			<item name="M68Optic" chance="0.25"/>
-			<item name="ACOGOptic" chance="0.25"/>
-			<item name="ACOGOptic_6x" chance="0.25"/>
-			<item name="M4_Suppressor" chance="0.25"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="M68Optic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.20"/>
+			<item name="ACOGOptic_6x" chance="0.20"/>
+			<item name="M4_Suppressor" chance="0.20"/>
 		</attachments>
 	</type>
 	<type name="Scout_Livonia">
@@ -2661,11 +2661,11 @@
 			<item name="Mag_Scout_5Rnd" chance="1.00"/>
 		</attachments>
 		<attachments chance="0.25">
-			<item name="M4_T3NRDSOptic" chance="0.25"/>
-			<item name="M68Optic" chance="0.25"/>
-			<item name="ACOGOptic" chance="0.25"/>
-			<item name="ACOGOptic_6x" chance="0.25"/>
-			<item name="M4_Suppressor" chance="0.25"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="M68Optic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.20"/>
+			<item name="ACOGOptic_6x" chance="0.20"/>
+			<item name="M4_Suppressor" chance="0.20"/>
 		</attachments>
 	</type>
 	<type name="CZ550">
@@ -3901,51 +3901,238 @@
 			<item name="Canteen" chance="1.00" />
 		</attachments>
 	</type>
+	<!-- Builder truck-->
 	<type name="Truck_01_Covered">
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="1.0"/>
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="1.0"/>
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="1.0"/>
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Wheel" chance="1.0"/>
+			<item name="Truck_01_Wheel" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="1.0"/>
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="1.0"/>
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="1.0"/>
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_WheelDouble" chance="1.0"/>
+			<item name="Truck_01_WheelDouble" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="TruckBattery" chance="1.0"/>
+			<item name="TruckBattery" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="1.0"/>
+			<item name="HeadlightH7" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="HeadlightH7" chance="1.0"/>
+			<item name="HeadlightH7" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Hood" chance="1.0"/>
+			<item name="Truck_01_Hood_Orange" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Door_1_1" chance="1.0"/>
+			<item name="Truck_01_Door_1_1_Orange" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Truck_01_Door_2_1" chance="1.0"/>
+			<item name="Truck_01_Door_2_1_Orange" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="CanisterGasoline" chance="1.00" />
+		<attachments>
+			<item name="WoodenLog" />
+		</attachments>
+		<attachments>
+			<item name="WoodenPlank" />
+		</attachments>
+		<attachments>
+			<item name="MetalPlate" />
+		</attachments>
+		<attachments>
+			<item name="Barrel_Blue" />
+		</attachments>
+		<attachments>
+			<item name="Barrel_Green" />
+		</attachments>	
+		<attachments>
+			<item name="Barrel_Red" />
+		</attachments>
+		<attachments>
+			<item name="Barrel_Yellow" />
+		</attachments>	
+		<attachments>
+			<item name="WoodenCrate" />
+		</attachments>	
+		<attachments>
+			<item name="WoodenCrate" />
+		</attachments>
+		<attachments>
+			<item name="WoodenCrate" />
+		</attachments>
+		<attachments>
+			<item name="WoodenCrate" />
+		</attachments>		
+		<attachments>
+			<item name="CanisterGasoline" />
+		</attachments>
+		<attachments>
+			<item name="HandSaw" />
+		</attachments>	
+		<attachments>
+			<item name="HandSaw" />
+		</attachments>
+        <attachments>
+			<item name="HandSaw" />
+		</attachments>
+        <attachments>
+			<item name="WoodAxe" />
+		</attachments>
+		<attachments>
+			<item name="WoodAxe" />
+		</attachments>
+		<attachments>
+			<item name="WoodAxe" />
+		</attachments>
+		<attachments>
+			<item name="Shovel" />
+		</attachments>
+		<attachments>
+			<item name="Shovel" />
+		</attachments>
+		<attachments>
+			<item name="Shovel" />
+		</attachments>	
+		<attachments>
+			<item name="Pickaxe" />
+		</attachments>
+		<attachments>
+			<item name="Pickaxe" />
+		</attachments>
+		<attachments>
+			<item name="Pickaxe" />
+		</attachments>
+		<attachments>
+			<item name="ShelterKit" />
+		</attachments>	
+		<attachments>
+			<item name="ShelterKit" />
+		</attachments>
+		<attachments>
+			<item name="ShelterKit" />
+		</attachments>
+		<attachments>
+			<item name="FenceKit" />
+		</attachments>
+		<attachments>
+			<item name="WatchtowerKit" />
+		</attachments>	
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>	
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+        <attachments>
+            <item name="NailBox" />
+        </attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>	
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+        <attachments>
+            <item name="NailBox" />
+        </attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>	
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+        <attachments>
+            <item name="NailBox" />
+        </attachments>
+        <attachments>
+            <item name="SledgeHammer" />
+        </attachments>
+        <attachments>
+            <item name="SledgeHammer" />
+        </attachments>
+        <attachments>
+            <item name="Hatchet" />
+        </attachments>
+		<attachments>
+            <item name="Hatchet" />
+        </attachments>
+	    <attachments>
+            <item name="Hatchet" />
+        </attachments>
+        <attachments>
+            <item name="Whetstone" />
+        </attachments>
+        <attachments>
+            <item name="Whetstone" />
+		</attachments>
+		 <attachments>
+            <item name="Whetstone" />
+		</attachments>
+		 <attachments>
+            <item name="Whetstone" />
+		</attachments>
+		 <attachments>
+            <item name="Whetstone" />
+		</attachments>
+		 <attachments>
+            <item name="Whetstone" />
+		</attachments>
+        <attachments>
+			<item name="LargeTent" />
+		</attachments>
+        <attachments>
+			<item name="CarTent" />
+		</attachments>
+		<attachments>
+			<item name="MediumTent_Green" />
+		</attachments>
+		<attachments>
+			<item name="MediumTent" />
+		</attachments>
+		<attachments>
+			<item name="MediumTent_Orange" />
+		</attachments>
+		<attachments>
+			<item name="EpoxyPutty" />
+		</attachments>
+		<attachments>
+			<item name="EpoxyPutty" />
+		</attachments>
+		<attachments>
+			<item name="EpoxyPutty" />
 		</attachments>
 	</type>
 	<type name="Truck_01_Covered_Blue">
