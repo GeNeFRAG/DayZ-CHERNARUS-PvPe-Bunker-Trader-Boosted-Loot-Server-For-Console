@@ -1497,4 +1497,11 @@
     <event name="AnimalRoeDeer" />
     <event name="AnimalWolf" />
     <event name="AnimalWildBoar" />
+
+	<!-- Builder Truck event spawns -->
+	<event name="VehicleBuilderTruck">
+		<pos x="3179.71" z="13185.43" a="0" /> <!-- Novaya -->
+		<pos x="12342.63" z="12417.48" a="0" /> <!-- Krasnostav Airfield -->
+		<pos x="5096.67" z="2125.96" a="0" /> <!-- Balota Airfield -->
+    </event>
 </eventposdef>
