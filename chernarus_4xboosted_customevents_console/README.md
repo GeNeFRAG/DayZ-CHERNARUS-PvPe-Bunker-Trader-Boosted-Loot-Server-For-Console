@@ -27,3 +27,6 @@ Loot:
 Events:
 * Heli crashes increased and MI8 wreck added
 * Increased chances of food items in Zombies
+* Building supply truck event
+* Christmas trees with presents
+* Heli crashes including C130J airplane
