@@ -1,4 +1,4 @@
-<!-- add to events.xml -->
+<!-- Add to events.xml -->
 
 <event name="StaticCustomCrash">
     <nominal>1</nominal>
@@ -51,7 +51,7 @@
     </container>
 </group>
 
-<!-- to cgfeventspawns.xml do adjust the coords to ur liking -->
+<!-- To cgfeventspawns.xml do adjust the coords to ur liking -->
 	
 <event name="StaticPlaneCrash">
     <pos x="0" z="0" a="0" />
