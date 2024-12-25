@@ -11,7 +11,7 @@
 		<pos x="4707.10" z="2529.87" a="0" />
     </event>
 
-	<!-- NWAFStaticEventGroup -->
+	<!-- StaticPlaneCrash -->
 	<event name="StaticCustomCrash">
     	<!-- NWAF -->
 		<pos x="4010.84" z="10882.55" a="110" />
