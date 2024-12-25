@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
+	<!-- CUSTOM EVENT SPAWNS START -->
+	<!-- Builder Truck event spawns -->
+	<event name="VehicleBuilderTruck">
+		<!-- Novaya -->
+		<pos x="3179.71" z="13185.43" a="0" />
+		<!-- Krasnostav Airfield -->
+		<pos x="12342.63" z="12417.48" a="0" /> 
+		<!-- Balota Airfield -->
+		<pos x="4707.10" z="2529.87" a="0" />
+    </event>
+
+	<!-- NWAFStaticEventGroup -->
+	<!--
+	<event name="VehicleBuilderTruck">
+    	<pos x="3179.71" z="13185.43" a="0" />
+	</event>
+	-->
+	<!-- CUSTOME EVENT SPWANS END -->
 	<event name="VehicleCivilianSedan">
 		<pos x="12071.933594" z="9129.989258" a="317.953339" />
 		<pos x="12302.375001" z="9051.289062" a="60.399284" />
@@ -1497,11 +1515,4 @@
     <event name="AnimalRoeDeer" />
     <event name="AnimalWolf" />
     <event name="AnimalWildBoar" />
-
-	<!-- Builder Truck event spawns -->
-	<event name="VehicleBuilderTruck">
-		<pos x="3179.71" z="13185.43" a="0" /> <!-- Novaya -->
-		<pos x="12342.63" z="12417.48" a="0" /> <!-- Krasnostav Airfield -->
-		<pos x="5096.67" z="2125.96" a="0" /> <!-- Balota Airfield -->
-    </event>
 </eventposdef>
