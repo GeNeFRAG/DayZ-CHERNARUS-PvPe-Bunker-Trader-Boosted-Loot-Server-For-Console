@@ -1,0 +1,58 @@
+<!-- add to events.xml -->
+
+<event name="StaticCustomCrash">
+    <nominal>1</nominal>
+    <min>1</min>
+    <max>1</max>
+    <lifetime>300</lifetime>
+    <restock>0</restock>
+    <saferadius>500</saferadius>
+    <distanceradius>500</distanceradius>
+    <cleanupradius>200</cleanupradius>
+    <flags deletable="0" init_random="0" remove_damaged="1"/>
+    <position>fixed</position>
+    <limit>mixed</limit>
+    <active>0</active>
+    <children>
+        <child lootmax="15" lootmin="10" max="3" min="3" type="Land_Wreck_C130J_Cargo"/>
+    </children>
+</event>
+
+<!-- Add to mapgroupproto.xml -->
+
+<group name="Land_Wreck_C130J_Cargo" lootmax="15">
+    <usage name="Military" />
+    <container name="lootFloor">
+            <category name="clothes" />
+            <tag name="floor" />
+            <tag name="ground" />
+            <point pos="-10.216827 -4.788198 -0.759033" range="0.333221" height="0.833054" />
+            <point pos="-5.972808 -4.556667 0.800903" range="0.749146" height="1.872864" />
+            <point pos="-6.367980 -4.553556 -0.754639" range="0.742432" height="1.856079" />
+            <point pos="-4.003571 -4.537710 -0.337647" range="1.093384" height="2.000000" />
+            <point pos="-0.895264 -4.513454 -0.673584" range="0.768188" height="1.920471" />
+            <point pos="2.066528 -4.492989 -0.310181" range="0.925000" height="2.000000" />
+    </container>
+    <container name="loot">
+            <category name="weapons" />
+            <tag name="floor" />
+            <tag name="ground" />
+            <point pos="-2.139313 -4.527470 0.572631" range="0.884644" height="2.000002" />
+            <point pos="-7.879120 -4.568596 0.246337" range="1.070224" height="2.000002" />
+            <point pos="0.352356 -4.509430 0.665771" range="0.834839" height="2.000000" />
+            <point pos="5.928223 -4.833448 -0.836671" range="0.409375" height="1.023438" />
+            <point pos="5.909514 -4.836582 0.714355" range="0.409375" height="1.023438" />
+            <point pos="4.918579 -4.715311 -0.710938" range="0.409375" height="1.023438" />
+            <point pos="5.039856 -4.732702 0.205566" range="0.409375" height="1.023438" />
+            <point pos="3.935394 -4.605631 0.972046" range="0.409375" height="1.023438" />
+            <point pos="3.871979 -4.592604 -0.651612" range="0.409375" height="1.023438" />
+            <point pos="5.085053 -5.184137 -2.382080" range="1.117920" height="0.173845" flags="32" />
+            <point pos="5.688843 -5.184137 2.855345" range="1.199951" height="2.000000" flags="32" />
+    </container>
+</group>
+
+<!-- to cgfeventspawns.xml do adjust the coords to ur liking -->
+	
+<event name="StaticPlaneCrash">
+    <pos x="0" z="0" a="0" />
+</event>

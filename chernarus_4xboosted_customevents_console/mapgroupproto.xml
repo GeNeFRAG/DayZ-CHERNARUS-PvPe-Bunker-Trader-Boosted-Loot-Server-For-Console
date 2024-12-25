@@ -3727,7 +3727,7 @@
 						<point pos="-1.010966 -0.700295 0.003085" range="1.050293" height="2.006676" />
 				</container>
 		</group>
-		<group name="Land_Wreck_C130J_Cargo" lootmax="6">
+		<group name="Land_Wreck_C130J_Cargo" lootmax="15">
 				<usage name="Military" />
 				<container name="lootFloor">
 						<category name="clothes" />

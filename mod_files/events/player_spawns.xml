@@ -38,10 +38,3 @@
     <!-- NOVO -->
     <pos x="12022.81" z="13609.27" /> 
  </generator_posbubbles>
-
-<!-- Builder Truck event test -->
- <generator_posbubbles>
-    <pos x="3179.71" z="13185.43" a="0" />  
-	<pos x="12342.63" z="12417.48" a="0" /> 
-	<pos x="5376.63" z="2067.64" a="0" />
-</generator_posbubbles>
