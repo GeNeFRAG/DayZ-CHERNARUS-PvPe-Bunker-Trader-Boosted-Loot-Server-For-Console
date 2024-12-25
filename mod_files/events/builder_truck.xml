@@ -1,4 +1,4 @@
-<!-- find and replace the entry below in types.xml -->
+<!-- Find and replace the entry below in types.xml -->
 
     <type name="WoodenLog">
         <nominal>0</nominal>
@@ -36,7 +36,7 @@
         <usage name="Industrial"/>
     </type>
 	
-	<!-- find and replace in spawnabletypes.xml-->
+	<!-- Find and replace in spawnabletypes.xml-->
 	
 	<type name="Truck_01_Covered">
 		<attachments chance="1.00">
@@ -272,7 +272,7 @@
 		</attachments>
 	</type>
 	
-	<!-- add to events.xml -->
+	<!-- Add to events.xml -->
 	
 	<event name="VehicleBuilderTruck">
         <nominal>3</nominal>
@@ -297,12 +297,11 @@
 	<event name="VehicleBuilderTruck">
 		<pos x="0" z="0" a="0" />
     </event>
-
-	<!-- Builder Truck event spawns -->
+>
 	<event name="VehicleBuilderTruck">
-		<!-- Novaya -->
+		<!-- Novaya North -->
 		<pos x="3179.71" z="13185.43" a="0" />
-		<!-- Krasnostav Airfield -->
+		<!-- Krasno Airfield -->
 		<pos x="12342.63" z="12417.48" a="0" /> 
 		<!-- Balota Airfield -->
 		<pos x="4707.10" z="2529.87" a="0" />
