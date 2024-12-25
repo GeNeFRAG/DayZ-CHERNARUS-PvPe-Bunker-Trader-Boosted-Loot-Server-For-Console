@@ -1,33 +1,34 @@
-DayZ Chernarus 4x boosted loot server with custom events.
+# DayZ Chernarus 4x Boosted Server Configuration
 
-Gameplay:
-* Stamina decreases with a very low pace, not unlimited but enough to run a while
-* Build "anywhere" enabled
-* For MNK players ingame map enabled (key M)
-* Increased server idle countdown to 1200sec (20min) for loot changes to happen
-* Custome player spawns in: Cherno, Elektro, Kamyshovo, Solnechny, Berenzino, Svetlojarsk, NWAF, Novaya, Putoshka, Novo
-* Custom player loadouts
+## Gameplay Features
 
-Loot:
-* All loot spawns with damage between 0.00 (pristine) - 0.32 (worn)
-* All items in 'types.xml' have been initally increased by 400%
-* Loot which spawns in vanilla only in contaminated areas also spanws in Military Tier 4 areas
-* Clothes, flags, car parts have decreased because of errors in server log
-* Cars spwan full with a full gasoline canister and 4 full canteens
-* Dynamic event loot changes. Reduced clothes and enabledTier 4 weapons, platecarrier vests and ammo
-* Enabled green M4 plus attachements
-* Addtional colors for AK attachements
-* Black, green and camo platecarrier vests enabled
-* Increased the chances to find complete platecarrier vests
-* Weapons spawn either with half full or full magazines
-* Sniper weapon always spawn with optics
-* Magazines spawn either with 50% or 100%
-* Removed some of the small magazines from western weapons
+* Server implements a balanced stamina system - players can run for extended periods without unlimited stamina
+* Building placement restrictions are removed, allowing construction in most locations
+* Mouse and Keyboard players have access to the in-game map via the 'M' key
+* Extended server idle timer set to 1200 seconds (20 minutes) to accommodate loot respawn cycles
+* Custom spawn points located in major cities and military locations including Cherno, Elektro, NWAF, and other strategic locations
+* Players start with specialized loadout configurations
 
-Events:
-* Heli crashes increased and MI8 wreck added
-* Increased chances of food items in Zombies
-* Building supply truck event
-* Christmas trees with presents
-* Heli crashes including C130J airplane
-* C130J plane crash on airfield NWAF, Balota or Krasnostav
+## Loot Specifications
+
+* Item condition ranges from pristine (0.00) to worn (0.32) damage values
+* Loot was initally mulitplied by400% across and futher tuned
+* Contaminated zone exclusive items now appear in Military Tier 4 zones
+* Vehicle spawns include full fuel tanks, gasoline canisters, and water supplies
+* Enhanced weapon configurations:
+  * Green M4 variants with attachments enabled
+  * Expanded AK attachment color variations
+  * Platecarrier vests available in black, green, and camo variants
+  * Increased platecarrier spawn rates
+  * Weapons spawn with 50-100% loaded magazines
+  * All sniper rifles include optical attachments
+* Magazine spawns are consistently half or fully loaded
+* Reduced small magazine variants for western weapons
+
+## Event System
+
+* Increased helicopter crash sites with added MI8 wreck locations
+* Enhanced zombie loot with increased food item drops
+* Special building supply truck events
+* C130J plane crash events at major airfields (NWAF, Balota, Krasnostav)
+* Holiday events featuring Christmas trees with presents and themed Santa crash sites
