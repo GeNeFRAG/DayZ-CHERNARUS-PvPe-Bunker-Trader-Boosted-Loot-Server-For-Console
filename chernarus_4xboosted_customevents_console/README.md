@@ -30,3 +30,4 @@ Events:
 * Building supply truck event
 * Christmas trees with presents
 * Heli crashes including C130J airplane
+* C130J plane crash on airfield NWAF, Balota or Krasnostav
