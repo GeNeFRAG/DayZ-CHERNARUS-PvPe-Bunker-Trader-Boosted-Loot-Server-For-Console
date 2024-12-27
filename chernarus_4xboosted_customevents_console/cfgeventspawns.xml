@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
-	<!-- CUSTOM EVENT SPAWNS START -->
+	<!-- ################### CUSTOM EVENT SPAWNS START ################### -->
 	<!-- Builder Truck event spawns -->
 	<event name="VehicleBuilderTruck">
 		<!-- Novaya North -->
@@ -10,8 +10,7 @@
 		<!-- Balota Airfield -->
 		<pos x="4707.10" z="2529.87" a="0" />
     </event>
-
-	<!-- StaticPlaneCrash -->
+	<!-- Plane crash event spwans  -->
 	<event name="StaticCustomCrash">
     	<!-- NWAF -->
 		<pos x="4010.84" z="10882.55" a="110" />
@@ -20,8 +19,18 @@
 		<!-- Balota Airfield -->
 		<pos x="5155.00" z="2310.66" a="110" />
 	</event>
-
-	<!-- CUSTOME EVENT SPWANS END -->
+	<!-- Treasure hunt event spawns -->
+	<event name="StaticTreasureHunt">
+		<!-- Zeleno area -->
+    	<pos x="1165.54" z="4970.30" a="0"/>
+		<!-- Tisy area -->
+		<pos x="813.40" z="12617.00" a="0"/>
+		<!-- Devils castle area -->
+		<pos x="7244.02" z="10689.27" a="0"/>
+		<!-- Kotka area -->
+		<pos x="6678.99" z="6771.10" a="0"/>
+	</event>
+	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
 	<event name="VehicleCivilianSedan">
 		<pos x="12071.933594" z="9129.989258" a="317.953339" />
 		<pos x="12302.375001" z="9051.289062" a="60.399284" />

@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <randompresets>
+		<!-- ################### CUSTOM RANDOM PRESETS START ################### -->
+		<!-- Treasure Hunt Items -->
+		<cargo chance="1.00" name="Grave_1">
+			<item name="M67Grenade" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_2">
+			<item name="M67Grenade" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_3">
+			<item name="M67Grenade" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_4">
+			<item name="M67Grenade" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_5">
+			<item name="M67Grenade" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_6">
+			<item name="M67Grenade" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_7">
+			<item name="RDG5Grenade" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_8">
+			<item name="RDG5Grenade" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_9">
+			<item name="RDG5Grenade" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_10">
+			<item name="RDG5Grenade" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_11">
+			<item name="Ammo_40mm_Chemgas" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_12">
+			<item name="Ammo_40mm_Chemgas" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_13">
+			<item name="Ammo_40mm_Chemgas" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_14">
+			<item name="Ammo_40mm_Chemgas" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_15">
+			<item name="Ammo_40mm_Explosive" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_16">
+			<item name="Ammo_40mm_Explosive" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_17">
+			<item name="Ammo_40mm_Explosive" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_18">
+			<item name="Ammo_40mm_Explosive" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_19">
+			<item name="BandageDressing" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_20">
+			<item name="BandageDressing" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave212">
+			<item name="VitaminBottle" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_22">
+			<item name="TetracyclineAntibiotics" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_23">
+			<item name="ChelatingTablets" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_24">
+			<item name="HumanSteakMeat" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_25">
+			<item name="Guts" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_26">
+			<item name="Bone" chance="1.00" />
+		</cargo>
+		<cargo chance="1.00" name="Grave_27">
+			<item name="AliceBag_Black" chance="1.00" />
+		</cargo>
+		<!-- ################### CUSTOM RANDOM PRESETS END ################### -->
 		<cargo chance="0.25" name="foodHermit">
 				<item name="TunaCan" chance="0.11" />
 				<item name="SardinesCan" chance="0.11" />

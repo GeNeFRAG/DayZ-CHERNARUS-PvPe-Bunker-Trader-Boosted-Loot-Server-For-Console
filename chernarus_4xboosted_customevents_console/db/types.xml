@@ -15941,7 +15941,7 @@
     </type>
     <type name="UndergroundStash">
         <nominal>0</nominal>
-        <lifetime>967680</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
@@ -23650,7 +23650,7 @@
     </type>
     <type name="UndergroundStashSnow">
         <nominal>0</nominal>
-        <lifetime>967680</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
