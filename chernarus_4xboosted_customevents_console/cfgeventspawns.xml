@@ -26,9 +26,9 @@
 		<!-- Tisy area -->
 		<pos x="813.40" z="12617.00" a="0"/>
 		<!-- Devils castle area -->
-		<pos x="7244.02" z="10689.27" a="0"/>
-		<!-- Kotka area -->
-		<pos x="6678.99" z="6771.10" a="0"/>
+		<pos x="7186.66" z="10640.74" a="0"/>
+		<!-- Green mountain area -->
+		<pos x="3899.78" z="6669.51" a="0"/>
 	</event>
 	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
 	<event name="VehicleCivilianSedan">

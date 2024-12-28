@@ -21,11 +21,12 @@
         <generator_posbubbles>
 
 		    <pos x="1165.54" z="4970.30" a="0"/>
+            <!-- Tisy area -->
             <pos x="813.40" z="12617.00" a="0"/>
-		        <!-- Devils castle area -->
-		    <pos x="7244.02" z="10689.27" a="0"/>
-		    <!-- Kotka area -->
-		    <pos x="6678.26" z="6787.13" a="0"/>
+            <!-- Devils castle area -->
+            <pos x="7186.66" z="10640.74" a="0"/>
+            <!-- Green mountain area -->
+            <pos x="3899.78" z="6669.51" a="0"/>
 
         </generator_posbubbles>
     </fresh>
