@@ -265,6 +265,48 @@
 			<item name="EpoxyPutty" />
 		</attachments>
 	</type>
+	<!-- Fireplace -->
+	<type name="Fireplace">
+        <cargo chance="1.00">
+            <item name="PetrolLighter" chance="1.00" />
+        </cargo>
+        <cargo chance="1.00">
+            <item name="CarpFilletMeat" chance="1.00" />
+        </cargo>
+        <cargo chance="1.00">
+            <item name="CarpFilletMeat" chance="1.00" />
+        </cargo>
+        <cargo chance="1.00">
+            <item name="CarpFilletMeat" chance="1.00" />
+        </cargo>
+        <cargo chance="1.00">
+            <item name="CarpFilletMeat" chance="1.00" />
+        </cargo>
+		<cargo chance="1.00">
+            <item name="CarpFilletMeat" chance="1.00" />
+        </cargo>
+        <cargo chance="1.00">
+            <item name="CarpFilletMeat" chance="1.00" />
+        </cargo>
+        <attachments chance="1.00">
+            <item name="Firewood" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Firewood" />
+        </attachments>
+		<attachments chance="1.00">
+            <item name="Firewood" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Tripod" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Pot" />
+        </attachments>
+        <attachments chance="1.00">
+            <item name="Rag" />
+        </attachments>
+    </type>
 	<!-- ################### CUSTOM SPAWNABLE ITEMS END ################### -->
 
 	<type name="Barrel_Blue">
@@ -2634,7 +2676,7 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_VSS_10Rnd" chance="0.35"/>
-			<item name="Mag_VAL_20Rnd" chance="1.50"/>
+			<item name="Mag_VAL_20Rnd" chance="0.50"/>
 			<item name="Mag_Vikhr_30Rnd" chance="0.15"/>
 		</attachments>
 	</type>	
