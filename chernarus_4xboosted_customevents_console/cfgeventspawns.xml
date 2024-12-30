@@ -47,6 +47,11 @@
 		<pos x="8160.70" z="11010.14" a="0" />
 		<pos x="3711.20" z="14823.89" a="0" />
 	</event>
+	<!-- Boats to Bunker -->
+	<event name="VehicleCustomBunkerBoat">
+		<pos x="12755.53" z="3574.62" a="0" />
+		<pos x="12697.93" z="3535.49" a="0" />
+	</event>
 	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
 	<event name="VehicleCivilianSedan">
 		<pos x="12071.933594" z="9129.989258" a="317.953339" />
