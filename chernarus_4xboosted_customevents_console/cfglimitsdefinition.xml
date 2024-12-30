@@ -16,6 +16,7 @@
         <tag name="ground"/>
     </tags>
     <usageflags>
+        <usage name="Underground"/>
         <usage name="Military"/>
         <usage name="Police"/>
         <usage name="Medic"/>
