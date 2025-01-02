@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
     <!-- ################### CUSTOM GROUPS START ################### -->
+    <!-- Plane Crash -->
+    <group name="Land_Wreck_C130J_Cargo" pos="12390.892578 145.412436 12409.828125" rpy="8.146673 0.076398 95.305290" a="-5.305296" />
+    <group name="Land_Wreck_C130J_Cargo" pos="5118.1 14.8 2337.9" rpy="8.146673 0.076398 95.305290" a="-5.305296" />
+    <group name="Land_Wreck_C130J_Cargo" pos="4129.0 344.2 10804.3" rpy="8.146673 0.076398 95.305290" a="-5.305296" />
+
     <!-- Bunker @Skalisty-->
 	<group name="Land_Underground_Tunnel_Single" pos="13996.599609 55.408897 2640.314453" rpy="-0.000000 0.000000 -90.000000" a="-180"/>
 	<group name="Land_Underground_Corridor_Connector_Inv" pos="13983.953125 55.409077 2640.312012" rpy="-0.000000 -0.000000 0.000000" a="90"/>

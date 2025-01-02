@@ -140,6 +140,142 @@
             ]
         },
         {
+            "slotName": "Gloves",
+            "discreteItemSets": [
+              {
+                "itemType": "WoolGloves_Black",
+                "spawnWeight": 1,
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": false,
+                "simpleChildrenTypes": [],
+                "complexChildrenTypes": []
+              }
+            ]
+          },
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+              {
+                "itemType": "BeanieHat_Black",
+                "spawnWeight": 1,
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": false,
+                "simpleChildrenTypes": [],
+                "complexChildrenTypes": []
+              },
+              {
+                "itemType": "BeanieHat_Beige",
+                "spawnWeight": 1,
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": false,
+                "simpleChildrenTypes": [],
+                "complexChildrenTypes": []
+              },
+              {
+                "itemType": "BeanieHat_Blue",
+                "spawnWeight": 1,
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": false,
+                "simpleChildrenTypes": [],
+                "complexChildrenTypes": []
+              },
+              {
+                "itemType": "BeanieHat_Brown",
+                "spawnWeight": 1,
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": false,
+                "simpleChildrenTypes": [],
+                "complexChildrenTypes": []
+              },
+              {
+                "itemType": "BeanieHat_Green",
+                "spawnWeight": 1,
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": false,
+                "simpleChildrenTypes": [],
+                "complexChildrenTypes": []
+              },
+              {
+                "itemType": "BeanieHat_Grey",
+                "spawnWeight": 1,
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": false,
+                "simpleChildrenTypes": [],
+                "complexChildrenTypes": []
+              },
+              {
+                "itemType": "BeanieHat_Pink",
+                "spawnWeight": 1,
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": false,
+                "simpleChildrenTypes": [],
+                "complexChildrenTypes": []
+              },
+              {
+                "itemType": "BeanieHat_Red",
+                "spawnWeight": 1,
+                "attributes": {
+                  "healthMin": 1,
+                  "healthMax": 1,
+                  "quantityMin": 1,
+                  "quantityMax": 1
+                },
+                "quickBarSlot": -1,
+                "simpleChildrenUseDefaultAttributes": false,
+                "simpleChildrenTypes": [],
+                "complexChildrenTypes": []
+              }
+            ]
+          },
+            {
             "slotName": "Legs",
             "discreteItemSets": [
                 {

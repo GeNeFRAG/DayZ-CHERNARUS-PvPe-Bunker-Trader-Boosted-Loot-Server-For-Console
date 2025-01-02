@@ -110,6 +110,7 @@
 		</group>
 		<group name="Land_Underground_Floor_Crew" lootmax="10">
 				<usage name="Military" />
+				<usage name="Underground" />
 				<value name="Tier3" />
 				<value name="Tier4" />
 				<container name="lootFloor" lootmax="10">
@@ -155,6 +156,7 @@
 		</group>
 		<group name="Land_Underground_Entrance" lootmax="10">
 				<usage name="Military" />
+				<usage name="Underground" />
 				<value name="Tier3" />
 				<container name="lootFloor" lootmax="10">
 						<category name="containers" />
@@ -212,6 +214,7 @@
 		<group name="Land_Underground_Storage_POX" lootmax="10">
 				<value name="Tier3" />
 				<value name="Tier4" />
+				<usage name="Underground" />
 				<usage name="Military" />
 				<container name="lootFloor" lootmax="10">
 						<category name="containers" />
@@ -296,6 +299,7 @@
 		</group>
 		<group name="Land_Underground_Storage_Ammo2" lootmax="20">
 				<usage name="Military" />
+				<usage name="Underground" />
 				<value name="Tier3" />
 				<container name="lootWeapons" lootmax="10">
 						<category name="weapons" />
@@ -502,7 +506,7 @@
 						<proxy type="Mich2001Helmet" pos="-18.421021 0.658417 -2.406675" rpy="0.000000 -110.000000 0.000000" dechance="0.5" />
 				</dispatch>
 				<dispatch dechance="1.000000">
-						<proxy type="Aug" pos="-12.238892 0.623556 3.656677" rpy="90.000000 -359.999969 0.000000" dechance="1.0" />
+						<proxy type="AKM" pos="-12.238892 0.623556 3.656677" rpy="90.000000 -359.999969 0.000000" dechance="1.0" />
 				</dispatch>
 				<dispatch dechance="1.000000">
 						<proxy type="Grenade_ChemGas" pos="0.450073 0.468542 -3.458923" rpy="0.000000 0.000000 0.000000" dechance="0.25" />
@@ -4226,8 +4230,11 @@
 		</group>
 		<group name="Land_Wreck_C130J_Cargo" lootmax="15">
 				<usage name="Military" />
+				<value name="Tier3" />
+				<value name="Tier4" />
 				<container name="lootFloor">
 						<category name="clothes" />
+						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="ground" />
 						<point pos="-10.216827 -4.788198 -0.759033" range="0.333221" height="0.833054" />
@@ -4238,6 +4245,7 @@
 						<point pos="2.066528 -4.492989 -0.310181" range="0.925000" height="2.000000" />
 				</container>
 				<container name="loot">
+						<category name="clothes" />
 						<category name="weapons" />
 						<tag name="floor" />
 						<tag name="ground" />
@@ -17134,9 +17142,9 @@
 				</container>
 		</group>
 		-->
-		<group name="ChristmasTree" lootmax="12">
+		<group name="ChristmasTree" lootmax="6">
 			<usage name="SeasonalEvent" />
-			<container name="lootFloor" lootmax="12">
+			<container name="lootFloor" lootmax="6">
 				<category name="containers" />
 				<tag name="floor" />
 				<tag name="shelves" />
@@ -17175,10 +17183,10 @@
 				<point pos="2.554070 -1.697937 4.891639" range="0.925143" height="1.900002" />
 			</container>
 		</group>
-		<group name="Wreck_SantasSleigh" lootmax="15">
+		<group name="Wreck_SantasSleigh" lootmax="10">
 				<usage name="SeasonalEvent" />
 				<usage name="Military" />
-				<container name="lootFloor" lootmax="15">
+				<container name="lootFloor" lootmax="10">
 						<category name="tools" />
 						<category name="containers" />
 						<category name="clothes" />
