@@ -1673,19 +1673,16 @@
 	<!--NBC-->
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo"/>
-		<cargo chance="0.1">
+		<cargo chance="0.03">
 			<item name="AntiChemInjector" chance="1.0"/>
 		</cargo>
-		<cargo chance="0.1">
-			<item name="GasMask_Filter" chance="1.0"/>
-		</cargo>
-		<cargo chance="0.05">
+		<cargo chance="0.01">
 			<item name="PunchedCard" chance="1.0"/>
 		</cargo>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
 		<cargo preset="ContaminatedCargo"/>
-		<cargo chance="0.1">
+		<cargo chance="0.01">
 			<item name="AntiChemInjector" chance="1.0"/>
 		</cargo>
 	</type>
