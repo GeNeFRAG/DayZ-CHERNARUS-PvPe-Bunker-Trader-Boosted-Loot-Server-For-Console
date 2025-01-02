@@ -1246,7 +1246,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-        <!--
+            <!--
             Reserved for Builder truck
             <child lootmax="0" lootmin="0" max="7" min="7" type="Truck_01_Covered"/>
         <-->

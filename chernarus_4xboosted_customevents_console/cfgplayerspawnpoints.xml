@@ -20,41 +20,8 @@
         </generator_params>
         <generator_posbubbles>
             <!-- Cherno -->
-            <pos x="8040.858398" z="3332.236328" /> 
-            <!-- Cherno -->
-            <pos x="8207.115234" z="3115.650635" /> 
-            <!-- Elektro -->
-            <pos x="8747.670898" z="2357.187012" /> 
-            <!-- Elektro -->
-            <pos x="9363.6533" z="2017.953613" /> 
-            <!-- Kamyshovo -->
-            <pos x="11830.744141" z="3400.428955" /> 
-            <!-- Solnechny -->
-            <pos x="13425.271484" z="5776.353027" />
-            <!-- Berenzino -->
-            <pos x="12640.7812" z="9450.762695" /> 
-            <!-- Berenzino -->
-            <pos x="12862.712891" z="9249.855469" /> 
-            <!-- Svetlojarsk -->
-            <pos x="14286.206055" z="13009.3154" /> 
-            <!-- Svetlojarsk -->
-            <pos x="14287.552734" z="13336.3720" /> 
-            <!-- NWAF -->
-            <pos x="4557.16" z="9456.50" /> 
-            <!-- NWAF -->
-            <pos x="4753.52" z="9334.98" /> 
-            <!-- NOVAYA -->
-            <pos x="3011.88" z="13060.24" /> 
-            <!-- NOVAYA -->
-            <pos x="3126.45" z="12991.02" /> 
-            <!-- PUSTOSHKA -->
-            <pos x="2902.66" z="7687.29" /> 
-            <!-- PUSTOSHKA -->
-            <pos x="2927.94" z="7796.16" /> 
-            <!-- NOVO -->
-            <pos x="12009.20" z="13644.26" /> 
-            <!-- NOVO -->
-            <pos x="12022.81" z="13609.27" /> 
+            <pos x="13612.18" z="11222.30" />
+            <pos x="2223.17" z="3459.18" />
         </generator_posbubbles>
     </fresh>
     <hop>
@@ -163,7 +130,7 @@
             <min_dist_static>0.5</min_dist_static>
             <max_dist_static>2.0</max_dist_static>
         </spawn_params>
-       <generator_params>
+        <generator_params>
             <grid_density>4</grid_density>
             <grid_width>150</grid_width>
             <grid_height>150</grid_height>

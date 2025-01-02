@@ -1,0 +1,367 @@
+{
+    "spawnWeight": 1,
+    "name": "Player",
+    "characterTypes": [
+        "SurvivorM_Mirek",
+        "SurvivorM_Boris",
+        "SurvivorM_Cyril",
+        "SurvivorM_Denis",
+        "SurvivorM_Elias",
+        "SurvivorM_Francis",
+        "SurvivorM_Guo",
+        "SurvivorM_Hassan",
+        "SurvivorM_Indar",
+        "SurvivorM_Jose",
+        "SurvivorM_Kaito",
+        "SurvivorM_Lewis",
+        "SurvivorM_Manua",
+        "SurvivorM_Niki",
+        "SurvivorM_Oliver",
+        "SurvivorM_Peter",
+        "SurvivorM_Quinn",
+        "SurvivorM_Rolf",
+        "SurvivorM_Seth",
+        "SurvivorM_Taiki",
+        "SurvivorF_Eva",
+        "SurvivorF_Frida",
+        "SurvivorF_Gabi",
+        "SurvivorF_Helga",
+        "SurvivorF_Irena",
+        "SurvivorF_Judy",
+        "SurvivorF_Keiko",
+        "SurvivorF_Linda",
+        "SurvivorF_Maria",
+        "SurvivorF_Naomi",
+        "SurvivorF_Baty"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "NBCJacketGray",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.9,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "GP5GasMask"
+                    ],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "shoulderR",
+            "discreteItemSets": [
+                {
+                    "itemType": "ASVAL",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": 1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "ACOGOptic_6x",
+                        "Mag_Vikhr_30Rnd"
+                    ],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "NBCGlovesGray",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "NBCHoodGray",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "NBCPantsGray",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.9,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "AntiChemInjector",
+                        "AntiChemInjector"
+                    ],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "BandageDressing",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 0
+                        },
+                        {
+                            "itemType": "HuntingKnife",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 2
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "NBCBootsGray",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.9,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "GasMask",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.9,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "NVGHeadstrap",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.9,
+                        "healthMax": 0.99,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "NVGoggles",
+                            "spawnWeight": 1,
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "complexChildrenTypes": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "PlateCarrierVest_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PlateCarrierPouches_Black",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Mag_Vikhr_30Rnd",
+                                "Mag_Vikhr_30Rnd",
+                                "Mag_Vikhr_30Rnd"
+                            ]
+                        },
+                        {
+                            "itemType": "PlateCarrierHolster_Black",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "complexChildrenTypes": [
+                                {
+                                    "itemType": "Deagle_Gold",
+                                    "spawnWeight": 1,
+                                    "attributes": {
+                                        "healthMin": 1,
+                                        "healthMax": 1,
+                                        "quantityMin": 1,
+                                        "quantityMax": 1
+                                    },
+                                    "quickBarSlot": -1,
+                                    "simpleChildrenUseDefaultAttributes": false,
+                                    "simpleChildrenTypes": [
+                                        "Mag_Deagle_9rnd"
+                                    ],
+                                    "complexChildrenTypes": []
+                                }
+                            ],
+                            "simpleChildrenTypes": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Back",
+            "discreteItemSets": [
+                {
+                    "itemType": "DryBag_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "WeaponCleaningKit",
+                        "SodaCan_Cola",
+                        "SodaCan_Cola",
+                        "SodaCan_Cola",
+                        "Battery9V",
+                        "Battery9V",
+                        "Battery9V",
+                        "BakedBeansCan_Opened",
+                        "BakedBeansCan_Opened",
+                        "BakedBeansCan_Opened",
+                        "AmmoBox_9x39_20Rnd",
+                        "AmmoBox_9x39_20Rnd",
+                        "AmmoBox_9x39_20Rnd",
+                        "GasMask_Filter",
+                        "GasMask_Filter",
+                        "GasMask_Filter"
+                    ],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Hips",
+            "discreteItemSets": [
+                {
+                    "itemType": "HipPack_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "BandageDressing",
+                        "BandageDressing",
+                        "BandageDressing"
+                    ],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "Canteen",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": 3,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

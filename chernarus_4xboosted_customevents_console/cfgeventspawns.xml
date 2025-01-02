@@ -6,14 +6,14 @@
 		<!-- Novaya North -->
 		<pos x="3179.71" z="13185.43" a="0" />
 		<!-- Krasno Airfield -->
-		<pos x="12040.31" z="12705.22" a="0" /> 
+		<pos x="12040.31" z="12705.22" a="0" />
 		<!-- Balota Airfield -->
 		<pos x="4707.10" z="2529.87" a="0" />
-    </event>
+	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
 		<!-- Zeleno area -->
-    	<pos x="1165.54" z="4970.30" a="0"/>
+		<pos x="1165.54" z="4970.30" a="0"/>
 		<!-- Tisy area -->
 		<pos x="813.40" z="12617.00" a="0"/>
 		<!-- Devils castle area -->
@@ -219,7 +219,7 @@
 		<pos x="6916.957519" z="3421.918457" a="296.656128" />
 		<pos x="2529.212891" z="5041.117676" a="56.153545" />
 	</event>
-    <event name="StaticHeliCrash">
+	<event name="StaticHeliCrash">
 		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
 		<pos x="558.859619" z="12918.953125" a="-1" />
 		<pos x="154.159332" z="13299.455078" a="-1" />
@@ -316,30 +316,30 @@
 		<pos x="3427.892578" z="3295.283448" a="-1" />
 		<pos x="4848.869629" z="4719.773438" a="-1" />
 		<pos x="655.947754" z="1965.813354" a="-1" />
-    </event>
+	</event>
 	<event name="StaticSantaCrash">
 		<zone smin="1" smax="1" dmin="1" dmax="1" r="45" />
-           <pos x="2593.47" z="5094.11" a="0" y="201.66"/>
-           <pos x="2020.90" z="9813.24" a="0" y="238.0"/>
-           <pos x="12324.93" z="4544.31" a="0" y="253.91"/>
-           <pos x="2063.1" z="12153.5" a="30" y="253.45"/>
-           <pos x="8483.96" z="13343.2" a="0"/>
-           <pos x="8101.21" z="9333.70" a="0" y="460.27"/>
-           <pos x="9664.90" z="11309.24" a="0"/>
-           <pos x="4579.6" z="10198.0" a="0"/>
-           <pos x="7202.90" z="11336.24" a="0"/>
-           <pos x="11311.6" z="13213.2" a="0"/>
-           <pos x="6246.5" z="13359.78" a="0"/>
-           <pos x="10223.23" z="5034.9" a="0"/>
-           <pos x="6736.88" z="3699.77" a="0" y="82.85"/>
-           <pos x="5676.81" z="2567.31" a="0" y="82.82"/>
-           <pos x="5299.90" z="5314.24" a="0"/>
-           <pos x="11415.5" z="14596.7" a="0" y="90.8"/>
-           <pos x="3597.26" z="6937.65" a="340" y="341.0"/>
-           <pos x="1936.85" z="6768.97" a="0.0"/>
-           <pos x="2611.90" z="1307.24" a="0.0"/>
-           <pos x="8976.05" z="7818.34" a="0"/>
-           <pos x="11057.3" z="13985.3" a="0"/>
+		<pos x="2593.47" z="5094.11" a="0" y="201.66"/>
+		<pos x="2020.90" z="9813.24" a="0" y="238.0"/>
+		<pos x="12324.93" z="4544.31" a="0" y="253.91"/>
+		<pos x="2063.1" z="12153.5" a="30" y="253.45"/>
+		<pos x="8483.96" z="13343.2" a="0"/>
+		<pos x="8101.21" z="9333.70" a="0" y="460.27"/>
+		<pos x="9664.90" z="11309.24" a="0"/>
+		<pos x="4579.6" z="10198.0" a="0"/>
+		<pos x="7202.90" z="11336.24" a="0"/>
+		<pos x="11311.6" z="13213.2" a="0"/>
+		<pos x="6246.5" z="13359.78" a="0"/>
+		<pos x="10223.23" z="5034.9" a="0"/>
+		<pos x="6736.88" z="3699.77" a="0" y="82.85"/>
+		<pos x="5676.81" z="2567.31" a="0" y="82.82"/>
+		<pos x="5299.90" z="5314.24" a="0"/>
+		<pos x="11415.5" z="14596.7" a="0" y="90.8"/>
+		<pos x="3597.26" z="6937.65" a="340" y="341.0"/>
+		<pos x="1936.85" z="6768.97" a="0.0"/>
+		<pos x="2611.90" z="1307.24" a="0.0"/>
+		<pos x="8976.05" z="7818.34" a="0"/>
+		<pos x="11057.3" z="13985.3" a="0"/>
 	</event>
 	<event name="StaticChristmasTree">
 		<pos x="6560.29" z="2462.12" a="0.0" />
@@ -356,7 +356,7 @@
 		<pos x="10468.54" z="2373.16" a="0.0" />
 		<pos x="2725.48" z="5288.75" a="0.0" />
 	</event>
-    <event name="StaticBonfire">
+	<event name="StaticBonfire">
 		<zone smin="3" smax="5" dmin="3" dmax="5" r="55" />
 		<pos x="8098.73" z="13023.365234" />
 		<pos x="3544.050781" z="13316.836914" />
@@ -422,7 +422,7 @@
 		<pos x="13977.732422" z="14897.462891" />
 		<pos x="1363.39" z="9308.64" />
 	</event>
-    <event name="StaticContaminatedArea">
+	<event name="StaticContaminatedArea">
 		<zone smin="0" smax="0" dmin="5" dmax="8" r="75" />
 		<pos x="341.000000" z="9401.000000" />
 		<pos x="509.000000" z="11089.000000" />
@@ -507,8 +507,8 @@
 		<pos x="11876.000000" z="12530.000000" />
 		<pos x="12195.000000" z="13831.000000" />
 	</event>
-    <event name="Loot" />
-    <event name="VehicleOffroadHatchback">
+	<event name="Loot" />
+	<event name="VehicleOffroadHatchback">
 		<pos x="10967.148438" z="5494.307616" a="125.181313" />
 		<pos x="11534.269531" z="5014.221679" a="150.176453" />
 		<pos x="12896.135743" z="4453.044923" a="334.011871" />
@@ -590,7 +590,7 @@
 		<pos x="3688.735597" z="8255.378907" a="17.46236" />
 		<pos x="7183.526854" z="7541.604005" a="250.295166" />
 		<pos x="1218.171874" z="6215.999023" a="181.061844" />
-    </event>
+	</event>
 	<event name="VehicleOffroad02">
 		<pos x="801.261841" z="1919.863403" a="6.049285" />
 		<pos x="1570.475952" z="14051.657227" a="452.782379" />
@@ -613,8 +613,8 @@
 		<pos x="10195.629883" z="4041.149170" a="59.795216" />
 		<pos x="10425.445313" z="5837.930664" a="277.322205" />
 		<pos x="11018.029297" z="13380.626953" a="220.254715" />
-    </event>
-    <event name="StaticPoliceCar">
+	</event>
+	<event name="StaticPoliceCar">
 		<zone smin="1" smax="3" dmin="3" dmax="5" r="45" />
 		<pos x="1846.316407" z="11492.649414" a="336.442993" />
 		<pos x="1495.972169" z="11127.56543" a="308.914001" />
@@ -916,7 +916,7 @@
 		<pos x="10353.527344" z="2060.277831" a="48.209854" />
 		<pos x="10478.968751" z="2322.480958" a="310.009674" />
 		<pos x="10039.965819" z="1871.311158" a="191.264435" />
-    </event>
+	</event>
 	<event name="ItemPlanks">
 		<pos x="912.027832" z="7628.303711" a="257.828094" />
 		<pos x="914.159119" z="7615.238281" a="257.759521" />
@@ -1434,31 +1434,31 @@
 	</event>
 	<event name="StaticTrain">
 		<zone smin="0" smax="0" dmin="1" dmax="2" r="20" />
-    	<pos x="5587.466" z="2063.353" a="0" y="7.75" group="Train_Abandoned_Cherno"/>
-    	<pos x="3678.228" z="2328.108" a="0" y="6.7" group="Train_Abandoned_Kamarovo"/>
-    	<pos x="11254.230" z="3290.319" a="0" y="6.65" group="Train_Abandoned_Kamy"/>
-    	<pos x="1256.313" z="9349.465" a="0" y="211.82" group="Train_Abandoned_Myshkino"/>
-    	<pos x="5428.630" z="12312.974" a="0" y="185.59" group="Train_Abandoned_Petrovka"/>
-    	<pos x="8802.031" z="2334.222" a="0" y="8.42" group="Train_Abandoned_Prigorodki"/>
-    	<pos x="13402.112" z="4303.119" a="0" y="6.711" group="Train_Abandoned_Skalisty"/>
-    	<pos x="13377.262" z="13919.888" a="0" y="17.247" group="Train_Abandoned_Svetlo"/>
-    	<pos x="1309.973" z="4991.340" a="0" y="166.685" group="Train_Abandoned_Zvir"/>
-    	<pos x="12912.529" z="15006.073" a="0" y="57.478" group="Train_Accident_Dobroe"/>
-    	<pos x="10797.634" z="2567.169" a="0" y="6.160" group="Train_Accident_Electro"/>
-    	<pos x="12851.586" z="8577.874" a="0" y="6.567" group="Train_Accident_Nizhnoye"/>
-    	<pos x="13590.054" z="11515.854" a="0" y="14.062" group="Train_Accident_Rify"/>
-    	<pos x="9384.272" z="13392.446" a="0" y="105.328" group="Train_Accident_Severo"/>
-    	<pos x="13213.484" z="6894.041" a="0" y="6.160" group="Train_Accident_Solnichniy"/>
-    	<pos x="13363.302" z="5439.232" a="0" y="8.0" group="Train_Accident_Solnichniy2"/>
-    	<pos x="2025.067" z="11378.385" a="0" y="249.535" group="Train_Accident_Vavilovo"/>
-    	<pos x="1321.629" z="2398.199" a="0" y="6.7" group="Train_Mil_Kamenka"/>
-    	<pos x="1443.256" z="6622.697" a="0" y="176.220" group="Train_Mil_Metalurg"/>
-    	<pos x="673.779" z="8747.024" a="0" y="194.405" group="Train_Mil_Myshkino"/>
-    	<pos x="3262.817" z="12430.286" a="0" y="219.495" group="Train_Mil_Petrovka"/>
+		<pos x="5587.466" z="2063.353" a="0" y="7.75" group="Train_Abandoned_Cherno"/>
+		<pos x="3678.228" z="2328.108" a="0" y="6.7" group="Train_Abandoned_Kamarovo"/>
+		<pos x="11254.230" z="3290.319" a="0" y="6.65" group="Train_Abandoned_Kamy"/>
+		<pos x="1256.313" z="9349.465" a="0" y="211.82" group="Train_Abandoned_Myshkino"/>
+		<pos x="5428.630" z="12312.974" a="0" y="185.59" group="Train_Abandoned_Petrovka"/>
+		<pos x="8802.031" z="2334.222" a="0" y="8.42" group="Train_Abandoned_Prigorodki"/>
+		<pos x="13402.112" z="4303.119" a="0" y="6.711" group="Train_Abandoned_Skalisty"/>
+		<pos x="13377.262" z="13919.888" a="0" y="17.247" group="Train_Abandoned_Svetlo"/>
+		<pos x="1309.973" z="4991.340" a="0" y="166.685" group="Train_Abandoned_Zvir"/>
+		<pos x="12912.529" z="15006.073" a="0" y="57.478" group="Train_Accident_Dobroe"/>
+		<pos x="10797.634" z="2567.169" a="0" y="6.160" group="Train_Accident_Electro"/>
+		<pos x="12851.586" z="8577.874" a="0" y="6.567" group="Train_Accident_Nizhnoye"/>
+		<pos x="13590.054" z="11515.854" a="0" y="14.062" group="Train_Accident_Rify"/>
+		<pos x="9384.272" z="13392.446" a="0" y="105.328" group="Train_Accident_Severo"/>
+		<pos x="13213.484" z="6894.041" a="0" y="6.160" group="Train_Accident_Solnichniy"/>
+		<pos x="13363.302" z="5439.232" a="0" y="8.0" group="Train_Accident_Solnichniy2"/>
+		<pos x="2025.067" z="11378.385" a="0" y="249.535" group="Train_Accident_Vavilovo"/>
+		<pos x="1321.629" z="2398.199" a="0" y="6.7" group="Train_Mil_Kamenka"/>
+		<pos x="1443.256" z="6622.697" a="0" y="176.220" group="Train_Mil_Metalurg"/>
+		<pos x="673.779" z="8747.024" a="0" y="194.405" group="Train_Mil_Myshkino"/>
+		<pos x="3262.817" z="12430.286" a="0" y="219.495" group="Train_Mil_Petrovka"/>
 	</event>
 	<event name="StaticMilitaryConvoy">
 		<zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
-    	<pos x="8434.497" z="14003.119" a="0" y="205.349" group="Abandoned_Arsenovo"/>
+		<pos x="8434.497" z="14003.119" a="0" y="205.349" group="Abandoned_Arsenovo"/>
 		<pos x="5272.803" z="2085.858" a="0" y="5.600" group="Abandoned_Balota"/>
 		<pos x="5664.508" z="3254.114" a="0" y="120.222" group="Abandoned_Cherno"/>
 		<pos x="7057.518" z="14492.741" a="0" y="349.237" group="Abandoned_Kamensk"/>
@@ -1525,19 +1525,19 @@
 		<pos x="3518.464" z="9122.509" a="0" y="310.821" group="Traffic_Vybor"/>
 	</event>
 
-    <event name="VehicleTransitBus" />
-    <event name="InfectedVillage" />
-    <event name="InfectedSolitude" />
-    <event name="InfectedArmy" />
-    <event name="InfectedCity" />
-    <event name="InfectedMedic" />
-    <event name="InfectedPolice" />
-    <event name="InfectedFirefighter" />
-    <event name="InfectedPrisoner" />
-    <event name="AnimalDeer" />
-    <event name="AnimalCow" />
-    <event name="AnimalSheep" />
-    <event name="AnimalRoeDeer" />
-    <event name="AnimalWolf" />
-    <event name="AnimalWildBoar" />
+	<event name="VehicleTransitBus" />
+	<event name="InfectedVillage" />
+	<event name="InfectedSolitude" />
+	<event name="InfectedArmy" />
+	<event name="InfectedCity" />
+	<event name="InfectedMedic" />
+	<event name="InfectedPolice" />
+	<event name="InfectedFirefighter" />
+	<event name="InfectedPrisoner" />
+	<event name="AnimalDeer" />
+	<event name="AnimalCow" />
+	<event name="AnimalSheep" />
+	<event name="AnimalRoeDeer" />
+	<event name="AnimalWolf" />
+	<event name="AnimalWildBoar" />
 </eventposdef>
