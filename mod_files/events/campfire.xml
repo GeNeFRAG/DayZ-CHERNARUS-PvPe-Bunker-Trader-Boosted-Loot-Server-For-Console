@@ -66,22 +66,22 @@
 
 <!-- Fireplace -->
 <group name="Fireplace" lootmax="5">
-        <usage name="Hunting" />
-        <container name="lootFloor">
-                <category name="clothes"/>
-                <category name="tools"/>
-                <point pos="-1.876667 -1.211807 1.021349" range="0.483887" height="1.209718" flags="32" />
-                <point pos="0.396737 -1.174454 -0.807087" range="0.564209" height="1.410522" flags="32" />
-                <point pos="1.760472 -1.067368 0.874323" range="0.665283" height="1.626160" flags="32" />
-                <point pos="1.757211 -1.085785 -0.656583" range="0.712402" height="1.781005" flags="32" />
-                <point pos="0.068999 -1.178558 0.701673" range="0.838379" height="2.037003" flags="32" />
-        </container>
+    <usage name="Hunting" />
+    <container name="lootFloor">
+        <category name="clothes"/>
+        <category name="tools"/>
+        <point pos="-1.876667 -1.211807 1.021349" range="0.483887" height="1.209718" flags="32" />
+        <point pos="0.396737 -1.174454 -0.807087" range="0.564209" height="1.410522" flags="32" />
+        <point pos="1.760472 -1.067368 0.874323" range="0.665283" height="1.626160" flags="32" />
+        <point pos="1.757211 -1.085785 -0.656583" range="0.712402" height="1.781005" flags="32" />
+        <point pos="0.068999 -1.178558 0.701673" range="0.838379" height="2.037003" flags="32" />
+    </container>
 </group>
 
 <!-- Add to cfgeventspawns.xml -->
 
 <!-- Custom fireplace hunting camp spawns -->
- <event name="StaticCustomFireplace">
+<event name="StaticCustomFireplace">
     <pos x="1090.69" z="6615.80" a="0" />
     <pos x="594.43" z="11153.52" a="0" />
     <pos x="1232.61" z="11450.74" a="0" />
