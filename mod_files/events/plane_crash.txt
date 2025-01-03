@@ -1,22 +1,47 @@
-<!-- Add to events.xml -->
-
-<event name="StaticCustomCrash">
-    <nominal>1</nominal>
-    <min>1</min>
-    <max>1</max>
-    <lifetime>300</lifetime>
-    <restock>0</restock>
-    <saferadius>500</saferadius>
-    <distanceradius>500</distanceradius>
-    <cleanupradius>200</cleanupradius>
-    <flags deletable="0" init_random="0" remove_damaged="1"/>
-    <position>fixed</position>
-    <limit>mixed</limit>
-    <active>0</active>
-    <children>
-        <child lootmax="15" lootmin="10" max="3" min="3" type="Land_Wreck_C130J_Cargo"/>
-    </children>
-</event>
+<!-- create custom json -->
+{
+    "Objects": [
+        {
+            "name": "Land_Wreck_C130J_Cargo",
+            "pos": [
+                12390.892578,
+                145.412436,
+                12409.828125
+            ],
+            "ypr": [
+                95.305290,
+                0.076398,
+                8.146673
+            ]
+        },
+        {
+            "name": "Land_Wreck_C130J_Cargo",
+            "pos": [
+                5118.1,
+                14.8,
+                2337.9
+            ],
+            "ypr": [
+                95.305290,
+                0.076398,
+                8.146673
+            ]
+        },
+        {
+            "name": "Land_Wreck_C130J_Cargo",
+            "pos": [
+                4129.0,
+                344.2,
+                10804.3
+            ],
+            "ypr": [
+                95.305290,
+                0.076398,
+                8.146673
+            ]
+        }
+    ]
+}
 
 <!-- Add to mapgroupproto.xml -->
 
@@ -51,8 +76,7 @@
     </container>
 </group>
 
-<!-- To cgfeventspawns.xml do adjust the coords to ur liking -->
-	
-<event name="StaticPlaneCrash">
-    <pos x="0" z="0" a="0" />
-</event>
+<!-- To mapgrouppos.xml adjust the coords to your liking -->
+<group name="Land_Wreck_C130J_Cargo" pos="12390.892578 145.412436 12409.828125" rpy="8.146673 0.076398 95.305290" a="-5.305296" />
+<group name="Land_Wreck_C130J_Cargo" pos="5118.1 14.8 2337.9" rpy="8.146673 0.076398 95.305290" a="-5.305296" />
+<group name="Land_Wreck_C130J_Cargo" pos="4129.0 344.2 10804.3" rpy="8.146673 0.076398 95.305290" a="-5.305296" />
