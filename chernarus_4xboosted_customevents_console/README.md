@@ -13,11 +13,11 @@
 
 * Item condition ranges from pristine (0.00) to worn (0.32) damage values
 * Loot: Weapons boosted 4x, food 2x, etc
-* Vehicle spawns include full fuel tanks, gasoline canisters, and water supplies
+* Vehicle spawn complete include full fuel tanks, gasoline canisters, and water supplies. Boosted 2x
 * Enhanced weapon configurations:
   * Colored weapons variants with attachments enabled
   * Platecarrier vests available in black, green, and camo variants
-  * Weapons spawn with 50-100% loaded magazines
+  * Weapons spawn with 50-100% loaded magazines and random attachements (incl. suppressor)
   * All sniper rifles include optical attachments
 * Magazine spawns are consistently half or fully loaded
 * Reduced small magazine variants for western weapons
