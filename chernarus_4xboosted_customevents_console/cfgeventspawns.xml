@@ -12,14 +12,14 @@
 	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
-		<!-- Zeleno area -->
-		<pos x="1165.54" z="4970.30" a="0"/>
+		<!-- Krona area -->
+		<pos x="704.77" z="8605.92" a="0"/>
 		<!-- Tisy area -->
 		<pos x="813.40" z="12617.00" a="0"/>
-		<!-- Devils castle area -->
-		<pos x="7186.66" z="10640.74" a="0"/>
-		<!-- Green mountain area -->
-		<pos x="3899.78" z="6669.51" a="0"/>
+		<!-- Vysoky Kamen area -->
+		<pos x="8946.15" z="4371.49" a="0"/>
+		<!-- Klen area -->
+		<pos x="11497.16" z="11324.61" a="0"/>
 	</event>
 	<!-- Custom fireplace hunting camp spawns -->
 	<event name="StaticCustomFireplace">

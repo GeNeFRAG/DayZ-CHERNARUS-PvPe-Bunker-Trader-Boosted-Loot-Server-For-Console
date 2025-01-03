@@ -11,7 +11,7 @@
 		<default name="clusterMatrix" de="TrajectoryHumus" width="12" height="12"/>
 		<default name="clusterMatrix" de="TrajectoryPear" width="12" height="12"/>
 		<default name="clusterMatrix" de="TrajectoryPlum" width="12" height="12"/>
-		<!--
+<!--
 				<default name="clusterMatrix" de="TrajectoryStumps" width="12" height="12"/>
 -->
 	</defaults>
@@ -31,7 +31,7 @@
 	</group>
 	<!-- Livonia Bunker proto original -->
 	<group name="Land_Underground_Storage_Barracks" lootmax="20">
-		<value name="Tier3" />
+		<value name="Tier1" />
 		<usage name="Military" />
 		<usage name="Underground" />
 		<container name="lootFloor" lootmax="10">
@@ -110,9 +110,7 @@
 	</group>
 	<group name="Land_Underground_Floor_Crew" lootmax="10">
 		<usage name="Military" />
-		<usage name="Underground" />
-		<value name="Tier3" />
-		<value name="Tier4" />
+		<value name="Tier1" />
 		<container name="lootFloor" lootmax="10">
 			<category name="containers" />
 			<category name="clothes" />
@@ -156,8 +154,8 @@
 	</group>
 	<group name="Land_Underground_Entrance" lootmax="10">
 		<usage name="Military" />
-		<usage name="Underground" />
-		<value name="Tier3" />
+		<usage name="Police" />
+		<value name="Tier1" />
 		<container name="lootFloor" lootmax="10">
 			<category name="containers" />
 			<category name="clothes" />
@@ -177,10 +175,9 @@
 	</group>
 	<group name="Land_Underground_Storage_Workshop" lootmax="10">
 		<usage name="Military" />
->
+		<usage name="Industrial" />
 		<usage name="Underground" />
-		<value name="Tier3" />
-		<value name="Tier4" />
+		<value name="Tier1" />
 		<container name="lootTools" lootmax="10">
 			<category name="tools" />
 			<category name="containers" />
@@ -213,10 +210,9 @@
 		</container>
 	</group>
 	<group name="Land_Underground_Storage_POX" lootmax="10">
-		<value name="Tier3" />
-		<value name="Tier4" />
-		<usage name="Underground" />
+		<value name="Tier1" />
 		<usage name="Military" />
+		<usage name="Underground" />
 		<container name="lootFloor" lootmax="10">
 			<category name="containers" />
 			<category name="clothes" />
@@ -244,7 +240,7 @@
 		</dispatch>
 	</group>
 	<group name="Land_Underground_Storage_Ammo" lootmax="10">
-		<value name="Tier3" />
+		<value name="Tier1" />
 		<usage name="Military" />
 		<usage name="Underground" />
 		<container name="lootFloor" lootmax="10">
@@ -300,7 +296,6 @@
 	</group>
 	<group name="Land_Underground_Storage_Ammo2" lootmax="20">
 		<usage name="Military" />
-		<usage name="Underground" />
 		<value name="Tier3" />
 		<container name="lootWeapons" lootmax="10">
 			<category name="weapons" />
@@ -361,7 +356,7 @@
 		<usage name="Military" />
 		<usage name="Underground" />
 		<usage name="Medical" />
-		<value name="Tier3" />
+		<value name="Tier2" />
 		<container name="lootFloor" lootmax="10">
 			<category name="tools" />
 			<category name="clothes" />
@@ -391,7 +386,7 @@
 		<usage name="Military" />
 		<usage name="Underground" />
 		<usage name="Medical" />
-		<value name="Tier3" />
+		<value name="Tier2" />
 		<container name="lootFloor" lootmax="10">
 			<category name="tools" />
 			<category name="clothes" />
@@ -445,7 +440,7 @@
 	<group name="Land_Underground_Storage_Prison" lootmax="10">
 		<usage name="Military" />
 		<usage name="Underground" />
-		<value name="Tier3" />
+		<value name="Tier2" />
 		<container name="lootFloor" lootmax="10">
 			<category name="containers" />
 			<category name="clothes" />
@@ -467,10 +462,10 @@
 			<point pos="-5.419433 0.012756 2.763063" range="1.190776" height="2.000000" />
 		</container>
 		<dispatch dechance="1.000000">
-			<proxy type="AK101" pos="2.166992 0.012756 3.037353" rpy="90.000000 90.000000 0.000000" dechance="0.25" />
-			<proxy type="AK101" pos="6.482910 0.012756 -0.18048" rpy="90.000000 90.000000 0.000000" dechance="0.25" />
+			<proxy type="AK74_Green" pos="2.166992 0.012756 3.037353" rpy="90.000000 90.000000 0.000000" dechance="0.25" />
+			<proxy type="AKM" pos="6.482910 0.012756 -0.18048" rpy="90.000000 90.000000 0.000000" dechance="0.25" />
 			<proxy type="AK101" pos="2.447632 0.012756 -0.02749" rpy="90.000000 0.000000 0.000000" dechance="0.25" />
-			<proxy type="AK101" pos="-1.808472 0.012756 -0.1717" rpy="90.000000 110.000000 0.000000" dechance="0.25" />
+			<proxy type="Aug" pos="-1.808472 0.012756 -0.1717" rpy="90.000000 110.000000 0.000000" dechance="0.25" />
 		</dispatch>
 		<dispatch dechance="1.000000">
 			<proxy type="PlateCarrierVest_Green" pos="-2.901246 0.012756 3.09815" rpy="0.000000 0.000000 0.000000" dechance="0.2" />
@@ -484,7 +479,6 @@
 		<usage name="Military" />
 		<usage name="Underground" />
 		<value name="Tier3" />
-		<value name="Tier4" />
 		<container name="lootWeapons" lootmax="10">
 			<category name="weapons" />
 			<category name="explosives" />
@@ -503,11 +497,11 @@
 			<point pos="-0.233153 0.596039 -3.455139" range="0.237500" height="0.593750" flags="16" />
 		</container>
 		<dispatch dechance="1.000000">
-			<proxy type="Mich2001Helmet" pos="-17.787476 0.658417 -2.219725" rpy="0.000000 -80.000000 0.000000" dechance="0.5" />
+			<proxy type="NVG" pos="-17.787476 0.658417 -2.219725" rpy="0.000000 -80.000000 0.000000" dechance="0.5" />
 			<proxy type="Mich2001Helmet" pos="-18.421021 0.658417 -2.406675" rpy="0.000000 -110.000000 0.000000" dechance="0.5" />
 		</dispatch>
 		<dispatch dechance="1.000000">
-			<proxy type="AKM" pos="-12.238892 0.623556 3.656677" rpy="90.000000 -359.999969 0.000000" dechance="1.0" />
+			<proxy type="M4A1" pos="-12.238892 0.623556 3.656677" rpy="90.000000 -359.999969 0.000000" dechance="1.0" />
 		</dispatch>
 		<dispatch dechance="1.000000">
 			<proxy type="Grenade_ChemGas" pos="0.450073 0.468542 -3.458923" rpy="0.000000 0.000000 0.000000" dechance="0.25" />

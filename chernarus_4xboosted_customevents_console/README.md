@@ -12,23 +12,30 @@
 ## Loot Specifications
 
 * Item condition ranges from pristine (0.00) to worn (0.32) damage values
-* Loot was initally mulitplied by400% across and futher tuned
-* Contaminated zone exclusive items now appear in Military Tier 4 zones
+* Loot: Weapons boosted 4x, food 2x, etc
 * Vehicle spawns include full fuel tanks, gasoline canisters, and water supplies
 * Enhanced weapon configurations:
-  * Green M4 variants with attachments enabled
-  * Expanded AK attachment color variations
+  * Colored weapons variants with attachments enabled
   * Platecarrier vests available in black, green, and camo variants
-  * Increased platecarrier spawn rates
   * Weapons spawn with 50-100% loaded magazines
   * All sniper rifles include optical attachments
 * Magazine spawns are consistently half or fully loaded
 * Reduced small magazine variants for western weapons
+* M4A1 only spawns in bunkers
+* M14, M79 and Aug only spawns at dynamic events (Heli crashes,etc)
+* PunchedCard spawns damaged in the contaminated zones and on grey NBC zombies
+* Additonal hidden items like yellow bandana, etc
 
 ## Event System
 
-* Increased helicopter crash sites with added MI8 wreck locations
+* Increased helicopter crash sites with added MI8 and C130J wrecks
 * Enhanced zombie loot with increased food item drops
 * Special building supply truck events
 * C130J plane crash events at major airfields (NWAF, Balota, Krasnostav)
 * Holiday events featuring Christmas trees with presents and themed Santa crash sites
+* Fireplace event at all hunter camps
+* Treasure hunt event at 4 random places
+
+# Custom objects
+* One small punched card bunker at the Tisy Helipad
+* One large punched card bunker on skalisty island (reachable via boat)
