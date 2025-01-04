@@ -5,6 +5,42 @@
 	<type name="PunchedCard">
 		<damage min="0.9" max="0.9"/>
 	</type>
+	<!-- Battery farming -->
+	<type name="PersonalRadio">
+		<attachments chance="0.80">
+			<item name="Battery9V" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="GPSReceiver">
+		<attachments chance="0.80">
+			<item name="Battery9V" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Headtorch_Black">
+		<attachments chance="0.80">
+			<item name="Battery9V" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Headtorch_Grey">
+		<attachments chance="0.80">
+			<item name="Battery9V" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Rangefinder">
+		<attachments chance="0.80">
+			<item name="Battery9V" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="Flashlight">
+		<attachments chance="0.80">
+			<item name="Battery9V" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="UniversalLight">
+		<attachments chance="0.80">
+			<item name="Battery9V" chance="1.00"/>
+		</attachments>
+	</type>
 	<!-- Treasure hunt event -->
 	<type name="UndergroundStash">
 		<cargo preset="Grave_1" />
@@ -700,142 +736,142 @@
 	</type>
 	<type name="AmmoBox">
 		<cargo chance="0.20">
-			<item name="AmmoBox_9x39_20Rnd"/>
+			<item name="AmmoBox_9x39_20Rnd" />
 		</cargo>
 		<cargo chance="0.20">
-			<item name="AmmoBox_9x39_20Rnd"/>
+			<item name="AmmoBox_9x39_20Rnd" />
 		</cargo>
 		<cargo chance="0.10">
-			<item name="AmmoBox_9x39AP_20Rnd"/>
+			<item name="AmmoBox_9x39AP_20Rnd" />
 		</cargo>
 		<cargo chance="0.10">
-			<item name="AmmoBox_9x39AP_20Rnd"/>
+			<item name="AmmoBox_9x39AP_20Rnd" />
 		</cargo>
 		<cargo chance="0.25">
-			<item name="AmmoBox_308Win_20Rnd"/>
+			<item name="AmmoBox_308Win_20Rnd" />
 		</cargo>
 		<cargo chance="0.25">
-			<item name="AmmoBox_308Win_20Rnd"/>
+			<item name="AmmoBox_308Win_20Rnd" />
 		</cargo>
 		<cargo chance="0.15">
-			<item name="AmmoBox_308WinTracer_20Rnd"/>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.15">
-			<item name="AmmoBox_308WinTracer_20Rnd"/>
+			<item name="AmmoBox_308WinTracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.25">
-			<item name="AmmoBox_762x54_20Rnd"/>
+			<item name="AmmoBox_762x54_20Rnd" />
 		</cargo>
 		<cargo chance="0.25">
-			<item name="AmmoBox_762x54_20Rnd"/>
+			<item name="AmmoBox_762x54_20Rnd" />
 		</cargo>
 		<cargo chance="0.15">
-			<item name="AmmoBox_762x54Tracer_20Rnd"/>
+			<item name="AmmoBox_762x54Tracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.15">
-			<item name="AmmoBox_762x54Tracer_20Rnd"/>
+			<item name="AmmoBox_762x54Tracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_545x39_20Rnd"/>
+			<item name="AmmoBox_545x39_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_545x39_20Rnd"/>
+			<item name="AmmoBox_545x39_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_545x39_20Rnd"/>
+			<item name="AmmoBox_545x39_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_545x39_20Rnd"/>
+			<item name="AmmoBox_545x39_20Rnd" />
 		</cargo>
 		<cargo chance="0.25">
-			<item name="AmmoBox_545x39Tracer_20Rnd"/>
+			<item name="AmmoBox_545x39Tracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.25">
-			<item name="AmmoBox_545x39Tracer_20Rnd"/>
+			<item name="AmmoBox_545x39Tracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_556x45_20Rnd"/>
+			<item name="AmmoBox_556x45_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_556x45_20Rnd"/>
+			<item name="AmmoBox_556x45_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_556x45_20Rnd"/>
+			<item name="AmmoBox_556x45_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_556x45_20Rnd"/>
+			<item name="AmmoBox_556x45_20Rnd" />
 		</cargo>
 		<cargo chance="0.25">
-			<item name="AmmoBox_556x45Tracer_20Rnd"/>
+			<item name="AmmoBox_556x45Tracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.25">
-			<item name="AmmoBox_556x45Tracer_20Rnd"/>
+			<item name="AmmoBox_556x45Tracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_762x39_20Rnd"/>
+			<item name="AmmoBox_762x39_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_762x39_20Rnd"/>
+			<item name="AmmoBox_762x39_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_762x39_20Rnd"/>
+			<item name="AmmoBox_762x39_20Rnd" />
 		</cargo>
 		<cargo chance="0.5">
-			<item name="AmmoBox_762x39_20Rnd"/>
+			<item name="AmmoBox_762x39_20Rnd" />
 		</cargo>
 		<cargo chance="0.25">
-			<item name="AmmoBox_762x39Tracer_20Rnd"/>
+			<item name="AmmoBox_762x39Tracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.25">
-			<item name="AmmoBox_762x39Tracer_20Rnd"/>
+			<item name="AmmoBox_762x39Tracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.01">
-			<item name="Ammo_40mm_ChemGas"/>
+			<item name="Ammo_40mm_ChemGas" />
 		</cargo>
 		<cargo chance="0.20">
-			<item name="Ammo_40mm_Smoke_Black"/>
+			<item name="Ammo_40mm_Smoke_Black" />
 		</cargo>
 		<cargo chance="0.20">
-			<item name="Ammo_40mm_Smoke_Red"/>
+			<item name="Ammo_40mm_Smoke_Red" />
 		</cargo>
 		<cargo chance="0.20">
-			<item name="Ammo_40mm_Smoke_White"/>
+			<item name="Ammo_40mm_Smoke_White" />
 		</cargo>
 		<cargo chance="0.20">
-			<item name="Ammo_40mm_Smoke_Green"/>
+			<item name="Ammo_40mm_Smoke_Green" />
 		</cargo>
 		<cargo chance="0.10">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 		<cargo chance="0.20">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 		<cargo chance="0.50">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 		<cargo chance="0.50">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 		<cargo chance="0.20">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 		<cargo chance="0.10">
-			<item name="Ammo_40mm_Explosive"/>
+			<item name="Ammo_40mm_Explosive" />
 		</cargo>
 	</type>
 	<type name="FishingRod">
@@ -3440,16 +3476,6 @@
 	</type>
 -->
 	<!--  END OF WEAPONS  -->
-	<type name="PersonalRadio">
-		<attachments chance="0.30">
-			<item name="Battery9V" chance="1.00"/>
-		</attachments>
-	</type>
-	<type name="GPSReceiver">
-		<attachments chance="0.30">
-			<item name="Battery9V" chance="1.00"/>
-		</attachments>
-	</type>
 
 	<!-- XMAS -->
 	<type name="GiftBox_Small_1">
@@ -3724,16 +3750,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="OffroadHatchback_Blue">
@@ -3787,16 +3813,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="OffroadHatchback_White">
@@ -3850,16 +3876,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Offroad_02">
@@ -3972,16 +3998,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="CivilianSedan_Wine">
@@ -4043,16 +4069,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="CivilianSedan_Black">
@@ -4114,16 +4140,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<!-- -->
@@ -4186,16 +4212,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Hatchback_02_Black">
@@ -4257,16 +4283,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Hatchback_02_Blue">
@@ -4329,16 +4355,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<!-- -->
@@ -4401,16 +4427,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Sedan_02_Red">
@@ -4472,16 +4498,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Sedan_02_Grey">
@@ -4543,16 +4569,16 @@
 			<item name="CanisterGasoline" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Canteen" chance="1.00" />
+			<item name="WaterBottle" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="Truck_01_Covered_Blue">

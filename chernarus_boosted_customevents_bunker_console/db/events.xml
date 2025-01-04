@@ -743,9 +743,9 @@
         </children>
     </event>
     <event name="ItemPlanks">
-        <nominal>50</nominal>
-        <min>40</min>
-        <max>50</max>
+        <nominal>80</nominal>
+        <min>70</min>
+        <max>80</max>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <saferadius>250</saferadius>
@@ -756,7 +756,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="50" min="30" type="PileOfWoodenPlanks"/>
+            <child lootmax="0" lootmin="0" max="80" min="30" type="PileOfWoodenPlanks"/>
         </children>
     </event>
     <event name="Loot">
@@ -802,11 +802,11 @@
         <saferadius>100</saferadius>
         <distanceradius>5</distanceradius>
         <cleanupradius>2500</cleanupradius>
-        <secondary>InfectedFirefighter</secondary>
+        <!--<secondary>InfectedFirefighter</secondary>-->
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children>
             <child lootmax="8" lootmin="4" max="20" min="20" type="Bonfire"/>
         </children>
@@ -823,7 +823,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>uniform</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="6" lootmin="3" max="13" min="13" type="ChristmasTree"/>
         </children>
@@ -862,7 +862,7 @@
     </event>
     <event name="StaticHeliCrash">
         <nominal>6</nominal>
-        <min>2</min>
+        <min>3</min>
         <max>0</max>
         <lifetime>2100</lifetime>
         <restock>0</restock>
@@ -876,7 +876,7 @@
         <active>1</active>
         <children>
             <child lootmax="15" lootmin="10" max="2" min="1" type="Wreck_UH1Y"/>
-            <child lootmax="15" lootmin="10" max="2" min="1" type="Wreck_Mi8"/>
+            <child lootmax="15" lootmin="10" max="2" min="1" type="Wreck_Mi8_Crashed"/>
             <child lootmax="15" lootmin="10" max="2" min="1" type="Land_Wreck_C130J_Cargo"/>
         </children>
     </event>
@@ -944,7 +944,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="15" lootmin="10" max="5" min="1" type="Wreck_SantasSleigh"/>
         </children>
