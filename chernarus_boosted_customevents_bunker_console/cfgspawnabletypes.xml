@@ -416,14 +416,6 @@
 		<damage min="0.0" max="0.32"/>
 	</type>
 
-	<type name="AugOptic">
-		<damage min="0.0" max="0.0"/>
-	</type>
-
-	<type name="SSG82Optic">
-		<damage min="0.0" max="0.0"/>
-	</type>
-
 	<type name="BandageDressing">
 		<damage min="0.0" max="0.0"/>
 	</type>
@@ -474,7 +466,7 @@
 	</type>
 	<type name="SparkPlug">
 	</type>
-	<type name="Glowplug">
+	<type name="GlowPlug">
 	</type>
 	<type name="CarRadiator">
 		<damage min="0.0" max="0.35"/>
@@ -494,7 +486,7 @@
 	<type name="Ammo_40mm_Explosive">
 		<damage min="0.0" max="0.35"/>
 	</type>
-	<type name="Ammo_40mm_POX">
+	<type name="Ammo_40mm_Chemgas">
 		<damage min="0.0" max="0.35"/>
 	</type>
 	<type name="AssaultBag_Ttsko">
@@ -658,11 +650,11 @@
 		<cargo preset="foodVillage"/>
 		<cargo preset="mixVillage"/>
 	</type>
-	<type name="SlingBag_Gray">
+	<type name="Slingbag_Gray">
 		<cargo preset="foodVillage"/>
 		<cargo preset="mixVillage"/>
 	</type>
-	<type name="SlingBag_Brown">
+	<type name="Slingbag_Brown">
 		<cargo preset="foodVillage"/>
 		<cargo preset="mixVillage"/>
 	</type>
@@ -826,7 +818,7 @@
 			<item name="AmmoBox_762x39Tracer_20Rnd" />
 		</cargo>
 		<cargo chance="0.01">
-			<item name="Ammo_40mm_ChemGas" />
+			<item name="Ammo_40mm_Chemgas" />
 		</cargo>
 		<cargo chance="0.20">
 			<item name="Ammo_40mm_Smoke_Black" />
@@ -2954,13 +2946,11 @@
 	</type>
 	<type name="AK74_Black">
 		<attachments chance="1.00">
-			<item name="AK_FoldingBttstck_Black" chance="0.33" />
-			<item name="AK_PlasticBttstck_Black" chance="0.33" />
-			<item name="AK74_WoodBttstck_Black" chance="0.33" />
+			<item name="AK_FoldingBttstck_Black" chance="0.5" />
+			<item name="AK_PlasticBttstck_Black" chance="0.5" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="AK_RailHndgrd_Black" chance="0.5" />
-			<item name="AK74_Hndgrd_Black" chance="0.5" />
+			<item name="AK_RailHndgrd_Black" chance="1.0" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="KashtanOptic" chance="0.50" />
@@ -2979,8 +2969,7 @@
 			<item name="AK_PlasticBttstck_Green" chance="0.5" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="AK_RailHndgrd_Green" chance="0.5" />
-			<item name="AK74_Hndgrd_Green" chance="0.5" />
+			<item name="AK_RailHndgrd_Green" chance="1.0" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="KashtanOptic" chance="0.50" />
@@ -3010,9 +2999,8 @@
 	</type>
 	<type name="AKS74U_Black">
 		<attachments chance="1.00">
-			<item name="AK_FoldingBttstck_Black" chance="0.33" />
-			<item name="AK_PlasticBttstck_Black" chance="0.33" />
-			<item name="AKS74U_Bttstck_Black" chance="0.33" />
+			<item name="AK_FoldingBttstck_Black" chance="0.5" />
+			<item name="AK_PlasticBttstck_Black" chance="0.5" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_30Rnd" chance="1.00" />
@@ -3020,9 +3008,8 @@
 	</type>
 	<type name="AKS74U_Green">
 		<attachments chance="1.00">
-			<item name="AK_FoldingBttstck_Green" chance="0.33" />
-			<item name="AK_PlasticBttstck_Green" chance="0.33" />
-			<item name="AKS74U_Bttstck_Green" chance="0.33" />
+			<item name="AK_FoldingBttstck_Green" chance="0.5" />
+			<item name="AK_PlasticBttstck_Green" chance="0.5" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_30Rnd" chance="1.00" />
@@ -3284,7 +3271,7 @@
 			<item name="HuntingOptic" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Mag_CZ550_10rnd" chance="1.00"/>
+			<item name="Mag_CZ550_10Rnd" chance="1.00"/>
 		</attachments>
 	</type>
 	<type name="PP19">
@@ -3303,7 +3290,7 @@
 			<item name="Mag_PP19_64Rnd" chance="1.00"/>
 		</attachments>
 	</type>
-	<type name="LongHorn">
+	<type name="Longhorn">
 		<attachments chance="1.00">
 			<item name="PistolOptic" chance="1.00"/>
 		</attachments>
@@ -3321,7 +3308,7 @@
 			<item name="Mag_SSG82_5rnd" chance="1.00"/>
 		</attachments>
 	</type>
-	<type name="MP133Shotgun">
+	<type name="Mp133Shotgun">
 		<damage min="0.0" max="0.32"/>
 		<attachments chance="0.30">
 			<item name="FNP45_MRDSOptic" chance="0.30"/>
