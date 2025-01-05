@@ -1247,7 +1247,7 @@
             "scale": 0.9999988675117493
         },
         {
-            "name": "Land_Underground_Panel",
+            "name": "Land_Underground_Panel_Lever",
             "pos": [
                 14072.1640625,
                 57.3624153137207,
@@ -1261,7 +1261,7 @@
             "scale": 0.9999969601631165
         },
         {
-            "name": "Land_Underground_Panel",
+            "name": "Land_Underground_Panel_Lever",
             "pos": [
                 14070.8173828125,
                 57.4223518371582,
@@ -1289,7 +1289,7 @@
             "scale": 0.9999969005584717
         },
         {
-            "name": "Land_Underground_Panel",
+            "name": "Land_Underground_Panel_Lever",
             "pos": [
                 14055.1669921875,
                 56.76651382446289,

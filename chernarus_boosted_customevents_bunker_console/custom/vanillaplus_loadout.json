@@ -140,6 +140,43 @@
             ]
         },
         {
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "Headtorch_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Battery9V"
+                    ],
+                    "complexChildrenTypes": []
+                },
+                {
+                    "itemType": "Headtorch_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Battery9V"
+                    ],
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
             "slotName": "Gloves",
             "discreteItemSets": [
                 {
