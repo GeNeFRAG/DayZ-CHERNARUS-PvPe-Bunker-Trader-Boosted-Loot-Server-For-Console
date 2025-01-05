@@ -861,8 +861,8 @@
         <children/>
     </event>
     <event name="StaticHeliCrash">
-        <nominal>6</nominal>
-        <min>3</min>
+        <nominal>9</nominal>
+        <min>6</min>
         <max>0</max>
         <lifetime>2100</lifetime>
         <restock>0</restock>
@@ -875,9 +875,9 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="15" lootmin="10" max="2" min="1" type="Wreck_UH1Y"/>
-            <child lootmax="15" lootmin="10" max="2" min="1" type="Wreck_Mi8_Crashed"/>
-            <child lootmax="15" lootmin="10" max="2" min="1" type="Land_Wreck_C130J_Cargo"/>
+            <child lootmax="15" lootmin="10" max="3" min="2" type="Wreck_UH1Y"/>
+            <child lootmax="15" lootmin="10" max="3" min="2" type="Wreck_Mi8_Crashed"/>
+            <child lootmax="15" lootmin="10" max="3" min="2" type="Land_Wreck_C130J_Cargo"/>
         </children>
     </event>
     <event name="StaticMilitaryConvoy">

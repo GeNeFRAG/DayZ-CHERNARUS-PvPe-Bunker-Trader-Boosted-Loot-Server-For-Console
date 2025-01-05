@@ -2954,15 +2954,13 @@
 	</type>
 	<type name="AK74_Black">
 		<attachments chance="1.00">
-			<item name="AK_FoldingBttstck_Black" chance="0.25" />
-			<item name="AK_PlasticBttstck_Black" chance="0.25" />
-			<item name="AK_WoodBttstck" chance="0.25" />
-			<item name="AK74_WoodBttstck_Black" chance="0.25" />
+			<item name="AK_FoldingBttstck_Black" chance="0.33" />
+			<item name="AK_PlasticBttstck_Black" chance="0.33" />
+			<item name="AK74_WoodBttstck_Black" chance="0.33" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="AK_RailHndgrd_Black" chance="0.33" />
-			<item name="AK_PlasticHndgrd" chance="0.33" />
-			<item name="AK74_Hndgrd_Black" chance="0.33" />
+			<item name="AK_RailHndgrd_Black" chance="0.5" />
+			<item name="AK74_Hndgrd_Black" chance="0.5" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="KashtanOptic" chance="0.50" />
@@ -2972,21 +2970,17 @@
 			<item name="AK_Suppressor" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Mag_AK74_45Rnd" chance="0.30"/>
-			<item name="Mag_AK74_30Rnd" chance="0.70"/>
+			<item name="Mag_AK74_30Rnd_Black" chance="0.70"/>
 		</attachments>
 	</type>
 	<type name="AK74_Green">
 		<attachments chance="1.00">
-			<item name="AK_FoldingBttstck_Green" chance="0.25" />
-			<item name="AK_PlasticBttstck_Green" chance="0.25" />
-			<item name="AK_WoodBttstck" chance="0.25" />
-			<item name="AK74_WoodBttstck" chance="0.25" />
+			<item name="AK_FoldingBttstck_Green" chance="0.5" />
+			<item name="AK_PlasticBttstck_Green" chance="0.5" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="AK_RailHndgrd_Green" chance="0.33" />
-			<item name="AK_PlasticHndgrd" chance="0.33" />
-			<item name="AK74_Hndgrd_Green" chance="0.33" />
+			<item name="AK_RailHndgrd_Green" chance="0.5" />
+			<item name="AK74_Hndgrd_Green" chance="0.5" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="KashtanOptic" chance="0.50" />
@@ -2996,8 +2990,7 @@
 			<item name="AK_Suppressor" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Mag_AK74_45Rnd" chance="0.30"/>
-			<item name="Mag_AK74_30Rnd" chance="0.70"/>
+			<item name="Mag_AK74_30Rnd_Green" chance="1.00"/>
 		</attachments>
 	</type>
 
@@ -3017,10 +3010,9 @@
 	</type>
 	<type name="AKS74U_Black">
 		<attachments chance="1.00">
-			<item name="AK_FoldingBttstck_Black" chance="0.25" />
-			<item name="AK_PlasticBttstck_Black" chance="0.25" />
-			<item name="AK_WoodBttstck" chance="0.25" />
-			<item name="AKS74U_Bttstck_Black" chance="0.25" />
+			<item name="AK_FoldingBttstck_Black" chance="0.33" />
+			<item name="AK_PlasticBttstck_Black" chance="0.33" />
+			<item name="AKS74U_Bttstck_Black" chance="0.33" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_30Rnd" chance="1.00" />
@@ -3028,10 +3020,9 @@
 	</type>
 	<type name="AKS74U_Green">
 		<attachments chance="1.00">
-			<item name="AK_FoldingBttstck_Green" chance="0.25" />
-			<item name="AK_PlasticBttstck_Green" chance="0.25" />
-			<item name="AK_WoodBttstck" chance="0.25" />
-			<item name="AKS74U_Bttstck_Green" chance="0.25" />
+			<item name="AK_FoldingBttstck_Green" chance="0.33" />
+			<item name="AK_PlasticBttstck_Green" chance="0.33" />
+			<item name="AKS74U_Bttstck_Green" chance="0.33" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_30Rnd" chance="1.00" />
@@ -3060,13 +3051,11 @@
 	</type>
 	<type name="AK101_Black">
 		<attachments chance="1.00">
-			<item name="AK_FoldingBttstck_Black" chance="0.33" />
-			<item name="AK_WoodBttstck" chance="0.33" />
-			<item name="AK_PlasticBttstck_Black" chance="0.33" />
+			<item name="AK_FoldingBttstck_Black" chance="0.5" />
+			<item name="AK_PlasticBttstck_Black" chance="0.5" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="AK_RailHndgrd_Black" chance="0.50" />
-			<item name="AK_WoodHndgrd" chance="0.50" />
+			<item name="AK_RailHndgrd_Black" chance="0.1" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="KashtanOptic" chance="0.50" />
@@ -3076,18 +3065,16 @@
 			<item name="AK_Suppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Mag_AK101_30Rnd" chance="1.00" />
+			<item name="Mag_AK101_30Rnd_Black" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="AK101_Green">
 		<attachments chance="1.00">
-			<item name="AK_FoldingBttstck_Green" chance="0.33" />
-			<item name="AK_WoodBttstck" chance="0.33" />
-			<item name="AK_PlasticBttstck_Green" chance="0.33" />
+			<item name="AK_FoldingBttstck_Green" chance="0.50" />
+			<item name="AK_PlasticBttstck_Green" chance="0.50" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="AK_RailHndgrd_Green" chance="0.50" />
-			<item name="AK_WoodHndgrd" chance="0.50" />
+			<item name="AK_RailHndgrd_Green" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="KashtanOptic" chance="0.50" />
@@ -3097,7 +3084,7 @@
 			<item name="AK_Suppressor" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Mag_AK101_30Rnd" chance="1.00" />
+			<item name="Mag_AK101_30Rnd_Green" chance="1.00" />
 		</attachments>
 	</type>
 	<type name="M4A1_Green">
@@ -3905,22 +3892,27 @@
 			<item name="Offroad_02_Wheel" chance="1.0"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Offroad_02_Trunk" chance="1.0"/>
+			<item name="Offroad_02_Trunk" chance="0.5"/>
+			<item name="Offroad_02_Trunk_Rust" chance="0.5"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Offroad_02_Hood" chance="1.0"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Offroad_02_Door_1_1" chance="1.0"/>
+			<item name="Offroad_02_Door_1_1" chance="0.5"/>
+			<item name="Offroad_02_Door_1_1_Rust" chance="0.5"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Offroad_02_Door_1_2" chance="1.0"/>
+			<item name="Offroad_02_Door_1_2" chance="0.5"/>
+			<item name="Offroad_02_Door_1_2_Rust" chance="0.5"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Offroad_02_Door_2_1" chance="1.0"/>
+			<item name="Offroad_02_Door_2_1" chance="0.5"/>
+			<item name="Offroad_02_Door_2_1_Rust" chance="0.5"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Offroad_02_Door_2_2" chance="1.0"/>
+			<item name="Offroad_02_Door_2_2" chance="0.5"/>
+			<item name="Offroad_02_Door_2_2_Rust" chance="0.5"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="1.0"/>
