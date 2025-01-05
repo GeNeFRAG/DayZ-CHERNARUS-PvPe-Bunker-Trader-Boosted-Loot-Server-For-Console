@@ -52,7 +52,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="5" max="14" min="14" type="Fireplace"/>
+            <child lootmax="4" lootmin="4" max="14" min="14" type="Fireplace"/>
         </children>
     </event>
     <!-- Custom Boat spawn to Bunker -->
