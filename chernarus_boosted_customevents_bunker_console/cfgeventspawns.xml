@@ -29,7 +29,7 @@
 		<pos x="3192.34" z="6102.30" a="0" />
 		<pos x="7072.93" z="4320.21" a="0" />
 		<pos x="10282.77" z="3500.50" a="0" />
-		<pos x="9794.30" z="2217.10" a="0" /> 
+		<pos x="9794.30" z="2217.10" a="0" />
 		<pos x="11154.25" z="7048.38" a="0" />
 		<pos x="11464.83" z="10643.42" a="0" />
 		<pos x="14834.83" z="14569.45" a="0" />
@@ -42,6 +42,44 @@
 	<event name="VehicleCustomBunkerBoat">
 		<pos x="12905.71" z="3643.64" a="0" />
 	</event>
+	<!-- Black Lake Mummy -->
+	<event name="StaticBlackLakeForce">
+		<zone smin="0" smax="0" dmin="5" dmax="10" r="0" />
+		<!-- change dmin/max if more zombies needed -->
+		<pos x="13282.9306640625" z="12118.2353515625" a="0" y="69.3013916015625" group="BlackLakeForce"/>
+	</event>
+	<!-- Event Terrorist -->
+	<event name="Static_Event_Terrorist">
+		<zone smin="0" smax="0" dmin="3" dmax="6" r="20" />
+		<pos x="11996.9990234375" z="9149.3916015625" a="0" y="58.272056579589844" group="Event_Terrorist_Berenzino"/>
+		<pos x="6525.66455078125" z="2324.473388671875" a="0" y="6.2572479248046875" group="Event_Terrorist_Cherno"/>
+		<pos x="10473.5048828125" z="2366.158447265625" a="0" y="6.883090496063232" group="Event_Terrorist_Elektro"/>
+		<pos x="5396.74658203125" z="8550.6826171875" a="0" y="331.0758056640625" group="Event_Terrorist_Kabanino"/>
+		<pos x="11334.537109375" z="14300.8544921875" a="0" y="40.20924758911133" group="Event_Terrorist_Novo"/>
+		<pos x="7187.88720703125" z="7679.7119140625" a="0" y="293.8199157714844" group="Event_Terrorist_NovySobor"/>
+		<pos x="12098.5869140625" z="7272.7421875" a="0" y="191.6520233154297" group="Event_Terrorist_Orlovets"/>
+		<pos x="3076.252197265625" z="7978.83056640625" a="0" y="304.5499572753906" group="Event_Terrorist_Pustoshka"/>
+		<pos x="8238.505859375" z="12761.3388671875" a="0" y="110.96456146240234" group="Event_Terrorist_Severograd"/>
+		<pos x="13932.2548828125" z="13218.6669921875" a="0" y="19.888965606689453" group="Event_Terrorist_Svetlojarsk"/>
+		<pos x="4929.62353515625" z="13033.818359375" a="0" y="171.47657775878906" group="Event_Terrorist_Zaprudnoe"/>
+		<pos x="2723.932373046875" z="5375.19775390625" a="0" y="207.65438842773438" group="Event_Terrorist_Zelenogorsk"/>
+	</event>
+	<!-- Event NBC -->
+	<event name="Static_Event_NBC">
+		<zone smin="0" smax="0" dmin="2" dmax="6" r="20" />
+		<pos x="9465.1728515625" z="8829.9755859375" a="0" y="304.0543518066406" group="Event_NBC_Gorka"/>
+		<pos x="8029.21923828125" z="12760.732421875" a="0" y="113.99845123291016" group="Event_NBC_Severograd"/>
+		<pos x="1270.51513671875" z="11386.48046875" a="0" y="295.4876708984375" group="Event_NBC_Sinystock"/>
+		<pos x="5977.84912109375" z="7662.13671875" a="0" y="308.1828308105469" group="Event_NBC_StarySobor"/>
+	</event>
+	<!-- Event Police -->
+    <event name="Static_Event_Police">
+        <zone smin="0" smax="0" dmin="3" dmax="6" r="20" />
+        <pos x="6205.033203125" z="2912.318115234375" a="0" y="26.00796127319336" group="Event_Police_Cherno"/>
+        <pos x="11072.580078125" z="12490.1220703125" a="0" y="236.29873657226562" group="Event_Police_Krasnostav"/>
+        <pos x="10157.357421875" z="5525.4287109375" a="0" y="248.19805908203125" group="Event_Police_Staroye"/>
+        <pos x="3727.099853515625" z="8921.091796875" a="0" y="320.51519775390625" group="Event_Police_Vybor"/>
+    </event>
 	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
 	<event name="VehicleCivilianSedan">
 		<pos x="12071.933594" z="9129.989258" a="317.953339" />

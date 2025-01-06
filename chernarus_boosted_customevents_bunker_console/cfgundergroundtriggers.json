@@ -1,6 +1,16 @@
 {
     "Triggers":
 	[
-		
+		{
+			"_comments1": "Bunker Black Lake",
+			"_comments2": "coords",
+			"_comments3": "Size X Depth, Y Height, Z Width",
+			"Position": [ 13289.93, 74.83, 12101.80 ],
+			"Orientation": [ -2, 0, 0 ],
+			"Size": [ 60, 25, 140 ],
+			"EyeAccommodation": 0,
+			"Breadcrumbs": [],
+			"InterpolationSpeed": 3 
+		}
 	]
 }
