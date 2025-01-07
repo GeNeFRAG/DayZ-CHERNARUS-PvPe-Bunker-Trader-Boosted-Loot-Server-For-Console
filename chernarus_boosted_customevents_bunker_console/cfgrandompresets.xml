@@ -62,7 +62,7 @@
 	<cargo chance="1.00" name="Grave_20">
 		<item name="BandageDressing" chance="1.00" />
 	</cargo>
-	<cargo chance="1.00" name="Grave212">
+	<cargo chance="1.00" name="Grave21">
 		<item name="VitaminBottle" chance="1.00" />
 	</cargo>
 	<cargo chance="1.00" name="Grave_22">
