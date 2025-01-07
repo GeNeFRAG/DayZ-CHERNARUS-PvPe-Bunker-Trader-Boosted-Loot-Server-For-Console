@@ -1,6 +1,6 @@
 import re
 
-log_file_path = '/Users/gerhard.froehlich/Library/CloudStorage/OneDrive-RaiffeisenBankInternationalGroup/Code/DayZ/tools/DayZServer_X1_x64_2025-01-05_13-40-35.RPT'
+log_file_path = '/Users/gerhard.froehlich/Library/CloudStorage/OneDrive-RaiffeisenBankInternationalGroup/Code/DayZ/tools/log.txt'
 
 with open(log_file_path, 'r') as file:
     log_data = file.readlines()
