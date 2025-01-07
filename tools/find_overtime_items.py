@@ -18,6 +18,7 @@ for line in log_data:
     if match:
         overtime_items.add(match.group(1))
 
+print(f"Number of unique items causing search overtime: {len(overtime_items)}")
 print("Unique items causing search overtime:")
 for item in overtime_items:
     print(item)
