@@ -1,6 +1,12 @@
 import re
+import argparse
 
-log_file_path = '/Users/gerhard.froehlich/Library/CloudStorage/OneDrive-RaiffeisenBankInternationalGroup/Code/DayZ/tools/log.txt'
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description='Find unique items causing search overtime.')
+parser.add_argument('--log_file', type=str, required=True, help='Path to the log file')
+args = parser.parse_args()
+
+log_file_path = args.log_file
 
 with open(log_file_path, 'r') as file:
     log_data = file.readlines()
