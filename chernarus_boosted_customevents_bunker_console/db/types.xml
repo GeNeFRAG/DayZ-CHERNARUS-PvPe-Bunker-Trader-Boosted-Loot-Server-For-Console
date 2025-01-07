@@ -2023,7 +2023,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="PP19_Bttstck">
         <nominal>12</nominal>
         <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2049,7 +2049,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="AliceBag_Black">
         <nominal>6</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <restock>1800</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2061,7 +2061,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="AliceBag_Camo">
         <nominal>6</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <restock>1800</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -2073,7 +2073,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="AliceBag_Green">
         <nominal>6</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <restock>1800</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -7335,7 +7335,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="AK101">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <restock>3600</restock>
         <min>3</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -7349,7 +7349,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="AK101_Black">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
-        <restock>1800</restock>
+        <restock>0</restock>
         <min>3</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -7363,7 +7363,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="AK101_Green">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
-        <restock>1800</restock>
+        <restock>0</restock>
         <min>3</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -7423,7 +7423,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="AKM">
         <nominal>15</nominal>
         <lifetime>7200</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>6</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -7480,7 +7480,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="ASVAL">
         <nominal>10</nominal>
         <lifetime>28800</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>8</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -7494,7 +7494,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="Aug">
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>2</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -7879,7 +7879,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="M14">
         <nominal>8</nominal>
         <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>4</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
@@ -7905,7 +7905,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="M4A1">
         <nominal>0</nominal>
         <lifetime>7200</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
@@ -7917,7 +7917,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="M4A1_Black">
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
-        <restock>1800</restock>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
@@ -7929,7 +7929,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="M4A1_Green">
         <nominal>0</nominal>
         <lifetime>28800</lifetime>
-        <restock>7200</restock>
+        <restock>0</restock>
         <min>0</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
@@ -8115,7 +8115,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="PP19">
         <nominal>32</nominal>
         <lifetime>28800</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>16</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -8204,7 +8204,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="SVD">
         <nominal>4</nominal>
         <lifetime>7200</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>4</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -8393,7 +8393,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="VSS">
         <nominal>40</nominal>
         <lifetime>28800</lifetime>
-        <restock>0</restock>
+        <restock>3600</restock>
         <min>14</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -13849,7 +13849,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="Mag_AK74_45Rnd">
         <nominal>16</nominal>
         <lifetime>5400</lifetime>
-        <restock>0</restock>
+        <restock>1800</restock>
         <min>12</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -13956,7 +13956,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="Mag_CMAG_40Rnd">
         <nominal>10</nominal>
         <lifetime>7200</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>9</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -14199,7 +14199,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="Mag_PP19_64Rnd">
         <nominal>51</nominal>
         <lifetime>28800</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>21</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -14297,7 +14297,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="Mag_SVD_10Rnd">
         <nominal>17</nominal>
         <lifetime>28800</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>7</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -14378,7 +14378,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="Mag_VAL_20Rnd">
         <nominal>26</nominal>
         <lifetime>28800</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>10</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -14392,7 +14392,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="Mag_VSS_10Rnd">
         <nominal>34</nominal>
         <lifetime>28800</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>13</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -16892,7 +16892,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="KazuarOptic">
         <nominal>5</nominal>
         <lifetime>5400</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -17024,7 +17024,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="StarlightOptic">
         <nominal>5</nominal>
         <lifetime>5400</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -18800,7 +18800,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="M4_Suppressor">
         <nominal>10</nominal>
         <lifetime>7200</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -24113,7 +24113,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="Mag_CMAG_40Rnd_Green">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>2</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
@@ -24143,7 +24143,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <type name="Mag_CMAG_40Rnd_Black">
         <nominal>3</nominal>
         <lifetime>7200</lifetime>
-        <restock>1800</restock>
+        <restock>3600</restock>
         <min>2</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>

@@ -1,6 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <spawnabletypes>
 	<!-- ################### CUSTOM SPAWNABLE ITEMS START ################### -->
+	<!-- Mich helmet with NVG -->
+	<type name="Mich2001Helmet">
+		<attachments chance="0.1">
+			<item name="NVGoggles" chance="1.0"/>
+		</attachments>
+	</type>
 	<!-- PunchCard damage -->
 	<type name="PunchedCard">
 		<damage min="0.9" max="0.9"/>
