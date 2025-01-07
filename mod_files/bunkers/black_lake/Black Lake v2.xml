@@ -1,0 +1,195 @@
+Black Lake v2 Bunker
+Nestled among craggy rocks by a tranquil lake, lies a clandestine bio lab. Within, scientists cultivate the enigmatic Ubersolder, a revolutionary biological marvel, shrouded in mystery and promise.
+
+GPS: 13338.05 / 12086.97
+
+- Multi Level
+- Multi Room
+- Water Puzzle
+- Vault
+- Hidden Workshop with Explosives
+
+
+Technical Details about Darkness and Fog
+---------------------------------------------------------------
+Area
+120m Long
+60m Deepth
+
+Underground Trigger Specs
+Depth x: 13292.7
+Height y: 74.83
+With z: 12099.8
+Orientation: -2
+
+CFG Effect Area (2 times)
+North GPS 13307.92 / 12124.40 Radius 30m
+South GPS 13289.45 / 12074.82 Radius 35m
+Height 30m
+
+Installation
+---------------------------------------------------------------
+- upload b_Bunker_BlackLake_v2_Loot.json to ./custom/
+- upload b_Bunker_BlackLake_v2_Area.json to ./custom
+
+---------------------------------------------------------------
+cfggameplay.json
+Reference both json in World Data
+
+"./custom/b_Bunker_BlackLake_v2_Area.json",
+"./custom/b_Bunker_BlackLake_v2_Loot.json",
+
+upload updated cfggameplay.json
+			
+---------------------------------------------------------------
+mapgrouppos.xml
+Add some dynamic loot spawns (if they ever happen not sure about the underground loot points)
+
+<!-- Black Lake v2 Bunker Mapgrouppos -->
+<map>
+	<group name="Land_Underground_Entrance" pos="13323.485352 69.286034 12100.176758" rpy="-0.000000 0.000000 -93.341667" a="-176.658"/>
+	<group name="Land_Underground_Panel" pos="13330.813477 70.765633 12097.904297" rpy="-0.000000 0.000000 -95.369606" a="-174.63"/>
+	<group name="Land_Underground_Corridor_Main_Right" pos="13300.189453 69.228973 12055.584961" rpy="0.000000 0.000000 -5.499999" a="95.5"/>
+	<group name="Land_Church3" pos="13279.591797 83.449295 12044.046875" rpy="0.000000 0.000000 173.531006" a="-83.531"/>
+	<group name="Land_Underground_Corridor_Main_Left" pos="13298.125977 69.230453 12078.003906" rpy="0.000000 0.000000 -4.999998" a="95"/>
+	<group name="Land_Underground_Storage_Laboratory" pos="13281.372070 69.230484 12078.276367" rpy="0.000000 0.000000 -95.226387" a="-174.774"/>
+	<group name="Land_Underground_Storage_Workshop" pos="13264.299805 66.716934 12090.799805" rpy="0.000000 0.000000 -5.499999" a="95.5"/>
+	<group name="Land_Underground_Corridor_Main_Right" pos="13296.073242 69.227203 12100.281250" rpy="0.000000 0.000000 174.626007" a="-84.626"/>
+	<group name="Land_Underground_Storage_Prison" pos="13279.599609 69.226898 12098.645508" rpy="0.000000 0.000000 -95.537788" a="-174.462"/>
+	<group name="Land_Underground_Corridor_Main_Both" pos="13294.281250 69.196999 12118.716797" rpy="0.000000 0.000000 -5.999996" a="96"/>
+	<group name="Land_Underground_Storage_Barracks" pos="13277.253906 69.182510 12118.230469" rpy="-0.000000 0.000000 -97.024559" a="-172.975"/>
+	<group name="Land_Underground_Storage_Prison" pos="13310.695313 69.194595 12119.772461" rpy="0.000000 0.000000 86.380775" a="3.61922"/>
+	<group name="Land_Underground_Floor_Crew" pos="13296.110352 79.329407 12098.394531" rpy="-0.000000 0.000000 -95.807091" a="-174.193"/>
+	<group name="Land_Underground_Floor_Comms" pos="13306.859375 79.085587 12076.607422" rpy="-0.000000 0.000000 -96.111176" a="-173.889"/>
+	<group name="Land_Underground_WaterMaintenance" pos="13283.478516 79.334190 12085.057617" rpy="0.000000 0.000000 -5.923377" a="95.9234"/>
+	<group name="Land_Underground_Floor_Crew" pos="13297.047852 79.073303 12052.226563" rpy="0.000000 0.000000 83.443703" a="6.5563"/>
+	<group name="Land_Underground_Tunnel_Single" pos="13284.501953 79.202003 12062.433594" rpy="0.000000 0.000000 -96.431892" a="-173.568"/>
+	<group name="Land_Underground_WaterMaintenance" pos="13288.625977 76.315208 12150.263672" rpy="0.000000 0.000000 85.025009" a="4.97499"/>
+	<group name="Land_Underground_Panel_Lever" pos="13315.400391 87.857201 12154.400391" rpy="0.000000 0.000000 85.188004" a="4.812"/>
+	<group name="Land_Medical_Tent_Shower" pos="13290.630859 70.825401 12079.036133" rpy="0.000000 0.000000 -4.500000" a="94.5"/>
+	<group name="StaticObj_Wreck_HMMWV" pos="13313.000000 70.145119 12080.299805" rpy="0.000000 -1.468748 0.000000" a="90"/>
+	<group name="StaticObj_Wreck_HMMWV_DE" pos="13310.568359 70.133522 12096.716797" rpy="-0.000000 0.000000 29.467747" a="60.5323"/>
+	<group name="StaticObj_Wreck_HMMWV_DE" pos="13324.584961 70.104301 12100.188477" rpy="-0.000000 0.000000 86.735016" a="3.26498"/>
+</map>
+
+---------------------------------------------------------------
+cfgEffectArea.json
+Add this for spooky mist and sounds
+
+{ 	"AreaName": "Black Lake Bunker North", 
+	"Type": "SpookyArea23", 
+	"TriggerType": "SpookyTrigger23",
+	"Data": { 
+		"Pos": [13307.92, 0, 12124.40 ],
+		"Radius": 30,
+		"PosHeight": 30,
+		"NegHeight": 20,
+		"InnerRingCount": 2,
+		"InnerPartDist": 50,
+		"OuterRingToggle": 1, 
+		"OuterPartDist": 40, 
+		"OuterOffset": 0, 
+		"VerticalLayers": 0,
+		"VerticalOffset": 0,
+		"ParticleName": "graphics/particles/spooky_mist"
+		},
+	"PlayerData": {
+		"AroundPartName": "",
+		"TinyPartName": "",
+		"PPERequesterType": "PPERequester_SpookyAreaTint"
+	}
+},
+{ 	"AreaName": "Black Lake Bunker South",
+	"Type": "SpookyArea23", 
+	"TriggerType": "SpookyTrigger23",
+	"Data": { 
+		"Pos": [13289.45, 0, 12074.82 ],
+		"Radius": 35,
+		"PosHeight": 30,
+		"NegHeight": 20,
+		"InnerRingCount": 2,
+		"InnerPartDist": 50,
+		"OuterRingToggle": 1, 
+		"OuterPartDist": 40, 
+		"OuterOffset": 0, 
+		"VerticalLayers": 0,
+		"VerticalOffset": 0,
+		"ParticleName": "graphics/particles/spooky_mist"
+		},
+	"PlayerData": {
+		"AroundPartName": "",
+		"TinyPartName": "",
+		"PPERequesterType": "PPERequester_SpookyAreaTint"
+	}
+},
+
+
+---------------------------------------------------------------
+cfgundergroundtriggers.json
+Make the bunker dark inside
+If you got more lines in that file you need to add a "," comma to the end of the last bracket.
+
+{
+    "_comments1": "Bunker Black Lake",
+    "_comments2": "coords",
+	"_comments3": "Size X Depth, Y Height, Z Width",
+    "Position": [ 13289.93, 74.83, 12101.80 ],
+    "Orientation": [ -2, 0, 0 ],
+    "Size": [ 60, 25, 140 ],
+    "EyeAccommodation": 0,
+    "Breadcrumbs": [],
+	"InterpolationSpeed": 3 
+},
+
+---------------------------------------------------------------
+zombie_territories.xml
+
+<!-- Mummies at Black Lake Bunker / replace with InfectedArmyHard -->
+	    <territory color="1910952871"> 
+		    <!-- <zone name="InfectedMummy" smin="0" smax="0" dmin="5" dmax="10" x="13327.85" z="12088.92" r="50"/> <!-- South -->
+			<!-- <zone name="InfectedMummy" smin="0" smax="0" dmin="5" dmax="10" x="13333.19" z="12173.97" r="50"/> <!-- North -->
+	    </territory>
+
+
+---------------------------------------------------------------
+So here is something special as an addition.
+You can also take the InfectedArmyHard
+
+ <!-- Dynamic Black Lake Mummy -->
+<event name="StaticBlackLakeForce">
+	<nominal>1</nominal>
+	<min>0</min>
+	<max>0</max>
+	<lifetime>600</lifetime>
+	<restock>0</restock>
+	<saferadius>5</saferadius>
+	<distanceradius>5</distanceradius>
+	<cleanupradius>5</cleanupradius>
+	<secondary>InfectedMummy</secondary> <!-- replace with InfectedArmyHard -->
+	<flags deletable="1" init_random="0" remove_damaged="0"/>
+	<position>fixed</position>
+	<limit>child</limit>
+	<active>1</active>
+	<children/>
+</event>
+
+
+cfgeventspawn.xml
+		<!-- Black Lake Mummy -->
+	 <event name="StaticBlackLakeForce">
+		<zone smin="0" smax="0" dmin="5" dmax="10" r="0" /> <!-- change dmin/max if more zombies needed -->
+		<pos x="13282.9306640625" z="12118.2353515625" a="0" y="69.3013916015625" group="BlackLakeForce"/>
+	 </event>
+
+cfgeventgroup.xml
+<!-- BlackLakeForce -->
+<group name="BlackLakeForce">
+	<child type="StaticObj_Misc_Pallet" deloot="0" lootmax="3" lootmin="1" x="0" z="0" a="0" y="0"/>
+	<child type="StaticObj_Misc_Pallet" spawnsecondary="true" x="12.7431640625" z="3.3466796875" a="0" y="0.023834228515625"/>
+	<child type="StaticObj_Misc_Pallet" spawnsecondary="true" x="16.0859375" z="-39.9208984375" a="0" y="0.0630950927734375"/>
+	<child type="StaticObj_Misc_Pallet" spawnsecondary="true" x="28.2333984375" z="-30.494140625" a="0" y="0.0549468994140625"/>
+	<child type="StaticObj_Misc_Pallet" spawnsecondary="true" x="29.6845703125" z="-51.1298828125" a="0" y="0.02335357666015625"/>
+	<child type="StaticObj_Misc_Pallet" spawnsecondary="true" x="14.97265625" z="-70.0166015625" a="0" y="0.03650665283203125"/>
+	<child type="StaticObj_Misc_Pallet" spawnsecondary="true" x="0.546875" z="-42.0546875" a="0" y="0.0924835205078125"/>
+	<child type="StaticObj_Misc_Pallet" spawnsecondary="true" x="16.412109375" z="-15.4794921875" a="0" y="0.042205810546875"/>
+</group>

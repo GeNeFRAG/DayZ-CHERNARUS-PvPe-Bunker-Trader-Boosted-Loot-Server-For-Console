@@ -1,0 +1,151 @@
+4 Dynamic Police  Events / Chernarus / Console ready
+<!-- Event -->
+<!-- Zombie SWAT Forces -->
+<event name="InfectedSWAT">
+	<nominal>50</nominal>
+	<min>25</min>
+	<max>100</max>
+	<lifetime>3</lifetime>
+	<restock>0</restock>
+	<saferadius>100</saferadius>
+	<distanceradius>50</distanceradius>
+	<cleanupradius>100</cleanupradius>
+	<flags deletable="0" init_random="0" remove_damaged="1"/>
+	<position>player</position>
+	<limit>custom</limit>
+	<active>1</active>
+	<children>
+		<child lootmax="5" lootmin="0" max="0" min="100" type="ZmbM_PolicemanSpecForce_Heavy"/>
+	</children>
+</event>
+<!-- Event Police -->
+<event name="Static_Event_Police">
+	<nominal>2</nominal>
+	<min>0</min>
+	<max>0</max>
+	<lifetime>1800</lifetime>
+	<restock>0</restock>
+	<saferadius>500</saferadius>
+	<distanceradius>100</distanceradius>
+	<cleanupradius>500</cleanupradius>
+	<secondary>InfectedSWAT</secondary>
+	<flags deletable="1" init_random="0" remove_damaged="0"/>
+	<position>fixed</position>
+	<limit>child</limit>
+	<active>1</active>
+	<children/>
+</event>
+<!-- Spawn -->
+<!-- Event Police -->
+<event name="Static_Event_Police">
+	<zone smin="0" smax="0" dmin="3" dmax="6" r="20" />
+	<pos x="6205.033203125" z="2912.318115234375" a="0" y="26.00796127319336" group="Event_Police_Cherno"/>
+	<pos x="11072.580078125" z="12490.1220703125" a="0" y="236.29873657226562" group="Event_Police_Krasnostav"/>
+	<pos x="10157.357421875" z="5525.4287109375" a="0" y="248.19805908203125" group="Event_Police_Staroye"/>
+	<pos x="3727.099853515625" z="8921.091796875" a="0" y="320.51519775390625" group="Event_Police_Vybor"/>
+</event>
+<!-- Group -->
+    <!-- Event Police Cherno -->
+    <group name="Event_Police_Cherno">
+        <child type="Land_Roadblock_Table" lootmax="3" lootmin="1"  deloot="0" x="0" z="0" a="158.82669067382812" y="0"/>
+        <child type="StaticObj_Roadblock_CncBlocks_Long" spawnsecondary="false" x="-5.2353515625" z="-3.42431640625" a="252.27257537841797" y="0.4153614044189453"/>
+        <child type="StaticObj_Roadblock_CncBlocks_Long" spawnsecondary="false" x="-0.0791015625" z="-1.803466796875" a="252.27274322509766" y="0.28304481506347656"/>
+        <child type="StaticObj_Roadblock_CncBlock" spawnsecondary="false" x="3.27392578125" z="-1.326171875" a="102.8740463256836" y="-0.08014297485351562"/>
+        <child type="StaticObj_Roadblock_CncBlocks_Long" spawnsecondary="false" x="-8.86474609375" z="-1.811279296875" a="336.46657371520996" y="0.5985279083251953"/>
+        <child type="Land_Container_1Aoh_DE" lootmax="3" lootmin="1" spawnsecondary="false" x="14.22607421875" z="13.806396484375" a="167.4742431640625" y="0.7760791778564453"/>
+        <child type="Land_Container_1Moh_DE" lootmax="3" lootmin="1" spawnsecondary="false" x="17.556640625" z="14.09619140625" a="169.9641876220703" y="0.7885398864746094"/>
+        <child type="Land_Container_1Mo_DE" lootmax="3" lootmin="1" spawnsecondary="false" x="4.8583984375" z="10.250732421875" a="249.94850158691406" y="0.9139957427978516"/>
+        <child type="Land_Wreck_hb01_aban1_police_DE" lootmax="4" lootmin="2" spawnsecondary="false" x="0.2275390625" z="-6.049560546875" a="268.42762756347656" y="0.9015464782714844"/>
+        <child type="Land_Wreck_hb01_aban2_police_DE" lootmax="4" lootmin="2" spawnsecondary="false" x="9.38232421875" z="0.291748046875" a="0" y="0.5775279998779297"/>
+        <child type="ZmbM_PrisonerSkinny" spawnsecondary="false" x="-0.99169921875" z="6.52685546875" a="0" y="0.7491550445556641"/>
+        <child type="Mag_AK74_30Rnd_Black" spawnsecondary="false" x="-8.85205078125" z="3.74267578125" a="0" y="8.233829498291016"/>
+        <child type="Mag_AK74_30Rnd_Black" spawnsecondary="false" x="-8.26220703125" z="3.8603515625" a="0" y="8.214027404785156"/>
+        <child type="AK74_Black" spawnsecondary="false" x="-8.66455078125" z="4.190673828125" a="0" y="8.131847381591797"/>
+        <child type="Mag_AK74_30Rnd_Black" spawnsecondary="false" x="-7.86376953125" z="4.250244140625" a="0" y="8.191986083984375"/>
+        <child type="Saiga" spawnsecondary="false" x="-10.4580078125" z="4.61962890625" a="0" y="0.8363075256347656"/>
+        <child type="Mag_Saiga_Drum20Rnd" spawnsecondary="false" x="-9.84619140625" z="4.459228515625" a="0" y="0.8933238983154297"/>
+        <child type="Glock19" spawnsecondary="false" x="-7.76708984375" z="0.551025390625" a="0" y="0.5082664489746094"/>
+        <child type="Mag_Glock_15Rnd" spawnsecondary="false" x="-6.7734375" z="-1.544677734375" a="0" y="-0.10705375671386719"/>
+        <child type="Mag_Glock_15Rnd" spawnsecondary="false" x="0.728515625" z="3.725830078125" a="0" y="-0.2532196044921875"/>
+        <child type="AmmoBox_9x19_25rnd" spawnsecondary="false" x="-7.62841796875" z="-1.312744140625" a="0" y="-0.06818771362304688"/>
+        <child type="AmmoBox_9x19_25rnd" spawnsecondary="false" x="1.96630859375" z="1.994140625" a="0" y="-0.24485206604003906"/>
+        <child type="StaticObj_Slum_Roof3" spawnsecondary="false" x="-0.70068359375" z="7.82275390625" a="73.92414855957031" y="8.703857421875"/>
+        <child type="Land_Roadblock_Table" lootmax="3" lootmin="1"  spawnsecondary="false" x="0.07666015625" z="6.1884765625" a="346.510684967041" y="8.445720672607422"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="0.0068359375" z="9.124267578125" a="0" y="8.389266967773438"/>
+        <child type="StaticObj_Roadblock_Bags_Curve" spawnsecondary="false" x="5.0078125" z="3.71240234375" a="189.42245483398438" y="0.9445419311523438"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="2.30322265625" z="4.140625" a="0" y="0.044483184814453125"/>
+    </group>
+    <!-- Event Police Krasnostav -->
+    <group name="Event_Police_Krasnostav">
+        <child type="StaticObj_Slum_Roof4" deloot="0" x="0" z="0" a="119.22814178466797" y="0"/>
+        <child type="StaticObj_Slum_Roof5" spawnsecondary="false" x="-1.5673828125" z="22.1591796875" a="29.200050354003906" y="-7.8474884033203125"/>
+        <child type="StaticObj_Wall_Barricade1_10" spawnsecondary="false" x="6.0771484375" z="26.0771484375" a="25.633779525756836" y="-10.089508056640625"/>
+        <child type="Land_Container_1Bo_DE" lootmax="3" lootmin="1" spawnsecondary="false" x="11.1396484375" z="15.59765625" a="208.55963134765625" y="-8.473602294921875"/>
+        <child type="Land_Container_1Aoh_DE" lootmax="3" lootmin="1" spawnsecondary="false" x="-10.08984375" z="10.1416015625" a="215.9551544189453" y="-7.9483184814453125"/>
+        <child type="Land_Container_1Moh_DE" lootmax="3" lootmin="1" spawnsecondary="false" x="-0.0966796875" z="23.90234375" a="299.3539733886719" y="-7.9455413818359375"/>
+        <child type="Land_Container_1Mo_DE" lootmax="3" lootmin="1" spawnsecondary="false" x="-1.865234375" z="19.580078125" a="118.91295623779297" y="-7.8115692138671875"/>
+        <child type="StaticObj_Misc_SupplyBox1_DE" lootmax="4" lootmin="4" spawnsecondary="false" x="0.08984375" z="7.904296875" a="0" y="-9.157135009765625"/>
+        <child type="StaticObj_Misc_SupplyBox2_DE" lootmax="4" lootmin="4" spawnsecondary="false" x="3.478515625" z="7.7783203125" a="0" y="-8.703170776367188"/>
+        <child type="Land_Wreck_hb01_aban1_police_DE" lootmax="4" lootmin="2" spawnsecondary="false" x="14.255859375" z="-11.5146484375" a="127.40760803222656" y="-8.833450317382812"/>
+        <child type="Land_Wreck_hb01_aban2_police" spawnsecondary="false" x="2.998046875" z="-14.4296875" a="0" y="-8.747085571289062"/>
+        <child type="StaticObj_Roadblock_Bags_Curve" spawnsecondary="false" x="-14.9189453125" z="-4.5732421875" a="20.093032836914062" y="-8.371871948242188"/>
+        <child type="StaticObj_Roadblock_Bags_Curve" spawnsecondary="false" x="-3.791015625" z="-11.2783203125" a="220.6189727783203" y="-8.544937133789062"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="-0.3408203125" z="-0.546875" a="0" y="-0.821319580078125"/>
+        <child type="Land_Roadblock_Table" lootmax="3" lootmin="1" spawnsecondary="false" x="0.5458984375" z="1.8857421875" a="0" y="-0.708953857421875"/>
+        <child type="StaticObj_Roadblock_CncBlocks_Long" spawnsecondary="false" x="-11.6259765625" z="-8.7666015625" a="299.3022232055664" y="-8.768936157226562"/>
+        <child type="StaticObj_Roadblock_CncBlock" spawnsecondary="false" x="-8.5546875" z="-10.638671875" a="125.04398345947266" y="-9.1927490234375"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="-13.68359375" z="-5.1123046875" a="87.96265411376953" y="-9.128463745117188"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="-13.8369140625" z="-4.0224609375" a="267.9626770019531" y="-9.136672973632812"/>
+        <child type="Land_Roadblock_Table" lootmax="3" lootmin="1" spawnsecondary="false" x="-4.501953125" z="-10.72265625" a="0" y="-9.504989624023438"/>
+        <child type="Land_Medical_Tent_Big" spawnsecondary="false" x="18.07421875" z="5.8798828125" a="300.5896911621094" y="-9.578048706054688"/>
+        <child type="AK74_Black" spawnsecondary="false" x="-13.248046875" z="-6.2490234375" a="0" y="-9.11968994140625"/>
+        <child type="Mag_AK74_30Rnd_Black" spawnsecondary="false" x="-9.7373046875" z="-8.40234375" a="0" y="-9.403854370117188"/>
+        <child type="Mag_AK74_30Rnd_Black" spawnsecondary="false" x="-4.755859375" z="-8.958984375" a="0" y="-9.507186889648438"/>
+    </group>
+    <!-- Event Police Staroye -->
+    <group name="Event_Police_Staroye">
+        <child type="AmmoBox_9x19_25rnd" deloot="0" x="0" z="0" a="0" y="0"/>
+        <child type="Scout_Chernarus" spawnsecondary="false" x="1.4072265625" z="3.55615234375" a="0" y="3.711883544921875"/>
+        <child type="Mag_Scout_5Rnd" spawnsecondary="false" x="1.865234375" z="2.8232421875" a="0" y="3.6658172607421875"/>
+        <child type="Mag_Scout_5Rnd" spawnsecondary="false" x="0.98828125" z="2.474609375" a="0" y="3.6659088134765625"/>
+        <child type="StaticObj_Slum_Roof5" spawnsecondary="false" x="16.693359375" z="-3.0810546875" a="163.90394592285156" y="-3.39544677734375"/>
+        <child type="Land_Container_1Aoh_DE" lootmax="3" lootmin="1" spawnsecondary="false" x="13.8466796875" z="6.16259765625" a="82.34605407714844" y="-3.1562957763671875"/>
+        <child type="Land_Container_1Moh" spawnsecondary="false" x="5.2294921875" z="23.97607421875" a="0" y="-2.671722412109375"/>
+        <child type="Land_Container_1Bo_DE" lootmax="3" lootmin="1" spawnsecondary="false" x="2.2646484375" z="24.0595703125" a="0" y="-2.755126953125"/>
+        <child type="Land_Container_1Mo_DE" lootmax="3" lootmin="1" spawnsecondary="false" x="-1.2587890625" z="23.86181640625" a="0" y="-2.6192169189453125"/>
+        <child type="StaticObj_Wall_Barricade1_10" spawnsecondary="false" x="12.396484375" z="26.8056640625" a="57.934295654296875" y="-3.7875518798828125"/>
+        <child type="Land_Wreck_hb01_aban2_police_DE" lootmax="4" lootmin="2" spawnsecondary="false" x="0.73046875" z="-9.1416015625" a="0" y="-3.390167236328125"/>
+        <child type="Land_Wreck_hb01_aban1_police_DE" lootmax="4" lootmin="2" spawnsecondary="false" x="11.7353515625" z="-5.087890625" a="84.56112670898438" y="-3.3294219970703125"/>
+        <child type="Land_Wreck_hb01_aban1_police_DE" lootmax="4" lootmin="2" spawnsecondary="false" x="7.6982421875" z="16.63916015625" a="77.14651489257812" y="-3.2722625732421875"/>
+        <child type="Mag_Saiga_Drum20Rnd" spawnsecondary="false" x="-7.439453125" z="0.07470703125" a="0" y="-3.4695281982421875"/>
+        <child type="Saiga" spawnsecondary="false" x="-6.9619140625" z="0.763671875" a="0" y="-3.585601806640625"/>
+        <child type="MP5K" spawnsecondary="false" x="-5.5947265625" z="-0.23681640625" a="0" y="0.0994415283203125"/>
+        <child type="Mag_MP5_30Rnd" spawnsecondary="false" x="-5.4130859375" z="0.1611328125" a="0" y="0.148681640625"/>
+        <child type="AmmoBox_9x19_25rnd" spawnsecondary="false" x="-0.6728515625" z="0.7998046875" a="0" y="0"/>
+    </group>
+    <!-- Event Police Vybor -->
+    <group name="Event_Police_Vybor">
+        <child type="StaticObj_Slum_Roof3" deloot="0" x="0" z="0" a="115.44697570800781" y="0"/>
+        <child type="Land_Roadblock_Table" lootmax="3" lootmin="1"  spawnsecondary="false" x="-0.70556640625" z="-1.46484375" a="20.643165588378906" y="-0.778656005859375"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="1.31005859375" z="0.4716796875" a="0" y="-0.96112060546875"/>
+        <child type="StaticObj_Roadblock_Bags_Curve" spawnsecondary="false" x="-12.464599609375" z="-0.73828125" a="0" y="-8.6812744140625"/>
+        <child type="StaticObj_Roadblock_Bags_Curve" spawnsecondary="false" x="-2.001220703125" z="-5.966796875" a="228.2547607421875" y="-8.600555419921875"/>
+        <child type="StaticObj_Roadblock_CncBlocks_Long" spawnsecondary="false" x="-8.673095703125" z="-4.662109375" a="117.17430877685547" y="-9.023712158203125"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="-6.23779296875" z="2.71875" a="0" y="-0.890350341796875"/>
+        <child type="Land_Roadblock_WoodenCrate" spawnsecondary="false" x="-7.560791015625" z="3.501953125" a="0" y="-1.064453125"/>
+        <child type="Land_Roadblock_Table" lootmax="3" lootmin="1"  spawnsecondary="false" x="-10.72412109375" z="0.068359375" a="0" y="-9.318756103515625"/>
+        <child type="Land_Wreck_sed01_aban2_police_DE" lootmax="4" lootmin="2" spawnsecondary="false" x="-14.046142578125" z="-6.951171875" a="63.247650146484375" y="-8.808074951171875"/>
+        <child type="Land_Wreck_hb01_aban1_police_DE" lootmax="4" lootmin="2" spawnsecondary="false" x="3.781005859375" z="-4.361328125" a="0" y="-8.3607177734375"/>
+        <child type="Land_Wreck_sed01_aban1_police_DE" lootmax="4" lootmin="2" spawnsecondary="false" x="-0.64599609375" z="-11.87890625" a="115.5013198852539" y="-8.806060791015625"/>
+        <child type="AK101_Black" spawnsecondary="false" x="-10.786865234375" z="-1.53515625" a="0" y="-9.27874755859375"/>
+        <child type="Mag_AK101_30Rnd" spawnsecondary="false" x="-8.679443359375" z="-2.7841796875" a="0" y="-9.45703125"/>
+        <child type="Mag_AK101_30Rnd" spawnsecondary="false" x="-2.10595703125" z="-3.9912109375" a="0" y="-9.45703125"/>
+        <child type="Mag_Saiga_Drum20Rnd" spawnsecondary="false" x="-7.380859375" z="8.1630859375" a="0" y="-4.736297607421875"/>
+        <child type="Saiga" spawnsecondary="false" x="-7.343505859375" z="7.6875" a="0" y="-4.833343505859375"/>
+        <child type="AmmoBox_9x19_25rnd" spawnsecondary="false" x="4.0576171875" z="7.0126953125" a="0" y="-4.308441162109375"/>
+        <child type="AmmoBox_9x19_25rnd" spawnsecondary="false" x="3.771240234375" z="7.0126953125" a="0" y="-4.308441162109375"/>
+        <child type="AmmoBox_9x19_25rnd" spawnsecondary="false" x="3.870849609375" z="7.0126953125" a="0" y="-4.308441162109375"/>
+        <child type="MP5K" spawnsecondary="false" x="3.145263671875" z="5.4736328125" a="0" y="-4.7974853515625"/>
+        <child type="Mag_MP5_30Rnd" spawnsecondary="false" x="2.822021484375" z="4.7958984375" a="0" y="-4.733917236328125"/>
+        <child type="ZmbM_PrisonerSkinny" spawnsecondary="false" x="-1.009033203125" z="-1.150390625" a="0" y="-8.47406005859375"/>
+    </group>
