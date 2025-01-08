@@ -1,4 +1,4 @@
-# DayZ Chernarus 4x Boosted Server Configuration
+# DayZ Chernarus Boosted Server / Custom Event / Bunker Configuration
 
 ## Gameplay Features
 
