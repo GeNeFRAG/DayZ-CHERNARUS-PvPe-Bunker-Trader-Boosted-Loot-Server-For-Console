@@ -42,7 +42,7 @@
         <nominal>14</nominal>
         <min>14</min>
         <max>14</max>
-        <lifetime>2500</lifetime>
+        <lifetime>7200</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
         <distanceradius>100</distanceradius>
@@ -52,7 +52,7 @@
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="4" lootmin="4" max="14" min="14" type="Fireplace"/>
+            <child lootmax="5" lootmin="2" max="14" min="14" type="Fireplace"/>
         </children>
     </event>
     <!-- Custom Boat spawn to Bunker -->
@@ -907,11 +907,11 @@
         <saferadius>100</saferadius>
         <distanceradius>5</distanceradius>
         <cleanupradius>2500</cleanupradius>
-        <!--<secondary>InfectedFirefighter</secondary>-->
+        <secondary>InfectedFirefighter</secondary>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>0</active>
         <children>
             <child lootmax="8" lootmin="4" max="20" min="20" type="Bonfire"/>
         </children>
@@ -967,7 +967,7 @@
     </event>
     <event name="StaticHeliCrash">
         <nominal>9</nominal>
-        <min>6</min>
+        <min>3</min>
         <max>0</max>
         <lifetime>2100</lifetime>
         <restock>0</restock>
@@ -980,9 +980,9 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="15" lootmin="10" max="3" min="2" type="Wreck_UH1Y"/>
-            <child lootmax="15" lootmin="10" max="3" min="2" type="Wreck_Mi8_Crashed"/>
-            <child lootmax="15" lootmin="10" max="3" min="2" type="Land_Wreck_C130J_Cargo"/>
+            <child lootmax="15" lootmin="10" max="4" min="1" type="Wreck_UH1Y"/>
+            <child lootmax="15" lootmin="10" max="4" min="1" type="Wreck_Mi8"/>
+            <child lootmax="15" lootmin="10" max="3" min="1" type="Land_Wreck_C130J"/>
         </children>
     </event>
     <event name="StaticMilitaryConvoy">

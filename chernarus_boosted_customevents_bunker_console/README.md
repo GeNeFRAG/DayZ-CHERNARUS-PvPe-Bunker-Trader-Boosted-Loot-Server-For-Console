@@ -12,7 +12,7 @@
 ## Loot Specifications
 
 * Item condition ranges from pristine (0.00) to worn (0.32) damage values
-* Loot: Weapons boosted 4x, food 2x, etc
+* Loot: Weapons/Ammo boosted 2-3x, food 2x, etc. Also distributed to different loot tiers (for details check types.xml)
 * Vehicle spawn complete include full fuel tanks, gasoline canisters, and water supplies. Boosted 2x
 * Enhanced weapon configurations:
   * Colored weapons variants with attachments enabled
@@ -23,19 +23,24 @@
 * Reduced small magazine variants for western weapons
 * M4A1 only spawns in bunkers
 * M14, M79 and Aug only spawns at dynamic events (Heli crashes,etc)
-* PunchedCard spawns damaged in the contaminated zones and on grey NBC zombies
-* Additonal hidden items like yellow bandana, etc
+* PunchedCard spawns damaged contaminated zones, on grey NBC zombies and is also part of Treasure hunt loot
+* Additonal hidden items like yellow bandanas, etc
 
-## Event System
+## Dynamic Events
 
-* Increased helicopter crash sites with added MI8 and C130J wrecks
-* Enhanced zombie loot with increased food item drops
+* Increased heli crash dynamic events. Added MI8 and C130J wrecks
+* Enhanced zombie loot with increased food and medic drops
 * Special building supply truck events
-* C130J plane crash events at major airfields (NWAF, Balota, Krasnostav)
 * Holiday events featuring Christmas trees with presents and themed Santa crash sites
 * Fireplace event at all hunter camps
 * Treasure hunt event at 4 random places
+* Terrorist attach dynamic events in major cities
+* Additional Contamination Control dynamic events at some of the medic stations
+* SWAT operation dynamic event accross the map
+* Camp fires at hunting camp event
+* For details check events.xml
 
 # Custom objects
 * One small punched card bunker at the Tisy Helipad
-* One large punched card bunker on skalisty island (reachable via boat)
+* One large punched card bunker at Black Lake with Zombies
+* C130J plane crash events at major airfields (NWAF, Balota, Krasnostav)

@@ -7430,10 +7430,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
   <!-- #################### FIREARMS #################### -->
   <type name="SKS_Black">
-        <nominal>25</nominal>
+        <nominal>12</nominal>
         <lifetime>23040</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>5</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -7445,10 +7445,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier3"/>
     </type>
   <type name="SKS_Green">
-        <nominal>25</nominal>
+        <nominal>12</nominal>
         <lifetime>23040</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>5</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -7488,10 +7488,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="AK101">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -7502,10 +7502,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="AK101_Black">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -7516,10 +7516,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="AK101_Green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -7530,10 +7530,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="AK74">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>22</min>
+        <min>16</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -7546,10 +7546,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="AK74_Black">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>3</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -7561,10 +7561,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="AK74_Green">
-        <nominal>15</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>4</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -7588,10 +7588,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="ContaminatedArea"/>
     </type>
   <type name="AKS74U">
-        <nominal>17</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>7</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -7603,10 +7603,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier3"/>
     </type>
   <type name="AKS74U_Black">
-        <nominal>10</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>5</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -7618,10 +7618,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier3"/>
     </type>
   <type name="AKS74U_Green">
-        <nominal>10</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>4</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -8311,10 +8311,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier1"/>
     </type>
   <type name="SKS">
-        <nominal>50</nominal>
+        <nominal>12</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>5</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12901,10 +12901,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Firefighter"/>
     </type>
   <type name="GorkaHelmet">
-        <nominal>12</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13971,7 +13971,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier3"/>
     </type>
   <type name="Mag_AK101_30Rnd">
-        <nominal>18</nominal>
+        <nominal>12</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>6</min>
@@ -13985,10 +13985,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="Mag_AK74_30Rnd">
-        <nominal>50</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>10</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -14805,10 +14805,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier1"/>
     </type>
   <type name="BalaclavaMask_White">
-        <nominal>24</nominal>
+        <nominal>12</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14822,10 +14822,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier2"/>
     </type>
   <type name="Bandana_Blackpattern">
-        <nominal>24</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14838,10 +14838,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="Bandana_Camopattern">
-        <nominal>24</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14854,10 +14854,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="Bandana_Greenpattern">
-        <nominal>24</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14870,10 +14870,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="Bandana_Polkapattern">
-        <nominal>24</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14883,10 +14883,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Village"/>
     </type>
   <type name="Bandana_Redpattern">
-        <nominal>24</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14896,10 +14896,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Village"/>
     </type>
   <type name="DesignerGlasses">
-        <nominal>40</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>16</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14908,10 +14908,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Town"/>
     </type>
   <type name="EyeMask_Black">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14968,10 +14968,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Lunapark"/>
     </type>
   <type name="EyeMask_Red">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15312,7 +15312,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
   <!-- #################### MEDICALS #################### -->
   <type name="AntiChemInjector">
-        <nominal>4</nominal>
+        <nominal>2</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>1</min>
@@ -15325,10 +15325,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="ContaminatedArea"/>
     </type>
   <type name="BandageDressing">
-        <nominal>120</nominal>
+        <nominal>80</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>90</min>
+        <min>60</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15338,10 +15338,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Medic"/>
     </type>
   <type name="BloodBagEmpty">
-        <nominal>60</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15373,10 +15373,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <category name="tools"/>
     </type>
   <type name="BloodTestKit">
-        <nominal>30</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15386,10 +15386,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Medic"/>
     </type>
   <type name="CharcoalTablets">
-        <nominal>60</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>36</min>
+        <min>24</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -15411,10 +15411,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Medic"/>
     </type>
   <type name="DisinfectantAlcohol">
-        <nominal>184</nominal>
+        <nominal>160</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>73</min>
+        <min>60</min>
         <quantmin>10</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -15425,10 +15425,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Village"/>
     </type>
   <type name="DisinfectantSpray">
-        <nominal>90</nominal>
+        <nominal>60</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>60</min>
+        <min>20</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -15440,10 +15440,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Village"/>
     </type>
   <type name="Epinephrine">
-        <nominal>90</nominal>
+        <nominal>60</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>60</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15466,10 +15466,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Medic"/>
     </type>
   <type name="IodineTincture">
-        <nominal>120</nominal>
+        <nominal>80</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>90</min>
+        <min>30</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -15481,10 +15481,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Village"/>
     </type>
   <type name="Morphine">
-        <nominal>45</nominal>
+        <nominal>30</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>24</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15494,10 +15494,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Medic"/>
     </type>
   <type name="PainkillerTablets">
-        <nominal>60</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>36</min>
+        <min>12</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -15507,10 +15507,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Medic"/>
     </type>
   <type name="PurificationTablets">
-        <nominal>116</nominal>
+        <nominal>100</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>46</min>
+        <min>30</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -15521,10 +15521,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Hunting"/>
     </type>
   <type name="SalineBag">
-        <nominal>60</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>24</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15567,10 +15567,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <category name="clothes"/>
     </type>
   <type name="StartKitIV">
-        <nominal>68</nominal>
+        <nominal>60</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>27</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15580,10 +15580,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Medic"/>
     </type>
   <type name="TetracyclineAntibiotics">
-        <nominal>60</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>36</min>
+        <min>12</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -15607,10 +15607,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Village"/>
     </type>
   <type name="VitaminBottle">
-        <nominal>120</nominal>
+        <nominal>80</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>60</min>
+        <min>20</min>
         <quantmin>20</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -24099,10 +24099,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
   <!-- #################### MISSEDITEMS #################### -->
   <type name="Bandana_Yellow">
-        <nominal>24</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24112,10 +24112,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Village"/>
     </type>
   <type name="Bandana_Blue">
-        <nominal>24</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24125,10 +24125,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Village"/>
     </type>
   <type name="Bandana_Pink">
-        <nominal>24</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24138,10 +24138,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Village"/>
     </type>
   <type name="GorkaHelmet_Black">
-        <nominal>12</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>4</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -24154,7 +24154,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <value name="Tier4"/>
     </type>
   <type name="Mag_AKM_Drum75Rnd_Green">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
@@ -24166,7 +24166,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <usage name="Military"/>
     </type>
   <type name="Mag_AKM_Drum75Rnd_Black">
-        <nominal>6</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
         <min>2</min>
