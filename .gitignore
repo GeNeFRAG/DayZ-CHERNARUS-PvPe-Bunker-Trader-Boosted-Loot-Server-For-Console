@@ -1,7 +1,7 @@
 dayzOffline.chernarusplus/
 nitrado_token.txt
 tools/*.xml
+tools/*.xml.backup
 tools/*.txt
 tools/*.RPT
 chernarus_boosted_customevents_bunker_console/db/types_old.xml
-
