@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
 	<!-- ################### CUSTOM EVENT SPAWNS START ################### -->
+	<!-- Bunkter Test PunchedCard spwan -->
+	<event name="ItemBagWithPunchedCard">
+		<pos x="13444.74" z="12097.42" a="0" />
+	</event>
 	<!-- Builder Truck event spawns -->
 	<event name="VehicleBuilderTruck">
 		<!-- Novaya North -->

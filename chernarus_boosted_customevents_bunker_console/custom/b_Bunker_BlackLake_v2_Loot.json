@@ -1081,7 +1081,7 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "Mag_STANAG_60Rnd",
+            "name": "Mag_CMAG_40Rnd_Black",
             "pos": [
                 13275.0732421875,
                 70.0252685546875,
@@ -1216,7 +1216,7 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "Mag_STANAG_60Rnd",
+            "name": "Mag_M14_20Rnd",
             "pos": [
                 13283.93359375,
                 76.46555480957031,
@@ -1261,7 +1261,7 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "FangeKnife",
+            "name": "HuntingOptic",
             "pos": [
                 13283.5419921875,
                 77.35409545898438,

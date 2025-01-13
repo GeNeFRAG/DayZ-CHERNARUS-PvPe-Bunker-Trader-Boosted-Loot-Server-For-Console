@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <spawnabletypes>
 	<!-- ################### CUSTOM SPAWNABLE ITEMS START ################### -->
+	<!-- For Bunker testing -->
+	<type name="ImprovisedBag">
+		<cargo chance="1.0">
+			<item name="PunchedCard" />
+		</cargo>
+	</type>
+	<!-- CammoNetShelter (only spawns in containers -->
+	<type name="SeaChest">
+		<cargo chance="0.05">
+			<item name="CamoNetShelter" />
+		</cargo>
+	</type>
 	<!-- Mich helmet with NVG -->
 	<type name="Mich2001Helmet">
 		<attachments chance="0.1">
@@ -396,9 +408,6 @@
 		<hoarder/>
 	</type>
 	<type name="PartyTent_Lunapark">
-		<hoarder/>
-	</type>
-	<type name="SeaChest">
 		<hoarder/>
 	</type>
 	<type name="SmallProtectorCase">
@@ -1714,9 +1723,6 @@
 		<cargo chance="0.03">
 			<item name="AntiChemInjector" chance="1.0"/>
 		</cargo>
-		<cargo chance="0.02">
-			<item name="PunchedCard" chance="1.0"/>
-		</cargo>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
 		<cargo preset="ContaminatedCargo"/>
@@ -2919,8 +2925,8 @@
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.50" />
 		</attachments>
-		<attachments chance="0.50">
-			<item name="AK_Suppressor" chance="1.00"/>
+		<attachments chance="0.10">
+			<item name="AK_Suppressor" chance="1.0"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AKM_30Rnd" chance="1.00"/>
@@ -2942,8 +2948,8 @@
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.50" />
 		</attachments>
-		<attachments chance="0.50">
-			<item name="AK_Suppressor" chance="1.00"/>
+		<attachments chance="0.10">
+			<item name="AK_Suppressor" chance="1.0"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_45Rnd" chance="0.30"/>
@@ -2962,8 +2968,8 @@
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.50" />
 		</attachments>
-		<attachments chance="0.50">
-			<item name="AK_Suppressor" chance="1.00"/>
+		<attachments chance="0.10">
+			<item name="AK_Suppressor" chance="1.0"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_30Rnd_Black" chance="0.70"/>
@@ -2981,8 +2987,8 @@
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.50" />
 		</attachments>
-		<attachments chance="0.50">
-			<item name="AK_Suppressor" chance="1.00"/>
+		<attachments chance="0.10">
+			<item name="AK_Suppressor" chance="1.0"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_30Rnd_Green" chance="1.00"/>
@@ -2996,8 +3002,8 @@
 			<item name="AK_WoodBttstck" chance="0.25" />
 			<item name="AKS74U_Bttstck" chance="0.25" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="AK_Suppressor" chance="1.00" />
+		<attachments chance="0.10">
+			<item name="AK_Suppressor" chance="1.0" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_30Rnd" chance="1.00" />
@@ -3035,8 +3041,8 @@
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.50" />
 		</attachments>
-		<attachments chance="0.5">
-			<item name="AK_Suppressor" chance="1.00" />
+		<attachments chance="0.1">
+			<item name="AK_Suppressor" chance="1.0" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK101_30Rnd" chance="1.00" />
@@ -3054,8 +3060,8 @@
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.50" />
 		</attachments>
-		<attachments chance="0.5">
-			<item name="AK_Suppressor" chance="1.00" />
+		<attachments chance="0.1">
+			<item name="AK_Suppressor" chance="1.0" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK101_30Rnd_Black" chance="1.00" />
@@ -3073,8 +3079,8 @@
 			<item name="KashtanOptic" chance="0.50" />
 			<item name="PSO11Optic" chance="0.50" />
 		</attachments>
-		<attachments chance="0.5">
-			<item name="AK_Suppressor" chance="1.00" />
+		<attachments chance="0.1">
+			<item name="AK_Suppressor" chance="1.0" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK101_30Rnd_Green" chance="1.00" />
@@ -3150,6 +3156,9 @@
 		<attachments chance="0.10">
 			<item name="TLRLight" chance="1.00"/>
 		</attachments>
+		<attachments chance="0.10">
+			<item name="M4_Suppressor" chance="1.0"/>
+		</attachments>
 	</type>
 	<type name="AugShort">
 		<damage min="0.1" max="0.32"/>
@@ -3182,6 +3191,9 @@
 		<attachments chance="1.00">
 			<item name="KashtanOptic" chance="0.50"/>
 			<item name="PSO11Optic" chance="0.50"/>
+		</attachments>
+		<attachments chance="0.1">
+			<item name="AK_Suppressor" chance="1.0" />
 		</attachments>
 	</type>
 	<type name="Colt1911">
@@ -3244,7 +3256,7 @@
 			<item name="M68Optic" chance="0.20"/>
 			<item name="ACOGOptic" chance="0.20"/>
 			<item name="ACOGOptic_6x" chance="0.20"/>
-			<item name="M4_Suppressor" chance="0.20"/>
+			<item name="M4_Suppressor" chance="0.10"/>
 		</attachments>
 	</type>
 	<type name="Scout_Chernarus">
@@ -3256,7 +3268,7 @@
 			<item name="M68Optic" chance="0.20"/>
 			<item name="ACOGOptic" chance="0.20"/>
 			<item name="ACOGOptic_6x" chance="0.20"/>
-			<item name="M4_Suppressor" chance="0.20"/>
+			<item name="M4_Suppressor" chance="0.10"/>
 		</attachments>
 	</type>
 	<type name="Scout_Livonia">
@@ -3268,7 +3280,7 @@
 			<item name="M68Optic" chance="0.20"/>
 			<item name="ACOGOptic" chance="0.20"/>
 			<item name="ACOGOptic_6x" chance="0.20"/>
-			<item name="M4_Suppressor" chance="0.20"/>
+			<item name="M4_Suppressor" chance="0.10"/>
 		</attachments>
 	</type>
 	<type name="CZ550">
