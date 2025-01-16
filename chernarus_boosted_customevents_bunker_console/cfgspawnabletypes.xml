@@ -15,7 +15,7 @@
 	</type>
 	<!-- Mich helmet with NVG -->
 	<type name="Mich2001Helmet">
-		<attachments chance="0.1">
+		<attachments chance="0.05">
 			<item name="NVGoggles" chance="1.0"/>
 		</attachments>
 	</type>
@@ -159,16 +159,16 @@
 			<item name="Barrel_Yellow" />
 		</attachments>
 		<attachments>
-			<item name="WoodenCrate" />
+			<item name="Pliers" />
 		</attachments>
 		<attachments>
-			<item name="WoodenCrate" />
+			<item name="MetalWire" />
 		</attachments>
 		<attachments>
-			<item name="WoodenCrate" />
+			<item name="MetalWire" />
 		</attachments>
 		<attachments>
-			<item name="WoodenCrate" />
+			<item name="CombinationLock" />
 		</attachments>
 		<attachments>
 			<item name="CanisterGasoline" />
@@ -180,22 +180,13 @@
 			<item name="HandSaw" />
 		</attachments>
 		<attachments>
-			<item name="HandSaw" />
-		</attachments>
-		<attachments>
 			<item name="WoodAxe" />
 		</attachments>
 		<attachments>
-			<item name="WoodAxe" />
+			<item name="FarmingHoe" />
 		</attachments>
 		<attachments>
-			<item name="WoodAxe" />
-		</attachments>
-		<attachments>
-			<item name="Shovel" />
-		</attachments>
-		<attachments>
-			<item name="Shovel" />
+			<item name="FarmingHoe" />
 		</attachments>
 		<attachments>
 			<item name="Shovel" />
@@ -208,15 +199,6 @@
 		</attachments>
 		<attachments>
 			<item name="Pickaxe" />
-		</attachments>
-		<attachments>
-			<item name="ShelterKit" />
-		</attachments>
-		<attachments>
-			<item name="ShelterKit" />
-		</attachments>
-		<attachments>
-			<item name="ShelterKit" />
 		</attachments>
 		<attachments>
 			<item name="FenceKit" />
@@ -273,25 +255,10 @@
 			<item name="SledgeHammer" />
 		</attachments>
 		<attachments>
-			<item name="SledgeHammer" />
-		</attachments>
-		<attachments>
 			<item name="Hatchet" />
 		</attachments>
 		<attachments>
 			<item name="Hatchet" />
-		</attachments>
-		<attachments>
-			<item name="Hatchet" />
-		</attachments>
-		<attachments>
-			<item name="Whetstone" />
-		</attachments>
-		<attachments>
-			<item name="Whetstone" />
-		</attachments>
-		<attachments>
-			<item name="Whetstone" />
 		</attachments>
 		<attachments>
 			<item name="Whetstone" />
@@ -304,9 +271,6 @@
 		</attachments>
 		<attachments>
 			<item name="LargeTent" />
-		</attachments>
-		<attachments>
-			<item name="CarTent" />
 		</attachments>
 		<attachments>
 			<item name="MediumTent_Green" />

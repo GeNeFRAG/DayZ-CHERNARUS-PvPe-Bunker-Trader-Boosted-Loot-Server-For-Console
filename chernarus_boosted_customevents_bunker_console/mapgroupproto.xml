@@ -29,6 +29,42 @@
 			<point pos="0.068999 -1.178558 0.701673" range="0.838379" height="2.037003" flags="32" />
 		</container>
 	</group>
+	<group name="Static_Garbage_Pile2">
+		<usage name="Fire" />
+		<container name="lootFloor">
+			<category name="fire" />
+		</container>
+		<dispatch>
+			<proxy type="Bonfire" pos="0.0 -4.2 -0.0" rpy="180.000000 0.000000 0.0" />
+		</dispatch>
+	</group>
+	<group name="Static_Garbage_Pile4">
+		<usage name="Fire" />
+		<container name="lootFloor">
+			<category name="fire" />
+		</container>
+		<dispatch>
+			<proxy type="Bonfire" pos="0.0 -4.2 -0.0" rpy="180.000000 0.000000 0.0" />
+		</dispatch>
+	</group>
+	<group name="Static_Garbage_Pile5">
+		<usage name="Fire" />
+		<container name="lootFloor">
+			<category name="fire" />
+		</container>
+		<dispatch>
+			<proxy type="Bonfire" pos="0.0 -4.2 -0.0" rpy="180.000000 0.000000 0.0" />
+		</dispatch>
+	</group>
+	<group name="Static_Garbage_Pile6">
+		<usage name="Fire" />
+		<container name="lootFloor">
+			<category name="fire" />
+		</container>
+		<dispatch>
+			<proxy type="Bonfire" pos="0.0 -4.2 -0.0" rpy="180.000000 0.000000 0.0" />
+		</dispatch>
+	</group>	
 	<!-- ################### CUSTOM GROUPS END ################### -->
 	<group name="Land_Shed_M1" lootmax="2">
 		<usage name="Industrial" />

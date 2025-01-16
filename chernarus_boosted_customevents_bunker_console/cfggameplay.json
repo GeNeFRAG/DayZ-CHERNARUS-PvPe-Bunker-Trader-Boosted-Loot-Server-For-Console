@@ -44,13 +44,13 @@
     }
   },
   "WorldsData": {
-    "lightingConfig": 0,
+    "lightingConfig": 1,
     "objectSpawnersArr": [
       "custom/PunchedCard_Bunker_TisyHeli.json",
       "custom/spawnerData.json",
       "custom/b_Bunker_BlackLake_v2_Area.json",
       "custom/b_Bunker_BlackLake_v2_Loot.json",
-	  "dzmc_blacklake_by_novoGOD.json"
+	    "custom/dzmc_blacklake_by_novoGOD.json"
     ],
     "environmentMinTemps": [
       -3,

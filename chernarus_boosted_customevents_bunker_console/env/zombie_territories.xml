@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
-
     <!-- Mummies at Black Lake Bunker / replace with InfectedArmyHard -->
+    <!--
     <territory color="1910952871">
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="5" dmax="10" x="13327.85" z="12088.92" r="50"/>
-        <!-- South -->
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="5" dmax="10" x="13333.19" z="12173.97" r="50"/>
-        <!-- North -->
     </territory>
-
+    -->
     <territory color="1124502272">
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="9" dmax="13" x="7971.43" z="14642.8" r="110"/>
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="10" dmax="14" x="7781.25" z="14780.3" r="120"/>

@@ -84,7 +84,7 @@
 		<item name="AliceBag_Black" chance="1.00" />
 	</cargo>
 	<cargo chance="1.00" name="Grave_28">
-		<item name="PunchedCard" chance="1.00" />
+		<item name="PunchedCard" chance="0.05" />
 	</cargo>
 	<!-- ################### CUSTOM RANDOM PRESETS END ################### -->
 	<cargo chance="0.25" name="foodHermit">
