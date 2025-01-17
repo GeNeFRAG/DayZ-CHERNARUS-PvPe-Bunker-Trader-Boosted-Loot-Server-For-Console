@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <lists>
     <categories>
-        <category name="fire"/>
         <category name="tools"/>
         <category name="containers"/>
         <category name="clothes"/>
@@ -17,7 +16,6 @@
         <tag name="ground"/>
     </tags>
     <usageflags>
-        <usage name="Fire"/>
         <usage name="Military"/>
         <usage name="Police"/>
         <usage name="Medic"/>
