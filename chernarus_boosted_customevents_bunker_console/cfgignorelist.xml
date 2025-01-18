@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <ignore>
+	<!--
+	<type name="Woodenstick"></type>
+	-->
 	<type name="Bandage"></type>
 	<type name="BandanaMask_BlackPattern"></type>
 	<type name="BandanaMask_CamoPattern"></type>

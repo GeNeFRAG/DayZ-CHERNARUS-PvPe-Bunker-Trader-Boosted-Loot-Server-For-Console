@@ -26,15 +26,15 @@
         <max>3</max>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
+        <saferadius>1</saferadius>
+        <distanceradius>1</distanceradius>
         <cleanupradius>200</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="3" min="3" type="Truck_01_Covered"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Truck_01_Covered"/>
         </children>
     </event>
     <!-- Treasure Hunt event -->
@@ -49,7 +49,7 @@
         <cleanupradius>200</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="UndergroundStash"/>
@@ -67,10 +67,10 @@
         <cleanupradius>100</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="5" lootmin="2" max="4" min="0" type="Fireplace"/>
+            <child lootmax="5" lootmin="2" max="4" min="1" type="Fireplace"/>
         </children>
     </event>
     <!-- Custom Boat spawn to Bunker -->
@@ -83,9 +83,9 @@
         <saferadius>100</saferadius>
         <distanceradius>100</distanceradius>
         <cleanupradius>100</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <flags deletable="1" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Black"/>

@@ -8,11 +8,11 @@
 	<!-- Builder Truck event spawns -->
 	<event name="VehicleBuilderTruck">
 		<!-- Novaya North -->
-		<pos x="3179.71" z="13185.43" a="0" />
+		<pos x="3149.57" z="13032.82" a="0" />
 		<!-- Krasno Airfield -->
 		<pos x="12040.31" z="12705.22" a="0" />
 		<!-- Balota Airfield -->
-		<pos x="4707.10" z="2529.87" a="0" />
+		<pos x="4402.84" z="2624.89" a="0" />
 	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
@@ -42,7 +42,7 @@
 		<pos x="8160.70" z="11010.14" a="0" />
 		<pos x="3711.20" z="14823.89" a="0" />
 	</event>
-	<!-- Boats to Bunker -->
+	<!-- Boats to Skalisty -->
 	<event name="VehicleCustomBunkerBoat">
 		<pos x="12905.71" z="3643.64" a="0" />
 	</event>
