@@ -29,6 +29,7 @@
 			<point pos="0.068999 -1.178558 0.701673" range="0.838379" height="2.037003" flags="32" />
 		</container>
 	</group>
+
 	<!-- ################### CUSTOM GROUPS END ################### -->
 	<group name="Land_Shed_M1" lootmax="2">
 		<usage name="Industrial" />

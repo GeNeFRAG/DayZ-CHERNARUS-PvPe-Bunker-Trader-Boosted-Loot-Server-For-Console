@@ -2816,7 +2816,7 @@
 			<item name="ACOGOptic" chance="0.15"/>
 		</attachments>
 		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00"/>
+			<item name="UniversalLight" chance="1.00"/>
 		</attachments>
 	</type>
 	<type name="Vikhr">
@@ -3124,7 +3124,7 @@
 			<item name="ACOGOptic" chance="0.25"/>
 		</attachments>
 		<attachments chance="0.10">
-			<item name="TLRLight" chance="1.00"/>
+			<item name="UniversalLight" chance="1.00"/>
 		</attachments>
 		<attachments chance="0.10">
 			<item name="M4_Suppressor" chance="1.0"/>

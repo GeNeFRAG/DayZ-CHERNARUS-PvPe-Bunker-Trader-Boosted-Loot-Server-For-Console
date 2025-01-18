@@ -14457,7 +14457,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <min>4</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
-        <cost>1000</cost>
+        <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <category name="weapons"/>
         <usage name="ContaminatedArea"/>
@@ -17568,7 +17568,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-  <type name="Static_FrozenScientist_DE">
+  <type name="StaticObj_FrozenScientist_DE">
         <nominal>0</nominal>
         <lifetime>0</lifetime>
         <restock>0</restock>

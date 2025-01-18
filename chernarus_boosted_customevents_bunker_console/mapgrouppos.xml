@@ -5,7 +5,7 @@
     <group name="Land_Wreck_C130J_Cargo" pos="12390.892578 145.412436 12409.828125" rpy="8.146673 0.076398 95.305290" a="-5.305296" />
     <group name="Land_Wreck_C130J_Cargo" pos="5118.1 14.8 2337.9" rpy="8.146673 0.076398 95.305290" a="-5.305296" />
     <group name="Land_Wreck_C130J_Cargo" pos="4129.0 344.2 10804.3" rpy="8.146673 0.076398 95.305290" a="-5.305296" />
-
+    
     <!-- Costal check points -->
     <group name="Land_Mil_Tent_Big1_5" pos="9119.327148 7.307343 2099.525391" rpy="-0.000000 -0.000000 118.971329" a="-28.9713"/>
 	<group name="StaticObj_Wreck_Decal_Small1_NoLC" pos="12551.871094 7.934492 3556.373779" rpy="-1.526985 0.000000 0.000000" a="90"/>
