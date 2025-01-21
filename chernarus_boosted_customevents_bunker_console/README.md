@@ -34,9 +34,7 @@
 * Holiday events featuring Christmas trees with presents and themed Santa crash sites
 * Fireplace event at all hunter camps
 * Treasure hunt event at 4 random places
-* Terrorist attach dynamic events in major cities
-* Additional Contamination Control dynamic events at some of the medic stations
-* SWAT operation dynamic event accross the map
+* Custom AirDrop with smoke
 * Camp fires at hunting camp event
 * For details check events.xml
 
