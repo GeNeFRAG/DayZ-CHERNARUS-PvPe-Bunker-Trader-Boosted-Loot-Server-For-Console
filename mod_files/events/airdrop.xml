@@ -1,12 +1,12 @@
 <!-- Dynamic AirDrops with Smoke -->
 <event name="StaticMildrop">
-    <nominal>1</nominal>
-    <min>1</min>
-    <max>1</max>
-    <lifetime>5400</lifetime>
+    <nominal>3</nominal>
+    <min>0</min>
+    <max>0</max>
+    <lifetime>2100</lifetime>
     <restock>0</restock>
-    <saferadius>25</saferadius>
-    <distanceradius>500</distanceradius>
+    <saferadius>1000</saferadius>
+    <distanceradius>1000</distanceradius>
     <cleanupradius>1000</cleanupradius>
     <secondary>InfectedArmy</secondary>
     <flags deletable="1" init_random="0" remove_damaged="0"/>
@@ -18,17 +18,15 @@
 
 <!-- Dynamic AirDrops with Smoke -->
 <event name="StaticMildrop">
-    <zone smin="0" smax="0" dmin="1" dmax="2" r="30" />
-    <!--
-		<pos x="11726.5" y="161.714" z="13192.8" a="0" group="Mildrop" />
-		<pos x="12221" y="194.342" z="6966.87" a="0" group="Mildrop" />
-		<pos x="4799.92" y="367.042" z="5324.21" a="0" group="Mildrop"/>
-		<pos x="5535.41" y="481.277" z="14999.1" a="0" group="Mildrop" />
-		<pos x="2205.67" y="315.647" z="8110.64" a="0" group="Mildrop" /> 
-		<pos x="5901.2" y="269.84" z="10836.2" a="0" group="Mildrop" />
-		<pos x="9420.66" y="242.993" z="11258.1" a="0" group="Mildrop" />
-		<pos x="8614.11" y="268.499" z="3955.65" a="0" group="Mildrop" />
-		-->
+    <zone smin="0" smax="0" dmin="1" dmax="1" r="60" />
+    <pos x="11726.5" y="161.714" z="13192.8" a="0" group="Mildrop" />
+    <pos x="12221" y="194.342" z="6966.87" a="0" group="Mildrop" />
+    <pos x="4799.92" y="367.042" z="5324.21" a="0" group="Mildrop"/>
+    <pos x="5535.41" y="481.277" z="14999.1" a="0" group="Mildrop" />
+    <pos x="2205.67" y="315.647" z="8110.64" a="0" group="Mildrop" />
+    <pos x="5901.2" y="269.84" z="10836.2" a="0" group="Mildrop" />
+    <pos x="9420.66" y="242.993" z="11258.1" a="0" group="Mildrop" />
+    <pos x="8614.11" y="268.499" z="3955.65" a="0" group="Mildrop" />
     <pos x="11319.2" y="268.943" z="8363.92" a="0" group="Mildrop" />
 </event>
 

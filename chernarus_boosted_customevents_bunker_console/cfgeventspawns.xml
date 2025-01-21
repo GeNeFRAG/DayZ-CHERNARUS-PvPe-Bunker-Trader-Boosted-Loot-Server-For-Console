@@ -48,8 +48,7 @@
 	</event>
 	<!-- Dynamic AirDrops with Smoke -->
 	<event name="StaticMildrop">
-		<zone smin="0" smax="0" dmin="1" dmax="2" r="30" />
-		<!--
+		<zone smin="0" smax="0" dmin="1" dmax="1" r="60" />
 		<pos x="11726.5" y="161.714" z="13192.8" a="0" group="Mildrop" />
 		<pos x="12221" y="194.342" z="6966.87" a="0" group="Mildrop" />
 		<pos x="4799.92" y="367.042" z="5324.21" a="0" group="Mildrop"/>
@@ -58,7 +57,6 @@
 		<pos x="5901.2" y="269.84" z="10836.2" a="0" group="Mildrop" />
 		<pos x="9420.66" y="242.993" z="11258.1" a="0" group="Mildrop" />
 		<pos x="8614.11" y="268.499" z="3955.65" a="0" group="Mildrop" />
-		-->
 		<pos x="11319.2" y="268.943" z="8363.92" a="0" group="Mildrop" />
     </event>  
 	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
