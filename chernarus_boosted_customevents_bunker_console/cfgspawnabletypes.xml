@@ -153,12 +153,6 @@
 			<item name="Barrel_Green" />
 		</attachments>
 		<attachments>
-			<item name="Barrel_Red" />
-		</attachments>
-		<attachments>
-			<item name="Barrel_Yellow" />
-		</attachments>
-		<attachments>
 			<item name="Pliers" />
 		</attachments>
 		<attachments>
@@ -274,12 +268,6 @@
 		</attachments>
 		<attachments>
 			<item name="MediumTent_Green" />
-		</attachments>
-		<attachments>
-			<item name="MediumTent" />
-		</attachments>
-		<attachments>
-			<item name="MediumTent_Orange" />
 		</attachments>
 		<attachments>
 			<item name="EpoxyPutty" />

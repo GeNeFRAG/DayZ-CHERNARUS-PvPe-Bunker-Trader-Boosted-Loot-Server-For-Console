@@ -29,7 +29,22 @@
 			<point pos="0.068999 -1.178558 0.701673" range="0.838379" height="2.037003" flags="32" />
 		</container>
 	</group>
-
+	<!-- WoodenCrate with Loot -->
+	<group name="Land_Roadblock_WoodenCrate" lootmax="9">
+		<usage name="Police" />
+		<usage name="Military" />
+		<container name="loot" lootmax="9">
+			<point pos="0.208985 0.390473 -0.220703" range="0.900000" height="1.500000" />
+			<point pos="0.547852 0.393585 0.260742" range="0.140000" height="1.500000" />
+			<point pos="-0.183593 0.390991 -0.250977" range="0.140000" height="1.500000" />
+			<point pos="-0.512695 0.392044 0.221679" range="0.140000" height="1.500000" />
+			<point pos="-0.533203 0.391510 -0.252930" range="0.140000" height="1.500000" />
+			<point pos="-0.187500 0.392410 0.301757" range="0.140000" height="1.500000" />
+			<point pos="0.561524 0.389923 -0.269532" range="0.140000" height="1.500000" />
+			<point pos="0.089844 0.392746 0.242187" range="0.900000" height="1.500000" />
+			<point pos="0.370118 0.391205 0.012695" range="0.140000" height="1.500000" />
+		</container>
+	</group>
 	<!-- ################### CUSTOM GROUPS END ################### -->
 	<group name="Land_Shed_M1" lootmax="2">
 		<usage name="Industrial" />
