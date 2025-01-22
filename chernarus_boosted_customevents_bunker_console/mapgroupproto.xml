@@ -98,27 +98,6 @@
 			<point pos="0.042480 0.315 -0.051758" range="0.2" height="1.2" />
 		</container>
 	</group>
-	<!-- Lunapark Carousel Swan Spawn -->
-	<group name="Land_Lunapark_Carousel_Swan" lootmax="4">
-		<usage name="Industrial" />
-		<usage name="Farm" />
-		<usage name="Military" />
-		<container name="lootFloor" lootmax="4">
-			<point pos="-0.435867 -3.680336 -0.948185" range="0.5" height="1.5" />
-			<point pos="0.552765 -3.680336 -4.212945" range="0.5" height="1.5" />
-			<point pos="-0.680439 -3.080042 -6.337099" range="0.5" height="1.5" />
-			<point pos="0.654760 -1.013702 -7.539509" range="0.5" height="1.5" />
-			<point pos="0.189949 -0.783072 0.871273" range="0.5" height="1.5" />
-			<point pos="3.604137 2.679676 3.330738" range="0.5" height="1.5" />
-			<point pos="7.400452 -3.558144 0.853417" range="0.5" height="1.5" />
-			<point pos="-4.823814 -0.485190 4.799901" range="0.5" height="1.5" />
-			<point pos="-5.987111 -3.301433 1.138624" range="0.5" height="1.5" />
-			<point pos="0.276041 -3.413229 7.936946" range="0.5" height="1.5" />
-			<point pos="-4.674926 -3.969443 -3.020214" range="0.5" height="1.5" />
-			<point pos="-4.674926 -3.969443 -3.020214" range="0.5" height="1.5" />
-			<point pos="1.556108 1.272437 -4.354677" range="0.5" height="1.5" />
-		</container>
-	</group>
 	<!-- ################### CUSTOM GROUPS END ################### -->
 	<group name="Land_Shed_M1" lootmax="2">
 		<usage name="Industrial" />
@@ -16438,6 +16417,9 @@
 	<group name="Land_Lunapark_Carousel_Swan" lootmax="3">
 		<usage name="Town" />
 		<usage name="Village" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Military" />
 		<container name="lootFloor" lootmax="2">
 			<category name="tools" />
 			<category name="containers" />
