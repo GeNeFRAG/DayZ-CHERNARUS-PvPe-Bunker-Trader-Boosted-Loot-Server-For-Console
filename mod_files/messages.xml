@@ -1,38 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
     <!--
-    See https://community.bistudio.com/wiki/DayZ:Server_Messages for more information
-    Example messages:
-    1) following message will be displayed to every player in countdown manner
-    and RESTARTS the server in 10 hours from when it starts up -->
     <message>
-        <deadline>600</deadline>        <!-- this is the timer between restarts -->
-        <shutdown>1</shutdown>        <!-- tells the server to RESTART when deadline is reached -->
-        <text>This server (#name) will shutdown in #tmin minutes.</text>        <!-- message text -->
+        <deadline>240</deadline>
+        <shutdown>1</shutdown>
+        <text>This server (#name) will shutdown in #tmin minutes.</text>
     </message>
-
-    <!-- 2) following message will be displayed every 15 minutes to every player -->
-
+-->
     <message>
-        <repeat>15</repeat>        <!-- minutes between repeat of message is displayed -->
-        <text>You're playing on my server (#name). Thank you .)</text>        <!-- message text -->
+        <delay>2</delay>
+        <onconnect>1</onconnect>
+        <text>Welcome to my server #name!</text>
     </message>
-    <!-- 3) following message will be displayed every 50 minutes to every player
-    and 10 minutes after player connect -->
-
     <message>
-        <delay>10</delay>        <!-- with "onconnect" set to 1, the minutes after player login before message first displays -->
-        <repeat>50</repeat>        <!-- minutes between repeat of message is displayed -->
-        <onconnect>1</onconnect>        <!-- makes this message display on player connect when delay reaches 0 -->
-        <text>Check our web page at www.dayz.com</text>        <!-- message text -->
+        <delay>2</delay>
+        <onconnect>1</onconnect>
+        <text>Don't forget to link your GT in the Discord: https://discord.gg/p7tAXTmTse</text>
     </message>
-
-    <!-- 4) following message will be displayed once
-    and 2 minutes after player connect -->
-
     <message>
-        <delay>2</delay>        <!-- with "onconnect" set to 1, the minutes after player login before message first displays -->
-        <onconnect>1</onconnect>        <!-- makes this message display on player connect when delay reaches 0 -->
-        <text>Welcome to my server #name</text>        <!-- message text -->
+        <delay>2</delay>
+        <onconnect>1</onconnect>
+        <text>If you don't link your GT the bot will ban you after 60min total playtime</text>
     </message>
-
+    <message>
+        <delay>10</delay>
+        <onconnect>1</onconnect>
+        <text>Don't forget to link your GT: https://discord.gg/p7tAXTmTse</text>
+    </message>
+    <message>
+        <repeat>10</repeat>
+        <text>JOIN: https://discord.gg/p7tAXTmTse</text>
+    </message>
+    <message>
+        <repeat>30</repeat>
+        <text>You're playing on (#name)</text>
+    </message>
+    <message>
+        <repeat>30</repeat>
+        <text>NO ALTS</text>
+    </message>
+     <message>
+        <repeat>30</repeat>
+        <text>NO BASE LOGGING</text>
+    </message>
+    <message>
+        <repeat>30</repeat>
+        <text>NO TAKING OVER BASES</text>
+    </message>
+    <message>
+        <repeat>30</repeat>
+        <text>NO GRIEVING BASES</text>
+    </message>
+    <message>
+        <repeat>30</repeat>
+        <text>NO RAIDING OUTSIDE RAIDING TIMES</text>
+    </message>
+    <message>
+        <repeat>30</repeat>
+        <text>NO BUILDING IN BUNKERS, MILITARY, POLICE OR SAFE ZONES</text>
+    </message>
+    <message>
+        <repeat>30</repeat>
+        <text>NO PLACED ITEMS TO RAID</text>
+    </message>
+    <message>
+        <repeat>30</repeat>
+        <text>NO SPAWN AND TRADER-ZONE KILLING</text>
+    </message>
+    <message>
+        <repeat>20</repeat>
+        <text>RAID TIMES:</text>
+    </message>
+    <message>
+        <repeat>20</repeat>
+        <text>SA (UTC+01:00): 14:00 - 00:00</text>
+    </message>
+    <message>
+        <repeat>20</repeat>
+        <text>SO (UTC+01:00): 12:00 - 20:00</text>
+    </message>
+    <message>
+        <repeat>20</repeat>
+        <text>SERVER RESTARTS (4h): 00:00  04:00  08:00  12:00  16:00  20:00  00:00</text>
+    </message>
 </messages>

@@ -1,0 +1,503 @@
+{
+    "spawnWeight": 1,
+    "name": "Player",
+    "characterTypes": [
+      "SurvivorM_Mirek",
+      "SurvivorM_Boris",
+      "SurvivorM_Cyril",
+      "SurvivorM_Denis",
+      "SurvivorM_Elias",
+      "SurvivorM_Francis",
+      "SurvivorM_Guo",
+      "SurvivorM_Jose",
+      "SurvivorM_Kaito",
+      "SurvivorM_Niki",
+      "SurvivorM_Oliver",
+      "SurvivorM_Peter",
+      "SurvivorM_Quinn",
+      "SurvivorM_Rolf",
+      "SurvivorM_Seth",
+      "SurvivorF_Eva",
+      "SurvivorF_Frida",
+      "SurvivorF_Gabi",
+      "SurvivorF_Irena",
+      "SurvivorF_Linda",
+      "SurvivorF_Maria",
+      "SurvivorF_Naomi"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "FlatCap_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                   "itemType":"BaseballCap_Blue",
+                   "spawnWeight":1,
+                   "attributes":{
+                      "healthMin":1.0,
+                      "healthMax":1.0,
+                      "quantityMin":1.0,
+                      "quantityMax":1.0
+                   },
+                   "quickBarSlot":-1
+                },
+                {
+                   "itemType":"BaseballCap_Blue",
+                   "spawnWeight":1,
+                   "attributes":{
+                      "healthMin":1.0,
+                      "healthMax":1.0,
+                      "quantityMin":1.0,
+                      "quantityMax":1.0
+                   },
+                   "quickBarSlot":-1
+                },
+                {
+                   "itemType":"BaseballCap_Olive",
+                   "spawnWeight":1,
+                   "attributes":{
+                      "healthMin":1.0,
+                      "healthMax":1.0,
+                      "quantityMin":1.0,
+                      "quantityMax":1.0
+                   },
+                   "quickBarSlot":-1
+                }                 
+            ]
+        },
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "Tshirt_10thAnniversary",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Shirt_BlueCheck",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Shirt_BlueCheckBright",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Shirt_GreenCheck",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Shirt_WhiteCheck",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Shirt_RedCheck",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }                 
+            ]
+        },
+		{
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "MimeMask_Male",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },	 
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "Jeans_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Jeans_BlueDark",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Jeans_Blue",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Jeans_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Jeans_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Jeans_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+            "slotName": "Hips",
+            "discreteItemSets": [
+                {
+                    "itemType": "MilitaryBelt",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "NylonKnifeSheath",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "itemType": "Canteen",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 8,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },                        
+						{
+                            "itemType": "CombatKnife",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 3,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierHolster",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+						{
+                            "itemType": "Colt1911",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 7,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_1911_7Rnd"
+                            ]
+                        }                                                 
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "Sneakers_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                    "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Sneakers_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Sneakers_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Sneakers_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Sneakers_White",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Sneakers_Red",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 0.70,
+                        "healthMax": 1.00,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "WoolGlovesFingerless_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+						"healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+				"slotName": "Back",
+                "discreteItemSets": [
+                    {
+                    "itemType": "CanvasBag_Olive",
+                    "spawnWeight": 1,
+					"attributes": {
+                        "healthMin": 1.0,
+						"healthMax": 1.0,
+						"quantityMin": 1.0,
+						"quantityMax": 1.0
+                    },
+					"quickBarSlot": -1,
+					"simpleChildrenUseDefaultAttributes": false,
+					"simpleChildrenTypes": [
+						"Mag_1911_7Rnd",
+						"AmmoBox_45ACP_25rnd",
+						"SodaCan_Cola",
+                        "ZagorkyChocolate",
+                        "PainkillerTablets",
+                        "TetracyclineAntibiotics",
+						"VitaminBottle"       
+					]
+                }  
+			]
+        }
+    ],
+    "discreteUnsortedItemSets": [
+            {
+                "name": "Cargo1",
+                "spawnWeight": 1,
+                "attributes": {
+                    "healthMin": 1.0,
+                    "healthMax": 1.0,
+                    "quantityMin": 1.0,
+                    "quantityMax": 1.0
+                },
+                "complexChildrenTypes": [
+                    {
+                        "itemType": "BandageDressing",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 1
+                    },
+                    {
+                        "itemType": "ChernarusMap",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 2
+                    },
+                    {
+                        "itemType": "SalineBagIV",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 4
+                    },
+					{
+                        "itemType": "Morphine",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 5
+                    },
+                    {
+                        "itemType": "PeachesCan_Opened",
+                        "attributes": {
+                            "healthMin": 1.0,
+                            "healthMax": 1.0,
+                            "quantityMin": 1.0,
+                            "quantityMax": 1.0
+                        },
+                        "quickBarSlot": 6
+                    }
+                ]
+            }
+                ]
+            }
+

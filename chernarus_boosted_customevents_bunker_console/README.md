@@ -42,3 +42,6 @@
 * One small punched card bunker at the Tisy Helipad
 * One large punched card bunker at Black Lake with Zombies
 * C130J plane crash events at major airfields (NWAF, Balota, Krasnostav)
+* Checkpoints Coastal Road
+* Abandond survivor camps Black Lake
+* Custom gasstation south east
