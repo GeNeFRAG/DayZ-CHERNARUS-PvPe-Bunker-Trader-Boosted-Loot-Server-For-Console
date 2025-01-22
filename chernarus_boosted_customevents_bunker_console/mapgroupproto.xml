@@ -45,6 +45,80 @@
 			<point pos="0.370118 0.391205 0.012695" range="0.140000" height="1.500000" />
 		</container>
 	</group>
+	<!-- Roadblock table with Loot -->
+	<group name="StaticObj_Misc_Table_Camp" lootmax="3">
+		<usage name="Village" />
+		<usage name="Hunting" />
+		<usage name="Coast" />
+		<container name="loot" lootmax="3">
+			<category name="tools" />
+			<category name="clothes" />
+			<category name="weapons" />
+			<tag name="shelves" />
+			<point pos="0.298584 0.400101 -0.024414" range="0.100000" height="0.250000" />
+			<point pos="0.007813 0.400101 0.422363" range="0.375000" height="0.937500" />
+			<point pos="-0.274536 0.400101 0.846191" range="0.134265" height="0.335938" />
+			<point pos="0.283325 0.400101 0.902344" range="0.100000" height="0.250000" />
+			<point pos="-0.281982 0.400101 -0.034668" range="0.100000" height="0.250000" />
+			<point pos="-0.022095 0.400101 -0.526611" range="0.375000" height="0.937500" />
+		</container>
+	</group>
+	<!-- Piano with Loot -->
+	<group name="Static_Furniture_piano" lootmax="4">
+		<usage name="Village" />
+		<usage name="Town" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<container name="lootFloor" lootmax="4">
+			<category name="tools" />
+			<category name="clothes" />
+			<category name="food" />
+			<category name="weapons" />
+			<point pos="0.214844 0.449432 -0.570313" range="0.45" height="1.25" />
+			<point pos="-0.245117 0.450226 -0.122559" range="0.45" height="1.25" />
+			<point pos="0.252930 0.449188 0.119628" range="0.35" height="1.25" />
+		</container>
+	</group>
+	<!-- Box C with Loot -->
+	<group name="Static_Furniture_box_c" lootmax="1">
+		<usage name="Village" />
+		<usage name="Town" />
+		<usage name="Military" />
+		<usage name="Police" />
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<container name="lootFloor" lootmax="1">
+			<category name="tools" />
+			<category name="clothes" />
+			<category name="food" />
+			<category name="weapons" />
+			<point pos="-0.051758 0.315 0.042480" range="0.2" height="1.2" />
+			<point pos="0.042480 0.315 -0.051758" range="0.2" height="1.2" />
+		</container>
+	</group>
+	<!-- Lunapark Carousel Swan Spawn -->
+	<group name="Land_Lunapark_Carousel_Swan" lootmax="4">
+		<usage name="Industrial" />
+		<usage name="Farm" />
+		<usage name="Military" />
+		<container name="lootFloor" lootmax="4">
+			<point pos="-0.435867 -3.680336 -0.948185" range="0.5" height="1.5" />
+			<point pos="0.552765 -3.680336 -4.212945" range="0.5" height="1.5" />
+			<point pos="-0.680439 -3.080042 -6.337099" range="0.5" height="1.5" />
+			<point pos="0.654760 -1.013702 -7.539509" range="0.5" height="1.5" />
+			<point pos="0.189949 -0.783072 0.871273" range="0.5" height="1.5" />
+			<point pos="3.604137 2.679676 3.330738" range="0.5" height="1.5" />
+			<point pos="7.400452 -3.558144 0.853417" range="0.5" height="1.5" />
+			<point pos="-4.823814 -0.485190 4.799901" range="0.5" height="1.5" />
+			<point pos="-5.987111 -3.301433 1.138624" range="0.5" height="1.5" />
+			<point pos="0.276041 -3.413229 7.936946" range="0.5" height="1.5" />
+			<point pos="-4.674926 -3.969443 -3.020214" range="0.5" height="1.5" />
+			<point pos="-4.674926 -3.969443 -3.020214" range="0.5" height="1.5" />
+			<point pos="1.556108 1.272437 -4.354677" range="0.5" height="1.5" />
+		</container>
+	</group>
 	<!-- ################### CUSTOM GROUPS END ################### -->
 	<group name="Land_Shed_M1" lootmax="2">
 		<usage name="Industrial" />
