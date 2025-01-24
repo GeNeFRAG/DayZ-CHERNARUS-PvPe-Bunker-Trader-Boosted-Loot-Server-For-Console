@@ -29,75 +29,6 @@
 			<point pos="0.068999 -1.178558 0.701673" range="0.838379" height="2.037003" flags="32" />
 		</container>
 	</group>
-	<!-- WoodenCrate with Loot -->
-	<group name="Land_Roadblock_WoodenCrate" lootmax="9">
-		<usage name="Police" />
-		<usage name="Military" />
-		<container name="loot" lootmax="9">
-			<point pos="0.208985 0.390473 -0.220703" range="0.900000" height="1.500000" />
-			<point pos="0.547852 0.393585 0.260742" range="0.140000" height="1.500000" />
-			<point pos="-0.183593 0.390991 -0.250977" range="0.140000" height="1.500000" />
-			<point pos="-0.512695 0.392044 0.221679" range="0.140000" height="1.500000" />
-			<point pos="-0.533203 0.391510 -0.252930" range="0.140000" height="1.500000" />
-			<point pos="-0.187500 0.392410 0.301757" range="0.140000" height="1.500000" />
-			<point pos="0.561524 0.389923 -0.269532" range="0.140000" height="1.500000" />
-			<point pos="0.089844 0.392746 0.242187" range="0.900000" height="1.500000" />
-			<point pos="0.370118 0.391205 0.012695" range="0.140000" height="1.500000" />
-		</container>
-	</group>
-	<!-- Roadblock table with Loot -->
-	<group name="StaticObj_Misc_Table_Camp" lootmax="3">
-		<usage name="Village" />
-		<usage name="Hunting" />
-		<usage name="Coast" />
-		<container name="loot" lootmax="3">
-			<category name="tools" />
-			<category name="clothes" />
-			<category name="weapons" />
-			<tag name="shelves" />
-			<point pos="0.298584 0.400101 -0.024414" range="0.100000" height="0.250000" />
-			<point pos="0.007813 0.400101 0.422363" range="0.375000" height="0.937500" />
-			<point pos="-0.274536 0.400101 0.846191" range="0.134265" height="0.335938" />
-			<point pos="0.283325 0.400101 0.902344" range="0.100000" height="0.250000" />
-			<point pos="-0.281982 0.400101 -0.034668" range="0.100000" height="0.250000" />
-			<point pos="-0.022095 0.400101 -0.526611" range="0.375000" height="0.937500" />
-		</container>
-	</group>
-	<!-- Piano with Loot -->
-	<group name="Static_Furniture_piano" lootmax="4">
-		<usage name="Village" />
-		<usage name="Town" />
-		<usage name="Military" />
-		<usage name="Police" />
-		<usage name="Industrial" />
-		<usage name="Farm" />
-		<container name="lootFloor" lootmax="4">
-			<category name="tools" />
-			<category name="clothes" />
-			<category name="food" />
-			<category name="weapons" />
-			<point pos="0.214844 0.449432 -0.570313" range="0.45" height="1.25" />
-			<point pos="-0.245117 0.450226 -0.122559" range="0.45" height="1.25" />
-			<point pos="0.252930 0.449188 0.119628" range="0.35" height="1.25" />
-		</container>
-	</group>
-	<!-- Box C with Loot -->
-	<group name="Static_Furniture_box_c" lootmax="1">
-		<usage name="Village" />
-		<usage name="Town" />
-		<usage name="Military" />
-		<usage name="Police" />
-		<usage name="Industrial" />
-		<usage name="Farm" />
-		<container name="lootFloor" lootmax="1">
-			<category name="tools" />
-			<category name="clothes" />
-			<category name="food" />
-			<category name="weapons" />
-			<point pos="-0.051758 0.315 0.042480" range="0.2" height="1.2" />
-			<point pos="0.042480 0.315 -0.051758" range="0.2" height="1.2" />
-		</container>
-	</group>
 	<!-- ################### CUSTOM GROUPS END ################### -->
 	<group name="Land_Shed_M1" lootmax="2">
 		<usage name="Industrial" />
@@ -8588,6 +8519,13 @@
 			<point pos="-8.535398 -5.639824 -11.738770" range="1.199951" height="2.000000" />
 			<point pos="-19.070557 4.460175 -0.683594" range="1.199951" height="2.000000" />
 		</container>
+		<dispatch dechance="0.5">
+			<proxy type="SodaCan_Kvass" pos="-13.453126 -14.504822 -0.994629" rpy="0.000000 0.000000 -90.000000" />
+			<proxy type="SodaCan_Cola" pos="-13.453126 -14.504822 -0.994629" rpy="0.000000 0.000000 -90.000000" />
+			<proxy type="SodaCan_Fronta" pos="-13.453126 -14.504822 -0.994629" rpy="0.000000 0.000000 -90.000000" />
+			<proxy type="SodaCan_Pipsi" pos="-13.453126 -14.504822 -0.994629" rpy="0.000000 0.000000 -90.000000" />
+			<proxy type="SodaCan_Spite" pos="-13.453126 -14.504822 -0.994629" rpy="0.000000 0.000000 -90.000000" />
+		</dispatch>
 	</group>
 	<group name="Land_Mil_Airfield_HQ" lootmax="20">
 		<usage name="Military" />
@@ -11481,6 +11419,13 @@
 			<point pos="0.370956 3.292519 8.228090" range="1.200000" height="2.000000" />
 			<point pos="8.448201 -7.350072 13.449620" range="1.200000" height="2.000000" />
 		</container>
+		<dispatch dechance="0.5">
+			<proxy type="SodaCan_Fronta" pos="-0.552735 -6.816071 -8.975586" rpy="0.000000 0.000000 -90.000000" />
+			<proxy type="SodaCan_Cola" pos="-0.552735 -6.816071 -8.975586" rpy="0.000000 0.000000 -90.000000" />
+			<proxy type="SodaCan_Kvass" pos="-0.552735 -6.816071 -8.975586" rpy="0.000000 0.000000 -90.000000" />
+			<proxy type="SodaCan_Pipsi" pos="-0.552735 -6.816071 -8.975586" rpy="0.000000 0.000000 -90.000000" />
+			<proxy type="SodaCan_Spite" pos="-0.552735 -6.816071 -8.975586" rpy="0.000000 0.000000 -90.000000" />
+		</dispatch>
 	</group>
 	<group name="Land_Misc_TrailRoof_Big" lootmax="2">
 		<usage name="Hunting" />
@@ -12846,6 +12791,12 @@
 			<point pos="-4.164428 -1.856922 2.812988" range="0.277910" height="1.145630" flags="32" />
 			<point pos="-4.802368 -1.856922 -0.578615" range="0.329033" height="1.024933" flags="32" />
 		</container>
+		<dispatch dechance="0.1">			<!-- adjust chance-->
+			<proxy type="Aug" pos="-3.017131 -1.5 0.206791" rpy="90.0 30.0 -10.0" dechance="1.00" />
+		</dispatch>
+		<dispatch dechance="0.1">			<!-- adjust chance-->
+			<proxy type="FAL" pos="-5.15 -1.5 -0.52" rpy="5.0 0.0 -25.0" dechance="1.00" />
+		</dispatch>
 	</group>
 	<group name="Wreck_Mi8" lootmax="15">
 		<usage name="Military" />
@@ -12892,6 +12843,12 @@
 			<point pos="3.368212 -1.697937 0.870082" range="0.912368" height="1.900002" />
 			<point pos="2.554070 -1.697937 4.891639" range="0.925143" height="1.900002" />
 		</container>
+		<dispatch dechance="0.1">			<!-- adjust chance-->
+			<proxy type="AKM" pos="-3.017131 -1.5 0.206791" rpy="90.0 30.0 -10.0" dechance="1.00" />
+		</dispatch>
+		<dispatch dechance="0.3">			<!-- adjust chance-->
+			<proxy type="AK74" pos="-5.15 -1.5 -0.52" rpy="5.0 0.0 -25.0" dechance="1.00" />
+		</dispatch>
 	</group>
 	<group name="Wreck_Mi8_Crashed" lootmax="15">
 		<usage name="Military" />

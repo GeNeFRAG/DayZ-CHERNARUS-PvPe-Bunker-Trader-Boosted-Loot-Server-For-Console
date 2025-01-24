@@ -2,9 +2,27 @@
 <spawnabletypes>
 	<!-- ################### CUSTOM SPAWNABLE ITEMS START ################### -->
 	<!-- For Bunker testing -->
-	<type name="ImprovisedBag">
+	<type name="DryBag_Yellow">
 		<cargo chance="1.0">
 			<item name="PunchedCard" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="NVGHeadstrap" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="NVGHeadstrap" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="NVGoggles" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="NVGoggles" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="Battery9V" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="Battery9V" />
 		</cargo>
 	</type>
 	<!-- CammoNetShelter (only spawns in containers -->

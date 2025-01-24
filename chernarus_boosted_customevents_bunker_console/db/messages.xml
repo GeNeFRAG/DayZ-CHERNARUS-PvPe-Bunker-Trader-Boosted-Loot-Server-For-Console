@@ -20,7 +20,7 @@
     <message>
         <delay>2</delay>
         <onconnect>1</onconnect>
-        <text>If you don't link your GT the bot will ban you after 60min total playtime</text>
+        <text>If you don't link your GT the bot will remove you after 60min total playtime</text>
     </message>
     <message>
         <delay>10</delay>
