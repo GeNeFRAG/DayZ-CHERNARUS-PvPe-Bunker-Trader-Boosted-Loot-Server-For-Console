@@ -48,7 +48,7 @@
 	</event>
 	<!-- Dynamic AirDrops with Smoke -->
 	<event name="StaticMildrop">
-		<zone smin="0" smax="0" dmin="1" dmax="1" r="60" />
+		<zone smin="0" smax="0" dmin="4" dmax="8" r="45" />
 		<pos x="11726.5" y="161.714" z="13192.8" a="0" group="Mildrop" />
 		<pos x="12221" y="194.342" z="6966.87" a="0" group="Mildrop" />
 		<pos x="4799.92" y="367.042" z="5324.21" a="0" group="Mildrop"/>

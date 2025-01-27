@@ -88,9 +88,6 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Black"/>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Blue"/>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Camo"/>
             <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Orange"/>
         </children>
     </event>
@@ -1172,7 +1169,9 @@
             <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Black"/>
             <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Blue"/>
             <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Camo"/>
+            <!-- Reserved for Skalisty Island
             <child lootmax="0" lootmin="0" max="1" min="1" type="Boat_01_Orange"/>
+            -->
         </children>
     </event>
     <event name="VehicleCivilianSedan">

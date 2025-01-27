@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <ignore>
+	<!-- ################### CUSTOM IGNORE LIST START ################### -->
 	<type name="Truck_01_Covered"></type>
+	<type name="Boat_01_Orange"></type>
+	<!-- ################### CUSTOM IGNORE LIST END ################### -->
 	<type name="Bandage"></type>
 	<type name="BandanaMask_BlackPattern"></type>
 	<type name="BandanaMask_CamoPattern"></type>
@@ -9,7 +12,7 @@
 	<type name="BandanaMask_RedPattern"></type>
 	<type name="CattleProd"></type>
 	<type name="DallasMask"></type>
-	<type name="Defibrillator"></type>
+	<!-- <type name="Defibrillator"></type> -->
 	<type name="EngineOil"></type>
 	<type name="HescoBox"></type>
 	<!-- <type name="EasterEgg"></type> -->

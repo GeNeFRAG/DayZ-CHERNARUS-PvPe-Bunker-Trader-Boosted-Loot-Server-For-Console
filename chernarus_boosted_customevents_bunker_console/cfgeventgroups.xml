@@ -4,36 +4,36 @@
     <!-- Dynamic AirDrops with Smoke -->
     <group name="Mildrop">
 	    <child type="Land_Container_1Moh_DE" deloot="0" lootmax="0" lootmin="0" x="0" y="0" z="0" a="155.7"/>
-        <child type="Wreck_UH1Y" deloot="0" lootmax="0" lootmin="0" x="0" y="-10" z="0" a="155.7"/>  
-        <child type="AK101_Green" deloot="0" lootmax="3" lootmin="0" x="2.842774" y="-0.608246" z="-3.060058" a="-130.917"/>  
-        <child type="Mag_STANAG_60Rnd" deloot="0" lootmax="3" lootmin="1" x="1.179687" y="-0.487976" z="3.469727" a="111.523"/>   
-        <child type="Mag_STANAG_60Rnd" deloot="0" lootmax="3" lootmin="1" x="1.950195" y="-0.487976 " z="-0.560058" a="-71.3191"/>  
-        <child type="NVGoggles" deloot="0" lootmax="2" lootmin="0" x="0.762695" y="-0.518219" z="2.205567" a="165.696"/>    
-        <child type="NVGHeadstrap" deloot="0" lootmax="2" lootmin="0" x="3.057617" y="-0.465881" z="-1.291504" a="-71.3191"/>    
-        <child type="FAL" deloot="0" lootmax="2" lootmin="0" x="3.647461" y="-0.611206" z="3.680176" a="176.795"/>   
-        <child type="BDUJacket" deloot="0" lootmax="2" lootmin="0" x="2.125000" y="-0.654754" z="-4.901855" a="-8.26888"/> 
-        <child type="Mag_AK101_30Rnd_Green" deloot="0" lootmax="2" lootmin="0" x="-0.732422" y="-0.572937" z="-3.427246" a="17.2199"/>   
-        <child type="GorkaPants_Autumn" deloot="0" lootmax="2" lootmin="1" x="3.401367 " y=" -0.636657" z="-2.239258" a="-0.924941"/>   
-        <child type="Glock19" deloot="0" lootmax="2" lootmin="0" x="-0.301758" y="-0.608764" z="3.982910" a="10.2013"/> 
-        <child type="M4A1_Black" deloot="0" lootmax="2" lootmin="0" x="4.041992" y="-0.460998" z="-1.862793" a="-5.52848"/> 
-        <child type="GhillieSuit_Woodland" deloot="0" lootmax="1" lootmin="0" x="1.607422" y="-0.519775" z="-1.887207" a="-88.2375"/>     
-        <child type="PlateCarrierVest_Camo" deloot="0" lootmax="1" lootmin="0" x="2.903320" y="-0.653076" z="-3.991211" a="-12.4767"/>
-        <child type="Mag_FAL_20Rnd" deloot="0" lootmax="2" lootmin="0" x="-1.795899" y="-0.540619" z="2.326660" a="77.5066"/>
-        <child type="Mag_FAL_20Rnd" deloot="0" lootmax="2" lootmin="0" x="1.815430" y="-0.540619" z="4.339844" a="-176.215"/>
-        <child type="Mag_M14_20Rnd" deloot="0" lootmax="2" lootmin="0" x="-1.044922" y="-0.546234" z="-2.053711" a="67.4995"/>
-        <child type="Mag_M14_20Rnd" deloot="0" lootmax="2" lootmin="0" x="-0.637695" y="-0.653106" z="1.635254" a="-14.6095"/>
-        <child type="Mag_AKM_Drum75Rnd" deloot="0" lootmax="2" lootmin="0" x="0.568359" y="-0.518005" z="-0.805176" a="65.8698"/>
-        <child type="Mich2001Helmet" deloot="0" lootmax="2" lootmin="0" x="2.261719" y="-0.434814" z="0.137207" a="-19.5094"/> 
-        <child type="M14" deloot="0" lootmax="2" lootmin="0" x="-3.013672" y="-0.671661" z="-1.568359" a="-2.6695"/> 
-        <child type="AK74_Black" deloot="0" lootmax="2" lootmin="0" x="0.960937" y="-0.613891" z="-3.458496" a="87.7976"/> 
-        <child type="GorkaHelmet" deloot="0" lootmax="2" lootmin="0" x="-1.833985" y="-0.609558" z="4.742676" a="-21.8064"/>
-        <child type="GorkaEJacket_Autumn" deloot="0" lootmax="2" lootmin="0" x="4.684570" y="-0.658966" z="2.369141" a="-0.514853"/>
-        <child type="Mag_AK74_30Rnd_Black" deloot="0" lootmax="2" lootmin="0" x="1.565430" y="-0.601623" z="1.950684" a="-71.4423"/>
-        <child type="Mag_AK74_30Rnd_Black" deloot="0" lootmax="2" lootmin="0" x="3.131836" y="-0.602752" z="2.467285" a="-86.6809"/>  
-        <child type="Mag_AKM_Drum75Rnd_Green" deloot="0" lootmax="2" lootmin="0" x="3.131836" y="-0.602752" z="-0.598633" a="-121.853"/>
-        <child type="GhillieHood_Woodland" deloot="0" lootmax="2" lootmin="0" x="-0.937500" y="-0.020996" z="3.247070" a="-1.10521"/>
-        <child type="PlateCarrierVest_Black" deloot="0" lootmax="2" lootmin="0" x="-3.597656" y="-0.652984" z="-0.162597" a="-5.03678"/>   
-        <child type="BDUPants" deloot="0" lootmax="2" lootmin="0" x="-3.487305" y="-0.615997" z="1.887207" a="1.69228"/>
+        <child type="Wreck_UH1Y" spawnsecondary="false" deloot="0" lootmax="0" lootmin="0" x="0" y="-10" z="0" a="155.7"/>  
+        <child type="AK101_Green" spawnsecondary="false" deloot="0" lootmax="3" lootmin="0" x="2.842774" y="-0.608246" z="-3.060058" a="-130.917"/>  
+        <child type="Mag_STANAG_60Rnd" spawnsecondary="false" deloot="0" lootmax="3" lootmin="1" x="1.179687" y="-0.487976" z="3.469727" a="111.523"/>   
+        <child type="Mag_STANAG_60Rnd" spawnsecondary="false" deloot="0" lootmax="3" lootmin="1" x="1.950195" y="-0.487976 " z="-0.560058" a="-71.3191"/>  
+        <child type="NVGoggles" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="0.762695" y="-0.518219" z="2.205567" a="165.696"/>    
+        <child type="NVGHeadstrap" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="3.057617" y="-0.465881" z="-1.291504" a="-71.3191"/>    
+        <child type="FAL" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="3.647461" y="-0.611206" z="3.680176" a="176.795"/>   
+        <child type="BDUJacket" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="2.125000" y="-0.654754" z="-4.901855" a="-8.26888"/> 
+        <child type="Mag_AK101_30Rnd_Green" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="-0.732422" y="-0.572937" z="-3.427246" a="17.2199"/>   
+        <child type="GorkaPants_Autumn" spawnsecondary="false" deloot="0" lootmax="2" lootmin="1" x="3.401367 " y=" -0.636657" z="-2.239258" a="-0.924941"/>   
+        <child type="Glock19" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="-0.301758" y="-0.608764" z="3.982910" a="10.2013"/> 
+        <child type="M4A1_Black" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="4.041992" y="-0.460998" z="-1.862793" a="-5.52848"/> 
+        <child type="GhillieSuit_Woodland" spawnsecondary="false" deloot="0" lootmax="1" lootmin="0" x="1.607422" y="-0.519775" z="-1.887207" a="-88.2375"/>     
+        <child type="PlateCarrierVest_Camo" spawnsecondary="false" deloot="0" lootmax="1" lootmin="0" x="2.903320" y="-0.653076" z="-3.991211" a="-12.4767"/>
+        <child type="Mag_FAL_20Rnd" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="-1.795899" y="-0.540619" z="2.326660" a="77.5066"/>
+        <child type="Mag_FAL_20Rnd" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="1.815430" y="-0.540619" z="4.339844" a="-176.215"/>
+        <child type="Mag_M14_20Rnd" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="-1.044922" y="-0.546234" z="-2.053711" a="67.4995"/>
+        <child type="Mag_M14_20Rnd" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="-0.637695" y="-0.653106" z="1.635254" a="-14.6095"/>
+        <child type="Mag_AKM_Drum75Rnd" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="0.568359" y="-0.518005" z="-0.805176" a="65.8698"/>
+        <child type="Mich2001Helmet" dspawnsecondary="false" eloot="0" lootmax="2" lootmin="0" x="2.261719" y="-0.434814" z="0.137207" a="-19.5094"/> 
+        <child type="M14" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="-3.013672" y="-0.671661" z="-1.568359" a="-2.6695"/> 
+        <child type="AK74_Black" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="0.960937" y="-0.613891" z="-3.458496" a="87.7976"/> 
+        <child type="GorkaHelmet" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="-1.833985" y="-0.609558" z="4.742676" a="-21.8064"/>
+        <child type="GorkaEJacket_Autumn" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="4.684570" y="-0.658966" z="2.369141" a="-0.514853"/>
+        <child type="Mag_AK74_30Rnd_Black" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="1.565430" y="-0.601623" z="1.950684" a="-71.4423"/>
+        <child type="Mag_AK74_30Rnd_Black" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="3.131836" y="-0.602752" z="2.467285" a="-86.6809"/>  
+        <child type="Mag_AKM_Drum75Rnd_Green" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="3.131836" y="-0.602752" z="-0.598633" a="-121.853"/>
+        <child type="GhillieHood_Woodland" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="-0.937500" y="-0.020996" z="3.247070" a="-1.10521"/>
+        <child type="PlateCarrierVest_Black" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="-3.597656" y="-0.652984" z="-0.162597" a="-5.03678"/>   
+        <child type="BDUPants" spawnsecondary="false" deloot="0" lootmax="2" lootmin="0" x="-3.487305" y="-0.615997" z="1.887207" a="1.69228"/>
     </group>
      <!-- ################### CUSTOM EVENT GROUP END ################### -->
     <!--pos x="5587.466" z="2063.353" a="0" y="7.591" group="Train_Abandoned_Cherno"/-->
