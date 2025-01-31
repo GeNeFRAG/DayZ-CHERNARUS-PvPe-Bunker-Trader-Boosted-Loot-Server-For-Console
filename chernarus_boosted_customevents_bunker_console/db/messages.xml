@@ -10,7 +10,7 @@
     <message>
         <delay>2</delay>
         <onconnect>1</onconnect>
-        <text>Welcome to my server #name!</text>
+        <text>Welcome to #name!</text>
     </message>
     <message>
         <repeat>10</repeat>
@@ -18,7 +18,7 @@
     </message>
     <message>
         <repeat>30</repeat>
-        <text>You're playing on (#name)</text>
+        <text>You're playing on #name</text>
     </message>
     <message>
         <repeat>30</repeat>

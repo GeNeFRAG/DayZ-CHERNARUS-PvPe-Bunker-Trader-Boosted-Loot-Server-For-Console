@@ -58,7 +58,11 @@
 		<pos x="9420.66" y="242.993" z="11258.1" a="0" group="Mildrop" />
 		<pos x="8614.11" y="268.499" z="3955.65" a="0" group="Mildrop" />
 		<pos x="11319.2" y="268.943" z="8363.92" a="0" group="Mildrop" />
-    </event>  
+    </event>
+	<!-- Dynamic Building Materials -->
+	<event name="StaticProxyMaterials">
+		<pos x="10160.2" z="1612.9" a="10" /> 
+	</event>
 	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
 	<event name="VehicleCivilianSedan">
 		<pos x="12071.933594" z="9129.989258" a="317.953339" />

@@ -47,13 +47,10 @@
   "WorldsData": {
     "lightingConfig": 1,
     "objectSpawnersArr": [
-      "custom/PunchedCard_Bunker_TisyHeli.json",
       "custom/spawnerData.json",
       "custom/b_Bunker_BlackLake_v2_Area.json",
       "custom/b_Bunker_BlackLake_v2_Loot.json",
-	    "custom/dzmc_blacklake_by_novoGOD.json",
-      "custom/South_East_Fuel_Station_Rework_By_SHOTSx3_DZMC_.json",
-      "custom/COAST_MILLY_CHECKPOINTS_BY_SHOTS_x3_.json",
+      "custom/dzmc_blacklake_by_novoGOD.json",
       "custom/BennettsTraderShip_Elektro.json"
     ],
     "environmentMinTemps": [

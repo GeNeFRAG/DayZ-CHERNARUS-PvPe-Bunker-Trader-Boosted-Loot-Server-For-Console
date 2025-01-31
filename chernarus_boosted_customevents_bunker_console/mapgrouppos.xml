@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
     <!-- ################### CUSTOM GROUPS START ################### -->
+    <!-- PileOfWoodenLogs-->
+    <!-- <group name="PileOfWoodenLogs" pos="10118.6 6.0 1641.9" rpy="0.0 0.0 0.0" a="90.5557" />-->
+
     <!-- Plane Crash -->
     <group name="Land_Wreck_C130J_Cargo" pos="12390.892578 145.412436 12409.828125" rpy="8.146673 0.076398 95.305290" a="-5.305296" />
     <group name="Land_Wreck_C130J_Cargo" pos="5118.1 14.8 2337.9" rpy="8.146673 0.076398 95.305290" a="-5.305296" />

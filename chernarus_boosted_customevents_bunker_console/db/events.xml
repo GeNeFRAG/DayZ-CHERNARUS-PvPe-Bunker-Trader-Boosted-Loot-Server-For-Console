@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
     <!-- ################### CUSTOM EVENTS START ################### -->
+    <!-- events-->
+    <event name="StaticProxyMaterials">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>600</lifetime>
+        <restock>0</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>10</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="StaticObj_Misc_Pallet"/>
+        </children>
+    </event>
     <!-- Bunker test event / Spwans PunchedCard -->
    <event name="ItemBagWithPunchedCard">
         <nominal>1</nominal>
@@ -57,7 +75,7 @@
     </event>
     <!-- Static Fireplace -->
     <event name="StaticCustomFireplace">
-        <nominal>10</nominal>
+        <nominal>14</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>7200</lifetime>
@@ -775,7 +793,7 @@
         </children>
     </event>
     <event name="ItemPlanks">
-        <nominal>55</nominal>
+        <nominal>50</nominal>
         <min>40</min>
         <max>50</max>
         <lifetime>7200</lifetime>
@@ -1175,7 +1193,7 @@
         </children>
     </event>
     <event name="VehicleCivilianSedan">
-        <nominal>12</nominal>
+        <nominal>10</nominal>
         <min>5</min>
         <max>11</max>
         <lifetime>300</lifetime>
@@ -1196,7 +1214,7 @@
     <event name="VehicleHatchback02">
         <nominal>12</nominal>
         <min>5</min>
-        <max>11</max>
+        <max>12</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1215,7 +1233,7 @@
     <event name="VehicleOffroad02">
         <nominal>6</nominal>
         <min>2</min>
-        <max>3</max>
+        <max>4</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>500</saferadius>
@@ -1230,7 +1248,7 @@
         </children>
     </event>
     <event name="VehicleOffroadHatchback">
-        <nominal>12</nominal>
+        <nominal>8</nominal>
         <min>5</min>
         <max>11</max>
         <lifetime>300</lifetime>
@@ -1249,7 +1267,7 @@
         </children>
     </event>
     <event name="VehicleSedan02">
-        <nominal>12</nominal>
+        <nominal>8</nominal>
         <min>5</min>
         <max>11</max>
         <lifetime>300</lifetime>
@@ -1268,7 +1286,7 @@
         </children>
     </event>
     <event name="VehicleTruck01">
-        <nominal>12</nominal>
+        <nominal>8</nominal>
         <min>5</min>
         <max>11</max>
         <lifetime>300</lifetime>

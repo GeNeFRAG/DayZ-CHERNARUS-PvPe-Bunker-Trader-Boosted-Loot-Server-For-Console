@@ -1,0 +1,55 @@
+<!-- 
+Org File Created by DevilsKnock#6699. For more help files for DayZ come visit us at DonSibley.Games
+If you upload this to another Discord or webpage, please leave filename intact and dont take credit
+as your own. Thank you and enjoy :)
+-->
+
+<!-- mapgroupproto.xml proxy entries for a Pile Of WoodenLogs -->
+<group name="PileOfWoodenLogs" lootmax="18">
+	<usage name="Pile"/>
+	<container name="lootFloor" lootmax="18">
+		<category name="logs"/>
+	</container>
+	<dispatch>
+		<proxy type="WoodenLog" pos="0.0 0.0 0.45" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.0 0.27" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.0 0.09" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.0 -0.09" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.0 -0.27" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.0 -0.45" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.18 0.36" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.18 0.18" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.18 0.0" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.18 -0.18" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.18 -0.36" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.36 0.27" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.36 0.09" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.36 -0.09" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.36 -0.27" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.54 0.18" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.54 0.0" rpy="0.0 0.0 0.0" />
+		<proxy type="WoodenLog" pos="0.0 0.54 -0.18" rpy="0.0 0.0 0.0" />
+	</dispatch>
+</group>
+
+<!-- Add to cfglimitsdefiniton.xml -->
+<category name="logs"/>
+<usage name="Pile"/>
+
+<!-- Add to mapgrouppos.xml. Adjust coordinates and elevation! -->
+<group name="PileOfWoodenLogs" pos="10118.6 6.0 1641.9" rpy="0.0 0.0 0.0" a="90.5557" />
+
+<!-- Change in types.xml. Nominals should match at least the number of spawns. I.e. 2 Spawns = 36, 
+but you also have to estimate if other players have Wooden Logs somewhere lying around -->
+<type name="WoodenLog">
+	<nominal>100</nominal> <!-- guestimate! -->
+	<lifetime>11520</lifetime>
+	<restock>0</restock>
+	<min>100</min> <!-- guestimate! -->
+	<quantmin>100</quantmin>
+	<quantmax>100</quantmax>
+	<cost>100</cost>
+	<flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+	<category name="logs"/>
+	<usage name="Pile"/>
+</type>

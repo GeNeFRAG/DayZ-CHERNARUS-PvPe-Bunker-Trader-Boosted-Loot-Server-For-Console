@@ -3224,7 +3224,7 @@
 		<attachments chance="1.00">
 			<item name="Mag_Scout_5Rnd" chance="1.00"/>
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="1.00">
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="M68Optic" chance="0.20"/>
 			<item name="ACOGOptic" chance="0.20"/>
@@ -3236,7 +3236,7 @@
 		<attachments chance="1.00">
 			<item name="Mag_Scout_5Rnd" chance="1.00"/>
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="1.00">
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="M68Optic" chance="0.20"/>
 			<item name="ACOGOptic" chance="0.20"/>
@@ -3248,7 +3248,7 @@
 		<attachments chance="1.00">
 			<item name="Mag_Scout_5Rnd" chance="1.00"/>
 		</attachments>
-		<attachments chance="0.25">
+		<attachments chance="1.00">
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="M68Optic" chance="0.20"/>
 			<item name="ACOGOptic" chance="0.20"/>
