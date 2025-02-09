@@ -9,21 +9,20 @@
   "PlayerData": {
     "disablePersonalLight": true,
     "spawnGearPresetFiles": [
-      "custom/FRESHLOADOUTNEW.json",
       "custom/vanillaplus_loadout.json"
     ],
     "StaminaData": {
-      "sprintStaminaModifierErc": 0.1,
-      "sprintStaminaModifierCro": 0.1,
+      "sprintStaminaModifierErc": 0.12,
+      "sprintStaminaModifierCro": 0.12,
       "staminaWeightLimitThreshold": 6000,
       "staminaMax": 100,
-      "staminaKgToStaminaPercentPenalty": 0.15,
+      "staminaKgToStaminaPercentPenalty": 0.25,
       "staminaMinCap": 5,
-      "sprintSwimmingStaminaModifier": 0.1,
-      "sprintLadderStaminaModifier": 0.1,
-      "meleeStaminaModifier": 0.15,
-      "obstacleTraversalStaminaModifier": 0.15,
-      "holdBreathStaminaModifier": 0.15
+      "sprintSwimmingStaminaModifier": 0.15,
+      "sprintLadderStaminaModifier": 0.15,
+      "meleeStaminaModifier": 0.2,
+      "obstacleTraversalStaminaModifier": 0.2,
+      "holdBreathStaminaModifier": 0.2
     },
     "ShockHandlingData": {
       "shockRefillSpeedConscious": 5,
@@ -47,7 +46,7 @@
   "WorldsData": {
     "lightingConfig": 1,
     "objectSpawnersArr": [
-      "custom/spawnerData.json",
+      "custom/C130J_crashes.json",
       "custom/b_Bunker_BlackLake_v2_Area.json",
       "custom/b_Bunker_BlackLake_v2_Loot.json",
       "custom/dzmc_blacklake_by_novoGOD.json",
