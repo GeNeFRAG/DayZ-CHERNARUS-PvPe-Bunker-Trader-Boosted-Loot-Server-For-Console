@@ -63,6 +63,12 @@
 	<event name="StaticProxyMaterials">
 		<pos x="10160.2" z="1612.9" a="10" /> 
 	</event>
+
+	<!-- Dynamic Bag with Loot -->
+	<event name="ItemYellowBag">
+		<pos x="10161.2" z="1613.9" a="0"/>
+	</event>
+
 	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
 	<event name="VehicleCivilianSedan">
 		<pos x="12071.933594" z="9129.989258" a="317.953339" />
@@ -1545,8 +1551,7 @@
 		<pos x="4927.973" z="7844.380" a="0" y="333.543" group="Traffic_VMC"/>
 		<pos x="3518.464" z="9122.509" a="0" y="310.821" group="Traffic_Vybor"/>
 	</event>
-
-	<event name="VehicleTransitBus" />
+	
 	<event name="InfectedVillage" />
 	<event name="InfectedSolitude" />
 	<event name="InfectedArmy" />

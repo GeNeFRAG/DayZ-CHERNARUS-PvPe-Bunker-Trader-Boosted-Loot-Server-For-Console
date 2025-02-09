@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <lists>
     <categories>
+        <category name="donotuse"/>
         <category name="logs"/>
         <category name="tools"/>
         <category name="containers"/>
@@ -17,6 +18,7 @@
         <tag name="ground"/>
     </tags>
     <usageflags>
+        <usage name="DoNotUse"/>
         <usage name="Pile"/>
         <usage name="Military"/>
         <usage name="Police"/>

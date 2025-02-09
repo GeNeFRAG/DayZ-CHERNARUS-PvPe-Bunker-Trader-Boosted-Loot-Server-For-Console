@@ -45,6 +45,7 @@
 		</dispatch>
 	</group>
 	-->
+
 	<!-- Pallet with Building Supplies.WoodenLogs, Planks and Metalplates -->
 	<group name="StaticObj_Misc_Pallet">
 		<container name="loot">

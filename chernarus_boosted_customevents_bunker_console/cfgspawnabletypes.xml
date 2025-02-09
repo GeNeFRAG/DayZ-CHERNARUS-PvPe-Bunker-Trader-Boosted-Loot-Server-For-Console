@@ -3,37 +3,22 @@
 	<!-- ################### CUSTOM SPAWNABLE ITEMS START ################### -->
 	<!-- For Bunker testing -->
 	<type name="DryBag_Yellow">
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="NVGHeadstrap" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="NVGHeadstrap" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="NVGoggles" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="NVGoggles" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="Battery9V" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="Battery9V" />
-		</cargo>
+		<attachments chance="1.0">
+			<item name="PoliceJacketOrel" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="PolicePantsOrel" />
+		</attachments>
 	</type>
 	<!-- CammoNetShelter (only spawns in containers -->
 	<type name="SeaChest">
-		<cargo chance="0.05">
+		<cargo chance="0.1">
 			<item name="CamoNetShelter" />
 		</cargo>
 	</type>
 	<!-- Mich helmet with NVG -->
 	<type name="Mich2001Helmet">
-		<attachments chance="0.05">
+		<attachments chance="0.1">
 			<item name="NVGoggles" chance="1.0"/>
 		</attachments>
 	</type>
@@ -73,6 +58,11 @@
 		</attachments>
 	</type>
 	<type name="UniversalLight">
+		<attachments chance="0.80">
+			<item name="Battery9V" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="TLRLight">
 		<attachments chance="0.80">
 			<item name="Battery9V" chance="1.00"/>
 		</attachments>
@@ -283,6 +273,12 @@
 		</attachments>
 		<attachments>
 			<item name="MediumTent_Green" />
+		</attachments>
+		<attachments>
+			<item name="LeatherSewingKit" />
+		</attachments>
+		<attachments>
+			<item name="LeatherSewingKit" />
 		</attachments>
 		<attachments>
 			<item name="EpoxyPutty" />
@@ -2807,7 +2803,7 @@
 		</attachments>
 	</type>
 	<type name="ASVAL">
-		<attachments chance="0.35">
+		<attachments chance="1.00">
 			<item name="Mag_VSS_10Rnd" chance="0.35"/>
 			<item name="Mag_VAL_20Rnd" chance="0.50"/>
 			<item name="Mag_Vikhr_30Rnd" chance="0.15"/>
@@ -2827,7 +2823,7 @@
 			<item name="KashtanOptic" chance="0.50"/>
 			<item name="PSO1Optic" chance="0.50"/>
 		</attachments>
-		<attachments chance="0.35">
+		<attachments chance="1.00">
 			<item name="Mag_VSS_10Rnd" chance="0.15"/>
 			<item name="Mag_VAL_20Rnd" chance="0.50"/>
 			<item name="Mag_Vikhr_30Rnd" chance="0.35"/>
