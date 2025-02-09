@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <spawnabletypes>
 	<!-- ################### CUSTOM SPAWNABLE ITEMS START ################### -->
-	<!-- For Bunker testing -->
+	<!-- Drop some Loot -->
 	<type name="DryBag_Yellow">
 		<attachments chance="1.0">
 			<item name="PoliceJacketOrel" />
