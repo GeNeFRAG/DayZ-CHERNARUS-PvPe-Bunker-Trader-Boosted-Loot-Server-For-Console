@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <lists>
     <categories>
+        <category name="highloot"/>
         <category name="donotuse"/>
         <category name="logs"/>
         <category name="tools"/>
@@ -18,6 +19,7 @@
         <tag name="ground"/>
     </tags>
     <usageflags>
+        <usage name="Highloot"/>
         <usage name="DoNotUse"/>
         <usage name="Pile"/>
         <usage name="Military"/>
