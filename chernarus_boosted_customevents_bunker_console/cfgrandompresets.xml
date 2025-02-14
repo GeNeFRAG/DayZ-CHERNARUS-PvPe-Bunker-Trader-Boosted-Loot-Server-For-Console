@@ -86,6 +86,35 @@
 	<cargo chance="1.00" name="Grave_28">
 		<item name="PunchedCard" chance="0.11" />
 	</cargo>
+	<!-- Ghillie Zombie-->
+	<attachments chance="1.00" name="ZombieGilliSuit">
+        <item name="GhillieSuit_Mossy" chance="0.33" />
+        <item name="GhillieSuit_Tan" chance="0.33" />
+        <item name="GhillieSuit_Woodland" chance="0.34" />
+	</attachments>
+	<attachments chance="1.00" name="ZombieGilliHat">
+		<item name="GhillieHood_Mossy" chance="0.33" />
+		<item name="GhillieHood_Tan" chance="0.33" />
+		<item name="GhillieHood_Woodland" chance="0.34" />
+	</attachments>
+	<!-- Surprise Zombie Loot -->
+	<attachments chance="0.35" name="ZombieItemDropWTF"> 
+    	<item name="CamoNetShelter" chance="0.11" />
+		<item name="FilteringBottle" chance="0.20" />
+		<item name="Sword" chance="0.20" />
+		<item name="DarkMotoHelmet_YellowScarred" chance="0.20" />
+		<item name="BarbedBaseballBat" chance="0.20" />
+		<item name="SpearStone" chance="0.20" />
+	</attachments>
+	<!-- Zombie Funny Hats -->
+	<attachments chance="0.35" name="ZombieFunnyHats"> 
+		<item name="SantasHat" chance="0.33" />
+		<item name="GreatHelm" chance="0.33" />
+		<item name="PumpkinHelmet" chance="0.33" />
+		<item name="WitchHat" chance="0.33" />
+		<item name="Chainmail_Coif" chance="0.33" />
+		<item name="WitchHood_Black" chance="0.33" />
+	</attachments>
 	<!-- ################### CUSTOM RANDOM PRESETS END ################### -->
 	<cargo chance="0.25" name="foodHermit">
 		<item name="TunaCan" chance="0.11" />

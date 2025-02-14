@@ -50,7 +50,8 @@
       "custom/b_Bunker_BlackLake_v2_Area.json",
       "custom/b_Bunker_BlackLake_v2_Loot.json",
       "custom/dzmc_blacklake_by_novoGOD.json",
-      "custom/BennettsTraderShip_Elektro.json"
+      "custom/BennettsTraderShip_Elektro.json",
+      "custom/container_mil_garages.json"
     ],
     "environmentMinTemps": [
       -3,
