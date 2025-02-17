@@ -1,7 +1,7 @@
 DayZ-Central-Economy-master/
 nitrado_token.txt
-tools/*.xml
-tools/*.xml.backup
-tools/*.txt
-tools/*.RPT
+tools/*.xml*
+tools/*.txt*
+tools/*.csv*
+tools/*.RPT*
 chernarus_boosted_customevents_bunker_console/**/*_old.*
