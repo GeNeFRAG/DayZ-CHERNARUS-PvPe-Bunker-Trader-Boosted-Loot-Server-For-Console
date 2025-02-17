@@ -1886,7 +1886,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="ArmyPouch_Camo">
     <nominal>5</nominal>
@@ -1897,7 +1897,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="ArmyPouch_Green">
     <nominal>8</nominal>
@@ -1919,7 +1919,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="AssaultBag_Green">
     <nominal>6</nominal>
@@ -1930,7 +1930,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="AssaultBag_Ttsko">
     <nominal>6</nominal>
@@ -1941,7 +1941,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="AssaultBag_Winter">
     <nominal>0</nominal>
@@ -1952,7 +1952,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="CanvasBag_Medical">
     <nominal>10</nominal>
@@ -1963,7 +1963,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Medical"/>
   </type>
   <type name="CanvasBag_Olive">
     <nominal>12</nominal>
@@ -1974,7 +1974,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="ChildBag_Blue">
     <nominal>24</nominal>
@@ -2029,7 +2029,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="CoyoteBag_Green">
     <nominal>7</nominal>
@@ -2040,7 +2040,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="CoyoteBag_Winter">
     <nominal>0</nominal>
@@ -2051,7 +2051,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="DryBag_Black">
     <nominal>5</nominal>
@@ -2227,7 +2227,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="HipPack_Medical">
     <nominal>14</nominal>
@@ -2238,7 +2238,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Medical"/>
   </type>
   <type name="HipPack_Party">
     <nominal>10</nominal>
@@ -2414,7 +2414,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="MilitaryClothes"/>
+    <usage name="Military"/>
   </type>
   <type name="TaloonBag_Blue">
     <nominal>20</nominal>
@@ -2469,7 +2469,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="TortillaBag_Winter">
     <nominal>0</nominal>
@@ -2480,7 +2480,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="WaterproofBag_Green">
     <nominal>20</nominal>
@@ -12854,6 +12854,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Medical"/>
+    <usage name="Misc"/>
   </type>
   <type name="DisinfectantSpray">
     <nominal>30</nominal>
@@ -12865,6 +12866,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Medical"/>
+    <usage name="Misc"/>
   </type>
   <type name="Epinephrine">
     <nominal>38</nominal>
@@ -12898,6 +12900,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Medical"/>
+    <usage name="Misc"/>
   </type>
   <type name="Morphine">
     <nominal>24</nominal>
@@ -20928,7 +20931,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_AK74_30Rnd_Black">
     <nominal>9</nominal>
@@ -20940,7 +20942,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_AKM_Palm30Rnd_Black">
     <nominal>2</nominal>
@@ -20952,7 +20953,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_AKM_Palm30Rnd_Green">
     <nominal>2</nominal>
@@ -20964,7 +20964,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_AK101_30Rnd_Green">
     <nominal>7</nominal>
@@ -20975,8 +20974,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-   <usage name="Military"/>
-    <usage name="MagsAmmo"/>
+    <usage name="Military"/>
   </type>
   <type name="Mag_AK101_30Rnd_Black">
     <nominal>7</nominal>
@@ -20988,7 +20986,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
    <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_CMAG_40Rnd_Green">
     <nominal>8</nominal>
@@ -21000,7 +20997,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_CMAG_30Rnd_Green">
     <nominal>4</nominal>
@@ -21012,7 +21008,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_CMAG_40Rnd_Black">
     <nominal>10</nominal>
@@ -21024,7 +21019,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_CMAG_30Rnd_Black">
     <nominal>4</nominal>
@@ -21036,7 +21030,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="FoxPelt">
     <nominal>0</nominal>
@@ -21079,7 +21072,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Medical"/>
-    <usage name="Equipment"/>
   </type>
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
 </types>
