@@ -4,10 +4,13 @@
 	<!-- Drop some Loot -->
 	<type name="DryBag_Yellow">
 		<attachments chance="1.0">
-			<item name="PoliceJacketOrel" />
+			<item name="PaydayMask_Dallas" />
 		</attachments>
 		<attachments chance="1.0">
-			<item name="PolicePantsOrel" />
+			<item name="PaydayMask_Dallas" />
+		</attachments>
+		<attachments chance="1.0">
+			<item name="PunchedCard" />
 		</attachments>
 	</type>
 	<!-- CammoNetShelter (only spawns in containers -->
@@ -457,6 +460,15 @@
 		</attachments>
 		<attachments chance="0.5">
 			<item name="PlateCarrierPouches_Green" chance="1.00"/>
+		</attachments>
+	</type>
+	<type name="PlateCarrierVest_White">
+		<damage min="0.0" max="0.32"/>
+		<attachments chance="0.5">
+			<item name="PlateCarrierHolster_White" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.5">
+			<item name="PlateCarrierPouches_White" chance="1.00"/>
 		</attachments>
 	</type>
 	<type name="SparkPlug">
@@ -1703,11 +1715,17 @@
 		<cargo chance="0.03">
 			<item name="AntiChemInjector" chance="1.0"/>
 		</cargo>
-		<cargo chance="0.01">
+		<cargo chance="0.03">
 			<item name="PunchedCard" chance="1.0"/>
 		</cargo>
-		<cargo chance="0.1">
+		<cargo chance="0.05">
 			<item name="FlashGrenade" chance="1.0"/>
+		</cargo>
+		<cargo chance="0.03">
+			<item name="StarlightOptic" chance="1.0"/>
+		</cargo>
+		<cargo chance="0.03">
+			<item name="KazuarOptic" chance="1.0"/>
 		</cargo>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
@@ -1746,8 +1764,10 @@
 	<type name="ZmbM_PatrolNormal_Summer">
 		<cargo preset="foodArmy"/>
 		<cargo preset="ammoArmy"/>
+		<!--
 		<attachments preset="headtorches"/>
 		<attachments preset="hatsArmy"/>
+		-->
 		<attachments preset="bagsArmy"/>
 		<attachments preset="vestsArmy"/>
 		<!-- Funny Hats -->
@@ -1757,27 +1777,42 @@
 		<cargo preset="foodArmy"/>
 		<cargo preset="ammoArmy"/>
 		<attachments preset="headtorches"/>
+		<!--
 		<attachments preset="hatsArmy"/>
 		<attachments preset="bagsArmy"/>
+		-->
 		<attachments preset="vestsArmy"/>
 		<!-- Ghillie -->
-		<attachments preset="ZombieGilliSuit"/>
-		<attachments preset="ZombieGilliHat"/>
-		<cargo chance="0.1">
-			<item name="FlashGrenade" chance="1.0"/>
-		</cargo>
+		<attachments preset="ZombieGhillieSuit"/>
+		<attachments preset="ZombieGhillieHat"/>
 	<attachments />
 	</type>
 	<type name="ZmbM_usSoldier_Officer_Desert">
 		<cargo preset="foodArmy"/>
 		<attachments preset="headtorches"/>
 		<attachments preset="OfficerHatArmy"/>
+		<cargo chance="0.06">
+			<item name="FlashGrenade" chance="1.0"/>
+		</cargo>
+	</type>
+	<type name="ZmbM_usSoldier_Officer_Convoy">
+		<attachments preset="headtorches" />
+		<attachments chance="1.00">
+			<item name="MedicalScrubsHat_Green" chance="1.0" />
+		</attachments>
+		<cargo preset="foodArmy" />
+		<cargo chance="0.03">
+			<item name="PunchedCard" chance="1.0" />
+		</cargo>
+		<cargo chance="0.06">
+			<item name="FlashGrenade" chance="1.0"/>
+		</cargo>
 	</type>
 	<type name="ZmbM_usSoldier_Heavy_Woodland">
 		<cargo preset="foodArmy"/>
 		<attachments preset="HeavyArmorArmy"/>
 		<attachments preset="HeavyHelmetArmy"/>
-		<cargo chance="0.1">
+		<cargo chance="0.05">
 			<item name="FlashGrenade" chance="1.0"/>
 		</cargo>
 	</type>
@@ -2281,6 +2316,12 @@
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
 		<attachments preset="vestsIndustrial"/>
+		<cargo chance="0.03">
+			<item name="RemoteDetonator" chance="1.0"/>
+		</cargo>
+		<cargo chance="0.03">
+			<item name="Plastic_Explosive" chance="1.0"/>
+		</cargo>
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Grey">
 		<cargo preset="foodCity"/>

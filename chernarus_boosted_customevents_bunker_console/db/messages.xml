@@ -8,7 +8,7 @@
     <message>
         <delay>2</delay>
         <onconnect>1</onconnect>
-        <text>Welcome to #name! Checkout Discord for more server information, trader and chat!</text>
+        <text>Welcome to #name! Checkout Discord for more infos, trader and chat!</text>
     </message>
     <message>
         <repeat>30</repeat>
@@ -56,14 +56,14 @@
     </message>
     <message>
         <repeat>45</repeat>
-        <text>SA (UTC+01:00): 12:00 - 00:00</text>
+        <text>SA (GMT+1): 12:00 - 00:00</text>
     </message>
     <message>
         <repeat>45</repeat>
-        <text>SO (UTC+01:00): 12:00 - 20:00</text>
+        <text>SO (GMT+1): 12:00 - 20:00</text>
     </message>
     <message>
         <repeat>45</repeat>
-        <text>SERVER RESTARTS (4h): 00:00  04:00  08:00  12:00  16:00  20:00  00:00</text>
+        <text>SERVER RESTARTS (every 4h): 00:00  04:00  08:00  12:00  16:00  20:00  00:00</text>
     </message>
 </messages>

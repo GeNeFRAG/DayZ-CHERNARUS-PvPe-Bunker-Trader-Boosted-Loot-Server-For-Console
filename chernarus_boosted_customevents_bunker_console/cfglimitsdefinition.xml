@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <lists>
     <categories>
-        <category name="highloot"/>
-        <category name="donotuse"/>
-        <category name="logs"/>
-        <category name="tools"/>
-        <category name="containers"/>
-        <category name="clothes"/>
-        <category name="lootdispatch"/>
-        <category name="food"/>
-        <category name="weapons"/>
-        <category name="books"/>
-        <category name="explosives"/>
+        <category name="mymap"/>
     </categories>
     <tags>
         <tag name="floor"/>
@@ -19,26 +9,35 @@
         <tag name="ground"/>
     </tags>
     <usageflags>
-        <usage name="Highloot"/>
-        <usage name="DoNotUse"/>
-        <usage name="Pile"/>
-        <usage name="Military"/>
-        <usage name="Police"/>
-        <usage name="Medic"/>
-        <usage name="Firefighter"/>
-        <usage name="Industrial"/>
-        <usage name="Farm"/>
-        <usage name="Coast"/>
-        <usage name="Town"/>
-        <usage name="Village"/>
         <usage name="Hunting"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-        <usage name="Prison"/>
-        <usage name="Lunapark"/>
-        <usage name="SeasonalEvent"/>
-        <usage name="ContaminatedArea"/>
         <usage name="Historical"/>
+        <usage name="Highloot"/>
+        <usage name="ContaminatedArea"/>
+        <usage name="Military"/>
+		<usage name="Attachment"/>
+        <usage name="Weapons"/>
+        <usage name="Explosives"/>
+        <usage name="Equipment"/>
+        <usage name="Containers"/>
+        <usage name="Medical"/>
+        <usage name="Carparts"/>
+        <usage name="Clothes"/>
+		<usage name="MilitaryClothes"/>
+        <usage name="FoodDrink"/>
+        <usage name="Tools"/>
+        <usage name="RepairItems"/>
+        <usage name="MagsAmmo"/>
+        <usage name="Police"/>
+        <usage name="FireFighter"/>
+        <usage name="Industrial"/>
+        <usage name="Prison"/>
+        <usage name="Special"/>
+        <usage name="Seasonal"/>
+		<usage name="Plants"/>
+		<usage name="Misc"/>
+		<usage name="Zombies"/>
+		<usage name="Animals"/>
+        <usage name="DontUse"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>

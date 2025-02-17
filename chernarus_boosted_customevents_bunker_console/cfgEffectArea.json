@@ -141,6 +141,34 @@
 			}
 		},
 		{
+			"AreaName": "single-smoke-plane-crash_NWAF2",
+			"Type": "ContaminatedArea_Static",
+			"TriggerType": "effecttrigger",
+			"Data": {
+				"Pos": [
+					4397.785645,
+					0,
+					10231.076172
+				],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false,
+				"OuterPartDist": 50,
+				"OuterOffset": 0,
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+			},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": ""
+			}
+		},
+		{
 			"AreaName": "single-smoke-chern-plane-crash",
 			"Type": "ContaminatedArea_Static",
 			"TriggerType": "effecttrigger",

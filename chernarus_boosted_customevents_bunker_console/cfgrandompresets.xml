@@ -87,12 +87,12 @@
 		<item name="PunchedCard" chance="0.11" />
 	</cargo>
 	<!-- Ghillie Zombie-->
-	<attachments chance="1.00" name="ZombieGilliSuit">
+	<attachments chance="1.00" name="ZombieGhillieSuit">
         <item name="GhillieSuit_Mossy" chance="0.33" />
         <item name="GhillieSuit_Tan" chance="0.33" />
         <item name="GhillieSuit_Woodland" chance="0.34" />
 	</attachments>
-	<attachments chance="1.00" name="ZombieGilliHat">
+	<attachments chance="1.00" name="ZombieGhillieHat">
 		<item name="GhillieHood_Mossy" chance="0.33" />
 		<item name="GhillieHood_Tan" chance="0.33" />
 		<item name="GhillieHood_Woodland" chance="0.34" />
@@ -114,6 +114,11 @@
 		<item name="WitchHat" chance="0.33" />
 		<item name="Chainmail_Coif" chance="0.33" />
 		<item name="WitchHood_Black" chance="0.33" />
+		<item name="BaseballCap_Pink" chance="0.33" />
+		<item name="CowboyHat_black" chance="0.33" />
+		<item name="LeatherHat_Natural" chance="0.33" />
+		<item name="WitchHoodCoif_Black" chance="0.33" />
+		<item name="ChristmasHeadband_Antlers" chance="0.33" />
 	</attachments>
 	<!-- ################### CUSTOM RANDOM PRESETS END ################### -->
 	<cargo chance="0.25" name="foodHermit">
@@ -375,7 +380,7 @@
 		<item name="ReflexOptic" chance="0.20" />
 	</attachments>
 	<!--NBC Cargo-->
-	<cargo chance="0.3" name="ContaminatedCargo">
+	<cargo chance="0.2" name="ContaminatedCargo">
 		<item name="GasMask_Filter" chance="1.00" />
 	</cargo>
 	<!--FARM ATTACHMENTS-->

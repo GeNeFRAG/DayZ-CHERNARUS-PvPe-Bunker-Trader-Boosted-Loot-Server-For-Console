@@ -61,7 +61,7 @@
 	</event>
 	<!-- Dynamic Bag with Loot -->
 	<event name="ItemYellowBag">
-		<pos x="10161.2" z="1613.9" a="0"/>
+		<pos x="10182.2" y="5.2" z="1670.7" a="0"/>
 	</event>
 	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
 	<event name="VehicleCivilianSedan">
