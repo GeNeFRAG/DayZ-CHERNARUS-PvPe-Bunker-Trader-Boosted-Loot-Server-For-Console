@@ -3830,7 +3830,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor" lootmax="2">
@@ -3849,7 +3848,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor" lootmax="2">
@@ -3868,7 +3866,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor" lootmax="2">
@@ -3887,7 +3884,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor" lootmax="2">
@@ -3940,7 +3936,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootshelves">
@@ -3957,7 +3952,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootshelves">
@@ -3975,7 +3969,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootshelves">
@@ -3993,7 +3986,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootshelves">
@@ -4016,7 +4008,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootshelves">
@@ -4043,7 +4034,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootshelves">
@@ -4070,7 +4060,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootshelves">
@@ -4098,7 +4087,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootshelves">
@@ -12713,6 +12701,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Weapons" />
+        <usage name="Attachment" />
         <usage name="Police" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
@@ -15052,7 +15041,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor" lootmax="2">
@@ -15076,7 +15064,6 @@
     <group name="Land_Wreck_hb01_aban1_green" lootmax="2">
         <usage name="RepairItems" />
         <usage name="Tools" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <usage name="Hunting" />
@@ -15103,7 +15090,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor" lootmax="2">
@@ -15129,7 +15115,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor" lootmax="2">
@@ -15153,7 +15138,6 @@
     <group name="Land_Wreck_hb01_aban2_green" lootmax="2">
         <usage name="RepairItems" />
         <usage name="Tools" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <usage name="Hunting" />
@@ -15180,7 +15164,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor" lootmax="2">
@@ -15206,7 +15189,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15233,7 +15215,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15260,7 +15241,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15287,7 +15267,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15316,7 +15295,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15345,7 +15323,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15374,7 +15351,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15405,7 +15381,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15436,7 +15411,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15488,7 +15462,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15517,7 +15490,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15546,7 +15518,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15596,7 +15567,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15624,7 +15594,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15652,7 +15621,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15680,7 +15648,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15709,7 +15676,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15738,7 +15704,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15948,7 +15913,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -15974,7 +15938,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -16000,7 +15963,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -16026,7 +15988,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -16049,7 +16010,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -16072,7 +16032,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="loot" lootmax="2">
@@ -16843,7 +16802,6 @@
     <group name="Land_Wreck_Ikarus_DE" lootmax="15">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -16896,7 +16854,6 @@
     <group name="Land_Wreck_truck01_aban1_blue_DE" lootmax="3">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -16918,7 +16875,6 @@
     <group name="Land_Wreck_truck01_aban1_orange_DE" lootmax="3">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -16940,7 +16896,6 @@
     <group name="Land_Wreck_truck01_aban2_blue_DE" lootmax="3">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -16961,7 +16916,6 @@
     <group name="Land_Wreck_truck01_aban2_orange_DE" lootmax="3">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -16985,6 +16939,7 @@
         <usage name="Clothes" />
         <usage name="FoodDrink" />
         <usage name="Weapons" />
+        <usage name="Attachment" />
         <usage name="Special" />
         <container name="loot" lootmax="3">
             <tag name="floor" />
@@ -17016,6 +16971,7 @@
         <usage name="Containers" />
         <usage name="Clothes" />
         <usage name="FoodDrink" />
+        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="Special" />
         <container name="loot" lootmax="3">
@@ -17045,7 +17001,6 @@
     <group name="Land_Wreck_hb01_aban1_blue_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17071,7 +17026,6 @@
     <group name="Land_Wreck_hb01_aban1_green_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Tools" />
         <usage name="RepairItems" />
         <usage name="Hunting" />
@@ -17096,7 +17050,6 @@
     <group name="Land_Wreck_hb01_aban1_white_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17122,7 +17075,6 @@
     <group name="Land_Wreck_hb01_aban2_blue_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17148,7 +17100,6 @@
     <group name="Land_Wreck_hb01_aban2_green_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Tools" />
         <usage name="RepairItems" />
         <usage name="Hunting" />
@@ -17173,7 +17124,6 @@
     <group name="Land_Wreck_hb01_aban2_white_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17199,7 +17149,6 @@
     <group name="Land_Wreck_hb02_aban1_red_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17226,7 +17175,6 @@
     <group name="Land_Wreck_hb02_aban1_black_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17253,7 +17201,6 @@
     <group name="Land_Wreck_hb02_aban1_blue_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17280,7 +17227,6 @@
     <group name="Land_Wreck_hb02_aban2_red_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17309,7 +17255,6 @@
     <group name="Land_Wreck_hb02_aban2_black_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17365,7 +17310,6 @@
     <group name="Land_Wreck_hb02_aban2_blue_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17394,7 +17338,6 @@
     <group name="Land_Wreck_sed01_aban1_white_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17425,7 +17368,6 @@
     <group name="Land_Wreck_sed01_aban1_black_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17456,7 +17398,6 @@
     <group name="Land_Wreck_sed01_aban1_wine_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17508,7 +17449,6 @@
     <group name="Land_Wreck_sed01_aban2_white_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17537,7 +17477,6 @@
     <group name="Land_Wreck_sed01_aban2_wine_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17566,7 +17505,6 @@
     <group name="Land_Wreck_sed01_aban2_black_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17616,7 +17554,6 @@
     <group name="Land_Wreck_sed02_aban1_yellow_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17644,7 +17581,6 @@
     <group name="Land_Wreck_sed02_aban1_grey_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17672,7 +17608,6 @@
     <group name="Land_Wreck_sed02_aban1_red_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17700,7 +17635,6 @@
     <group name="Land_Wreck_sed02_aban2_yellow_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17729,7 +17663,6 @@
     <group name="Land_Wreck_sed02_aban2_grey_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -17758,7 +17691,6 @@
     <group name="Land_Wreck_sed02_aban2_red_DE" lootmax="2">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />

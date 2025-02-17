@@ -5992,7 +5992,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="MilitaryClothes"/>
+    <usage name="Clothes"/>
   </type>
   <type name="Sneakers_Black">
     <nominal>40</nominal>
@@ -11722,16 +11722,17 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Military"/>
   </type>
   <type name="Mag_AKM_Drum75Rnd">
-    <nominal>9</nominal>
+    <nominal>8</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>7</min>
+    <min>6</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Highloot"/>
     <usage name="ContaminatedArea"/>
+    <usage name="Special"/>
     <value name="Tier4"/>
   </type>
   <type name="Mag_AKM_Palm30Rnd">
@@ -13836,7 +13837,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
   </type>
   <type name="M18SmokeGrenade_Green">
@@ -16076,6 +16077,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
     <usage name="Police"/>
+    <usage name="Industrial"/>
+    <usage name="Hunting"/>
   </type>
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
   <!-- #################### TOOLS #################### -->
@@ -20896,29 +20899,31 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="Mag_AKM_Drum75Rnd_Green">
-    <nominal>6</nominal>
+    <nominal>5</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>5</min>
+    <min>4</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Highloot"/>
     <usage name="ContaminatedArea"/>
+    <usage name="Special"/>
     <value name="Tier4"/>
   </type>
   <type name="Mag_AKM_Drum75Rnd_Black">
-    <nominal>3</nominal>
+    <nominal>2</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Highloot"/>
     <usage name="ContaminatedArea"/>
+    <usage name="Special"/>
     <value name="Tier4"/>
   </type>
   <type name="Mag_AK74_30Rnd_Green">
