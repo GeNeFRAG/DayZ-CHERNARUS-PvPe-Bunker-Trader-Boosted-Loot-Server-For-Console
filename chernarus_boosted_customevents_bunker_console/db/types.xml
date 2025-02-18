@@ -4112,7 +4112,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Clothes"/>
+    <usage name="MilitaryClothes"/>
   </type>
   <type name="NavyUniformPants">
     <nominal>0</nominal>
@@ -4123,7 +4123,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Clothes"/>
+    <usage name="MilitaryClothes"/>
   </type>
   <type name="NurseDress_Blue">
     <nominal>8</nominal>
@@ -6171,9 +6171,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <value name="Tier1"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
   </type>
   <type name="SKS_Green">
     <nominal>3</nominal>
@@ -6185,9 +6182,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <value name="Tier1"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
   </type>
   <type name="Winchester70_Black">
     <nominal>4</nominal>
@@ -6731,9 +6725,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <value name="Tier1"/>
-    <value name="Tier2"/>
-    <value name="Tier3"/>
   </type>
   <type name="Magnum">
     <nominal>26</nominal>
@@ -7033,7 +7024,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Prison"/>
-    <usage name="Weapons"/>
   </type>
   <type name="Scout_Chernarus">
     <nominal>5</nominal>
@@ -12044,7 +12034,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-      <value name="Special"/>
+    <usage name="Special"/>
   </type>
   <type name="Mag_SV98_10Rnd">
     <nominal>12</nominal>
@@ -16576,7 +16566,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Attachment"/>
+    <usage name="Clothes"/>
   </type>
   <type name="Chestplate">
     <nominal>5</nominal>
@@ -16764,7 +16754,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
-    <usage name="Clothes"/>
   </type>
   <type name="PlateCarrierPouches_Green">
     <nominal>6</nominal>
@@ -16798,8 +16787,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
-    <value name="Tier3"/>
-    <value name="Tier4"/>
   </type>
   <type name="PlateCarrierVest_Black">
     <nominal>7</nominal>

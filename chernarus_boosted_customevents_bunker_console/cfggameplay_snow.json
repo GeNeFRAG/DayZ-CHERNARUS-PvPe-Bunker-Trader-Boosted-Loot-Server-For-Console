@@ -1,0 +1,109 @@
+{
+  "version": 122,
+  "GeneralData": {
+    "disableBaseDamage": true,
+    "disableContainerDamage": true,
+    "disableRespawnDialog": false,
+    "disableRespawnInUnconsciousness": true
+  },
+  "PlayerData": {
+    "disablePersonalLight": true,
+    "spawnGearPresetFiles": [
+      "custom/vanillaplus_loadout.json"
+    ],
+    "StaminaData": {
+      "sprintStaminaModifierErc": 0.15,
+      "sprintStaminaModifierCro": 0.15,
+      "staminaWeightLimitThreshold": 6000,
+      "staminaMax": 100,
+      "staminaKgToStaminaPercentPenalty": 0.25,
+      "staminaMinCap": 5,
+      "sprintSwimmingStaminaModifier": 0.15,
+      "sprintLadderStaminaModifier": 0.15,
+      "meleeStaminaModifier": 0.2,
+      "obstacleTraversalStaminaModifier": 0.2,
+      "holdBreathStaminaModifier": 0.2
+    },
+    "ShockHandlingData": {
+      "shockRefillSpeedConscious": 5,
+      "shockRefillSpeedUnconscious": 1,
+      "allowRefillSpeedModifier": true
+    },
+    "MovementData": {
+      "timeToStrafeJog": 0.1,
+      "rotationSpeedJog": 0.3,
+      "timeToSprint": 0.45,
+      "timeToStrafeSprint": 0.3,
+      "rotationSpeedSprint": 0.15,
+      "allowStaminaAffectInertia": true
+    },
+    "DrowningData": {
+      "staminaDepletionSpeed": 10,
+      "healthDepletionSpeed": 10,
+      "shockDepletionSpeed": 10
+    }
+  },
+  "WorldsData": {
+    "lightingConfig": 1,
+    "objectSpawnersArr": [
+      "custom/C130J_crashes.json",
+      "custom/b_Bunker_BlackLake_v2_Area.json",
+      "custom/b_Bunker_BlackLake_v2_Loot.json",
+      "custom/dzmc_blacklake_by_novoGOD.json",
+      "custom/BennettsTraderShip_Elektro.json",
+      "custom/container_mil_garages.json"
+    ],
+    "environmentMinTemps": [-4,-4,-4,-3,-2,-1,-1,-2,-3,-4,-4,-4],
+    "environmentMaxTemps": [2,2,2,5,8,11,11,8,5,2,2,2],
+    "wetnessWeightModifiers": [
+      1,
+      1,
+      1.33,
+      1.66,
+      2
+    ]
+  },
+  "BaseBuildingData": {
+    "HologramData": {
+      "disableIsCollidingBBoxCheck": 1,
+      "disableIsCollidingPlayerCheck": 1,
+      "disableIsClippingRoofCheck": 1,
+      "disableIsBaseViableCheck": 1,
+      "disableIsCollidingGPlotCheck": 0,
+      "disableIsCollidingAngleCheck": 1,
+      "disableIsPlacementPermittedCheck": 1,
+      "disableHeightPlacementCheck": 1,
+      "disableIsUnderwaterCheck": 1,
+      "disableIsInTerrainCheck": 1,
+      "disallowedTypesInUnderground": [
+        "FenceKit",
+        "TerritoryFlagKit",
+        "WatchtowerKit"
+      ]
+    },
+    "ConstructionData": {
+      "disablePerformRoofCheck": 1,
+      "disableIsCollidingCheck": 1,
+      "disableDistanceCheck": 1
+    }
+  },
+  "UIData": {
+    "use3DMap": 0,
+    "HitIndicationData": {
+      "hitDirectionOverrideEnabled": false,
+      "hitDirectionBehaviour": 1,
+      "hitDirectionStyle": 0,
+      "hitDirectionIndicatorColorStr": "0xffbb0a1e",
+      "hitDirectionMaxDuration": 2,
+      "hitDirectionBreakPointRelative": 0.2,
+      "hitDirectionScatter": 10,
+      "hitIndicationPostProcessEnabled": true
+    }
+  },
+  "MapData": {
+    "ignoreMapOwnership": 1,
+    "ignoreNavItemsOwnership": 1,
+    "displayPlayerPosition": 1,
+    "displayNavInfo": 1
+  }
+}
