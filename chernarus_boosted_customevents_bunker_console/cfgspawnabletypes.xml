@@ -1824,8 +1824,6 @@
 		<cargo preset="toolsCity"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
-		<!-- WTF -->
-		<attachments preset="ZombieItemDropWTF"/>
 	</type>
 	<type name="ZmbF_Clerk_Normal_Green">
 		<cargo preset="drinks_T1"/>
@@ -2206,6 +2204,8 @@
 		<cargo preset="toolsCommon_T1"/>
 		<attachments preset="helmetsCommon_T1"/>
 		<attachments preset="backpacks_T1"/>
+		<!-- WTF -->
+		<attachments preset="ZombieItemDropWTF"/>
 	</type>
 	<type name="ZmbM_MotobikerFat_Blue">
 		<cargo preset="foodCity"/>
@@ -2449,6 +2449,8 @@
 	<type name="ZmbF_DoctorSkinny">
 		<cargo preset="toolsMedic"/>
 		<attachments preset="hatsMedic"/>
+		<!-- WTF -->
+		<attachments preset="ZombieItemDropWTF"/>
 	</type>
 	<type name="ZmbF_NurseFat">
 		<cargo preset="toolsMedic"/>
@@ -2500,6 +2502,8 @@
 			<item name="Mag_SSG82_5rnd" chance="1.0"/>
 		</cargo>
 		<attachments preset="hatsPolice"/>
+		<!-- WTF -->
+		<attachments preset="ZombieItemDropWTF"/>
 	</type>
 	<type name="ZmbM_PolicemanSpecForce">
 		<cargo preset="toolsPolice"/>
@@ -2531,6 +2535,8 @@
 	<!-- Religious -->
 	<type name="ZmbM_priestPopSkinny">
 		<cargo preset="foodHermit"/>
+		<!-- WTF -->
+		<attachments preset="ZombieItemDropWTF"/>
 	</type>
 	<!-- Solitude -->
 	<type name="ZmbF_HikerSkinny_Blue">
@@ -2720,6 +2726,8 @@
 		<cargo preset="foodVillage"/>
 		<cargo preset="toolsVillage"/>
 		<attachments preset="glassesVillage"/>
+		<!-- WTF -->
+		<attachments preset="ZombieItemDropWTF"/>
 	</type>
 	<type name="ZmbM_FarmerFat_Brown">
 		<cargo preset="foodVillage"/>

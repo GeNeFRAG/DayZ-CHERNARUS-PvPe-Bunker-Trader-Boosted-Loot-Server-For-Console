@@ -11673,16 +11673,15 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Military"/>
   </type>
   <type name="Mag_AKM_Drum75Rnd">
-    <nominal>4</nominal>
+    <nominal>3</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>2</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Highloot"/>
-    <usage name="ContaminatedArea"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <usage name="Special"/>
     
   </type>
   <type name="Mag_AKM_Palm30Rnd">
@@ -11873,6 +11872,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier4"/>
   </type>
   <type name="Mag_M14_20Rnd">
     <nominal>12</nominal>
@@ -11882,8 +11882,9 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Special"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <usage name="Military"/>
+    <value name="Tier4"/>
   </type>
   <type name="Mag_MKII_10Rnd">
     <nominal>30</nominal>
@@ -11992,9 +11993,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Highloot"/>
-    <usage name="ContaminatedArea"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <usage name="Special"/>
   </type>
   <type name="Mag_SV98_10Rnd">
     <nominal>8</nominal>
@@ -12048,8 +12048,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Military"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <usage name="Special"/>
   </type>
   <type name="Mag_Scout_5Rnd">
     <nominal>8</nominal>
@@ -13774,7 +13774,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   </type>
   <type name="LandMineTrap">
     <nominal>10</nominal>
-    <lifetime>604800</lifetime>
+    <lifetime>259200</lifetime>
     <restock>0</restock>
     <min>5</min>
     <quantmin>-1</quantmin>
@@ -20811,28 +20811,26 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="Mag_AKM_Drum75Rnd_Green">
-    <nominal>2</nominal>
+    <nominal>1</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>1</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Highloot"/>
-    <usage name="ContaminatedArea"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <usage name="Special"/>
   </type>
   <type name="Mag_AKM_Drum75Rnd_Black">
-    <nominal>2</nominal>
+    <nominal>1</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>1</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Highloot"/>
-    <usage name="ContaminatedArea"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <usage name="Special"/>
   </type>
   <type name="Mag_AK74_30Rnd_Green">
     <nominal>8</nominal>

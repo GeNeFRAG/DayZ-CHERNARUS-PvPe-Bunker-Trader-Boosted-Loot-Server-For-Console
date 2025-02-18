@@ -90,12 +90,10 @@
 	<attachments chance="1.00" name="ZombieGhillieSuit">
         <item name="GhillieSuit_Mossy" chance="0.33" />
         <item name="GhillieSuit_Tan" chance="0.33" />
-        <item name="GhillieSuit_Woodland" chance="0.34" />
 	</attachments>
 	<attachments chance="1.00" name="ZombieGhillieHat">
 		<item name="GhillieHood_Mossy" chance="0.33" />
 		<item name="GhillieHood_Tan" chance="0.33" />
-		<item name="GhillieHood_Woodland" chance="0.34" />
 	</attachments>
 	<!-- Surprise Zombie Loot -->
 	<attachments chance="0.35" name="ZombieItemDropWTF"> 
@@ -105,6 +103,7 @@
 		<item name="DarkMotoHelmet_YellowScarred" chance="0.20" />
 		<item name="BarbedBaseballBat" chance="0.20" />
 		<item name="SpearStone" chance="0.20" />
+		<item name="Iceaxe" chance="0.20" />
 	</attachments>
 	<!-- Zombie Funny Hats -->
 	<attachments chance="0.35" name="ZombieFunnyHats"> 
