@@ -2,32 +2,38 @@ import xml.etree.ElementTree as ET
 import argparse
 from xml.dom import minidom
 
-def extract_usages(src_file):
+def extract_usages_and_values(src_file):
     tree = ET.parse(src_file)
     root = tree.getroot()
-    usages = {}
+    usages_and_values = {}
     for type_elem in root.findall('type'):
         name = type_elem.get('name')
-        usage_tags = type_elem.findall('usage')
-        usages[name] = [usage.get('name') for usage in usage_tags]
-    return usages
+        usage_tags = [usage.get('name') for usage in type_elem.findall('usage')]
+        value_tags = [value.get('name') for value in type_elem.findall('value')]
+        usages_and_values[name] = {'usages': usage_tags, 'values': value_tags}
+    return usages_and_values
 
-def update_target_file(target_file, usages, output_file):
+def update_target_file(target_file, usages_and_values, output_file):
     parser = ET.XMLParser(target=ET.TreeBuilder(insert_comments=True))
     tree = ET.parse(target_file, parser=parser)
     root = tree.getroot()
     not_found = []
     for type_elem in root.findall('type'):
         name = type_elem.get('name')
-        if name in usages:
+        if name in usages_and_values:
             # Remove existing category, usage, tag, and value tags
             for tag in type_elem.findall('category') + type_elem.findall('usage') + type_elem.findall('tag') + type_elem.findall('value'):
                 type_elem.remove(tag)
             # Add usage tags from source file
-            for usage_name in usages[name]:
+            for usage_name in usages_and_values[name]['usages']:
                 usage_elem = ET.Element('usage')
                 usage_elem.set('name', usage_name)
                 type_elem.append(usage_elem)
+            # Add value tags from source file
+            for value_name in usages_and_values[name]['values']:
+                value_elem = ET.Element('value')
+                value_elem.set('name', value_name)
+                type_elem.append(value_elem)
         else:
             not_found.append(name)
     
@@ -42,15 +48,15 @@ def update_target_file(target_file, usages, output_file):
     return not_found
 
 def main():
-    parser = argparse.ArgumentParser(description='Update target XML file with usage tags from source XML file.')
+    parser = argparse.ArgumentParser(description='Update target XML file with usage and value tags from source XML file.')
     parser.add_argument('src_file', help='Path to the source XML file')
     parser.add_argument('target_file', help='Path to the target XML file')
     parser.add_argument('output_file', help='Path to the output XML file')
     
     args = parser.parse_args()
     
-    usages = extract_usages(args.src_file)
-    not_found = update_target_file(args.target_file, usages, args.output_file)
+    usages_and_values = extract_usages_and_values(args.src_file)
+    not_found = update_target_file(args.target_file, usages_and_values, args.output_file)
     
     if not_found:
         print("The following type names were not found in the source file:")

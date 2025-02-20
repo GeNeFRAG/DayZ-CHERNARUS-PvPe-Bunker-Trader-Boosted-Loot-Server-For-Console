@@ -53,11 +53,17 @@ def update_types_xml(input_xml_file, output_xml_file, counts):
         name = item.get('name')
         nominal = item.find('nominal')
         min_val = item.find('min')
-
+        
         if name in counts and nominal is not None and int(nominal.text) != 0:
+            nominal_before = nominal.text
+            min_val_before = min_val.text if min_val is not None else None
+            
             nominal.text = str(int(nominal.text) + counts[name])
             if min_val is not None:
                 min_val.text = str(int(min_val.text) + counts[name])
+            
+            if nominal.text != nominal_before or (min_val is not None and min_val.text != min_val_before):
+                print(f"Updated {name}: nominal={nominal_before}>{nominal.text}, min={min_val_before}>{min_val.text if min_val is not None else 'N/A'}")
 
     tree.write(output_xml_file, pretty_print=True, xml_declaration=True, encoding='UTF-8')
 

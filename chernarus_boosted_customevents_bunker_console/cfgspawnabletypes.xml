@@ -1715,7 +1715,7 @@
 		<cargo chance="0.03">
 			<item name="AntiChemInjector" chance="1.0"/>
 		</cargo>
-		<cargo chance="0.03">
+		<cargo chance="0.022">
 			<item name="PunchedCard" chance="1.0"/>
 		</cargo>
 		<cargo chance="0.05">
@@ -1801,7 +1801,7 @@
 			<item name="MedicalScrubsHat_Green" chance="1.0" />
 		</attachments>
 		<cargo preset="foodArmy" />
-		<cargo chance="0.03">
+		<cargo chance="0.022">
 			<item name="PunchedCard" chance="1.0" />
 		</cargo>
 		<cargo chance="0.06">
@@ -1812,9 +1812,6 @@
 		<cargo preset="foodArmy"/>
 		<attachments preset="HeavyArmorArmy"/>
 		<attachments preset="HeavyHelmetArmy"/>
-		<cargo chance="0.05">
-			<item name="FlashGrenade" chance="1.0"/>
-		</cargo>
 	</type>
 
 	<!--City-->
@@ -2251,6 +2248,8 @@
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
 		<attachments preset="vestsIndustrial"/>
+		<!-- WTF -->
+		<attachments preset="ZombieItemDropWTF"/>
 	</type>
 	<type name="ZmbF_BlueCollarFat_Red">
 		<cargo preset="foodCity"/>
@@ -2295,6 +2294,12 @@
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
 		<attachments preset="vestsIndustrial"/>
+		<cargo chance="0.022">
+			<item name="RemoteDetonator" chance="1.0"/>
+		</cargo>
+		<cargo chance="0.022">
+			<item name="Plastic_Explosive" chance="1.0"/>
+		</cargo>
 	</type>
 	<type name="ZmbM_ConstrWorkerNormal_Beige">
 		<cargo preset="foodCity"/>
@@ -2316,10 +2321,10 @@
 		<attachments preset="glassesVillage"/>
 		<attachments preset="hatsIndustrial"/>
 		<attachments preset="vestsIndustrial"/>
-		<cargo chance="0.03">
+		<cargo chance="0.022">
 			<item name="RemoteDetonator" chance="1.0"/>
 		</cargo>
-		<cargo chance="0.03">
+		<cargo chance="0.022">
 			<item name="Plastic_Explosive" chance="1.0"/>
 		</cargo>
 	</type>

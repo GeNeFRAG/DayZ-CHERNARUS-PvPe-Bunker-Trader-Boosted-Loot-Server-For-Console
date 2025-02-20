@@ -2,21 +2,22 @@
 
 import xml.etree.ElementTree as ET
 import pandas as pd
-from typing import TypedDict, Dict, Set, List
-from io import StringIO
+from collections import defaultdict
+import copy
+import re
 import argparse
 import sys
 import os
 import openpyxl
-from dataclasses import dataclass
 
-@dataclass
-class XMLConfig:
-    flag_columns: List[str] = None
-    numeric_fields: List[str] = None
-
-    def __post_init__(self):
-        self.flag_columns = [
+def xml_to_excel(xml_file, excel_file):
+    try:
+        # Parse the actual XML
+        tree = ET.parse(xml_file)
+        root = tree.getroot()
+        
+        # Define flag columns
+        flag_columns = [
             'count_in_cargo',
             'count_in_hoarder',
             'count_in_map',
@@ -24,171 +25,223 @@ class XMLConfig:
             'crafted',
             'deloot'
         ]
-        self.numeric_fields = ['nominal', 'lifetime', 'restock', 'min', 'quantmin', 'quantmax', 'cost']
-
-class ItemData(TypedDict, total=False):
-    name: str
-    nominal: int
-    lifetime: int
-    restock: int
-    min: int
-    quantmin: int
-    quantmax: int
-    cost: int
-    category: str
-
-def collect_values(root: ET.Element) -> tuple[Set[str], Set[str]]:
-    usage_values = {usage.get('name', '') for type_elem in root.findall('type') 
-                   for usage in type_elem.findall('usage')}
-    tier_values = {value.get('name', '') for type_elem in root.findall('type') 
-                   for value in type_elem.findall('value')}
-    return usage_values, tier_values
-
-def process_type_element(type_elem: ET.Element, config: XMLConfig, 
-                        usage_columns: List[str], tier_columns: List[str]) -> Dict:
-    flags_elem = type_elem.find('flags')
-    category_elem = type_elem.find('category')
-    current_usage = {u.get('name', '') for u in type_elem.findall('usage')}
-    current_tiers = {v.get('name', '') for v in type_elem.findall('value')}
-
-    item_data = {
-        'name': type_elem.get('name', ''),
-        **{field: int(type_elem.find(field).text) if type_elem.find(field) is not None 
-           and type_elem.find(field).text else '' for field in config.numeric_fields},
-        **{flag: int(flags_elem.get(flag, '0')) if flags_elem is not None else '' 
-           for flag in config.flag_columns},
-        'category': category_elem.get('name', '') if category_elem is not None else '',
-        **{f'usage_{usage}': 'X' if usage in current_usage else '' for usage in usage_columns},
-        **{f'tier_{tier}': 'X' if tier in current_tiers else '' for tier in tier_columns}
-    }
-    return item_data
-
-def format_xml(elem: ET.Element, config: XMLConfig, level: int = 0) -> str:
-    indent = "    "
-    output = StringIO()
-    output.write('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n')
-    output.write('<types>\n')
-    
-    for type_elem in elem:
-        output.write(f'{indent * (level + 1)}<type name="{type_elem.get("name")}">\n')
         
-        # Write numeric fields
-        for field in config.numeric_fields:
-            if (field_elem := type_elem.find(field)) is not None:
-                output.write(f'{indent * (level + 2)}<{field}>{field_elem.text}</{field}>\n')
+        # Define numeric fields
+        numeric_fields = ['nominal', 'lifetime', 'restock', 'min', 'quantmin', 'quantmax', 'cost']
         
-        # Write flags
-        if (flags_elem := type_elem.find('flags')) is not None:
-            flags_attrs = ' '.join(f'{k}="{v}"' for k, v in flags_elem.attrib.items())
-            output.write(f'{indent * (level + 2)}<flags {flags_attrs} />\n')
+        # Collect all possible usage and tier values first
+        usage_values = set()
+        tier_values = set()
+        for type_elem in root.findall('type'):
+            for usage in type_elem.findall('usage'):
+                usage_values.add(usage.get('name', ''))
+            for value in type_elem.findall('value'):
+                tier_values.add(value.get('name', ''))
         
-        # Write category
-        if (category_elem := type_elem.find('category')) is not None:
-            output.write(f'{indent * (level + 2)}<category name="{category_elem.get("name")}" />\n')
-        
-        # Write usage and value tags
-        for tag_type in ['usage', 'value']:
-            for elem in type_elem.findall(tag_type):
-                output.write(f'{indent * (level + 2)}<{tag_type} name="{elem.get("name")}" />\n')
-        
-        output.write(f'{indent * (level + 1)}</type>\n')
-    
-    output.write('</types>\n')
-    return output.getvalue()
-
-def xml_to_excel(xml_file: str, excel_file: str) -> bool:
-    try:
-        config = XMLConfig()
-        tree = ET.parse(xml_file)
-        root = tree.getroot()
-        
-        # Collect values and prepare columns
-        usage_values, tier_values = collect_values(root)
+        # Sort the sets for consistent column ordering
         usage_columns = sorted(usage_values)
         tier_columns = sorted(tier_values)
         
-        # Process all type elements
-        data = [process_type_element(type_elem, config, usage_columns, tier_columns) 
-                for type_elem in root.findall('type')]
+        # Prepare data for DataFrame
+        data = []
+        for type_elem in root.findall('type'):
+            # Initialize item with name attribute
+            item = {
+                'name': type_elem.get('name', ''),
+            }
+            
+            # Get numeric values from child elements
+            for field in numeric_fields:
+                field_elem = type_elem.find(field)
+                # Convert to integer if possible, otherwise leave as empty string
+                if field_elem is not None and field_elem.text:
+                    try:
+                        item[field] = int(field_elem.text)
+                    except ValueError:
+                        item[field] = field_elem.text
+                else:
+                    item[field] = ''
+            
+            # Handle flags attributes as separate columns
+            flags_elem = type_elem.find('flags')
+            if flags_elem is not None:
+                for flag in flag_columns:
+                    try:
+                        item[flag] = int(flags_elem.get(flag, '0'))
+                    except ValueError:
+                        item[flag] = flags_elem.get(flag, '')
+            else:
+                for flag in flag_columns:
+                    item[flag] = ''
+            
+            # Handle category
+            category_elem = type_elem.find('category')
+            item['category'] = category_elem.get('name', '') if category_elem is not None else ''
+            
+            # Handle usage tags as separate columns
+            current_usage = {u.get('name', '') for u in type_elem.findall('usage')}
+            for usage in usage_columns:
+                item[f'usage_{usage}'] = 'X' if usage in current_usage else ''
+            
+            # Handle tier values as separate columns
+            current_tiers = {v.get('name', '') for v in type_elem.findall('value')}
+            for tier in tier_columns:
+                item[f'tier_{tier}'] = 'X' if tier in current_tiers else ''
+            
+            data.append(item)
         
-        # Create and process DataFrame
-        df = pd.DataFrame(data).replace('', pd.NA)
-        numeric_columns = config.numeric_fields + config.flag_columns
-        df[numeric_columns] = df[numeric_columns].apply(pd.to_numeric, errors='coerce')
+        # Create DataFrame
+        df = pd.DataFrame(data)
         
-        # Save to Excel with formatting
+        # Convert empty strings to NaN for numeric columns
+        numeric_columns = numeric_fields + flag_columns
+        for col in numeric_columns:
+            df[col] = pd.to_numeric(df[col], errors='coerce')
+        
+        # Save to Excel with appropriate formatting
         with pd.ExcelWriter(excel_file, engine='openpyxl') as writer:
             df.to_excel(writer, index=False)
             worksheet = writer.sheets['Sheet1']
             
+            # Format columns appropriately
             for idx, column in enumerate(df.columns, 1):
                 letter = openpyxl.utils.get_column_letter(idx)
-                for cell in worksheet[letter][1:]:
-                    cell.number_format = '0' if column in numeric_columns else '@'
+                if column in numeric_columns:
+                    # Format numeric columns as numbers
+                    for cell in worksheet[letter][1:]:  # Skip header row
+                        if cell.value is not None:
+                            cell.number_format = '0'
+                else:
+                    # Format other columns as text
+                    for cell in worksheet[letter][1:]:  # Skip header row
+                        cell.number_format = '@'
         
         print(f"Successfully exported to {excel_file}")
         return True
-        
     except Exception as e:
         print(f"Error during XML to Excel conversion: {str(e)}", file=sys.stderr)
         return False
 
-def excel_to_xml(excel_file: str, output_xml_file: str, chunk_size: int = 1000) -> bool:
+def excel_to_xml(excel_file, output_xml_file):
     try:
-        config = XMLConfig()
+        # Read the Excel file
+        df = pd.read_excel(excel_file)
+        
+        # Create new XML structure
         new_root = ET.Element('types')
         
-        # Get column information
-        df = pd.read_excel(excel_file)
+        # Define flag columns
+        flag_columns = [
+            'count_in_cargo',
+            'count_in_hoarder',
+            'count_in_map',
+            'count_in_player',
+            'crafted',
+            'deloot'
+        ]
+        
+        # Define numeric fields
+        numeric_fields = ['nominal', 'lifetime', 'restock', 'min', 'quantmin', 'quantmax', 'cost']
+        
+        # Get usage and tier columns
         usage_columns = [col for col in df.columns if col.startswith('usage_')]
         tier_columns = [col for col in df.columns if col.startswith('tier_')]
         
-        # Process DataFrame in chunks
-        for chunk_start in range(0, len(df), chunk_size):
-            chunk = df.iloc[chunk_start:chunk_start + chunk_size]
+        # Process each row in the DataFrame
+        for _, row in df.iterrows():
+            type_elem = ET.SubElement(new_root, 'type')
             
-            for _, row in chunk.iterrows():
-                type_elem = ET.SubElement(new_root, 'type')
-                
-                if pd.notna(row['name']) and str(row['name']).strip():
-                    type_elem.set('name', str(row['name']).strip())
-                
-                # Process numeric fields
-                for field in config.numeric_fields:
-                    if pd.notna(row[field]) and str(row[field]).strip():
-                        field_elem = ET.SubElement(type_elem, field)
-                        field_elem.text = str(int(float(row[field])))
-                
-                # Process flags
-                flags_attrs = {flag: str(int(float(row[flag]))) 
-                             for flag in config.flag_columns 
-                             if pd.notna(row[flag])}
-                if flags_attrs:
-                    flags_elem = ET.SubElement(type_elem, 'flags')
-                    for flag, value in flags_attrs.items():
-                        flags_elem.set(flag, value)
-                
-                # Process category
-                if pd.notna(row['category']) and str(row['category']).strip():
-                    category_elem = ET.SubElement(type_elem, 'category')
-                    category_elem.set('name', str(row['category']).strip())
-                
-                # Process usage and tier tags
-                for col_list, tag_type in [(usage_columns, 'usage'), (tier_columns, 'value')]:
-                    for col in col_list:
-                        if pd.notna(row[col]) and row[col] == 'X':
-                            tag_name = col.replace(f'{tag_type}_', '')
-                            tag_elem = ET.SubElement(type_elem, tag_type)
-                            tag_elem.set('name', tag_name)
+            # Set name attribute
+            if pd.notna(row['name']) and str(row['name']).strip():
+                type_elem.set('name', str(row['name']).strip())
+            
+            # Handle numeric fields as child elements
+            for field in numeric_fields:
+                if pd.notna(row[field]) and str(row[field]).strip():
+                    field_elem = ET.SubElement(type_elem, field)
+                    field_elem.text = str(int(float(row[field])))
+            
+            # Handle flags
+            flags_present = False
+            flags_attrs = {}
+            for flag in flag_columns:
+                if pd.notna(row[flag]):
+                    flags_present = True
+                    flags_attrs[flag] = str(int(float(row[flag])))
+            
+            if flags_present:
+                flags_elem = ET.SubElement(type_elem, 'flags')
+                for flag, value in flags_attrs.items():
+                    flags_elem.set(flag, value)
+            
+            # Handle category
+            if pd.notna(row['category']) and str(row['category']).strip():
+                category_elem = ET.SubElement(type_elem, 'category')
+                category_elem.set('name', str(row['category']).strip())
+            
+            # Handle usage tags
+            for usage_col in usage_columns:
+                if pd.notna(row[usage_col]) and row[usage_col] == 'X':
+                    usage_name = usage_col.replace('usage_', '')
+                    usage_elem = ET.SubElement(type_elem, 'usage')
+                    usage_elem.set('name', usage_name)
+            
+            # Handle tier values
+            for tier_col in tier_columns:
+                if pd.notna(row[tier_col]) and row[tier_col] == 'X':
+                    tier_name = tier_col.replace('tier_', '')
+                    value_elem = ET.SubElement(type_elem, 'value')
+                    value_elem.set('name', tier_name)
         
-        # Generate and write formatted XML
-        formatted_xml = format_xml(new_root, config)
+        # Custom XML formatting function
+        def format_xml(elem, level=0):
+            indent = "    "  # 4 spaces for indentation
+            pieces = []
+            pieces.append('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n')
+            pieces.append('<types>\n')
+            
+            for type_elem in elem:
+                pieces.append(f'{indent * (level + 1)}<type name="{type_elem.get("name")}">\n')
+                
+                # Add numeric fields
+                for field in numeric_fields:
+                    field_elem = type_elem.find(field)
+                    if field_elem is not None:
+                        pieces.append(f'{indent * (level + 2)}<{field}>{field_elem.text}</{field}>\n')
+                
+                # Add flags
+                flags_elem = type_elem.find('flags')
+                if flags_elem is not None:
+                    flags_attrs = ' '.join(f'{k}="{v}"' for k, v in flags_elem.attrib.items())
+                    pieces.append(f'{indent * (level + 2)}<flags {flags_attrs} />\n')
+                
+                # Add category
+                category_elem = type_elem.find('category')
+                if category_elem is not None:
+                    pieces.append(f'{indent * (level + 2)}<category name="{category_elem.get("name")}" />\n')
+                
+                # Add usage tags
+                for usage in type_elem.findall('usage'):
+                    pieces.append(f'{indent * (level + 2)}<usage name="{usage.get("name")}" />\n')
+                
+                # Add value tags
+                for value in type_elem.findall('value'):
+                    pieces.append(f'{indent * (level + 2)}<value name="{value.get("name")}" />\n')
+                
+                pieces.append(f'{indent * (level + 1)}</type>\n')
+            
+            pieces.append('</types>\n')
+            return ''.join(pieces)
+        
+        # Generate the formatted XML
+        formatted_xml = format_xml(new_root)
+        
+        # Write the final XML
         with open(output_xml_file, 'w', encoding='utf-8') as f:
             f.write(formatted_xml)
         
         print(f"Successfully created new XML file: {output_xml_file}")
         return True
-        
     except Exception as e:
         print(f"Error during Excel to XML conversion: {str(e)}", file=sys.stderr)
         return False
@@ -211,8 +264,13 @@ def main():
     if not os.path.exists(args.input):
         parser.error(f"Input file does not exist: {args.input}")
 
-    success = xml_to_excel(args.input, args.output) if args.to_excel else excel_to_xml(args.input, args.output)
-    sys.exit(0 if success else 1)
+    if args.to_excel:
+        if not xml_to_excel(args.input, args.output):
+            sys.exit(1)
+    else:  # to_xml
+        if not excel_to_xml(args.input, args.output):
+            sys.exit(1)
 
 if __name__ == "__main__":
     main()
+

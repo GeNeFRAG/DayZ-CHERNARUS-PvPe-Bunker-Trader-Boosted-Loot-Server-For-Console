@@ -167,7 +167,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Military"/>
   </type>
   <type name="AmmoBox_545x39_20Rnd">
-    <nominal>23</nominal>
+    <nominal>22</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>12</min>
@@ -374,7 +374,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MagsAmmo"/>
   </type>
   <type name="Ammo_40mm_Chemgas">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>5400</lifetime>
     <restock>1800</restock>
     <min>3</min>
@@ -383,7 +383,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="ContaminatedArea"/>
-    <usage name="Military"/>
   </type>
   <type name="Ammo_40mm_Explosive">
     <nominal>12</nominal>
@@ -395,6 +394,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="Ammo_40mm_Smoke_Black">
     <nominal>15</nominal>
@@ -1870,7 +1871,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="ArmyPouch_Camo">
     <nominal>5</nominal>
@@ -1881,7 +1882,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="ArmyPouch_Green">
     <nominal>8</nominal>
@@ -1903,7 +1904,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="AssaultBag_Green">
     <nominal>4</nominal>
@@ -1914,7 +1915,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="AssaultBag_Ttsko">
     <nominal>4</nominal>
@@ -1925,7 +1926,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="AssaultBag_Winter">
     <nominal>0</nominal>
@@ -1936,7 +1937,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="CanvasBag_Medical">
     <nominal>8</nominal>
@@ -1947,7 +1948,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Medical"/>
   </type>
   <type name="CanvasBag_Olive">
     <nominal>10</nominal>
@@ -1958,7 +1959,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="ChildBag_Blue">
     <nominal>24</nominal>
@@ -2013,7 +2014,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="CoyoteBag_Green">
     <nominal>6</nominal>
@@ -2024,7 +2025,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="CoyoteBag_Winter">
     <nominal>0</nominal>
@@ -2035,7 +2036,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="DryBag_Black">
     <nominal>5</nominal>
@@ -2211,7 +2212,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="HipPack_Medical">
     <nominal>8</nominal>
@@ -2222,7 +2223,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Medical"/>
   </type>
   <type name="HipPack_Party">
     <nominal>4</nominal>
@@ -2398,7 +2399,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="MilitaryClothes"/>
+    <usage name="Military"/>
   </type>
   <type name="TaloonBag_Blue">
     <nominal>20</nominal>
@@ -2453,7 +2454,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="TortillaBag_Winter">
     <nominal>0</nominal>
@@ -2464,7 +2465,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Containers"/>
+    <usage name="Military"/>
   </type>
   <type name="WaterproofBag_Green">
     <nominal>20</nominal>
@@ -2581,7 +2582,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
   <!-- #################### CLOTHING #################### -->
   <type name="BDUJacket">
-    <nominal>7</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>600</restock>
     <min>2</min>
@@ -2592,7 +2593,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="BDUPants">
-    <nominal>7</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>600</restock>
     <min>2</min>
@@ -2834,10 +2835,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="BushlatPoliceJacket_Blue">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -2966,7 +2967,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="CargoPants_Black">
-    <nominal>25</nominal>
+    <nominal>20</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>10</min>
@@ -3802,10 +3803,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="M65Jacket_Black">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>28800</lifetime>
     <restock>600</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3813,10 +3814,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="M65Jacket_Khaki">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>28800</lifetime>
     <restock>600</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -3824,7 +3825,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="M65Jacket_Olive">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>28800</lifetime>
     <restock>600</restock>
     <min>3</min>
@@ -3835,7 +3836,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="M65Jacket_Tan">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>28800</lifetime>
     <restock>600</restock>
     <min>3</min>
@@ -4096,7 +4097,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Clothes"/>
+    <usage name="MilitaryClothes"/>
   </type>
   <type name="NavyUniformPants">
     <nominal>0</nominal>
@@ -4107,7 +4108,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Clothes"/>
+    <usage name="MilitaryClothes"/>
   </type>
   <type name="NurseDress_Blue">
     <nominal>8</nominal>
@@ -4930,7 +4931,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="TTSKOPants">
-    <nominal>12</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>5</min>
@@ -4941,7 +4942,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="TTsKOJacket_Camo">
-    <nominal>12</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>5</min>
@@ -4952,7 +4953,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="TacticalShirt_Black">
-    <nominal>10</nominal>
+    <nominal>8</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>3</min>
@@ -4963,7 +4964,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="TacticalShirt_Grey">
-    <nominal>10</nominal>
+    <nominal>8</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>3</min>
@@ -4974,7 +4975,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="TacticalShirt_Olive">
-    <nominal>12</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>5</min>
@@ -4985,7 +4986,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="TacticalShirt_Tan">
-    <nominal>12</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>5</min>
@@ -5139,7 +5140,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="USMCJacket_Woodland">
-    <nominal>7</nominal>
+    <nominal>5</nominal>
     <lifetime>28800</lifetime>
     <restock>600</restock>
     <min>2</min>
@@ -5161,7 +5162,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="USMCPants_Woodland">
-    <nominal>7</nominal>
+    <nominal>5</nominal>
     <lifetime>28800</lifetime>
     <restock>600</restock>
     <min>2</min>
@@ -5583,7 +5584,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="CombatBoots_Beige">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -5594,7 +5595,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="CombatBoots_Black">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -5605,7 +5606,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="CombatBoots_Brown">
-    <nominal>10</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -5616,7 +5617,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="CombatBoots_Green">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -5627,7 +5628,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="CombatBoots_Grey">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -5814,7 +5815,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="JungleBoots_Beige">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -5825,7 +5826,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="JungleBoots_Black">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -5836,7 +5837,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="JungleBoots_Brown">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -5847,7 +5848,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="JungleBoots_Green">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -5858,7 +5859,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="JungleBoots_Olive">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -5924,7 +5925,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Historical"/>
   </type>
   <type name="MilitaryBoots_Beige">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -5935,7 +5936,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="MilitaryBoots_Black">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -5946,7 +5947,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="MilitaryBoots_Bluerock">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -5957,7 +5958,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="MilitaryBoots_Brown">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -5968,7 +5969,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="MilitaryBoots_Redpunk">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -5976,7 +5977,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="MilitaryClothes"/>
+    <usage name="Clothes"/>
   </type>
   <type name="Sneakers_Black">
     <nominal>40</nominal>
@@ -6034,7 +6035,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="TTSKOBoots">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>5</min>
@@ -6210,6 +6211,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="AK101_Green">
     <nominal>1</nominal>
@@ -6221,6 +6224,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="AK74">
     <nominal>12</nominal>
@@ -6266,6 +6271,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Highloot"/>
     <usage name="ContaminatedArea"/>
+    <value name="Tier4"/>
   </type>
   <type name="AKS74U">
     <nominal>7</nominal>
@@ -6310,6 +6316,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="Aug">
     <nominal>3</nominal>
@@ -6512,7 +6520,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Weapons"/>
   </type>
   <type name="FAL">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -6521,6 +6529,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="FAMAS">
     <nominal>4</nominal>
@@ -6724,7 +6734,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Weapons"/>
   </type>
   <type name="Mosin9130">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>9</min>
@@ -6854,6 +6864,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="SVD">
     <nominal>2</nominal>
@@ -6865,6 +6877,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Highloot"/>
+    <value name="Tier4"/>
   </type>
   <type name="Saiga">
     <nominal>12</nominal>
@@ -6996,7 +7009,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Prison"/>
-    <usage name="Weapons"/>
   </type>
   <type name="Scout_Chernarus">
     <nominal>5</nominal>
@@ -7041,6 +7053,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="Vikhr">
     <nominal>4</nominal>
@@ -7052,6 +7066,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="Winchester70">
     <nominal>5</nominal>
@@ -7628,7 +7644,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="FoodDrink"/>
+    <usage name="Hunting"/>
   </type>
   <type name="Carp">
     <nominal>0</nominal>
@@ -8490,7 +8506,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
   </type>
   <type name="WaterBottle">
-    <nominal>120</nominal>
+    <nominal>100</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>85</min>
@@ -8558,15 +8574,16 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
   <!-- #################### GASGEAR #################### -->
   <type name="NBCBootsGray">
-    <nominal>4</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
+    <value name="Tier4"/>
   </type>
   <type name="NBCBootsWhite">
     <nominal>0</nominal>
@@ -8580,10 +8597,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="DontUse"/>
   </type>
   <type name="NBCBootsYellow">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>4</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8591,21 +8608,22 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Medical"/>
   </type>
   <type name="NBCGlovesGray">
-    <nominal>4</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
+    <value name="Tier4"/>
   </type>
   <type name="NBCGlovesYellow">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>4</min>
+    <min>2</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -8613,15 +8631,16 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Medical"/>
   </type>
   <type name="NBCHoodGray">
-    <nominal>4</nominal>
+    <nominal>2</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
+    <value name="Tier4"/>
   </type>
   <type name="NBCHoodWhite">
     <nominal>0</nominal>
@@ -8635,17 +8654,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="DontUse"/>
   </type>
   <type name="NBCHoodYellow">
-    <nominal>6</nominal>
-    <lifetime>14400</lifetime>
-    <restock>0</restock>
-    <min>4</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Medical"/>
-  </type>
-  <type name="NBCJacketGray">
     <nominal>4</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
@@ -8654,7 +8662,19 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <usage name="Medical"/>
+  </type>
+  <type name="NBCJacketGray">
+    <nominal>3</nominal>
+    <lifetime>14400</lifetime>
+    <restock>0</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
+    <value name="Tier4"/>
   </type>
   <type name="NBCJacketWhite">
     <nominal>0</nominal>
@@ -8688,6 +8708,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
+    <value name="Tier4"/>
   </type>
   <type name="NBCPantsWhite">
     <nominal>0</nominal>
@@ -8714,7 +8735,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
   <!-- #################### GASMASKS #################### -->
   <type name="AirborneMask">
-    <nominal>20</nominal>
+    <nominal>15</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>8</min>
@@ -9036,7 +9057,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="OMNOGloves_Brown">
-    <nominal>12</nominal>
+    <nominal>7</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>3</min>
@@ -9048,7 +9069,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Police"/>
   </type>
   <type name="OMNOGloves_Gray">
-    <nominal>12</nominal>
+    <nominal>7</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>3</min>
@@ -9060,7 +9081,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Police"/>
   </type>
   <type name="PaddedGloves_Beige">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>7</min>
@@ -9071,7 +9092,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="PaddedGloves_Brown">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>7</min>
@@ -9082,7 +9103,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="PaddedGloves_Threat">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>7</min>
@@ -9170,7 +9191,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Medical"/>
   </type>
   <type name="TacticalGloves_Beige">
-    <nominal>9</nominal>
+    <nominal>6</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>3</min>
@@ -9181,7 +9202,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="TacticalGloves_Black">
-    <nominal>9</nominal>
+    <nominal>6</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>3</min>
@@ -9192,7 +9213,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="TacticalGloves_Green">
-    <nominal>9</nominal>
+    <nominal>6</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>3</min>
@@ -9203,7 +9224,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="WoolGlovesFingerless_Black">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -9236,7 +9257,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Seasonal"/>
   </type>
   <type name="WoolGlovesFingerless_Green">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -9247,7 +9268,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="WoolGlovesFingerless_Tan">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -9258,7 +9279,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="WoolGlovesFingerless_White">
-    <nominal>6</nominal>
+    <nominal>4</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -9269,7 +9290,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="WoolGloves_Black">
-    <nominal>12</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>7</min>
@@ -9302,7 +9323,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Seasonal"/>
   </type>
   <type name="WoolGloves_Green">
-    <nominal>15</nominal>
+    <nominal>12</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>8</min>
@@ -9313,7 +9334,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="WoolGloves_Tan">
-    <nominal>12</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>7</min>
@@ -9384,7 +9405,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9395,7 +9416,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9406,7 +9427,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9417,7 +9438,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9428,7 +9449,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9439,7 +9460,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9450,7 +9471,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9461,7 +9482,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9472,7 +9493,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9747,7 +9768,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>19</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9758,7 +9779,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>19</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9769,7 +9790,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>19</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9780,7 +9801,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>19</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9791,7 +9812,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>19</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9802,7 +9823,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>19</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9813,7 +9834,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>19</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -9824,7 +9845,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>19</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10019,7 +10040,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="PetushokHat_Black">
-    <nominal>11</nominal>
+    <nominal>6</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>4</min>
@@ -10318,10 +10339,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
   <!-- #################### HELMETS #################### -->
   <type name="BallisticHelmet_BDU">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10329,10 +10350,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="BallisticHelmet_Black">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10340,10 +10361,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="BallisticHelmet_Desert">
-    <nominal>8</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10351,10 +10372,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="BallisticHelmet_Green">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10373,10 +10394,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="BallisticHelmet_UN">
-    <nominal>8</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10395,10 +10416,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="BallisticHelmet_Woodland">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>1800</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10420,7 +10441,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10431,7 +10452,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10442,7 +10463,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10453,7 +10474,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10464,7 +10485,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>25</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>10</min>
+    <min>15</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10703,7 +10724,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="FireFighter"/>
   </type>
   <type name="GorkaHelmet">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>600</restock>
     <min>3</min>
@@ -10714,10 +10735,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MilitaryClothes"/>
   </type>
   <type name="GorkaHelmetVisor">
-    <nominal>32</nominal>
+    <nominal>8</nominal>
     <lifetime>14400</lifetime>
     <restock>600</restock>
-    <min>12</min>
+    <min>3</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10728,7 +10749,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10739,7 +10760,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10750,7 +10771,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10761,7 +10782,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10779,12 +10800,13 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="ContaminatedArea"/>
     <usage name="Highloot"/>
+    <value name="Tier4"/>
   </type>
   <type name="MotoHelmet_Black">
-    <nominal>8</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10792,10 +10814,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="MotoHelmet_Blue">
-    <nominal>8</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10803,10 +10825,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="MotoHelmet_Green">
-    <nominal>8</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10814,10 +10836,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="MotoHelmet_Grey">
-    <nominal>8</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10825,10 +10847,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="MotoHelmet_Lime">
-    <nominal>8</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10836,10 +10858,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="MotoHelmet_Red">
-    <nominal>8</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10847,10 +10869,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="MotoHelmet_White">
-    <nominal>8</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10858,10 +10880,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="MotoHelmet_Yellow">
-    <nominal>8</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>5</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10894,7 +10916,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10905,7 +10927,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10916,7 +10938,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10927,7 +10949,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10938,7 +10960,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>12</min>
+    <min>20</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -10946,10 +10968,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="Ssh68Helmet">
-    <nominal>40</nominal>
+    <nominal>20</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>16</min>
+    <min>10</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11572,10 +11594,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Equipment"/>
   </type>
   <type name="TLRLight">
-    <nominal>80</nominal>
+    <nominal>40</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>60</min>
+    <min>30</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -11651,7 +11673,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Military"/>
   </type>
   <type name="Mag_AK74_45Rnd">
-    <nominal>8</nominal>
+    <nominal>4</nominal>
     <lifetime>5400</lifetime>
     <restock>1800</restock>
     <min>2</min>
@@ -11660,6 +11682,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="Mag_AKM_30Rnd">
     <nominal>4</nominal>
@@ -11680,9 +11704,9 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Special"/>
-    
+    <usage name="ContaminatedArea"/>
   </type>
   <type name="Mag_AKM_Palm30Rnd">
     <nominal>4</nominal>
@@ -11696,10 +11720,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Military"/>
   </type>
   <type name="Mag_Aug_30Rnd">
-    <nominal>10</nominal>
+    <nominal>7</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
-    <min>6</min>
+    <min>3</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
@@ -11815,9 +11839,11 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="Mag_FAMAS_25Rnd">
-    <nominal>10</nominal>
+    <nominal>7</nominal>
     <lifetime>28800</lifetime>
     <restock>1800</restock>
     <min>3</min>
@@ -11828,7 +11854,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Military"/>
   </type>
   <type name="Mag_FNX45_15Rnd">
-    <nominal>35</nominal>
+    <nominal>32</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>26</min>
@@ -11840,7 +11866,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_Glock_15Rnd">
-    <nominal>25</nominal>
+    <nominal>22</nominal>
     <lifetime>7200</lifetime>
     <restock>0</restock>
     <min>15</min>
@@ -11863,7 +11889,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_M14_10Rnd">
-    <nominal>12</nominal>
+    <nominal>8</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>3</min>
@@ -11875,7 +11901,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <value name="Tier4"/>
   </type>
   <type name="Mag_M14_20Rnd">
-    <nominal>12</nominal>
+    <nominal>6</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -11975,10 +12001,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Police"/>
   </type>
   <type name="Mag_STANAG_30Rnd">
-    <nominal>10</nominal>
+    <nominal>7</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>4</min>
+    <min>2</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
@@ -12008,10 +12034,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Military"/>
   </type>
   <type name="Mag_SVD_10Rnd">
-    <nominal>8</nominal>
+    <nominal>4</nominal>
     <lifetime>28800</lifetime>
     <restock>3600</restock>
-    <min>3</min>
+    <min>2</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
@@ -12120,7 +12146,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="Balaclava3Holes_Beige">
-    <nominal>14</nominal>
+    <nominal>7</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>4</min>
@@ -12131,10 +12157,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="Balaclava3Holes_Black">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12142,7 +12168,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="Balaclava3Holes_Blue">
-    <nominal>14</nominal>
+    <nominal>7</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>4</min>
@@ -12153,7 +12179,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="Balaclava3Holes_Green">
-    <nominal>10</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -12164,10 +12190,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="Balaclava3Holes_White">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>2</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12175,40 +12201,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="BalaclavaMask_BDU">
-    <nominal>10</nominal>
-    <lifetime>28800</lifetime>
-    <restock>0</restock>
-    <min>4</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Clothes"/>
-  </type>
-  <type name="BalaclavaMask_Beige">
-    <nominal>10</nominal>
-    <lifetime>28800</lifetime>
-    <restock>0</restock>
-    <min>4</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Clothes"/>
-  </type>
-  <type name="BalaclavaMask_Black">
-    <nominal>10</nominal>
-    <lifetime>28800</lifetime>
-    <restock>0</restock>
-    <min>4</min>
-    <quantmin>-1</quantmin>
-    <quantmax>-1</quantmax>
-    <cost>100</cost>
-    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Clothes"/>
-  </type>
-  <type name="BalaclavaMask_Blackskull">
-    <nominal>6</nominal>
+    <nominal>5</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -12218,8 +12211,41 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Clothes"/>
   </type>
+  <type name="BalaclavaMask_Beige">
+    <nominal>5</nominal>
+    <lifetime>28800</lifetime>
+    <restock>0</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <usage name="Clothes"/>
+  </type>
+  <type name="BalaclavaMask_Black">
+    <nominal>5</nominal>
+    <lifetime>28800</lifetime>
+    <restock>0</restock>
+    <min>2</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <usage name="Clothes"/>
+  </type>
+  <type name="BalaclavaMask_Blackskull">
+    <nominal>3</nominal>
+    <lifetime>28800</lifetime>
+    <restock>0</restock>
+    <min>1</min>
+    <quantmin>-1</quantmin>
+    <quantmax>-1</quantmax>
+    <cost>100</cost>
+    <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+    <usage name="Clothes"/>
+  </type>
   <type name="BalaclavaMask_Blue">
-    <nominal>14</nominal>
+    <nominal>7</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>4</min>
@@ -12230,7 +12256,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="BalaclavaMask_Chain">
-    <nominal>4</nominal>
+    <nominal>2</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>1</min>
@@ -12241,10 +12267,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="BalaclavaMask_Green">
-    <nominal>14</nominal>
+    <nominal>7</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>8</min>
+    <min>4</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -12527,7 +12553,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Police"/>
   </type>
   <type name="Shemag_Brown">
-    <nominal>40</nominal>
+    <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>24</min>
@@ -12538,7 +12564,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="Shemag_Green">
-    <nominal>40</nominal>
+    <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>24</min>
@@ -12549,7 +12575,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="Shemag_Red">
-    <nominal>40</nominal>
+    <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>24</min>
@@ -12560,7 +12586,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="Shemag_White">
-    <nominal>40</nominal>
+    <nominal>30</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>24</min>
@@ -12714,6 +12740,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
     <usage name="Medical"/>
+    <usage name="ContaminatedArea"/>
   </type>
   <type name="BandageDressing">
     <nominal>45</nominal>
@@ -12802,6 +12829,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Medical"/>
+    <usage name="Misc"/>
   </type>
   <type name="DisinfectantSpray">
     <nominal>30</nominal>
@@ -12813,6 +12841,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Medical"/>
+    <usage name="Misc"/>
   </type>
   <type name="Epinephrine">
     <nominal>35</nominal>
@@ -12846,6 +12875,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Medical"/>
+    <usage name="Misc"/>
   </type>
   <type name="Morphine">
     <nominal>20</nominal>
@@ -13071,7 +13101,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Industrial"/>
   </type>
   <type name="Cleaver">
-    <nominal>65</nominal>
+    <nominal>60</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>45</min>
@@ -13116,7 +13146,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Hunting"/>
   </type>
   <type name="HuntingKnife">
-    <nominal>70</nominal>
+    <nominal>75</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>50</min>
@@ -13127,7 +13157,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Hunting"/>
   </type>
   <type name="KitchenKnife">
-    <nominal>70</nominal>
+    <nominal>65</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>50</min>
@@ -13270,7 +13300,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Tools"/>
   </type>
   <type name="SteakKnife">
-    <nominal>84</nominal>
+    <nominal>70</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>60</min>
@@ -13462,7 +13492,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <nominal>40</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>40</min>
+    <min>30</min>
     <quantmin>65</quantmin>
     <quantmax>100</quantmax>
     <cost>100</cost>
@@ -13717,7 +13747,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Military"/>
   </type>
   <type name="EasterEgg">
-    <nominal>10</nominal>
+    <nominal>3</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>0</min>
@@ -13760,6 +13790,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="ContaminatedArea"/>
     <usage name="Military"/>
+    <value name="Tier4"/>
   </type>
   <type name="ImprovisedExplosive">
     <nominal>0</nominal>
@@ -13839,7 +13870,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Military"/>
   </type>
   <type name="M67Grenade">
-    <nominal>20</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>5</min>
@@ -13848,6 +13879,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="Plastic_Explosive">
     <nominal>5</nominal>
@@ -13859,6 +13892,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Industrial"/>
+    <value name="Unique"/>
   </type>
   <type name="RDG2SmokeGrenade_Black">
     <nominal>10</nominal>
@@ -13885,7 +13919,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Police"/>
   </type>
   <type name="RGD5Grenade">
-    <nominal>20</nominal>
+    <nominal>15</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>5</min>
@@ -13894,6 +13928,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="RabbitSnareTrap">
     <nominal>0</nominal>
@@ -13907,7 +13943,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Tools"/>
   </type>
   <type name="RemoteDetonator">
-    <nominal>10</nominal>
+    <nominal>5</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>2</min>
@@ -13916,6 +13952,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Industrial"/>
+    <value name="Unique"/>
   </type>
   <type name="RemoteDetonatorReceiver">
     <nominal>0</nominal>
@@ -14830,7 +14867,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="DontUse"/>
   </type>
   <type name="Barrel_Blue">
-    <nominal>50</nominal>
+    <nominal>40</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>20</min>
@@ -14841,7 +14878,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Containers"/>
   </type>
   <type name="Barrel_Green">
-    <nominal>50</nominal>
+    <nominal>40</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>20</min>
@@ -14852,7 +14889,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Containers"/>
   </type>
   <type name="Barrel_Red">
-    <nominal>50</nominal>
+    <nominal>40</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>20</min>
@@ -14863,7 +14900,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Containers"/>
   </type>
   <type name="Barrel_Yellow">
-    <nominal>50</nominal>
+    <nominal>40</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>20</min>
@@ -14937,7 +14974,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Large_2">
     <nominal>16</nominal>
@@ -14948,7 +14985,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Large_3">
     <nominal>16</nominal>
@@ -14959,7 +14996,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Large_4">
     <nominal>16</nominal>
@@ -14970,7 +15007,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Medium_1">
     <nominal>16</nominal>
@@ -14981,7 +15018,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Medium_2">
     <nominal>16</nominal>
@@ -14992,7 +15029,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Medium_3">
     <nominal>16</nominal>
@@ -15003,7 +15040,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Medium_4">
     <nominal>16</nominal>
@@ -15014,7 +15051,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Small_1">
     <nominal>16</nominal>
@@ -15025,7 +15062,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Small_2">
     <nominal>16</nominal>
@@ -15036,7 +15073,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Small_3">
     <nominal>16</nominal>
@@ -15047,7 +15084,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="GiftBox_Small_4">
     <nominal>16</nominal>
@@ -15058,7 +15095,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
-    <usage name="Seasonal"/>
+    <usage name="DontUse"/>
   </type>
   <type name="HeadlightH7_Box">
     <nominal>60</nominal>
@@ -15127,7 +15164,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Containers"/>
   </type>
   <type name="NailBox">
-    <nominal>100</nominal>
+    <nominal>95</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>70</min>
@@ -15182,7 +15219,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Containers"/>
   </type>
   <type name="SeaChest">
-    <nominal>25</nominal>
+    <nominal>20</nominal>
     <lifetime>3888000</lifetime>
     <restock>0</restock>
     <min>10</min>
@@ -15460,7 +15497,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Carparts"/>
   </type>
   <type name="CombinationLock">
-    <nominal>70</nominal>
+    <nominal>65</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>40</min>
@@ -15471,7 +15508,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Industrial"/>
   </type>
   <type name="CombinationLock4">
-    <nominal>50</nominal>
+    <nominal>40</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>20</min>
@@ -15660,7 +15697,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Industrial"/>
   </type>
   <type name="LeatherSewingKit">
-    <nominal>96</nominal>
+    <nominal>85</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>72</min>
@@ -15803,7 +15840,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
   </type>
   <type name="SewingKit">
-    <nominal>115</nominal>
+    <nominal>105</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>80</min>
@@ -15859,7 +15896,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Equipment"/>
   </type>
   <type name="WeaponCleaningKit">
-    <nominal>80</nominal>
+    <nominal>60</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>50</min>
@@ -15916,6 +15953,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="ContaminatedArea"/>
     <usage name="Highloot"/>
+    <value name="Tier4"/>
   </type>
   <type name="ImprovisedSuppressor">
     <nominal>0</nominal>
@@ -15939,9 +15977,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="ContaminatedArea"/>
     <usage name="Highloot"/>
+    <value name="Tier4"/>
   </type>
   <type name="PistolSuppressor">
-    <nominal>15</nominal>
+    <nominal>10</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>5</min>
@@ -15987,6 +16026,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
+    <usage name="ContaminatedArea"/>
   </type>
   <type name="NVGoggles">
     <nominal>5</nominal>
@@ -15999,6 +16039,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="ContaminatedArea"/>
     <usage name="Highloot"/>
+    <value name="Tier4"/>
   </type>
   <type name="Rangefinder">
     <nominal>60</nominal>
@@ -16011,6 +16052,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
     <usage name="Police"/>
+    <usage name="Industrial"/>
+    <usage name="Hunting"/>
   </type>
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
   <!-- #################### TOOLS #################### -->
@@ -16202,7 +16245,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Industrial"/>
   </type>
   <type name="Hacksaw">
-    <nominal>80</nominal>
+    <nominal>75</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>50</min>
@@ -16213,7 +16256,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Tools"/>
   </type>
   <type name="Hammer">
-    <nominal>55</nominal>
+    <nominal>50</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>40</min>
@@ -16235,7 +16278,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Tools"/>
   </type>
   <type name="HandSaw">
-    <nominal>80</nominal>
+    <nominal>75</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>50</min>
@@ -16246,7 +16289,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Tools"/>
   </type>
   <type name="Hatchet">
-    <nominal>130</nominal>
+    <nominal>125</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>95</min>
@@ -16268,10 +16311,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Weapons"/>
   </type>
   <type name="Jig">
-    <nominal>20</nominal>
+    <nominal>35</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
-    <min>15</min>
+    <min>25</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -16369,7 +16412,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Tools"/>
   </type>
   <type name="Pliers">
-    <nominal>80</nominal>
+    <nominal>75</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>50</min>
@@ -16402,7 +16445,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Tools"/>
   </type>
   <type name="Shovel">
-    <nominal>80</nominal>
+    <nominal>75</nominal>
     <lifetime>14400</lifetime>
     <restock>0</restock>
     <min>50</min>
@@ -16468,7 +16511,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="DontUse"/>
   </type>
   <type name="Whetstone">
-    <nominal>90</nominal>
+    <nominal>85</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>65</min>
@@ -16511,7 +16554,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <quantmax>-1</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    <usage name="Attachment"/>
+    <usage name="Clothes"/>
   </type>
   <type name="Chestplate">
     <nominal>3</nominal>
@@ -16699,7 +16742,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
-    <usage name="Clothes"/>
   </type>
   <type name="PlateCarrierPouches_Green">
     <nominal>3</nominal>
@@ -16744,6 +16786,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="PlateCarrierVest_Camo">
     <nominal>3</nominal>
@@ -16755,6 +16799,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="PlateCarrierVest_Green">
     <nominal>3</nominal>
@@ -16766,6 +16812,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="PlateCarrierVest_Winter">
     <nominal>3</nominal>
@@ -16777,6 +16825,8 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="MilitaryClothes"/>
+    <value name="Tier3"/>
+    <value name="Tier4"/>
   </type>
   <type name="PoliceVest">
     <nominal>20</nominal>
@@ -20800,10 +20850,10 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Clothes"/>
   </type>
   <type name="GorkaHelmet_Black">
-    <nominal>6</nominal>
+    <nominal>3</nominal>
     <lifetime>14400</lifetime>
     <restock>600</restock>
-    <min>3</min>
+    <min>1</min>
     <quantmin>-1</quantmin>
     <quantmax>-1</quantmax>
     <cost>100</cost>
@@ -20833,7 +20883,7 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <usage name="Special"/>
   </type>
   <type name="Mag_AK74_30Rnd_Green">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>3</min>
@@ -20842,10 +20892,9 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_AK74_30Rnd_Black">
-    <nominal>8</nominal>
+    <nominal>5</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
     <min>3</min>
@@ -20854,7 +20903,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_AKM_Palm30Rnd_Black">
     <nominal>2</nominal>
@@ -20866,7 +20914,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_AKM_Palm30Rnd_Green">
     <nominal>2</nominal>
@@ -20878,31 +20925,28 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_AK101_30Rnd_Green">
-    <nominal>5</nominal>
+    <nominal>2</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>4</min>
+    <min>1</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_AK101_30Rnd_Black">
-    <nominal>5</nominal>
+    <nominal>2</nominal>
     <lifetime>28800</lifetime>
     <restock>0</restock>
-    <min>4</min>
+    <min>1</min>
     <quantmin>40</quantmin>
     <quantmax>80</quantmax>
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_CMAG_40Rnd_Green">
     <nominal>2</nominal>
@@ -20914,7 +20958,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_CMAG_30Rnd_Green">
     <nominal>3</nominal>
@@ -20926,7 +20969,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_CMAG_40Rnd_Black">
     <nominal>2</nominal>
@@ -20938,7 +20980,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="Mag_CMAG_30Rnd_Black">
     <nominal>3</nominal>
@@ -20950,7 +20991,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Military"/>
-    <usage name="MagsAmmo"/>
   </type>
   <type name="FoxPelt">
     <nominal>0</nominal>
@@ -20993,7 +21033,6 @@ THE QUICKEST AND EASIEST WAY TO FIND A CATEGORY IS PRESSING CTRL + F, and find #
     <cost>100</cost>
     <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     <usage name="Medical"/>
-    <usage name="Equipment"/>
   </type>
   <!-- THIS FILE WAS GENERATED USING DAYZBOOSTERZ TYPES ORGANIZER. YOU CAN VISIT THE ORGANIZER YOURSELF @ https://dayzboosterz.com -->
 </types>
