@@ -51,7 +51,8 @@
       "custom/b_Bunker_BlackLake_v2_Loot.json",
       "custom/dzmc_blacklake_by_novoGOD.json",
       "custom/BennettsTraderShip_Elektro.json",
-      "custom/container_mil_garages.json"
+      "custom/container_mil_garages.json",
+      "custom/PrisonBridge.json"
     ],
     "environmentMinTemps": [
       -3,

@@ -101,7 +101,7 @@
         <saferadius>100</saferadius>
         <distanceradius>100</distanceradius>
         <cleanupradius>100</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="1"/>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>child</limit>
         <active>1</active>
@@ -119,7 +119,7 @@
         <saferadius>1000</saferadius>
         <distanceradius>1000</distanceradius>
         <cleanupradius>1000</cleanupradius>
-        <secondary>InfectedArmy</secondary>
+        <secondary>InfectedArmyHard</secondary>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>

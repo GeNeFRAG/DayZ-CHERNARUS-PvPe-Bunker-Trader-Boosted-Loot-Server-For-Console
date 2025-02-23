@@ -12124,7 +12124,7 @@
             <point pos="-1.784097 -1.087738 0.510323" range="0.548584" height="1.371460" />
             </container>
         </group>
-    <group name="Land_Ship_Big_FrontA" lootmax="8">
+    <group name="Land_Ship_Big_FrontA" lootmax="10">
         <usage name="Military" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
@@ -12193,7 +12193,7 @@
             <point pos="-7.422365 -17.062881 2.751952" range="1.199951" height="2.000000" />
             </container>
         </group>
-    <group name="Land_Ship_Big_FrontB" lootmax="8">
+    <group name="Land_Ship_Big_FrontB" lootmax="10">
         <usage name="Military" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
@@ -12250,7 +12250,7 @@
             <point pos="8.479738 -7.464897 15.260987" range="1.076542" height="2.000000" />
             </container>
         </group>
-    <group name="Land_Ship_Big_BackA" lootmax="8">
+    <group name="Land_Ship_Big_BackA" lootmax="10">
         <usage name="Military" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
@@ -12293,7 +12293,7 @@
             <point pos="-6.273195 -8.911217 -17.441404" range="0.821875" height="2.000000" />
             </container>
         </group>
-    <group name="Land_Ship_Big_BackB" lootmax="8">
+    <group name="Land_Ship_Big_BackB" lootmax="10">
         <usage name="Military" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
@@ -12336,7 +12336,7 @@
             <point pos="-6.341553 -7.888657 15.273925" range="1.199951" height="2.000000" />
             </container>
         </group>
-    <group name="Land_Ship_Big_Castle" lootmax="8">
+    <group name="Land_Ship_Big_Castle" lootmax="12">
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
         <usage name="RepairItems" />
@@ -12511,8 +12511,6 @@
             </container>
         </group>
     <group name="Wreck_UH1Y" lootmax="15">
-        <usage name="MagsAmmo" />
-        <usage name="Weapons" />
         <usage name="Attachment" />
         <usage name="Explosives" />
         <usage name="FoodDrink" />
@@ -12548,16 +12546,8 @@
             <point pos="-4.164428 -1.856922 2.812988" range="0.277910" height="1.145630" flags="32" />
             <point pos="-4.802368 -1.856922 -0.578615" range="0.329033" height="1.024933" flags="32" />
             </container>
-        <dispatch dechance="0.4">
-            <proxy type="Aug" pos="-3.017131 -1.5 0.206791" rpy="90.0 30.0 -10.0" dechance="1.00" />
-            </dispatch>
-        <dispatch dechance="0.4">
-            <proxy type="FAL" pos="-5.15 -1.5 -0.52" rpy="5.0 0.0 -25.0" dechance="1.00" />
-            </dispatch>
         </group>
     <group name="Wreck_Mi8" lootmax="15">
-        <usage name="MagsAmmo" />
-        <usage name="Weapons" />
         <usage name="Attachment" />
         <usage name="Explosives" />
         <usage name="FoodDrink" />
@@ -12601,16 +12591,9 @@
             <point pos="3.368212 -1.697937 0.870082" range="0.912368" height="1.900002" />
             <point pos="2.554070 -1.697937 4.891639" range="0.925143" height="1.900002" />
             </container>
-        <dispatch dechance="0.5">
-            <proxy type="AK101" pos="-8.088387 -1.1 -0.340433" rpy="0.0 15.0 0.0" dechance="1.00" />
-            </dispatch>
-        <dispatch dechance="0.5">
-            <proxy type="AK74" pos="-8.088387 -0.8 -0.340433" rpy="0.0 195.0 0.0" dechance="1.00" />
-            </dispatch>
-        </group>
+    </group>
     <group name="Wreck_Mi8_Crashed" lootmax="15">
         <usage name="Seasonal" />
-        <usage name="MagsAmmo" />
         <usage name="RepairItems" />
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
@@ -12647,8 +12630,6 @@
             </container>
         </group>
     <group name="Land_Wreck_C130J" lootmax="15">
-        <usage name="MagsAmmo" />
-        <usage name="Weapons" />
         <usage name="Attachment" />
         <usage name="Explosives" />
         <usage name="FoodDrink" />

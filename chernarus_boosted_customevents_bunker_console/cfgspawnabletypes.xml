@@ -462,13 +462,13 @@
 			<item name="PlateCarrierPouches_Green" chance="1.00"/>
 		</attachments>
 	</type>
-	<type name="PlateCarrierVest_White">
+	<type name="PlateCarrierVest_Winter">
 		<damage min="0.0" max="0.32"/>
 		<attachments chance="0.5">
-			<item name="PlateCarrierHolster_White" chance="1.00"/>
+			<item name="PlateCarrierHolster_Winter" chance="1.00"/>
 		</attachments>
 		<attachments chance="0.5">
-			<item name="PlateCarrierPouches_White" chance="1.00"/>
+			<item name="PlateCarrierPouches_Winter" chance="1.00"/>
 		</attachments>
 	</type>
 	<type name="SparkPlug">
@@ -1713,9 +1713,6 @@
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo"/>
 		<cargo chance="0.03">
-			<item name="AntiChemInjector" chance="1.0"/>
-		</cargo>
-		<cargo chance="0.022">
 			<item name="PunchedCard" chance="1.0"/>
 		</cargo>
 		<cargo chance="0.05">
@@ -1801,7 +1798,7 @@
 			<item name="MedicalScrubsHat_Green" chance="1.0" />
 		</attachments>
 		<cargo preset="foodArmy" />
-		<cargo chance="0.022">
+		<cargo chance="0.033">
 			<item name="PunchedCard" chance="1.0" />
 		</cargo>
 		<cargo chance="0.06">
@@ -2880,7 +2877,7 @@
 			<item name="M68Optic" chance="0.15"/>
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="ReflexOptic" chance="0.20"/>
-			<item name="ACOGOptic" chance="0.30"/>
+			<item name="ACOGOptic" chance="0.10"/>
 		</attachments>
 		<attachments chance="0.20">
 			<item name="PistolSuppressor" chance="1.00"/>
@@ -2909,7 +2906,7 @@
 			<item name="BUISOptic" chance="0.15"/>
 			<item name="M4_T3NRDSOptic" chance="0.15"/>
 			<item name="ReflexOptic" chance="0.15"/>
-			<item name="ACOGOptic" chance="0.15"/>
+			<item name="ACOGOptic" chance="0.1"/>
 		</attachments>
 		<attachments chance="0.10">
 			<item name="UniversalLight" chance="1.00"/>
@@ -2930,8 +2927,8 @@
 		<attachments chance="1.00">
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="ReflexOptic" chance="0.25"/>
-			<item name="ACOGOptic" chance="0.40"/>
-			<item name="ACOGOptic_6x" chance="0.15"/>
+			<item name="ACOGOptic" chance="0.20"/>
+			<item name="ACOGOptic_6x" chance="0.1"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_SV98_10Rnd" chance="1.0"/>
@@ -3217,7 +3214,7 @@
 			<item name="BUISOptic" chance="0.25"/>
 			<item name="M4_T3NRDSOptic" chance="0.25"/>
 			<item name="ReflexOptic" chance="0.25"/>
-			<item name="ACOGOptic" chance="0.25"/>
+			<item name="ACOGOptic" chance="0.1"/>
 		</attachments>
 		<attachments chance="0.10">
 			<item name="UniversalLight" chance="1.00"/>
@@ -3238,12 +3235,12 @@
 			<item name="Fal_FoldingBttstck" chance="0.50"/>
 			<item name="Fal_OeBttstck" chance="1.00"/>
 		</attachments>
-		<attachments chance="0.20">
+		<attachments chance="1.00">
 			<item name="BUISOptic" chance="0.20"/>
 			<item name="M68Optic" chance="0.20"/>
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="ReflexOptic" chance="0.20"/>
-			<item name="ACOGOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_FAL_20Rnd" chance="1.00"/>
@@ -3321,7 +3318,7 @@
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="M68Optic" chance="0.20"/>
 			<item name="ACOGOptic" chance="0.20"/>
-			<item name="ACOGOptic_6x" chance="0.20"/>
+			<item name="ACOGOptic_6x" chance="0.10"/>
 			<item name="M4_Suppressor" chance="0.10"/>
 		</attachments>
 	</type>
@@ -3333,7 +3330,7 @@
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="M68Optic" chance="0.20"/>
 			<item name="ACOGOptic" chance="0.20"/>
-			<item name="ACOGOptic_6x" chance="0.20"/>
+			<item name="ACOGOptic_6x" chance="0.10"/>
 			<item name="M4_Suppressor" chance="0.10"/>
 		</attachments>
 	</type>
@@ -3345,7 +3342,7 @@
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="M68Optic" chance="0.20"/>
 			<item name="ACOGOptic" chance="0.20"/>
-			<item name="ACOGOptic_6x" chance="0.20"/>
+			<item name="ACOGOptic_6x" chance="0.10"/>
 			<item name="M4_Suppressor" chance="0.10"/>
 		</attachments>
 	</type>
@@ -3403,8 +3400,8 @@
 		<attachments chance="1.00">
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="ReflexOptic" chance="0.25"/>
-			<item name="ACOGOptic" chance="0.40"/>
-			<item name="ACOGOptic_6x" chance="0.15"/>
+			<item name="ACOGOptic" chance="0.2"/>
+			<item name="ACOGOptic_6x" chance="0.1"/>
 		</attachments>
 	</type>
 	<type name="M4_Suppressor">
