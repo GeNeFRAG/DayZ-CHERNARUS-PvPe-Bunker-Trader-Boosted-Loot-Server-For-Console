@@ -419,10 +419,10 @@
 	</type>
 	<type name="PlateCarrierVest">
 		<damage min="0.0" max="0.32"/>
-		<attachments chance="0.5">
+		<attachments chance="0.3">
 			<item name="PlateCarrierHolster" chance="1.00"/>
 		</attachments>
-		<attachments chance="0.5">
+		<attachments chance="0.3">
 			<item name="PlateCarrierPouches" chance="1.00"/>
 		</attachments>
 	</type>
@@ -437,37 +437,37 @@
 	</type>
 	<type name="PlateCarrierVest_Camo">
 		<damage min="0.0" max="0.32"/>
-		<attachments chance="0.5">
+		<attachments chance="0.3">
 			<item name="PlateCarrierHolster_Camo" chance="1.00"/>
 		</attachments>
-		<attachments chance="0.5">
+		<attachments chance="0.3">
 			<item name="PlateCarrierPouches_Camo" chance="1.00"/>
 		</attachments>
 	</type>
 	<type name="PlateCarrierVest_Black">
 		<damage min="0.0" max="0.32"/>
-		<attachments chance="0.5">
+		<attachments chance="0.3">
 			<item name="PlateCarrierHolster_Black" chance="1.00"/>
 		</attachments>
-		<attachments chance="0.5">
+		<attachments chance="0.3">
 			<item name="PlateCarrierPouches_Black" chance="1.00"/>
 		</attachments>
 	</type>
 	<type name="PlateCarrierVest_Green">
 		<damage min="0.0" max="0.32"/>
-		<attachments chance="0.5">
+		<attachments chance="0.3">
 			<item name="PlateCarrierHolster_Green" chance="1.00"/>
 		</attachments>
-		<attachments chance="0.5">
+		<attachments chance="0.3">
 			<item name="PlateCarrierPouches_Green" chance="1.00"/>
 		</attachments>
 	</type>
 	<type name="PlateCarrierVest_Winter">
 		<damage min="0.0" max="0.32"/>
-		<attachments chance="0.5">
+		<attachments chance="0.3">
 			<item name="PlateCarrierHolster_Winter" chance="1.00"/>
 		</attachments>
-		<attachments chance="0.5">
+		<attachments chance="0.3">
 			<item name="PlateCarrierPouches_Winter" chance="1.00"/>
 		</attachments>
 	</type>
@@ -2852,14 +2852,12 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_MP5_15Rnd" chance="0.5"/>
-			<item name="Mag_MP5_30Rnd" chance="0.5"/>
+			<item name="Mag_MP5_30Rnd" chance="0.3"/>
 		</attachments>
-		<attachments chance="0.20">
-			<item name="BUISOptic" chance="0.30"/>
+		<attachments chance="0.30">
 			<item name="M68Optic" chance="0.20"/>
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="ReflexOptic" chance="0.20"/>
-			<item name="ACOGOptic" chance="0.10"/>
 		</attachments>
 		<attachments chance="0.10">
 			<item name="MP5_Compensator" chance="1.00"/>
@@ -2873,11 +2871,9 @@
 			<item name="Mag_UMP_25Rnd" chance="1.00"/>
 		</attachments>
 		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15"/>
-			<item name="M68Optic" chance="0.15"/>
+			<item name="M68Optic" chance="0.20"/>
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="ReflexOptic" chance="0.20"/>
-			<item name="ACOGOptic" chance="0.10"/>
 		</attachments>
 		<attachments chance="0.20">
 			<item name="PistolSuppressor" chance="1.00"/>
@@ -2888,7 +2884,9 @@
 	</type>
 	<type name="VSS">
 		<attachments chance="0.3">
-			<item name="PSO11Optic" chance="1.00"/>
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="KobraOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.30" />s
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_VSS_10Rnd" chance="0.35"/>
@@ -2903,10 +2901,10 @@
 			<item name="Mag_Vikhr_30Rnd" chance="0.15"/>
 		</attachments>
 		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.15"/>
-			<item name="M4_T3NRDSOptic" chance="0.15"/>
-			<item name="ReflexOptic" chance="0.15"/>
-			<item name="ACOGOptic" chance="0.1"/>
+			<item name="M68Optic" chance="0.20"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="ReflexOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
 		</attachments>
 		<attachments chance="0.10">
 			<item name="UniversalLight" chance="1.00"/>
@@ -2914,8 +2912,9 @@
 	</type>
 	<type name="Vikhr">
 		<attachments chance="0.25">
-			<item name="KashtanOptic" chance="0.50"/>
-			<item name="PSO1Optic" chance="0.50"/>
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="KobraOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_VSS_10Rnd" chance="0.15"/>
@@ -2924,28 +2923,55 @@
 		</attachments>
 	</type>
 	<type name="SV98">
-		<attachments chance="1.00">
+		<attachments chance="0.3">
+			<item name="M68Optic" chance="0.20"/>
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
-			<item name="ReflexOptic" chance="0.25"/>
-			<item name="ACOGOptic" chance="0.20"/>
-			<item name="ACOGOptic_6x" chance="0.1"/>
+			<item name="ReflexOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_SV98_10Rnd" chance="1.0"/>
 		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
+		</attachments>
 	</type>
 	<type name="CZ527">
-		<attachments chance="1.00">
+		<attachments chance="0.8">
 			<item name="HuntingOptic" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_CZ527_5rnd" chance="1.00"/>
 		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
+		</attachments>
 	</type>
 	<type name="Winchester70">
 		<damage min="0.1" max="0.32"/>
-		<attachments chance="1.00">
+		<attachments chance="0.8">
 			<item name="HuntingOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
+		</attachments>
+	</type>
+	<type name="Winchester70_Black">
+		<damage min="0.1" max="0.32"/>
+		<attachments chance="0.8">
+			<item name="HuntingOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
+		</attachments>
+	</type>
+	<type name="Winchester70_Green">
+		<damage min="0.1" max="0.32"/>
+		<attachments chance="0.8">
+			<item name="HuntingOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="Mosin9130">
@@ -2953,14 +2979,86 @@
 		<attachments chance="0.10">
 			<item name="Mosin_Compensator" chance="1.00"/>
 		</attachments>
-		<attachments chance="1.00">
+		<attachments chance="0.8">
 			<item name="PUScopeOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mosin_Bayonet" chance="1.0"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
+		</attachments>
+	</type>
+	<type name="Mosin9130_Black">
+		<damage min="0.1" max="0.32"/>
+		<attachments chance="0.10">
+			<item name="Mosin_Compensator" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.8">
+			<item name="PUScopeOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mosin_Bayonet" chance="1.0"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
+		</attachments>
+	</type>
+	<type name="Mosin9130_Camo">
+		<damage min="0.1" max="0.32"/>
+		<attachments chance="0.10">
+			<item name="Mosin_Compensator" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.8">
+			<item name="PUScopeOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mosin_Bayonet" chance="1.0"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
+		</attachments>
+	</type>
+	<type name="Mosin9130_Green">
+		<damage min="0.1" max="0.32"/>
+		<attachments chance="0.10">
+			<item name="Mosin_Compensator" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.8">
+			<item name="PUScopeOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="Mosin_Bayonet" chance="1.0"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="SKS">
 		<damage min="0.1" max="0.32"/>
-		<attachments chance="1.00">
+		<attachments chance="0.8">
 			<item name="PUScopeOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="SKS_Bayonet" chance="1.0"/>
+		</attachments>
+	</type>
+	<type name="SKS_Black">
+		<damage min="0.1" max="0.32"/>
+		<attachments chance="0.8">
+			<item name="PUScopeOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="SKS_Bayonet" chance="1.0"/>
+		</attachments>
+	</type>
+	<type name="SKS_Green">
+		<damage min="0.1" max="0.32"/>
+		<attachments chance="0.8">
+			<item name="PUScopeOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="SKS_Bayonet" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="AKM">
@@ -2978,12 +3076,16 @@
 			<item name="AK_PlasticHndgrd" chance="0.25" />
 			<item name="AK_WoodHndgrd" chance="0.25" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.50" />
+		<attachments chance="0.3">
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="KobraOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="AK_Suppressor" chance="1.0"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="AK_Bayonet" chance="1.0"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AKM_30Rnd" chance="1.00"/>
@@ -3001,12 +3103,16 @@
 			<item name="AK_PlasticHndgrd" chance="0.33" />
 			<item name="AK74_Hndgrd" chance="0.33" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.50" />
+		<attachments chance="0.3">
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="KobraOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="AK_Suppressor" chance="1.0"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="AK_Bayonet" chance="1.0"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_45Rnd" chance="0.20"/>
@@ -3021,12 +3127,16 @@
 		<attachments chance="1.00">
 			<item name="AK_RailHndgrd_Black" chance="1.0" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.50" />
+		<attachments chance="0.3">
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="KobraOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="AK_Suppressor" chance="1.0"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="AK_Bayonet" chance="1.0"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_30Rnd_Black" chance="1.00"/>
@@ -3040,18 +3150,21 @@
 		<attachments chance="1.00">
 			<item name="AK_RailHndgrd_Green" chance="1.0" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.50" />
+		<attachments chance="0.3">
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="KobraOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
 		<attachments chance="0.10">
 			<item name="AK_Suppressor" chance="1.0"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="AK_Bayonet" chance="1.0"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AK74_30Rnd_Green" chance="1.00"/>
 		</attachments>
 	</type>
-
 	<type name="AKS74U">
 		<attachments chance="1.00">
 			<item name="AK_FoldingBttstck" chance="0.25" />
@@ -3100,9 +3213,10 @@
 			<item name="AK_PlasticHndgrd" chance="0.50" />
 			<item name="AK_WoodHndgrd" chance="0.50" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.50" />
+		<attachments chance="0.3">
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="KobraOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
 		<attachments chance="0.1">
 			<item name="AK_Suppressor" chance="1.0" />
@@ -3119,9 +3233,10 @@
 		<attachments chance="1.00">
 			<item name="AK_RailHndgrd_Black" chance="0.1" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.50" />
+		<attachments chance="0.3">
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="KobraOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
 		<attachments chance="0.1">
 			<item name="AK_Suppressor" chance="1.0" />
@@ -3138,9 +3253,10 @@
 		<attachments chance="1.00">
 			<item name="AK_RailHndgrd_Green" chance="1.00" />
 		</attachments>
-		<attachments chance="1.00">
-			<item name="KashtanOptic" chance="0.50" />
-			<item name="PSO11Optic" chance="0.50" />
+		<attachments chance="0.3">
+			<item name="KashtanOptic" chance="0.30" />
+			<item name="KobraOptic" chance="0.30" />
+			<item name="PSO11Optic" chance="0.30" />
 		</attachments>
 		<attachments chance="0.1">
 			<item name="AK_Suppressor" chance="1.0" />
@@ -3159,13 +3275,21 @@
 		<attachments chance="1.00">
 			<item name="M4_RISHndgrd_Green" chance="1.0"/>
 		</attachments>
-		<attachments chance="1.00">
-			<item name="BUISOptic" chance="0.50"/>
-			<item name="M4_CarryHandleOptic" chance="0.50"/>
+		<attachments chance="0.3">
+			<item name="BUISOptic" chance="0.20"/>
+			<item name="M4_CarryHandleOptic" chance="0.20"/>
+		
+			<item name="M68Optic" chance="0.20"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="ReflexOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_CMAG_40Rnd_Green" chance="0.30"/>
 			<item name="Mag_CMAG_30Rnd_Green" chance="0.70"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M9A1_Bayonet" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="M4A1">
@@ -3176,19 +3300,56 @@
 			<item name="M4_CQBBttstck" chance="0.3"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="M4_PlasticHndgrd" chance="0.4"/>
+			<item name="M4_RISHndgrd_Black" chance="0.4"/>
 			<item name="M4_RISHndgrd" chance="0.3"/>
 			<item name="M4_MPHndgrd" chance="0.3"/>
 		</attachments>
-		<attachments chance="1.00">
-			<item name="BUISOptic" chance="0.50"/>
-			<item name="M4_CarryHandleOptic" chance="0.50"/>
+		<attachments chance="0.3">
+			<item name="BUISOptic" chance="0.20"/>
+			<item name="M4_CarryHandleOptic" chance="0.20"/>
+		
+			<item name="M68Optic" chance="0.20"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="ReflexOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_CMAG_40Rnd" chance="0.50"/>
 			<item name="Mag_CMAG_10Rnd" chance="0.10"/>
 			<item name="Mag_CMAG_20Rnd" chance="0.10"/>
 			<item name="Mag_CMAG_30Rnd" chance="0.30"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M9A1_Bayonet" chance="1.0"/>
+		</attachments>
+	</type>
+	<type name="M4A1_Black">
+		<damage min="0.1" max="0.32"/>
+		<attachments chance="1.00">
+			<item name="M4_OEBttstck" chance="0.4"/>
+			<item name="M4_MPBttstck" chance="0.3"/>
+			<item name="M4_CQBBttstck" chance="0.3"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="M4_RISHndgrd_Black" chance="1.0"/>
+		</attachments>
+		<attachments chance="0.3">
+			<item name="BUISOptic" chance="0.20"/>
+			<item name="M4_CarryHandleOptic" chance="0.20"/>
+		
+			<item name="M68Optic" chance="0.20"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="ReflexOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
+		</attachments>
+		<attachments chance="1.00">
+			<item name="Mag_CMAG_40Rnd" chance="0.50"/>
+			<item name="Mag_CMAG_10Rnd" chance="0.10"/>
+			<item name="Mag_CMAG_20Rnd" chance="0.10"/>
+			<item name="Mag_CMAG_30Rnd" chance="0.30"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M9A1_Bayonet" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="M16A2">
@@ -3198,6 +3359,9 @@
 			<item name="Mag_CMAG_10Rnd" chance="0.10"/>
 			<item name="Mag_CMAG_20Rnd" chance="0.10"/>
 			<item name="Mag_CMAG_30Rnd" chance="0.30"/>
+		</attachments>
+		<attachments chance="0.20">
+			<item name="M9A1_Bayonet" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="FAMAS">
@@ -3211,10 +3375,10 @@
 			<item name="Mag_Aug_30Rnd" chance="1.0"/>
 		</attachments>
 		<attachments chance="0.30">
-			<item name="BUISOptic" chance="0.25"/>
-			<item name="M4_T3NRDSOptic" chance="0.25"/>
-			<item name="ReflexOptic" chance="0.25"/>
-			<item name="ACOGOptic" chance="0.1"/>
+			<item name="M68Optic" chance="0.20"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="ReflexOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
 		</attachments>
 		<attachments chance="0.10">
 			<item name="UniversalLight" chance="1.00"/>
@@ -3235,8 +3399,7 @@
 			<item name="Fal_FoldingBttstck" chance="0.50"/>
 			<item name="Fal_OeBttstck" chance="1.00"/>
 		</attachments>
-		<attachments chance="1.00">
-			<item name="BUISOptic" chance="0.20"/>
+		<attachments chance="0.3">
 			<item name="M68Optic" chance="0.20"/>
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
 			<item name="ReflexOptic" chance="0.20"/>
@@ -3251,12 +3414,15 @@
 		<attachments chance="1.00">
 			<item name="Mag_SVD_10Rnd" chance="1.00"/>
 		</attachments>
-		<attachments chance="1.00">
-			<item name="KashtanOptic" chance="0.50"/>
+		<attachments chance="0.8">
 			<item name="PSO11Optic" chance="0.50"/>
+			<item name="PSO1Optic" chance="0.50"/>
 		</attachments>
 		<attachments chance="0.1">
 			<item name="AK_Suppressor" chance="1.0" />
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="Colt1911">
@@ -3277,8 +3443,11 @@
 	</type>
 	<type name="B95">
 		<damage min="0.1" max="0.32"/>
-		<attachments chance="1.00">
+		<attachments chance="0.8">
 			<item name="HuntingOptic" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="Saiga">
@@ -3314,45 +3483,57 @@
 		<attachments chance="1.00">
 			<item name="Mag_Scout_5Rnd" chance="1.00"/>
 		</attachments>
-		<attachments chance="1.00">
-			<item name="M4_T3NRDSOptic" chance="0.20"/>
+		<attachments chance="0.3">
 			<item name="M68Optic" chance="0.20"/>
-			<item name="ACOGOptic" chance="0.20"/>
-			<item name="ACOGOptic_6x" chance="0.10"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="ReflexOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
 			<item name="M4_Suppressor" chance="0.10"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="Scout_Chernarus">
 		<attachments chance="1.00">
 			<item name="Mag_Scout_5Rnd" chance="1.00"/>
 		</attachments>
-		<attachments chance="1.00">
-			<item name="M4_T3NRDSOptic" chance="0.20"/>
+		<attachments chance="0.3">
 			<item name="M68Optic" chance="0.20"/>
-			<item name="ACOGOptic" chance="0.20"/>
-			<item name="ACOGOptic_6x" chance="0.10"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="ReflexOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
 			<item name="M4_Suppressor" chance="0.10"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="Scout_Livonia">
 		<attachments chance="1.00">
 			<item name="Mag_Scout_5Rnd" chance="1.00"/>
 		</attachments>
-		<attachments chance="1.00">
-			<item name="M4_T3NRDSOptic" chance="0.20"/>
+		<attachments chance="0.3">
 			<item name="M68Optic" chance="0.20"/>
-			<item name="ACOGOptic" chance="0.20"/>
-			<item name="ACOGOptic_6x" chance="0.10"/>
+			<item name="M4_T3NRDSOptic" chance="0.20"/>
+			<item name="ReflexOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
 			<item name="M4_Suppressor" chance="0.10"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="CZ550">
 		<damage min="0.1" max="0.32"/>
-		<attachments chance="1.00">
+		<attachments chance="0.8">
 			<item name="HuntingOptic" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_CZ550_10Rnd" chance="1.00"/>
+		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
 		</attachments>
 	</type>
 	<type name="PP19">
@@ -3361,11 +3542,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="PP19_Bttstck" chance="1.00"/>
-		</attachments>
-		<attachments chance="0.25">
-			<item name="PSO11Optic" chance="0.30"/>
-			<item name="PSO1Optic" chance="0.30"/>
-			<item name="KobraOptic" chance="0.40"/>
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_PP19_64Rnd" chance="1.00"/>
@@ -3385,6 +3561,9 @@
 		<attachments chance="1.00">
 			<item name="Mag_SSG82_5rnd" chance="1.00"/>
 		</attachments>
+		<attachments chance="0.10">
+			<item name="GhillieAtt_Mossy" chance="1.0"/>
+		</attachments>
 	</type>
 	<type name="Mp133Shotgun">
 		<damage min="0.0" max="0.32"/>
@@ -3397,11 +3576,11 @@
 			<item name="Mag_M14_10Rnd" chance="0.70"/>
 			<item name="Mag_M14_20Rnd" chance="0.30"/>
 		</attachments>
-		<attachments chance="1.00">
+		<attachments chance="0.3">
+			<item name="M68Optic" chance="0.20"/>
 			<item name="M4_T3NRDSOptic" chance="0.20"/>
-			<item name="ReflexOptic" chance="0.25"/>
-			<item name="ACOGOptic" chance="0.2"/>
-			<item name="ACOGOptic_6x" chance="0.1"/>
+			<item name="ReflexOptic" chance="0.20"/>
+			<item name="ACOGOptic" chance="0.10"/>
 		</attachments>
 	</type>
 	<type name="M4_Suppressor">

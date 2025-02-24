@@ -88,19 +88,18 @@
 	</cargo>
 	<!-- Ghillie Zombie-->
 	<attachments chance="1.00" name="ZombieGhillieSuit">
-        <item name="GhillieSuit_Mossy" chance="0.33" />
-        <item name="GhillieSuit_Tan" chance="0.33" />
+        <item name="GhillieSuit_Mossy" chance="0.2" />
+        <item name="GhillieSuit_Tan" chance="0.2" />
 	</attachments>
 	<attachments chance="1.00" name="ZombieGhillieHat">
-		<item name="GhillieHood_Mossy" chance="0.33" />
-		<item name="GhillieHood_Tan" chance="0.33" />
+		<item name="GhillieHood_Mossy" chance="0.2" />
+		<item name="GhillieHood_Tan" chance="0.2" />
 	</attachments>
 	<!-- Surprise Zombie Loot -->
 	<attachments chance="0.35" name="ZombieItemDropWTF"> 
     	<item name="CamoNetShelter" chance="0.05" />
 		<item name="FilteringBottle" chance="0.20" />
 		<item name="Sword" chance="0.20" />
-		<item name="DarkMotoHelmet_YellowScarred" chance="0.20" />
 		<item name="BarbedBaseballBat" chance="0.20" />
 		<item name="SpearStone" chance="0.20" />
 		<item name="Iceaxe" chance="0.20" />
@@ -118,6 +117,7 @@
 		<item name="LeatherHat_Natural" chance="0.33" />
 		<item name="WitchHoodCoif_Black" chance="0.33" />
 		<item name="ChristmasHeadband_Antlers" chance="0.33" />
+		<item name="DarkMotoHelmet_YellowScarred" chance="0.33" />
 	</attachments>
 	<!-- ################### CUSTOM RANDOM PRESETS END ################### -->
 	<cargo chance="0.25" name="foodHermit">
@@ -357,6 +357,7 @@
 		<item name="RDG2SmokeGrenade_Black" chance="0.25" />
 		<item name="RGD5Grenade" chance="0.25" />
 	</cargo>
+	<!--
 	<attachments chance="0.10" name="optics">
 		<item name="M4_T3NRDSOptic" chance="0.20" />
 		<item name="ACOGOptic" chance="0.20" />
@@ -364,6 +365,7 @@
 		<item name="BUISOptic" chance="0.20" />
 		<item name="ReflexOptic" chance="0.20" />
 	</attachments>
+	-->
 	<!--NBC Cargo-->
 	<cargo chance="0.2" name="ContaminatedCargo">
 		<item name="GasMask_Filter" chance="1.00" />
@@ -589,14 +591,14 @@
 		<item name="MotoHelmet_Blue" chance="0.10" />
 		<item name="MotoHelmet_Green" chance="0.10" />
 		<item name="MotoHelmet_Grey" chance="0.10" />
-		<item name="MotoHelmet_Lime" chance="0.10" />
+		<item name="DarkMotoHelmet_YellowScarred" chance="0.10" />
 		<item name="MotoHelmet_Red" chance="0.10" />
 		<item name="MotoHelmet_White" chance="0.10" />
 		<item name="DarkMotoHelmet_Black" chance="0.05" />
 		<item name="DarkMotoHelmet_Blue" chance="0.05" />
 		<item name="DarkMotoHelmet_Green" chance="0.05" />
 		<item name="DarkMotoHelmet_Grey" chance="0.05" />
-		<item name="DarkMotoHelmet_Lime" chance="0.05" />
+		<item name="DarkMotoHelmet_YellowScarred" chance="0.05" />
 		<item name="DarkMotoHelmet_Red" chance="0.05" />
 		<item name="DarkMotoHelmet_White" chance="0.05" />
 	</attachments>
