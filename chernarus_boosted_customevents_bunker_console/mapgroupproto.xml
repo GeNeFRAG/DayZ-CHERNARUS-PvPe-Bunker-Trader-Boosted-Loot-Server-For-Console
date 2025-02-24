@@ -17703,8 +17703,6 @@
         <usage name="FoodDrink" />
         <usage name="Explosives" />
         <usage name="Attachment" />
-        <usage name="Weapons" />
-        <usage name="MagsAmmo" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="ground" />
@@ -17726,8 +17724,6 @@
         <usage name="MilitaryClothes" />
         <usage name="Explosives" />
         <usage name="Attachment" />
-        <usage name="Weapons" />
-        <usage name="MagsAmmo" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="ground" />

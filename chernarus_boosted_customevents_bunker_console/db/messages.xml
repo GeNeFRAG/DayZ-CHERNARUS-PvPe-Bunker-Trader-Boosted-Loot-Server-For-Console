@@ -15,12 +15,11 @@
         <onconnect>1</onconnect>
         <text>SERVER RESTARTS (GMT+1): 00:00  04:00  08:00  12:00  16:00  20:00  00:00</text>
     </message>
-    
+     <!--
     <message>
         <repeat>15</repeat>
         <text> ***** !! RAIDWEEKEND ACTIVE !! ***** </text>
     </message>
-    <!--
      <message>
         <repeat>15</repeat>
         <text> ***** !! AIR DROPS ACTIVE !! ***** </text>
@@ -32,11 +31,15 @@
     </message>
     <message>
         <repeat>15</repeat>
-        <text> ***** PUNCHED CARD BUNKER ***** </text>
+        <text> ***** BUNKER SOUTH OF OLSHA ***** </text>
     </message>
     <message>
         <repeat>15</repeat>
-        <text> ***** BUILDER TRUCKS ***** </text>
+        <text> ***** PUNCHED CARD: TOXIC, CONVOYS ***** </text>
+    </message>
+    <message>
+        <repeat>15</repeat>
+        <text> ***** BUILDER TRUCKS: NOVAYA, KRASNO, BALOTA ***** </text>
     </message>
     <message>
         <repeat>15</repeat>
