@@ -15,6 +15,10 @@
         <onconnect>1</onconnect>
         <text>SERVER RESTARTS (GMT+1): 00:00  04:00  08:00  12:00  16:00  20:00  00:00</text>
     </message>
+    <message>
+        <repeat>15</repeat>
+        <text> ***** !! NO WIPE !! ***** </text>
+    </message>
      <!--
     <message>
         <repeat>15</repeat>
@@ -48,6 +52,10 @@
     <message>
         <repeat>15</repeat>
         <text> ***** FULL VEHICLES ***** </text>
+    </message>
+    <message>
+        <repeat>15</repeat>
+        <text> ***** FLAGS FREE TRADER, WHITE ON MAP ***** </text>
     </message>
     <message>
         <repeat>15</repeat>
