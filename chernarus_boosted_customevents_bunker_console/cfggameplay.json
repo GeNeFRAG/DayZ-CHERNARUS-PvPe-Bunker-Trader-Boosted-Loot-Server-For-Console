@@ -92,6 +92,7 @@
   },
   "BaseBuildingData": {
     "HologramData": {
+      "disableColdAreaBuildingCheck": false,
       "disableIsCollidingBBoxCheck": 1,
       "disableIsCollidingPlayerCheck": 1,
       "disableIsClippingRoofCheck": 1,
@@ -132,5 +133,9 @@
     "ignoreNavItemsOwnership": 1,
     "displayPlayerPosition": 1,
     "displayNavInfo": 1
+  },
+  "VehicleData":
+  {
+        "boatDecayMultiplier": 1
   }
 }

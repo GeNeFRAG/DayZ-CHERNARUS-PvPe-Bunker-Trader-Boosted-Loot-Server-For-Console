@@ -1,40 +1,21 @@
+#!/usr/bin/env python3
 """
-This script updates the nominal and minimum values in a types.xml file based on counts from a CSV file.
+This script sorts items in a types.xml file by usage categories and adds an index.
 
 Usage:
-    python update_nom_min_types.py <csv_file> <input_xml_file> <output_xml_file>
+    python sort_types_xml.py <input_xml_file> <output_xml_file>
 
 Arguments:
-    csv_file: Path to the input CSV file containing item counts.
     input_xml_file: Path to the input types.xml file.
-    output_xml_file: Path to the output XML file where updates will be saved.
+    output_xml_file: Path to the output XML file where sorted content will be saved.
 
 Example:
-    python update_nom_min_types.py counts.csv types.xml updated_types.xml
+    python sort_types_xml.py types.xml sorted_types.xml
 """
 
-import csv
 from lxml import etree as ET
 import argparse
-
-def read_csv_counts(csv_file):
-    """
-    Reads item counts from a CSV file.
-
-    Args:
-        csv_file (str): Path to the CSV file.
-
-    Returns:
-        dict: A dictionary with item names as keys and counts as values.
-    """
-    counts = {}
-    with open(csv_file, mode='r') as file:
-        reader = csv.DictReader(file)
-        if 'item' not in reader.fieldnames or 'count' not in reader.fieldnames:
-            raise KeyError(f"CSV file must contain 'item' and 'count' columns. Found columns: {reader.fieldnames}")
-        for row in reader:
-            counts[row['item']] = int(row['count'])
-    return counts
+from collections import OrderedDict
 
 def sort_items_alphabetically(items):
     """
@@ -47,27 +28,6 @@ def sort_items_alphabetically(items):
         list: Sorted list of XML elements.
     """
     return sorted(items, key=lambda x: x.get('name'))
-
-def sort_items_by_category(items):
-    """
-    Sorts items by their 'category' attribute. Items with multiple categories are grouped into combined sections.
-
-    Args:
-        items (list): List of XML elements representing items.
-
-    Returns:
-        dict: Dictionary with categories as keys and lists of items as values.
-    """
-    categories = {}
-    for item in items:
-        category = item.get('category')
-        if category:
-            category_list = category.split(',')
-            category_key = ', '.join(sorted(category_list))
-            if category_key not in categories:
-                categories[category_key] = []
-            categories[category_key].append(item)
-    return categories
 
 def sort_items_by_usage(items):
     """
@@ -104,16 +64,16 @@ def sort_items_by_usage(items):
     if no_usage_items:
         usages["NO USAGE"] = sorted(no_usage_items, key=lambda x: x.get('name'))
 
-    return usages
+    # Return OrderedDict with sorted keys
+    return OrderedDict(sorted(usages.items()))
 
-def update_types_xml(input_xml_file, output_xml_file, counts):
+def organize_types_xml(input_xml_file, output_xml_file):
     """
-    Updates the nominal and minimum values in the types.xml file based on the counts.
+    Organizes the types.xml file by sorting items into usage categories.
 
     Args:
         input_xml_file (str): Path to the input types.xml file.
         output_xml_file (str): Path to the output XML file.
-        counts (dict): A dictionary with item names as keys and counts as values.
     """
     parser = ET.XMLParser(remove_blank_text=False)
     tree = ET.parse(input_xml_file, parser)
@@ -123,22 +83,6 @@ def update_types_xml(input_xml_file, output_xml_file, counts):
     sorted_items = sort_items_alphabetically(items)
     usages = sort_items_by_usage(sorted_items)
 
-    for item in sorted_items:
-        name = item.get('name')
-        nominal = item.find('nominal')
-        min_val = item.find('min')
-        
-        if name in counts and nominal is not None and int(nominal.text) != 0:
-            nominal_before = nominal.text
-            min_val_before = min_val.text if min_val is not None else None
-            
-            nominal.text = str(int(nominal.text) + counts[name])
-            if min_val is not None:
-                min_val.text = str(int(min_val.text) + counts[name])
-            
-            if nominal.text != nominal_before or (min_val is not None and min_val.text != min_val_before):
-                print(f"Updated {name}: nominal={nominal_before}>{nominal.text}, min={min_val_before}>{min_val.text if min_val is not None else 'N/A'}")
-
     # Clear the root and add initial newline
     root.clear()
     root.text = '\n'  # This adds the newline after <types>
@@ -147,7 +91,7 @@ def update_types_xml(input_xml_file, output_xml_file, counts):
     index_text = "INDEX OF CATEGORIES:\n"
     index_text += "==================================================\n"
     for i, usage in enumerate(sorted(usages.keys()), 1):
-        index_text += f"[{usage.upper()}]\n"
+        index_text += f" {i:2d}. {usage.upper()}\n"
     index_text += "=================================================="
     
     index_comment = ET.Comment(index_text)
@@ -155,7 +99,7 @@ def update_types_xml(input_xml_file, output_xml_file, counts):
     index_comment.tail = '\n\n'
 
     # Add categories and their items
-    for usage, items in sorted(usages.items()):
+    for usage, items in usages.items():
         comment = ET.Comment(f" ################ [{usage.upper()}] ################")
         root.append(comment)
         comment.tail = '\n'
@@ -170,13 +114,13 @@ def update_types_xml(input_xml_file, output_xml_file, counts):
 
     tree.write(output_xml_file, pretty_print=True, xml_declaration=True, encoding='UTF-8')
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Update types.xml with counts from a CSV file.')
-    parser.add_argument('csv_file', help='Path to the input CSV file')
+def main():
+    parser = argparse.ArgumentParser(description='Sort types.xml by usage categories.')
     parser.add_argument('input_xml_file', help='Path to the input types.xml file')
     parser.add_argument('output_xml_file', help='Path to the output XML file')
 
     args = parser.parse_args()
+    organize_types_xml(args.input_xml_file, args.output_xml_file)
 
-    counts = read_csv_counts(args.csv_file)
-    update_types_xml(args.input_xml_file, args.output_xml_file, counts)
+if __name__ == "__main__":
+    main()

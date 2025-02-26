@@ -277,7 +277,8 @@ AK101,1
 AK101_Black,1
 AK101_Green,1
 Mag_Scout_5Rnd,4
-SVD,4
+SVD,2
+SVD_Wooden,2
 Mag_SVD_10Rnd,17
 CZ550,4
 Mag_CZ550_10rnd,6
