@@ -6331,7 +6331,7 @@
         <usage name="Military" />
     </type>
     <type name="AKM">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>2</min>
@@ -15931,9 +15931,9 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
-        <usage name="Military" />
-        <usage name="Police" />
-        <usage name="RepairItems" />
+        <usage name="Military"/>
+        <usage name="Police"/>
+        <usage name="Hunting"/>
     </type>
     <type name="WoodenHook">
         <nominal>0</nominal>

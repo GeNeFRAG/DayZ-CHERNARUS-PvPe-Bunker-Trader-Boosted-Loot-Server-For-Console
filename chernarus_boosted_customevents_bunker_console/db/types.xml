@@ -114,7 +114,7 @@
         <usage name="Attachment"/>
     </type>
     <type name="AKM">
-        <nominal>8</nominal>
+        <nominal>7</nominal>
         <lifetime>7200</lifetime>
         <restock>3600</restock>
         <min>6</min>
@@ -18380,7 +18380,7 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
         <usage name="Police"/>
-        <usage name="RepairItems"/>
+        <usage name="Hunting"/>
     </type>
     <type name="WeldingMask">
         <nominal>20</nominal>

@@ -13,7 +13,7 @@
     <message>
         <delay>1</delay>
         <onconnect>1</onconnect>
-        <text>SERVER RESTARTS (GMT+1): 00:00  04:00  08:00  12:00  16:00  20:00  00:00</text>
+        <text>SERVER RESTARTS (GMT+1): 00:00    04:00   08:00   12:00   16:00   20:00   00:00</text>
     </message>
     <message>
         <repeat>15</repeat>
@@ -71,11 +71,11 @@
     </message>
     <message>
         <repeat>48</repeat>
-        <text>3 ACCOUNTS MAX!</text>
+        <text>MAX 3 ACCOUNTS!</text>
     </message>
      <message>
         <repeat>48</repeat>
-        <text>NO BASE LOGGING!</text>
+        <text>NO LOGGING OUT INSIDE BASES!</text>
     </message>
     <message>
         <repeat>48</repeat>
@@ -83,7 +83,7 @@
     </message>
     <message>
         <repeat>48</repeat>
-        <text>NO GRIEVING BASES!</text>
+        <text>NO GRIEFING OF BASES!</text>
     </message>
     <message>
         <repeat>48</repeat>
@@ -95,7 +95,7 @@
     </message>
     <message>
         <repeat>48</repeat>
-        <text>NO PLACED ITEMS TO RAID!</text>
+        <text>NO FIREPLACES OR GARDENPLOTS TO RAID!</text>
     </message>
     <message>
         <repeat>48</repeat>

@@ -97,7 +97,7 @@
 	</attachments>
 	<!-- Surprise Zombie Loot -->
 	<attachments chance="0.35" name="ZombieItemDropWTF"> 
-    	<item name="CamoNetShelter" chance="0.05" />
+    	<item name="CamoNetShelter" chance="0.03" />
 		<item name="FilteringBottle" chance="0.20" />
 		<item name="Sword" chance="0.20" />
 		<item name="BarbedBaseballBat" chance="0.20" />
