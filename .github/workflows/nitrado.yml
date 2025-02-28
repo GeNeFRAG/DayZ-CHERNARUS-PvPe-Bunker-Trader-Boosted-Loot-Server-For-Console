@@ -41,6 +41,7 @@ jobs:
           import requests
           import json
           import hashlib
+          import sys
           from datetime import datetime
 
           class NitradoAPI:
@@ -61,15 +62,16 @@ jobs:
                       if response.status_code == 200:
                           return response.content
                       elif response.status_code == 404:
-                          print(f"File not found on remote: {remote_path}")
-                          return None
+                          print(f"ERROR: Required remote file not found: {remote_path}")
+                          print("Aborting deployment for safety.")
+                          sys.exit(1)  # Exit with error code
                       else:
                           print(f"Error downloading {remote_path}: {response.text}")
                           return None
                   except Exception as e:
                       print(f"Download error: {str(e)}")
                       return None
-                      
+
               def upload_file(self, remote_path, content):
                   """Upload file to server"""
                   if TEST_MODE:
@@ -97,7 +99,7 @@ jobs:
                   except Exception as e:
                       print(f"Upload error: {str(e)}")
                       return False
-                      
+
               def create_backup(self, remote_path):
                   """Create backup of existing file"""
                   content = self.download_file(remote_path)
@@ -143,10 +145,6 @@ jobs:
               try:
                   with open(local_path, 'rb') as f:
                       local_content = f.read()
-                      
-                  if remote_content is None:
-                      print(f"Remote file doesn't exist, will upload: {local_path}")
-                      return True, local_content
                       
                   local_hash = get_file_hash(local_content)
                   remote_hash = get_file_hash(remote_content)
@@ -204,6 +202,7 @@ jobs:
                   
                   # Download remote file for comparison
                   remote_content = api.download_file(remote_path)
+                  # Script will exit here if remote file is missing
                   
                   # Compare files
                   changed, local_content = compare_files(local_path, remote_content)
@@ -211,8 +210,8 @@ jobs:
                   if changed:
                       print(f"Processing: {local_path} -> {remote_path}")
                       
-                      # Create backup if remote file exists
-                      if remote_content is not None and not api.create_backup(remote_path):
+                      # Create backup
+                      if not api.create_backup(remote_path):
                           errors.append(f"Backup failed for {remote_path}")
                           continue
                       
