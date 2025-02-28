@@ -1,205 +1,247 @@
-import os
-import requests
-import json
-import hashlib
-from datetime import datetime
+name: Deploy to Nitrado Server
 
-class NitradoAPI:
-    def __init__(self, token, server_id):
-        self.token = token
-        self.server_id = server_id
-        self.base_url = f'https://api.nitrado.net/services/{server_id}/gameservers'
-        self.headers = {'Authorization': f'Bearer {token}'}
-        
-    def download_file(self, remote_path):
-        """Download file from server"""
-        try:
-            response = requests.get(
-                f'{self.base_url}/file_server/download',
-                headers=self.headers,
-                params={'file': remote_path}
-            )
-            if response.status_code == 200:
-                return response.content
-            elif response.status_code == 404:
-                print(f"File not found on remote: {remote_path}")
-                return None
-            else:
-                print(f"Error downloading {remote_path}: {response.text}")
-                return None
-        except Exception as e:
-            print(f"Download error: {str(e)}")
-            return None
-            
-    def upload_file(self, remote_path, content):
-        """Upload file to server"""
-        if TEST_MODE:
-            print(f"TEST MODE: Would upload to {remote_path} (size: {len(content)} bytes)")
-            return True
-            
-        try:
-            response = requests.post(
-                f'{self.base_url}/file_server/upload',
-                headers=self.headers,
-                data={
-                    'path': os.path.dirname(remote_path),
-                    'file': os.path.basename(remote_path)
-                },
-                files={
-                    'file': (os.path.basename(remote_path), content)
-                }
-            )
-            if response.status_code == 200:
-                print(f"Successfully uploaded to {remote_path}")
-                return True
-            else:
-                print(f"Upload error: {response.text}")
-                return False
-        except Exception as e:
-            print(f"Upload error: {str(e)}")
-            return False
-            
-    def create_backup(self, remote_path):
-        """Create backup of existing file"""
-        content = self.download_file(remote_path)
-        if content is None:
-            return True  # No file to backup
-            
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        backup_path = f"{remote_path}.backup_{timestamp}"
-        
-        if TEST_MODE:
-            print(f"TEST MODE: Would create backup at {backup_path}")
-            return True
-            
-        return self.upload_file(backup_path, content)
-        
-    def restart_server(self):
-        """Restart the game server"""
-        if TEST_MODE:
-            print("TEST MODE: Would restart server")
-            return True
-            
-        try:
-            response = requests.post(
-                f'{self.base_url}/restart',
-                headers=self.headers
-            )
-            if response.status_code == 200:
-                print("Server restart initiated")
-                return True
-            else:
-                print(f"Restart error: {response.text}")
-                return False
-        except Exception as e:
-            print(f"Restart error: {str(e)}")
-            return False
+on:
+  workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Run in test mode (no actual uploads)'
+        type: boolean
+        required: false
+        default: false
 
-def get_file_hash(content):
-    """Calculate hash from file content"""
-    return hashlib.sha256(content).hexdigest()
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+          submodules: false
 
-def compare_files(local_path, remote_content):
-    """Compare local and remote files"""
-    try:
-        with open(local_path, 'rb') as f:
-            local_content = f.read()
-            
-        if remote_content is None:
-            print(f"Remote file doesn't exist, will upload: {local_path}")
-            return True, local_content
-            
-        local_hash = get_file_hash(local_content)
-        remote_hash = get_file_hash(remote_content)
-        
-        if local_hash != remote_hash:
-            print(f"File changed (different hash): {local_path}")
-            return True, local_content
-        else:
-            print(f"File unchanged: {local_path}")
-            return False, None
-            
-    except Exception as e:
-        print(f"Error comparing files: {str(e)}")
-        return False, None
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-def scan_directory(base_dir):
-    """Scan directory for files"""
-    files = []
-    for root, _, filenames in os.walk(base_dir):
-        for filename in filenames:
-            if not filename.endswith(('.backup', '.git', '.github')):
-                files.append(os.path.join(root, filename))
-    return files
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
-def main():
-    print(f"Running in {'TEST MODE' if TEST_MODE else 'PRODUCTION MODE'}")
-    
-    # Initialize API
-    api = NitradoAPI(
-        os.environ['NITRADO_API_TOKEN'],
-        os.environ['GAME_SERVER_ID']
-    )
-    
-    # Load config
-    with open('deploy-config.json', 'r') as f:
-        config = json.load(f)
-    
-    base_dir = config['deploy_directory']
-    remote_base = config['remote_base_path']
-    
-    # Scan for all files
-    local_files = scan_directory(base_dir)
-    print(f"Found {len(local_files)} files to check")
-    
-    files_uploaded = False
-    errors = []
-    
-    # Process each file
-    for local_path in local_files:
-        # Calculate remote path
-        rel_path = os.path.relpath(local_path, base_dir)
-        remote_path = os.path.join(remote_base, rel_path).replace('\\', '/')
-        
-        print(f"\nChecking: {local_path} -> {remote_path}")
-        
-        # Download remote file for comparison
-        remote_content = api.download_file(remote_path)
-        
-        # Compare files
-        changed, local_content = compare_files(local_path, remote_content)
-        
-        if changed:
-            print(f"Processing: {local_path} -> {remote_path}")
-            
-            # Create backup if remote file exists
-            if remote_content is not None and not api.create_backup(remote_path):
-                errors.append(f"Backup failed for {remote_path}")
-                continue
-            
-            # Upload changed file
-            if api.upload_file(remote_path, local_content):
-                files_uploaded = True
-            else:
-                errors.append(f"Upload failed for {remote_path}")
-    
-    # Handle results
-    if errors:
-        print("\nErrors occurred:")
-        for error in errors:
-            print(f"- {error}")
-        return False
-    
-    # Restart if needed
-    if files_uploaded and config.get('restart_after_deploy', True):
-        print("\nRestarting server...")
-        if not api.restart_server():
-            print("Server restart failed")
-            return False
-    
-    return True
+      - name: Deploy to Nitrado
+        env:
+          NITRADO_API_TOKEN: ${{ secrets.NITRADO_API_TOKEN }}
+          GAME_SERVER_ID: ${{ secrets.GAME_SERVER_ID }}
+          TEST_MODE: ${{ inputs.test_mode }}
+        run: |
+          cat > deploy_to_nitrado.py << 'EOF'
+          import os
+          import requests
+          import json
+          import hashlib
+          from datetime import datetime
 
-if __name__ == '__main__':
-    TEST_MODE = os.environ.get('TEST_MODE', 'false').lower() == 'true'
-    success = main()
-    exit(0 if success else 1)
+          class NitradoAPI:
+              def __init__(self, token, server_id):
+                  self.token = token
+                  self.server_id = server_id
+                  self.base_url = f'https://api.nitrado.net/services/{server_id}/gameservers'
+                  self.headers = {'Authorization': f'Bearer {token}'}
+                  
+              def download_file(self, remote_path):
+                  """Download file from server"""
+                  try:
+                      response = requests.get(
+                          f'{self.base_url}/file_server/download',
+                          headers=self.headers,
+                          params={'file': remote_path}
+                      )
+                      if response.status_code == 200:
+                          return response.content
+                      elif response.status_code == 404:
+                          print(f"File not found on remote: {remote_path}")
+                          return None
+                      else:
+                          print(f"Error downloading {remote_path}: {response.text}")
+                          return None
+                  except Exception as e:
+                      print(f"Download error: {str(e)}")
+                      return None
+                      
+              def upload_file(self, remote_path, content):
+                  """Upload file to server"""
+                  if TEST_MODE:
+                      print(f"TEST MODE: Would upload to {remote_path} (size: {len(content)} bytes)")
+                      return True
+                      
+                  try:
+                      response = requests.post(
+                          f'{self.base_url}/file_server/upload',
+                          headers=self.headers,
+                          data={
+                              'path': os.path.dirname(remote_path),
+                              'file': os.path.basename(remote_path)
+                          },
+                          files={
+                              'file': (os.path.basename(remote_path), content)
+                          }
+                      )
+                      if response.status_code == 200:
+                          print(f"Successfully uploaded to {remote_path}")
+                          return True
+                      else:
+                          print(f"Upload error: {response.text}")
+                          return False
+                  except Exception as e:
+                      print(f"Upload error: {str(e)}")
+                      return False
+                      
+              def create_backup(self, remote_path):
+                  """Create backup of existing file"""
+                  content = self.download_file(remote_path)
+                  if content is None:
+                      return True  # No file to backup
+                      
+                  timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+                  backup_path = f"{remote_path}.backup_{timestamp}"
+                  
+                  if TEST_MODE:
+                      print(f"TEST MODE: Would create backup at {backup_path}")
+                      return True
+                      
+                  return self.upload_file(backup_path, content)
+                  
+              def restart_server(self):
+                  """Restart the game server"""
+                  if TEST_MODE:
+                      print("TEST MODE: Would restart server")
+                      return True
+                      
+                  try:
+                      response = requests.post(
+                          f'{self.base_url}/restart',
+                          headers=self.headers
+                      )
+                      if response.status_code == 200:
+                          print("Server restart initiated")
+                          return True
+                      else:
+                          print(f"Restart error: {response.text}")
+                          return False
+                  except Exception as e:
+                      print(f"Restart error: {str(e)}")
+                      return False
+
+          def get_file_hash(content):
+              """Calculate hash from file content"""
+              return hashlib.sha256(content).hexdigest()
+
+          def compare_files(local_path, remote_content):
+              """Compare local and remote files"""
+              try:
+                  with open(local_path, 'rb') as f:
+                      local_content = f.read()
+                      
+                  if remote_content is None:
+                      print(f"Remote file doesn't exist, will upload: {local_path}")
+                      return True, local_content
+                      
+                  local_hash = get_file_hash(local_content)
+                  remote_hash = get_file_hash(remote_content)
+                  
+                  if local_hash != remote_hash:
+                      print(f"File changed (different hash): {local_path}")
+                      return True, local_content
+                  else:
+                      print(f"File unchanged: {local_path}")
+                      return False, None
+                      
+              except Exception as e:
+                  print(f"Error comparing files: {str(e)}")
+                  return False, None
+
+          def scan_directory(base_dir):
+              """Scan directory for files"""
+              files = []
+              for root, _, filenames in os.walk(base_dir):
+                  for filename in filenames:
+                      if not filename.endswith(('.backup', '.git', '.github')):
+                          files.append(os.path.join(root, filename))
+              return files
+
+          def main():
+              print(f"Running in {'TEST MODE' if TEST_MODE else 'PRODUCTION MODE'}")
+              
+              # Initialize API
+              api = NitradoAPI(
+                  os.environ['NITRADO_API_TOKEN'],
+                  os.environ['GAME_SERVER_ID']
+              )
+              
+              # Load config
+              with open('deploy-config.json', 'r') as f:
+                  config = json.load(f)
+              
+              base_dir = config['deploy_directory']
+              remote_base = config['remote_base_path']
+              
+              # Scan for all files
+              local_files = scan_directory(base_dir)
+              print(f"Found {len(local_files)} files to check")
+              
+              files_uploaded = False
+              errors = []
+              
+              # Process each file
+              for local_path in local_files:
+                  # Calculate remote path
+                  rel_path = os.path.relpath(local_path, base_dir)
+                  remote_path = os.path.join(remote_base, rel_path).replace('\\', '/')
+                  
+                  print(f"\nChecking: {local_path} -> {remote_path}")
+                  
+                  # Download remote file for comparison
+                  remote_content = api.download_file(remote_path)
+                  
+                  # Compare files
+                  changed, local_content = compare_files(local_path, remote_content)
+                  
+                  if changed:
+                      print(f"Processing: {local_path} -> {remote_path}")
+                      
+                      # Create backup if remote file exists
+                      if remote_content is not None and not api.create_backup(remote_path):
+                          errors.append(f"Backup failed for {remote_path}")
+                          continue
+                      
+                      # Upload changed file
+                      if api.upload_file(remote_path, local_content):
+                          files_uploaded = True
+                      else:
+                          errors.append(f"Upload failed for {remote_path}")
+              
+              # Handle results
+              if errors:
+                  print("\nErrors occurred:")
+                  for error in errors:
+                      print(f"- {error}")
+                  return False
+              
+              # Restart if needed
+              if files_uploaded and config.get('restart_after_deploy', True):
+                  print("\nRestarting server...")
+                  if not api.restart_server():
+                      print("Server restart failed")
+                      return False
+              
+              return True
+
+          if __name__ == '__main__':
+              TEST_MODE = os.environ.get('TEST_MODE', 'false').lower() == 'true'
+              success = main()
+              exit(0 if success else 1)
+                    EOF
+          
+          python deploy_to_nitrado.py
