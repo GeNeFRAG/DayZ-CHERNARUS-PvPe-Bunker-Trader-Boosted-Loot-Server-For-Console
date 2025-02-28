@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
     <!-- ################### CUSTOM EVENTS START ################### -->
-    <!-- Static Container event -->
+    <!-- Static Locked Container event -->
      <event name="StaticContainerLocked">
         <nominal>2</nominal>
         <min>1</min>
