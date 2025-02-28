@@ -63,6 +63,11 @@
 	<event name="ItemYellowBag">
 		<pos x="10182.2" y="5.2" z="1670.7" a="0"/>
 	</event>
+	<!-- Static Container Event -->
+	<event name="StaticContainerLocked">
+		<pos x="13921.06" z="11187.55" a="0" />
+		<pos x="2181.7" z="3292.3" a="0" />
+	</event>
 	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
 	<event name="VehicleCivilianSedan">
 		<pos x="12071.933594" z="9129.989258" a="317.953339" />

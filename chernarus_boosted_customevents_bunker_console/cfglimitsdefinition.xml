@@ -37,6 +37,7 @@
 		<usage name="Misc"/>
 		<usage name="Zombies"/>
 		<usage name="Animals"/>
+        <usage name="ContainerLocked"/>
         <usage name="DontUse"/>
     </usageflags>
     <valueflags>
