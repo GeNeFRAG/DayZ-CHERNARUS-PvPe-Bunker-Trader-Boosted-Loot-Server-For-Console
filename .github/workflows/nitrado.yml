@@ -58,7 +58,7 @@ jobs:
                   
               def download_file(self, remote_path):
                   """Download file from server"""
-                  printf(f"login: {self.login}")
+                  print(f"login: {self.login}")
                   try:
                       full_path = f'/games/{self.login}/noftp/{remote_path}'
                       encoded_path = urllib.parse.quote(full_path, safe='')
