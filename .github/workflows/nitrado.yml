@@ -44,29 +44,38 @@ jobs:
           import sys
           from datetime import datetime
 
+          import urllib.parse
+
           class NitradoAPI:
-              def __init__(self, token, server_id):
+              def __init__(self, token, server_id, login):
                   self.token = token
                   self.server_id = server_id
+                  self.login = login
                   self.base_url = f'https://api.nitrado.net/services/{server_id}/gameservers'
                   self.headers = {'Authorization': f'Bearer {token}'}
                   
               def download_file(self, remote_path):
                   """Download file from server"""
                   try:
+                      full_path = f'/games/{self.login}/noftp/{remote_path}'
+                      encoded_path = urllib.parse.quote(full_path, safe='')
+                      url = f'{self.base_url}/file_server/download?file={encoded_path}'
+                      
+                      print(f"Downloading from: {url}")  # Debug info
+                      
                       response = requests.get(
-                          f'{self.base_url}/file_server/download',
-                          headers=self.headers,
-                          params={'file': remote_path}
+                          url,
+                          headers=self.headers
                       )
+                      
                       if response.status_code == 200:
                           return response.content
                       elif response.status_code == 404:
-                          print(f"ERROR: Required remote file not found: {remote_path}")
+                          print(f"ERROR: Required remote file not found: {full_path}")
                           print("Aborting deployment for safety.")
                           sys.exit(1)  # Exit with error code
                       else:
-                          print(f"Error downloading {remote_path}: {response.text}")
+                          print(f"Error downloading {full_path}: {response.text}")
                           return None
                   except Exception as e:
                       print(f"Download error: {str(e)}")
