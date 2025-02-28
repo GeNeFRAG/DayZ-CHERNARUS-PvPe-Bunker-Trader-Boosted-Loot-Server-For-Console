@@ -3,8 +3,16 @@ name: Deploy to Nitrado Server
 on:
   release:
     types: [published]
-  # Optional: Enable manual triggering
   workflow_dispatch:
+    inputs:
+      test_mode:
+        description: 'Run in test mode (no actual uploads)'
+        type: boolean
+        required: false
+        default: false
+      directory:
+        description: 'Directory to deploy (defaults to config value)'
+        required: false
 
 jobs:
   deploy:
@@ -13,6 +21,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -28,91 +38,141 @@ jobs:
         env:
           NITRADO_API_TOKEN: ${{ secrets.NITRADO_API_TOKEN }}
           GAME_SERVER_ID: ${{ secrets.GAME_SERVER_ID }}
+          TEST_MODE: ${{ inputs.test_mode }}
         run: |
           cat > deploy_to_nitrado.py << 'EOF'
           import os
           import requests
           import json
+          import subprocess
           from datetime import datetime
           
-          def create_backup(api_token, server_id, file_path):
-              """Create a backup of the existing file"""
-              headers = {
-                  'Authorization': f'Bearer {api_token}'
-              }
-              
-              url = f'https://api.nitrado.net/services/{server_id}/gameservers/file_server/download'
-              params = {'file': file_path}
-              
-              response = requests.get(url, headers=headers, params=params)
-              
-              if response.status_code == 200:
-                  timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-                  backup_path = f"{file_path}.backup_{timestamp}"
+          # Check if we're in test mode
+          TEST_MODE = os.environ.get('TEST_MODE', 'false').lower() == 'true'
+          
+          def get_changed_files():
+              """Get list of changed files from git"""
+              try:
+                  # Get the last commit hash
+                  result = subprocess.run(['git', 'log', '-1', '--format=%H'], 
+                                       capture_output=True, text=True)
+                  current_commit = result.stdout.strip()
                   
-                  # Upload the backup
-                  backup_data = {
-                      'path': backup_path,
-                      'file': response.text
-                  }
-                  
-                  backup_url = f'https://api.nitrado.net/services/{server_id}/gameservers/file_server/upload'
-                  backup_response = requests.post(backup_url, headers=headers, json=backup_data)
-                  
-                  if backup_response.status_code == 200:
-                      print(f"Created backup at {backup_path}")
+                  # Get the previous commit hash
+                  result = subprocess.run(['git', 'log', '-2', '--format=%H'], 
+                                       capture_output=True, text=True)
+                  commits = result.stdout.strip().split('\n')
+                  if len(commits) > 1:
+                      previous_commit = commits[1]
                   else:
-                      print(f"Failed to create backup: {backup_response.text}")
-                      return False
-                      
-              return True
+                      # If this is the first commit
+                      return get_all_files()
+                  
+                  # Get changed files between commits
+                  result = subprocess.run(['git', 'diff', '--name-only', previous_commit, current_commit],
+                                       capture_output=True, text=True)
+                  changed_files = result.stdout.strip().split('\n')
+                  
+                  # Load configuration
+                  with open('deploy-config.json', 'r') as f:
+                      config = json.load(f)
+                  
+                  deploy_dir = os.environ.get('DEPLOY_DIRECTORY', 
+                                            config.get('deploy_directory'))
+                  
+                  # Filter for files in the specified directory
+                  filtered_files = [f for f in changed_files if f.startswith(deploy_dir)]
+                  
+                  print(f"Deploy directory: {deploy_dir}")
+                  print(f"All changed files: {changed_files}")
+                  print(f"Filtered files: {filtered_files}")
+                  
+                  return filtered_files
+              except Exception as e:
+                  print(f"Error getting changed files: {str(e)}")
+                  return []
+          
+          def get_remote_path(local_path):
+              """Convert local path to remote path"""
+              with open('deploy-config.json', 'r') as f:
+                  config = json.load(f)
+              
+              deploy_dir = os.environ.get('DEPLOY_DIRECTORY', 
+                                        config.get('deploy_directory'))
+              remote_base = config.get('remote_base_path', '/games/dayz')
+              
+              # Remove the local base directory and join with remote base
+              relative_path = local_path[len(deploy_dir):].lstrip('/')
+              remote_path = os.path.join(remote_base, relative_path)
+              
+              print(f"Local path: {local_path}")
+              print(f"Deploy dir: {deploy_dir}")
+              print(f"Relative path: {relative_path}")
+              print(f"Remote path: {remote_path}")
+              
+              return remote_path
           
           def upload_file(local_path, remote_path):
               """Upload file to Nitrado server"""
+              if TEST_MODE:
+                  print(f"TEST MODE: Would upload {local_path} to {remote_path}")
+                  print(f"TEST MODE: File size: {os.path.getsize(local_path)} bytes")
+                  print(f"TEST MODE: File type: {os.path.splitext(local_path)[1]}")
+                  return True
+                  
+              # Real upload code here...
+              api_token = os.environ['NITRADO_API_TOKEN']
+              server_id = os.environ['GAME_SERVER_ID']
+              
+              # Create backup of existing file
+              if not create_backup(api_token, server_id, remote_path):
+                  print("Backup failed, aborting upload")
+                  return False
+              
+              try:
+                  with open(local_path, 'rb') as file:
+                      file_content = file.read()
+                  
+                  url = f'https://api.nitrado.net/services/{server_id}/gameservers/file_server/upload'
+                  
+                  headers = {
+                      'Authorization': f'Bearer {api_token}'
+                  }
+                  
+                  data = {
+                      'path': os.path.dirname(remote_path),
+                      'file': os.path.basename(remote_path)
+                  }
+                  
+                  files = {
+                      'file': (os.path.basename(remote_path), file_content)
+                  }
+                  
+                  response = requests.post(url, headers=headers, data=data, files=files)
+                  
+                  if response.status_code == 200:
+                      print(f'Successfully uploaded {local_path} to {remote_path}')
+                      return True
+                  else:
+                      print(f'Failed to upload file: {response.text}')
+                      return False
+                      
+              except Exception as e:
+                  print(f'Error during file upload: {str(e)}')
+                  return False
+          
+          def restart_server():
+              """Restart the game server"""
+              if TEST_MODE:
+                  print("TEST MODE: Would restart server")
+                  return
+                  
               api_token = os.environ['NITRADO_API_TOKEN']
               server_id = os.environ['GAME_SERVER_ID']
               
               headers = {
                   'Authorization': f'Bearer {api_token}',
                   'Content-Type': 'application/json'
-              }
-              
-              # Create backup of existing file
-              if not create_backup(api_token, server_id, remote_path):
-                  print("Backup failed, aborting upload")
-                  exit(1)
-              
-              # Read and upload new file
-              try:
-                  with open(local_path, 'r') as file:
-                      file_content = file.read()
-                  
-                  url = f'https://api.nitrado.net/services/{server_id}/gameservers/file_server/upload'
-                  
-                  data = {
-                      'path': remote_path,
-                      'file': file_content
-                  }
-                  
-                  response = requests.post(url, headers=headers, json=data)
-                  
-                  if response.status_code == 200:
-                      print(f'Successfully uploaded {local_path} to {remote_path}')
-                  else:
-                      print(f'Failed to upload file: {response.text}')
-                      exit(1)
-                      
-              except Exception as e:
-                  print(f'Error during file upload: {str(e)}')
-                  exit(1)
-          
-          def restart_server():
-              """Restart the game server"""
-              api_token = os.environ['NITRADO_API_TOKEN']
-              server_id = os.environ['GAME_SERVER_ID']
-              
-              headers = {
-                  'Authorization': f'Bearer {api_token}'
               }
               
               url = f'https://api.nitrado.net/services/{server_id}/gameservers/restart'
@@ -124,20 +184,33 @@ jobs:
               else:
                   print(f"Failed to restart server: {response.text}")
           
-          # Define files to upload
-          files_to_upload = {
-              # Local path : Remote path
-              'configs/TraderConfig.json': '/games/dayz/config/TraderConfig.json',
-              'configs/SpawnConfig.json': '/games/dayz/config/SpawnConfig.json'
-          }
+          print(f"Running in {'TEST MODE' if TEST_MODE else 'PRODUCTION MODE'}")
           
-          # Upload each file
-          for local_path, remote_path in files_to_upload.items():
-              print(f"Processing {local_path}...")
-              upload_file(local_path, remote_path)
+          # Get list of changed files
+          changed_files = get_changed_files()
+          print(f"Changed files: {changed_files}")
           
-          # Optionally restart the server
-          restart_server()
+          # Track if any files were uploaded
+          files_uploaded = False
+          
+          # Upload changed files
+          for local_path in changed_files:
+              if os.path.isfile(local_path):  # Ensure it's a file
+                  remote_path = get_remote_path(local_path)
+                  print(f"Processing {local_path} -> {remote_path}")
+                  if upload_file(local_path, remote_path):
+                      files_uploaded = True
+          
+          # Load configuration for restart setting
+          with open('deploy-config.json', 'r') as f:
+              config = json.load(f)
+          
+          # Only restart if files were actually uploaded and restart is enabled
+          if files_uploaded and config.get('restart_after_deploy', True):
+              print(f"{'TEST MODE: Would restart' if TEST_MODE else 'Restarting'} server...")
+              restart_server()
+          else:
+              print("No files were uploaded, skipping server restart")
           EOF
           
           python deploy_to_nitrado.py
@@ -145,9 +218,10 @@ jobs:
       - name: Notify on success
         if: success()
         run: |
-          echo "::notice::Successfully deployed configuration to Nitrado server"
+          echo "::notice::Successfully ${{ inputs.test_mode && 'tested' || 'deployed' }} configuration to Nitrado server"
 
       - name: Notify on failure
         if: failure()
         run: |
-          echo "::error::Failed to deploy configuration to Nitrado server"
+          echo "::error::Failed to ${{ inputs.test_mode && 'test' || 'deploy' }} configuration to Nitrado server"
+           

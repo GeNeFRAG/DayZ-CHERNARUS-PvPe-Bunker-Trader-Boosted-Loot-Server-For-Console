@@ -1,0 +1,5 @@
+{
+    "deploy_directory": "chernarus_boosted_customevents_bunker_console",
+    "remote_base_path": ".",
+    "restart_after_deploy": false
+}
