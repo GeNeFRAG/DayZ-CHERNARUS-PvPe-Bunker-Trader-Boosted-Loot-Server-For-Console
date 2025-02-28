@@ -34,7 +34,9 @@ jobs:
         env:
           NITRADO_API_TOKEN: ${{ secrets.NITRADO_API_TOKEN }}
           GAME_SERVER_ID: ${{ secrets.GAME_SERVER_ID }}
+          NITRADO_LOGIN: ${{ secrets.NITRADO_LOGIN }}
           TEST_MODE: ${{ inputs.test_mode }}
+
         run: |
           cat > deploy_to_nitrado.py << 'EOF'
           import os
@@ -184,7 +186,8 @@ jobs:
               # Initialize API
               api = NitradoAPI(
                   os.environ['NITRADO_API_TOKEN'],
-                  os.environ['GAME_SERVER_ID']
+                  os.environ['GAME_SERVER_ID'],
+                  os.environ['NITRADO_LOGIN']
               )
               
               # Load config
