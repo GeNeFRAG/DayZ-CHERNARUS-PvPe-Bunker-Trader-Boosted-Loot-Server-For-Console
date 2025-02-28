@@ -10,9 +10,6 @@ on:
         type: boolean
         required: false
         default: false
-      directory:
-        description: 'Directory to deploy (defaults to config value)'
-        required: false
 
 jobs:
   deploy:
@@ -23,6 +20,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 2
+          submodules: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
