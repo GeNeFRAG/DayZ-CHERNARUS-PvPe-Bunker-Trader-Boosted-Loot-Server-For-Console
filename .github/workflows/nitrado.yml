@@ -216,10 +216,10 @@ jobs:
                           continue
                       
                       # Upload changed file
-                      if api.upload_file(remote_path, local_content):
-                          files_uploaded = True
-                      else:
-                          errors.append(f"Upload failed for {remote_path}")
+                      #if api.upload_file(remote_path, local_content):
+                       #   files_uploaded = True
+                      #else:
+                       #   errors.append(f"Upload failed for {remote_path}")
               
               # Handle results
               if errors:
