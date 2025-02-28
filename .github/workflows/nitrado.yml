@@ -57,14 +57,23 @@ jobs:
                   self.headers = {'Authorization': f'Bearer {token}'}
                   
               def download_file(self, remote_path):
-                  """Download file from server"""
-                  print(f"login: {self.login}")
-                  try:
-                      full_path = f'/games/{self.login}/noftp/{remote_path}'
+              """Download file from server"""
+              try:
+                  # First get server info to get username
+                  response = requests.get(
+                      f'{self.base_url}',
+                      headers=self.headers
+                  )
+                  if response.status_code == 200:
+                      server_info = response.json()
+                      nitrado_login = server_info['data']['gameserver']['username']
+                      
+                      # Now get the download token
+                      full_path = f'/games/{nitrado_login}/noftp/{remote_path}'
                       encoded_path = urllib.parse.quote(full_path, safe='')
                       url = f'{self.base_url}/file_server/download?file={encoded_path}'
                       
-                      print(f"Downloading from: {url}")  # Debug info
+                      print(f"Getting download token for: {full_path}")
                       
                       response = requests.get(
                           url,
@@ -72,17 +81,32 @@ jobs:
                       )
                       
                       if response.status_code == 200:
-                          return response.content
+                          token_info = response.json()
+                          download_url = token_info['data']['token']['url']
+                          
+                          # Now download the actual file
+                          print(f"Downloading from token URL...")
+                          response = requests.get(download_url)
+                          
+                          if response.status_code == 200:
+                              return response.content
+                          else:
+                              print(f"Error downloading from token URL: {response.text}")
+                              return None
+                              
                       elif response.status_code == 404:
                           print(f"ERROR: Required remote file not found: {full_path}")
                           print("Aborting deployment for safety.")
                           sys.exit(1)  # Exit with error code
                       else:
-                          print(f"Error downloading {full_path}: {response.text}")
+                          print(f"Error getting download token: {response.text}")
                           return None
-                  except Exception as e:
-                      print(f"Download error: {str(e)}")
+                  else:
+                      print(f"Error getting server info: {response.text}")
                       return None
+              except Exception as e:
+                  print(f"Download error: {str(e)}")
+                  return None
 
               def upload_file(self, remote_path, content):
                   """Upload file to server"""
