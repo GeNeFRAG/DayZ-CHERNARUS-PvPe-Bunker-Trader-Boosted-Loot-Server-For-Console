@@ -1,5 +1,5 @@
 {
     "deploy_directory": "chernarus_boosted_customevents_bunker_console",
-    "remote_base_path": ".",
+    "remote_base_path": " dayzxb_missions/dayzOffline.chernarusplus/",
     "restart_after_deploy": false
 }
