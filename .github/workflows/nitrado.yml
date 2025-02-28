@@ -242,6 +242,6 @@ jobs:
               TEST_MODE = os.environ.get('TEST_MODE', 'false').lower() == 'true'
               success = main()
               exit(0 if success else 1)
-                    EOF
+          EOF
           
           python deploy_to_nitrado.py
