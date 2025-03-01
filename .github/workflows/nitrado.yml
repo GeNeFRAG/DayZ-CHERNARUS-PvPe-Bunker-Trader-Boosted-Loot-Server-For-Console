@@ -66,6 +66,7 @@ jobs:
                     )
                     if response.status_code == 200:
                         server_info = response.json()
+                        print(server_info)
                         nitrado_login = server_info['data']['gameserver']['username']
                         
                         # Now get the download token

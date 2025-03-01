@@ -3206,7 +3206,7 @@
 			<item name="AK_PlasticBttstck_Black" chance="1.0" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="AK_RailHndgrd_Black" chance="0.1" />
+			<item name="AK_RailHndgrd_Black" chance="1.0" />
 		</attachments>
 		<attachments chance="0.5">
 			<item name="KashtanOptic" chance="0.30" />
