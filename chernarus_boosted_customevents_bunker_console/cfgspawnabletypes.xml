@@ -13,12 +13,6 @@
 			<item name="PunchedCard" />
 		</attachments>
 	</type>
-	<!-- CammoNetShelter (only spawns in containers -->
-	<type name="SeaChest">
-		<cargo chance="0.1">
-			<item name="CamoNetShelter" />
-		</cargo>
-	</type>
 	<!-- Mich helmet with NVG -->
 	<type name="Mich2001Helmet">
 		<attachments chance="0.1">
