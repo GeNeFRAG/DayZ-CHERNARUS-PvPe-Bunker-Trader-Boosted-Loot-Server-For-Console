@@ -188,8 +188,8 @@ jobs:
               # Initialize API
               api = NitradoAPI(
                   os.environ['NITRADO_API_TOKEN'],
-                  os.environ['NITRADO_ID'],
-                  os.environ['SERVER_ID']
+                  os.environ['NITRADO_LOGIN'],
+                  os.environ['GAME_SERVER_ID']
               )
               
               # Scan repository for files
