@@ -327,6 +327,7 @@ jobs:
                 # Build the git command
                 command = ['git', '-C', repo_path, 'log', '-1', '--format=%cd']
                 if file_path:
+                    command.append('--')
                     command.append(file_path)
                 
                 # Run the git log command to get the date of the last commit
@@ -357,6 +358,7 @@ jobs:
               print(f"Scanning repository files in {deploy_directory}...")
               files_to_check = []
               base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), deploy_directory)
+              repo_path = os.getenv('GITHUB_WORKSPACE')
 
               # Walk through all files in the deploy directory
               for root, _, files in os.walk(base_dir):
@@ -373,7 +375,7 @@ jobs:
                       rel_path = os.path.join(root, file)
                       print(f"rel_path: {rel_path}")
                       # Get the last commit date
-                      modified_at = get_last_commit_date(base_dir, rel_path)
+                      modified_at = get_last_commit_date(repo_path, rel_path)
                       print(f"last commit date: {modified_at}")
                       if modified_at:
                           files_to_check.append({
