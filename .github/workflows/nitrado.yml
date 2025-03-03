@@ -149,7 +149,7 @@ jobs:
                           return False
                   except Exception as e:
                     print(f"Upload error: {str(e)}")
-                     return False
+                    return False
                       
               def restart_server(self):
                   print("Restarting server...")
