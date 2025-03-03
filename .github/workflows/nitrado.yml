@@ -98,28 +98,58 @@ jobs:
                   
                   print(f"Backup created at {backup_zip_path}")
                   return True
-                      
-              def upload_file(self, remote_path, filename, content):
-                  print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
+
+              def get_upload_token(self, filename, remote_path):
+                  print(f"Requesting upload token for {filename} to {remote_path}")
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
-                      files= {'upload_file': content}
                       values= {'path': remote_path, 'file': filename}
                       response = requests.post(
                           url,
                           headers=self.headers,
-                          files=files,
                           data=values
                       )
                       if response.status_code == 201:
-                          print(f"{response.status_code}: Successfully uploaded to {url}. {response.text}")
-                          return True
+                          print(f"{response.status_code}: Successfully retrieved upload toklen. {response.text}")
+                          response_json = respone.json()
+                          token = response_json['token']
+                          return token                              
                       else:
+                          print(f"POST Error: {response.status_code}: {response.text}")
+                          return None
+                  except Exception as e:
+                      print(f"Error: {str(e)}")
+                      return None
+                      
+              def upload_file(self, remote_path, filename, content):
+                  print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
+                  try:
+
+                     upload_info = get_upload_token(filename, remote_path)
+                     if not upload_info:
+                        print("Failed to get upload token")
+                        return False
+                     
+                    upload_url = upload_info['url']
+                    upload_token = upload_info['token']
+
+                    response = requests.post(
+                          upload_url,
+                          headers={
+                                'Content-Type': 'application/binary',
+                                'token': upload_token
+                            },
+                            data=content
+                    )
+                    if response.status_code == 200:
+                        print(f"{response.status_code}: Successfully uploaded to {url}. {response.text}")
+                        return True
+                    else:
                           print(f"Upload error: {response.status_code}: {response.text}")
                           return False
                   except Exception as e:
-                      print(f"Upload error: {str(e)}")
-                      return False
+                    print(f"Upload error: {str(e)}")
+                     return False
                       
               def restart_server(self):
                   print("Restarting server...")
