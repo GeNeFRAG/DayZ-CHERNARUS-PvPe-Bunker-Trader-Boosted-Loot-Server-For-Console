@@ -290,7 +290,6 @@ jobs:
               """
               print(f"Compare modified date local and remote files...")
               modified_files = []
-              time_tolerance = 60  # seconds
 
               for local_file in files_rep:
                   local_name = local_file['name']
@@ -300,10 +299,10 @@ jobs:
                       if remote_name == local_name:
                           remote_modified_at = datetime.fromisoformat(remote_file['modified_at']).replace(tzinfo=timezone.utc)
                           time_difference = (local_modified_at - remote_modified_at).total_seconds()
-                          print(f"local_modified_at: {local_modified_at}")
-                          print(f"remote_modified_at: {remote_modified_at}")
+                          print(f"local: {local_name}: local_modified_at: {local_modified_at}")
+                          print(f"remote: {remote_name} remote_modified_at: {remote_modified_at}")
                           print(f"time_difference: {time_difference}")
-                          if time_difference > time_tolerance:
+                          if time_difference >= 0:
                               modified_files.append({
                                   'local_path': local_file['path'],
                                   'remote_path': remote_file['path'],
@@ -369,7 +368,6 @@ jobs:
                     print(f"Unexpected error: {str(e)}")
                     return None
 
-
           def scan_repository_files(deploy_directory):
               """
               Scan all files in the repository.
@@ -398,7 +396,11 @@ jobs:
                           
                       # Use the full path
                       rel_path = os.path.join(root, file)
-                      print(f"rel_path: {rel_path}")
+                      
+                      print(f"Processing file:")
+                      print(f"  Full path: {full_path}")
+                      print(f"  Relative path: {rel_path}")
+                      
                       # Get the last commit date
                       modified_at = get_last_commit_date(repo_path, rel_path)
                       print(f"last commit date: {modified_at}")
