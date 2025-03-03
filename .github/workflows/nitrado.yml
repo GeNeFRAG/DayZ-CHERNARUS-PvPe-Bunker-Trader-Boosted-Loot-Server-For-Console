@@ -36,8 +36,8 @@ jobs:
       - name: Deploy to Nitrado
         env:
           NITRADO_API_TOKEN: ${{ secrets.NITRADO_API_TOKEN }}
-          NITRADO_ID: ${{ secrets.NITRADO_ID }}
-          SERVER_ID: ${{ secrets.SERVER_ID }}
+          NITRADO_LOGIN: ${{ secrets.NITRADO_LOGIN }}
+          GAME_SERVER_ID: ${{ secrets.GAME_SERVER_ID }}
         run: |
           cat > deploy_to_nitrado.py << 'EOF'
           import os
@@ -159,9 +159,6 @@ jobs:
                               }
                               for file in response_json['data']['entries'] if file['type'] == 'file'
                           ]
-                      elif response.status_code == 404:
-                          print("ERROR: Main directory not found.")
-                          return None
                       else:
                           print(f"Error fetching file stats: {response.text}")
                           return None
@@ -258,8 +255,8 @@ jobs:
               # Initialize API
               api = NitradoAPI(
                   os.environ['NITRADO_API_TOKEN'],
-                  os.environ['NITRADO_ID'],
-                  os.environ['SERVER_ID'],
+                  os.environ['NITRADO_LOGIN'],
+                  os.environ['GAME_SERVER_ID'],
                   remote_base_path,
                   ssl_verify
               )
@@ -310,7 +307,9 @@ jobs:
               return True
 
           if __name__ == "__main__":
-              main()
+              success = main()
+              if not success:
+                  exit(1)
           EOF
           
           python deploy_to_nitrado.py
