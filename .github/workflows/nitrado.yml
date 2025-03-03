@@ -194,7 +194,6 @@ jobs:
               modified_files = []
               for local_file in files_rep:
                   local_name = local_file['name']
-                  print(f"Processing {local_name}")
                   local_modified_at = datetime.fromisoformat(local_file['modified_at'])
                   for remote_file in files_remote:
                       remote_name = remote_file['name']
@@ -225,6 +224,7 @@ jobs:
                       continue
                       
                   for file in files:
+                      print(file)
                       # Skip hidden files and deploy config
                       if file.startswith('.') or file == 'deploy-config.json' or file.endswith('.py'):
                           continue
