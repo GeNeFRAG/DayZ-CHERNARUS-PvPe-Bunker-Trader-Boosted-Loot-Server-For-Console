@@ -118,11 +118,12 @@ jobs:
                           headers=self.headers,
                           files=files
                       )
+                      print(f"Upload Response Code: {response.status_code}")
                       if response.status_code == 200:
                           print(f"Successfully uploaded to {remote_path}")
                           return True
                       else:
-                          print(f"Upload error: {response.text}")
+                          print(f"Upload error: {response.status_code}: {response.text}")
                           return False
                   except Exception as e:
                       print(f"Upload error: {str(e)}")
