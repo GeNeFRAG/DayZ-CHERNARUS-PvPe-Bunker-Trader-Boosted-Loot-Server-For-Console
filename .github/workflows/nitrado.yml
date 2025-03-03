@@ -324,27 +324,20 @@ jobs:
                 str: Last commit date in ISO format, or None if an error occurred.
             """
             try:
-                # Use --follow to track file history across renames
-                # Use %aI for author date in strict ISO 8601 format
+                # Run the git log command to get the date of the last commit
                 result = subprocess.run(
-                    ['git', 'log', '-1', '--follow', '--format=%aI', '--', file_path],
-                    capture_output=True,
-                    text=True,
-                    check=True
+                    ['git', '-C', repo_path, 'log', '-1', '--format=%cd'],
+                    check=True,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    text=True
                 )
-                commit_date = result.stdout.strip()
-                if not commit_date:
-                    # If no commit found, try getting file modification time
-                    mtime = os.path.getmtime(file_path)
-                    commit_date = datetime.fromtimestamp(mtime).astimezone().isoformat()
-                
-                print(f"File: {file_path}, Last commit date: {commit_date}")
-                return commit_date
+                # The output will contain the date of the last commit
+                last_commit_date = result.stdout.strip()
+                print("last_commit_date: ", last_commit_date)
+                return last_commit_date
             except subprocess.CalledProcessError as e:
-                print(f"Error getting last commit date for {file_path}: {e}")
-                return None
-            except Exception as e:
-                print(f"Unexpected error for {file_path}: {e}")
+                print(f"Error occurred: {e.stderr}")
                 return None
 
           def scan_repository_files(deploy_directory):
