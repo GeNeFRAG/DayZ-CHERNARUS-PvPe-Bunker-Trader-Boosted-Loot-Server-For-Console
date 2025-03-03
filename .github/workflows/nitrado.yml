@@ -111,8 +111,8 @@ jobs:
                       response = requests.post(
                           url,
                           headers=self.headers,
-                          files={'file': (filename, content)},
-                          data={'path': remote_path},
+                          files=files,
+                          data=params,
                           verify=self.ssl_verify
                       )
                       if response.status_code == 200:
