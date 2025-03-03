@@ -324,9 +324,11 @@ jobs:
                 str: Last commit date in ISO format, or None if an error occurred.
             """
             try:
+                # Navigate to the repository's root directory
+                repo_root = os.path.abspath(os.path.join(file_path, "../../.."))
                 # Run the git log command to get the date of the last commit
                 result = subprocess.run(
-                    ['git', '-C', file_path, 'log', '-1', '--format=%cd'],
+                    ['git', '-C', repo_root, 'log', '-1', '--format=%cd', '--', file_path],
                     check=True,
                     stdout=subprocess.PIPE,
                     stderr=subprocess.PIPE,
