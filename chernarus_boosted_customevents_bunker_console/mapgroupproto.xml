@@ -13778,6 +13778,7 @@
         <usage name="Tools" />
         <usage name="Plants" />
         <usage name="Carparts" />
+        <usage name="Military" />
         <container name="lootFloor" lootmax="4">
             <tag name="floor" />
             <point pos="0.359863 -1.489498 -2.456665" range="1.199951" height="2.000000" />

@@ -1712,10 +1712,10 @@
 		<cargo chance="0.05">
 			<item name="FlashGrenade" chance="1.0"/>
 		</cargo>
-		<cargo chance="0.03">
+		<cargo chance="0.01">
 			<item name="StarlightOptic" chance="1.0"/>
 		</cargo>
-		<cargo chance="0.03">
+		<cargo chance="0.01">
 			<item name="KazuarOptic" chance="1.0"/>
 		</cargo>
 	</type>
