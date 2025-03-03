@@ -228,9 +228,8 @@ jobs:
                     if file.startswith('.') or file == 'deploy-config.json' or file.endswith('.py'):
                         continue
                         
-                    # Make path relative to deploy directory
-                    rel_path = os.path.relpath(os.path.join(root, file), base_dir)
-                    print(rel_path)
+                    # Use the full path
+                    rel_path = os.path.join(root, file)
                     
                     # Get file stats
                     file_stats = os.stat(os.path.join(root, file))
