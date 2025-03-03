@@ -125,7 +125,7 @@ jobs:
                   print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
                   try:
 
-                     upload_info = get_upload_token(filename, remote_path)
+                     upload_info = self.get_upload_token(filename, remote_path)
                      if not upload_info:
                         print("Failed to get upload token")
                         return False

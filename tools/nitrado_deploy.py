@@ -59,26 +59,31 @@ class NitradoAPI:
         print(f"Uploading to Nitrado {filename} to {remote_path}")
         try:
             url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
+
+            # Specify the content type for the file
+            content_type = 'text/plain' 
+
+            # Additional parameters
+            additional_params = {
+            'path': remote_path,
+            'file': filename
+            }
             files = {
-                'file': content
+            'file': (content,content_type),
+            'path': (None, additional_params['path']),
+            'file': (None, additional_params['file'])
             }
-            params = {
-                'path': remote_path,
-                'file': filename
-            }
-            return True
+
             response = requests.post(
                 url,
                 headers=self.headers,
-                data=params,
-                files=files,
-                verify=self.ssl_verify
-                )
-            if response.status_code == 200:
-                print(f"Successfully uploaded to {remote_path}")
+                files=files
+            )
+            if response.status_code == 201:
+                print(f"{response.status_code}: Successfully uploaded to {remote_path}")
                 return True
             else:
-                print(f"Upload error: {response.text}")
+                print(f"Upload error: {response.status_code}: {response.text}")
                 return False
         except Exception as e:
             print(f"Upload error: {str(e)}")
