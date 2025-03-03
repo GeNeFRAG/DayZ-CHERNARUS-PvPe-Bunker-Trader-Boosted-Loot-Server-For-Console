@@ -245,7 +245,16 @@ jobs:
               print(f"Found {len(files_to_check)} files to process")
               return files_to_check
 
-          def main():              
+          def main():
+              # Load configuration
+              with open('deploy-config.json', 'r') as f:
+                  config = json.load(f)
+              
+              remote_base_path = config['remote_base_path']
+              remote_dirs = config['remote_dirs']
+              restart_after_deploy = config['restart_after_deploy']
+              ssl_verify = config['ssl_verify']
+              
               # Initialize API
               api = NitradoAPI(
                   os.environ['NITRADO_API_TOKEN'],
