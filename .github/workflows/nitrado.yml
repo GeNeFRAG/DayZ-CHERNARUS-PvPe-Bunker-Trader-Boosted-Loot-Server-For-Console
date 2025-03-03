@@ -276,7 +276,7 @@ jobs:
 
           def compare_files(files_rep, files_remote):
               """
-              Compare modified dates of local and remote files.
+              Compare modified dates of local and remote files, considering a time difference tolerance.
 
               Args:
                   files_rep (list): List of local files.
@@ -287,6 +287,8 @@ jobs:
               """
               print(f"Compare modified date local and remote files...")
               modified_files = []
+              time_tolerance = 60  # seconds
+
               for local_file in files_rep:
                   local_name = local_file['name']
                   local_modified_at = datetime.fromisoformat(local_file['modified_at'])
@@ -294,7 +296,8 @@ jobs:
                       remote_name = remote_file['name']
                       if remote_name == local_name:
                           remote_modified_at = datetime.fromisoformat(remote_file['modified_at'])
-                          if local_modified_at > remote_modified_at:
+                          time_difference = (local_modified_at - remote_modified_at).total_seconds()
+                          if time_difference > time_tolerance:
                               modified_files.append({
                                   'local_path': local_file['path'],
                                   'remote_path': remote_file['path'],
