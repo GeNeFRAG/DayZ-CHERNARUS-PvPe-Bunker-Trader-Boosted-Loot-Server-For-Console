@@ -405,6 +405,9 @@ jobs:
                   remote_base_path,
                   ssl_verify
               )
+
+              repo_path = os.getenv('GITHUB_WORKSPACE')
+              print(f"repo_path: {repo_path}")
               
               # Scan repository for files
               files_rep = scan_repository_files(deploy_directory)
