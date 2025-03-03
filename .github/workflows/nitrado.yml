@@ -365,6 +365,7 @@ jobs:
                       
                       # Get the last commit date
                       modified_at = get_last_commit_date(rel_path)
+                      print(f"last commit date: {modified_at}")
                       if modified_at:
                           files_to_check.append({
                               'path': rel_path,  # e.g. 'db/events.xml'
