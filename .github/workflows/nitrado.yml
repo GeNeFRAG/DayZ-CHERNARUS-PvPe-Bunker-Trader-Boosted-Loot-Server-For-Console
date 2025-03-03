@@ -101,12 +101,22 @@ jobs:
                   print(f"Uploading to Nitrado {filename} to {remote_path}")
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
+
+                      # Additional parameters
+                      additional_params = {
+                        'path': remote_path,
+                        'file': filename
+                      }
+                      files = {
+                        'file': content,
+                        'path': (None, additional_params['path']),
+                        'file': (None, additional_params['file'])
+                      }
+
                       response = requests.post(
                           url,
                           headers=self.headers,
-                          files={'file': (filename, content)},
-                          data={'path': remote_path},
-                          verify=self.ssl_verify
+                          files=files
                       )
                       if response.status_code == 200:
                           print(f"Successfully uploaded to {remote_path}")
