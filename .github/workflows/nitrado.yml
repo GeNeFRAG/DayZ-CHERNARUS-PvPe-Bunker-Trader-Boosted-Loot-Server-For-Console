@@ -108,7 +108,7 @@ jobs:
                       file = filename
                       multipart_data = MultipartEncoder(
                             fields={
-                                 'file': (file_name, file, 'application/octet-stream'),
+                                'file': (file, content, 'application/octet-stream'),
                                 'path': path,
                                 'file': file
                              })
