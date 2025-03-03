@@ -121,12 +121,10 @@ jobs:
                       print(f"Error: {str(e)}")
                       return None
                       
-              def upload_file(self, remote_path, filename, content):
+              def upload_file(self, remote_path, filename, content, upload):
                   print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
                   try:
-
                      upload_info = self.get_upload_token(filename, remote_path)
-                     print(upload_info)
                      if not upload_info:
                         print("Failed to get upload token")
                         return False
@@ -134,20 +132,25 @@ jobs:
                      upload_url = upload_info['url']
                      upload_token = upload_info['token']
 
-                     response = requests.post(
-                          upload_url,
-                          headers={
-                                'Content-Type': 'application/binary',
-                                'token': upload_token
-                            },
-                            data=content
-                     )
-                     if response.status_code == 200:
-                        print(f"{response.status_code}: Successfully uploaded to {upload_url}. {response.text}")
+                    if(upload)
+                        response = requests.post(
+                            upload_url,
+                            headers={
+                                    'Content-Type': 'application/binary',
+                                    'token': upload_token
+                                },
+                                data=content
+                        )
+                        if response.status_code == 200:
+                            print(f"{response.status_code}: Successfully uploaded to {upload_url}. {response.text}")
+                            return True
+                        else:
+                            print(f"Upload error: {response.status_code}: {response.text}")
+                            return False
+                    else:
+                        print(f"Upload disabled. Skipping upload.")
                         return True
-                     else:
-                          print(f"Upload error: {response.status_code}: {response.text}")
-                          return False
+                        
                   except Exception as e:
                     print(f"Upload error: {str(e)}")
                     return False
@@ -279,6 +282,7 @@ jobs:
               restart_after_deploy = config['restart_after_deploy']
               ssl_verify = config['ssl_verify']
               deploy_directory = config['deploy_directory']
+              upload = config['upload']
               
               # Initialize API
               api = NitradoAPI(
@@ -315,15 +319,12 @@ jobs:
               # Upload changed files
               for file in modified_files:
                   local_path = file['local_path']
-                  remote_path = file['remote_path']
-                  
-                  local_path = "/home/runner/work/DayZ/DayZ/chernarus_boosted_customevents_bunker_console/deploy-config.json"
+                  remote_path = os.path.dirname(file['remote_path'])
 
                   with open(local_path, 'rb') as f:
                       content = f.read()
                   
-                  #if not api.upload_file(remote_path, file['name'], content):
-                  if not api.upload_file("/games/ni8292907_1/ftproot/dayzxb_missions/dayzOffline.chernarusplus/custom/","deploy-config.json" ,content):
+                  if not api.upload_file(remote_path, file['name'], content, upload):
                       print(f"Failed to upload {local_path}")
                       return False
                   return False
