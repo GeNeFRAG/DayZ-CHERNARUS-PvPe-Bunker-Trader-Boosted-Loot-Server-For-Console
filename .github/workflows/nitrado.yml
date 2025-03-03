@@ -126,6 +126,7 @@ jobs:
                   try:
 
                      upload_info = self.get_upload_token(filename, remote_path)
+                     print(upload_info)
                      if not upload_info:
                         print("Failed to get upload token")
                         return False
