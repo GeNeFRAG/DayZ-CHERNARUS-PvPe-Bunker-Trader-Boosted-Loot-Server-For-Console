@@ -111,7 +111,7 @@ jobs:
                                  'file': (file_name, file, 'application/octet-stream'),
                                 'path': path,
                                 'file': file
-                             }
+                             })
                       headers = {
                             'Authorization': f'Bearer {self.token}',
                             'Content-Type': multipart_data.content_type
