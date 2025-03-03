@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+            fetch-depth: 0 
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -314,36 +316,59 @@ jobs:
               return modified_files
 
           def get_last_commit_date(repo_path, file_path):
-            """
-            Get the last commit date of a file.
+                """
+                Get the last commit date of a file.
 
-            Args:
-                file_path (str): Path of the file.
+                Args:
+                    repo_path (str): Path to the git repository
+                    file_path (str): Path of the file.
 
-            Returns:
-                str: Last commit date in ISO format, or None if an error occurred.
-            """
-            try:
-                # Build the git command
-                command = ['git', '-C', repo_path, 'log', '-1', '--format=%cd']
-                if file_path:
-                    command.append('--')
-                    command.append(file_path)
-                
-                # Run the git log command to get the date of the last commit
-                result = subprocess.run(
-                    command,
-                    check=True,
-                    stdout=subprocess.PIPE,
-                    stderr=subprocess.PIPE,
-                    text=True
-                )
-                # The output will contain the date of the last commit
-                last_commit_date = result.stdout.strip()
-                return last_commit_date
-            except subprocess.CalledProcessError as e:
-                print(f"Error occurred: {e.stderr}")
-                return None
+                Returns:
+                    str: Last commit date in ISO format, or None if an error occurred.
+                """
+                try:
+                    # Print debug info
+                    print(f"Getting last commit date for:")
+                    print(f"repo_path: {repo_path}")
+                    print(f"file_path: {file_path}")
+                    
+                    # Get git history info
+                    history_cmd = ['git', '-C', repo_path, 'log', '--pretty=format:%H', file_path]
+                    history = subprocess.run(
+                        history_cmd,
+                        check=True,
+                        capture_output=True,
+                        text=True
+                    )
+                    commits = history.stdout.strip().split('\n')
+                    print(f"Found {len(commits)} commits for {file_path}")
+
+                    if not commits or commits[0] == '':
+                        print(f"No commit history found for {file_path}")
+                        return None
+
+                    # Get the date of the last commit
+                    date_cmd = ['git', '-C', repo_path, 'show', '-s', '--format=%aI', commits[0]]
+                    result = subprocess.run(
+                        date_cmd,
+                        check=True,
+                        capture_output=True,
+                        text=True
+                    )
+                    commit_date = result.stdout.strip()
+                    print(f"Last commit date for {file_path}: {commit_date}")
+                    return commit_date
+
+                except subprocess.CalledProcessError as e:
+                    print(f"Git command failed:")
+                    print(f"stdout: {e.stdout}")
+                    print(f"stderr: {e.stderr}")
+                    print(f"return code: {e.returncode}")
+                    return None
+                except Exception as e:
+                    print(f"Unexpected error: {str(e)}")
+                    return None
+
 
           def scan_repository_files(deploy_directory):
               """
