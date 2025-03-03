@@ -39,6 +39,7 @@ jobs:
           import json
           import zipfile
           from datetime import datetime
+          import subprocess
 
           NITRADO_API_BASE_URL='https://api.nitrado.net/services/'
 
@@ -312,6 +313,28 @@ jobs:
               print(f"Found {len(modified_files)} modified files")
               return modified_files
 
+          def get_last_commit_date(file_path):
+              """
+              Get the last commit date of a file.
+
+              Args:
+                  file_path (str): Path of the file.
+
+              Returns:
+                  str: Last commit date in ISO format, or None if an error occurred.
+              """
+              try:
+                  result = subprocess.run(
+                      ['git', 'log', '-1', '--format=%cI', file_path],
+                      capture_output=True,
+                      text=True,
+                      check=True
+                  )
+                  return result.stdout.strip()
+              except subprocess.CalledProcessError as e:
+                  print(f"Error getting last commit date for {file_path}: {e}")
+                  return None
+
           def scan_repository_files(deploy_directory):
               """
               Scan all files in the repository.
@@ -340,14 +363,14 @@ jobs:
                       # Use the full path
                       rel_path = os.path.join(root, file)
                       
-                      # Get file stats
-                      file_stats = os.stat(os.path.join(root, file))
-                      modified_at = datetime.fromtimestamp(file_stats.st_mtime).isoformat()
-                      files_to_check.append({
-                          'path': rel_path,  # e.g. 'db/events.xml'
-                          'modified_at': modified_at,
-                          'name': file
-                      })
+                      # Get the last commit date
+                      modified_at = get_last_commit_date(rel_path)
+                      if modified_at:
+                          files_to_check.append({
+                              'path': rel_path,  # e.g. 'db/events.xml'
+                              'modified_at': modified_at,
+                              'name': file
+                          })
               print(f"Found {len(files_to_check)} files to process")
               return files_to_check
 
