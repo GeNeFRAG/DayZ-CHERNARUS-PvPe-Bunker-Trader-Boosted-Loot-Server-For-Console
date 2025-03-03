@@ -2,12 +2,6 @@ name: Deploy to Nitrado Server
 
 on:
   workflow_dispatch:
-    inputs:
-      test_mode:
-        description: 'Run in test mode (no actual uploads)'
-        type: boolean
-        required: false
-        default: false
 
 jobs:
   deploy:
@@ -25,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests requests_toolbelt
+          pip install requests
 
       - name: Load deployment configuration
         id: load-config
@@ -229,6 +223,7 @@ jobs:
                       if remote_name == local_name:
                           remote_modified_at = datetime.fromisoformat(remote_file['modified_at'])
                           if local_modified_at > remote_modified_at:
+                              print(f"{local_modified_at} > {remote_modified_at}")
                               modified_files.append({
                                   'local_path': local_file['path'],
                                   'remote_path': remote_file['path'],
