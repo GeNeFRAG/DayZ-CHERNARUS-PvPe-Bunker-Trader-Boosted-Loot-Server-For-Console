@@ -112,8 +112,8 @@ jobs:
                       }
                       files = {
                         'file': (content,content_type),
-                        'path': (None, additional_params['path']),
-                        'file': (None, additional_params['file'])
+                        'path': additional_params['path'],
+                        'file': additional_params['file']
                       }
 
                       response = requests.post(
