@@ -200,6 +200,7 @@ jobs:
                       if remote_name == local_name:
                           remote_modified_at = datetime.fromisoformat(remote_file['modified_at'])
                           if local_modified_at > remote_modified_at:
+                              print(f"File {local_name} has been modified locally")
                               modified_files.append({
                                   'local_path': local_file['path'],
                                   'remote_path': remote_file['path'],
