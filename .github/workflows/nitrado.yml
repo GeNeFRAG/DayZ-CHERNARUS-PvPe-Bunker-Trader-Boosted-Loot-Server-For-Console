@@ -104,15 +104,15 @@ jobs:
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
                       # Additional parameters
-                     path = remote_path
-                     file = filename
-                     multipart_data = MultipartEncoder(
+                      path = remote_path
+                      file = filename
+                      multipart_data = MultipartEncoder(
                             fields={
                                  'file': (file_name, file, 'application/octet-stream'),
                                 'path': path,
                                 'file': file
                              }
-                     headers = {
+                      headers = {
                             'Authorization': f'Bearer {self.token}',
                             'Content-Type': multipart_data.content_type
                         }
