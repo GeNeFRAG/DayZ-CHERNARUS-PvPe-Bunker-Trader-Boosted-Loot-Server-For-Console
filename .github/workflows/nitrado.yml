@@ -230,6 +230,7 @@ jobs:
                         
                     # Make path relative to deploy directory
                     rel_path = os.path.relpath(os.path.join(root, file), base_dir)
+                    print(rel_path)
                     
                     # Get file stats
                     file_stats = os.stat(os.path.join(root, file))
