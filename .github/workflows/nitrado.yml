@@ -380,9 +380,12 @@ jobs:
               """
               print(f"Scanning repository files in {deploy_directory}...")
               files_to_check = []
-              base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), deploy_directory)
               repo_path = os.getenv('GITHUB_WORKSPACE')
-
+              base_dir = os.path.join(repo_path, deploy_directory)
+              
+              print(f"Repository path: {repo_path}")
+              print(f"Base directory: {base_dir}")
+              
               # Walk through all files in the deploy directory
               for root, _, files in os.walk(base_dir):
                   # Skip hidden directories
@@ -395,7 +398,8 @@ jobs:
                           continue
                           
                       # Use the full path
-                      rel_path = os.path.join(root, file)
+                      full_path = os.path.join(root, file)
+                      rel_path = os.path.relpath(full_path, repo_path)
                       
                       print(f"Processing file:")
                       print(f"  Full path: {full_path}")
@@ -403,10 +407,9 @@ jobs:
                       
                       # Get the last commit date
                       modified_at = get_last_commit_date(repo_path, rel_path)
-                      print(f"last commit date: {modified_at}")
                       if modified_at:
                           files_to_check.append({
-                              'path': rel_path,  # e.g. 'db/events.xml'
+                              'path': os.path.join(deploy_directory, file),  # e.g. 'db/events.xml'
                               'modified_at': modified_at,
                               'name': file
                           })
