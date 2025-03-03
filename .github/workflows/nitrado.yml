@@ -409,7 +409,7 @@ jobs:
                       modified_at = get_last_commit_date(repo_path, rel_path)
                       if modified_at:
                           files_to_check.append({
-                              'path': os.path.join(deploy_directory, file),  # e.g. 'db/events.xml'
+                              'path': full_path,
                               'modified_at': modified_at,
                               'name': file
                           })
