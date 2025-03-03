@@ -289,14 +289,16 @@ jobs:
               for file in modified_files:
                   local_path = file['local_path']
                   remote_path = file['remote_path']
-                  print(local_path)
-                  return False
+                  
+                  local_path = "/home/runner/work/DayZ/DayZ/chernarus_boosted_customevents_bunker_console/deploy-config.json"
+
                   with open(local_path, 'rb') as f:
                       content = f.read()
                   
                   if not api.upload_file(remote_path, file['name'], content):
                       print(f"Failed to upload {local_path}")
                       return False
+                  return False
               print("All modified files uploaded successfully.")
 
               # Restart server
