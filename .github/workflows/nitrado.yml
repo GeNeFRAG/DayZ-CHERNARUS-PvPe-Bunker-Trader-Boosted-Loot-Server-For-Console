@@ -295,7 +295,8 @@ jobs:
                   with open(local_path, 'rb') as f:
                       content = f.read()
                   
-                  if not api.upload_file(remote_path, file['name'], content):
+                  #if not api.upload_file(remote_path, file['name'], content):
+                  if not api.upload_file("/games/{self.server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/","deploy-config.json" ,content):
                       print(f"Failed to upload {local_path}")
                       return False
                   return False
