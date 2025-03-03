@@ -27,17 +27,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
+      - name: Load deployment configuration
+        id: load-config
+        run: |
+          config=$(cat deploy-config.json | python -c 'import json,sys; config=json.load(sys.stdin); print(" ".join([f"{k}={v}" for k,v in config.items()]))')
+          echo "::set-output name=config::$config"
+
       - name: Deploy to Nitrado
         env:
           NITRADO_API_TOKEN: ${{ secrets.NITRADO_API_TOKEN }}
           NITRADO_ID: ${{ secrets.NITRADO_ID }}
           SERVER_ID: ${{ secrets.SERVER_ID }}
-          restart_after_deploy: ${{ inputs.restart_after_deploy }}
-          deploy_directory: ${{ inputs.deploy_directory }}
-          remote_base_path: ${{ inputs.remote_base_path }}
-          remote_dirs: ${{ inputs.remote_dirs }}
-          ssl_verify: ${{ inputs.ssl_verify }}
-
+          $(echo ${{ steps.load-config.outputs.config }} | tr " " "\n" | sed 's/^/env:/')
         run: |
           cat > deploy_to_nitrado.py << 'EOF'
           import os
