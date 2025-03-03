@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
+          pip install requests requests_toolbelt
 
       - name: Load deployment configuration
         id: load-config
@@ -44,7 +44,6 @@ jobs:
           import requests
           import json
           import zipfile
-          import requests_toolbelt
           from datetime import datetime
           from requests_toolbelt.multipart.encoder import MultipartEncoder
 
