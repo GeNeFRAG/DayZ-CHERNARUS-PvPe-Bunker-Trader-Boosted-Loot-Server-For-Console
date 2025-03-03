@@ -8,5 +8,5 @@
         "env"
     ],
     "ssl_verify": true,
-    "upload" : true
+    "upload" : false
 }
