@@ -367,7 +367,7 @@ jobs:
                           
                       # Use the full path
                       rel_path = os.path.join(root, file)
-                      
+                      print(f"rel_path: {rel_path}")
                       # Get the last commit date
                       modified_at = get_last_commit_date(rel_path)
                       print(f"last commit date: {modified_at}")
