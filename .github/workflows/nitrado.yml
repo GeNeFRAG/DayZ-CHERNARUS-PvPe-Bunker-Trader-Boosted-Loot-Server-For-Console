@@ -45,6 +45,7 @@ jobs:
           import json
           import zipfile
           from datetime import datetime
+          from requests_toolbelt.multipart.encoder import MultipartEncoder
 
           NITRADO_API_BASE_URL='https://api.nitrado.net/services/'
 
@@ -53,6 +54,7 @@ jobs:
                   self.token = token
                   self.nitrado_id = nitrado_id
                   self.server_id = server_id
+                  self.token = token
                   self.headers = {'Authorization': f'Bearer {token}'}
                   self.remote_base_path = remote_base_path
                   self.ssl_verify = ssl_verify
@@ -102,24 +104,22 @@ jobs:
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
                       # Additional parameters
-                      additional_params = {
-                            'path': remote_path,
-                            'file_name': filename
-                      }
-                      files = {
-                        'file': (additional_params['file_name'], content, 'application/octet-stream')
-                      }
-
-                      # Create a dictionary for additional form data
-                      data = {
-                        'path': additional_params['path'],
-                        'file': additional_params['file_name']
-                       }
+                     path = remote_path
+                     file = filename
+                     multipart_data = MultipartEncoder(
+                            fields={
+                                 'file': (file_name, file, 'application/octet-stream'),
+                                'path': path,
+                                'file': file
+                             }
+                     headers = {
+                            'Authorization': f'Bearer {self.token}',
+                            'Content-Type': multipart_data.content_type
+                        }
                       response = requests.post(
                           url,
-                          headers=self.headers,
-                          files=files,
-                          data=data
+                          headers=headers,
+                          data=multipart_data
                       )
                       if response.status_code == 201:
                           print(f"{response.status_code}: Successfully uploaded to {remote_path}")
