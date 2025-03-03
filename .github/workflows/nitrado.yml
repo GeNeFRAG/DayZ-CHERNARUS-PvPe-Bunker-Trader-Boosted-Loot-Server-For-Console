@@ -107,13 +107,19 @@ jobs:
                             'file_name': filename
                       }
                       files = {
-                        'file': (additional_params['file_name'], content),
-                        'path': (None, additional_params['path']),
+                        'file': (additional_params['file_name'], content, 'application/octet-stream')
                       }
-                      response = requests.post(
+
+                     # Create a dictionary for additional form data
+                     data = {
+                        'path': additional_params['path'],
+                        'file': additional_params['file_name']
+                     }
+                     response = requests.post(
                           url,
                           headers=self.headers,
-                          files=files
+                          files=files,
+                          data=data
                       )
                       if response.status_code == 201:
                           print(f"{response.status_code}: Successfully uploaded to {remote_path}")
