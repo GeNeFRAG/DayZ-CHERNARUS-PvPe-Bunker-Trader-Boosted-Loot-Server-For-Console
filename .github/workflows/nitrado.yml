@@ -38,7 +38,6 @@ jobs:
           NITRADO_API_TOKEN: ${{ secrets.NITRADO_API_TOKEN }}
           NITRADO_ID: ${{ secrets.NITRADO_ID }}
           SERVER_ID: ${{ secrets.SERVER_ID }}
-          $(echo ${{ steps.load-config.outputs.config }} | tr " " "\n" | sed 's/^/env:/')
         run: |
           cat > deploy_to_nitrado.py << 'EOF'
           import os
