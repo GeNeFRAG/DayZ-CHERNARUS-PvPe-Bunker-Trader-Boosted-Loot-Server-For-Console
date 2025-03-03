@@ -7,5 +7,5 @@
         "db",
         "env"
     ],
-    "ssl_verify": false
+    "ssl_verify": true
 }
