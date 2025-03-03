@@ -32,6 +32,11 @@ jobs:
           NITRADO_API_TOKEN: ${{ secrets.NITRADO_API_TOKEN }}
           NITRADO_ID: ${{ secrets.NITRADO_ID }}
           SERVER_ID: ${{ secrets.SERVER_ID }}
+          restart_after_deploy: ${{ inputs.restart_after_deploy }}
+          deploy_directory: ${{ inputs.deploy_directory }}
+          remote_base_path: ${{ inputs.remote_base_path }}
+          remote_dirs: ${{ inputs.remote_dirs }}
+          ssl_verify: ${{ inputs.ssl_verify }}
 
         run: |
           cat > deploy_to_nitrado.py << 'EOF'
