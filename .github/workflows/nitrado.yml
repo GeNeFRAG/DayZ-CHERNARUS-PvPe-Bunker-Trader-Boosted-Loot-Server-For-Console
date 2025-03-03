@@ -111,8 +111,8 @@ jobs:
                       response = requests.post(
                           url,
                           headers=self.headers,
-                          data=params,
-                          files=files,
+                          files={'file': (filename, content)},
+                          data={'path': remote_path},
                           verify=self.ssl_verify
                       )
                       if response.status_code == 200:
@@ -289,7 +289,8 @@ jobs:
               for file in modified_files:
                   local_path = file['local_path']
                   remote_path = file['remote_path']
-                  
+                  print(local_path)
+                  return False
                   with open(local_path, 'rb') as f:
                       content = f.read()
                   
