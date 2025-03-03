@@ -108,7 +108,7 @@ jobs:
                       }
                       files = {
                         'file': (additional_params['file_name'], content),
-                        'path': (None, additional_params['remote_path']),
+                        'path': (None, additional_params['path']),
                       }
                       response = requests.post(
                           url,
