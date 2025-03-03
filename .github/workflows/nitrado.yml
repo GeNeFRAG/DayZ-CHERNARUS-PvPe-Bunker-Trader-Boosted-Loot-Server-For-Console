@@ -325,7 +325,7 @@ jobs:
               """
               try:
                   result = subprocess.run(
-                      ['git', 'log', '-1', '--format=%cI', file_path],
+                      ['git', 'log', '-1', '--format=%cI', '--', file_path],
                       capture_output=True,
                       text=True,
                       check=True
