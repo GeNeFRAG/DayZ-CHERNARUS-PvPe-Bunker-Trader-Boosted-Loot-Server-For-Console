@@ -38,7 +38,7 @@ jobs:
           import requests
           import json
           import zipfile
-          from datetime import datetime
+          from datetime import datetime, timezone
           import subprocess
 
           NITRADO_API_BASE_URL='https://api.nitrado.net/services/'
@@ -292,11 +292,11 @@ jobs:
 
               for local_file in files_rep:
                   local_name = local_file['name']
-                  local_modified_at = datetime.fromisoformat(local_file['modified_at'])
+                  local_modified_at = datetime.fromisoformat(local_file['modified_at']).replace(tzinfo=timezone.utc)
                   for remote_file in files_remote:
                       remote_name = remote_file['name']
                       if remote_name == local_name:
-                          remote_modified_at = datetime.fromisoformat(remote_file['modified_at'])
+                          remote_modified_at = datetime.fromisoformat(remote_file['modified_at']).replace(tzinfo=timezone.utc)
                           time_difference = (local_modified_at - remote_modified_at).total_seconds()
                           print(f"local_modified_at: {local_modified_at}")
                           print(f"remote_modified_at: {remote_modified_at}")
