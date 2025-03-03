@@ -44,6 +44,16 @@ jobs:
 
           class NitradoAPI:
               def __init__(self, token, nitrado_id, server_id, remote_base_path, ssl_verify=True):
+                  """
+                  Initialize the NitradoAPI class.
+
+                  Args:
+                      token (str): Nitrado API token.
+                      nitrado_id (str): Nitrado ID.
+                      server_id (str): Game server ID.
+                      remote_base_path (str): Base path for remote files.
+                      ssl_verify (bool): Whether to verify SSL certificates.
+                  """
                   self.token = token
                   self.nitrado_id = nitrado_id
                   self.server_id = server_id
@@ -52,7 +62,15 @@ jobs:
                   self.ssl_verify = ssl_verify
                   
               def download_file(self, file_path):
-                  """Download file from server"""
+                  """
+                  Download file from the server.
+
+                  Args:
+                      file_path (str): Path of the file to download.
+
+                  Returns:
+                      bytes: Content of the downloaded file, or None if an error occurred.
+                  """
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/download?file={file_path}'
                       print(f"Downloading from Nitrado: {url}")
@@ -71,8 +89,16 @@ jobs:
                   return None
               
               def backup_files(self, modified_files):
+                  """
+                  Backup modified files.
+
+                  Args:
+                      modified_files (list): List of modified files to backup.
+
+                  Returns:
+                      bool: True if backup was successful, False otherwise.
+                  """
                   print("Backing up modified files...")
-                  """Backup modified files"""
                   backup_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'backups')
                   os.makedirs(backup_dir, exist_ok=True)
                   timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
@@ -92,6 +118,16 @@ jobs:
                   return True
 
               def get_upload_token(self, filename, remote_path):
+                  """
+                  Request an upload token for a file.
+
+                  Args:
+                      filename (str): Name of the file to upload.
+                      remote_path (str): Remote path where the file will be uploaded.
+
+                  Returns:
+                      str: Upload token, or None if an error occurred.
+                  """
                   print(f"Requesting upload token for {filename} to {remote_path}")
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
@@ -114,6 +150,18 @@ jobs:
                       return None
                       
               def upload_file(self, remote_path, filename, content, upload):
+                  """
+                  Upload a file to the server.
+
+                  Args:
+                      remote_path (str): Remote path where the file will be uploaded.
+                      filename (str): Name of the file to upload.
+                      content (bytes): Content of the file to upload.
+                      upload (bool): Whether to actually perform the upload.
+
+                  Returns:
+                      bool: True if upload was successful, False otherwise.
+                  """
                   print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
                   try:
                       upload_info = self.get_upload_token(filename, remote_path)
@@ -148,6 +196,12 @@ jobs:
                       return False
                       
               def restart_server(self):
+                  """
+                  Restart the game server.
+
+                  Returns:
+                      bool: True if server restart was successful, False otherwise.
+                  """
                   print("Restarting server...")
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}/gameservers/restart'
@@ -163,6 +217,15 @@ jobs:
                       return False
               
               def get_file_stats(self, remote_dirs):
+                  """
+                  Get file information from the server.
+
+                  Args:
+                      remote_dirs (list): List of remote directories to get file stats from.
+
+                  Returns:
+                      list: List of file stats, or None if an error occurred.
+                  """
                   print(f"Get file information from Nitrado...")
                   base_path = f"/games/{self.server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
 
@@ -212,7 +275,17 @@ jobs:
                   return None
 
           def compare_files(files_rep, files_remote):
-              print(f"Compare modifed date local and remote files...")
+              """
+              Compare modified dates of local and remote files.
+
+              Args:
+                  files_rep (list): List of local files.
+                  files_remote (list): List of remote files.
+
+              Returns:
+                  list: List of modified files.
+              """
+              print(f"Compare modified date local and remote files...")
               modified_files = []
               for local_file in files_rep:
                   local_name = local_file['name']
@@ -222,7 +295,6 @@ jobs:
                       if remote_name == local_name:
                           remote_modified_at = datetime.fromisoformat(remote_file['modified_at'])
                           if local_modified_at > remote_modified_at:
-                              print(f"{local_modified_at} > {remote_modified_at}")
                               modified_files.append({
                                   'local_path': local_file['path'],
                                   'remote_path': remote_file['path'],
@@ -235,7 +307,15 @@ jobs:
               return modified_files
 
           def scan_repository_files(deploy_directory):
-              """Scan all files in the repository"""
+              """
+              Scan all files in the repository.
+
+              Args:
+                  deploy_directory (str): Directory to scan for files.
+
+              Returns:
+                  list: List of files to check.
+              """
               print(f"Scanning repository files in {deploy_directory}...")
               files_to_check = []
               base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), deploy_directory)
@@ -266,6 +346,9 @@ jobs:
               return files_to_check
 
           def main():
+              """
+              Main function to execute the deployment process.
+              """
               # Load configuration
               with open('deploy-config.json', 'r') as f:
                   config = json.load(f)
