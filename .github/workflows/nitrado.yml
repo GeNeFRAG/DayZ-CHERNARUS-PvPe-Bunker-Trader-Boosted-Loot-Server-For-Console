@@ -143,7 +143,7 @@ jobs:
                             data=content
                      )
                      if response.status_code == 200:
-                        print(f"{response.status_code}: Successfully uploaded to {url}. {response.text}")
+                        print(f"{response.status_code}: Successfully uploaded to {upload_url}. {response.text}")
                         return True
                      else:
                           print(f"Upload error: {response.status_code}: {response.text}")
