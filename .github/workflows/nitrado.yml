@@ -251,7 +251,7 @@ jobs:
               remote_dirs = config['remote_dirs']
               restart_after_deploy = config['restart_after_deploy']
               ssl_verify = config['ssl_verify']
-              deploy_directory = config('deploy_directory')
+              deploy_directory = config['deploy_directory']
               
               # Initialize API
               api = NitradoAPI(
