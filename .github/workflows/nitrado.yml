@@ -109,8 +109,7 @@ jobs:
                       multipart_data = MultipartEncoder(
                             fields={
                                 'file': (file, content, 'application/octet-stream'),
-                                'path': path,
-                                'file': file
+                                'path': path
                              })
                       headers = {
                             'Authorization': f'Bearer {self.token}',
