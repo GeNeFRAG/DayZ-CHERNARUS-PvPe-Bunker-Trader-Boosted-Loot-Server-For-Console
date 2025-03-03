@@ -100,7 +100,7 @@ jobs:
                   return True
                       
               def upload_file(self, remote_path, filename, content):
-                  print(f"Uploading to Nitrado {filename} to {remote_path}")
+                  print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
                       # Additional parameters
