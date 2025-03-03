@@ -326,7 +326,7 @@ jobs:
             try:
                 # Run the git log command to get the date of the last commit
                 result = subprocess.run(
-                        ['git', '-C', repo_path, 'log', '-1', '--format=%cd'],
+                        ['git', '-C', file_path, 'log', '-1', '--format=%cd'],
                         check=True,
                         stdout=subprocess.PIPE,
                         stderr=subprocess.PIPE,
