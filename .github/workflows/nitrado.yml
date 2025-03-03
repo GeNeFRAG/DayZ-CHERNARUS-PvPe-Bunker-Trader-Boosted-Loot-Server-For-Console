@@ -218,7 +218,7 @@ jobs:
               # Walk through all files in the repository
               for root, _, files in os.walk(base_dir):
                   # Skip .git directory and any other hidden directories
-                  if '.git' in root or any part.startswith('.') for part in root.split(os.sep)):
+                  if '.git' in root or any(part.startswith('.') for part in root.split(os.sep)):
                       continue
                       
                   for file in files:
