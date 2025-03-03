@@ -111,7 +111,7 @@ jobs:
                       )
                       if response.status_code == 201:
                           print(f"{response.status_code}: Successfully retrieved upload toklen. {response.text}")
-                          response_json = respone.json()
+                          response_json = response.json()
                           token = response_json['token']
                           return token                              
                       else:
