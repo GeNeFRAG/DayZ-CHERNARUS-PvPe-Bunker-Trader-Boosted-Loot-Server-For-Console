@@ -103,7 +103,7 @@ jobs:
                   print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
-                      files= {'files': content}
+                      files= {'upload_file': content}
                       values= {'path': remote_path, 'file': filename}
                       response = requests.post(
                           url,
