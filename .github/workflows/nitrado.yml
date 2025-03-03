@@ -112,7 +112,7 @@ jobs:
                       if response.status_code == 201:
                           print(f"{response.status_code}: Successfully retrieved upload toklen. {response.text}")
                           response_json = response.json()
-                          token = response_json['token']
+                          token = response_json['data']['token']
                           return token                              
                       else:
                           print(f"POST Error: {response.status_code}: {response.text}")
