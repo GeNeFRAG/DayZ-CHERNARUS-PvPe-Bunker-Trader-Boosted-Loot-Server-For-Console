@@ -313,7 +313,7 @@ jobs:
               print(f"Found {len(modified_files)} modified files")
               return modified_files
 
-          def get_last_commit_date(file_path):
+          def get_last_commit_date(repo_path, file_path):
             """
             Get the last commit date of a file.
 
@@ -324,17 +324,21 @@ jobs:
                 str: Last commit date in ISO format, or None if an error occurred.
             """
             try:
+                # Build the git command
+                command = ['git', '-C', repo_path, 'log', '-1', '--format=%cd']
+                if file_path:
+                    command.append(file_path)
+                
                 # Run the git log command to get the date of the last commit
                 result = subprocess.run(
-                        ['git', '-C', file_path, 'log', '-1', '--format=%cd'],
-                        check=True,
-                        stdout=subprocess.PIPE,
-                        stderr=subprocess.PIPE,
-                        text=True
-                    )
+                    command,
+                    check=True,
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.PIPE,
+                    text=True
+                )
                 # The output will contain the date of the last commit
                 last_commit_date = result.stdout.strip()
-                print("last_commit_date: ", last_commit_date)
                 return last_commit_date
             except subprocess.CalledProcessError as e:
                 print(f"Error occurred: {e.stderr}")
@@ -369,7 +373,7 @@ jobs:
                       rel_path = os.path.join(root, file)
                       print(f"rel_path: {rel_path}")
                       # Get the last commit date
-                      modified_at = get_last_commit_date(rel_path)
+                      modified_at = get_last_commit_date(base_dir, rel_path)
                       print(f"last commit date: {modified_at}")
                       if modified_at:
                           files_to_check.append({
