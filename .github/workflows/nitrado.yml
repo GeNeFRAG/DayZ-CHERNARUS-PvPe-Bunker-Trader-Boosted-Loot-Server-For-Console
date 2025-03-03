@@ -39,7 +39,6 @@ jobs:
           import json
           import zipfile
           from datetime import datetime
-          from requests_toolbelt.multipart.encoder import MultipartEncoder
 
           NITRADO_API_BASE_URL='https://api.nitrado.net/services/'
 
