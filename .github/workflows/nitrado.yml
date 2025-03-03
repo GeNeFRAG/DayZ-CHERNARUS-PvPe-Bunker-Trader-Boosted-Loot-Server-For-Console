@@ -122,7 +122,7 @@ jobs:
                           data=multipart_data
                       )
                       if response.status_code == 201:
-                          print(f"{response.status_code}: Successfully uploaded to {remote_path}")
+                          print(f"{response.status_code}: Successfully uploaded to {url}. {response.text}")
                           return True
                       else:
                           print(f"Upload error: {response.status_code}: {response.text}")
