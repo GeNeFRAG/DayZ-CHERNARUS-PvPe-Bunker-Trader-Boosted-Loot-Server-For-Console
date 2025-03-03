@@ -212,7 +212,7 @@ jobs:
               return modified_files
 
           def scan_repository_files(deploy_directory):
-              """Scan all files in the repository"""
+            """Scan all files in the repository"""
             print(f"Scanning repository files in {deploy_directory}...")
             files_to_check = []
             base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), deploy_directory)
