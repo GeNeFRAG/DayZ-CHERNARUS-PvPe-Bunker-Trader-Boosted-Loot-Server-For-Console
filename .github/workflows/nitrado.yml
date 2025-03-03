@@ -110,12 +110,12 @@ jobs:
                         'file': (additional_params['file_name'], content, 'application/octet-stream')
                       }
 
-                     # Create a dictionary for additional form data
-                     data = {
+                      # Create a dictionary for additional form data
+                      data = {
                         'path': additional_params['path'],
                         'file': additional_params['file_name']
-                     }
-                     response = requests.post(
+                       }
+                      response = requests.post(
                           url,
                           headers=self.headers,
                           files=files,
