@@ -54,7 +54,6 @@ jobs:
                   self.token = token
                   self.nitrado_id = nitrado_id
                   self.server_id = server_id
-                  self.token = token
                   self.headers = {'Authorization': f'Bearer {token}'}
                   self.remote_base_path = remote_base_path
                   self.ssl_verify = ssl_verify
@@ -103,14 +102,14 @@ jobs:
                   print(f"Requesting upload token for {filename} to {remote_path}")
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
-                      values= {'path': remote_path, 'file': filename}
+                      values = {'path': remote_path, 'file': filename}
                       response = requests.post(
                           url,
                           headers=self.headers,
                           data=values
                       )
                       if response.status_code == 201:
-                          print(f"{response.status_code}: Successfully retrieved upload toklen. {response.text}")
+                          print(f"{response.status_code}: Successfully retrieved upload token. {response.text}")
                           response_json = response.json()
                           token = response_json['data']['token']
                           return token                              
@@ -124,36 +123,36 @@ jobs:
               def upload_file(self, remote_path, filename, content, upload):
                   print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
                   try:
-                     upload_info = self.get_upload_token(filename, remote_path)
-                     if not upload_info:
-                        print("Failed to get upload token")
-                        return False
+                      upload_info = self.get_upload_token(filename, remote_path)
+                      if not upload_info:
+                          print("Failed to get upload token")
+                          return False
                      
-                     upload_url = upload_info['url']
-                     upload_token = upload_info['token']
+                      upload_url = upload_info['url']
+                      upload_token = upload_info['token']
 
-                    if upload == True:
-                        response = requests.post(
-                            upload_url,
-                            headers={
-                                    'Content-Type': 'application/binary',
-                                    'token': upload_token
-                                },
-                                data=content
-                        )
-                        if response.status_code == 200:
-                            print(f"{response.status_code}: Successfully uploaded to {upload_url}. {response.text}")
-                            return True
-                        else:
-                            print(f"Upload error: {response.status_code}: {response.text}")
-                            return False
-                    else:
-                        print(f"Upload disabled. Skipping upload.")
-                        return True
+                      if upload:
+                          response = requests.post(
+                              upload_url,
+                              headers={
+                                  'Content-Type': 'application/binary',
+                                  'token': upload_token
+                              },
+                              data=content
+                          )
+                          if response.status_code == 200:
+                              print(f"{response.status_code}: Successfully uploaded to {upload_url}. {response.text}")
+                              return True
+                          else:
+                              print(f"Upload error: {response.status_code}: {response.text}")
+                              return False
+                      else:
+                          print(f"Upload disabled. Skipping upload.")
+                          return True
 
                   except Exception as e:
-                    print(f"Upload error: {str(e)}")
-                    return False
+                      print(f"Upload error: {str(e)}")
+                      return False
                       
               def restart_server(self):
                   print("Restarting server...")
@@ -242,35 +241,35 @@ jobs:
               return modified_files
 
           def scan_repository_files(deploy_directory):
-            """Scan all files in the repository"""
-            print(f"Scanning repository files in {deploy_directory}...")
-            files_to_check = []
-            base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), deploy_directory)
+              """Scan all files in the repository"""
+              print(f"Scanning repository files in {deploy_directory}...")
+              files_to_check = []
+              base_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), deploy_directory)
 
-            # Walk through all files in the deploy directory
-            for root, _, files in os.walk(base_dir):
-                # Skip hidden directories
-                if any(part.startswith('.') for part in root.split(os.sep)):
-                    continue
-                    
-                for file in files:
-                    # Skip hidden files and deploy config
-                    if file.startswith('.') or file == 'deploy-config.json' or file.endswith('.py'):
-                        continue
-                        
-                    # Use the full path
-                    rel_path = os.path.join(root, file)
-                    
-                    # Get file stats
-                    file_stats = os.stat(os.path.join(root, file))
-                    modified_at = datetime.fromtimestamp(file_stats.st_mtime).isoformat()
-                    files_to_check.append({
-                        'path': rel_path,  # e.g. 'db/events.xml'
-                        'modified_at': modified_at,
-                        'name': file
-                    })
-            print(f"Found {len(files_to_check)} files to process")
-            return files_to_check
+              # Walk through all files in the deploy directory
+              for root, _, files in os.walk(base_dir):
+                  # Skip hidden directories
+                  if any(part.startswith('.') for part in root.split(os.sep)):
+                      continue
+                      
+                  for file in files:
+                      # Skip hidden files and deploy config
+                      if file.startswith('.') or file == 'deploy-config.json' or file.endswith('.py'):
+                          continue
+                          
+                      # Use the full path
+                      rel_path = os.path.join(root, file)
+                      
+                      # Get file stats
+                      file_stats = os.stat(os.path.join(root, file))
+                      modified_at = datetime.fromtimestamp(file_stats.st_mtime).isoformat()
+                      files_to_check.append({
+                          'path': rel_path,  # e.g. 'db/events.xml'
+                          'modified_at': modified_at,
+                          'name': file
+                      })
+              print(f"Found {len(files_to_check)} files to process")
+              return files_to_check
 
           def main():
               # Load configuration
@@ -327,11 +326,10 @@ jobs:
                   if not api.upload_file(remote_path, file['name'], content, upload):
                       print(f"Failed to upload {local_path}")
                       return False
-                  return False
               print("All modified files uploaded successfully.")
 
               # Restart server
-              if(restart_after_deploy):
+              if restart_after_deploy:
                   if not api.restart_server():
                       print("Failed to restart server")
                       return False
