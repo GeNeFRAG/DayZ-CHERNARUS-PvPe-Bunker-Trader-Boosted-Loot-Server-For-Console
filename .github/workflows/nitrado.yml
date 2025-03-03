@@ -112,7 +112,8 @@ jobs:
                           url,
                           headers=self.headers,
                           files=files,
-                          data=params,
+                          path=remote_path,
+                          file=filename,
                           verify=self.ssl_verify
                       )
                       if response.status_code == 200:
