@@ -297,6 +297,8 @@ jobs:
                       if remote_name == local_name:
                           remote_modified_at = datetime.fromisoformat(remote_file['modified_at'])
                           time_difference = (local_modified_at - remote_modified_at).total_seconds()
+                          print(f"local_modified_at: {local_modified_at}")
+                          print(f"remote_modified_at: {remote_modified_at}")
                           print(f"time_difference: {time_difference}")
                           if time_difference > time_tolerance:
                               modified_files.append({
