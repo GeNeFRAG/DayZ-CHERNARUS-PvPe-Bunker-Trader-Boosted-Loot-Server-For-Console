@@ -103,22 +103,13 @@ jobs:
                   print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
-                      # Additional parameters
-                      path = remote_path
-                      file = filename
-                      multipart_data = MultipartEncoder(
-                            fields={
-                                'file': content,
-                                'path': path
-                             })
-                      headers = {
-                            'Authorization': f'Bearer {self.token}',
-                            'Content-Type': multipart_data.content_type
-                        }
+                      files= {'files': content}
+                      values= {'path': remote_path, 'file': filename}
                       response = requests.post(
                           url,
-                          headers=headers,
-                          data=multipart_data
+                          headers=self.headers,
+                          files=files,
+                          data=values
                       )
                       if response.status_code == 201:
                           print(f"{response.status_code}: Successfully uploaded to {url}. {response.text}")
