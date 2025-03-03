@@ -102,13 +102,16 @@ jobs:
                   try:
                       url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
 
+                      # Specify the content type for the file
+                      content_type = 'text/plain' 
+
                       # Additional parameters
                       additional_params = {
                         'path': remote_path,
                         'file': filename
                       }
                       files = {
-                        'file': content,
+                        'file': (content,content_type),
                         'path': (None, additional_params['path']),
                         'file': (None, additional_params['file'])
                       }
@@ -118,9 +121,8 @@ jobs:
                           headers=self.headers,
                           files=files
                       )
-                      print(f"Upload Response Code: {response.status_code}")
-                      if response.status_code == 200:
-                          print(f"Successfully uploaded to {remote_path}")
+                      if response.status_code == 201:
+                          print(f"{response.status_code}: Successfully uploaded to {remote_path}")
                           return True
                       else:
                           print(f"Upload error: {response.status_code}: {response.text}")
