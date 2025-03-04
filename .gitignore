@@ -6,3 +6,4 @@ tools/*.csv*
 tools/*.RPT*
 chernarus_boosted_customevents_bunker_console/**/*_old.*
 tools/*.xlsx*
+tools/nitrado_api.json
