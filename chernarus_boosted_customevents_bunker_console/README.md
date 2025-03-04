@@ -8,6 +8,7 @@
 * Extended server idle timer set to 1200 seconds (20 minutes) to accommodate loot respawn cycles
 * Custom spawn points located in major cities and military locations including Cherno, Elektro, NWAF, and other strategic locations
 * Players start with specialized loadout configurations
+* Lifetime for fences, tents, etc reduced to 21 days
 
 ## Loot Specifications
 
@@ -21,10 +22,11 @@
   * All sniper rifles include optical attachments
 * Magazine spawns are consistently half or fully loaded
 * Reduced small magazine variants for western weapons
-* M4A1 only spawns in bunkers
+* M4A1 only spawns in bunkers and Locked Container Event
 * M14, M79 and Aug only spawns at dynamic events (Heli crashes,etc)
 * PunchedCard spawns damaged contaminated zones, on grey NBC zombies and is also part of Treasure hunt loot
 * Additonal hidden items like yellow bandanas, etc
+* All weapons v1.27
 
 ## Dynamic Events
 
@@ -32,10 +34,9 @@
 * Enhanced zombie loot with increased food and medic drops
 * Special building supply truck events
 * Holiday events featuring Christmas trees with presents and themed Santa crash sites
-* Fireplace event at all hunter camps
 * Treasure hunt event at 4 random places
 * Custom AirDrop with smoke
-* Camp fires at hunting camp event
+* Locked Container Event like on Sakhal
 * For details check events.xml
 
 # Custom objects
@@ -43,3 +44,4 @@
 * Trader ship harbour Elektro
 * C130J plane crash events at major airfields (NWAF, Balota, Krasnostav)
 * Abandond survivor camps Black Lake
+* Bridge to Prison Island
