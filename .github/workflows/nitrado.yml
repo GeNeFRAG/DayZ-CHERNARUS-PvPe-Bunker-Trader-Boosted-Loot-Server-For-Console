@@ -488,3 +488,11 @@ jobs:
           EOF
           
           python deploy_to_nitrado.py
+
+      - name: Upload backup artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: nitrado-backups
+          path: backups/
+          retention-days: 5  # adjust retention period as needed
+          
