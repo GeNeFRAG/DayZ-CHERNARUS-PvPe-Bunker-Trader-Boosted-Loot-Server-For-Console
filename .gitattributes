@@ -1,0 +1,3 @@
+# Exclude directories from release
+mod_files/* export-ignore
+tools/* export-ignore
