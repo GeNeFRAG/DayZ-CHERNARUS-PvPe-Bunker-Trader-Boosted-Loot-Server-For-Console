@@ -67,32 +67,66 @@ jobs:
                   self.ssl_verify = ssl_verify
                   
               def download_file(self, file_path):
-                  """
-                  Download file from the server.
+                """
+                Download a file using Nitrado's two-step download process.
+                
+                Args:
+                    file_path: Path to the file to download
+                    
+                Returns:
+                    Optional[bytes]: File content if successful, None if failed
+                """
+                try:
+                    # Step 1: Get download token
+                    url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/download?file={file_path}'
+                    token_response = self._get_download_token(url)
 
-                  Args:
-                      file_path (str): Path of the file to download.
+                    if not token_response or 'data' not in token_response:
+                        print(f"Failed to get download token for {file_path}")
+                        return None
 
-                  Returns:
-                      bytes: Content of the downloaded file, or None if an error occurred.
-                  """
-                  try:
-                      url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/download?file={file_path}'
-                      print(f"Downloading from Nitrado: {url}")
-                      response = requests.get(url, headers=self.headers, verify=self.ssl_verify)
-                      if response.status_code == 200:
-                          print(f"{response.status_code}: Successfully downloaded: {file_path}")
-                          return response.content
-                      elif response.status_code == 404:
-                          print(f"ERROR: Required remote file not found: {response.status_code} {file_path}")
-                          print("Aborting deployment for safety.")
-                          return None
-                      else:
-                          print(f"ERROR downloading {file_path}: {response.status_code} {response.text}")
-                          return None
-                  except Exception as e:
-                      print(f"Download error: {str(e)}")
-                  return None
+                    # Extract token information
+                    token_data = token_response['data']['token']
+                    download_url = token_data['url']
+                    download_token = token_data['token']
+
+                    # Step 2: Download the actual file using the token
+                    download_response = requests.get(
+                        download_url,
+                        params={'token': download_token},
+                        verify=self.ssl_verify
+                    )
+                    
+                    download_response.raise_for_status()
+                    return download_response.content
+                except requests.exceptions.RequestException as e:
+                    print(f"Error downloading file {file_path}: {e}")
+                    return None
+                except KeyError as e:
+                    print(f"Unexpected response format while downloading {file_path}: {e}")
+                    return None
+
+              def _get_download_token(self, url):
+                    """
+                    Make an API request to Nitrado
+                    
+                    Args:
+                        url: Download URL
+                        
+                    Returns:
+                        Optional[Dict]: JSON response if successful, None if failed
+                    """
+                    try: 
+                        response = requests.get(url, headers=self.headers, verify=self.ssl_verify)
+                        response.raise_for_status()
+                        return response.json()
+
+                    except requests.exceptions.RequestException as e:
+                        print(f"API request failed: {e}")
+                        return None
+                    except ValueError as e:
+                        print(f"Failed to parse API response: {e}")
+                        return None
               
               def backup_files(self, modified_files):
                   """
@@ -123,7 +157,7 @@ jobs:
                   print(f"Backup created at {backup_zip_path}")
                   return True
 
-              def get_upload_token(self, filename, remote_path):
+              def _get_upload_token(self, filename, remote_path):
                   """
                   Request an upload token for a file.
 
@@ -170,7 +204,7 @@ jobs:
                   """
                   print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
                   try:
-                      upload_info = self.get_upload_token(filename, remote_path)
+                      upload_info = self._get_upload_token(filename, remote_path)
                       if not upload_info:
                           print("ERROR: Failed to get upload token")
                           return False
