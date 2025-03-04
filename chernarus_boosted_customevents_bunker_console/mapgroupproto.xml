@@ -8533,13 +8533,9 @@
             <point pos="-19.070557 4.460175 -0.683594" range="1.199951" height="2.000000" />
             </container>
         <dispatch dechance="0.6">
-            <proxy type="SodaCan_Kvass" pos="-13.453126 -14.504822 -0.994629" rpy="0.000000 0.000000 -90.000000" />
-            <proxy type="SodaCan_Cola" pos="-13.453126 -14.504822 -0.994629" rpy="0.000000 0.000000 -90.000000" />
-            <proxy type="SodaCan_Fronta" pos="-13.453126 -14.504822 -0.994629" rpy="0.000000 0.000000 -90.000000" />
-            <proxy type="SodaCan_Pipsi" pos="-13.453126 -14.504822 -0.994629" rpy="0.000000 0.000000 -90.000000" />
             <proxy type="SodaCan_Spite" pos="-13.453126 -14.504822 -0.994629" rpy="0.000000 0.000000 -90.000000" />
-            </dispatch>
-        </group>
+        </dispatch>
+    </group>
     <group name="Land_Mil_Airfield_HQ" lootmax="20">
         <usage name="RepairItems" />
         <usage name="Tools" />
@@ -11310,13 +11306,9 @@
             <point pos="8.448201 -7.350072 13.449620" range="1.200000" height="2.000000" />
             </container>
         <dispatch dechance="0.6">
-            <proxy type="SodaCan_Fronta" pos="-0.552735 -6.816071 -8.975586" rpy="0.000000 0.000000 -90.000000" />
             <proxy type="SodaCan_Cola" pos="-0.552735 -6.816071 -8.975586" rpy="0.000000 0.000000 -90.000000" />
-            <proxy type="SodaCan_Kvass" pos="-0.552735 -6.816071 -8.975586" rpy="0.000000 0.000000 -90.000000" />
-            <proxy type="SodaCan_Pipsi" pos="-0.552735 -6.816071 -8.975586" rpy="0.000000 0.000000 -90.000000" />
-            <proxy type="SodaCan_Spite" pos="-0.552735 -6.816071 -8.975586" rpy="0.000000 0.000000 -90.000000" />
-            </dispatch>
-        </group>
+        </dispatch>
+    </group>
     <group name="Land_Misc_TrailRoof_Big" lootmax="2">
         <usage name="Tools" />
         <usage name="FoodDrink" />
