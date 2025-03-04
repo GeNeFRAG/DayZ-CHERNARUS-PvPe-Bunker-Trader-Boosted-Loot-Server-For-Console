@@ -81,13 +81,14 @@ jobs:
                       print(f"Downloading from Nitrado: {url}")
                       response = requests.get(url, headers=self.headers, verify=self.ssl_verify)
                       if response.status_code == 200:
+                          print(f"{response.status_code}: Successfully downloaded: {file_path}")
                           return response.content
                       elif response.status_code == 404:
-                          print(f"ERROR: Required remote file not found: {file_path}")
+                          print(f"ERROR: Required remote file not found: {response.status_code} {file_path}")
                           print("Aborting deployment for safety.")
                           return None
                       else:
-                          print(f"Error downloading {file_path}: {response.text}")
+                          print(f"ERROR downloading {file_path}: {response.status_code} {response.text}")
                           return None
                   except Exception as e:
                       print(f"Download error: {str(e)}")
@@ -148,10 +149,10 @@ jobs:
                           token = response_json['data']['token']
                           return token                              
                       else:
-                          print(f"POST Error: {response.status_code}: {response.text}")
+                          print(f" ERROR: {response.status_code}: {response.text}")
                           return None
                   except Exception as e:
-                      print(f"Error: {str(e)}")
+                      print(f"ERROR: {str(e)}")
                       return None
                       
               def upload_file(self, remote_path, filename, content, upload):
@@ -171,7 +172,7 @@ jobs:
                   try:
                       upload_info = self.get_upload_token(filename, remote_path)
                       if not upload_info:
-                          print("Failed to get upload token")
+                          print("ERROR: Failed to get upload token")
                           return False
                      
                       upload_url = upload_info['url']
@@ -190,14 +191,14 @@ jobs:
                               print(f"{response.status_code}: Successfully uploaded to {upload_url}. {response.text}")
                               return True
                           else:
-                              print(f"Upload error: {response.status_code}: {response.text}")
+                              print(f"ERROR: {response.status_code}: {response.text}")
                               return False
                       else:
                           print(f"Upload disabled. Skipping upload.")
                           return True
 
                   except Exception as e:
-                      print(f"Upload error: {str(e)}")
+                      print(f"ERROR: {str(e)}")
                       return False
                       
               def restart_server(self):
@@ -215,10 +216,10 @@ jobs:
                           print("Server restart initiated")
                           return True
                       else:
-                          print(f"Restart error: {response.text}")
+                          print(f"ERROR: {response.text}")
                           return False
                   except Exception as e:
-                      print(f"Restart error: {str(e)}")
+                      print(f"ERRORr: {str(e)}")
                       return False
               
               def get_file_stats(self, remote_dirs):
@@ -268,15 +269,15 @@ jobs:
                                   for file in dir_response_json['data']['entries'] if file['type'] == 'file'
                               ])
                           elif dir_response.status_code == 404:
-                              print(f"ERROR: Directory not found: {remote_dir}")
+                              print(f"ERROR: Directory not found: {dir_response.status_code} {remote_dir}")
                               return None
                           else:
-                              print(f"Error fetching file stats from {remote_dir}: {dir_response.text}")
+                              print(f"Error fetching file stats from {remote_dir}: {dir_response.status_code}: {dir_response.text}")
                               return None
-                      print(f"Successfully fetched {len(file_stats)} file stats")
+                      print(f"Successfully fetched {len(file_stats)} file stats fromo Nitrado")
                       return file_stats
                   except Exception as e:
-                      print(f"Download error: {str(e)}")
+                      print(f"ERROR: {str(e)}")
                   return None
 
           def compare_files(files_rep, files_remote):
@@ -301,9 +302,8 @@ jobs:
                       if remote_name == local_name:
                           remote_modified_at = datetime.fromisoformat(remote_file['modified_at']).replace(tzinfo=timezone.utc)
                           time_difference = (local_modified_at - remote_modified_at).total_seconds()
-                          print(f"local: {local_name}: local_modified_at: {local_modified_at}")
-                          print(f"remote: {remote_name} remote_modified_at: {remote_modified_at}")
-                          print(f"time_difference: {time_difference}")
+                          print(f"LOCAL: {local_name}:{local_modified_at} <-> REMOTE: {remote_name}:{remote_modified_at}")
+                          print(f"Time Diff: {time_difference}")
                           if time_difference >= 0:
                               modified_files.append({
                                   'local_path': local_file['path'],
@@ -313,7 +313,7 @@ jobs:
                                   'name': local_name
                               })
                           break
-              print(f"Found {len(modified_files)} modified files")
+              print(f"{len(modified_files)} modified files")
               return modified_files
 
           def get_last_commit_date(repo_path, file_path):
@@ -328,11 +328,6 @@ jobs:
                     str: Last commit date in ISO format, or None if an error occurred.
                 """
                 try:
-                    # Print debug info
-                    print(f"Getting last commit date for:")
-                    print(f"repo_path: {repo_path}")
-                    print(f"file_path: {file_path}")
-                    
                     # Get git history info
                     history_cmd = ['git', '-C', repo_path, 'log', '--pretty=format:%H', file_path]
                     history = subprocess.run(
@@ -402,11 +397,7 @@ jobs:
                       # Use the full path
                       full_path = os.path.join(root, file)
                       rel_path = os.path.relpath(full_path, repo_path)
-                      
-                      print(f"Processing file:")
-                      print(f"  Full path: {full_path}")
-                      print(f"  Relative path: {rel_path}")
-                      
+                       
                       # Get the last commit date
                       modified_at = get_last_commit_date(repo_path, rel_path)
                       if modified_at:
