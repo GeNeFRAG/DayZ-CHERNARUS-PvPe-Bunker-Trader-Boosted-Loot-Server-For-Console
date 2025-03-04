@@ -13,7 +13,7 @@
 ## Loot Specifications
 
 * Item condition ranges from pristine (0.00) to worn (0.32) damage values
-* Loot: Weapons/Ammo boosted 2-3x, food 2x, etc. Also distributed to different loot tiers (for details check types.xml)
+* Loot: Weapons/Ammo increased by 10%. Also distributed to different loot tiers (for details check types.xml)
 * Vehicle spawn complete include full fuel tanks, gasoline canisters, and water supplies. Boosted 2x
 * Enhanced weapon configurations:
   * Colored weapons variants with attachments enabled
