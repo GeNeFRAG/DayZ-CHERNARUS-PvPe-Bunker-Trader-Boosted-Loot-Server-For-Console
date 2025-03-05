@@ -8,13 +8,14 @@
 [CLOTHES]
 [CLOTHES, CONTAINERLOCKED]
 [CONTAINERLOCKED]
-[CONTAINERLOCKED, HIGHLOOT]
+[CONTAINERLOCKED, HIGHLOOT, SPECIAL]
 [CONTAINERLOCKED, MILITARY]
 [CONTAINERLOCKED, MILITARYCLOTHES]
 [CONTAINERLOCKED, SPECIAL]
 [CONTAINERS]
 [CONTAMINATEDAREA]
 [CONTAMINATEDAREA, HIGHLOOT]
+[CONTAMINATEDAREA, HIGHLOOT, SPECIAL]
 [CONTAMINATEDAREA, MEDICAL]
 [CONTAMINATEDAREA, MILITARY]
 [CONTAMINATEDAREA, MILITARYCLOTHES]
@@ -7652,7 +7653,7 @@
         <usage name="ContainerLocked"/>
     </type>
 
-<!-- ################ [CONTAINERLOCKED, HIGHLOOT] ################-->
+<!-- ################ [CONTAINERLOCKED, HIGHLOOT, SPECIAL] ################-->
 <type name="Mich2001Helmet">
         <nominal>9</nominal>
         <lifetime>28800</lifetime>
@@ -7828,7 +7829,7 @@
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Special"/>
         <usage name="ContainerLocked"/>
     </type>
@@ -7840,9 +7841,9 @@
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Special"/>
-         <usage name="ContainerLocked"/>
+        <usage name="ContainerLocked"/>
     </type>
 
 <!-- ################ [CONTAINERS] ################-->
@@ -8582,6 +8583,8 @@
         <usage name="Highloot"/>
         <value name="Tier4"/>
     </type>
+
+<!-- ################ [CONTAMINATEDAREA, HIGHLOOT, SPECIAL] ################-->
 <type name="NVGoggles">
         <nominal>15</nominal>
         <lifetime>28800</lifetime>
@@ -8637,7 +8640,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="ContaminatedArea"/>
-        <usage name="Special"/>
         <usage name="MilitaryClothes"/>
     </type>
 
