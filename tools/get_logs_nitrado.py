@@ -49,6 +49,9 @@ class NitradoAPI:
 
             if response.status_code == 200:
                 response_json = response.json()
+                if len(response_json["data"]["entries"]) == 0:
+                    print(f"No file stats returned for {base_path}")
+                    return None
                 file_stats = [
                     {
                         "path": file["path"],
@@ -104,6 +107,7 @@ class NitradoAPI:
             )
             
             download_response.raise_for_status()
+            print(f"Successfully downloaded {file_path}")
             return download_response.content
         except requests.exceptions.RequestException as e:
             print(f"Error downloading file {file_path}: {e}")
@@ -125,8 +129,8 @@ class NitradoAPI:
         try: 
             response = requests.get(url, headers=self.headers, verify=self.ssl_verify)
             response.raise_for_status()
+            print(f"Successfully fetched download token for {url}")
             return response.json()
-
         except requests.exceptions.RequestException as e:
             print(f"API request failed: {e}")
             return None
@@ -237,7 +241,7 @@ def filter_and_download_logs(api: NitradoAPI,
         else:
             print(f"Failed to download {file['name']}")
             success = False
-
+    print(f"Downloaded {len(filtered_files)} files")
     return success
 
 def main():
