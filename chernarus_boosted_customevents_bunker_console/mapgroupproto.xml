@@ -10753,7 +10753,6 @@
         <usage name="Seasonal" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medic" />
         <usage name="Equipment" />
         <usage name="School" />
         <container name="lootFloor" lootmax="20">
