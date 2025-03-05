@@ -6462,7 +6462,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <container name="lootFloor" lootmax="5">
             <tag name="floor" />
             <point pos="3.228932 -2.972443 2.754294" range="0.312531" height="1.195313" />
@@ -10744,7 +10744,7 @@
         <usage name="Seasonal" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Equipment" />
         <container name="lootFloor" lootmax="20">
             <tag name="floor" />
@@ -11034,7 +11034,7 @@
     <group name="Land_Medical_Tent_Shower" lootmax="4">
         <usage name="Equipment" />
         <usage name="FoodDrink" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -11049,7 +11049,7 @@
     <group name="Land_Medical_Tent_Big" lootmax="8">
         <usage name="Equipment" />
         <usage name="FoodDrink" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <container name="lootFloor">
             <tag name="floor" />
             <point pos="2.306692 0.034348 -4.021999" range="0.588774" height="1.887747" />
@@ -11099,7 +11099,7 @@
     <group name="Land_Village_HealthCare" lootmax="15">
         <usage name="Equipment" />
         <usage name="FoodDrink" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <container name="lootFloor" lootmax="15">
             <tag name="floor" />
             <point pos="-2.718501 -2.966034 0.936808" range="0.555908" height="1.389770" />
@@ -11168,7 +11168,7 @@
     <group name="Land_City_Hospital" lootmax="40">
         <usage name="Equipment" />
         <usage name="FoodDrink" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <container name="lootFloor" lootmax="20">
             <tag name="floor" />
             <point pos="2.157769 -3.617594 -6.889884" range="0.486328" height="1.215820" />
@@ -11954,7 +11954,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -11976,7 +11976,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -12004,7 +12004,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -12036,7 +12036,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor">
@@ -12623,7 +12623,7 @@
         <usage name="RepairItems" />
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Equipment" />
         <usage name="Explosives" />
@@ -12890,7 +12890,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="1">
@@ -12910,7 +12910,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="1">
@@ -12931,7 +12931,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -12948,7 +12948,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="1">
@@ -12968,7 +12968,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -13000,7 +13000,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -13032,7 +13032,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -13064,7 +13064,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -13096,7 +13096,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -13128,7 +13128,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -14154,7 +14154,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -14182,7 +14182,7 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <usage name="Containers" />
         <usage name="Weapons" />
         <container name="lootFloor" lootmax="2">
@@ -14899,7 +14899,7 @@
     <group name="Land_Village_HealthCare_Enoch" lootmax="15">
         <usage name="Equipment" />
         <usage name="FoodDrink" />
-        <usage name="Medical" />
+        <usage name="Medic" />
         <container name="lootFloor" lootmax="15">
             <tag name="floor" />
             <point pos="-2.718506 -2.966034 0.936767" range="0.555908" height="1.389770" />
@@ -17768,7 +17768,7 @@
             </container>
         </group>
     <group name="StaticObj_Misc_SupplyBox3_DE" lootmax="8">
-        <usage name="Medical" />
+        <usage name="Medic" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="ground" />

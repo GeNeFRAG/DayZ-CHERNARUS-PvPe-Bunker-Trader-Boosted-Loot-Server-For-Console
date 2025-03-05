@@ -6,27 +6,27 @@
 * Building placement restrictions are removed, allowing construction in most locations
 * Mouse and Keyboard players have access to the in-game map via the 'M' key
 * Extended server idle timer set to 1200 seconds (20 minutes) to accommodate loot respawn cycles
-* Custom spawn points located in major cities and military locations including Cherno, Elektro, NWAF, and other strategic locations
-* Players start with specialized loadout configurations
+* Custom spawn points located in major cities and military locations including Cherno, Elektro, Novaya, Novo, Zeleno and other strategic locations
+* Players start with specialized loadout configurations, no gun
 * Lifetime for fences, tents, etc reduced to 21 days
 
 ## Loot Specifications
 
 * Item condition ranges from pristine (0.00) to worn (0.32) damage values
-* Loot: Weapons/Ammo increased by 10%. Also distributed to different loot tiers (for details check types.xml)
-* Vehicle spawn complete include full fuel tanks, gasoline canisters, and water supplies. Boosted 2x
+* Loot: Weapons/Ammo increased by 10-15%. Also distributed to different loot tiers (for details check types.xml)
+* Vehicle spawn complete includes gasoline canisters, and water supplies. They can have also rusty car parts attached
 * Enhanced weapon configurations:
-  * Colored weapons variants with attachments enabled
-  * Platecarrier vests available in black, green, and camo variants
-  * Weapons spawn with 50-100% loaded magazines and random attachements (incl. suppressor)
+  * Color sprayed weapons variants and magazines enabled
+  * Platecarrier vests available in black, green, and camo (green, white) variants
+  * Weapons spawn with 40-80% loaded magazines and random attachements (incl. suppressor)
   * All sniper rifles include optical attachments
-* Magazine spawns are consistently half or fully loaded
-* Reduced small magazine variants for western weapons
+* Magazine spawns are consistently 40% to 80% loaded
 * M4A1 only spawns in bunkers and Locked Container Event
-* M14, M79 and Aug only spawns at dynamic events (Heli crashes,etc)
-* PunchedCard spawns damaged contaminated zones, on grey NBC zombies and is also part of Treasure hunt loot
+* M14 and Aug only spawns at dynamic events (Heli crashes,etc)
+* M79 only available in the Bunker or Trader
+* PunchedCards spawn in permanent Toxic zones, on grey NBC zombies, Convoy Officers and are also part of the Treasure Hunt
 * Additonal hidden items like yellow bandanas, etc
-* All weapons v1.27
+* All weapons until v1.27
 
 ## Dynamic Events
 

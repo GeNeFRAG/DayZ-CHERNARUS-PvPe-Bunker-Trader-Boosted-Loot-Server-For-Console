@@ -16,7 +16,7 @@
 [CONTAMINATEDAREA]
 [CONTAMINATEDAREA, HIGHLOOT]
 [CONTAMINATEDAREA, HIGHLOOT, SPECIAL]
-[CONTAMINATEDAREA, MEDICAL]
+[CONTAMINATEDAREA, MEDIC]
 [CONTAMINATEDAREA, MILITARY]
 [CONTAMINATEDAREA, MILITARYCLOTHES]
 [CONTAMINATEDAREA, SPECIAL]
@@ -26,7 +26,7 @@
 [EXPLOSIVES, MILITARY]
 [FIREFIGHTER]
 [FIREFIGHTER, INDUSTRIAL, MILITARY, POLICE]
-[FIREFIGHTER, MEDICAL]
+[FIREFIGHTER, MEDIC]
 [FIREFIGHTER, MILITARY, POLICE]
 [FIREFIGHTER, MILITARY, POLICE, WEAPONS]
 [FOODDRINK]
@@ -37,7 +37,7 @@
 [HUNTING, INDUSTRIAL, MILITARY, POLICE]
 [HUNTING, MAGSAMMO]
 [HUNTING, MAGSAMMO, POLICE]
-[HUNTING, MEDICAL]
+[HUNTING, MEDIC]
 [HUNTING, MILITARY]
 [HUNTING, MILITARY, POLICE]
 [HUNTING, TOOLS]
@@ -48,9 +48,9 @@
 [MAGSAMMO]
 [MAGSAMMO, MILITARY]
 [MAGSAMMO, POLICE]
-[MEDICAL]
-[MEDICAL, MISC]
-[MEDICAL, TOOLS]
+[MEDIC]
+[MEDIC, MISC]
+[MEDIC, TOOLS]
 [MILITARY]
 [MILITARY, POLICE]
 [MILITARY, WEAPONS]
@@ -8600,7 +8600,7 @@
         <value name="Tier4"/>
     </type>
 
-<!-- ################ [CONTAMINATEDAREA, MEDICAL] ################-->
+<!-- ################ [CONTAMINATEDAREA, MEDIC] ################-->
 <type name="AntiChemInjector">
         <nominal>5</nominal>
         <lifetime>7200</lifetime>
@@ -8611,7 +8611,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
         <usage name="ContaminatedArea"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 
 <!-- ################ [CONTAMINATEDAREA, MILITARY] ################-->
@@ -10656,7 +10656,7 @@
         <usage name="Police"/>
     </type>
 
-<!-- ################ [FIREFIGHTER, MEDICAL] ################-->
+<!-- ################ [FIREFIGHTER, MEDIC] ################-->
 <type name="ParamedicJacket_Blue">
         <nominal>7</nominal>
         <lifetime>14400</lifetime>
@@ -10667,7 +10667,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="FireFighter"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="ParamedicJacket_Crimson">
         <nominal>7</nominal>
@@ -10679,7 +10679,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="FireFighter"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="ParamedicJacket_Green">
         <nominal>7</nominal>
@@ -10691,7 +10691,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="FireFighter"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="ParamedicPants_Blue">
         <nominal>7</nominal>
@@ -10703,7 +10703,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="FireFighter"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="ParamedicPants_Crimson">
         <nominal>7</nominal>
@@ -10715,7 +10715,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="FireFighter"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="ParamedicPants_Green">
         <nominal>7</nominal>
@@ -10727,7 +10727,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="FireFighter"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 
 <!-- ################ [FIREFIGHTER, MILITARY, POLICE] ################-->
@@ -12276,7 +12276,7 @@
         <usage name="Police"/>
     </type>
 
-<!-- ################ [HUNTING, MEDICAL] ################-->
+<!-- ################ [HUNTING, MEDIC] ################-->
 <type name="PurificationTablets">
         <nominal>53</nominal>
         <lifetime>28800</lifetime>
@@ -12287,7 +12287,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Hunting"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 
 <!-- ################ [HUNTING, MILITARY] ################-->
@@ -13172,7 +13172,7 @@
         <usage name="Police"/>
     </type>
 
-<!-- ################ [MEDICAL] ################-->
+<!-- ################ [MEDIC] ################-->
 <type name="BandageDressing">
         <nominal>46</nominal>
         <lifetime>14400</lifetime>
@@ -13182,7 +13182,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="BloodBagEmpty">
         <nominal>20</nominal>
@@ -13193,7 +13193,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="BloodBagFull">
         <nominal>0</nominal>
@@ -13204,7 +13204,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="BloodBagIV">
         <nominal>0</nominal>
@@ -13215,7 +13215,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="BloodTestKit">
         <nominal>10</nominal>
@@ -13226,7 +13226,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="CanvasBag_Medical">
         <nominal>10</nominal>
@@ -13237,7 +13237,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="CharcoalTablets">
         <nominal>26</nominal>
@@ -13248,7 +13248,7 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="ChelatingTablets">
         <nominal>0</nominal>
@@ -13259,7 +13259,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="Defibrillator">
         <nominal>6</nominal>
@@ -13270,7 +13270,7 @@
         <quantmax>20</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="Epinephrine">
         <nominal>33</nominal>
@@ -13281,7 +13281,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="FirstAidKit">
         <nominal>15</nominal>
@@ -13292,7 +13292,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="GasMask">
         <nominal>13</nominal>
@@ -13303,7 +13303,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="GasMask_Filter">
         <nominal>28</nominal>
@@ -13314,7 +13314,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="HipPack_Medical">
         <nominal>14</nominal>
@@ -13325,7 +13325,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="LabCoat">
         <nominal>15</nominal>
@@ -13336,7 +13336,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="MedicalScrubsHat_Blue">
         <nominal>4</nominal>
@@ -13347,7 +13347,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="MedicalScrubsHat_Green">
         <nominal>4</nominal>
@@ -13358,7 +13358,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="MedicalScrubsHat_White">
         <nominal>4</nominal>
@@ -13369,7 +13369,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="MedicalScrubsPants_Blue">
         <nominal>4</nominal>
@@ -13380,7 +13380,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="MedicalScrubsPants_Green">
         <nominal>4</nominal>
@@ -13391,7 +13391,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="MedicalScrubsPants_White">
         <nominal>4</nominal>
@@ -13402,7 +13402,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="MedicalScrubsShirt_Blue">
         <nominal>5</nominal>
@@ -13413,7 +13413,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="MedicalScrubsShirt_Green">
         <nominal>5</nominal>
@@ -13424,7 +13424,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="MedicalScrubsShirt_White">
         <nominal>5</nominal>
@@ -13435,7 +13435,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="Morphine">
         <nominal>19</nominal>
@@ -13446,7 +13446,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="NBCBootsYellow">
         <nominal>3</nominal>
@@ -13457,7 +13457,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="NBCGlovesYellow">
         <nominal>3</nominal>
@@ -13468,7 +13468,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="NBCHoodYellow">
         <nominal>3</nominal>
@@ -13479,7 +13479,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="NBCJacketYellow">
         <nominal>3</nominal>
@@ -13490,7 +13490,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="NBCPantsYellow">
         <nominal>3</nominal>
@@ -13501,7 +13501,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="NioshFaceMask">
         <nominal>20</nominal>
@@ -13512,7 +13512,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="NurseDress_Blue">
         <nominal>8</nominal>
@@ -13523,7 +13523,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="NurseDress_White">
         <nominal>8</nominal>
@@ -13534,7 +13534,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="PainkillerTablets">
         <nominal>24</nominal>
@@ -13545,7 +13545,7 @@
         <quantmax>100</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="Rag">
         <nominal>0</nominal>
@@ -13556,7 +13556,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="SalineBag">
         <nominal>25</nominal>
@@ -13567,7 +13567,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="SalineBagIV">
         <nominal>0</nominal>
@@ -13578,7 +13578,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="StartKitIV">
         <nominal>30</nominal>
@@ -13589,7 +13589,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="SurgicalGloves_Blue">
         <nominal>8</nominal>
@@ -13600,7 +13600,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="SurgicalGloves_Green">
         <nominal>8</nominal>
@@ -13611,7 +13611,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="SurgicalGloves_LightBlue">
         <nominal>8</nominal>
@@ -13622,7 +13622,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="SurgicalGloves_White">
         <nominal>8</nominal>
@@ -13633,7 +13633,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="SurgicalMask">
         <nominal>15</nominal>
@@ -13644,7 +13644,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="TetracyclineAntibiotics">
         <nominal>26</nominal>
@@ -13655,7 +13655,7 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="Thermometer">
         <nominal>40</nominal>
@@ -13666,7 +13666,7 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 <type name="VitaminBottle">
         <nominal>42</nominal>
@@ -13677,10 +13677,10 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 
-<!-- ################ [MEDICAL, MISC] ################-->
+<!-- ################ [MEDIC, MISC] ################-->
 <type name="DisinfectantAlcohol">
         <nominal>83</nominal>
         <lifetime>14400</lifetime>
@@ -13690,7 +13690,7 @@
         <quantmax>50</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
         <usage name="Misc"/>
     </type>
 <type name="DisinfectantSpray">
@@ -13702,7 +13702,7 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
         <usage name="Misc"/>
     </type>
 <type name="IodineTincture">
@@ -13714,11 +13714,11 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
         <usage name="Misc"/>
     </type>
 
-<!-- ################ [MEDICAL, TOOLS] ################-->
+<!-- ################ [MEDIC, TOOLS] ################-->
 <type name="FilteringBottle">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
@@ -13729,7 +13729,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Tools"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
     </type>
 
 <!-- ################ [MILITARY] ################-->

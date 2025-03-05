@@ -19,7 +19,7 @@
         <usage name="Explosives"/>
         <usage name="Equipment"/>
         <usage name="Containers"/>
-        <usage name="Medical"/>
+        <usage name="Medic"/>
         <usage name="Carparts"/>
         <usage name="Clothes"/>
 		<usage name="MilitaryClothes"/>

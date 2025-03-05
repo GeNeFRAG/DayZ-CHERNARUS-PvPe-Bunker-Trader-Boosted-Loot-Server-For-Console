@@ -2780,7 +2780,7 @@
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
 	<type name="MakarovIJ70">
-		<attachments chance="0.60">
+		<attachments chance="1.00">
 			<item name="Mag_IJ70_8Rnd" chance="1.00"/>
 		</attachments>
 		<!-- MakarovPBSuppressor -->
@@ -2845,7 +2845,7 @@
 			<item name="MP5k_StockBttstck" chance="1.00"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="Mag_MP5_15Rnd" chance="0.5"/>
+			<item name="Mag_MP5_15Rnd" chance="0.7"/>
 			<item name="Mag_MP5_30Rnd" chance="0.3"/>
 		</attachments>
 		<attachments chance="0.5">
@@ -2915,7 +2915,7 @@
 		</attachments>
 	</type>
 	<type name="SV98">
-		<attachments chance="0.5">
+		<attachments chance="0.8">
 			<item name="M4_T3NRDSOptic" chance="0.30" />	
 			<item name="ReflexOptic" chance="0.30" />	
 			<item name="ACOGOptic" chance="0.25" />	
@@ -3028,7 +3028,7 @@
 	</type>
 	<type name="SKS">
 		<damage min="0.1" max="0.32"/>
-		<attachments chance="0.8">
+		<attachments chance="0.5">
 			<item name="PUScopeOptic" chance="1.00"/>
 		</attachments>
 		<attachments chance="0.20">
@@ -3037,7 +3037,7 @@
 	</type>
 	<type name="SKS_Black">
 		<damage min="0.1" max="0.32"/>
-		<attachments chance="0.8">
+		<attachments chance="0.5">
 			<item name="PUScopeOptic" chance="1.00"/>
 		</attachments>
 		<attachments chance="0.20">
@@ -3046,7 +3046,7 @@
 	</type>
 	<type name="SKS_Green">
 		<damage min="0.1" max="0.32"/>
-		<attachments chance="0.8">
+		<attachments chance="0.5">
 			<item name="PUScopeOptic" chance="1.00"/>
 		</attachments>
 		<attachments chance="0.20">
