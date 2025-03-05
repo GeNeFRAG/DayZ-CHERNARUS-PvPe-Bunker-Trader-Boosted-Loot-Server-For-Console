@@ -8,64 +8,66 @@
   4. CLOTHES
   5. CLOTHES, CONTAINERLOCKED
   6. CONTAINERLOCKED
-  7. CONTAINERLOCKED, HIGHLOOT
+  7. CONTAINERLOCKED, HIGHLOOT, SPECIAL
   8. CONTAINERLOCKED, MILITARY
   9. CONTAINERLOCKED, MILITARYCLOTHES
  10. CONTAINERLOCKED, SPECIAL
  11. CONTAINERS
  12. CONTAMINATEDAREA
  13. CONTAMINATEDAREA, HIGHLOOT
- 14. CONTAMINATEDAREA, MEDICAL
- 15. CONTAMINATEDAREA, MILITARY
- 16. CONTAMINATEDAREA, MILITARYCLOTHES
- 17. CONTAMINATEDAREA, SPECIAL
- 18. DONTUSE
- 19. EQUIPMENT
- 20. EQUIPMENT, MILITARY
- 21. EXPLOSIVES, MILITARY
- 22. FIREFIGHTER
- 23. FIREFIGHTER, INDUSTRIAL, MILITARY, POLICE
- 24. FIREFIGHTER, MEDICAL
- 25. FIREFIGHTER, MILITARY, POLICE
- 26. FIREFIGHTER, MILITARY, POLICE, WEAPONS
- 27. FOODDRINK
- 28. HIGHLOOT
- 29. HISTORICAL
- 30. HUNTING
- 31. HUNTING, INDUSTRIAL, MILITARY
- 32. HUNTING, INDUSTRIAL, MILITARY, POLICE
- 33. HUNTING, MAGSAMMO
- 34. HUNTING, MAGSAMMO, POLICE
- 35. HUNTING, MEDICAL
- 36. HUNTING, MILITARY
- 37. HUNTING, MILITARY, POLICE
- 38. HUNTING, TOOLS
- 39. HUNTING, WEAPONS
- 40. INDUSTRIAL
- 41. INDUSTRIAL, MILITARY, POLICE
- 42. INDUSTRIAL, TOOLS
- 43. MAGSAMMO
- 44. MAGSAMMO, MILITARY
- 45. MAGSAMMO, POLICE
- 46. MEDICAL
- 47. MEDICAL, MISC
- 48. MEDICAL, TOOLS
- 49. MILITARY
- 50. MILITARY, POLICE
- 51. MILITARY, WEAPONS
- 52. MILITARYCLOTHES
- 53. MILITARYCLOTHES, POLICE
- 54. MISC
- 55. NO USAGE
- 56. PLANTS
- 57. POLICE
- 58. POLICE, PRISON
- 59. PRISON
- 60. REPAIRITEMS
- 61. SEASONAL
- 62. SPECIAL
- 63. TOOLS
- 64. WEAPONS
+ 14. CONTAMINATEDAREA, HIGHLOOT, SPECIAL
+ 15. CONTAMINATEDAREA, MEDIC
+ 16. CONTAMINATEDAREA, MILITARY
+ 17. CONTAMINATEDAREA, MILITARYCLOTHES
+ 18. CONTAMINATEDAREA, SPECIAL
+ 19. DONTUSE
+ 20. EQUIPMENT
+ 21. EQUIPMENT, MILITARY
+ 22. EXPLOSIVES, MILITARY
+ 23. FIREFIGHTER
+ 24. FIREFIGHTER, INDUSTRIAL, MILITARY, POLICE
+ 25. FIREFIGHTER, MEDIC
+ 26. FIREFIGHTER, MILITARY, POLICE
+ 27. FIREFIGHTER, MILITARY, POLICE, WEAPONS
+ 28. FOODDRINK
+ 29. HIGHLOOT
+ 30. HISTORICAL
+ 31. HUNTING
+ 32. HUNTING, INDUSTRIAL, MILITARY
+ 33. HUNTING, INDUSTRIAL, MILITARY, POLICE
+ 34. HUNTING, MAGSAMMO
+ 35. HUNTING, MAGSAMMO, POLICE
+ 36. HUNTING, MEDIC
+ 37. HUNTING, MILITARY
+ 38. HUNTING, MILITARY, POLICE
+ 39. HUNTING, TOOLS
+ 40. HUNTING, WEAPONS
+ 41. INDUSTRIAL
+ 42. INDUSTRIAL, MILITARY, POLICE
+ 43. INDUSTRIAL, TOOLS
+ 44. MAGSAMMO
+ 45. MAGSAMMO, MILITARY
+ 46. MAGSAMMO, POLICE
+ 47. MEDIC
+ 48. MEDIC, MISC
+ 49. MEDIC, TOOLS
+ 50. MILITARY
+ 51. MILITARY, POLICE
+ 52. MILITARY, WEAPONS
+ 53. MILITARYCLOTHES
+ 54. MILITARYCLOTHES, POLICE
+ 55. MISC
+ 56. NO USAGE
+ 57. OFFICE, SCHOOL
+ 58. PLANTS
+ 59. POLICE
+ 60. POLICE, PRISON
+ 61. PRISON
+ 62. REPAIRITEMS
+ 63. SEASONAL
+ 64. SPECIAL
+ 65. TOOLS
+ 66. WEAPONS
 ==================================================-->
 
 <!-- ################ [ATTACHMENT] ################-->
@@ -7635,8 +7637,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContainerLocked"/>
         <usage name="Clothes"/>
+        <usage name="ContainerLocked"/>
     </type>
 
 <!-- ################ [CONTAINERLOCKED] ################-->
@@ -7652,7 +7654,7 @@
         <usage name="ContainerLocked"/>
     </type>
 
-<!-- ################ [CONTAINERLOCKED, HIGHLOOT] ################-->
+<!-- ################ [CONTAINERLOCKED, HIGHLOOT, SPECIAL] ################-->
 <type name="Mich2001Helmet">
         <nominal>6</nominal>
         <lifetime>28800</lifetime>
@@ -7663,8 +7665,8 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="ContainerLocked"/>
-        <usage name="Special"/>
         <usage name="Highloot"/>
+        <usage name="Special"/>
         <value name="Tier4"/>
     </type>
 
@@ -7678,8 +7680,8 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Military"/>
         <usage name="ContainerLocked"/>
+        <usage name="Military"/>
     </type>
 <type name="AmmoBox_556x45Tracer_20Rnd">
         <nominal>7</nominal>
@@ -7690,8 +7692,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Military"/>
         <usage name="ContainerLocked"/>
+        <usage name="Military"/>
     </type>
 <type name="AmmoBox_556x45_20Rnd">
         <nominal>22</nominal>
@@ -7702,8 +7704,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Military"/>
         <usage name="ContainerLocked"/>
+        <usage name="Military"/>
     </type>
 <type name="Mag_AK101_30Rnd">
         <nominal>6</nominal>
@@ -7714,8 +7716,8 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Military"/>
         <usage name="ContainerLocked"/>
+        <usage name="Military"/>
     </type>
 <type name="Mag_CMAG_20Rnd">
         <nominal>8</nominal>
@@ -7726,8 +7728,8 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Military"/>
         <usage name="ContainerLocked"/>
+        <usage name="Military"/>
     </type>
 <type name="Mag_CMAG_30Rnd">
         <nominal>5</nominal>
@@ -7738,8 +7740,8 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Military"/>
         <usage name="ContainerLocked"/>
+        <usage name="Military"/>
     </type>
 <type name="Mag_CMAG_40Rnd">
         <nominal>4</nominal>
@@ -7750,8 +7752,8 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="ContainerLocked"/>
         <usage name="Military"/>
-         <usage name="ContainerLocked"/>
     </type>
 <type name="Mag_M14_20Rnd">
         <nominal>4</nominal>
@@ -7762,7 +7764,7 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-         <usage name="ContainerLocked"/>
+        <usage name="ContainerLocked"/>
         <usage name="Military"/>
         <value name="Tier4"/>
     </type>
@@ -7777,8 +7779,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="MilitaryClothes"/>
         <usage name="ContainerLocked"/>
+        <usage name="MilitaryClothes"/>
     </type>
 <type name="PlateCarrierVest_Black">
         <nominal>1</nominal>
@@ -7803,8 +7805,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="ContainerLocked"/>
         <usage name="MilitaryClothes"/>
-         <usage name="ContainerLocked"/>
     </type>
 <type name="TacticalShirt_Olive">
         <nominal>10</nominal>
@@ -7815,8 +7817,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="ContainerLocked"/>
         <usage name="MilitaryClothes"/>
-         <usage name="ContainerLocked"/>
     </type>
 
 <!-- ################ [CONTAINERLOCKED, SPECIAL] ################-->
@@ -7829,8 +7831,8 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Special"/>
         <usage name="ContainerLocked"/>
+        <usage name="Special"/>
     </type>
 <type name="Mag_STANAG_60Rnd">
         <nominal>5</nominal>
@@ -7841,8 +7843,8 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Special"/>
         <usage name="ContainerLocked"/>
+        <usage name="Special"/>
     </type>
 
 <!-- ################ [CONTAINERS] ################-->
@@ -7854,7 +7856,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="Barrel_Green">
@@ -7865,7 +7867,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="Barrel_Red">
@@ -7876,7 +7878,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="Barrel_Yellow">
@@ -7887,7 +7889,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="Bear_Beige">
@@ -8250,7 +8252,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="MediumTent_Green">
@@ -8261,7 +8263,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="MediumTent_Orange">
@@ -8272,7 +8274,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="MountainBag_Blue">
@@ -8327,7 +8329,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="PartyTent_Blue">
@@ -8338,7 +8340,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="PartyTent_Brown">
@@ -8349,7 +8351,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="PartyTent_Lunapark">
@@ -8360,7 +8362,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Containers"/>
     </type>
 <type name="SeaChest">
@@ -8582,6 +8584,8 @@
         <usage name="Highloot"/>
         <value name="Tier4"/>
     </type>
+
+<!-- ################ [CONTAMINATEDAREA, HIGHLOOT, SPECIAL] ################-->
 <type name="NVGoggles">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
@@ -8592,12 +8596,12 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="ContaminatedArea"/>
-        <usage name="Special"/>
         <usage name="Highloot"/>
+        <usage name="Special"/>
         <value name="Tier4"/>
     </type>
 
-<!-- ################ [CONTAMINATEDAREA, MEDICAL] ################-->
+<!-- ################ [CONTAMINATEDAREA, MEDIC] ################-->
 <type name="AntiChemInjector">
         <nominal>2</nominal>
         <lifetime>7200</lifetime>
@@ -8606,7 +8610,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="ContaminatedArea"/>
         <usage name="Medic"/>
     </type>
@@ -8662,8 +8666,8 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Special"/>
         <usage name="ContaminatedArea"/>
+        <usage name="Special"/>
     </type>
 <type name="Mag_AKM_Drum75Rnd_Green">
         <nominal>1</nominal>
@@ -8674,8 +8678,8 @@
         <quantmax>80</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Special"/>
         <usage name="ContaminatedArea"/>
+        <usage name="Special"/>
     </type>
 
 <!-- ################ [DONTUSE] ################-->
@@ -8742,7 +8746,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="BarrelHoles_Green">
@@ -8753,7 +8757,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="BarrelHoles_Red">
@@ -8764,7 +8768,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="BarrelHoles_Yellow">
@@ -8775,7 +8779,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="1" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="BearPelt">
@@ -9083,7 +9087,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_Bear">
@@ -9105,7 +9109,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_BrainZ">
@@ -9127,7 +9131,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_CHEL">
@@ -9138,7 +9142,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_CMC">
@@ -9149,7 +9153,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_Cannibals">
@@ -9160,7 +9164,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_Chedaki">
@@ -9171,7 +9175,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_Chernarus">
@@ -9182,7 +9186,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_Crook">
@@ -9204,7 +9208,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_HunterZ">
@@ -9215,7 +9219,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_Livonia">
@@ -9259,7 +9263,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_NSahrani">
@@ -9281,7 +9285,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_RSTA">
@@ -9292,7 +9296,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_Refuge">
@@ -9303,7 +9307,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_Rex">
@@ -9325,7 +9329,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_SSahrani">
@@ -9347,7 +9351,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_TEC">
@@ -9358,7 +9362,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_UEC">
@@ -9369,7 +9373,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_Wolf">
@@ -9380,7 +9384,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="Flag_Zagorky">
@@ -9402,7 +9406,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
 <type name="GhillieAtt_Tan">
@@ -10463,18 +10467,6 @@
     </type>
 
 <!-- ################ [EQUIPMENT] ################-->
-<type name="Flag_White">
-        <nominal>42</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>21</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Office"/>
-        <usage name="School"/>
-    </type>
 <type name="PowerGenerator">
         <nominal>80</nominal>
         <lifetime>604800</lifetime>
@@ -10654,7 +10646,7 @@
         <usage name="Police"/>
     </type>
 
-<!-- ################ [FIREFIGHTER, MEDICAL] ################-->
+<!-- ################ [FIREFIGHTER, MEDIC] ################-->
 <type name="ParamedicJacket_Blue">
         <nominal>7</nominal>
         <lifetime>14400</lifetime>
@@ -11772,7 +11764,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Hunting"/>
     </type>
 <type name="BoonieHat_Winter">
@@ -12274,7 +12266,7 @@
         <usage name="Police"/>
     </type>
 
-<!-- ################ [HUNTING, MEDICAL] ################-->
+<!-- ################ [HUNTING, MEDIC] ################-->
 <type name="PurificationTablets">
         <nominal>50</nominal>
         <lifetime>28800</lifetime>
@@ -12349,9 +12341,9 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Hunting"/>
         <usage name="Military"/>
         <usage name="Police"/>
-        <usage name="Hunting"/>
     </type>
 
 <!-- ################ [HUNTING, TOOLS] ################-->
@@ -13170,7 +13162,7 @@
         <usage name="Police"/>
     </type>
 
-<!-- ################ [MEDICAL] ################-->
+<!-- ################ [MEDIC] ################-->
 <type name="BandageDressing">
         <nominal>40</nominal>
         <lifetime>14400</lifetime>
@@ -13678,7 +13670,7 @@
         <usage name="Medic"/>
     </type>
 
-<!-- ################ [MEDICAL, MISC] ################-->
+<!-- ################ [MEDIC, MISC] ################-->
 <type name="DisinfectantAlcohol">
         <nominal>80</nominal>
         <lifetime>14400</lifetime>
@@ -13716,7 +13708,7 @@
         <usage name="Misc"/>
     </type>
 
-<!-- ################ [MEDICAL, TOOLS] ################-->
+<!-- ################ [MEDIC, TOOLS] ################-->
 <type name="FilteringBottle">
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
@@ -13726,8 +13718,8 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Tools"/>
         <usage name="Medic"/>
+        <usage name="Tools"/>
     </type>
 
 <!-- ################ [MILITARY] ################-->
@@ -14154,7 +14146,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
     </type>
 <type name="CoyoteBag_Green">
@@ -14165,7 +14157,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
     </type>
 <type name="CoyoteBag_Winter">
@@ -14288,7 +14280,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
     </type>
 <type name="M16A2">
@@ -16030,7 +16022,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="MilitaryClothes"/>
     </type>
 <type name="USMCJacket_Desert">
@@ -19132,6 +19124,20 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="0" count_in_player="0" crafted="0" deloot="0"/>
     </type>
 
+<!-- ################ [OFFICE, SCHOOL] ################-->
+<type name="Flag_White">
+        <nominal>42</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>21</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Office"/>
+        <usage name="School"/>
+    </type>
+
 <!-- ################ [PLANTS] ################-->
 <type name="AgaricusMushroom">
         <nominal>0</nominal>
@@ -20222,7 +20228,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <usage name="Special"/>
     </type>
 <type name="AliceBag_Camo">
@@ -20233,7 +20239,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <usage name="Special"/>
     </type>
 <type name="AliceBag_Green">
@@ -20244,7 +20250,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
+        <flags count_in_cargo="1" count_in_hoarder="1" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <usage name="Special"/>
     </type>
 <type name="AmmoBox">
@@ -20277,7 +20283,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <flags count_in_cargo="1" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <usage name="Special"/>
     </type>
 <type name="GhillieAtt_Mossy">
@@ -20343,7 +20349,7 @@
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="1"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="1"/>
         <usage name="Special"/>
     </type>
 <type name="Mag_Saiga_Drum20Rnd">
@@ -20886,7 +20892,7 @@
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="1" crafted="0" deloot="0"/>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Weapons"/>
     </type>
 <type name="Derringer_Black">
