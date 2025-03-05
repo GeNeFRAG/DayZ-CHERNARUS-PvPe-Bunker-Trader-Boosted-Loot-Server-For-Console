@@ -1,137 +1,200 @@
 import re
-import argparse
 import math
-from typing import Tuple, List
-from pathlib import Path
+from typing import List, Tuple, Optional
+import glob
+import os
+from datetime import datetime
+import csv
 
-def parse_coordinates(coord_str: str) -> Tuple[float, float]:
+def extract_info(line: str, file_date: str) -> Tuple[Optional[str], Optional[str], Optional[tuple], Optional[str]]:
     """
-    Parse coordinate string in format x=1346.3, y=9327.0
+    Extract time, player name, position coordinates, and action from a line of text
     
     Args:
-        coord_str: String containing coordinates
+        line: String containing player data
+        file_date: Date extracted from filename
         
     Returns:
-        Tuple of (x, y) coordinates as floats
+        Tuple of (time_str, player_name, (x, y, z) coordinates, action)
     """
     try:
-        # Extract numbers using regex
-        coords = re.findall(r'[xy]=(-?\d+\.?\d*)', coord_str.lower())
-        if len(coords) != 2:
-            raise ValueError("Invalid coordinate format")
-        return float(coords[0]), float(coords[1])
-    except Exception as e:
-        raise ValueError(f"Failed to parse coordinates: {e}")
+        # Split the line by '|' to get the time
+        parts = line.split('|', 1)
+        time_str = parts[0].strip() if len(parts) > 0 else None
 
-def extract_position(line: str) -> Tuple[float, float, float]:
-    """
-    Extract position coordinates from a log line containing pos=<x, y, z>
-    
-    Args:
-        line: Log line containing position information
+        # Extract player name
+        name_match = re.search(r'"([^"]+)"', line)
+        player_name = name_match.group(1) if name_match else None
+
+        # Extract position
+        pos_match = re.search(r'pos=<([-\d.,\s]+)>', line)
+        if not pos_match:
+            # Try CSV format
+            parts = line.split(',')
+            if len(parts) >= 9:  # Assuming CSV format with at least 9 columns
+                try:
+                    x = float(parts[5])
+                    y = float(parts[6])
+                    z = float(parts[7])
+                    time_str = parts[3]
+                    player_name = parts[4]
+                    action = parts[8]
+                    return time_str, player_name, (x, y, z), action
+                except (ValueError, IndexError):
+                    pass
+            return time_str, player_name, None, None
         
-    Returns:
-        Tuple of (x, y, z) coordinates as floats
-    """
-    try:
-        # Extract numbers between < and > using regex
-        match = re.search(r'pos=<([-\d.,\s]+)>', line)
-        if not match:
-            return None
-        
-        coords = match.group(1).split(',')
+        coords = pos_match.group(1).split(',')
         if len(coords) != 3:
-            return None
+            return time_str, player_name, None, None
             
-        return tuple(float(coord.strip()) for coord in coords)
-    except Exception:
-        return None
+        position = tuple(float(coord.strip()) for coord in coords)
+        
+        # Extract action (everything after the coordinates)
+        action_match = re.search(r'>\s*(.*?)(?:\s*\(|$)', line)
+        action = action_match.group(1).strip() if action_match else ""
+        
+        return time_str, player_name, position, action
+    except Exception as e:
+        print(f"Error extracting info: {e}")
+        return None, None, None, None
+
+def extract_date_from_filename(filename: str) -> str:
+    """
+    Extract date from filename format DayZServer_X1_x64_2025_03_03_160233687.ADM
+    """
+    try:
+        # Extract date components from filename
+        date_match = re.search(r'_(\d{4})_(\d{2})_(\d{2})_', filename)
+        if date_match:
+            year, month, day = date_match.groups()
+            return f"{year}-{month}-{day}"
+    except Exception as e:
+        print(f"Error extracting date from filename: {e}")
+    return "Unknown date"
 
 def calculate_distance(x1: float, y1: float, x2: float, y2: float) -> float:
     """
     Calculate 2D distance between two points
-    
-    Args:
-        x1, y1: Coordinates of first point
-        x2, y2: Coordinates of second point
-        
-    Returns:
-        Distance in meters
     """
     return math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
 
-def find_nearby_positions(log_file: str, target_x: float, target_y: float, radius: float = 100.0) -> List[str]:
+def find_nearby_positions(file_pattern: str, target_x: float, target_y: float, radius: float = 100.0) -> List[tuple]:
     """
-    Find log entries with positions within specified radius
+    Find positions within specified radius of target coordinates in multiple files
+    """
+    nearby_positions = []
+    
+    matching_files = glob.glob(file_pattern)
+    
+    for file_path in matching_files:
+        try:
+            file_date = extract_date_from_filename(os.path.basename(file_path))
+            
+            with open(file_path, 'r', encoding='utf-8') as file:
+                for line_num, line in enumerate(file, 1):
+                    time_str, player_name, coords, action = extract_info(line, file_date)
+                    
+                    if coords:
+                        x, y, z = coords
+                        distance = calculate_distance(target_x, target_y, x, y)
+                        
+                        if distance <= radius:
+                            nearby_positions.append((
+                                os.path.basename(file_path),
+                                line_num,
+                                file_date,
+                                time_str,
+                                player_name,
+                                coords,
+                                action,
+                                distance
+                            ))
+        except Exception as e:
+            print(f"Error processing file {file_path}: {str(e)}")
+            
+    return sorted(nearby_positions, key=lambda x: x[7])  # Sort by distance
+
+def save_to_csv(results: List[tuple], output_file: str):
+    """
+    Save results to CSV file
     
     Args:
-        log_file: Path to log file
-        target_x, target_y: Target coordinates
-        radius: Search radius in meters
-        
-    Returns:
-        List of matching log lines
+        results: List of result tuples
+        output_file: Name of the CSV file to create
     """
-    matching_lines = []
+    headers = ['File', 'Line', 'Date', 'Time', 'Player', 'X', 'Y', 'Z', 'Action', 'Distance']
     
-    try:
-        with open(log_file, 'r', encoding='utf-8') as f:
-            for line in f:
-                pos = extract_position(line)
-                if pos:
-                    x, y, _ = pos
-                    distance = calculate_distance(target_x, target_y, x, y)
-                    if distance <= radius:
-                        matching_lines.append({
-                            'line': line.strip(),
-                            'distance': distance,
-                            'coords': (x, y)
-                        })
-    except Exception as e:
-        print(f"Error reading log file: {e}")
-        return []
+    with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(headers)
         
-    return matching_lines
+        for filename, line_num, file_date, time_str, player_name, coords, action, distance in results:
+            writer.writerow([
+                filename,
+                line_num,
+                file_date,
+                time_str,
+                player_name,
+                f"{coords[0]:.1f}",
+                f"{coords[1]:.1f}",
+                f"{coords[2]:.1f}",
+                action if action else "",
+                f"{distance:.2f}"
+            ])
+
+def save_to_csv(results: List[tuple], output_file: str):
+    """
+    Save results to CSV file
+    
+    Args:
+        results: List of result tuples
+        output_file: Name of the CSV file to create
+    """
+    headers = ['File', 'Line', 'Date', 'Time', 'Player', 'X', 'Y', 'Z', 'Action', 'Distance']
+    
+    with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(headers)
+        
+        for filename, line_num, file_date, time_str, player_name, coords, action, distance in results:
+            writer.writerow([
+                filename,
+                line_num,
+                file_date,
+                time_str,
+                player_name,
+                f"{coords[0]:.1f}",
+                f"{coords[1]:.1f}",
+                f"{coords[2]:.1f}",
+                action if action else "",
+                f"{distance:.2f}"
+            ])
 
 def main():
-    parser = argparse.ArgumentParser(description='Find log entries near specified coordinates')
-    parser.add_argument('coordinates', help='Coordinates in format "x=1346.3, y=9327.0"')
-    parser.add_argument('--log-file', '-f', required=True, help='Path to log file')
-    parser.add_argument('--radius', '-r', type=float, default=100.0, 
-                       help='Search radius in meters (default: 100)')
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Find nearby player positions and actions in files')
+    parser.add_argument('file_pattern', help='File pattern to search (e.g. "*.ADM")')
+    parser.add_argument('target_x', type=float, help='Target X coordinate')
+    parser.add_argument('target_y', type=float, help='Target Y coordinate')
+    parser.add_argument('--radius', type=float, default=100.0, help='Search radius in meters')
+    parser.add_argument('--output', default='results.csv', help='Output CSV file name (default: results.csv)')
     
     args = parser.parse_args()
     
-    try:
-        # Parse target coordinates
-        target_x, target_y = parse_coordinates(args.coordinates)
-        print(f"Searching for positions within {args.radius}m of x={target_x}, y={target_y}")
-        
-        # Find matching positions
-        matches = find_nearby_positions(args.log_file, target_x, target_y, args.radius)
-        
-        # Sort matches by distance
-        matches.sort(key=lambda x: x['distance'])
-        
-        # Print results
-        if matches:
-            print(f"\nFound {len(matches)} matching entries:")
-            for match in matches:
-                x, y = match['coords']
-                print(f"\nDistance: {match['distance']:.1f}m")
-                print(f"Position: <{x}, {y}>")
-                print(f"Log entry: {match['line']}")
-        else:
-            print("\nNo matching positions found")
-            
-    except ValueError as e:
-        print(f"Error: {e}")
-        return 1
-    except Exception as e:
-        print(f"Unexpected error: {e}")
-        return 1
-        
-    return 0
+    results = find_nearby_positions(args.file_pattern, args.target_x, args.target_y, args.radius)
+    
+    if not results:
+        print("No positions found within specified radius.")
+        return
+    
+    # Save to CSV
+    save_to_csv(results, args.output)
+    
+    print(f"\nFound {len(results)} positions within {args.radius}m radius.")
+    print(f"Results have been saved to: {args.output}")
 
 if __name__ == "__main__":
-    exit(main())
+    main()
+
