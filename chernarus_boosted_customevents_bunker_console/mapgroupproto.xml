@@ -1679,6 +1679,7 @@
         <usage name="FoodDrink" />
         <usage name="Containers" />
         <usage name="Equipment" />
+        <usage name="Office" />
         <container name="lootFloor" lootmax="12">
             <tag name="floor" />
             <point pos="7.127442 -2.134033 0.427978" range="0.381836" height="0.954590" />
@@ -1821,6 +1822,7 @@
         <usage name="FoodDrink" />
         <usage name="Containers" />
         <usage name="Equipment" />
+        <usage name="Office" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
             <point pos="1.833896 -5.560725 18.413841" range="0.326905" height="0.817244" />
@@ -1955,6 +1957,7 @@
     <group name="Land_Office_Municipal2" lootmax="108">
         <usage name="Military" />
         <usage name="FoodDrink" />
+        <usage name="Office" />
         <container name="lootFloor" lootmax="36">
             <tag name="floor" />
             </container>
@@ -1971,6 +1974,8 @@
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <usage name="Containers" />
+        <usage name="School" />
+		<usage name="Office" />
         <container name="lootFloor" lootmax="15">
             <tag name="floor" />
             <point pos="-7.711425 -1.211449 -3.089601" range="0.432941" height="1.082352" />
@@ -2098,6 +2103,8 @@
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <usage name="Containers" />
+        <usage name="School" />
+		<usage name="Office" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
             <point pos="-5.951288 -1.199928 -6.827761" range="0.451904" height="1.109469" />
@@ -3704,6 +3711,8 @@
         <usage name="Clothes" />
         <usage name="Containers" />
         <usage name="Hunting" />
+        <usage name="School" />
+		<usage name="Office" />
         <container name="lootFloor" lootmax="5">
             <tag name="floor" />
             <point pos="3.990722 -2.245270 -2.744385" range="0.514404" height="1.286006" />
@@ -10746,6 +10755,7 @@
         <usage name="Clothes" />
         <usage name="Medic" />
         <usage name="Equipment" />
+        <usage name="School" />
         <container name="lootFloor" lootmax="20">
             <tag name="floor" />
             <point pos="18.605957 1.274849 16.276121" range="0.596618" height="1.491537" />
@@ -14974,6 +14984,8 @@
         <usage name="Clothes" />
         <usage name="Containers" />
         <usage name="Hunting" />
+        <usage name="School" />
+		<usage name="Office" />
         <container name="lootFloor" lootmax="5">
             <tag name="floor" />
             <point pos="3.990722 -2.245270 -2.744385" range="0.514404" height="1.286006" />

@@ -39,6 +39,8 @@
 		<usage name="Animals"/>
         <usage name="ContainerLocked"/>
         <usage name="DontUse"/>
+        <usage name="Office"/>
+        <usage name="School"/>
     </usageflags>
     <valueflags>
         <value name="Tier1"/>
