@@ -142,7 +142,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children/>
     </event>
     <!-- ################### CUSTOM EVENTS END ################### -->
@@ -201,20 +201,20 @@
         </children>
     </event>
     <event name="AnimalBear">
-        <nominal>0</nominal>
-        <min>2</min>
-        <max>2</max>
+        <nominal>20</nominal>
+        <min>19</min>
+        <max>20</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
-        <distanceradius>0</distanceradius>
+        <distanceradius>100</distanceradius>
         <cleanupradius>0</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_UrsusArctos"/>
+            <child lootmax="0" lootmin="0" max="2" min="2" type="Animal_UrsusArctos"/>
         </children>
     </event>
     <event name="AnimalCow">
