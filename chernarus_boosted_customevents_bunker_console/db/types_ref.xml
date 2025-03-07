@@ -10814,7 +10814,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="BakedBeansCan">
-        <nominal>17</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>12</min>
@@ -10847,7 +10847,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="BoxCerealCrunchin">
-        <nominal>25</nominal>
+        <nominal>23</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>18</min>
@@ -10858,7 +10858,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="BrisketSpread">
-        <nominal>25</nominal>
+        <nominal>23</nominal>
         <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>18</min>
@@ -10880,7 +10880,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Candycane_Green">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -10891,7 +10891,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Candycane_Red">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -10902,7 +10902,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Candycane_RedGreen">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -10913,7 +10913,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Candycane_Yellow">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>0</min>
@@ -11089,7 +11089,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Honey">
-        <nominal>17</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>12</min>
@@ -11100,7 +11100,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Lunchmeat">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -11144,7 +11144,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Marmalade">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -11155,7 +11155,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Pajka">
-        <nominal>25</nominal>
+        <nominal>23</nominal>
         <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>18</min>
@@ -11177,7 +11177,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Pate">
-        <nominal>25</nominal>
+        <nominal>23</nominal>
         <lifetime>9000</lifetime>
         <restock>0</restock>
         <min>18</min>
@@ -11199,7 +11199,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="PeachesCan">
-        <nominal>17</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>12</min>
@@ -11243,7 +11243,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="PorkCan">
-        <nominal>17</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>12</min>
@@ -11276,7 +11276,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="PowderedMilk">
-        <nominal>17</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>12</min>
@@ -11309,7 +11309,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Rice">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -11320,7 +11320,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="SaltySticks">
-        <nominal>25</nominal>
+        <nominal>23</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
         <min>18</min>
@@ -11375,7 +11375,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="SodaCan_Cola">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>16</min>
@@ -11386,7 +11386,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="SodaCan_Fronta">
-        <nominal>22</nominal>
+        <nominal>29</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>16</min>
@@ -11397,7 +11397,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="SodaCan_Kvass">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>16</min>
@@ -11408,7 +11408,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="SodaCan_Pipsi">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>16</min>
@@ -11419,7 +11419,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="SodaCan_Spite">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>16</min>
@@ -11430,7 +11430,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="SpaghettiCan">
-        <nominal>17</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>12</min>
@@ -11452,7 +11452,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="TacticalBaconCan">
-        <nominal>12</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>5</min>
@@ -11474,7 +11474,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Tomato">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -11485,7 +11485,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="TunaCan">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -11540,7 +11540,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Zagorky">
-        <nominal>17</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>12</min>
@@ -11551,7 +11551,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="ZagorkyPeanuts">
-        <nominal>17</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>12</min>
@@ -11562,7 +11562,7 @@
         <usage name="FoodDrink"/>
     </type>
 <type name="Zucchini">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>
@@ -19217,7 +19217,7 @@
         <usage name="Plants"/>
     </type>
 <type name="GreenBellPepper">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>15</min>

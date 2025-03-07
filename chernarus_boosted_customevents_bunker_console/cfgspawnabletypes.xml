@@ -3,15 +3,30 @@
 	<!-- ################### CUSTOM SPAWNABLE ITEMS START ################### -->
 	<!-- Drop some Loot -->
 	<type name="DryBag_Yellow">
-		<attachments chance="1.0">
-			<item name="PaydayMask_Dallas" />
-		</attachments>
-		<attachments chance="1.0">
-			<item name="PaydayMask_Dallas" />
-		</attachments>
-		<attachments chance="1.0">
-			<item name="PunchedCard" />
-		</attachments>
+		<cargo chance="1.0">
+			<item name="AK74" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="AK74_Hndgrd" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="AK74_WoodBttstck" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="Mag_AK74_30Rnd" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="Mag_AK74_30Rnd" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="Mag_AK74_30Rnd" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="KobraOptic" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="Battery9V" />
+		</cargo>
 	</type>
 	<!-- Mich helmet with NVG -->
 	<type name="Mich2001Helmet">

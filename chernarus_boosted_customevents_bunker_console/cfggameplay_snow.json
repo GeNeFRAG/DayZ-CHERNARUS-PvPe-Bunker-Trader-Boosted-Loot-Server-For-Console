@@ -51,20 +51,16 @@
       "custom/b_Bunker_BlackLake_v2_Loot.json",
       "custom/dzmc_blacklake_by_novoGOD.json",
       "custom/BennettsTraderShip_Elektro.json",
-      "custom/container_mil_garages.json"
+      "custom/container_mil_garages.json",
+      "custom/PrisonBridge.json"
     ],
-    "environmentMinTemps": [-4,-4,-4,-3,-2,-1,-1,-2,-3,-4,-4,-4],
-    "environmentMaxTemps": [2,2,2,5,8,11,11,8,5,2,2,2],
-    "wetnessWeightModifiers": [
-      1,
-      1,
-      1.33,
-      1.66,
-      2
-    ]
+    "environmentMinTemps": [-8, -6, -4, -2, 0, 2, 4, 3, 1, -1, -4, -7],                                
+    "environmentMaxTemps": [-2, -1, 1, 4, 6, 8, 10, 9, 6, 3, 0, -2],
+    "wetnessWeightModifiers": [1, 1 , 1.33, 1.66, 2]
   },
   "BaseBuildingData": {
     "HologramData": {
+      "disableColdAreaBuildingCheck": false,
       "disableIsCollidingBBoxCheck": 1,
       "disableIsCollidingPlayerCheck": 1,
       "disableIsClippingRoofCheck": 1,
@@ -105,5 +101,9 @@
     "ignoreNavItemsOwnership": 1,
     "displayPlayerPosition": 1,
     "displayNavInfo": 1
+  },
+  "VehicleData":
+  {
+        "boatDecayMultiplier": 1
   }
 }
