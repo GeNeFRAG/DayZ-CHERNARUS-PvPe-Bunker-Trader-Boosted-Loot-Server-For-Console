@@ -201,9 +201,9 @@
         </children>
     </event>
     <event name="AnimalBear">
-        <nominal>20</nominal>
-        <min>19</min>
-        <max>20</max>
+        <nominal>4</nominal>
+        <min>2</min>
+        <max>3</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -348,9 +348,9 @@
         </children>
     </event>
     <event name="AnimalWolf">
-        <nominal>8</nominal>
-        <min>4</min>
-        <max>6</max>
+        <nominal>10</nominal>
+        <min>6</min>
+        <max>8</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>200</saferadius>
@@ -361,8 +361,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="6" min="2" type="Animal_CanisLupus_Grey"/>
-            <child lootmax="0" lootmin="0" max="4" min="0" type="Animal_CanisLupus_White"/>
+            <child lootmax="0" lootmin="0" max="5" min="3" type="Animal_CanisLupus_Grey"/>
+            <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CanisLupus_White"/>
         </children>
     </event>
     <event name="InfectedArmy">
