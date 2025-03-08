@@ -25,16 +25,16 @@
         <text> ***** !! NEW LOCKED CONTAINERS IN TOXIC, FIND THE RIGHT KEYS !! ***** </text>
     </message>
     -->
-     <!--
     <message>
         <repeat>15</repeat>
         <text> ***** !! RAIDWEEKEND ACTIVE !! ***** </text>
     </message>
-    -->
+    <!--
      <message>
         <repeat>15</repeat>
         <text> ***** !! AIR DROPS ACTIVE !! ***** </text>
     </message>
+    -->
     <message>
         <repeat>15</repeat>
         <text> ***** !! BLIZZARD ALARM !! ***** </text>
