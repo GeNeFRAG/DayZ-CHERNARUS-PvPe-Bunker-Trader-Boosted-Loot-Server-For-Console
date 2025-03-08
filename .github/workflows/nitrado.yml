@@ -333,51 +333,54 @@ jobs:
                     print(f"ERROR: {str(e)}")
                     return None
 
-          def compare_files(files_rep, files_remote):
-            """
-            Compare modified dates of local and remote files, considering a time difference tolerance.
+            def compare_files(files_rep, files_remote):
+                """
+                Compare modified dates of local and remote files, considering a time difference tolerance.
 
-            Args:
-                files_rep (list): List of local files.
-                files_remote (list): List of remote files.
+                Args:
+                    files_rep (list): List of local files.
+                    files_remote (list): List of remote files.
 
-            Returns:
-                list: List of modified files.
-            """
-            print(f"Compare modified date local and remote files...")
-            modified_files = []
-            remote_files_dict = {file['name']: file for file in files_remote}
+                Returns:
+                    list: List of modified files.
+                """
+                print(f"Compare modified date local and remote files...")
+                modified_files = []
+                remote_files_dict = {file['name']: file for file in files_remote}
+                base_path = f"/games/{self.server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
 
-            for local_file in files_rep:
-                local_name = local_file['name']
-                local_modified_at = datetime.fromisoformat(local_file['modified_at']).replace(tzinfo=timezone.utc)
-                remote_file = remote_files_dict.get(local_name)
+                for local_file in files_rep:
+                    local_name = local_file['name']
+                    local_modified_at = datetime.fromisoformat(local_file['modified_at']).replace(tzinfo=timezone.utc)
+                    remote_file = remote_files_dict.get(local_name)
 
-                if remote_file:
-                    remote_modified_at = datetime.fromisoformat(remote_file['modified_at']).replace(tzinfo=timezone.utc)
-                    time_difference = (local_modified_at - remote_modified_at).total_seconds()
-                    print(f"LOCAL: {local_name}:{local_modified_at} <-> REMOTE: {remote_file['name']}:{remote_modified_at}")
-                    print(f"Time Diff: {time_difference}")
-                    if time_difference >= 0:
+                    if remote_file:
+                        remote_modified_at = datetime.fromisoformat(remote_file['modified_at']).replace(tzinfo=timezone.utc)
+                        time_difference = (local_modified_at - remote_modified_at).total_seconds()
+                        print(f"LOCAL: {local_name}:{local_modified_at} <-> REMOTE: {remote_file['name']}:{remote_modified_at}")
+                        print(f"Time Diff: {time_difference}")
+                        if time_difference >= 0:
+                            modified_files.append({
+                                'local_path': local_file['path'],
+                                'remote_path': remote_file['path'],
+                                'local_modified_at': local_modified_at.isoformat(),
+                                'remote_modified_at': remote_modified_at.isoformat(),
+                                'name': local_name
+                            })
+                    else:
+                        # File is local but not remote, add it to modified files
+                        subdir = os.path.relpath(os.path.dirname(local_file['path']), os.getenv('GITHUB_WORKSPACE'))
                         modified_files.append({
                             'local_path': local_file['path'],
-                            'remote_path': remote_file['path'],
+                            'remote_path': f"{base_path}/{subdir}/{local_name}",
                             'local_modified_at': local_modified_at.isoformat(),
-                            'remote_modified_at': remote_modified_at.isoformat(),
+                            'remote_modified_at': None,
                             'name': local_name
                         })
-                else:
-                    # File is local but not remote, add it to modified files
-                    modified_files.append({
-                        'local_path': local_file['path'],
-                        'remote_path': f"{remote_base_path}/{local_name}",
-                        'local_modified_at': local_modified_at.isoformat(),
-                        'remote_modified_at': None,
-                        'name': local_name
-                    })
+                        print(f"File {local_name} is local but not remote, adding to modified files with path {base_path}/{subdir}/{local_name}")
 
-            print(f"{len(modified_files)} modified files")
-            return modified_files
+                print(f"{len(modified_files)} modified files")
+                return modified_files
 
           def get_last_commit_date(repo_path, file_path):
                 """
