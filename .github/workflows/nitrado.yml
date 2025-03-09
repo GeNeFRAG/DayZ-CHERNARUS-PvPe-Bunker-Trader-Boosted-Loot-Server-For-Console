@@ -38,209 +38,281 @@ jobs:
           NITRADO_LOGIN: ${{ secrets.NITRADO_LOGIN }}
           GAME_SERVER_ID: ${{ secrets.GAME_SERVER_ID }}
         run: |
-          cat > deploy_to_nitrado.py << 'EOF'
-          import os
-          import requests
-          import json
-          import zipfile
-          from datetime import datetime, timezone
-          import subprocess
+            cat > deploy_to_nitrado.py << 'EOF'
+            import os
+            import requests
+            import json
+            import zipfile
+            from datetime import datetime, timezone
+            import subprocess
 
-          NITRADO_API_BASE_URL = 'https://api.nitrado.net/services/'
+            NITRADO_API_BASE_URL = "https://api.nitrado.net/services/"
 
-          class NitradoAPI:
-              def __init__(self, token, nitrado_id, server_id, remote_base_path, ssl_verify=True):
-                  self.token = token
-                  self.nitrado_id = nitrado_id
-                  self.server_id = server_id
-                  self.headers = {'Authorization': f'Bearer {token}'}
-                  self.remote_base_path = remote_base_path
-                  self.ssl_verify = ssl_verify
 
-              def download_file(self, file_path):
-                  try:
-                      url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/download?file={file_path}'
-                      token_response = self._get_download_token(url)
-                      if not token_response or 'data' not in token_response:
-                          print(f"Failed to get download token for {file_path}")
-                          return None
-                      token_data = token_response['data']['token']
-                      download_url = token_data['url']
-                      download_token = token_data['token']
-                      download_response = requests.get(download_url, params={'token': download_token}, verify=self.ssl_verify)
-                      download_response.raise_for_status()
-                      return download_response.content
-                  except requests.exceptions.RequestException as e:
-                      print(f"Error downloading file {file_path}: {e}")
-                      return None
-                  except KeyError as e:
-                      print(f"Unexpected response format while downloading {file_path}: {e}")
-                      return None
+            class NitradoAPI:
+                def __init__(self, token, nitrado_id, server_id, remote_base_path, ssl_verify=True):
+                    self.token = token
+                    self.nitrado_id = nitrado_id
+                    self.server_id = server_id
+                    self.headers = {"Authorization": f"Bearer {token}"}
+                    self.remote_base_path = remote_base_path
+                    self.ssl_verify = ssl_verify
 
-              def _get_download_token(self, url):
-                  try:
-                      response = requests.get(url, headers=self.headers, verify=self.ssl_verify)
-                      response.raise_for_status()
-                      return response.json()
-                  except requests.exceptions.RequestException as e:
-                      print(f"API request failed: {e}")
-                      return None
-                  except ValueError as e:
-                      print(f"Failed to parse API response: {e}")
-                      return None
+                def download_file(self, file_path):
+                    try:
+                        url = f"{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/download?file={file_path}"
+                        token_response = self._get_download_token(url)
+                        if not token_response or "data" not in token_response:
+                            print(f"Failed to get download token for {file_path}")
+                            return None
+                        token_data = token_response["data"]["token"]
+                        download_url = token_data["url"]
+                        download_token = token_data["token"]
+                        download_response = requests.get(
+                            download_url, params={"token": download_token}, verify=self.ssl_verify
+                        )
+                        download_response.raise_for_status()
+                        return download_response.content
+                    except requests.exceptions.RequestException as e:
+                        print(f"Error downloading file {file_path}: {e}")
+                        return None
+                    except KeyError as e:
+                        print(f"Unexpected response format while downloading {file_path}: {e}")
+                        return None
 
-              def backup_files(self, modified_files):
-                  print("Backing up modified files...")
-                  backup_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'backups')
-                  os.makedirs(backup_dir, exist_ok=True)
-                  timestamp = datetime.now().strftime('%Y%m%d%H%M%S')
-                  backup_zip_path = os.path.join(backup_dir, f'backup_{timestamp}.zip')
-                  with zipfile.ZipFile(backup_zip_path, 'w') as backup_zip:
-                      for file in modified_files:
-                          content = self.download_file(file['remote_path'])
-                          if content:
-                              backup_zip.writestr(file['name'], content)
-                  if not backup_zip.namelist():
-                      print("No files could be downloaded. Backup zip is empty.")
-                      return False
-                  print(f"Backup created at {backup_zip_path}")
-                  return True
+                def _get_download_token(self, url):
+                    try:
+                        response = requests.get(url, headers=self.headers, verify=self.ssl_verify)
+                        response.raise_for_status()
+                        return response.json()
+                    except requests.exceptions.RequestException as e:
+                        print(f"API request failed: {e}")
+                        return None
+                    except ValueError as e:
+                        print(f"Failed to parse API response: {e}")
+                        return None
 
-              def _get_upload_token(self, filename, remote_path):
-                  print(f"Requesting upload token for {filename} to {remote_path}")
-                  try:
-                      url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload'
-                      values = {'path': remote_path, 'file': filename}
-                      response = requests.post(url, headers=self.headers, data=values)
-                      if response.status_code == 201:
-                          print(f"{response.status_code}: Successfully retrieved upload token. {response.text}")
-                          response_json = response.json()
-                          token = response_json['data']['token']
-                          return token
-                      else:
-                          print(f" ERROR: {response.status_code}: {response.text}")
-                          return None
-                  except Exception as e:
-                      print(f"ERROR: {str(e)}")
-                      return None
+                def backup_files(self, modified_files):
+                    print("Backing up modified files...")
+                    backup_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "backups")
+                    os.makedirs(backup_dir, exist_ok=True)
+                    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
+                    backup_zip_path = os.path.join(backup_dir, f"backup_{timestamp}.zip")
+                    with zipfile.ZipFile(backup_zip_path, "w") as backup_zip:
+                        for file in modified_files:
+                            content = self.download_file(file["remote_path"])
+                            if content:
+                                backup_zip.writestr(file["name"], content)
+                    if not backup_zip.namelist():
+                        print("No files could be downloaded. Backup zip is empty.")
+                        return False
+                    print(f"Backup created at {backup_zip_path}")
+                    return True
 
-              def upload_file(self, remote_path, filename, content, upload):
-                  print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
-                  try:
-                      upload_info = self._get_upload_token(filename, remote_path)
-                      if not upload_info:
-                          print("ERROR: Failed to get upload token")
-                          return False
-                      upload_url = upload_info['url']
-                      upload_token = upload_info['token']
-                      if upload:
-                          response = requests.post(upload_url, headers={'Content-Type': 'application/binary', 'token': upload_token}, data=content)
-                          if response.status_code == 200:
-                              print(f"{response.status_code}: Successfully uploaded to {upload_url}. {response.text}")
-                              return True
-                          else:
-                              print(f"ERROR: {response.status_code}: {response.text}")
-                              return False
-                      else:
-                          print(f"Upload disabled. Skipping upload.")
-                          return True
-                  except Exception as e:
-                      print(f"ERROR: {str(e)}")
-                      return False
+                def _get_upload_token(self, filename, remote_path):
+                    print(f"Requesting upload token for {filename} to {remote_path}")
+                    try:
+                        url = (
+                            f"{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/upload"
+                        )
+                        values = {"path": remote_path, "file": filename}
+                        response = requests.post(url, headers=self.headers, data=values)
+                        if response.status_code == 201:
+                            print(
+                                f"{response.status_code}: Successfully retrieved upload token. {response.text}"
+                            )
+                            response_json = response.json()
+                            token = response_json["data"]["token"]
+                            return token
+                        else:
+                            print(f" ERROR: {response.status_code}: {response.text}")
+                            return None
+                    except Exception as e:
+                        print(f"ERROR: {str(e)}")
+                        return None
 
-              def restart_server(self):
-                  print("Restarting server...")
-                  try:
-                      url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}/gameservers/restart'
-                      response = requests.post(url, headers=self.headers, verify=self.ssl_verify)
-                      if response.status_code == 200:
-                          print("Server restart initiated")
-                          return True
-                      else:
-                          print(f"ERROR: {response.text}")
-                          return False
-                  except Exception as e:
-                      print(f"ERROR: {str(e)}")
-                      return False
+                def upload_file(self, remote_path, filename, content, upload):
+                    print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
+                    try:
+                        upload_info = self._get_upload_token(filename, remote_path)
+                        if not upload_info:
+                            print("ERROR: Failed to get upload token")
+                            return False
+                        upload_url = upload_info["url"]
+                        upload_token = upload_info["token"]
+                        if upload:
+                            response = requests.post(
+                                upload_url,
+                                headers={
+                                    "Content-Type": "application/binary",
+                                    "token": upload_token,
+                                },
+                                data=content,
+                            )
+                            if response.status_code == 200:
+                                print(
+                                    f"{response.status_code}: Successfully uploaded to {upload_url}. {response.text}"
+                                )
+                                return True
+                            else:
+                                print(f"ERROR: {response.status_code}: {response.text}")
+                                return False
+                        else:
+                            print(f"Upload disabled. Skipping upload.")
+                            return True
+                    except Exception as e:
+                        print(f"ERROR: {str(e)}")
+                        return False
 
-              def get_file_stats(self, remote_dirs):
-                  print(f"Get file information from Nitrado...")
-                  base_path = f"/games/{self.server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
-                  file_stats = {}
-                  try:
-                      url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/list?dir={base_path}'
-                      response = requests.get(url, headers=self.headers, verify=self.ssl_verify)
-                      if response.status_code == 200:
-                          response_json = response.json()
-                          for file in response_json['data']['entries']:
-                              if file['type'] == 'file':
-                                  file_stats[file['path']] = {'path': file['path'], 'modified_at': datetime.fromtimestamp(file['modified_at']).isoformat(), 'name': file['name'], 'directory': 'root'}
-                      else:
-                          print(f"Error fetching file stats: {response.text}")
-                          return None
-                      for remote_dir in remote_dirs:
-                          dir_url = f'{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/list?dir={base_path}/{remote_dir}'
-                          dir_response = requests.get(dir_url, headers=self.headers, verify=self.ssl_verify)
-                          if dir_response.status_code == 200:
-                              dir_response_json = dir_response.json()
-                              for file in dir_response_json['data']['entries']:
-                                  if file['type'] == 'file':
-                                      file_stats[file['path']] = {'path': file['path'], 'modified_at': datetime.fromtimestamp(file['modified_at']).isoformat(), 'name': file['name'], 'directory': remote_dir}
-                          elif dir_response.status_code == 404:
-                              print(f"ERROR: Directory not found: {dir_response.status_code} {remote_dir}")
-                              return None
-                          else:
-                              print(f"Error fetching file stats from {remote_dir}: {dir_response.status_code}: {dir_response.text}")
-                              return None
-                      files_list = list(file_stats.values())
-                      print(f"Successfully fetched {len(files_list)} unique file stats from Nitrado")
-                      filename_counts = {}
-                      for file in files_list:
-                          filename_counts[file['name']] = filename_counts.get(file['name'], 0) + 1
-                      duplicates = {name: count for name, count in filename_counts.items() if count > 1}
-                      if duplicates:
-                          print("Warning: Found files with same name in different directories:")
-                          for name, count in duplicates.items():
-                              print(f"  {name}: appears {count} times")
-                          print("Using full paths to ensure unique identification")
-                      return files_list
-                  except Exception as e:
-                      print(f"ERROR: {str(e)}")
-                      return None
+                def restart_server(self):
+                    print("Restarting server...")
+                    try:
+                        url = f"{NITRADO_API_BASE_URL}{self.nitrado_id}/gameservers/restart"
+                        response = requests.post(url, headers=self.headers, verify=self.ssl_verify)
+                        if response.status_code == 200:
+                            print("Server restart initiated")
+                            return True
+                        else:
+                            print(f"ERROR: {response.text}")
+                            return False
+                    except Exception as e:
+                        print(f"ERROR: {str(e)}")
+                        return False
+
+                def get_file_stats(self, remote_dirs):
+                    print(f"Get file information from Nitrado...")
+                    base_path = f"/games/{self.server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
+                    file_stats = {}
+                    try:
+                        url = f"{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/list?dir={base_path}"
+                        response = requests.get(url, headers=self.headers, verify=self.ssl_verify)
+                        if response.status_code == 200:
+                            response_json = response.json()
+                            for file in response_json["data"]["entries"]:
+                                if file["type"] == "file":
+                                    file_stats[file["path"]] = {
+                                        "path": file["path"],
+                                        "modified_at": datetime.fromtimestamp(
+                                            file["modified_at"]
+                                        ).isoformat(),
+                                        "name": file["name"],
+                                        "directory": "root",
+                                    }
+                        else:
+                            print(f"Error fetching file stats: {response.text}")
+                            return None
+                        for remote_dir in remote_dirs:
+                            dir_url = f"{NITRADO_API_BASE_URL}{self.nitrado_id}{self.remote_base_path}/list?dir={base_path}/{remote_dir}"
+                            dir_response = requests.get(
+                                dir_url, headers=self.headers, verify=self.ssl_verify
+                            )
+                            if dir_response.status_code == 200:
+                                dir_response_json = dir_response.json()
+                                for file in dir_response_json["data"]["entries"]:
+                                    if file["type"] == "file":
+                                        file_stats[file["path"]] = {
+                                            "path": file["path"],
+                                            "modified_at": datetime.fromtimestamp(
+                                                file["modified_at"]
+                                            ).isoformat(),
+                                            "name": file["name"],
+                                            "directory": remote_dir,
+                                        }
+                            elif dir_response.status_code == 404:
+                                print(
+                                    f"ERROR: Directory not found: {dir_response.status_code} {remote_dir}"
+                                )
+                                return None
+                            else:
+                                print(
+                                    f"Error fetching file stats from {remote_dir}: {dir_response.status_code}: {dir_response.text}"
+                                )
+                                return None
+                        files_list = list(file_stats.values())
+                        print(
+                            f"Successfully fetched {len(files_list)} unique file stats from Nitrado"
+                        )
+                        filename_counts = {}
+                        for file in files_list:
+                            filename_counts[file["name"]] = filename_counts.get(file["name"], 0) + 1
+                        duplicates = {
+                            name: count for name, count in filename_counts.items() if count > 1
+                        }
+                        if duplicates:
+                            print("Warning: Found files with same name in different directories:")
+                            for name, count in duplicates.items():
+                                print(f"  {name}: appears {count} times")
+                            print("Using full paths to ensure unique identification")
+                        return files_list
+                    except Exception as e:
+                        print(f"ERROR: {str(e)}")
+                        return None
+
 
             def compare_files(files_rep, files_remote):
                 print(f"Compare modified date local and remote files...")
                 modified_files = []
-                remote_files_dict = {file['name']: file for file in files_remote}
-                base_path = f"/games/{self.server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
+                remote_files_dict = {file["name"]: file for file in files_remote}
+                base_path = (
+                    f"/games/{self.server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
+                )
                 for local_file in files_rep:
-                    local_name = local_file['name']
-                    local_modified_at = datetime.fromisoformat(local_file['modified_at']).replace(tzinfo=timezone.utc)
+                    local_name = local_file["name"]
+                    local_modified_at = datetime.fromisoformat(local_file["modified_at"]).replace(
+                        tzinfo=timezone.utc
+                    )
                     remote_file = remote_files_dict.get(local_name)
                     if remote_file:
-                        remote_modified_at = datetime.fromisoformat(remote_file['modified_at']).replace(tzinfo=timezone.utc)
+                        remote_modified_at = datetime.fromisoformat(
+                            remote_file["modified_at"]
+                        ).replace(tzinfo=timezone.utc)
                         time_difference = (local_modified_at - remote_modified_at).total_seconds()
-                        print(f"LOCAL: {local_name}:{local_modified_at} <-> REMOTE: {remote_file['name']}:{remote_modified_at}")
+                        print(
+                            f"LOCAL: {local_name}:{local_modified_at} <-> REMOTE: {remote_file['name']}:{remote_modified_at}"
+                        )
                         print(f"Time Diff: {time_difference}")
                         if time_difference >= 0:
-                            modified_files.append({'local_path': local_file['path'], 'remote_path': remote_file['path'], 'local_modified_at': local_modified_at.isoformat(), 'remote_modified_at': remote_modified_at.isoformat(), 'name': local_name})
+                            modified_files.append(
+                                {
+                                    "local_path": local_file["path"],
+                                    "remote_path": remote_file["path"],
+                                    "local_modified_at": local_modified_at.isoformat(),
+                                    "remote_modified_at": remote_modified_at.isoformat(),
+                                    "name": local_name,
+                                }
+                            )
                     else:
-                        subdir = os.path.relpath(os.path.dirname(local_file['path']), os.getenv('GITHUB_WORKSPACE'))
-                        modified_files.append({'local_path': local_file['path'], 'remote_path': f"{base_path}/{subdir}/{local_name}", 'local_modified_at': local_modified_at.isoformat(), 'remote_modified_at': None, 'name': local_name})
-                        print(f"File {local_name} is local but not remote, adding to modified files with path {base_path}/{subdir}/{local_name}")
+                        subdir = os.path.relpath(
+                            os.path.dirname(local_file["path"]), os.getenv("GITHUB_WORKSPACE")
+                        )
+                        modified_files.append(
+                            {
+                                "local_path": local_file["path"],
+                                "remote_path": f"{base_path}/{subdir}/{local_name}",
+                                "local_modified_at": local_modified_at.isoformat(),
+                                "remote_modified_at": None,
+                                "name": local_name,
+                            }
+                        )
+                        print(
+                            f"File {local_name} is local but not remote, adding to modified files with path {base_path}/{subdir}/{local_name}"
+                        )
                 print(f"{len(modified_files)} modified files")
                 return modified_files
 
+
             def get_last_commit_date(repo_path, file_path):
                 try:
-                    history_cmd = ['git', '-C', repo_path, 'log', '--pretty=format:%H', file_path]
-                    history = subprocess.run(history_cmd, check=True, capture_output=True, text=True)
-                    commits = history.stdout.strip().split('\n')
+                    history_cmd = ["git", "-C", repo_path, "log", "--pretty=format:%H", file_path]
+                    history = subprocess.run(
+                        history_cmd, check=True, capture_output=True, text=True
+                    )
+                    commits = history.stdout.strip().split("\n")
                     print(f"Found {len(commits)} commits for {file_path}")
-                    if not commits or commits[0] == '':
+                    if not commits or commits[0] == "":
                         print(f"No commit history found for {file_path}")
                         return None
-                    date_cmd = ['git', '-C', repo_path, 'show', '-s', '--format=%aI', commits[0]]
+                    date_cmd = ["git", "-C", repo_path, "show", "-s", "--format=%aI", commits[0]]
                     result = subprocess.run(date_cmd, check=True, capture_output=True, text=True)
                     commit_date = result.stdout.strip()
                     print(f"Last commit date for {file_path}: {commit_date}")
@@ -255,38 +327,52 @@ jobs:
                     print(f"Unexpected error: {str(e)}")
                     return None
 
+
             def scan_repository_files(deploy_directory):
                 print(f"Scanning repository files in {deploy_directory}...")
                 files_to_check = []
-                repo_path = os.getenv('GITHUB_WORKSPACE')
+                repo_path = os.getenv("GITHUB_WORKSPACE")
                 base_dir = os.path.join(repo_path, deploy_directory)
                 print(f"Repository path: {repo_path}")
                 print(f"Base directory: {base_dir}")
                 for root, _, files in os.walk(base_dir):
-                    if any(part.startswith('.') for part in root.split(os.sep)):
+                    if any(part.startswith(".") for part in root.split(os.sep)):
                         continue
                     for file in files:
-                        if file.startswith('.') or file == 'deploy-config.json' or file.endswith('.py'):
+                        if (
+                            file.startswith(".")
+                            or file == "deploy-config.json"
+                            or file.endswith(".py")
+                        ):
                             continue
                         full_path = os.path.join(root, file)
                         rel_path = os.path.relpath(full_path, repo_path)
                         modified_at = get_last_commit_date(repo_path, rel_path)
                         if modified_at:
-                            files_to_check.append({'path': full_path, 'modified_at': modified_at, 'name': file})
+                            files_to_check.append(
+                                {"path": full_path, "modified_at": modified_at, "name": file}
+                            )
                 print(f"Found {len(files_to_check)} files to process")
                 return files_to_check
 
+
             def main():
-                with open('deploy-config.json', 'r') as f:
+                with open("deploy-config.json", "r") as f:
                     config = json.load(f)
-                remote_base_path = config['remote_base_path']
-                remote_dirs = config['remote_dirs']
-                restart_after_deploy = config['restart_after_deploy']
-                ssl_verify = config['ssl_verify']
-                deploy_directory = config['deploy_directory']
-                upload = config['upload']
-                api = NitradoAPI(os.environ['NITRADO_API_TOKEN'], os.environ['NITRADO_LOGIN'], os.environ['GAME_SERVER_ID'], remote_base_path, ssl_verify)
-                repo_path = os.getenv('GITHUB_WORKSPACE')
+                remote_base_path = config["remote_base_path"]
+                remote_dirs = config["remote_dirs"]
+                restart_after_deploy = config["restart_after_deploy"]
+                ssl_verify = config["ssl_verify"]
+                deploy_directory = config["deploy_directory"]
+                upload = config["upload"]
+                api = NitradoAPI(
+                    os.environ["NITRADO_API_TOKEN"],
+                    os.environ["NITRADO_LOGIN"],
+                    os.environ["GAME_SERVER_ID"],
+                    remote_base_path,
+                    ssl_verify,
+                )
+                repo_path = os.getenv("GITHUB_WORKSPACE")
                 print(f"repo_path: {repo_path}")
                 files_rep = scan_repository_files(deploy_directory)
                 if not files_rep:
@@ -304,11 +390,11 @@ jobs:
                     print("Backup failed. Aborting deployment.")
                     return False
                 for file in modified_files:
-                    local_path = file['local_path']
-                    remote_path = os.path.dirname(file['remote_path'])
-                    with open(local_path, 'rb') as f:
+                    local_path = file["local_path"]
+                    remote_path = os.path.dirname(file["remote_path"])
+                    with open(local_path, "rb") as f:
                         content = f.read()
-                    if not api.upload_file(remote_path, file['name'], content, upload):
+                    if not api.upload_file(remote_path, file["name"], content, upload):
                         print(f"Failed to upload {local_path}")
                         return False
                 print("All modified files uploaded successfully.")
@@ -319,12 +405,15 @@ jobs:
                     print("Server restart initiated")
                 return True
 
+
             if __name__ == "__main__":
                 success = main()
                 if not success:
                     exit(1)
-          EOF
-          python deploy_to_nitrado.py
+                exit(0)
+
+            EOF
+            python deploy_to_nitrado.py
 
       - name: Upload backup artifacts
         uses: actions/upload-artifact@v4
