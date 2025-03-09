@@ -208,121 +208,121 @@ jobs:
                       print(f"ERROR: {str(e)}")
                       return None
 
-              def compare_files(files_rep, files_remote):
-                  print(f"Compare modified date local and remote files...")
-                  modified_files = []
-                  remote_files_dict = {file['name']: file for file in files_remote}
-                  base_path = f"/games/{self.server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
-                  for local_file in files_rep:
-                      local_name = local_file['name']
-                      local_modified_at = datetime.fromisoformat(local_file['modified_at']).replace(tzinfo=timezone.utc)
-                      remote_file = remote_files_dict.get(local_name)
-                      if remote_file:
-                          remote_modified_at = datetime.fromisoformat(remote_file['modified_at']).replace(tzinfo=timezone.utc)
-                          time_difference = (local_modified_at - remote_modified_at).total_seconds()
-                          print(f"LOCAL: {local_name}:{local_modified_at} <-> REMOTE: {remote_file['name']}:{remote_modified_at}")
-                          print(f"Time Diff: {time_difference}")
-                          if time_difference >= 0:
-                              modified_files.append({'local_path': local_file['path'], 'remote_path': remote_file['path'], 'local_modified_at': local_modified_at.isoformat(), 'remote_modified_at': remote_modified_at.isoformat(), 'name': local_name})
-                      else:
-                          subdir = os.path.relpath(os.path.dirname(local_file['path']), os.getenv('GITHUB_WORKSPACE'))
-                          modified_files.append({'local_path': local_file['path'], 'remote_path': f"{base_path}/{subdir}/{local_name}", 'local_modified_at': local_modified_at.isoformat(), 'remote_modified_at': None, 'name': local_name})
-                          print(f"File {local_name} is local but not remote, adding to modified files with path {base_path}/{subdir}/{local_name}")
-                  print(f"{len(modified_files)} modified files")
-                  return modified_files
+            def compare_files(files_rep, files_remote):
+                print(f"Compare modified date local and remote files...")
+                modified_files = []
+                remote_files_dict = {file['name']: file for file in files_remote}
+                base_path = f"/games/{self.server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
+                for local_file in files_rep:
+                    local_name = local_file['name']
+                    local_modified_at = datetime.fromisoformat(local_file['modified_at']).replace(tzinfo=timezone.utc)
+                    remote_file = remote_files_dict.get(local_name)
+                    if remote_file:
+                        remote_modified_at = datetime.fromisoformat(remote_file['modified_at']).replace(tzinfo=timezone.utc)
+                        time_difference = (local_modified_at - remote_modified_at).total_seconds()
+                        print(f"LOCAL: {local_name}:{local_modified_at} <-> REMOTE: {remote_file['name']}:{remote_modified_at}")
+                        print(f"Time Diff: {time_difference}")
+                        if time_difference >= 0:
+                            modified_files.append({'local_path': local_file['path'], 'remote_path': remote_file['path'], 'local_modified_at': local_modified_at.isoformat(), 'remote_modified_at': remote_modified_at.isoformat(), 'name': local_name})
+                    else:
+                        subdir = os.path.relpath(os.path.dirname(local_file['path']), os.getenv('GITHUB_WORKSPACE'))
+                        modified_files.append({'local_path': local_file['path'], 'remote_path': f"{base_path}/{subdir}/{local_name}", 'local_modified_at': local_modified_at.isoformat(), 'remote_modified_at': None, 'name': local_name})
+                        print(f"File {local_name} is local but not remote, adding to modified files with path {base_path}/{subdir}/{local_name}")
+                print(f"{len(modified_files)} modified files")
+                return modified_files
 
-              def get_last_commit_date(repo_path, file_path):
-                  try:
-                      history_cmd = ['git', '-C', repo_path, 'log', '--pretty=format:%H', file_path]
-                      history = subprocess.run(history_cmd, check=True, capture_output=True, text=True)
-                      commits = history.stdout.strip().split('\n')
-                      print(f"Found {len(commits)} commits for {file_path}")
-                      if not commits or commits[0] == '':
-                          print(f"No commit history found for {file_path}")
-                          return None
-                      date_cmd = ['git', '-C', repo_path, 'show', '-s', '--format=%aI', commits[0]]
-                      result = subprocess.run(date_cmd, check=True, capture_output=True, text=True)
-                      commit_date = result.stdout.strip()
-                      print(f"Last commit date for {file_path}: {commit_date}")
-                      return commit_date
-                  except subprocess.CalledProcessError as e:
-                      print(f"Git command failed:")
-                      print(f"stdout: {e.stdout}")
-                      print(f"stderr: {e.stderr}")
-                      print(f"return code: {e.returncode}")
-                      return None
-                  except Exception as e:
-                      print(f"Unexpected error: {str(e)}")
-                      return None
+            def get_last_commit_date(repo_path, file_path):
+                try:
+                    history_cmd = ['git', '-C', repo_path, 'log', '--pretty=format:%H', file_path]
+                    history = subprocess.run(history_cmd, check=True, capture_output=True, text=True)
+                    commits = history.stdout.strip().split('\n')
+                    print(f"Found {len(commits)} commits for {file_path}")
+                    if not commits or commits[0] == '':
+                        print(f"No commit history found for {file_path}")
+                        return None
+                    date_cmd = ['git', '-C', repo_path, 'show', '-s', '--format=%aI', commits[0]]
+                    result = subprocess.run(date_cmd, check=True, capture_output=True, text=True)
+                    commit_date = result.stdout.strip()
+                    print(f"Last commit date for {file_path}: {commit_date}")
+                    return commit_date
+                except subprocess.CalledProcessError as e:
+                    print(f"Git command failed:")
+                    print(f"stdout: {e.stdout}")
+                    print(f"stderr: {e.stderr}")
+                    print(f"return code: {e.returncode}")
+                    return None
+                except Exception as e:
+                    print(f"Unexpected error: {str(e)}")
+                    return None
 
-              def scan_repository_files(deploy_directory):
-                  print(f"Scanning repository files in {deploy_directory}...")
-                  files_to_check = []
-                  repo_path = os.getenv('GITHUB_WORKSPACE')
-                  base_dir = os.path.join(repo_path, deploy_directory)
-                  print(f"Repository path: {repo_path}")
-                  print(f"Base directory: {base_dir}")
-                  for root, _, files in os.walk(base_dir):
-                      if any(part.startswith('.') for part in root.split(os.sep)):
-                          continue
-                      for file in files:
-                          if file.startswith('.') or file == 'deploy-config.json' or file.endswith('.py'):
-                              continue
-                          full_path = os.path.join(root, file)
-                          rel_path = os.path.relpath(full_path, repo_path)
-                          modified_at = get_last_commit_date(repo_path, rel_path)
-                          if modified_at:
-                              files_to_check.append({'path': full_path, 'modified_at': modified_at, 'name': file})
-                  print(f"Found {len(files_to_check)} files to process")
-                  return files_to_check
+            def scan_repository_files(deploy_directory):
+                print(f"Scanning repository files in {deploy_directory}...")
+                files_to_check = []
+                repo_path = os.getenv('GITHUB_WORKSPACE')
+                base_dir = os.path.join(repo_path, deploy_directory)
+                print(f"Repository path: {repo_path}")
+                print(f"Base directory: {base_dir}")
+                for root, _, files in os.walk(base_dir):
+                    if any(part.startswith('.') for part in root.split(os.sep)):
+                        continue
+                    for file in files:
+                        if file.startswith('.') or file == 'deploy-config.json' or file.endswith('.py'):
+                            continue
+                        full_path = os.path.join(root, file)
+                        rel_path = os.path.relpath(full_path, repo_path)
+                        modified_at = get_last_commit_date(repo_path, rel_path)
+                        if modified_at:
+                            files_to_check.append({'path': full_path, 'modified_at': modified_at, 'name': file})
+                print(f"Found {len(files_to_check)} files to process")
+                return files_to_check
 
-              def main():
-                  with open('deploy-config.json', 'r') as f:
-                      config = json.load(f)
-                  remote_base_path = config['remote_base_path']
-                  remote_dirs = config['remote_dirs']
-                  restart_after_deploy = config['restart_after_deploy']
-                  ssl_verify = config['ssl_verify']
-                  deploy_directory = config['deploy_directory']
-                  upload = config['upload']
-                  api = NitradoAPI(os.environ['NITRADO_API_TOKEN'], os.environ['NITRADO_LOGIN'], os.environ['GAME_SERVER_ID'], remote_base_path, ssl_verify)
-                  repo_path = os.getenv('GITHUB_WORKSPACE')
-                  print(f"repo_path: {repo_path}")
-                  files_rep = scan_repository_files(deploy_directory)
-                  if not files_rep:
-                      print("No local files found to process")
-                      return False
-                  files_remote = api.get_file_stats(remote_dirs)
-                  if not files_remote:
-                      print("No remote files found to process")
-                      return False
-                  modified_files = compare_files(files_rep, files_remote)
-                  if not modified_files:
-                      print("No files modified. Skipping deployment.")
-                      return True
-                  if not api.backup_files(modified_files):
-                      print("Backup failed. Aborting deployment.")
-                      return False
-                  for file in modified_files:
-                      local_path = file['local_path']
-                      remote_path = os.path.dirname(file['remote_path'])
-                      with open(local_path, 'rb') as f:
-                          content = f.read()
-                      if not api.upload_file(remote_path, file['name'], content, upload):
-                          print(f"Failed to upload {local_path}")
-                          return False
-                  print("All modified files uploaded successfully.")
-                  if restart_after_deploy:
-                      if not api.restart_server():
-                          print("Failed to restart server")
-                          return False
-                      print("Server restart initiated")
-                  return True
+            def main():
+                with open('deploy-config.json', 'r') as f:
+                    config = json.load(f)
+                remote_base_path = config['remote_base_path']
+                remote_dirs = config['remote_dirs']
+                restart_after_deploy = config['restart_after_deploy']
+                ssl_verify = config['ssl_verify']
+                deploy_directory = config['deploy_directory']
+                upload = config['upload']
+                api = NitradoAPI(os.environ['NITRADO_API_TOKEN'], os.environ['NITRADO_LOGIN'], os.environ['GAME_SERVER_ID'], remote_base_path, ssl_verify)
+                repo_path = os.getenv('GITHUB_WORKSPACE')
+                print(f"repo_path: {repo_path}")
+                files_rep = scan_repository_files(deploy_directory)
+                if not files_rep:
+                    print("No local files found to process")
+                    return False
+                files_remote = api.get_file_stats(remote_dirs)
+                if not files_remote:
+                    print("No remote files found to process")
+                    return False
+                modified_files = compare_files(files_rep, files_remote)
+                if not modified_files:
+                    print("No files modified. Skipping deployment.")
+                    return True
+                if not api.backup_files(modified_files):
+                    print("Backup failed. Aborting deployment.")
+                    return False
+                for file in modified_files:
+                    local_path = file['local_path']
+                    remote_path = os.path.dirname(file['remote_path'])
+                    with open(local_path, 'rb') as f:
+                        content = f.read()
+                    if not api.upload_file(remote_path, file['name'], content, upload):
+                        print(f"Failed to upload {local_path}")
+                        return False
+                print("All modified files uploaded successfully.")
+                if restart_after_deploy:
+                    if not api.restart_server():
+                        print("Failed to restart server")
+                        return False
+                    print("Server restart initiated")
+                return True
 
-              if __name__ == "__main__":
-                  success = main()
-                  if not success:
-                      exit(1)
+            if __name__ == "__main__":
+                success = main()
+                if not success:
+                    exit(1)
           EOF
           python deploy_to_nitrado.py
 
