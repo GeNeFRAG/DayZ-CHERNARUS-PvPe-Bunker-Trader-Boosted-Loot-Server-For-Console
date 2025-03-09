@@ -247,13 +247,10 @@ jobs:
                         return None
 
 
-            def compare_files(files_rep, files_remote, server_id):
+            def compare_files(files_rep, files_remote):
                 print(f"Compare modified date local and remote files...")
                 modified_files = []
                 remote_files_dict = {file["name"]: file for file in files_remote}
-                base_path = (
-                    f"/games/{server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
-                )
                 for local_file in files_rep:
                     local_name = local_file["name"]
                     local_modified_at = datetime.fromisoformat(local_file["modified_at"]).replace(
@@ -280,20 +277,8 @@ jobs:
                                 }
                             )
                     else:
-                        subdir = os.path.relpath(
-                            os.path.dirname(local_file["path"]), os.getenv("GITHUB_WORKSPACE")
-                        )
-                        modified_files.append(
-                            {
-                                "local_path": local_file["path"],
-                                "remote_path": f"{base_path}/{subdir}/{local_name}",
-                                "local_modified_at": local_modified_at.isoformat(),
-                                "remote_modified_at": None,
-                                "name": local_name,
-                            }
-                        )
                         print(
-                            f"File {local_name} is local but not remote, adding to modified files with path {base_path}/{subdir}/{local_name}"
+                            f"File {local_name} not found in remote. Skipping comparison."
                         )
                 print(f"{len(modified_files)} modified files")
                 return modified_files
@@ -371,7 +356,6 @@ jobs:
                     ssl_verify,
                 )
                 repo_path = os.getenv("GITHUB_WORKSPACE")
-                server_id =  os.environ["GAME_SERVER_ID"]
                 print(f"repo_path: {repo_path}")
                 files_rep = scan_repository_files(deploy_directory)
                 if not files_rep:
@@ -381,7 +365,7 @@ jobs:
                 if not files_remote:
                     print("No remote files found to process")
                     return False
-                modified_files = compare_files(files_rep, files_remote, server_id)
+                modified_files = compare_files(files_rep, files_remote)
                 if not modified_files:
                     print("No files modified. Skipping deployment.")
                     return True
