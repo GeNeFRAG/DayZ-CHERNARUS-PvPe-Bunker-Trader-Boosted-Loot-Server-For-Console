@@ -47,7 +47,6 @@ jobs:
 
             NITRADO_API_BASE_URL = "https://api.nitrado.net/services/"
 
-
             class NitradoAPI:
                 def __init__(self, token, nitrado_id, server_id, remote_base_path, ssl_verify=True):
                     self.token = token
@@ -248,12 +247,12 @@ jobs:
                         return None
 
 
-            def compare_files(files_rep, files_remote):
+            def compare_files(files_rep, files_remote, server_id):
                 print(f"Compare modified date local and remote files...")
                 modified_files = []
                 remote_files_dict = {file["name"]: file for file in files_remote}
                 base_path = (
-                    f"/games/{self.server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
+                    f"/games/{server_id}/ftproot/dayzxb_missions/dayzOffline.chernarusplus/"
                 )
                 for local_file in files_rep:
                     local_name = local_file["name"]
@@ -372,6 +371,7 @@ jobs:
                     ssl_verify,
                 )
                 repo_path = os.getenv("GITHUB_WORKSPACE")
+                server_id =  os.environ["GAME_SERVER_ID"]
                 print(f"repo_path: {repo_path}")
                 files_rep = scan_repository_files(deploy_directory)
                 if not files_rep:
@@ -381,7 +381,7 @@ jobs:
                 if not files_remote:
                     print("No remote files found to process")
                     return False
-                modified_files = compare_files(files_rep, files_remote)
+                modified_files = compare_files(files_rep, files_remote, server_id)
                 if not modified_files:
                     print("No files modified. Skipping deployment.")
                     return True
