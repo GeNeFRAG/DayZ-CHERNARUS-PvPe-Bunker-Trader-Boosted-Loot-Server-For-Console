@@ -18,11 +18,11 @@
     <message>
         <delay>1</delay>
         <onconnect>1</onconnect>
-        <text>LOOT ONLY SPAWNS IN SEVEROGRAD</text>
+        <text>LOOT RESTRICTED TO SEVERO</text>
     </message>
-     <message>
+    <message>
         <repeat>15</repeat>
-        <text>Check out our Discord for Killfeed, Stats and our PvPe Server Project</text>
+        <text>Check out our Discord for Killfeed, Stats and our other Server Projects!</text>
     </message>
     <message>
         <repeat>15</repeat>
