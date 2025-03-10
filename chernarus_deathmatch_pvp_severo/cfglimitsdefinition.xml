@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<lists>
+    <categories>
+        <category name="special"/>
+    </categories>
+    <tags>
+        <tag name="floor"/>
+        <tag name="shelves"/>
+        <tag name="ground"/>
+    </tags>
+    <usageflags>
+        <usage name="DontUse"/>
+        <usage name="DeathMatch"/>
+    </usageflags>
+    <valueflags>
+        <value name="Tier1"/>
+        <value name="Tier2"/>
+        <value name="Tier3"/>
+        <value name="Tier4"/>
+        <value name="Unique"/>
+    </valueflags>
+</lists>

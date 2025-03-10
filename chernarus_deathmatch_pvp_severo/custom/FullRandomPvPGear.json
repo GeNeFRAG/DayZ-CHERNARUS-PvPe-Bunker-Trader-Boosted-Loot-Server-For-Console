@@ -1,0 +1,2272 @@
+{
+	"_comments1": "FullRandomPvPGear",
+    "_comments2": "Made by Terra Viator (DutchOverland) 2023",
+    "spawnWeight": 1,
+    "name": "CombatLoadout",
+    "characterTypes": [
+	    "SurvivorM_Mirek",
+        "SurvivorM_Boris",
+        "SurvivorM_Cyril",
+        "SurvivorM_Denis",
+        "SurvivorM_Elias",
+        "SurvivorM_Francis",
+        "SurvivorM_Guo",
+        "SurvivorM_Hassan",
+        "SurvivorM_Indar",
+        "SurvivorM_Jose",
+        "SurvivorM_Kaito",
+        "SurvivorM_Lewis",
+        "SurvivorM_Manua",
+        "SurvivorM_Niki",
+        "SurvivorM_Oliver",
+        "SurvivorM_Peter",
+        "SurvivorM_Quinn",
+        "SurvivorM_Rolf",
+        "SurvivorM_Seth",
+        "SurvivorM_Taiki",
+        "SurvivorF_Eva",
+        "SurvivorF_Frida",
+        "SurvivorF_Gabi",
+        "SurvivorF_Helga",
+        "SurvivorF_Irena",
+        "SurvivorF_Judy",
+        "SurvivorF_Keiko",
+        "SurvivorF_Linda",
+        "SurvivorF_Maria",
+        "SurvivorF_Naomi",
+        "SurvivorF_Baty"
+    ],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "shoulderR",
+            "discreteItemSets": [
+                {
+                    "itemType": "Winchester70",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [
+                         {
+                            "itemType": "HuntingOptic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ]
+                },
+				{
+                    "itemType": "Winchester70_Green",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [
+                         {
+                            "itemType": "HuntingOptic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ]
+                },
+				{
+                    "itemType": "Winchester70_Black",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [
+                         {
+                            "itemType": "HuntingOptic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ]
+                },
+				{
+                    "itemType": "M14",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [
+                         {
+                            "itemType": "ACOGOptic_6x",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+						{
+                            "itemType": "Mag_M14_20Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ]
+                },
+				{
+                    "itemType": "SVD",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "AK_Suppressor",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "Mag_SVD_10Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },                        
+                        {
+                            "itemType": "PSO11Optic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [ "Battery9V"       
+                            ]
+                        }                 
+                    ]
+                },
+                {
+                    "itemType": "SVD_Wood",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "AK_Suppressor",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "Mag_SVD_10Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },                        
+                        {
+                            "itemType": "PSO11Optic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [ "Battery9V"       
+                            ]
+                        }                 
+                    ]
+                },
+				{
+                    "itemType": "CZ550",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "complexChildrenTypes": [
+                         {
+                            "itemType": "HuntingOptic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+						{
+                            "itemType": "Mag_CZ550_10Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ]
+                }
+            ] 
+        },      
+        {
+            "slotName": "shoulderL",
+            "discreteItemSets": [
+                {
+                    "itemType": "M4A1_Black",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "M4_Suppressor",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "M4_RISHndgrd_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "M4_MPBttstck",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },                         
+                        {
+                            "itemType": "ACOGOptic_6x",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [ ""
+                                
+                            ]
+                        },
+						{
+                            "itemType": "UniversalLight",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "Mag_STANAG_60Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [ ""
+                        
+                    ]
+                },
+				{
+                    "itemType": "Aug",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "M4_Suppressor",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },                        
+                        {
+                            "itemType": "ACOGOptic_6x",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [ ""
+                                
+                            ]
+                        },
+						{
+                            "itemType": "UniversalLight",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "Mag_STANAG_60Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [ ""
+                        
+                    ]
+                },
+				{
+                    "itemType": "AK74_Black",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "AK_Suppressor",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "AK_RailHndgrd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "AK_PlasticBttstck_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },                         
+                        {
+                            "itemType": "PSO11Optic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [ 
+							   "Battery9V"
+                                
+                            ]
+                        },
+						{
+                            "itemType": "UniversalLight",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "Mag_AK74_45Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [ ""
+                        
+                    ]
+                },
+				{
+                    "itemType": "AK101_Green",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "AK_Suppressor",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "AK_RailHndgrd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "AK_PlasticBttstck_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },                         
+                        {
+                            "itemType": "PSO11Optic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [ 
+							   "Battery9V"
+                                
+                            ]
+                        },
+						{
+                            "itemType": "UniversalLight",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "Mag_AK101_30Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [ ""
+                        
+                    ]
+                },
+				{
+                    "itemType": "AKM",
+                    "spawnWeight": 3,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "AK_Suppressor",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "AK_RailHndgrd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+                        {
+                            "itemType": "AK_PlasticBttstck_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },                         
+                        {
+                            "itemType": "PSO11Optic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [ 
+							   "Battery9V"
+                                
+                            ]
+                        },
+						{
+                            "itemType": "UniversalLight",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": true,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ]
+                        },
+                        {
+                            "itemType": "Mag_AKM_Drum75Rnd",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [ ""
+                        
+                    ]
+                }
+            ] 
+            },
+
+		{
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "PlateCarrierVest_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PlateCarrierPouches_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches_Camo",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches_Green",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierHolster_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+						{
+                            "itemType": "PlateCarrierHolster_Green",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+						{
+                            "itemType": "PlateCarrierHolster_Camo",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+						{
+                            "itemType": "PlateCarrierHolster",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                        
+                    ]
+                },
+				{
+                    "itemType": "PlateCarrierVest_Camo",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PlateCarrierPouches_Camo",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches_Green",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierHolster_Camo",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+						{
+                            "itemType": "PlateCarrierHolster_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+						{
+                            "itemType": "PlateCarrierHolster_Green",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+						{
+                            "itemType": "PlateCarrierHolster",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                        
+                    ]
+                },
+				{
+                    "itemType": "PlateCarrierVest_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PlateCarrierPouches_Green",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches_Camo",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierHolster_Green",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        }
+                        
+                    ]
+                },
+				{
+                    "itemType": "PlateCarrierVest",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PlateCarrierPouches",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches_Camo",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierPouches_Green",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+							"simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd",
+								"Mag_FNX45_15Rnd",
+                                "Mag_FNX45_15Rnd",
+								"Mag_Deagle_9rnd",
+								"BandageDressing",
+						        "BandageDressing",
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierHolster",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1
+                        },
+						{
+                            "itemType": "Deagle",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 3,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_Deagle_9rnd"
+                            ]
+                        },
+						{
+                            "itemType": "RGD5Grenade",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 4
+                        },
+						{
+                            "itemType": "RGD5Grenade",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 4
+                        },
+                        {
+                            "itemType": "M67Grenade",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 4
+                        },
+                        {
+                            "itemType": "M67Grenade",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 4
+                        },
+                        {
+                            "itemType": "FlashGrenade",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 5
+                        },
+						{
+                            "itemType": "M18SmokeGrenade_White",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 6
+                        },
+						{
+                            "itemType": "M18SmokeGrenade_Red",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 6
+                        },
+                        {
+                            "itemType": "M18SmokeGrenade_Green",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Back",
+            "discreteItemSets": [
+                {
+                    "itemType": "AliceBag_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Mag_STANAG_60Rnd",
+						"Mag_AKM_Drum75Rnd",
+						"Mag_AK74_45Rnd",
+						"Mag_AK101_30Rnd",
+						"Mag_M14_20Rnd",
+						"AmmoBox_357_20Rnd",
+						"TacticalBaconCan_Opened",
+						"Rice",
+						"SodaCan_Kvass",
+						"AmmoBox_45ACP_25rnd",
+                        "ChernarusMap",
+                        "AmmoBox_308Win_20Rnd"
+                    ]
+                },
+				{
+                    "itemType": "AliceBag_Camo",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Mag_STANAG_60Rnd",
+						"Mag_AKM_Drum75Rnd",
+						"Mag_AK74_45Rnd",
+						"Mag_AK101_30Rnd",
+						"Mag_M14_20Rnd",
+						"AmmoBox_357_20Rnd",
+						"TacticalBaconCan_Opened",
+						"Rice",
+						"SodaCan_Kvass",
+						"AmmoBox_45ACP_25rnd",
+                        "ChernarusMap",
+                        "AmmoBox_308Win_20Rnd"
+                    ]
+                },
+				{
+                    "itemType": "AliceBag_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Mag_STANAG_60Rnd",
+						"Mag_AKM_Drum75Rnd",
+						"Mag_AK74_45Rnd",
+						"Mag_AK101_30Rnd",
+						"Mag_M14_20Rnd",
+						"AmmoBox_357_20Rnd",
+						"TacticalBaconCan_Opened",
+						"Rice",
+						"SodaCan_Kvass",
+						"AmmoBox_45ACP_25rnd",
+                        "ChernarusMap",
+                        "AmmoBox_308Win_20Rnd"
+                    ]
+                },
+				{
+                    "itemType": "TortillaBag",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "simpleChildrenTypes": [
+                        "Mag_STANAG_60Rnd",
+						"Mag_AKM_Drum75Rnd",
+						"Mag_AK74_45Rnd",
+						"Mag_AK101_30Rnd",
+						"Mag_M14_20Rnd",
+						"AmmoBox_357_20Rnd",
+						"TacticalBaconCan_Opened",
+						"Rice",
+						"SodaCan_Kvass",
+						"AmmoBox_45ACP_25rnd",
+                        "ChernarusMap",
+                        "AmmoBox_308Win_20Rnd"
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "Mich2001Helmet",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "NVGoggles",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": true
+                        },
+                        {
+                            "itemType": "UniversalLight",
+                            "attributes": {
+                                "healthMin": 1,
+                                "healthMax": 1,
+                                "quantityMin": 1,
+                                "quantityMax": 1
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": true
+                        }
+                    ],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },
+        {
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "BalaclavaMask_Blackskull",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                },
+				{
+                    "itemType": "BalaclavaMask_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                },
+				{
+                    "itemType": "BalaclavaMask_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                },
+				{
+                    "itemType": "BalaclavaMask_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                },
+				{
+                    "itemType": "Balaclava3Holes_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                },
+				{
+                    "itemType": "Balaclava3Holes_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                },
+				{
+                    "itemType": "Bandana_Camopattern",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                },
+				{
+                    "itemType": "Bandana_Blackpattern",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                },
+				{
+                    "itemType": "Bandana_Greenpattern",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                },
+				{
+                    "itemType": "Balaclava3Holes_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1,
+                        "healthMax": 1,
+                        "quantityMin": 1,
+                        "quantityMax": 1
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [],
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": true
+                }
+            ]
+        },        
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "M65Jacket_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "M65Jacket_Olive",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "M65Jacket_Khaki",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "M65Jacket_Tan",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+				    "itemType": "HuntingJacket_Autumn",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "HuntingJacket_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "HuntingJacket_Spring",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "HuntingJacket_Summer",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+				    "itemType": "BDUJacket",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "USMCJacket_Woodland",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "TTsKOJacket_Camo",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "GorkaEJacket_Autumn",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "GorkaEJacket_Flat",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "GorkaEJacket_PautRev",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "GorkaEJacket_Summer",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "CargoPants_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "CargoPants_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "CargoPants_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "CargoPants_Grey",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+				    "itemType": "HunterPants_Autumn",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "HunterPants_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "HunterPants_Spring",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "HunterPants_Summer",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+				    "itemType": "BDUPants",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "USMCPants_Woodland",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "TTSKOPants",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "GorkaPants_Autumn",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "GorkaPants_Flat",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "GorkaPants_PautRev",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "GorkaPants_Summer",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "TacticalGloves_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "TacticalGloves_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "TacticalGloves_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "WoolGlovesFingerless_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "WoolGlovesFingerless_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "WoolGlovesFingerless_Tan",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "PaddedGloves_Threat",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "OMNOGloves_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "OMNOGloves_Gray",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "WoolGloves_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "WoolGloves_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "WoolGloves_Tan",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        },
+		{
+            "slotName": "Hips",
+            "discreteItemSets": [
+                {
+                    "itemType": "MilitaryBelt",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "NylonKnifeSheath",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+                        {
+                            "itemType": "Canteen",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },                        
+						{
+                            "itemType": "CombatKnife",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 7,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+						{
+                            "itemType": "FangeKnife",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 7,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+						{
+                            "itemType": "HuntingKnife",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 7,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierHolster_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierHolster_Green",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierHolster_Camo",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+						{
+                            "itemType": "PlateCarrierHolster",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                ""
+                            ]
+                        },
+						{
+                            "itemType": "FNX45",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 8,
+                            "simpleChildrenUseDefaultAttributes": false,
+                            "simpleChildrenTypes": [
+                                "Mag_FNX45_15Rnd",
+								"PistolSupressor"
+                            ]
+                        }                                                 
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "MilitaryBoots_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "MilitaryBoots_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "JungleBoots_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "JungleBoots_Green",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "JungleBoots_Beige",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+				{
+                    "itemType": "JungleBoots_Brown",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                }
+            ]
+        }
+    ]
+}
+
+

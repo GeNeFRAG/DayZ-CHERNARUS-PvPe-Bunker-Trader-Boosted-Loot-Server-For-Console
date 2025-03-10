@@ -37,10 +37,6 @@
     -->
     <message>
         <repeat>15</repeat>
-        <text> ***** !! BLIZZARD ALARM !! ***** </text>
-    </message>
-    <message>
-        <repeat>15</repeat>
         <text> ***** TRADER: ELEKTRO HARBOUR ***** </text>
     </message>
     <message>

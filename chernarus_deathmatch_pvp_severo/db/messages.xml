@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<messages>
+    <message>
+        <deadline>130</deadline>
+        <shutdown>1</shutdown>
+        <text>Server restart soon!</text>
+    </message>
+    <message>
+        <delay>1</delay>
+        <onconnect>1</onconnect>
+        <text>Welcome to #name!</text>
+    </message>
+    <message>
+        <delay>1</delay>
+        <onconnect>1</onconnect>
+        <text>SERVER RESTARTS EVERY 2 HOURS</text>
+    </message>
+    <message>
+        <delay>1</delay>
+        <onconnect>1</onconnect>
+        <text>LOOT ONLY SPAWNS IN SEVEROGRAD</text>
+    </message>
+     <message>
+        <repeat>15</repeat>
+        <text>Check out our Discord for Killfeed, Stats and our PvPe Server Project</text>
+    </message>
+    <message>
+        <repeat>15</repeat>
+        <text>https://discord.gg/2EFXyWdqr8</text>
+    </message>
+</messages>
