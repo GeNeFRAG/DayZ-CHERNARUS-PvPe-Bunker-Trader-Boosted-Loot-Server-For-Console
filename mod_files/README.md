@@ -1,1 +1,0 @@
-# Reusable code snippets and intructsion for easy and complex mods.
