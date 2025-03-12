@@ -15,6 +15,11 @@
         <onconnect>1</onconnect>
         <text>SERVER RESTARTS EVERY 2 HOURS</text>
     </message>
+     <message>
+        <delay>1</delay>
+        <onconnect>1</onconnect>
+        <text>https://discord.gg/2EFXyWdqr8</text>
+    </message>
     <message>
         <delay>1</delay>
         <onconnect>1</onconnect>

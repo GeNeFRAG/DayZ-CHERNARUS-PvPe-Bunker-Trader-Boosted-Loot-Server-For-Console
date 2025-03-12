@@ -1105,12 +1105,12 @@
         <max>3</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
-        <saferadius>50</saferadius>
-        <distanceradius>20</distanceradius>
-        <cleanupradius>50</cleanupradius>
+        <saferadius>10</saferadius>
+        <distanceradius>5</distanceradius>
+        <cleanupradius>20</cleanupradius>
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
-        <limit>mixed</limit>
+        <limit>child</limit>
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="Offroad_02"/>

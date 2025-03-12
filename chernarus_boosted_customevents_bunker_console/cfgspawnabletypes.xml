@@ -3325,7 +3325,7 @@
 			<item name="M4_CQBBttstck" chance="0.3"/>
 		</attachments>
 		<attachments chance="1.00">
-			<item name="M4_RISHndgrd_Black" chance="0.4"/>
+			<item name="M4_PlasticHndgrd" chance="0.4"/>
 			<item name="M4_RISHndgrd" chance="0.3"/>
 			<item name="M4_MPHndgrd" chance="0.3"/>
 		</attachments>

@@ -1,0 +1,357 @@
+{
+    "spawnWeight": 1,
+    "name": "Russian_Soldier",
+    "characterTypes": [],
+    "attachmentSlotItemSets": [
+        {
+            "slotName": "Hands",
+            "discreteItemSets": [
+                {
+                    "itemType": "AK74",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 1,
+                    "simpleChildrenTypes": [
+                        "Mag_AK74_45Rnd",
+                        "AK74_WoodBttstck",
+                        "AK74_Hndgrd",
+                        "AK_Suppressor"
+                    ],
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "KobraOptic",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": -1,
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+            
+                            "simpleChildrenUseDefaultAttributes": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "shoulderR",
+            "discreteItemSets": [
+                {
+                    "itemType": "Mosin9130_Black",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 2,
+                    "simpleChildrenTypes": [
+                        "PUScopeOptic",
+                        "ImprovisedSuppressor"
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false
+                }
+            ]
+        },
+        {
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "PlateCarrierVest_Black",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "PlateCarrierPouches_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            }
+                        },
+                        {
+                            "itemType": "PlateCarrierHolster_Black",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "simpleChildrenTypes": [
+                                "CZ75"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Headgear",
+            "discreteItemSets": [
+                {
+                    "itemType": "GorkaHelmet_Green",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "slotName": "Eyewear",
+            "discreteItemSets": [
+                {
+                    "itemType": "NVGHeadstrap",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "NVGoggles",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "slotName": "Gloves",
+            "discreteItemSets": [
+                {
+                    "itemType": "TacticalGloves_Green",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "slotName": "Body",
+            "discreteItemSets": [
+                {
+                    "itemType": "GorkaEJacket_PautRev",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "slotName": "Legs",
+            "discreteItemSets": [
+                {
+                    "itemType": "GorkaPants_PautRev",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "slotName": "Feet",
+            "discreteItemSets": [
+                {
+                    "itemType": "CombatBoots_Black",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "slotName": "Mask",
+            "discreteItemSets": [
+                {
+                    "itemType": "BalaclavaMask_Green",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "slotName": "Hips",
+            "discreteItemSets": [
+                {
+                    "itemType": "MilitaryBelt",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "simpleChildrenTypes": [
+                        "Canteen"
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false
+                }
+            ]
+        },
+        {
+            "slotName": "Armband",
+            "discreteItemSets": [
+                {
+                    "itemType": "Armband_Red",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    }
+                }
+            ]
+        },
+        {
+            "slotName": "Back",
+            "discreteItemSets": [
+                {
+                    "itemType": "AssaultBag_Green",
+                    "spawnWeight": 1,
+                    "quickBarSlot": -1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "simpleChildrenTypes": [
+                        "Candycane_Green",
+                        "BakedBeansCan_Opened",
+                        "BakedBeansCan_Opened",
+                        "SodaCan_Fronta",
+                        "SodaCan_Fronta"
+                    ],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "Rangefinder",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "simpleChildrenTypes": [
+                                "Battery9V"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "discreteUnsortedItemSets": [
+        {
+            "name": "Cargo1",
+            "spawnWeight": 1,
+            "attributes": {
+                "healthMin": 1.0,
+                "healthMax": 1.0,
+                "quantityMin": 1.0,
+                "quantityMax": 1.0
+            },
+            "complexChildrenTypes": [
+                {
+                    "itemType": "BandageDressing",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": 0
+                }
+            ],
+            "simpleChildrenTypes": [
+                "Mag_CZ75_15Rnd",
+                "Mag_CZ75_15Rnd",
+                "Mag_CZ75_15Rnd",
+                "Ammo_762x54Tracer",
+                "Ammo_762x54Tracer",
+                "Ammo_762x54Tracer",
+                "BandageDressing",
+                "BandageDressing",
+                "BandageDressing",
+                "Morphine",
+                "SalineBagIV",
+                "Mag_AK74_45Rnd",
+                "Mag_AK74_45Rnd",
+                "Mag_AK74_45Rnd",
+                "Battery9V",
+                "Battery9V",
+                "AK_Suppressor",
+                "AK_Suppressor",
+                "PistolSuppressor",
+                "PistolSuppressor",
+                "ImprovisedSuppressor"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
+        }
+    ]
+}

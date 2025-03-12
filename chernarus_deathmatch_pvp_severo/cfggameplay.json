@@ -11,7 +11,13 @@
 	{
 		"disablePersonalLight": false,
 		"spawnGearPresetFiles": [
-			"custom/FullRandomPvPGear.json"
+			"custom/Hunter.json",
+			"custom/Russian_Soldier.json",
+			"custom/Russian_Soldier2.json",
+			"custom/Russian_Soldier2_Winter.json",
+			"custom/USMC_Soldier.json",
+			"custom/Winter_Soldier.json",
+			"custom/Army_Soldier.json"
 			],
 		"StaminaData":
 		{
