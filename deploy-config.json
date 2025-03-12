@@ -1,5 +1,5 @@
 {
-    "deploy_directory": "chernarus_boosted_customevents_bunker_console",
+    "deploy_directory": "",
     "remote_base_path": "/gameservers/file_server",
     "restart_after_deploy": false,
     "remote_dirs": [
