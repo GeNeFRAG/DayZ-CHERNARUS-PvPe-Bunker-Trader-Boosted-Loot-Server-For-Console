@@ -56,7 +56,7 @@ jobs:
                     self.remote_base_path = remote_base_path
                     self.ssl_verify = ssl_verify
 
-                     print(f"API initialized for Nitrado ID: {nitrado_id}, Server ID: {server_id}")  
+                    print(f"API initialized for Nitrado ID: {nitrado_id}, Server ID: {server_id}")  
 
                 def download_file(self, file_path):
                     try:
