@@ -1,9 +1,2 @@
 nitrado_token.txt
-chernarus_boosted_customevents_bunker_console/**/*_old.*
-tools/*.xml*
-tools/*.txt*
-tools/*.csv*
-tools/*.RPT*
-tools/*.ADM*
-tools/*.xlsx*
-tools/nitrado_api.json
+**/*_old.*
