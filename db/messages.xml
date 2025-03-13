@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <messages>
     <message>
-        <deadline>260</deadline>
+        <deadline>245</deadline>
         <shutdown>1</shutdown>
-        <text>Server restart soon!</text>
+        <text>Server will shutdown in #tmin minutes.</text>
     </message>
     <message>
         <delay>1</delay>
@@ -93,15 +93,15 @@
     </message>
     <message>
         <repeat>48</repeat>
-        <text>NO RAIDING OUTSIDE RAIDING TIMES!</text>
+        <text>NO FORCED, WATCHTOWER OR BY CODE HACKING ENTRY INTO BASES OUTSIDE BASE DAMAGE TIMES!</text>
+    </message>
+     <message>
+        <repeat>48</repeat>
+        <text>NO FIREPLACES OR GARDENPLOTS TO RAID!</text>
     </message>
     <message>
         <repeat>48</repeat>
         <text>NO BUILDING IN BUNKERS, MILITARY, POLICE OR SAFE ZONES!</text>
-    </message>
-    <message>
-        <repeat>48</repeat>
-        <text>NO FIREPLACES OR GARDENPLOTS TO RAID!</text>
     </message>
     <message>
         <repeat>48</repeat>
@@ -113,7 +113,7 @@
     </message>
     <message>
         <repeat>80</repeat>
-        <text>RAID TIMES:</text>
+        <text>BASE AND CONTAINER DAMAGE ON:</text>
     </message>
     <message>
         <repeat>80</repeat>
