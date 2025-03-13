@@ -8,7 +8,7 @@
 		<!-- Krasno Airfield -->
 		<pos x="12040.31" z="12705.22" a="0" />
 		<!-- Balota Airfield -->
-		<pos x="4402.84" z="2624.89" a="0" />
+		<pos x="3646.31" z="2172.62" a="0" />
 	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
