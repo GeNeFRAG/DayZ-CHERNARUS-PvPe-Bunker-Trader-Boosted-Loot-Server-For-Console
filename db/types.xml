@@ -93,17 +93,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Attachment"/>
     </type>
-<type name="AK74_Hndgrd">
-        <nominal>4</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Attachment"/>
-    </type>
 <type name="AK74_WoodBttstck">
         <nominal>4</nominal>
         <lifetime>14400</lifetime>
@@ -318,6 +307,17 @@
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Attachment"/>
+    </type>
+<type name="F">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -10643,10 +10643,10 @@
 
 <!-- ################ [FIREFIGHTER, INDUSTRIAL, MILITARY, POLICE] ################-->
 <type name="PersonalRadio">
-        <nominal>44</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>24</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12133,10 +12133,10 @@
 
 <!-- ################ [HUNTING, INDUSTRIAL, MILITARY] ################-->
 <type name="Compass">
-        <nominal>71</nominal>
+        <nominal>70</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>51</min>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12348,10 +12348,10 @@
 
 <!-- ################ [HUNTING, TOOLS] ################-->
 <type name="ChernarusMap">
-        <nominal>51</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>31</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12376,10 +12376,10 @@
 
 <!-- ################ [INDUSTRIAL] ################-->
 <type name="BarbedWire">
-        <nominal>68</nominal>
+        <nominal>60</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>58</min>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12387,10 +12387,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="Battery9V">
-        <nominal>124</nominal>
+        <nominal>100</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>104</min>
+        <min>80</min>
         <quantmin>50</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12442,10 +12442,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="CanOpener">
-        <nominal>72</nominal>
+        <nominal>70</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>52</min>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12508,7 +12508,7 @@
         <usage name="Industrial"/>
     </type>
 <type name="CombinationLock">
-        <nominal>63</nominal>
+        <nominal>60</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>40</min>
@@ -12519,10 +12519,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="CombinationLock4">
-        <nominal>58</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>36</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12541,10 +12541,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="Flashlight">
-        <nominal>93</nominal>
+        <nominal>90</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>73</min>
+        <min>70</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12563,10 +12563,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="GlowPlug">
-        <nominal>23</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12607,10 +12607,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="KitchenTimer">
-        <nominal>27</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>17</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12629,10 +12629,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="MediumGasCanister">
-        <nominal>41</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>31</min>
+        <min>30</min>
         <quantmin>65</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12640,10 +12640,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="MetalPlate">
-        <nominal>69</nominal>
+        <nominal>60</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>49</min>
+        <min>40</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12651,10 +12651,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="MetalWire">
-        <nominal>80</nominal>
+        <nominal>70</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>60</min>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12673,10 +12673,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="NailBox">
-        <nominal>107</nominal>
+        <nominal>90</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>85</min>
+        <min>70</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12717,10 +12717,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="PileOfWoodenPlanks">
-        <nominal>41</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>21</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12728,10 +12728,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="Plastic_Explosive">
-        <nominal>17</nominal>
+        <nominal>5</nominal>
         <lifetime>432000</lifetime>
         <restock>0</restock>
-        <min>14</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12762,10 +12762,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="Pot">
-        <nominal>24</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>14</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12773,10 +12773,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="RemoteDetonator">
-        <nominal>15</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12818,10 +12818,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="Tripod">
-        <nominal>46</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>36</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12844,10 +12844,10 @@
         <usage name="Police"/>
     </type>
 <type name="Roadflare">
-        <nominal>48</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>34</min>
+        <min>26</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12859,10 +12859,10 @@
 
 <!-- ################ [INDUSTRIAL, TOOLS] ################-->
 <type name="PetrolLighter">
-        <nominal>53</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>33</min>
+        <min>30</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -20388,10 +20388,10 @@
         <usage name="Tools"/>
     </type>
 <type name="FireworksLauncher">
-        <nominal>9</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20421,10 +20421,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Hacksaw">
-        <nominal>76</nominal>
+        <nominal>70</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>54</min>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20432,10 +20432,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Hammer">
-        <nominal>53</nominal>
+        <nominal>45</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>46</min>
+        <min>40</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20454,10 +20454,10 @@
         <usage name="Tools"/>
     </type>
 <type name="HandSaw">
-        <nominal>76</nominal>
+        <nominal>70</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>54</min>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20465,10 +20465,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Hatchet">
-        <nominal>131</nominal>
+        <nominal>120</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>104</min>
+        <min>95</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20487,10 +20487,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Jig">
-        <nominal>13</nominal>
+        <nominal>35</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20498,10 +20498,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Lockpick">
-        <nominal>52</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>37</min>
+        <min>35</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20575,10 +20575,10 @@
         <usage name="Tools"/>
     </type>
 <type name="PipeWrench">
-        <nominal>71</nominal>
+        <nominal>0</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>51</min>
+        <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20597,10 +20597,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Pliers">
-        <nominal>80</nominal>
+        <nominal>70</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>58</min>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20630,10 +20630,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Rope">
-        <nominal>103</nominal>
+        <nominal>100</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>83</min>
+        <min>80</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20641,10 +20641,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Screwdriver">
-        <nominal>53</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>33</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20663,10 +20663,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Shovel">
-        <nominal>76</nominal>
+        <nominal>70</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>54</min>
+        <min>50</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20685,10 +20685,10 @@
         <usage name="Tools"/>
     </type>
 <type name="SledgeHammer">
-        <nominal>22</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
