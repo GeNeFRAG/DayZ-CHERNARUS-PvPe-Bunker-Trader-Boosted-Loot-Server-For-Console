@@ -15,7 +15,6 @@
         <onconnect>1</onconnect>
         <text>SERVER RESTARTS (GMT+1): 00:00    04:00   08:00   12:00   16:00   20:00   00:00</text>
     </message>
-    <!--
     <message>
         <repeat>15</repeat>
         <text> ***** !! NEW VINTAGE VSD IN TIER 4 !! ***** </text>
@@ -24,11 +23,12 @@
         <repeat>15</repeat>
         <text> ***** !! NEW LOCKED CONTAINERS IN TOXIC, FIND THE RIGHT KEYS !! ***** </text>
     </message>
-    -->
+    <!--
     <message>
         <repeat>15</repeat>
         <text> ***** !! RAIDWEEKEND ACTIVE !! ***** </text>
     </message>
+    -->
     <!--
      <message>
         <repeat>15</repeat>
@@ -49,7 +49,7 @@
     </message>
     <message>
         <repeat>15</repeat>
-        <text> ***** BUILDER TRUCKS: NOVAYA, KRASNO, BALOTA ***** </text>
+        <text> ***** BUILDER TRUCKS: NOVAYA, KRASNO, KOMAROVO ***** </text>
     </message>
     <message>
         <repeat>15</repeat>
