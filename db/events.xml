@@ -62,11 +62,11 @@
         <min>0</min>
         <max>0</max>
         <lifetime>14400</lifetime>
-        <restock>10800</restock>
+        <restock>0</restock>
         <saferadius>50</saferadius>
         <distanceradius>20</distanceradius>
         <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <flags deletable="0" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
         <active>1</active>
