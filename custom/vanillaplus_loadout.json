@@ -1,6 +1,6 @@
 {
     "spawnWeight": 1,
-    "name": "Player",
+    "name": "vanillaplus_loadout",
     "characterTypes": [
         "SurvivorM_Mirek",
         "SurvivorM_Boris",
