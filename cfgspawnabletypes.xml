@@ -1724,7 +1724,7 @@
 	<!--NBC-->
 	<type name="ZmbM_NBC_Grey">
 		<cargo preset="ContaminatedCargo"/>
-		<cargo chance="0.03">
+		<cargo chance="0.02">
 			<item name="PunchedCard" chance="1.0"/>
 		</cargo>
 		<cargo chance="0.05">
@@ -1810,7 +1810,7 @@
 			<item name="MedicalScrubsHat_Green" chance="1.0" />
 		</attachments>
 		<cargo preset="foodArmy" />
-		<cargo chance="0.033">
+		<cargo chance="0.02">
 			<item name="PunchedCard" chance="1.0" />
 		</cargo>
 		<cargo chance="0.06">
