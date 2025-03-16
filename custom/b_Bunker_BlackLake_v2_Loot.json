@@ -1651,21 +1651,6 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "PunchedCard",
-            "pos": [
-                13264.6865234375,
-                67.38310241699219,
-                12084.8701171875
-            ],
-            "ypr": [
-                179.9999237060547,
-                90.0,
-                179.9999237060547
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0
-        },
-        {
             "name": "FireworksLauncher",
             "pos": [
                 13264.2822265625,

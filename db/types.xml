@@ -8522,10 +8522,10 @@
         <usage name="ContaminatedArea"/>
     </type>
 <type name="PunchedCard">
-        <nominal>7</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>3600</restock>
-        <min>6</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
