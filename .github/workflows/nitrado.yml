@@ -133,7 +133,7 @@ jobs:
                         print(f"ERROR: {str(e)}")
                         return None
 
-                def validate_json(self, content):
+                def _validate_json(self, content):
                     try:
                         json.loads(content)
                         return True
@@ -141,7 +141,7 @@ jobs:
                         print(f"Invalid JSON: {e}")
                         return False
 
-                def validate_xml(self, content):
+                def _validate_xml(self, content):
                     try:
                         ET.fromstring(content)
                         return True
@@ -154,11 +154,13 @@ jobs:
                     
                     # Validate JSON or XML files before uploading
                     if filename.endswith('.json'):
-                        if not self.validate_json(content):
+                        print(f"Validating JSON file: {filename}")
+                        if not self._validate_json(content):
                             print(f"Skipping upload of invalid JSON file: {filename}")
                             return False
                     elif filename.endswith('.xml'):
-                        if not self.validate_xml(content):
+                        print(f"Validating XML file: {filename}")
+                        if not self._validate_xml(content):
                             print(f"Skipping upload of invalid XML file: {filename}")
                             return False
 
