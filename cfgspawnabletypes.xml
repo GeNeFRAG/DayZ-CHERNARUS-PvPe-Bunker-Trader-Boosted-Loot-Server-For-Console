@@ -3083,7 +3083,7 @@
 			<item name="AK_PlasticBttstck" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="AK_RailHndgrd_Black" chance="1.00" />
+			<item name="AK_PlasticHndgrd" chance="1.00" />
 		</attachments>
 		<attachments chance="0.5">
 			<item name="KashtanOptic" chance="0.30" />
@@ -3098,9 +3098,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="Mag_AKM_30Rnd" chance="1.00"/>
-		</attachments>
-		<attachments chance="0.15">
-			<item name="UniversalLight" chance="1.00"/>
 		</attachments>
 	</type>
 	<type name="AK74">
