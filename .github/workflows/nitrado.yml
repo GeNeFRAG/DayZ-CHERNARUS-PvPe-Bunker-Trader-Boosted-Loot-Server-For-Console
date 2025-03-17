@@ -45,6 +45,7 @@ jobs:
             import zipfile
             from datetime import datetime, timezone
             import subprocess
+            import xml.etree.ElementTree as ET
 
             NITRADO_API_BASE_URL = "https://api.nitrado.net/services/"
 
@@ -132,8 +133,35 @@ jobs:
                         print(f"ERROR: {str(e)}")
                         return None
 
+                def validate_json(self, content):
+                    try:
+                        json.loads(content)
+                        return True
+                    except json.JSONDecodeError as e:
+                        print(f"Invalid JSON: {e}")
+                        return False
+
+                def validate_xml(self, content):
+                    try:
+                        ET.fromstring(content)
+                        return True
+                    except ET.ParseError as e:
+                        print(f"Invalid XML: {e}")
+                        return False
+
                 def upload_file(self, remote_path, filename, content, upload):
                     print(f"Uploading to Nitrado {filename} {len(content)} to {remote_path}")
+                    
+                    # Validate JSON or XML files before uploading
+                    if filename.endswith('.json'):
+                        if not self.validate_json(content):
+                            print(f"Skipping upload of invalid JSON file: {filename}")
+                            return False
+                    elif filename.endswith('.xml'):
+                        if not self.validate_xml(content):
+                            print(f"Skipping upload of invalid XML file: {filename}")
+                            return False
+
                     try:
                         upload_info = self._get_upload_token(filename, remote_path)
                         if not upload_info:
