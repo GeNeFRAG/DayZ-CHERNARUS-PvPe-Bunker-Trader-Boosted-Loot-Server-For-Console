@@ -6,7 +6,6 @@
 [CARPARTS]
 [CARPARTS, EQUIPMENT]
 [CLOTHES]
-[CLOTHES, CONTAINERLOCKED]
 [CONTAINERLOCKED]
 [CONTAINERLOCKED, HIGHLOOT, SPECIAL]
 [CONTAINERLOCKED, MILITARY]
@@ -3258,6 +3257,17 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Clothes"/>
     </type>
+<type name="BalaclavaMask_Pig">
+        <nominal>2</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Clothes"/>
+    </type>
 <type name="BalaclavaMask_Pink">
         <nominal>8</nominal>
         <lifetime>28800</lifetime>
@@ -4011,6 +4021,17 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>14</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Clothes"/>
+    </type>
+<type name="CargoPants_Black">
+        <nominal>25</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7615,32 +7636,6 @@
         <usage name="Clothes"/>
     </type>
 
-<!-- ################ [CLOTHES, CONTAINERLOCKED] ################-->
-<type name="BalaclavaMask_Pig">
-        <nominal>2</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Clothes"/>
-        <usage name="ContainerLocked"/>
-    </type>
-<type name="CargoPants_Black">
-        <nominal>25</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>15</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Clothes"/>
-        <usage name="ContainerLocked"/>
-    </type>
-
 <!-- ################ [CONTAINERLOCKED] ################-->
 <type name="M4A1">
         <nominal>2</nominal>
@@ -7683,59 +7678,11 @@
         <usage name="ContainerLocked"/>
         <usage name="Military"/>
     </type>
-<type name="AmmoBox_556x45Tracer_20Rnd">
-        <nominal>47</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>43</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContainerLocked"/>
-        <usage name="Military"/>
-    </type>
-<type name="AmmoBox_556x45_20Rnd">
-        <nominal>56</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>49</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContainerLocked"/>
-        <usage name="Military"/>
-    </type>
 <type name="Mag_AK101_30Rnd">
         <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>3</min>
-        <quantmin>15</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContainerLocked"/>
-        <usage name="Military"/>
-    </type>
-<type name="Mag_CMAG_20Rnd">
-        <nominal>8</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>15</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContainerLocked"/>
-        <usage name="Military"/>
-    </type>
-<type name="Mag_CMAG_30Rnd">
-        <nominal>7</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>4</min>
         <quantmin>15</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -7770,18 +7717,6 @@
     </type>
 
 <!-- ################ [CONTAINERLOCKED, MILITARYCLOTHES] ################-->
-<type name="M65Jacket_Black">
-        <nominal>8</nominal>
-        <lifetime>28800</lifetime>
-        <restock>600</restock>
-        <min>6</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContainerLocked"/>
-        <usage name="MilitaryClothes"/>
-    </type>
 <type name="PlateCarrierVest_Black">
         <nominal>5</nominal>
         <lifetime>14400</lifetime>
@@ -7795,30 +7730,6 @@
         <usage name="MilitaryClothes"/>
         <value name="Tier3"/>
         <value name="Tier4"/>
-    </type>
-<type name="TacticalShirt_Black">
-        <nominal>9</nominal>
-        <lifetime>14400</lifetime>
-        <restock>1800</restock>
-        <min>4</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContainerLocked"/>
-        <usage name="MilitaryClothes"/>
-    </type>
-<type name="TacticalShirt_Olive">
-        <nominal>11</nominal>
-        <lifetime>14400</lifetime>
-        <restock>1800</restock>
-        <min>6</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContainerLocked"/>
-        <usage name="MilitaryClothes"/>
     </type>
 
 <!-- ################ [CONTAINERLOCKED, SPECIAL] ################-->
@@ -13861,6 +13772,28 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
     </type>
+<type name="AmmoBox_556x45Tracer_20Rnd">
+        <nominal>47</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>43</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Military"/>
+    </type>
+<type name="AmmoBox_556x45_20Rnd">
+        <nominal>56</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>49</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Military"/>
+    </type>
 <type name="AmmoBox_762x39Tracer_20Rnd">
         <nominal>19</nominal>
         <lifetime>28800</lifetime>
@@ -14503,6 +14436,28 @@
         <min>10</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Military"/>
+    </type>
+<type name="Mag_CMAG_20Rnd">
+        <nominal>8</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>15</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Military"/>
+    </type>
+<type name="Mag_CMAG_30Rnd">
+        <nominal>7</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>4</min>
+        <quantmin>15</quantmin>
+        <quantmax>60</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
@@ -15387,6 +15342,17 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="MilitaryClothes"/>
     </type>
+<type name="M65Jacket_Black">
+        <nominal>8</nominal>
+        <lifetime>28800</lifetime>
+        <restock>600</restock>
+        <min>6</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="MilitaryClothes"/>
+    </type>
 <type name="M65Jacket_Khaki">
         <nominal>5</nominal>
         <lifetime>28800</lifetime>
@@ -15937,11 +15903,33 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="MilitaryClothes"/>
     </type>
+<type name="TacticalShirt_Black">
+        <nominal>9</nominal>
+        <lifetime>14400</lifetime>
+        <restock>1800</restock>
+        <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="MilitaryClothes"/>
+    </type>
 <type name="TacticalShirt_Grey">
         <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
         <min>4</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="MilitaryClothes"/>
+    </type>
+<type name="TacticalShirt_Olive">
+        <nominal>11</nominal>
+        <lifetime>14400</lifetime>
+        <restock>1800</restock>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
