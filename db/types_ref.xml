@@ -8524,7 +8524,7 @@
 <type name="PunchedCard">
         <nominal>2</nominal>
         <lifetime>14400</lifetime>
-        <restock>3600</restock>
+        <restock>7200</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
