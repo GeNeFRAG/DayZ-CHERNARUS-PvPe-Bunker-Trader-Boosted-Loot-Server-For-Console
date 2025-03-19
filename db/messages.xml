@@ -37,6 +37,10 @@
     -->
     <message>
         <repeat>15</repeat>
+        <text> ***** FREE BASE RADAR ***** </text>
+    </message>
+    <message>
+        <repeat>15</repeat>
         <text> ***** TRADER: ELEKTRO HARBOUR ***** </text>
     </message>
     <message>
