@@ -7648,6 +7648,17 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="ContainerLocked"/>
     </type>
+<type name="PunchedCard">
+        <nominal>6</nominal>
+        <lifetime>14400</lifetime>
+        <restock>7200</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="ContainerLocked"/>
+    </type>
 
 <!-- ################ [CONTAINERLOCKED, HIGHLOOT, SPECIAL] ################-->
 <type name="Mich2001Helmet">
@@ -8426,17 +8437,6 @@
         <lifetime>5400</lifetime>
         <restock>3600</restock>
         <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContaminatedArea"/>
-    </type>
-<type name="PunchedCard">
-        <nominal>6</nominal>
-        <lifetime>14400</lifetime>
-        <restock>7200</restock>
-        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14778,9 +14778,9 @@
         <usage name="Military"/>
     </type>
 <type name="ShippingContainerKeys_Blue">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <restock>7200</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14791,7 +14791,7 @@
 <type name="ShippingContainerKeys_Orange">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <restock>7200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14802,7 +14802,7 @@
 <type name="ShippingContainerKeys_Red">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <restock>7200</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14811,9 +14811,9 @@
         <usage name="Military"/>
     </type>
 <type name="ShippingContainerKeys_Yellow">
-        <nominal>3</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
-        <restock>1800</restock>
+        <restock>7200</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
