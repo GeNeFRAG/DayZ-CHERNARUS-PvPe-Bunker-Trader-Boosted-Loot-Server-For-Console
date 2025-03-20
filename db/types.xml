@@ -14,7 +14,6 @@
 [CONTAINERS]
 [CONTAMINATEDAREA]
 [CONTAMINATEDAREA, HIGHLOOT]
-[CONTAMINATEDAREA, HIGHLOOT, SPECIAL]
 [CONTAMINATEDAREA, MEDIC]
 [CONTAMINATEDAREA, MILITARY]
 [CONTAMINATEDAREA, MILITARYCLOTHES]
@@ -7675,6 +7674,20 @@
         <usage name="Special"/>
         <value name="Tier4"/>
     </type>
+<type name="NVGoggles">
+        <nominal>15</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>13</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="ContainerLocked"/>
+        <usage name="Highloot"/>
+        <usage name="Special"/>
+        <value name="Tier4"/>
+    </type>
 
 <!-- ################ [CONTAINERLOCKED, MILITARY] ################-->
 <type name="AK101">
@@ -7694,18 +7707,6 @@
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>3</min>
-        <quantmin>15</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContainerLocked"/>
-        <usage name="Military"/>
-    </type>
-<type name="Mag_CMAG_40Rnd">
-        <nominal>4</nominal>
-        <lifetime>7200</lifetime>
-        <restock>3600</restock>
-        <min>2</min>
         <quantmin>15</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -8493,22 +8494,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="ContaminatedArea"/>
         <usage name="Highloot"/>
-        <value name="Tier4"/>
-    </type>
-
-<!-- ################ [CONTAMINATEDAREA, HIGHLOOT, SPECIAL] ################-->
-<type name="NVGoggles">
-        <nominal>15</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>13</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Highloot"/>
-        <usage name="Special"/>
         <value name="Tier4"/>
     </type>
 
@@ -14484,6 +14469,17 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
     </type>
+<type name="Mag_CMAG_40Rnd">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>3600</restock>
+        <min>2</min>
+        <quantmin>15</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Military"/>
+    </type>
 <type name="Mag_CMAG_40Rnd_Black">
         <nominal>9</nominal>
         <lifetime>7200</lifetime>
@@ -14778,9 +14774,9 @@
         <usage name="Military"/>
     </type>
 <type name="ShippingContainerKeys_Blue">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>1800</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14791,7 +14787,7 @@
 <type name="ShippingContainerKeys_Orange">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14802,7 +14798,7 @@
 <type name="ShippingContainerKeys_Red">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14811,9 +14807,9 @@
         <usage name="Military"/>
     </type>
 <type name="ShippingContainerKeys_Yellow">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>1800</restock>
         <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>

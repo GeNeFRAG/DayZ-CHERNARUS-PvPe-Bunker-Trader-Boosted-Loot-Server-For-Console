@@ -14,59 +14,58 @@
  10. CONTAINERS
  11. CONTAMINATEDAREA
  12. CONTAMINATEDAREA, HIGHLOOT
- 13. CONTAMINATEDAREA, HIGHLOOT, SPECIAL
- 14. CONTAMINATEDAREA, MEDIC
- 15. CONTAMINATEDAREA, MILITARY
- 16. CONTAMINATEDAREA, MILITARYCLOTHES
- 17. CONTAMINATEDAREA, SPECIAL
- 18. DONTUSE
- 19. EQUIPMENT
- 20. EQUIPMENT, MILITARY
- 21. EXPLOSIVES, MILITARY
- 22. FIREFIGHTER
- 23. FIREFIGHTER, INDUSTRIAL, MILITARY, POLICE
- 24. FIREFIGHTER, MEDIC
- 25. FIREFIGHTER, MILITARY, POLICE
- 26. FIREFIGHTER, MILITARY, POLICE, WEAPONS
- 27. FOODDRINK
- 28. HIGHLOOT
- 29. HISTORICAL
- 30. HUNTING
- 31. HUNTING, INDUSTRIAL, MILITARY
- 32. HUNTING, INDUSTRIAL, MILITARY, POLICE
- 33. HUNTING, MAGSAMMO
- 34. HUNTING, MAGSAMMO, POLICE
- 35. HUNTING, MEDIC
- 36. HUNTING, MILITARY
- 37. HUNTING, MILITARY, POLICE
- 38. HUNTING, TOOLS
- 39. HUNTING, WEAPONS
- 40. INDUSTRIAL
- 41. INDUSTRIAL, MILITARY, POLICE
- 42. INDUSTRIAL, TOOLS
- 43. MAGSAMMO
- 44. MAGSAMMO, MILITARY
- 45. MAGSAMMO, POLICE
- 46. MEDIC
- 47. MEDIC, MISC
- 48. MEDIC, TOOLS
- 49. MILITARY
- 50. MILITARY, POLICE
- 51. MILITARY, WEAPONS
- 52. MILITARYCLOTHES
- 53. MILITARYCLOTHES, POLICE
- 54. MISC
- 55. NO USAGE
- 56. OFFICE, SCHOOL
- 57. PLANTS
- 58. POLICE
- 59. POLICE, PRISON
- 60. PRISON
- 61. REPAIRITEMS
- 62. SEASONAL
- 63. SPECIAL
- 64. TOOLS
- 65. WEAPONS
+ 13. CONTAMINATEDAREA, MEDIC
+ 14. CONTAMINATEDAREA, MILITARY
+ 15. CONTAMINATEDAREA, MILITARYCLOTHES
+ 16. CONTAMINATEDAREA, SPECIAL
+ 17. DONTUSE
+ 18. EQUIPMENT
+ 19. EQUIPMENT, MILITARY
+ 20. EXPLOSIVES, MILITARY
+ 21. FIREFIGHTER
+ 22. FIREFIGHTER, INDUSTRIAL, MILITARY, POLICE
+ 23. FIREFIGHTER, MEDIC
+ 24. FIREFIGHTER, MILITARY, POLICE
+ 25. FIREFIGHTER, MILITARY, POLICE, WEAPONS
+ 26. FOODDRINK
+ 27. HIGHLOOT
+ 28. HISTORICAL
+ 29. HUNTING
+ 30. HUNTING, INDUSTRIAL, MILITARY
+ 31. HUNTING, INDUSTRIAL, MILITARY, POLICE
+ 32. HUNTING, MAGSAMMO
+ 33. HUNTING, MAGSAMMO, POLICE
+ 34. HUNTING, MEDIC
+ 35. HUNTING, MILITARY
+ 36. HUNTING, MILITARY, POLICE
+ 37. HUNTING, TOOLS
+ 38. HUNTING, WEAPONS
+ 39. INDUSTRIAL
+ 40. INDUSTRIAL, MILITARY, POLICE
+ 41. INDUSTRIAL, TOOLS
+ 42. MAGSAMMO
+ 43. MAGSAMMO, MILITARY
+ 44. MAGSAMMO, POLICE
+ 45. MEDIC
+ 46. MEDIC, MISC
+ 47. MEDIC, TOOLS
+ 48. MILITARY
+ 49. MILITARY, POLICE
+ 50. MILITARY, WEAPONS
+ 51. MILITARYCLOTHES
+ 52. MILITARYCLOTHES, POLICE
+ 53. MISC
+ 54. NO USAGE
+ 55. OFFICE, SCHOOL
+ 56. PLANTS
+ 57. POLICE
+ 58. POLICE, PRISON
+ 59. PRISON
+ 60. REPAIRITEMS
+ 61. SEASONAL
+ 62. SPECIAL
+ 63. TOOLS
+ 64. WEAPONS
 ==================================================-->
 
 <!-- ################ [ATTACHMENT] ################-->
@@ -7675,6 +7674,20 @@
         <usage name="Special"/>
         <value name="Tier4"/>
     </type>
+<type name="NVGoggles">
+        <nominal>5</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="ContainerLocked"/>
+        <usage name="Highloot"/>
+        <usage name="Special"/>
+        <value name="Tier4"/>
+    </type>
 
 <!-- ################ [CONTAINERLOCKED, MILITARY] ################-->
 <type name="AK101">
@@ -7694,18 +7707,6 @@
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>3</min>
-        <quantmin>15</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContainerLocked"/>
-        <usage name="Military"/>
-    </type>
-<type name="Mag_CMAG_40Rnd">
-        <nominal>4</nominal>
-        <lifetime>7200</lifetime>
-        <restock>3600</restock>
-        <min>2</min>
         <quantmin>15</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -8493,22 +8494,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="ContaminatedArea"/>
         <usage name="Highloot"/>
-        <value name="Tier4"/>
-    </type>
-
-<!-- ################ [CONTAMINATEDAREA, HIGHLOOT, SPECIAL] ################-->
-<type name="NVGoggles">
-        <nominal>5</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>3</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="ContaminatedArea"/>
-        <usage name="Highloot"/>
-        <usage name="Special"/>
         <value name="Tier4"/>
     </type>
 
@@ -14484,6 +14469,17 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Military"/>
     </type>
+<type name="Mag_CMAG_40Rnd">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>3600</restock>
+        <min>2</min>
+        <quantmin>15</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Military"/>
+    </type>
 <type name="Mag_CMAG_40Rnd_Black">
         <nominal>1</nominal>
         <lifetime>7200</lifetime>
@@ -14778,9 +14774,9 @@
         <usage name="Military"/>
     </type>
 <type name="ShippingContainerKeys_Blue">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>1800</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14791,7 +14787,7 @@
 <type name="ShippingContainerKeys_Orange">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14802,7 +14798,7 @@
 <type name="ShippingContainerKeys_Red">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
@@ -14811,9 +14807,9 @@
         <usage name="Military"/>
     </type>
 <type name="ShippingContainerKeys_Yellow">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
-        <restock>7200</restock>
+        <restock>1800</restock>
         <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
