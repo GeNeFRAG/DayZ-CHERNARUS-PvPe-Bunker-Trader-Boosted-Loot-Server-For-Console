@@ -1,0 +1,20 @@
+name: Restart Nitrado Server
+
+on:
+  workflow_dispatch:
+
+jobs:
+  restart_server:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Restart Nitrado Server
+        env:
+          NITRADO_API_TOKEN: ${{ secrets.NITRADO_API_TOKEN }}
+          NITRADO_LOGIN: ${{ secrets.NITRADO_LOGIN }}
+          GAME_SERVER_ID: ${{ secrets.GAME_SERVER_ID }}
+        run: |
+          curl -X POST "https://api.nitrado.net/services/${NITRADO_LOGIN}/gameservers/restart" \
+          -H "Authorization: Bearer ${NITRADO_API_TOKEN}" \
+          -H "Content-Type: application/json" \
+          -d '{}'
