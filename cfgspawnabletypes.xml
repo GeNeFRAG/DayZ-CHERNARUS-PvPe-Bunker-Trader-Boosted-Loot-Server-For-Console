@@ -1802,7 +1802,7 @@
 		<cargo preset="foodArmy"/>
 		<attachments preset="headtorches"/>
 		<attachments preset="OfficerHatArmy"/>
-		<cargo chance="0.06">
+		<cargo chance="0.08">
 			<item name="FlashGrenade" chance="1.0"/>
 		</cargo>
 	</type>
