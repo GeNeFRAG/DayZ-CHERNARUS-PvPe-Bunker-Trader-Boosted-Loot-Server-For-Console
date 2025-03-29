@@ -142,7 +142,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children/>
     </event>
     <!-- ################### CUSTOM EVENTS END ################### -->
@@ -201,9 +201,9 @@
         </children>
     </event>
     <event name="AnimalBear">
-        <nominal>15</nominal>
-        <min>12</min>
-        <max>15</max>
+        <nominal>12</nominal>
+        <min>9</min>
+        <max>12</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
