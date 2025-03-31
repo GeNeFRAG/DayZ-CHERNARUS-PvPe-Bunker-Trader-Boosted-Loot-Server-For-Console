@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <map>
     <!-- ######################################################### CUSTOM GROUPS START ######################################################### -->
+    <!-- Heli crash Radio Zenit, Green Mountain -->
+    <group name="Wreck_Mi8_Crashed" pos="3697.033936 403.851135 5991.901367" rpy="-0.000000 0.000000 0.000000" a="90"/>
+	<group name="Wreck_UH1Y" pos="8150.932617 477.258270 9172.554688" rpy="-0.305407 -2.823300 0.000000" a="90"/>
+    
     <!-- Container Military -->
     <group name="Land_Container_1Mo" pos="1534.743896 454.160278 14079.396484" rpy="-0.000000 0.000000 10.159926" a="79.8401"/>
 	<group name="Land_Container_1Mo" pos="1534.597534 456.721558 14080.884766" rpy="-0.000000 0.000000 169.464920" a="-79.4649"/>

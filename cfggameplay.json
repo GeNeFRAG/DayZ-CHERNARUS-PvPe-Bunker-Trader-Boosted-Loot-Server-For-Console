@@ -52,8 +52,8 @@
       "custom/dzmc_blacklake_by_novoGOD.json",
       "custom/BennettsTraderShip_Elektro.json",
       "custom/container_mil_garages.json",
-      "custom/PrisonBridge.json"
-      
+      "custom/PrisonBridge.json",
+      "custom/heli_green_radio.json"
     ],
     "environmentMinTemps": [
       -3,
