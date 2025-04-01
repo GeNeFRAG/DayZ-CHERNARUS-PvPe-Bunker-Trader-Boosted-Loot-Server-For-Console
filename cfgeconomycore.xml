@@ -26,7 +26,7 @@ Do not forget to add attribute act="car", if root class represents moveable vehi
 		<default name="log_ce_vehicle" value="false"/>
 		<default name="log_ce_lootspawn" value="false"/>
 		<default name="log_ce_lootcleanup" value="false"/>
-		<default name="log_ce_lootrespawn" value="false"/>
+		<default name="log_ce_lootrespawn" value="true"/>
 		<default name="log_ce_statistics" value="false"/>
 		<default name="log_ce_zombie" value="false"/>
 		<default name="log_storageinfo" value="false"/>
