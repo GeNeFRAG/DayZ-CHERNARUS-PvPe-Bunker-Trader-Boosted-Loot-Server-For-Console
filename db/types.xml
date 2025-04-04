@@ -12060,7 +12060,7 @@
 
 <!-- ################ [HUNTING, MAGSAMMO] ################-->
 <type name="AmmoBox_308Win_20Rnd">
-        <nominal>32</nominal>
+        <nominal>30</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>25</min>
@@ -12072,7 +12072,7 @@
         <usage name="MagsAmmo"/>
     </type>
 <type name="Ammo_308Win">
-        <nominal>52</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>180</restock>
         <min>30</min>
@@ -12096,7 +12096,7 @@
         <usage name="MagsAmmo"/>
     </type>
 <type name="Ammo_762x54">
-        <nominal>62</nominal>
+        <nominal>60</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>45</min>
@@ -12178,7 +12178,7 @@
 
 <!-- ################ [HUNTING, MILITARY] ################-->
 <type name="AmmoBox_762x39_20Rnd">
-        <nominal>34</nominal>
+        <nominal>32</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>29</min>
@@ -12190,7 +12190,7 @@
         <usage name="Military"/>
     </type>
 <type name="AmmoBox_762x54_20Rnd">
-        <nominal>35</nominal>
+        <nominal>33</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>30</min>
@@ -13747,7 +13747,7 @@
         <usage name="Military"/>
     </type>
 <type name="AmmoBox_545x39_20Rnd">
-        <nominal>27</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>20</min>
@@ -13769,7 +13769,7 @@
         <usage name="Military"/>
     </type>
 <type name="AmmoBox_556x45_20Rnd">
-        <nominal>56</nominal>
+        <nominal>54</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>49</min>
@@ -13813,7 +13813,7 @@
         <usage name="Military"/>
     </type>
 <type name="AmmoBox_9x39_20Rnd">
-        <nominal>9</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>3</min>
@@ -13892,7 +13892,7 @@
         <usage name="Military"/>
     </type>
 <type name="Ammo_545x39">
-        <nominal>27</nominal>
+        <nominal>25</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
         <min>13</min>
@@ -13914,7 +13914,7 @@
         <usage name="Military"/>
     </type>
 <type name="Ammo_556x45">
-        <nominal>52</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <min>30</min>
