@@ -5650,7 +5650,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor">
@@ -5671,7 +5670,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor">
@@ -5692,7 +5690,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor">
@@ -9519,7 +9516,6 @@
         <usage name="Tools" />
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <container name="lootFloor" lootmax="6">
@@ -12726,7 +12722,6 @@
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
         <usage name="Weapons" />
-        <usage name="Attachment" />
         <usage name="Police" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
@@ -16514,7 +16509,6 @@
     <group name="Land_Train_Wagon_Box_DE" lootmax="7">
         <usage name="Clothes" />
         <usage name="FoodDrink" />
-        <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
         <usage name="Tools" />
@@ -16795,6 +16789,7 @@
         <usage name="Explosives" />
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
+         <usage name="Military" />
         <container name="lootFloor" lootmax="3">
             <tag name="floor" />
             <tag name="shelves" />
@@ -16816,6 +16811,7 @@
         <usage name="Explosives" />
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
+        <usage name="Military" />
         <container name="lootFloor" lootmax="3">
             <tag name="floor" />
             <tag name="shelves" />
