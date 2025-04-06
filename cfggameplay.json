@@ -53,7 +53,8 @@
       "custom/BennettsTraderShip_Elektro.json",
       "custom/container_mil_garages.json",
       "custom/PrisonBridge.json",
-      "custom/heli_green_radio.json"
+      "custom/heli_green_radio.json",
+      "custom/portal_pottys.json"
     ],
     "environmentMinTemps": [
       -3,
@@ -89,6 +90,20 @@
       1.33,
       1.66,
       2
+    ],
+    "playerRestrictedAreaFiles": [
+      "custom/pra_adm_1_trader_to_NWAF_S.json",
+      "custom/pra_adm_2_NWAF_S_to_NWAF_N.json",
+      "custom/pra_adm_3_NWAF_N_to_tisy.json",
+      "custom/pra_adm_4_tisy_to_kamensk.json",
+      "custom/pra_adm_5_kamensk_to_krasno.json",
+      "custom/pra_adm_6_krasno_to_bunker.json",
+      "custom/pra_adm_7_bunker_to_rify.json",
+      "custom/pra_adm_8_rify_to_trader.json",
+      "custom/pra_adm2_1_trader_to_balota.json",
+      "custom/pra_adm2_2_balota_to_pavlovo.json",
+      "custom/pra_adm2_3_pavlovo_to_zeleno.json",
+      "custom/pra_adm2_4_zeleno_to_trader.json"
     ]
   },
   "BaseBuildingData": {
@@ -135,8 +150,7 @@
     "displayPlayerPosition": 1,
     "displayNavInfo": 1
   },
-  "VehicleData":
-  {
-        "boatDecayMultiplier": 1
+  "VehicleData": {
+    "boatDecayMultiplier": 1
   }
 }
