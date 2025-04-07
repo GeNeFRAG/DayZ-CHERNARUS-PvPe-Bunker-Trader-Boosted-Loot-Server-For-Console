@@ -1960,6 +1960,7 @@
         </group>
     <group name="Land_Office_Municipal2" lootmax="108">
         <usage name="Military" />
+        <usage name="Attachment" />
         <usage name="FoodDrink" />
         <usage name="Office" />
         <container name="lootFloor" lootmax="36">
@@ -6143,6 +6144,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Highloot" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="8">
             <tag name="floor" />
             <point pos="2.491173 -1.948364 -1.281744" range="0.532229" height="1.330566" />
@@ -6229,6 +6231,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="8">
             <tag name="floor" />
             <point pos="-1.251345 -1.098541 5.743109" range="0.252197" height="0.630493" />
@@ -6300,6 +6303,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="8">
             <tag name="floor" />
             <point pos="5.140274 -1.949066 3.339782" range="0.673161" height="1.682892" />
@@ -6386,6 +6390,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="5">
             <tag name="floor" />
             <point pos="-2.389683 -1.465946 -3.167737" range="0.599707" height="1.499268" />
@@ -6425,6 +6430,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="6">
             <tag name="floor" />
             <point pos="0.104305 -5.003021 6.747262" range="0.729492" height="1.823730" />
@@ -6481,6 +6487,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Medic" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="5">
             <tag name="floor" />
             <point pos="3.228932 -2.972443 2.754294" range="0.312531" height="1.195313" />
@@ -6557,6 +6564,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
             <point pos="-0.227302 0.518448 12.390382" range="0.609375" height="1.523438" />
@@ -6833,6 +6841,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
             <point pos="-0.227302 0.518448 12.390382" range="0.609375" height="1.523438" />
@@ -7110,6 +7119,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7151,6 +7161,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7184,6 +7195,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7216,6 +7228,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7253,6 +7266,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7287,6 +7301,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7318,6 +7333,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7358,6 +7374,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7400,6 +7417,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7444,6 +7462,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7492,6 +7511,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7545,6 +7565,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="8">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7580,6 +7601,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="8">
             <tag name="floor" />
             <tag name="shelves" />
@@ -7620,6 +7642,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
             <point pos="4.305246 -7.106346 -3.445807" range="0.397217" height="0.521095" />
@@ -7754,6 +7777,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="8">
             <point pos="4.018076 -2.113770 -6.408950" range="0.100000" height="0.250000" />
             <point pos="4.639100 -2.113770 -6.387214" range="0.100000" height="0.250000" />
@@ -7807,6 +7831,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="ground" />
@@ -7878,6 +7903,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
             <point pos="-3.900442 0.966492 -13.346486" range="0.452637" height="1.131592" />
@@ -8012,6 +8038,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="5">
             <tag name="floor" />
             <tag name="shelves" />
@@ -8041,6 +8068,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -8078,6 +8106,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="15">
             <tag name="floor" />
             <point pos="-2.429444 -3.799637 3.698242" range="1.199951" height="2.000000" />
@@ -8224,6 +8253,7 @@
         <usage name="Weapons" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -8242,6 +8272,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="2">
             <tag name="floor" />
             <tag name="shelves" />
@@ -8262,6 +8293,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -8296,6 +8328,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -8324,6 +8357,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="2">
             <tag name="floor" />
             <tag name="shelves" />
@@ -8341,6 +8375,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="3">
             <tag name="floor" />
             <tag name="shelves" />
@@ -8378,6 +8413,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="15">
             <tag name="floor" />
             <point pos="-17.061035 -15.039825 -3.550541" range="0.572754" height="1.431885" />
@@ -8563,6 +8599,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
             <point pos="-2.717287 -0.891541 3.522704" range="1.199951" height="2.000000" />
@@ -8678,6 +8715,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Industrial" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="4">
             <tag name="floor" />
             <point pos="0.518773 0.010468 3.215217" range="0.377055" height="2.000000" />
@@ -8742,6 +8780,7 @@
         <usage name="Weapons" />
         <usage name="Military" />
         <usage name="Highloot" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="3">
             <tag name="floor" />
             <point pos="-2.946045 -1.128838 -2.535400" range="0.299805" height="0.749512" />
@@ -10207,6 +10246,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="FireFighter" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
             <point pos="-0.535154 0.037323 6.022705" range="0.479004" height="1.197510" />
@@ -12108,6 +12148,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="1">
             <tag name="floor" />
             <tag name="shelves" />
@@ -12126,6 +12167,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="1">
             <tag name="ground" />
             <tag name="floor" />
@@ -12180,6 +12222,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Highloot" />
         <usage name="ContaminatedArea"/>
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -12249,6 +12292,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Highloot" />
         <usage name="ContaminatedArea"/>
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -12306,6 +12350,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Highloot" />
         <usage name="ContaminatedArea"/>
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -12349,6 +12394,7 @@
         <usage name="MilitaryClothes" />
         <usage name="Highloot" />
         <usage name="ContaminatedArea"/>
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <tag name="shelves" />
@@ -12393,6 +12439,7 @@
         <usage name="Industrial" />
         <usage name="Highloot" />
         <usage name="ContaminatedArea"/>
+        <usage name="Attachment" />
         <container name="lootFloor">
             <tag name="floor" />
             <point pos="-7.747803 -7.863258 18.816162" range="0.203125" height="0.507813" />
@@ -12784,6 +12831,7 @@
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="1">
             <tag name="floor" />
             <tag name="shelves" />
@@ -12798,6 +12846,7 @@
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="1">
             <tag name="floor" />
             <tag name="shelves" />
@@ -12812,6 +12861,7 @@
         <usage name="MagsAmmo" />
         <usage name="Weapons" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="1">
             <tag name="floor" />
             <tag name="shelves" />
@@ -12831,6 +12881,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="4">
             <tag name="floor" />
             <point pos="-0.627197 -4.433453 1.368286" range="0.574585" height="1.436462" />
@@ -13178,6 +13229,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="2">
             <tag name="floor" />
             <point pos="0.200073 -0.995556 -0.596558" range="0.595488" height="1.951628" />
@@ -13209,6 +13261,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="1">
             <tag name="floor" />
             <point pos="1.274048 -0.975271 -1.648560" range="0.628784" height="1.571960" />
@@ -13233,6 +13286,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="2">
             <tag name="floor" />
             <point pos="0.933472 -0.975271 -0.319092" range="0.780518" height="1.951294" />
@@ -13261,6 +13315,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="2">
             <tag name="floor" />
             <point pos="-0.978638 -0.995556 -0.644043" range="0.522580" height="1.898193" />
@@ -13292,6 +13347,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="2">
             <tag name="floor" />
             <point pos="0.204590 -0.975271 -0.224365" range="0.546143" height="1.365356" />
@@ -13319,6 +13375,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="2">
             <tag name="floor" />
             <point pos="0.937256 -0.975271 -0.141113" range="0.751709" height="1.879272" />
@@ -13784,6 +13841,7 @@
         <usage name="Plants" />
         <usage name="Carparts" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="4">
             <tag name="floor" />
             <point pos="0.359863 -1.489498 -2.456665" range="1.199951" height="2.000000" />
@@ -14014,6 +14072,7 @@
         <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="2">
             <tag name="floor" />
             <point pos="-1.138061 0.499815 -0.692017" range="0.478125" height="1.195313" />
@@ -15758,6 +15817,7 @@
         <usage name="Clothes" />
         <usage name="Containers" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="loot" lootmax="6">
             <tag name="floor" />
             <tag name="shelves" />
@@ -15790,6 +15850,7 @@
         <usage name="Clothes" />
         <usage name="Containers" />
         <usage name="Military" />
+        <usage name="Attachment" />
         <container name="loot" lootmax="2">
             <tag name="floor" />
             <tag name="shelves" />
@@ -16567,6 +16628,7 @@
         <usage name="Tools" />
         <usage name="RepairItems" />
         <value name="Unique" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="3">
             <tag name="floor" />
             <tag name="shelves" />
@@ -16586,6 +16648,7 @@
         <usage name="Tools" />
         <usage name="RepairItems" />
         <value name="Unique" />
+        <usage name="Attachment" />
         <container name="lootFloor" lootmax="3">
             <tag name="floor" />
             <tag name="shelves" />
