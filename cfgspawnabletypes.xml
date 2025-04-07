@@ -1726,9 +1726,11 @@
 		</cargo>
 	</type>
 	<type name="ZmbM_NBC_Yellow">
-		<cargo preset="ContaminatedCargo" />
+		<cargo chance="0.08">
+			<item name="FlashGrenade" chance="1.0"/>
+		</cargo>
 		<cargo chance="0.01">
-			<item name="AntiChemInjector" chance="1.0" />
+			<item name="PunchedCard" chance="1.0"/>
 		</cargo>
 	</type>
 	<type name="ZmbM_NBC_White">
