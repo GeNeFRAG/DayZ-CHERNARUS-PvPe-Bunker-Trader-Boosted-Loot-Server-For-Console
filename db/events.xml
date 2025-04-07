@@ -625,7 +625,7 @@
         <active>1</active>
         <children>
             <child lootmax="5" lootmin="0" max="0" min="80" type="ZmbM_NBC_Grey"/>
-            <child lootmax="5" lootmin="0" max="1" min="0" type="ZmbM_NBC_White"/>
+            <child lootmax="5" lootmin="0" max="2" min="0" type="ZmbM_NBC_White"/>
         </children>
     </event>
     <event name="InfectedNBCYellow">
