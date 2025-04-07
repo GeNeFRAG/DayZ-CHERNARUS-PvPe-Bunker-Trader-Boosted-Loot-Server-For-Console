@@ -492,10 +492,10 @@
         <zone name="InfectedFirefighter" smin="2" smax="5" dmin="2" dmax="5" x="4590" z="10561.9" r="60"/>
     </territory>
     <territory color="1925774598">
-        <zone name="InfectedNBC" smin="8" smax="10" dmin="1" dmax="2" x="2148.21" z="3334.64" r="80"/>
-        <zone name="InfectedNBC" smin="0" smax="0" dmin="2" dmax="4" x="2093.57" z="3510" r="80"/>
-        <zone name="InfectedNBC" smin="0" smax="0" dmin="2" dmax="4" x="1915.71" z="3413.57" r="80"/>
-        <zone name="InfectedNBC" smin="8" smax="10" dmin="2" dmax="4" x="13683.3" z="11180" r="80"/>
+        <zone name="InfectedNBC" smin="8" smax="10" dmin="2" dmax="4" x="2148.21" z="3334.64" r="80"/>
+        <zone name="InfectedNBC" smin="0" smax="0" dmin="4" dmax="8" x="2093.57" z="3510" r="80"/>
+        <zone name="InfectedNBC" smin="0" smax="0" dmin="4" dmax="8" x="1915.71" z="3413.57" r="80"/>
+        <zone name="InfectedNBC" smin="8" smax="10" dmin="4" dmax="8" x="13683.3" z="11180" r="80"/>
     </territory>
     <territory color="1910952871">
         <zone name="InfectedSolitude" smin="0" smax="0" dmin="2" dmax="4" x="10755" z="10813.8" r="70"/>
