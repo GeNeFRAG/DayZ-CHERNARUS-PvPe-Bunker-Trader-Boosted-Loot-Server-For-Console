@@ -105,7 +105,8 @@
       "custom/pra_adm2_3_pavlovo_to_zeleno.json",
       "custom/pra_adm2_4_zeleno_to_trader.json",
       "custom/pra_adm_bunker_prison_logout.json",
-      "custom/pra_adm_prison_trader.json"
+      "custom/pra_adm_prison_trader.json",
+      "custom/pra_kamy_to_nwaf.json"
     ]
   },
   "BaseBuildingData": {
