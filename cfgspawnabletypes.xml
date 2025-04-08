@@ -1735,7 +1735,7 @@
 		<cargo chance="0.08">
 			<item name="FlashGrenade" chance="1.0"/>
 		</cargo>
-		<cargo chance="0.03">
+		<cargo chance="0.025">
 			<item name="PunchedCard" chance="1.0"/>
 		</cargo>
 	</type>
