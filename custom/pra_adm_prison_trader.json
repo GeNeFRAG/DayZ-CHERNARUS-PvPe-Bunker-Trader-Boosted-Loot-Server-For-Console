@@ -1,5 +1,5 @@
 {
-    "areaName": "Restricted_prison_trader",
+    "areaName": "RestrictedArea_prison_trader",
     "PRABoxes": [
       [
         [
@@ -13,9 +13,9 @@
           0
         ],
         [
-            2768.53,
-            31.0062,
-            1224.92
+            2768.75,
+            31,
+            1224.94
         ]
       ]
     ],
