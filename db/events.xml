@@ -58,7 +58,7 @@
     </event> 
     <!-- Builder Truck -->
     <event name="VehicleBuilderTruck">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>14400</lifetime>
@@ -113,7 +113,7 @@
     </event>
     <!-- Custom Boat spawn to Bunker -->
     <event name="VehicleCustomBunkerBoat">
-        <nominal>1</nominal>
+        <nominal>2</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>14400</lifetime>
@@ -143,7 +143,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children/>
     </event>
     <!-- ################### CUSTOM EVENTS END ################### -->
