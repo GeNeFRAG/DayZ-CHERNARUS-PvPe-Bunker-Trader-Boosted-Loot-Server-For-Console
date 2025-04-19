@@ -43,6 +43,7 @@
 	<!-- Boats to Skalisty -->
 	<event name="VehicleCustomBunkerBoat">
 		<pos x="12905.71" z="3643.64" a="0" />
+		<pos x="13446" z="3004" a="0" />
 	</event>
 	<!-- Dynamic AirDrops with Smoke -->
 	<event name="StaticMildrop">
