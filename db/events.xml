@@ -146,7 +146,7 @@
         <active>0</active>
         <children/>
     </event>
-    <!-- ################### CUSTOM EVENTS END ################### -->
+    <!-- ##################åå CUSTOM EVENTS END ################### -->
     <event name="AmbientFox">
         <nominal>0</nominal>
         <min>0</min>
