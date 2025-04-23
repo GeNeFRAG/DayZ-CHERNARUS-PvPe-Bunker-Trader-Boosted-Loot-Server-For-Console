@@ -54,7 +54,9 @@
       "custom/container_mil_garages.json",
       "custom/PrisonBridge.json",
       "custom/heli_green_radio.json",
-      "custom/portal_pottys.json"
+      "custom/portal_pottys.json",
+      "custom/flags_itachi.json",
+      "custom/flags_pmc.json"
     ],
     "environmentMinTemps": [
       -3,
