@@ -38,11 +38,11 @@
     </message>
     <message>
         <repeat>15</repeat>
-        <text> ***** BASE RADAR (NEED DISCORD)***** </text>
+        <text> ***** BASE RADAR (DISCORD REQUIRED)***** </text>
     </message>
     <message>
         <repeat>15</repeat>
-        <text> ***** TRADER: ELEKTRO HARBOUR (NEED DISCORD) ***** </text>
+        <text> ***** TRADER: ELEKTRO HARBOUR (DISCORD REQUIRED) ***** </text>
     </message>
     <message>
         <repeat>15</repeat>
@@ -50,7 +50,7 @@
     </message>
     <message>
         <repeat>15</repeat>
-        <text> ***** PUNCHED CARD: ON YELLOW ZOMBIS TOXIC ZONES ***** </text>
+        <text> ***** PUNCHED CARD: ON WHITE ZOMBIS TOXIC ZONES ***** </text>
     </message>
     <message>
         <repeat>15</repeat>
@@ -58,7 +58,7 @@
     </message>
     <message>
         <repeat>15</repeat>
-        <text> ***** TREASURE HUNT (LOCATIONS DISCORD) ***** </text>
+        <text> ***** TREASURE HUNT (DISCORD REQUIRED) ***** </text>
     </message>
     <message>
         <repeat>15</repeat>
@@ -114,7 +114,7 @@
     </message>
      <message>
         <repeat>48</repeat>
-        <text>TRADER SAFEZONE 100m!</text>
+        <text>ELEKTRO TRADER SAFEZONE 100m!</text>
     </message>
     <message>
         <repeat>80</repeat>
