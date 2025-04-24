@@ -2,7 +2,7 @@
   "version": 122,
   "GeneralData": {
     "disableBaseDamage": true,
-    "disableContainerDamage": true,
+    "disableContainerDamage": false,
     "disableRespawnDialog": false,
     "disableRespawnInUnconsciousness": true
   },
@@ -56,7 +56,9 @@
       "custom/heli_green_radio.json",
       "custom/portal_pottys.json",
       "custom/flags_itachi.json",
-      "custom/flags_pmc.json"
+      "custom/flags_pmc.json",
+      "custom/flags_hope.json",
+      "custom/flags_yggdrasil.json"
     ],
     "environmentMinTemps": [
       -3,
