@@ -119,12 +119,12 @@
 		<item name="DarkMotoHelmet_YellowScarred" chance="0.33" />
 	</attachments>
 	<!-- ################### CUSTOM RANDOM PRESETS END ################### -->
-	<cargo chance="0.25" name="foodHermit">
+	<cargo chance="0.35" name="foodHermit">
 		<item name="TunaCan" chance="0.11" />
 		<item name="SardinesCan" chance="0.11" />
 		<item name="Apple" chance="0.07" />
 	</cargo>
-	<cargo chance="0.16" name="foodVillage">
+	<cargo chance="0.26" name="foodVillage">
 		<item name="SodaCan_Cola" chance="0.02" />
 		<item name="SodaCan_Pipsi" chance="0.02" />
 		<item name="SodaCan_Spite" chance="0.02" />
@@ -144,7 +144,7 @@
 		<item name="Crackers" chance="0.05" />
 		<item name="Chips" chance="0.05" />
 	</cargo>
-	<cargo chance="0.16" name="foodCity"> <!--same as the one above - just preparing -->
+	<cargo chance="0.26" name="foodCity"> <!--same as the one above - just preparing -->
 		<item name="SodaCan_Cola" chance="0.02" />
 		<item name="SodaCan_Pipsi" chance="0.02" />
 		<item name="SodaCan_Spite" chance="0.02" />
@@ -164,7 +164,7 @@
 		<item name="Crackers" chance="0.05" />
 		<item name="Chips" chance="0.05" />
 	</cargo>
-	<cargo chance="0.1" name="foodArmy">
+	<cargo chance="0.2" name="foodArmy">
 		<item name="SodaCan_Cola" chance="0.05" />
 		<item name="SodaCan_Pipsi" chance="0.05" />
 		<item name="SodaCan_Spite" chance="0.05" />
