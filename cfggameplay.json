@@ -58,7 +58,9 @@
       "custom/flags_itachi.json",
       "custom/flags_pmc.json",
       "custom/flags_hope.json",
-      "custom/flags_yggdrasil.json"
+      "custom/flags_yggdrasil.json",
+      "custom/demo_cont_mogi.json",
+      "custom/demo_cont_vybor.json"
     ],
     "environmentMinTemps": [
       -3,
