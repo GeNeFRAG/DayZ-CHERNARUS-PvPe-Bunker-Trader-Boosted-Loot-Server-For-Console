@@ -452,47 +452,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_Red",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Pear",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Pear",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Cola",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -502,7 +462,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -515,16 +475,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_Red",
+                "Pear",
+                "Pear",
+                "SodaCan_Cola",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo2",
@@ -544,47 +516,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_Green",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Pear",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Pear",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Fronta",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -594,7 +526,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -607,16 +539,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_Green",
+                "Pear",
+                "Pear",
+                "SodaCan_Fronta",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo3",
@@ -636,47 +580,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_Yellow",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Pear",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Pear",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Kvass",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -686,7 +590,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -699,16 +603,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_Yellow",
+                "Pear",
+                "Pear",
+                "SodaCan_Kvass",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo4",
@@ -728,47 +644,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_White",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Pear",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Pear",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Pipsi",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -778,7 +654,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -791,16 +667,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_White",
+                "Pear",
+                "Pear",
+                "SodaCan_Pipsi",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo5",
@@ -820,47 +708,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_Red",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Plum",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Plum",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Spite",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -870,7 +718,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -883,16 +731,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_Red",
+                "Plum",
+                "Plum",
+                "SodaCan_Spite",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo6",
@@ -912,47 +772,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_Green",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Plum",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Plum",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Kvass",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -962,7 +782,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -975,16 +795,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_Green",
+                "Plum",
+                "Plum",
+                "SodaCan_Kvass",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo7",
@@ -1004,47 +836,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_Yellow",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Plum",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Plum",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Fronta",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1054,7 +846,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -1067,16 +859,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_Yellow",
+                "Plum",
+                "Plum",
+                "SodaCan_Fronta",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo8",
@@ -1096,47 +900,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_White",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Plum",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Plum",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Pipsi",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1146,7 +910,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -1159,16 +923,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_White",
+                "Plum",
+                "Plum",
+                "SodaCan_Pipsi",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo9",
@@ -1188,47 +964,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_Red",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Apple",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Apple",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Spite",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1238,7 +974,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -1251,16 +987,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_Red",
+                "Apple",
+                "Apple",
+                "SodaCan_Spite",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo10",
@@ -1280,47 +1028,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_Green",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Apple",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Apple",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Fronta",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1330,7 +1038,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -1343,16 +1051,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_Green",
+                "Apple",
+                "Apple",
+                "SodaCan_Fronta",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo11",
@@ -1372,47 +1092,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_Yellow",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Apple",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Apple",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Cola",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1422,7 +1102,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -1435,16 +1115,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_Yellow",
+                "Apple",
+                "Apple",
+                "SodaCan_Cola",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         },
         {
             "name": "Cargo12",
@@ -1464,47 +1156,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 2
-                },
-                {
-                    "itemType": "Chemlight_White",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": 1
-                },
-                {
-                    "itemType": "Apple",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "Apple",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
-                },
-                {
-                    "itemType": "SodaCan_Cola",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1514,7 +1166,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 5
+                    "quickBarSlot": 4
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -1527,16 +1179,28 @@
                     "quickBarSlot": 3
                 },
                 {
-                    "itemType": "Matchbox",
+                    "itemType": "MakarovIJ70",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "simpleChildrenTypes": [
+                        "Mag_IJ70_8Rnd"
+                    ],
+                    "quickBarSlot": 2
                 }
-            ]
+            ],
+            "simpleChildrenTypes": [
+                "Chemlight_White",
+                "Apple",
+                "Apple",
+                "SodaCan_Cola",
+                "Matchbox",
+                "Mag_IJ70_8Rnd"
+            ],
+            "simpleChildrenUseDefaultAttributes": false
         }
     ]
 }
