@@ -7,7 +7,9 @@
         <!--
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="4371" z="2237" r="10"/>
         -->
-        <!-- Novo Tower -->
+        <!-- Novo Tower (Weedz)-->
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="11590.23" z="14701.41" r="10"/>
+        <!-- Bunker -->
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="13467.34" z="12089.40" r="10"/>
     </territory>
 </territory-type>
