@@ -513,7 +513,7 @@
                                 "quantityMin": 1.0,
                                 "quantityMax": 1.0
                             },
-                            "quickBarSlot": 2,
+                            "quickBarSlot": 1,
                             "simpleChildrenTypes": [
                                 "Mag_IJ70_8Rnd"
                             ],
@@ -605,7 +605,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -615,7 +615,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 4
+                    "quickBarSlot": 3
                 },
                 {
                     "itemType": "HuntingKnife",
@@ -625,7 +625,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 3
+                    "quickBarSlot": 2
                 }
             ]
         },
@@ -709,7 +709,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -813,7 +813,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -917,7 +917,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1021,7 +1021,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1125,7 +1125,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1229,7 +1229,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1333,7 +1333,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1437,7 +1437,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1541,7 +1541,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1645,7 +1645,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1749,7 +1749,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": 0
                 },
                 {
                     "itemType": "ChernarusMap",
