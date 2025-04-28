@@ -47,7 +47,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "Hoodie_Blue",
@@ -58,7 +61,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "Hoodie_Brown",
@@ -69,7 +75,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "Hoodie_Green",
@@ -80,7 +89,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "Hoodie_Grey",
@@ -91,7 +103,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "Hoodie_Red",
@@ -102,7 +117,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "Shirt_BlueCheck",
@@ -113,7 +131,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "Shirt_GreenCheck",
@@ -124,7 +145,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "Shirt_PlaneBlack",
@@ -135,7 +159,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 }
             ]
         },
@@ -146,32 +173,32 @@
                     "itemType": "Headtorch_Black",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [
                         "Battery9V"
                     ],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 },
                 {
                     "itemType": "Headtorch_Grey",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [
                         "Battery9V"
                     ],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 }
             ]
@@ -183,14 +210,14 @@
                     "itemType": "WoolGloves_Black",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 }
             ]
@@ -202,112 +229,112 @@
                     "itemType": "BeanieHat_Black",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 },
                 {
                     "itemType": "BeanieHat_Beige",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 },
                 {
                     "itemType": "BeanieHat_Blue",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 },
                 {
                     "itemType": "BeanieHat_Brown",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 },
                 {
                     "itemType": "BeanieHat_Green",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 },
                 {
                     "itemType": "BeanieHat_Grey",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 },
                 {
                     "itemType": "BeanieHat_Pink",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 },
                 {
                     "itemType": "BeanieHat_Red",
                     "spawnWeight": 1,
                     "attributes": {
-                        "healthMin": 1,
-                        "healthMax": 1,
-                        "quantityMin": 1,
-                        "quantityMax": 1
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1,
-                    "simpleChildrenUseDefaultAttributes": false,
                     "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
                     "complexChildrenTypes": []
                 }
             ]
@@ -324,7 +351,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "CargoPants_Black",
@@ -335,7 +365,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "CargoPants_Blue",
@@ -346,7 +379,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "CargoPants_Green",
@@ -357,7 +393,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "CargoPants_Grey",
@@ -368,7 +407,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 }
             ]
         },
@@ -384,7 +426,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "AthleticShoes_Blue",
@@ -395,7 +440,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "AthleticShoes_Brown",
@@ -406,7 +454,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "AthleticShoes_Green",
@@ -417,7 +468,10 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
                 },
                 {
                     "itemType": "AthleticShoes_Grey",
@@ -428,7 +482,44 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": -1
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": []
+                }
+            ]
+        },
+        {
+            "slotName": "Vest",
+            "discreteItemSets": [
+                {
+                    "itemType": "ChestHolster",
+                    "spawnWeight": 1,
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1,
+                    "simpleChildrenTypes": [],
+                    "simpleChildrenUseDefaultAttributes": false,
+                    "complexChildrenTypes": [
+                        {
+                            "itemType": "MakarovIJ70",
+                            "attributes": {
+                                "healthMin": 1.0,
+                                "healthMax": 1.0,
+                                "quantityMin": 1.0,
+                                "quantityMax": 1.0
+                            },
+                            "quickBarSlot": 2,
+                            "simpleChildrenTypes": [
+                                "Mag_IJ70_8Rnd"
+                            ],
+                            "simpleChildrenUseDefaultAttributes": false
+                        }
+                    ]
                 }
             ]
         }
@@ -443,7 +534,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_Red",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Pear",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Pear",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Cola",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -452,7 +605,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -473,30 +626,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_Red",
-                "Pear",
-                "Pear",
-                "SodaCan_Cola",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo2",
@@ -507,7 +638,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_Green",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Pear",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Pear",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Fronta",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -516,7 +709,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -537,30 +730,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_Green",
-                "Pear",
-                "Pear",
-                "SodaCan_Fronta",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo3",
@@ -571,7 +742,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_Yellow",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Pear",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Pear",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Kvass",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -580,7 +813,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -601,30 +834,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_Yellow",
-                "Pear",
-                "Pear",
-                "SodaCan_Kvass",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo4",
@@ -635,7 +846,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_White",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Pear",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Pear",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Pipsi",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -644,7 +917,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -665,30 +938,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_White",
-                "Pear",
-                "Pear",
-                "SodaCan_Pipsi",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo5",
@@ -699,7 +950,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_Red",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Plum",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Plum",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Spite",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -708,7 +1021,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -729,30 +1042,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_Red",
-                "Plum",
-                "Plum",
-                "SodaCan_Spite",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo6",
@@ -763,7 +1054,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_Green",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Plum",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Plum",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Kvass",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -772,7 +1125,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -793,30 +1146,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_Green",
-                "Plum",
-                "Plum",
-                "SodaCan_Kvass",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo7",
@@ -827,7 +1158,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_Yellow",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Plum",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Plum",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Fronta",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -836,7 +1229,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -857,30 +1250,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_Yellow",
-                "Plum",
-                "Plum",
-                "SodaCan_Fronta",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo8",
@@ -891,7 +1262,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_White",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Plum",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Plum",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Pipsi",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -900,7 +1333,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -921,30 +1354,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_White",
-                "Plum",
-                "Plum",
-                "SodaCan_Pipsi",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo9",
@@ -955,7 +1366,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_Red",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Apple",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Apple",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Spite",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -964,7 +1437,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -985,30 +1458,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_Red",
-                "Apple",
-                "Apple",
-                "SodaCan_Spite",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo10",
@@ -1019,7 +1470,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_Green",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Apple",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Apple",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Fronta",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -1028,7 +1541,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1049,30 +1562,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_Green",
-                "Apple",
-                "Apple",
-                "SodaCan_Fronta",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo11",
@@ -1083,7 +1574,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_Yellow",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Apple",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Apple",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Cola",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -1092,7 +1645,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1113,30 +1666,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_Yellow",
-                "Apple",
-                "Apple",
-                "SodaCan_Cola",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         },
         {
             "name": "Cargo12",
@@ -1147,7 +1678,69 @@
                 "quantityMin": 1.0,
                 "quantityMax": 1.0
             },
+            "simpleChildrenTypes": [],
+            "simpleChildrenUseDefaultAttributes": false,
             "complexChildrenTypes": [
+                {
+                    "itemType": "Chemlight_White",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Apple",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Apple",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "SodaCan_Cola",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Mag_IJ70_8Rnd",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
                 {
                     "itemType": "BandageDressing",
                     "attributes": {
@@ -1156,7 +1749,7 @@
                         "quantityMin": 1.0,
                         "quantityMax": 1.0
                     },
-                    "quickBarSlot": 0
+                    "quickBarSlot": -1
                 },
                 {
                     "itemType": "ChernarusMap",
@@ -1177,30 +1770,8 @@
                         "quantityMax": 1.0
                     },
                     "quickBarSlot": 3
-                },
-                {
-                    "itemType": "MakarovIJ70",
-                    "attributes": {
-                        "healthMin": 1.0,
-                        "healthMax": 1.0,
-                        "quantityMin": 1.0,
-                        "quantityMax": 1.0
-                    },
-                    "simpleChildrenTypes": [
-                        "Mag_IJ70_8Rnd"
-                    ],
-                    "quickBarSlot": 2
                 }
-            ],
-            "simpleChildrenTypes": [
-                "Chemlight_White",
-                "Apple",
-                "Apple",
-                "SodaCan_Cola",
-                "Matchbox",
-                "Mag_IJ70_8Rnd"
-            ],
-            "simpleChildrenUseDefaultAttributes": false
+            ]
         }
     ]
 }
