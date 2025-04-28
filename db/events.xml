@@ -66,7 +66,7 @@
         <saferadius>50</saferadius>
         <distanceradius>20</distanceradius>
         <cleanupradius>200</cleanupradius>
-        <secondary>InfectedPolice</secondary>
+        <secondary>InfectedPoliceHard</secondary>
         <flags deletable="0" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
