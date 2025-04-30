@@ -8,7 +8,7 @@
     <message>
         <delay>1</delay>
         <onconnect>1</onconnect>
-        <text>SERVER RESTARTS (GMT+1): 00:00    04:00   08:00   12:00   16:00   20:00   00:00</text>
+        <text>RESTARTS (Europe/Berlin): 00:00 03:00 06:00 09:00 12:00 15:00 18:00 21:00</text>
     </message>
     <!--
     <message>
@@ -122,10 +122,14 @@
     </message>
     <message>
         <repeat>80</repeat>
-        <text>SA (GMT+1): 12:00 - 00:00</text>
+        <text>FR (Europe/Berlin): 21:00 - 01:00</text>
     </message>
     <message>
         <repeat>80</repeat>
-        <text>SO (GMT+1): 12:00 - 22:30</text>
+        <text>SA (Europe/Berlin): 15:00 - 00:00</text>
+    </message>
+    <message>
+        <repeat>80</repeat>
+        <text>SO (Europe/Berlin): 12:00 - 22:30</text>
     </message>
 </messages>
