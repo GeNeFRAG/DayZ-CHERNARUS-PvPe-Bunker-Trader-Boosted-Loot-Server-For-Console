@@ -1732,7 +1732,7 @@
 		</cargo>
 	</type>
 	<type name="ZmbM_NBC_White">
-		<cargo chance="0.08">
+		<cargo chance="0.1">
 			<item name="FlashGrenade" chance="1.0"/>
 		</cargo>
 		<cargo chance="0.025">
@@ -1796,7 +1796,7 @@
 		<cargo preset="foodArmy"/>
 		<attachments preset="headtorches"/>
 		<attachments preset="OfficerHatArmy"/>
-		<cargo chance="0.08">
+		<cargo chance="0.1">
 			<item name="FlashGrenade" chance="1.0"/>
 		</cargo>
 	</type>
@@ -1811,7 +1811,7 @@
 			<item name="PunchedCard" chance="1.0" />
 		</cargo>
 		-->
-		<cargo chance="0.08">
+		<cargo chance="0.1">
 			<item name="FlashGrenade" chance="1.0"/>
 		</cargo>
 	</type>
