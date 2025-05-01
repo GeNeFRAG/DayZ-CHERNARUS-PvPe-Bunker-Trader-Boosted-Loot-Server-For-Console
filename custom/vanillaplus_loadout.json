@@ -548,7 +548,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Pear",
+                    "itemType": "Banana",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -558,7 +558,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Pear",
+                    "itemType": "Banana",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -652,7 +652,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Pear",
+                    "itemType": "Banana",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -662,12 +662,12 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Pear",
+                    "itemType": "Banana",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
-                        "quantityMax": 1.0
+                        "quantityMax": 1.0  
                     },
                     "quickBarSlot": -1
                 },
@@ -1068,7 +1068,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Plum",
+                    "itemType": "Kiwi",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1078,7 +1078,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Plum",
+                    "itemType": "Kiwi",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1172,7 +1172,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Plum",
+                    "itemType": "Kiwi",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1182,7 +1182,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Plum",
+                    "itemType": "Kiwi",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1588,7 +1588,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Apple",
+                    "itemType": "Orange",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1598,7 +1598,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Apple",
+                    "itemType": "Orange",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1692,7 +1692,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Apple",
+                    "itemType": "Orange",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1702,7 +1702,7 @@
                     "quickBarSlot": -1
                 },
                 {
-                    "itemType": "Apple",
+                    "itemType": "Orange",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
