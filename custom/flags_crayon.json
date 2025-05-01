@@ -111,6 +111,22 @@
             "scale": 0.9999999403953552,
             "enableCEPersistency": 0,
             "customString": ""
+        },
+        {
+            "name": "StaticObj_Target_Concrete_Ramp",
+            "pos": [
+                15047.2880859375,
+                23.83599853515625,
+                13854.25
+            ],
+            "ypr": [
+                -82.16534423828125,
+                11.9952974319458,
+                0.04988269507884979
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
         }
     ]
 }
