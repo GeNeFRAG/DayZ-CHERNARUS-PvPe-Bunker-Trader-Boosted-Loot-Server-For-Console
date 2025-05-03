@@ -10,7 +10,9 @@
 		<!-- Balota Airfield -->
 		<pos x="3646.31" z="2172.62" a="0" />
 		<!-- Skalisty Island -->
+		<!--
 		<pos x="13534" z="3001" a="0" />
+	    -->  
 	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
