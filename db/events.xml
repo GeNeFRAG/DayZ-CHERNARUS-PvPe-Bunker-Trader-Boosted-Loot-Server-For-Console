@@ -148,9 +148,9 @@
     </event>
     <!-- Custom Attack Bear Spawns -->
     <event name="AnimalAttackBear">
-        <nominal>6</nominal> <!-- how many you want to spawn. change child min/max to the same as nominal-->
-        <min>6</min>
-        <max>6</max>
+        <nominal>4</nominal> <!-- how many you want to spawn. change child min/max to the same as nominal-->
+        <min>4</min>
+        <max>4</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>1</saferadius>
