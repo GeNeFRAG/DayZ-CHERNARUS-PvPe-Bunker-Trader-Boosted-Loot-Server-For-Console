@@ -307,62 +307,6 @@
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
-		},
-		{
-			"AreaName": "single-fire-Balota",
-			"Type": "ContaminatedArea_Static",
-			"TriggerType": "effecttrigger",
-			"Data": {
-				"Pos": [
-					5304.067871,
-					16.812456,
-					2211.148682
-				],
-				"Radius": 100,
-				"PosHeight": 22,
-				"NegHeight": 10,
-				"InnerRingCount": 0,
-				"InnerPartDist": 5,
-				"OuterRingToggle": false,
-				"OuterPartDist": 5,
-				"OuterOffset": 0,
-				"VerticalLayers": 0,
-				"VerticalOffset": 0,
-				"ParticleName": "graphics/particles/fire_bonfire"
-			},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-		{
-			"AreaName": "single-smoke-Balota",
-			"Type": "ContaminatedArea_Static",
-			"TriggerType": "effecttrigger",
-			"Data": {
-				"Pos": [
-					5242.953125,
-					7.818875,
-					2176.484375
-				],
-				"Radius": 100,
-				"PosHeight": 22,
-				"NegHeight": 10,
-				"InnerRingCount": 0,
-				"InnerPartDist": 50,
-				"OuterRingToggle": false,
-				"OuterPartDist": 50,
-				"OuterOffset": 0,
-				"VerticalLayers": 0,
-				"VerticalOffset": 0,
-				"ParticleName": "graphics/particles/smoke_bonfire"
-			},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
 		}
 	],
 	"SafePositions": [
