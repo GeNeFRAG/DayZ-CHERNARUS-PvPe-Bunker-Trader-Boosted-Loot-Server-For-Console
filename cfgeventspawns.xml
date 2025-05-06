@@ -62,7 +62,11 @@
     </event>
 	<!-- Dynamic Building Materials -->
 	<event name="StaticProxyMaterials">
-		<pos x="10160.2" z="1612.9" a="10" /> 
+		<pos x="8469.09" z="12915.68" a="10" /> 
+	</event>
+	<!-- Dynamic Building Materials: Severo Hatter-->
+	<event name="StaticBuilderSevero">
+		<pos x="8412" z="12880" a="0" y="118.32" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Bag with Loot -->
 	<event name="ItemYellowBag">
