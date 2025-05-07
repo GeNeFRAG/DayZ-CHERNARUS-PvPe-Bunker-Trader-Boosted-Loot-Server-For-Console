@@ -68,6 +68,10 @@
 	<event name="StaticBuilderSevero">
 		<pos x="8412" z="12880" a="0" y="118.32" group="SkullsMaterials"/>
 	</event>
+	<!-- Dynamic Building Materials: Kamo Itachi-->
+	<event name="StaticBuilderKamo">
+		<pos x="3591" z="2158" a="0" y="6.6" group="SkullsMaterials"/>
+	</event>
 	<!-- Dynamic Bag with Loot -->
 	<event name="ItemYellowBag">
 		<pos x="10182.2" y="5.2" z="1670.7" a="0"/>

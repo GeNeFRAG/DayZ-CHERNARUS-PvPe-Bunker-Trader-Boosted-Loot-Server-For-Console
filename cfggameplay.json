@@ -123,7 +123,7 @@
       "disableIsCollidingPlayerCheck": 1,
       "disableIsClippingRoofCheck": 1,
       "disableIsBaseViableCheck": 1,
-      "disableIsCollidingGPlotCheck": 0,
+      "disableIsCollidingGPlotCheck": 1,
       "disableIsCollidingAngleCheck": 1,
       "disableIsPlacementPermittedCheck": 1,
       "disableHeightPlacementCheck": 1,
