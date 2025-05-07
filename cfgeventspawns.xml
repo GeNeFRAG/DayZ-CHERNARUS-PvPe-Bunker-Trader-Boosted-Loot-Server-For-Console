@@ -7,8 +7,8 @@
 		<pos x="3149.57" z="13032.82" a="0" />
 		<!-- Krasno Airfield -->
 		<pos x="12040.31" z="12705.22" a="0" />
-		<!-- Balota Airfield -->
-		<pos x="3646.31" z="2172.62" a="0" />
+		<!-- Cherno -->
+		<pos x="7857.89" z="3417.87" a="0" />
 		<!-- Skalisty Island -->
 		<!--
 		<pos x="13534" z="3001" a="0" />
@@ -70,7 +70,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Kamo Itachi-->
 	<event name="StaticBuilderKamo">
-		<pos x="3591" z="2158" a="0" y="6.6" group="SkullsMaterials"/>
+		<pos x="3590.5" z="2157.9" a="0" y="6.6" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Bag with Loot -->
 	<event name="ItemYellowBag">
