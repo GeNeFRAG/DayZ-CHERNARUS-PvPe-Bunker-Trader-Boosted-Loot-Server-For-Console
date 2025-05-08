@@ -33,9 +33,20 @@
 		<territory type="Herd" name="RoeDeer" behavior="DZDeerGroupBeh">
 			<file usable="roe_deer_territories" />
 		</territory>
+		<!--
 		<territory type="Herd" name="Wolf" behavior="DZWolfGroupBeh">
 			<file usable="wolf_territories" />
 		</territory>
+		-->
+		<!-- Larger Wolf Packs -->
+		<territory type="Herd" name="Wolf" behavior="DZWolfGroupBeh">
+            <file usable="wolf_territories" />
+            <item name="globalCountMax" val="100" />
+            <item name="zoneCountMin" val="10" />
+            <item name="zoneCountMax" val="40" />
+            <item name="playerSpawnRadiusNear" val="25" />
+            <item name="playerSpawnRadiusFar" val="75" />            
+        </territory>
 		<territory type="Herd" name="WildBoar" behavior="DZDeerGroupBeh">
 			<file usable="wild_boar_territories" />
 		</territory>
@@ -45,6 +56,7 @@
 		<territory type="Herd" name="Bear" behavior="BlissBearGroupBeh">
 			<file usable="bear_territories"/>
 		</territory>
+		<!-- Custom Bear Spawn -->
 		<territory type="Herd" name="AttackBear" behavior="BlissBearGroupBeh">
 			<file usable="petbear_territories"/>
 		</territory>

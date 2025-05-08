@@ -397,6 +397,7 @@
             <child lootmax="0" lootmin="0" max="6" min="3" type="Animal_SusScrofa"/>
         </children>
     </event>
+    <!--
     <event name="AnimalWolf">
         <nominal>12</nominal>
         <min>9</min>
@@ -413,6 +414,26 @@
         <children>
             <child lootmax="0" lootmin="0" max="6" min="4" type="Animal_CanisLupus_Grey"/>
             <child lootmax="0" lootmin="0" max="4" min="2" type="Animal_CanisLupus_White"/>
+        </children>
+    </event>
+    -->
+    <!-- Large Wolf Packs -->
+    <event name="AnimalWolf">
+        <nominal>40</nominal>
+        <min>40</min>
+        <max>40</max>
+        <lifetime>180</lifetime>
+        <restock>0</restock>
+        <saferadius>200</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>0</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="6" min="2" type="Animal_CanisLupus_Grey"/>
+            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_CanisLupus_White"/>
         </children>
     </event>
     <event name="InfectedArmy">
