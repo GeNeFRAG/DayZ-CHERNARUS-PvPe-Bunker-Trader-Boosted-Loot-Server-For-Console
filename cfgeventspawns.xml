@@ -70,7 +70,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Kamo Itachi-->
 	<event name="StaticBuilderKamo">
-		<pos x="3596.98" z="2140.79" a="0" y="6.6" group="SkullsMaterials"/>
+		<pos x="3592.12" z="2152.45" a="0" y="6.6" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Bag with Loot -->
 	<event name="ItemYellowBag">
