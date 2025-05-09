@@ -74,7 +74,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Vybor Melli-->
 	<event name="StaticBuilderVybor">
-		<pos x="3648.01" y="299.4" z="8597.90" a="300" group="SkullsMaterials"/>
+		<pos x="3643.39" y="299.4" z="8597.17" a="300" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Bag with Loot -->
 	<event name="ItemYellowBag">
