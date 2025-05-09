@@ -688,10 +688,10 @@
 
 <!-- ################ [CARPARTS] ################-->
 <type name="CanisterGasoline">
-        <nominal>53</nominal>
+        <nominal>55</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>33</min>
+        <min>35</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1942,10 +1942,10 @@
         <usage name="Carparts"/>
     </type>
 <type name="Offroad_02_Wheel">
-        <nominal>40</nominal>
+        <nominal>45</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>35</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2593,10 +2593,10 @@
 
 <!-- ################ [CARPARTS, EQUIPMENT] ################-->
 <type name="CarBattery">
-        <nominal>63</nominal>
+        <nominal>64</nominal>
         <lifetime>28800</lifetime>
         <restock>360</restock>
-        <min>43</min>
+        <min>44</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12338,10 +12338,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="Blowtorch">
-        <nominal>33</nominal>
+        <nominal>34</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>23</min>
+        <min>24</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12503,10 +12503,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="GlowPlug">
-        <nominal>23</nominal>
+        <nominal>24</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>16</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
