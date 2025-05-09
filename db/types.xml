@@ -2593,10 +2593,10 @@
 
 <!-- ################ [CARPARTS, EQUIPMENT] ################-->
 <type name="CarBattery">
-        <nominal>64</nominal>
+        <nominal>65</nominal>
         <lifetime>28800</lifetime>
         <restock>360</restock>
-        <min>44</min>
+        <min>45</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12503,10 +12503,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="GlowPlug">
-        <nominal>24</nominal>
+        <nominal>27</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>16</min>
+        <min>19</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
