@@ -57,7 +57,8 @@
       "custom/flags_itachi.json",
       "custom/flags_pmc.json",
       "custom/flags_hope.json",
-      "custom/flags_weedy.json"
+      "custom/flags_weedy.json",
+      "custom/admin_humvee.json"
     ],
     "environmentMinTemps": [
       -3,
