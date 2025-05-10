@@ -76,9 +76,9 @@
 	<event name="StaticBuilderVybor">
 		<pos x="3648.5" y="299.4" z="8601.4" a="0" group="SkullsMaterials"/>
 	</event>
-	<!-- Dynamic Bag with Loot for Trader -->
+	<!-- Dynamic Bag with Loot for Trader (in Humvee shed) -->
 	<event name="ItemYellowBag">
-		<pos x="10104.3" y="8.5" z="1697.2" a="0"/>
+		<pos x="10072" y="6.3" z="1649" a="0"/>
 	</event>
 	<!-- Static Container Event -->
 	<event name="StaticContainerLocked">
