@@ -12140,12 +12140,8 @@
             </container>
         </group>
     <group name="Land_Container_1Mo" lootmax="1">
-        <usage name="RepairItems" />
-        <usage name="Tools" />
-        <usage name="Containers" />
         <usage name="MagsAmmo" />
         <usage name="Explosives" />
-        <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Attachment" />
@@ -12159,12 +12155,8 @@
             </container>
         </group>
     <group name="Land_Container_1Moh" lootmax="1">
-        <usage name="RepairItems" />
-        <usage name="Tools" />
-        <usage name="Containers" />
         <usage name="MagsAmmo" />
         <usage name="Explosives" />
-        <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Attachment" />
@@ -16364,14 +16356,11 @@
             </container>
         </group>
     <group name="StaticObj_Wreck_Train_Wagon_Flat_Mil_DE" lootmax="11">
-        <usage name="Military" />
-        <usage name="RepairItems" />
-        <usage name="Tools" />
         <usage name="MagsAmmo" />
-        <usage name="Weapons" />
         <usage name="Attachment" />
-        <usage name="FoodDrink" />
-        <usage name="Clothes" />
+        <usage name="Explosives" />
+        <usage name="MilitaryClothes" />
+        <usage name="Military" />
         <container name="lootFloor" lootmax="11">
             <tag name="floor" />
             <tag name="shelves" />
@@ -16452,14 +16441,11 @@
             </container>
         </group>
     <group name="StaticObj_Wreck_Train_Wagon_Tanker_Mil_DE" lootmax="5">
-        <usage name="Military" />
-        <usage name="RepairItems" />
-        <usage name="Tools" />
         <usage name="MagsAmmo" />
-        <usage name="Weapons" />
         <usage name="Attachment" />
-        <usage name="FoodDrink" />
-        <usage name="Clothes" />
+        <usage name="Explosives" />
+        <usage name="MilitaryClothes" />
+        <usage name="Military" />
         <container name="lootFloor" lootmax="5">
             <tag name="floor" />
             <tag name="shelves" />
@@ -16508,10 +16494,8 @@
         </group>
     <group name="StaticObj_Wreck_Train_742_Blue_Mil_DE" lootmax="8">
         <usage name="MagsAmmo" />
-        <usage name="Weapons" />
         <usage name="Attachment" />
         <usage name="Explosives" />
-        <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <container name="lootFloor" lootmax="8">
@@ -16529,10 +16513,8 @@
         </group>
     <group name="StaticObj_Wreck_Train_742_Red_Mil_DE" lootmax="8">
         <usage name="MagsAmmo" />
-        <usage name="Weapons" />
         <usage name="Attachment" />
         <usage name="Explosives" />
-        <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <container name="lootFloor" lootmax="8">
@@ -16550,10 +16532,8 @@
         </group>
     <group name="Land_Train_Wagon_Box_Mil_DE" lootmax="7">
         <usage name="MagsAmmo" />
-        <usage name="Weapons" />
         <usage name="Attachment" />
         <usage name="Explosives" />
-        <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <container name="lootFloor" lootmax="7">
@@ -16621,12 +16601,8 @@
     <group name="Land_Container_1Mo_DE" lootmax="3">
         <usage name="Military" />
         <usage name="MilitaryClothes" />
-        <usage name="FoodDrink" />
         <usage name="Explosives" />
         <usage name="MagsAmmo" />
-        <usage name="Containers" />
-        <usage name="Tools" />
-        <usage name="RepairItems" />
         <value name="Unique" />
         <usage name="Attachment" />
         <container name="lootFloor" lootmax="3">
@@ -16641,12 +16617,8 @@
     <group name="Land_Container_1Moh_DE" lootmax="3">
         <usage name="Military" />
         <usage name="MilitaryClothes" />
-        <usage name="FoodDrink" />
         <usage name="Explosives" />
         <usage name="MagsAmmo" />
-        <usage name="Containers" />
-        <usage name="Tools" />
-        <usage name="RepairItems" />
         <value name="Unique" />
         <usage name="Attachment" />
         <container name="lootFloor" lootmax="3">
