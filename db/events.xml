@@ -4,8 +4,8 @@
     <!-- Static Container event new -->
      <event name="StaticContainerLocked">
         <nominal>2</nominal>
-        <min>1</min>
-        <max>0</max>
+        <min>2</min>
+        <max>2</max>
         <lifetime>2400</lifetime>
         <restock>0</restock>
         <saferadius>50</saferadius>
