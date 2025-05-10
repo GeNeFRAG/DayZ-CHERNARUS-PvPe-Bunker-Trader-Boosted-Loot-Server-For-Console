@@ -59,8 +59,7 @@
       "custom/flags_hope.json",
       "custom/flags_weedy.json",
       "custom/flags_melli.json",
-      "custom/admin_humvee.json",
-      "custom/demo_cont_vybor.json"
+      "custom/admin_humvee.json"
     ],
     "environmentMinTemps": [
       -3,
