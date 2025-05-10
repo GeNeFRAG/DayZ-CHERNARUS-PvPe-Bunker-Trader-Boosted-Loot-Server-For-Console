@@ -439,7 +439,7 @@
         <max>40</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
-        <saferadius>200</saferadius>
+        <saferadius>100</saferadius>
         <distanceradius>0</distanceradius>
         <cleanupradius>0</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
