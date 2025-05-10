@@ -4,28 +4,40 @@
 	<!-- Drop some Loot -->
 	<type name="DryBag_Yellow">
 		<cargo chance="1.0">
-			<item name="AK74" />
+			<item name="PunchedCard" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="AK74_Hndgrd" />
+			<item name="PunchedCard" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="AK74_WoodBttstck" />
+			<item name="PunchedCard" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="Mag_AK74_30Rnd" />
+			<item name="PunchedCard" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="Mag_AK74_30Rnd" />
+			<item name="PunchedCard" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="Mag_AK74_30Rnd" />
+			<item name="PunchedCard" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="KobraOptic" />
+			<item name="PunchedCard" />
 		</cargo>
 		<cargo chance="1.0">
-			<item name="Battery9V" />
+			<item name="PunchedCard" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="PunchedCard" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="PunchedCard" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="PunchedCard" />
+		</cargo>
+		<cargo chance="1.0">
+			<item name="PunchedCard" />
 		</cargo>
 	</type>
 	<!-- Mich helmet with NVG -->

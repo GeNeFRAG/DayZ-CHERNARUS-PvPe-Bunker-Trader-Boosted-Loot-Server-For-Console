@@ -92,12 +92,12 @@
         <lifetime>14400</lifetime>
         <restock>0</restock>
         <saferadius>0</saferadius>
-        <distanceradius>50</distanceradius>
-        <cleanupradius>0</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="DryBag_Yellow"/>
         </children>
