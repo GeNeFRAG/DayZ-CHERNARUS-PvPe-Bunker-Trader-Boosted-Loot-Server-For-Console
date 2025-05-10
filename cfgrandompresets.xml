@@ -90,10 +90,12 @@
 	<attachments chance="1.00" name="ZombieGhillieSuit">
         <item name="GhillieSuit_Mossy" chance="0.1" />
         <item name="GhillieSuit_Tan" chance="0.1" />
+		<item name="GhillieSuit_Woodland" chance="0.1" />
 	</attachments>
 	<attachments chance="1.00" name="ZombieGhillieHat">
 		<item name="GhillieHood_Mossy" chance="0.1" />
 		<item name="GhillieHood_Tan" chance="0.1" />
+		<item name="GhillieHood_Woodland" chance="0.1" />
 	</attachments>
 	<!-- Surprise Zombie Loot -->
 	<attachments chance="0.35" name="ZombieItemDropWTF"> 
