@@ -1106,10 +1106,10 @@
         <usage name="Carparts"/>
     </type>
 <type name="CivSedanWheel">
-        <nominal>41</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>31</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1381,10 +1381,10 @@
         <usage name="Carparts"/>
     </type>
 <type name="HatchbackWheel">
-        <nominal>42</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>32</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1788,10 +1788,10 @@
         <usage name="Carparts"/>
     </type>
 <type name="Hatchback_02_Wheel">
-        <nominal>41</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>31</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2349,10 +2349,10 @@
         <usage name="Carparts"/>
     </type>
 <type name="Sedan_02_Wheel">
-        <nominal>42</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>32</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2569,10 +2569,10 @@
         <usage name="Carparts"/>
     </type>
 <type name="Truck_01_Wheel">
-        <nominal>41</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>31</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2580,10 +2580,10 @@
         <usage name="Carparts"/>
     </type>
 <type name="Truck_01_WheelDouble">
-        <nominal>41</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>31</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12558,10 +12558,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="LargeGasCanister">
-        <nominal>40</nominal>
+        <nominal>41</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>31</min>
         <quantmin>65</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
