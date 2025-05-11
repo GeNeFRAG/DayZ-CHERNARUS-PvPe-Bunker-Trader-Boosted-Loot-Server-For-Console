@@ -577,11 +577,13 @@
 		<cargo preset="toolsIndustrial"/>
 		<cargo preset="mixHunter"/>
 	</type>
+	<!--
 	<type name="DryBag_Yellow">
 		<cargo preset="foodVillage"/>
 		<cargo preset="toolsIndustrial"/>
 		<cargo preset="mixHunter"/>
 	</type>
+	-->
 	<type name="HuntingBag">
 		<cargo preset="foodVillage"/>
 		<cargo preset="toolsIndustrial"/>
