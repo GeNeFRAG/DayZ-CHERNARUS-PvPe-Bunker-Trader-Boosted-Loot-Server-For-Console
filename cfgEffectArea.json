@@ -1,6 +1,62 @@
 {
 	"Areas": [
 		{
+			"AreaName": "Black Lake Bunker North",
+			"Type": "SpookyArea23",
+			"TriggerType": "SpookyTrigger23",
+			"Data": {
+				"Pos": [
+					13307.92,
+					0,
+					12124.40
+				],
+				"Radius": 30,
+				"PosHeight": 30,
+				"NegHeight": 20,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1,
+				"OuterPartDist": 40,
+				"OuterOffset": 0,
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+			},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+		{
+			"AreaName": "Black Lake Bunker South",
+			"Type": "SpookyArea23",
+			"TriggerType": "SpookyTrigger23",
+			"Data": {
+				"Pos": [
+					13289.45,
+					0,
+					12074.82
+				],
+				"Radius": 35,
+				"PosHeight": 30,
+				"NegHeight": 20,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1,
+				"OuterPartDist": 40,
+				"OuterOffset": 0,
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+			},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+		{
 			"AreaName": "single-smoke-plane-crash_Krasno",
 			"Type": "ContaminatedArea_Static",
 			"TriggerType": "effecttrigger",
