@@ -17,8 +17,6 @@
         <active>1</active>
         <children>
             <child lootmax="0" lootmin="0" max="1" min="1" type="ZmbF_SkaterYoung_Striped" />
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ZmbF_SurvivorNormal_Red" />
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ZmbM_CitizenASkinny_Brown" />
             <child lootmax="0" lootmin="0" max="1" min="1" type="ZmbM_ClerkFat_Brown" />
             <child lootmax="0" lootmin="0" max="1" min="1" type="ZmbM_CommercialPilotOld_Brown" />
         </children>
