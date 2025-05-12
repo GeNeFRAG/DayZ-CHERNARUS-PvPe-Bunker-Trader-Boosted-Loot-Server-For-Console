@@ -2117,12 +2117,16 @@
 		<cargo preset="toolsCity"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
+		<cargo chance="0.15">
+			<item name="FlashGrenade" chance="1.0"/>
+		</cargo>
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Brown">
 		<cargo preset="foodCity"/>
 		<cargo preset="toolsCity"/>
 		<attachments preset="glassesCity"/>
 		<attachments preset="hatsCity"/>
+
 	</type>
 	<type name="ZmbM_CommercialPilotOld_Grey">
 		<cargo preset="drinks_T1"/>
