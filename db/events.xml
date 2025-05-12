@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
     <!-- ################### CUSTOM EVENTS START ################### -->
-    <!-- Stalker Zombis, spawn random on Players :-D -->
+    <!-- Stalker Zombies, will spawn on Players :-D -->
     <event name="ItemStalkerZombie">
         <nominal>5</nominal>
         <min>1</min>
@@ -231,9 +231,9 @@
     </event>
     <!-- Custom Attack Bear Spawns -->
     <event name="AnimalAttackBear">
-        <nominal>4</nominal> <!-- how many you want to spawn. change child min/max to the same as nominal-->
-        <min>4</min>
-        <max>4</max>
+        <nominal>8</nominal> <!-- how many you want to spawn. change child min/max to the same as nominal-->
+        <min>8</min>
+        <max>8</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>1</saferadius>

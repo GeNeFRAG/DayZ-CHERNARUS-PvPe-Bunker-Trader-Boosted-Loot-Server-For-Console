@@ -13,5 +13,9 @@
         -->
         <!-- Bunker -->
         <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="13467.34" z="12089.40" r="10"/>
+        <!-- Balota Airfield -->
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="4903.22" z="2323.78" r="10"/>
+         <!-- Krasno Airfield -->
+        <zone name="Graze" smin="0" smax="0" dmin="0" dmax="0" x="11756.46" z="12400.96" r="10"/>
     </territory>
 </territory-type>
