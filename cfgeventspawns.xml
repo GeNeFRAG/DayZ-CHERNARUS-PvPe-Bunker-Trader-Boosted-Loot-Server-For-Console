@@ -25,23 +25,6 @@
 		<!-- Klen area -->
 		<pos x="11497.16" z="11324.61" a="0"/>
 	</event>
-	<!-- Custom fireplace hunting camp spawns -->
-	<event name="StaticCustomFireplace">
-		<pos x="1090.69" z="6615.80" a="0" />
-		<pos x="594.43" z="11153.52" a="0" />
-		<pos x="1229.4" z="11455.6" a="0" />
-		<pos x="3192.34" z="6102.30" a="0" />
-		<pos x="7072.93" z="4320.21" a="0" />
-		<pos x="10282.77" z="3500.50" a="0" />
-		<pos x="9794.30" z="2217.10" a="0" />
-		<pos x="11154.25" z="7048.38" a="0" />
-		<pos x="11464.83" z="10643.42" a="0" />
-		<pos x="14834.83" z="14569.45" a="0" />
-		<pos x="8464.48" z="14001.99" a="0" />
-		<pos x="9055.75" z="12713.73" a="0" />
-		<pos x="8160.70" z="11010.14" a="0" />
-		<pos x="3711.20" z="14823.89" a="0" />
-	</event>
 	<!-- Boats to Skalisty -->
 	<event name="VehicleCustomBunkerBoat">
 		<pos x="12905.71" z="3643.64" a="0" />
@@ -76,15 +59,15 @@
 	<event name="StaticBuilderVybor">
 		<pos x="3648.5" y="299.4" z="8601.4" a="0" group="SkullsMaterials"/>
 	</event>
-	<!-- Dynamic Building Materials: Koslovaka-->
+	<!-- Dynamic Building Materials: Koslovaka Menn-->
 	<event name="StaticBuilderKoslovka">
 		<pos x="4563.8" y="233.2" z="4520.0" a="0" group="SkullsMaterials"/>
 	</event>
-	<!-- Dynamic Bag with Loot for Trader (in Humvee shed) -->
+	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
 		<pos x="10105.1" z="1616.58" a="0"/>
 	</event>
-	<!-- Static Container Event -->
+	<!-- Static ContainerLocked Event -->
 	<event name="StaticContainerLocked">
 		<pos x="2061.32" z="3501.23" a="0" />
 		<pos x="13814.13" z="11170.29" a="0" />

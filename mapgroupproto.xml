@@ -13,6 +13,7 @@
         <default name="clusterMatrix" de="TrajectoryPlum" width="12" height="12" />
         </defaults>
     <!-- ################### CUSTOM GROUPS START ################### -->
+    <!-- Proto Entries for Container Locked Event -->
     <group name="Land_ContainerLocked_Blue_DE" lootmax="9">
         <usage name="ContainerLocked" />
         <container name="lootFloor" lootmax="9">
@@ -47,346 +48,337 @@
             <point pos="2.449341 -1.087740 -0.670532" range="0.377808" height="0.944519" />
         </container>
     </group>
-    <!-- Pallet with Building Supplies.WoodenLogs, Planks and Metalplates -->
+    <!-- Pallet with Building Supplies. WoodenLogs, Planks and Metalplates -->
     <group name="StaticObj_Misc_Pallet">
         <container name="loot" />
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.1 0" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.1 0.15" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.1 0.30" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.1 0.45" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.1 0.6" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.1 0.75" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.25 0" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.25 0.15" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.25 0.30" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.25 0.45" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.25 0.6" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.25 0.75" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.4 0" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.4 0.15" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.4 0.30" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.4 0.45" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.4 0.6" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.4 0.75" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.55 0" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.55 0.15" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.55 0.30" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.55 0.45" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.55 0.6" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.55 0.75" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.7 0" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.7 0.15" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.7 0.30" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.7 0.45" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.7 0.6" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.7 0.75" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.85 0" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.85 0.15" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.85 0.30" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.85 0.45" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.85 0.6" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 0.85 0.75" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1 0" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1 0.15" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1 0.30" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1 0.45" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1 0.6" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1 0.75" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1.15 0" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1.15 0.15" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1.15 0.30" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1.15 0.45" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1.15 0.6" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenLog" pos="0 1.15 0.75" rpy="0 0.0 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.1 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.15 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.2 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.25 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.3 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.35 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.4 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.45 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.5 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.55 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.6 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.65 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.7 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.75 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.8 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.85 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.9 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.95 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 1 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 1.05 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 1.1 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 1.15 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 1.2 -0.17" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.1 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.15 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.2 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.25 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.3 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.35 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.4 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.45 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.5 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.55 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.6 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.65 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.7 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.75 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.8 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.85 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.9 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 0.95 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 1 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 1.05 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 1.1 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 1.15 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="WoodenPlank" pos="0 1.2 -0.37" rpy="0 90 0.0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.52" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.54" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.56" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.58" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.60" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.62" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.64" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.66" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.68" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.70" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.72" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.74" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.60" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.60" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
+        </dispatch>
         <dispatch dechance="1.0">
             <proxy type="MetalPlate" pos="0 0.73 -0.60" rpy="90 90 0" dechance="1.0" />
-            </dispatch>
-        </group>
-    <group name="Fireplace" lootmax="5">
-        <container name="lootFloor" lootmax="5">
-            <point pos="-1.876667 -1.211807 1.021349" range="0.483887" height="1.209718" flags="32" />
-            <point pos="0.396737 -1.174454 -0.807087" range="0.564209" height="1.410522" flags="32" />
-            <point pos="1.760472 -1.067368 0.874323" range="0.665283" height="1.626160" flags="32" />
-            <point pos="1.757211 -1.085785 -0.656583" range="0.712402" height="1.781005" flags="32" />
-            <point pos="0.068999 -1.178558 0.701673" range="0.838379" height="2.037003" flags="32" />
-            </container>
-        </group>
+        </dispatch>
+    </group>
     <!-- ################### CUSTOM GROUPS END ################### -->
     <group name="Land_Shed_M1" lootmax="2">
         <usage name="Industrial" />
