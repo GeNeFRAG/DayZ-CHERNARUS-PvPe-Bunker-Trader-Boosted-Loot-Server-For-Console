@@ -36,8 +36,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="9" lootmin="5" max="1" min="1" type="Land_ContainerLocked_Blue_DE"/>
-            <child lootmax="9" lootmin="5" max="1" min="1" type="Land_ContainerLocked_Yellow_DE"/>
+            <child lootmax="9" lootmin="9" max="1" min="1" type="Land_ContainerLocked_Blue_DE"/>
+            <child lootmax="9" lootmin="9" max="1" min="1" type="Land_ContainerLocked_Yellow_DE"/>
         </children>
     </event>
     <!-- Event for Building Supplies. WoodenLogs, Planks and Metalplates (Proxy)-->
