@@ -48,24 +48,24 @@
 		<pos x="8469.09" z="12915.68" a="10" /> 
 	</event>
 	<!-- Dynamic Building Materials: Severo Hatter-->
-	<event name="StaticBuilderSevero">
+	<event name="StaticBuilder_Hatter">
 		<pos x="8412" y="118.32" z="12880" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Building Materials: Kamo Itachi-->
-	<event name="StaticBuilderKamo">
+	<event name="StaticBuilder_Itachi">
 		<pos x="3647.53" y="6.6" z="2172.87" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Building Materials: Vybor Melli-->
-	<event name="StaticBuilderVybor">
+	<event name="StaticBuilder_Melli">
 		<pos x="3648.5" y="299.4" z="8601.4" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Building Materials: Koslovaka Menn-->
-	<event name="StaticBuilderKoslovka">
+	<event name="StaticBuilder_Alikemenn">
 		<pos x="4563.8" y="233.2" z="4520.0" a="0" group="SkullsMaterials"/>
 	</event>
-	<!-- Dynamic Building Materials: Koslovaka Booster-->
-	<event name="StaticBuilderBooster">
-		<pos x="5718.3" y="474.6" z="15229.8" a="0" group="SkullsMaterials"/>
+	<!-- Dynamic Building Materials: Stary Booster-->
+	<event name="StaticBuilder_Booster">
+		<pos x="5714.7" y="474.6" z="15227" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">

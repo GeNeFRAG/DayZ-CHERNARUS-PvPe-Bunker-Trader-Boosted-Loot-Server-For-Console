@@ -77,7 +77,7 @@
         </children>
     </event>
     <!-- Building Material events for factions in individual bases -->
-    <event name="StaticBuilderSevero">
+    <event name="StaticBuilder_Hatter">
         <nominal>1</nominal>
         <min>0</min>
         <max>1</max>
@@ -92,7 +92,7 @@
         <active>1</active>
         <children/>
     </event>
-    <event name="StaticBuilderKamo">
+    <event name="StaticBuilder_Itachi">
         <nominal>1</nominal>
         <min>0</min>
         <max>1</max>
@@ -107,7 +107,7 @@
         <active>1</active>
         <children/>
     </event>
-    <event name="StaticBuilderVybor">
+    <event name="StaticBuilder_Melli">
         <nominal>1</nominal>
         <min>0</min>
         <max>1</max>
@@ -122,7 +122,7 @@
         <active>1</active>
         <children/>
     </event>
-    <event name="StaticBuilderKoslovka">
+    <event name="StaticBuilder_Alikemenn">
         <nominal>1</nominal>
         <min>0</min>
         <max>1</max>
@@ -137,7 +137,7 @@
         <active>1</active>
         <children/>
     </event>
-    <event name="StaticBuilderBooster">
+    <event name="StaticBuilder_Booster">
         <nominal>1</nominal>
         <min>0</min>
         <max>1</max>
