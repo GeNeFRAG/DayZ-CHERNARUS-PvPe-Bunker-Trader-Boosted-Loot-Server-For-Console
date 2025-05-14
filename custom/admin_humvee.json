@@ -189,7 +189,7 @@
                 -0.0
             ],
             "scale": 0.9998178482055664,
-            "enableCEPersistency": 1,
+            "enableCEPersistency": 0,
             "customString": ""
         },
         {

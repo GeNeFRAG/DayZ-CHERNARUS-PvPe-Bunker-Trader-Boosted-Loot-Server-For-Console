@@ -65,7 +65,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Stary Booster-->
 	<event name="StaticBuilder_Booster">
-		<pos x="5715.41" y="474.6" z="15223.18" a="0" group="SkullsMaterials"/>
+		<pos x="5722.8" y="474" z="15216.8" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
