@@ -232,73 +232,70 @@
 			<item name="FarmingHoe" />
 		</attachments>
 		<attachments>
-			<item name="FarmingHoe" />
-		</attachments>
-		<attachments>
-			<item name="Shovel" />
-		</attachments>
-		<attachments>
 			<item name="Pickaxe" />
 		</attachments>
 		<attachments>
 			<item name="Pickaxe" />
-		</attachments>
-		<attachments>
-			<item name="Pickaxe" />
-		</attachments>
-		<attachments>
-			<item name="Rope" />
-		</attachments>
-		<attachments>
-			<item name="Rope" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
-		</attachments>
-		<attachments>
-			<item name="NailBox" />
 		</attachments>
 		<attachments>
 			<item name="SledgeHammer" />
+		</attachments>
+		<attachments>
+			<item name="Rope" />
+		</attachments>
+		<attachments>
+			<item name="Rope" />
+		</attachments>
+		<attachments>
+			<item name="Rope" />
+		</attachments>
+		<attachments>
+			<item name="Rope" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
+		</attachments>
+		<attachments>
+			<item name="NailBox" />
 		</attachments>
 		<attachments>
 			<item name="Hatchet" />
