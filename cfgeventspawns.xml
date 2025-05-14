@@ -63,6 +63,10 @@
 	<event name="StaticBuilderKoslovka">
 		<pos x="4563.8" y="233.2" z="4520.0" a="0" group="SkullsMaterials"/>
 	</event>
+	<!-- Dynamic Building Materials: Koslovaka Booster-->
+	<event name="StaticBuilderBooster">
+		<pos x="5718.3" y="474.6" z="15229.8" a="0" group="SkullsMaterials"/>
+	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
 		<pos x="10105.1" z="1616.58" a="0"/>
