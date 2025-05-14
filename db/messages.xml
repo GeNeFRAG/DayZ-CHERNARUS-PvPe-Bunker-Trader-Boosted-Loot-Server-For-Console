@@ -96,13 +96,17 @@
         <repeat>48</repeat>
         <text>NO GRIEFING OF BASES!</text>
     </message>
-    <message>
-        <repeat>48</repeat>
-        <text>NO FORCED, WATCHTOWER, TENT OR BY CODE HACKING ENTRY INTO BASES OUTSIDE BASE DAMAGE TIMES!</text>
-    </message>
      <message>
         <repeat>48</repeat>
         <text>NO FIREPLACES OR GARDENPLOTS TO RAID!</text>
+    </message>
+    <message>
+        <repeat>48</repeat>
+        <text>NO USE OF WATCHTOWERS OR PLACEMENT OF TENTS FOR RAIDING!</text>
+    </message>
+    <message>
+        <repeat>48</repeat>
+        <text>NO CODE HACKING ENTRY INTO BASES OUTSIDE BASE DAMAGE TIMES!</text>
     </message>
     <message>
         <repeat>48</repeat>
