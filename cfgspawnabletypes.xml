@@ -6,39 +6,6 @@
 		<cargo chance="1.0">
 			<item name="PunchedCard" />
 		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
-		<cargo chance="1.0">
-			<item name="PunchedCard" />
-		</cargo>
 	</type>
 	<!-- Mich helmet with NVG -->
 	<type name="Mich2001Helmet">
