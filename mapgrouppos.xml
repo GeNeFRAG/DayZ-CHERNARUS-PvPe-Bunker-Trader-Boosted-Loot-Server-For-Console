@@ -2,6 +2,7 @@
 <map>
     <!-- ######################################################### CUSTOM GROUPS START ######################################################### -->
     <!-- Heli crash Radio Zenit, Green Mountain -->
+    <!--
 	<group name="StaticObj_Rubble_DirtPile_Medium1" pos="3731.103516 402.542877 5998.284668" rpy="-0.000000 -0.000000 0.000000" a="90"/>
 	<group name="StaticObj_Roadblock_Pillbox" pos="3728.115479 403.051727 6004.293945" rpy="-0.000000 0.000000 -81.000114" a="171"/>
 	<group name="Land_Roadblock_Table" pos="3728.614502 402.447113 6003.497559" rpy="-0.000000 0.000000 35.999802" a="54.0002"/>
@@ -18,6 +19,7 @@
 	<group name="StaticObj_Mil_CamoNet_Side_nato" pos="8130.933594 477.924530 9161.916016" rpy="-2.275801 0.383320 -25.712029" a="115.712"/>
 	<group name="Land_Container_1Mo" pos="8097.481445 460.008331 9327.954102" rpy="-0.000000 -0.000000 0.000000" a="90"/>
 	<group name="StaticObj_Container_1C" pos="8094.223633 460.117889 9323.747070" rpy="-0.000000 -0.000000 0.000000" a="90"/>
+    -->
     
     <!-- Container Military -->
     <group name="Land_Container_1Mo" pos="1534.743896 454.160278 14079.396484" rpy="-0.000000 0.000000 10.159926" a="79.8401"/>
