@@ -21,6 +21,24 @@
             <child lootmax="0" lootmin="0" max="1" min="1" type="ZmbM_CommercialPilotOld_Brown" />
         </children>
     </event>
+     <!-- Stalker Animal, will spawn on Players :-D -->
+    <event name="ItemStalkerAnimal">
+        <nominal>5</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>3</lifetime>
+        <restock>0</restock>
+        <saferadius>1</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>10</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="1" />
+        <position>player</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_LepusEuropaeus" />
+        </children>
+    </event>
     <!-- Static Container event new -->
      <event name="StaticContainerLocked">
         <nominal>2</nominal>
