@@ -3946,7 +3946,6 @@
     <group name="Land_Wreck_C130J_Cargo" lootmax="17">
         <usage name="Military" />
         <usage name="MilitaryClothes" />
-        <usage name="FoodDrink" />
         <usage name="Explosives" />
         <usage name="Attachment" />
         <usage name="Weapons" />
@@ -12589,7 +12588,6 @@
     <group name="Wreck_UH1Y" lootmax="15">
         <usage name="Attachment" />
         <usage name="Explosives" />
-        <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Special" />
@@ -12626,7 +12624,6 @@
     <group name="Wreck_Mi8" lootmax="15">
         <usage name="Attachment" />
         <usage name="Explosives" />
-        <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Special" />
@@ -12671,7 +12668,6 @@
     <group name="Wreck_Mi8_Crashed" lootmax="15">
         <usage name="Attachment" />
         <usage name="Explosives" />
-        <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Special" />
@@ -12703,7 +12699,6 @@
     <group name="Land_Wreck_C130J" lootmax="15">
         <usage name="Attachment" />
         <usage name="Explosives" />
-        <usage name="FoodDrink" />
         <usage name="MilitaryClothes" />
         <usage name="Military" />
         <usage name="Special" />
