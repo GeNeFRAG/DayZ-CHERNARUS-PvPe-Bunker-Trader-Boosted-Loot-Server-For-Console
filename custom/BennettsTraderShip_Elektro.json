@@ -22225,6 +22225,21 @@
             "customString": ""
         },
         {
+            "name": "Land_Misc_Well_Pump_Blue",
+            "pos": [
+                10095.0546875,
+                5.202365875244141,
+                1689.1474609375
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.999998927116394,
+            "enableCEPersistency": 0
+        },
+        {
             "name": "StaticObj_Hanged_civil",
             "pos": [
                 10191.873046875,
