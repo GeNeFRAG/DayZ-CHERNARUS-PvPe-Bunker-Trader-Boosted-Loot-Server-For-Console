@@ -234,6 +234,10 @@
         <child type="Whetstone" spawnsecondary="false" x="0.27734375" z="1.4208984375" a="0"
             y="0.308135986328125" />
         <child type="Whetstone" spawnsecondary="false" x="0.27734375" z="1.4208984375" a="0"
+            y="0.308135986328125" />#
+         <child type="HandSaw" spawnsecondary="false" x="0.27734375" z="1.4208984375" a="0"
+            y="0.308135986328125" />
+         <child type="HandSaw" spawnsecondary="false" x="0.27734375" z="1.4208984375" a="0"
             y="0.308135986328125" />
     </group>
     <!-- Dynamic AirDrops with Smoke -->
