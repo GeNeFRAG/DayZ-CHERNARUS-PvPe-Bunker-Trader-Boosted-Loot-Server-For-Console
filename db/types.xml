@@ -7426,10 +7426,10 @@
         <usage name="Clothes"/>
     </type>
 <type name="WoolGlovesFingerless_Green">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7437,10 +7437,10 @@
         <usage name="Clothes"/>
     </type>
 <type name="WoolGlovesFingerless_Tan">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7448,10 +7448,10 @@
         <usage name="Clothes"/>
     </type>
 <type name="WoolGlovesFingerless_White">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7772,10 +7772,10 @@
         <usage name="Containers"/>
     </type>
 <type name="Barrel_Green">
-        <nominal>44</nominal>
+        <nominal>42</nominal>
         <lifetime>1814400</lifetime>
         <restock>0</restock>
-        <min>24</min>
+        <min>22</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8025,10 +8025,10 @@
         <usage name="Containers"/>
     </type>
 <type name="DuffelBagSmall_Camo">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8036,10 +8036,10 @@
         <usage name="Containers"/>
     </type>
 <type name="DuffelBagSmall_Green">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8047,10 +8047,10 @@
         <usage name="Containers"/>
     </type>
 <type name="DuffelBagSmall_Medical">
-        <nominal>8</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8080,10 +8080,10 @@
         <usage name="Containers"/>
     </type>
 <type name="HipPack_Black">
-        <nominal>21</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>9</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8091,10 +8091,10 @@
         <usage name="Containers"/>
     </type>
 <type name="HipPack_Party">
-        <nominal>10</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13159,10 +13159,10 @@
         <usage name="Medic"/>
     </type>
 <type name="CanvasBag_Medical">
-        <nominal>10</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13247,10 +13247,10 @@
         <usage name="Medic"/>
     </type>
 <type name="HipPack_Medical">
-        <nominal>14</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>11</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14090,10 +14090,10 @@
         <usage name="Military"/>
     </type>
 <type name="CanvasBag_Olive">
-        <nominal>12</nominal>
+        <nominal>10</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>7</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14213,10 +14213,10 @@
         <usage name="Military"/>
     </type>
 <type name="HipPack_Green">
-        <nominal>21</nominal>
+        <nominal>15</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>9</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19763,10 +19763,10 @@
         <usage name="Police"/>
     </type>
 <type name="WoolGlovesFingerless_Black">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
