@@ -1951,10 +1951,12 @@
             </container>
         </group>
     <group name="Land_Office_Municipal2" lootmax="108">
-        <usage name="Military" />
-        <usage name="Attachment" />
-        <usage name="FoodDrink" />
-        <usage name="Office" />
+        <usage name="Clothes"/>
+        <usage name="FoodDrink"/>
+        <usage name="Tools"/>
+        <usage name="RepairItems"/>
+        <usage name="Weapons"/>
+        <usage name="MagsAmmo"/>
         <container name="lootFloor" lootmax="36">
             <tag name="floor" />
             </container>
