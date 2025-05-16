@@ -1964,7 +1964,7 @@
             <tag name="shelves" />
             </container>
         <container name="lootweapons" lootmax="36" />
-        </group>
+    </group>
     <group name="Land_City_Store" lootmax="25">
         <usage name="Plants" />
         <usage name="Seasonal" />

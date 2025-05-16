@@ -57,7 +57,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Vybor Melli-->
 	<event name="StaticBuilder_Melli">
-		<pos x="3648.5" y="299.4" z="8601.4" a="0" group="SkullsMaterials"/>
+		<pos x="1398.6" y="303.3" z="9305.3" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Building Materials: Koslovaka Menn-->
 	<event name="StaticBuilder_Alikemenn">
