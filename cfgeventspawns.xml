@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
 	<!-- ################### CUSTOM EVENT SPAWNS START ################### -->
+	<!-- Admin Humvee -->
+	<event name="VehicleBuilderTruck">
+		<pos x="10077.19" z="1647.95" a="0" />
+	</event>
+
 	<!-- Builder Truck event spawns -->
 	<event name="VehicleBuilderTruck">
 		<!-- Novaya North -->
