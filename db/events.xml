@@ -86,7 +86,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>0</active>
         <children/>
     </event>
     <event name="StaticBuilder_Melli">
@@ -239,7 +239,7 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="2" min="2" type="Animal_UrsusArctos"/>
+            <child lootmax="0" lootmin="0" max="2" min="1" type="Animal_UrsusArctos"/>
         </children>
     </event>
     <!-- #################### CUSTOM EVENTS END ################### -->
