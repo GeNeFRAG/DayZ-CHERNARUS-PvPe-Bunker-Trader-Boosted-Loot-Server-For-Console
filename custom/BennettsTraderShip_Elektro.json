@@ -1,6 +1,22 @@
 {
     "Objects": [
         {
+            "name": "StaticObj_Furniture_bucket",
+            "pos": [
+                10099.8,
+                8.5171,
+                1699.14
+            ],
+            "ypr": [
+                99.30433654785156,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999947547912598,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
             "name": "AmmoBox_308Win_20Rnd",
             "pos": [
                 10089.5107421875,
