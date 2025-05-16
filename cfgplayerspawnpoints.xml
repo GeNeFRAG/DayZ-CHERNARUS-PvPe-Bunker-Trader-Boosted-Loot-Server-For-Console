@@ -60,7 +60,9 @@
             <!-- Zeleno -->
             <pos x="3019.31" z="5039.32" />
             <!-- Kamarovo -->
+            <!--
             <pos x="3359.54 " z="2136.65" />
+            -->
         </generator_posbubbles>
     </fresh>
     <hop>
