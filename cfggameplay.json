@@ -117,7 +117,9 @@
       "custom/pra_chern_to_nwaf.json",
       "custom/pra_sol_to_nwaf.json",
       "custom/pra_berenz_to_nwaf.json",
-      "custom/pra_novo_to_nwaf.json"
+      "custom/pra_novo_to_nwaf.json",
+      "custom/pra_adm3_1_fast_trader.json",
+      "custom/pra_adm3_1_trader_to_novo.json"
     ]
   },
   "BaseBuildingData": {
