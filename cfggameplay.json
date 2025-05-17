@@ -1,15 +1,15 @@
 {
   "version": 122,
   "GeneralData": {
-    "disableBaseDamage": true,
-    "disableContainerDamage": true,
+    "disableBaseDamage": false,
+    "disableContainerDamage": false,
     "disableRespawnDialog": false,
     "disableRespawnInUnconsciousness": true
   },
   "PlayerData": {
     "disablePersonalLight": true,
     "spawnGearPresetFiles": [
-      "custom/vanillaplus_loadout.json"
+      "custom/vanillaplus_loadout_ssg82.json"
     ],
     "StaminaData": {
       "sprintStaminaModifierErc": 0.15,
