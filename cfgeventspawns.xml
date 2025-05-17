@@ -3,7 +3,7 @@
 	<!-- ################### CUSTOM EVENT SPAWNS START ################### -->
 	<!-- Admin Humvee -->
 	<event name="VehicleOffroad02_Admin">
-		<pos x="10077.2" y="6.1" z="1648.08" a="0" />
+		<pos x="10077.2" y="6.1" z="1648.08" a="169.2" />
 	</event>
 	<!-- Builder Truck event spawns -->
 	<event name="VehicleBuilderTruck">
