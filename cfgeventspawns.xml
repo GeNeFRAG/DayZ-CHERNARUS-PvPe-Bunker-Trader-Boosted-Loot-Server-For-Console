@@ -59,9 +59,9 @@
 	<event name="StaticBuilder_Itachi">
 		<pos x="3647.53" y="6.6" z="2172.87" a="0" group="SkullsMaterials"/>
 	</event>
-	<!-- Dynamic Building Materials: Vybor Melli-->
+	<!-- Dynamic Building Materials: Krona Melli-->
 	<event name="StaticBuilder_Melli">
-		<pos x="1398.6" y="303.3" z="9305.3" a="0" group="SkullsMaterials"/>
+		<pos x="1405.6" y="306.7" z="9286.3" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Building Materials: Koslovaka Menn-->
 	<event name="StaticBuilder_Alikemenn">
