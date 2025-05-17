@@ -9912,7 +9912,7 @@
     </type>
 <type name="Offroad_02">
         <nominal>0</nominal>
-        <lifetime>1814400</lifetime>
+        <lifetime>3</lifetime>
         <restock>1800</restock>
         <min>0</min>
         <quantmin>-1</quantmin>
