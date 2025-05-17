@@ -2,7 +2,7 @@
 <events>
     <!-- ################### CUSTOM EVENTS START ################### -->
     <event name="VehicleOffroad02_Admin">
-        <nominal>1</nominal>
+        <nominal>30</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>300</lifetime>

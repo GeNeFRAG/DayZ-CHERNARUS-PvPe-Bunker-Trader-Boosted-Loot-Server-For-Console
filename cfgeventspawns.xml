@@ -13,10 +13,6 @@
 		<pos x="12040.31" z="12705.22" a="0" />
 		<!-- Cherno -->
 		<pos x="7857.89" z="3417.87" a="0" />
-		<!-- Skalisty Island -->
-		<!--
-		<pos x="13534" z="3001" a="0" />
-	    -->  
 	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
@@ -61,7 +57,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Krona Melli-->
 	<event name="StaticBuilder_Melli">
-		<pos x="1405.6" y="306.7" z="9286.3" a="0" group="SkullsMaterials"/>
+		<pos x="1419.8" y="308.3" z="9266.5" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Building Materials: Koslovaka Menn-->
 	<event name="StaticBuilder_Alikemenn">
