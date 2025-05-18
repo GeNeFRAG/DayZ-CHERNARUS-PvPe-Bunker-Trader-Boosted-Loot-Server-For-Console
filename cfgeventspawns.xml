@@ -5,6 +5,10 @@
 	<event name="VehicleOffroad02_Admin">
 		<pos x="10077.2" y="6.1" z="1648.08" a="98" />
 	</event>
+	<!-- Admin Humvee -->
+	<event name="VehicleOffroad02_Trader">
+		<pos x="10078" y="6.2" z="1654.39" a="98" />
+	</event>
 	<!-- Builder Truck event spawns -->
 	<event name="VehicleBuilderTruck">
 		<!-- Novaya North -->
