@@ -9,7 +9,7 @@
   "PlayerData": {
     "disablePersonalLight": true,
     "spawnGearPresetFiles": [
-      "custom/vanillaplus_loadout_ssg82.json"
+      "custom/vanillaplus_loadout.json"
     ],
     "StaminaData": {
       "sprintStaminaModifierErc": 0.15,
@@ -60,7 +60,7 @@
       "custom/flags_weedy_pirates.json",
       "custom/flags_melli_rooster.json",
       "custom/flags_menn_apa.json",
-      "custom/admin_humvee2.json",
+      "custom/admin_humvee.json",
       "custom/16355842-shop.json"
     ],
     "environmentMinTemps": [

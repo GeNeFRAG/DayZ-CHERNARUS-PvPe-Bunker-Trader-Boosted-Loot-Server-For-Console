@@ -688,10 +688,10 @@
 
 <!-- ################ [CARPARTS] ################-->
 <type name="CanisterGasoline">
-        <nominal>55</nominal>
+        <nominal>56</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>35</min>
+        <min>36</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1810,10 +1810,10 @@
         <usage name="Carparts"/>
     </type>
 <type name="HeadlightH7_Box">
-        <nominal>60</nominal>
+        <nominal>62</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>42</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -1942,10 +1942,10 @@
         <usage name="Carparts"/>
     </type>
 <type name="Offroad_02_Wheel">
-        <nominal>45</nominal>
+        <nominal>40</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>35</min>
+        <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
