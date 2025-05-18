@@ -688,10 +688,10 @@
 
 <!-- ################ [CARPARTS] ################-->
 <type name="CanisterGasoline">
-        <nominal>56</nominal>
+        <nominal>59</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>36</min>
+        <min>39</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -1810,10 +1810,10 @@
         <usage name="Carparts"/>
     </type>
 <type name="HeadlightH7_Box">
-        <nominal>62</nominal>
+        <nominal>64</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>42</min>
+        <min>44</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -2593,10 +2593,10 @@
 
 <!-- ################ [CARPARTS, EQUIPMENT] ################-->
 <type name="CarBattery">
-        <nominal>65</nominal>
+        <nominal>67</nominal>
         <lifetime>28800</lifetime>
         <restock>360</restock>
-        <min>45</min>
+        <min>47</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12338,10 +12338,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="Blowtorch">
-        <nominal>34</nominal>
+        <nominal>35</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>24</min>
+        <min>25</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12503,10 +12503,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="GlowPlug">
-        <nominal>27</nominal>
+        <nominal>31</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>19</min>
+        <min>23</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12558,10 +12558,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="LargeGasCanister">
-        <nominal>41</nominal>
+        <nominal>42</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>31</min>
+        <min>32</min>
         <quantmin>65</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
