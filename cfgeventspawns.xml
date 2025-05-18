@@ -67,6 +67,10 @@
 	<event name="StaticBuilder_Booster">
 		<pos x="5677.9" y="473.6" z="15220.1" a="0" group="SkullsMaterials"/>
 	</event>
+	<!-- Dynamic Building Materials: Novaya Wolf-->
+	<event name="StaticBuilder_Wolf">
+		<pos x="4478.6" y="181.4" z="13199.8" a="0" group="SkullsMaterials"/>
+	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
 		<pos x="10105.1" z="1616.58" a="0"/>
