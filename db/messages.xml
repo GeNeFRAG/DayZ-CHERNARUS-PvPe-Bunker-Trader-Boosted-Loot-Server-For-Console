@@ -130,10 +130,6 @@
     </message>
     <message>
         <repeat>80</repeat>
-        <text>SA (Europe/Berlin): 15:00 - 00:00</text>
-    </message>
-    <message>
-        <repeat>80</repeat>
-        <text>SO (Europe/Berlin): 12:00 - 22:30</text>
+        <text>SA (Europe/Berlin): 18:00 - 01:00</text>
     </message>
 </messages>
