@@ -65,8 +65,6 @@
             a="45.836585998535156" y="0.416778564453125" />
         <child type="MetalPlate" spawnsecondary="false" x="0.96337890625" z="0.7900390625"
             a="45.836585998535156" y="0.416778564453125" />
-        <child type="NailBox" spawnsecondary="false" x="2.02099609375" z="0.625"
-            a="45.83658218383789" y="0.00811767578125" />
         <child type="NailBox" spawnsecondary="false" x="1.9013671875" z="0.5078125"
             a="45.836585998535156" y="0.00811767578125" />
         <child type="NailBox" spawnsecondary="false" x="1.798828125" z="0.4052734375"
@@ -98,6 +96,12 @@
         <child type="NailBox" spawnsecondary="false" x="1.35693359375" z="-0.001953125"
             a="45.836585998535156" y="0.1307373046875" />
         <child type="NailBox" spawnsecondary="false" x="1.23486328125" z="-0.1162109375"
+            a="45.836585998535156" y="0.1307373046875" />
+        <child type="NailBox" spawnsecondary="false" x="1.1103515625" z="-0.23046875"
+            a="45.836585998535156" y="0.1307373046875" />
+        <child type="NailBox" spawnsecondary="false" x="1.1103515625" z="-0.23046875"
+            a="45.836585998535156" y="0.1307373046875" />
+        <child type="NailBox" spawnsecondary="false" x="1.1103515625" z="-0.23046875"
             a="45.836585998535156" y="0.1307373046875" />
         <child type="NailBox" spawnsecondary="false" x="1.1103515625" z="-0.23046875"
             a="45.836585998535156" y="0.1307373046875" />
