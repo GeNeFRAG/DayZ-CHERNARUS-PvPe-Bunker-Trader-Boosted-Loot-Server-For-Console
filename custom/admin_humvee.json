@@ -17,22 +17,6 @@
             "customString": ""
         },
         {
-            "name": "Land_Garage_Row_Small",
-            "pos": [
-                10100.703125,
-                7.598189830780029,
-                1620.148193359375
-            ],
-            "ypr": [
-                9.59999942779541,
-                0.0,
-                0.0
-            ],
-            "scale": 0.9999999403953552,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
             "name": "HeadlightH7_Box",
             "pos": [
                 10072.8701171875,
