@@ -266,6 +266,7 @@
         <child type="GhillieHood_Woodland" spawnsecondary="false" x="-0.937500" y="-0.020996" z="3.247070" a="-1.10521"/>
         <child type="PlateCarrierVest_Black" spawnsecondary="false" x="-3.597656" y="-0.652984" z="-0.162597" a="-5.03678"/>   
         <child type="OMKPants_Navy" spawnsecondary="false" x="-3.487305" y="-0.615997" z="1.887207" a="1.69228"/>
+        <child type="AliceBag_Black" spawnsecondary="false" x="-3.5" y="-0.615997" z="1.9" a="1.69228"/>
     </group>
     <!-- ################### CUSTOM EVENT GROUP END ################### -->
     <!--pos x="5587.466" z="2063.353" a="0" y="7.591" group="Train_Abandoned_Cherno"/-->

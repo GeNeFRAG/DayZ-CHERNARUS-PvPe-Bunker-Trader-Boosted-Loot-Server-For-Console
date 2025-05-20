@@ -20270,10 +20270,10 @@
 
 <!-- ################ [SPECIAL] ################-->
 <type name="AliceBag_Black">
-        <nominal>5</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
