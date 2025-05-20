@@ -3,7 +3,6 @@
 	<!-- ################### CUSTOM IGNORE LIST START ################### -->
 	<type name="Truck_01_Covered"></type>
 	<type name="Boat_01_Orange"></type>
-	<type name="DryBag_Yellow"></type>
 	<!-- ################### CUSTOM IGNORE LIST END ################### -->
 	<type name="Bandage"></type>
 	<type name="BandanaMask_BlackPattern"></type>
