@@ -13677,10 +13677,10 @@
         <value name="Tier4"/>
     </type>
 <type name="AK101_Green">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -14134,10 +14134,10 @@
         <usage name="Military"/>
     </type>
 <type name="FAL">
-        <nominal>6</nominal>
+        <nominal>9</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>7</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -14347,10 +14347,10 @@
         <usage name="Military"/>
     </type>
 <type name="Mag_AK101_30Rnd_Green">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>6</min>
+        <min>3</min>
         <quantmin>15</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -14547,10 +14547,10 @@
         <usage name="Military"/>
     </type>
 <type name="Mag_FAL_20Rnd">
-        <nominal>15</nominal>
+        <nominal>18</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>10</min>
+        <min>13</min>
         <quantmin>15</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
