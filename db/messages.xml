@@ -54,7 +54,11 @@
     </message>
     <message>
         <repeat>15</repeat>
-        <text> ***** BUILDER TRUCKS: NOVAYA, KRASNO, KOMAROVO ***** </text>
+        <text> ***** BUILDER TRUCKS: NOVAYA, KRASNO, PRIGORODKI ***** </text>
+    </message>
+     <message>
+        <repeat>15</repeat>
+        <text> ***** BASE BUILDING STARTER SPAWN ***** </text>
     </message>
     <message>
         <repeat>15</repeat>
@@ -63,10 +67,6 @@
     <message>
         <repeat>15</repeat>
         <text> ***** FULL VEHICLES ***** </text>
-    </message>
-    <message>
-        <repeat>15</repeat>
-        <text> ***** FLAGS FOR FREE AT TRADER, WHITE FLAG ON MAP ***** </text>
     </message>
     <message>
         <repeat>15</repeat>
