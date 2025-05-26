@@ -12316,10 +12316,10 @@
 
 <!-- ################ [INDUSTRIAL] ################-->
 <type name="BarbedWire">
-        <nominal>72</nominal>
+        <nominal>74</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>62</min>
+        <min>64</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12580,10 +12580,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="MetalPlate">
-        <nominal>89</nominal>
+        <nominal>99</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>69</min>
+        <min>79</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12591,10 +12591,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="MetalWire">
-        <nominal>84</nominal>
+        <nominal>86</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>64</min>
+        <min>66</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12613,10 +12613,10 @@
         <usage name="Industrial"/>
     </type>
 <type name="NailBox">
-        <nominal>145</nominal>
+        <nominal>165</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>125</min>
+        <min>145</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19936,10 +19936,10 @@
         <usage name="RepairItems"/>
     </type>
 <type name="Whetstone">
-        <nominal>123</nominal>
+        <nominal>125</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>108</min>
+        <min>110</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20503,10 +20503,10 @@
         <usage name="Tools"/>
     </type>
 <type name="HandSaw">
-        <nominal>78</nominal>
+        <nominal>80</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>58</min>
+        <min>60</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20514,10 +20514,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Hatchet">
-        <nominal>137</nominal>
+        <nominal>141</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>112</min>
+        <min>116</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20646,10 +20646,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Pliers">
-        <nominal>82</nominal>
+        <nominal>84</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>62</min>
+        <min>64</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20712,10 +20712,10 @@
         <usage name="Tools"/>
     </type>
 <type name="Shovel">
-        <nominal>76</nominal>
+        <nominal>77</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>56</min>
+        <min>57</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20734,10 +20734,10 @@
         <usage name="Tools"/>
     </type>
 <type name="SledgeHammer">
-        <nominal>24</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>14</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -21176,10 +21176,10 @@
         <usage name="Weapons"/>
     </type>
 <type name="Pickaxe">
-        <nominal>24</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>17</min>
+        <min>18</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
