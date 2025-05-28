@@ -53,7 +53,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Severo Hatter-->
 	<event name="StaticBuilder_Hatter">
-		<pos x="8455.2" y="118.5" z="12893.1" a="0" group="SkullsMaterials"/>
+		<pos x="8465.8" y="118.6" z="12898.7" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Building Materials: Kamo Itachi-->
 	<event name="StaticBuilder_Itachi">
