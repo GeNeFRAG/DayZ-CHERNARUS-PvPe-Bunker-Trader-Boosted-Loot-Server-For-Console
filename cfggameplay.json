@@ -1,5 +1,5 @@
 {
-  "version": 122,
+  "version": 123,
   "GeneralData": {
     "disableBaseDamage": true,
     "disableContainerDamage": true,
@@ -38,9 +38,13 @@
       "allowStaminaAffectInertia": true
     },
     "DrowningData": {
-      "staminaDepletionSpeed": 10,
-      "healthDepletionSpeed": 10,
-      "shockDepletionSpeed": 10
+      "staminaDepletionSpeed": 10.0,
+      "healthDepletionSpeed": 10.0,
+      "shockDepletionSpeed": 10.0
+    },
+    "WeaponObstructionData": {
+      "staticMode": 1,
+      "dynamicMode": 1
     }
   },
   "WorldsData": {

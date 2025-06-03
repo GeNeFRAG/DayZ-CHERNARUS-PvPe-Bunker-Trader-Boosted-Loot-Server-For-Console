@@ -2734,6 +2734,22 @@
 	</type>
 	<!--END OF ZOMBIES  -->
 	<!--  WEAPONS  -->
+	<!-- 1.28 -->
+	<type name="PM73Rak">
+		<attachments chance="1.00">
+			<item name="Mag_PM73_15Rnd" chance="0.80" />
+			<item name="Mag_PM73_25Rnd" chance="0.20" />
+		</attachments>
+	</type>
+	<type name="R12">
+		<attachments chance="0.30">
+			<item name="UniversalLight" chance="0.30" />
+		</attachments>
+		<attachments chance="0.30">
+			<item name="ReflexOptic" chance="0.30" />
+		</attachments>
+	</type>
+
 	<type name="MakarovIJ70">
 		<attachments chance="1.00">
 			<item name="Mag_IJ70_8Rnd" chance="1.00"/>
