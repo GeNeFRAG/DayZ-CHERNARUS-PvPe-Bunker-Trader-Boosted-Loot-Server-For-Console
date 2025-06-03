@@ -57,6 +57,146 @@
 			}
 		},
 		{
+			"AreaName": "single-smoke-plane-crash_Krasno",
+			"Type": "ContaminatedArea_Static",
+			"TriggerType": "effecttrigger",
+			"Data": {
+				"Pos": [
+					12390.9,
+					0,
+					12409.8
+				],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false,
+				"OuterPartDist": 50,
+				"OuterOffset": 0,
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+			},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": ""
+			}
+		},
+		{
+			"AreaName": "single-smoke-plane-crash_Balota",
+			"Type": "ContaminatedArea_Static",
+			"TriggerType": "effecttrigger",
+			"Data": {
+				"Pos": [
+					5118.1,
+					0,
+					2337.9
+				],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false,
+				"OuterPartDist": 50,
+				"OuterOffset": 0,
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+			},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": ""
+			}
+		},
+		{
+			"AreaName": "single-smoke-plane-crash_NWAF",
+			"Type": "ContaminatedArea_Static",
+			"TriggerType": "effecttrigger",
+			"Data": {
+				"Pos": [
+					4129.0,
+					0,
+					10804.3
+				],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false,
+				"OuterPartDist": 50,
+				"OuterOffset": 0,
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+			},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": ""
+			}
+		},
+		{
+			"AreaName": "single-smoke-plane-crash_NWAF2",
+			"Type": "ContaminatedArea_Static",
+			"TriggerType": "effecttrigger",
+			"Data": {
+				"Pos": [
+					4397.785645,
+					0,
+					10231.076172
+				],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false,
+				"OuterPartDist": 50,
+				"OuterOffset": 0,
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+			},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": ""
+			}
+		},
+		{
+			"AreaName": "single-smoke-chern-plane-crash",
+			"Type": "ContaminatedArea_Static",
+			"TriggerType": "effecttrigger",
+			"Data": {
+				"Pos": [
+					6561,
+					0,
+					2327
+				],
+				"Radius": 100,
+				"PosHeight": 22,
+				"NegHeight": 10,
+				"InnerRingCount": 0,
+				"InnerPartDist": 50,
+				"OuterRingToggle": false,
+				"OuterPartDist": 50,
+				"OuterOffset": 0,
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
+			},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": ""
+			}
+		},
+		{
 			"AreaName": "Ship-SW",
 			"Type": "ContaminatedArea_Static",
 			"TriggerType": "ContaminatedTrigger",
