@@ -82,7 +82,7 @@
 	<!-- Static ContainerLocked Event -->
 	<event name="StaticContainerLocked">
 		<pos x="2061.32" z="3501.23" a="0" />
-		<pos x="13814.13" z="11170.29" a="0" />
+		<pos x="13739.53" z=" 11209.66" a="0" />
 	</event>
 	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
 	<event name="VehicleCivilianSedan">
