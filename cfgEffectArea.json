@@ -1,5 +1,5 @@
 {
-    "Areas": [
+	"Areas": [
 		{
 			"AreaName": "Black Lake Bunker North",
 			"Type": "SpookyArea23",
@@ -51,430 +51,525 @@
 		{
 			"AreaName": "single-smoke-plane-crash_Krasno",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "effecttrigger",
+			"TriggerType": "EffectTrigger",
 			"Data": {
 				"Pos": [
 					12390.9,
 					0,
 					12409.8
 				],
+				"Radius": 8,
+				"PosHeight": 55,
+				"NegHeight": 55,
+				"InnerRingCount": 5,
+				"InnerPartDist": 5,
+				"OuterRingToggle": 0,
+				"OuterPartDist": 0,
+				"OuterOffset": 1,
+				"VerticalLayers": 0,
+				"VerticalOffset": 1,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/smoke_heli_wreck_01",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
 		{
 			"AreaName": "single-smoke-plane-crash_Balota",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "effecttrigger",
+			"TriggerType": "EffectTrigger",
 			"Data": {
 				"Pos": [
 					5118.1,
 					0,
 					2337.9
 				],
+				"Radius": 8,
+				"PosHeight": 55,
+				"NegHeight": 55,
+				"InnerRingCount": 5,
+				"InnerPartDist": 5,
+				"OuterRingToggle": 0,
+				"OuterPartDist": 0,
+				"OuterOffset": 1,
+				"VerticalLayers": 0,
+				"VerticalOffset": 1,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/smoke_heli_wreck_01",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
 		{
 			"AreaName": "single-smoke-plane-crash_NWAF",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "effecttrigger",
+			"TriggerType": "EffectTrigger",
 			"Data": {
 				"Pos": [
 					4129.0,
 					0,
 					10804.3
 				],
+				"Radius": 8,
+				"PosHeight": 55,
+				"NegHeight": 55,
+				"InnerRingCount": 5,
+				"InnerPartDist": 5,
+				"OuterRingToggle": 0,
+				"OuterPartDist": 0,
+				"OuterOffset": 1,
+				"VerticalLayers": 0,
+				"VerticalOffset": 1,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/smoke_heli_wreck_01",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
 		{
 			"AreaName": "single-smoke-plane-crash_NWAF2",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "effecttrigger",
+			"TriggerType": "EffectTrigger",
 			"Data": {
 				"Pos": [
 					4397.785645,
 					0,
 					10231.076172
 				],
+				"Radius": 8,
+				"PosHeight": 55,
+				"NegHeight": 55,
+				"InnerRingCount": 5,
+				"InnerPartDist": 5,
+				"OuterRingToggle": 0,
+				"OuterPartDist": 0,
+				"OuterOffset": 1,
+				"VerticalLayers": 0,
+				"VerticalOffset": 1,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/smoke_heli_wreck_01",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
 		{
 			"AreaName": "single-smoke-chern-plane-crash",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "effecttrigger",
+			"TriggerType": "EffectTrigger",
 			"Data": {
 				"Pos": [
 					6561,
 					0,
 					2327
 				],
-				"Radius": 100,
-				"PosHeight": 22,
-				"NegHeight": 10,
-				"InnerRingCount": 0,
-				"InnerPartDist": 0,
-				"OuterOffset": 0,
+				"Radius": 8,
+				"PosHeight": 55,
+				"NegHeight": 55,
+				"InnerRingCount": 5,
+				"InnerPartDist": 5,
+				"OuterRingToggle": 0,
+				"OuterPartDist": 0,
+				"OuterOffset": 1,
+				"VerticalLayers": 0,
+				"VerticalOffset": 1,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
-				"PPERequesterType": ""
+				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
+				"TinyPartName": "graphics/particles/smoke_heli_wreck_01",
+				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{ 	"AreaName": "SmokeStack1Cherno", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "EffectTrigger",
-			"Data": { 
-				"Pos": [ 7241.76025390625, 64.48117, 3252.49462890625 ],
-				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-		{ 	"AreaName": "SmokeStack2", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "EffectTrigger",
-			"Data": { 
-				"Pos": [ 7681.912109375,
-                35.72423553466797,
-                3204.1982421875 ],
-				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-		{ 	"AreaName": "SmokeStack3", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "EffectTrigger",
-			"Data": { 
-				"Pos": [ 10138.365234375,
-                35.418701171875,
-                1866.0216064453126 ],
-				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-		{ 	"AreaName": "SmokeStack4", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "EffectTrigger",
-			"Data": { 
-				"Pos": [ 10383.5322265625,
-                64.80648803710938,
-                2542.181640625 ],
-				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-		{ 	"AreaName": "SmokeStack5", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "EffectTrigger",
-			"Data": { 
-				"Pos": [ 10434.00390625,
-                35.63412094116211,
-                2593.035400390625 ],
-				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-		{ 	"AreaName": "SmokeStack6", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "EffectTrigger",
-			"Data": { 
-				"Pos": [ 13118.1494140625,
-                41.59645080566406,
-                7076.23876953125 ],
-				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-		{ 	"AreaName": "SmokeStack7", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "EffectTrigger",
-			"Data": { 
-				"Pos": [ 12919.0244140625,
-                64.54859161376953,
-                10004.7958984375 ],
-				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-		{ 	"AreaName": "SmokeStack8", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "EffectTrigger",
-			"Data": { 
-				"Pos": [ 14178.1337890625,
-                38.31985092163086,
-                13071.7763671875 ],
-				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-		{ 	"AreaName": "SmokeStack9", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "EffectTrigger",
-			"Data": { 
-				"Pos": [ 12342.6044921875,
-                58.9360466003418,
-                14276.283203125 ],
-				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-		{ 	"AreaName": "SmokeStack10", 
-			"Type": "ContaminatedArea_Static", 
-			"TriggerType": "EffectTrigger",
-			"Data": { 
-				"Pos": [ 11574.20703125,
-                78.76154327392578,
-                14508.708984375 ],
-				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
-				},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/",
-				"TinyPartName": "graphics/particles/",
-				"PPERequesterType": ""
-			}
-		},
-        { 	"AreaName": "Ship-Bow", 
-			"Type": "ContaminatedArea_Static", 
+		{
+			"AreaName": "Ship-Bow",
+			"Type": "ContaminatedArea_Static",
 			"TriggerType": "ContaminatedTrigger",
-			"Data": { 
-				"Pos": [ 13920, 0, 11170 ],
+			"Data": {
+				"Pos": [
+					13920,
+					0,
+					11170
+				],
 				"Radius": 60,
 				"PosHeight": 20,
 				"NegHeight": 3,
 				"InnerPartDist": 100,
-				"OuterOffset": 20, 
+				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-				},
+			},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Ship-Center", 
-			"Type": "ContaminatedArea_Static", 
+		{
+			"AreaName": "Ship-Center",
+			"Type": "ContaminatedArea_Static",
 			"TriggerType": "ContaminatedTrigger",
-			"Data": { 
-				"Pos": [ 13785, 0, 11155 ],
+			"Data": {
+				"Pos": [
+					13785,
+					0,
+					11155
+				],
 				"Radius": 100,
 				"PosHeight": 22,
 				"NegHeight": 3,
 				"InnerPartDist": 100,
-				"OuterOffset": 30, 
+				"OuterOffset": 30,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-				},
+			},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{ 	"AreaName": "Ship-Stern", 
-			"Type": "ContaminatedArea_Static", 
+		{
+			"AreaName": "Ship-Stern",
+			"Type": "ContaminatedArea_Static",
 			"TriggerType": "ContaminatedTrigger",
-			"Data": { 
-				"Pos": [ 13660, 0, 11100 ],
+			"Data": {
+				"Pos": [
+					13660,
+					0,
+					11100
+				],
 				"Radius": 60,
 				"PosHeight": 20,
 				"NegHeight": 3,
 				"InnerPartDist": 100,
-				"OuterOffset": 20, 
+				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-				},
+			},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Pavlovo-North-Uphill", 
-			"Type": "ContaminatedArea_Static", 
+		{
+			"AreaName": "Pavlovo-North-Uphill",
+			"Type": "ContaminatedArea_Static",
 			"TriggerType": "ContaminatedTrigger",
-			"Data": { 
-				"Pos": [ 2080, 0, 3500 ],
+			"Data": {
+				"Pos": [
+					2080,
+					0,
+					3500
+				],
 				"Radius": 100,
 				"PosHeight": 10,
 				"NegHeight": 20,
 				"InnerPartDist": 100,
-				"OuterOffset": 30, 
+				"OuterOffset": 30,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-				},
+			},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Pavlovo-South-Building1", 
-			"Type": "ContaminatedArea_Static", 
+		{
+			"AreaName": "Pavlovo-South-Building1",
+			"Type": "ContaminatedArea_Static",
 			"TriggerType": "ContaminatedTrigger",
-			"Data": { 
-				"Pos": [ 2165, 0, 3370 ],
+			"Data": {
+				"Pos": [
+					2165,
+					0,
+					3370
+				],
 				"Radius": 75,
 				"PosHeight": 10,
 				"NegHeight": 10,
 				"InnerPartDist": 100,
-				"OuterOffset": 20, 
+				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-				},
+			},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Pavlovo-South-Building2", 
-			"Type": "ContaminatedArea_Static", 
+		{
+			"AreaName": "Pavlovo-South-Building2",
+			"Type": "ContaminatedArea_Static",
 			"TriggerType": "ContaminatedTrigger",
-			"Data": { 
-				"Pos": [ 2215, 0, 3290 ],
+			"Data": {
+				"Pos": [
+					2215,
+					0,
+					3290
+				],
 				"Radius": 75,
 				"PosHeight": 14,
 				"NegHeight": 10,
 				"InnerPartDist": 100,
-				"OuterOffset": 20, 
+				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-				},
+			},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-        { 	"AreaName": "Pavlovo-South-Downhill", 
-			"Type": "ContaminatedArea_Static", 
+		{
+			"AreaName": "Pavlovo-South-Downhill",
+			"Type": "ContaminatedArea_Static",
 			"TriggerType": "ContaminatedTrigger",
-			"Data": { 
-				"Pos": [ 2090, 0, 3300 ],
+			"Data": {
+				"Pos": [
+					2090,
+					0,
+					3300
+				],
 				"Radius": 60,
 				"PosHeight": 10,
 				"NegHeight": 10,
 				"InnerPartDist": 100,
-				"OuterOffset": 20, 
+				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-				},
+			},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		}
-    ],
-
-	"SafePositions":[
-		[434, 13624],
-		[360, 10986],
-		[1412, 13505],
-		[1290, 11773],
-		[5742, 8568],
-		[4191, 4620],
-		[4949, 6569],
-		[1018, 7138],
-		[5041, 2640],
-		[6895, 7915],
-		[6128, 8120],
-		[4422, 8117],
-		[2811, 10209],
-		[1954, 2417],
-		[3633, 8708],
-		[5222, 5737],
-		[3546, 2630],
-		[2373, 5516],
-		[2462, 6879],
-		[1653, 3600],
-		[11774, 14570],
-		[8228, 9345],
-		[11100, 13400],
-		[9333, 8697],
-		[11513, 12203],
-		[4955, 10603],
-		[5090, 15054],
-		[6513, 14579],
-		[3483, 14941],
-		[4016, 11194],
-		[7607, 12384],
-		[4307, 9528],
-		[3266, 12352],
-		[4432, 13285],
-		[5473, 12455],
-		[9731, 13685],
-		[2745, 7784],
-		[8492, 14128],
-		[3501, 13292],
-		[7912, 10943],
-		[4165, 10134],
-		[10536, 7871],
-		[1467, 14288],
-		[5479, 9709],
-		[9453, 11963],
-		[319, 9212],
-		[8009, 14843],
-		[7206, 7158],
-		[12303, 13598],
-		[3435, 5959],
-		[4060, 12050],
-		[6633, 2988],
-		[870, 2095],
-		[10286, 9071],
-		[10371, 5690]
+	],
+	"SafePositions": [
+		[
+			434,
+			13624
+		],
+		[
+			360,
+			10986
+		],
+		[
+			1412,
+			13505
+		],
+		[
+			1290,
+			11773
+		],
+		[
+			5742,
+			8568
+		],
+		[
+			4191,
+			4620
+		],
+		[
+			4949,
+			6569
+		],
+		[
+			1018,
+			7138
+		],
+		[
+			5041,
+			2640
+		],
+		[
+			6895,
+			7915
+		],
+		[
+			6128,
+			8120
+		],
+		[
+			4422,
+			8117
+		],
+		[
+			2811,
+			10209
+		],
+		[
+			1954,
+			2417
+		],
+		[
+			3633,
+			8708
+		],
+		[
+			5222,
+			5737
+		],
+		[
+			3546,
+			2630
+		],
+		[
+			2373,
+			5516
+		],
+		[
+			2462,
+			6879
+		],
+		[
+			1653,
+			3600
+		],
+		[
+			11774,
+			14570
+		],
+		[
+			8228,
+			9345
+		],
+		[
+			11100,
+			13400
+		],
+		[
+			9333,
+			8697
+		],
+		[
+			11513,
+			12203
+		],
+		[
+			4955,
+			10603
+		],
+		[
+			5090,
+			15054
+		],
+		[
+			6513,
+			14579
+		],
+		[
+			3483,
+			14941
+		],
+		[
+			4016,
+			11194
+		],
+		[
+			7607,
+			12384
+		],
+		[
+			4307,
+			9528
+		],
+		[
+			3266,
+			12352
+		],
+		[
+			4432,
+			13285
+		],
+		[
+			5473,
+			12455
+		],
+		[
+			9731,
+			13685
+		],
+		[
+			2745,
+			7784
+		],
+		[
+			8492,
+			14128
+		],
+		[
+			3501,
+			13292
+		],
+		[
+			7912,
+			10943
+		],
+		[
+			4165,
+			10134
+		],
+		[
+			10536,
+			7871
+		],
+		[
+			1467,
+			14288
+		],
+		[
+			5479,
+			9709
+		],
+		[
+			9453,
+			11963
+		],
+		[
+			319,
+			9212
+		],
+		[
+			8009,
+			14843
+		],
+		[
+			7206,
+			7158
+		],
+		[
+			12303,
+			13598
+		],
+		[
+			3435,
+			5959
+		],
+		[
+			4060,
+			12050
+		],
+		[
+			6633,
+			2988
+		],
+		[
+			870,
+			2095
+		],
+		[
+			10286,
+			9071
+		],
+		[
+			10371,
+			5690
+		]
 	]
 }
