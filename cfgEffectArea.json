@@ -62,7 +62,7 @@
 				"PosHeight": 22,
 				"NegHeight": 10,
 				"InnerRingCount": 0,
-				"InnerPartDist": 50,
+				"InnerPartDist": 0,
 				"OuterOffset": 0,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
@@ -86,7 +86,7 @@
 				"PosHeight": 22,
 				"NegHeight": 10,
 				"InnerRingCount": 0,
-				"InnerPartDist": 50,
+				"InnerPartDist": 0,
 				"OuterOffset": 0,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
@@ -110,7 +110,7 @@
 				"PosHeight": 22,
 				"NegHeight": 10,
 				"InnerRingCount": 0,
-				"InnerPartDist": 50,
+				"InnerPartDist": 0,
 				"OuterOffset": 0,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
@@ -134,7 +134,7 @@
 				"PosHeight": 22,
 				"NegHeight": 10,
 				"InnerRingCount": 0,
-				"InnerPartDist": 50,
+				"InnerPartDist": 0,
 				"OuterOffset": 0,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
@@ -158,7 +158,7 @@
 				"PosHeight": 22,
 				"NegHeight": 10,
 				"InnerRingCount": 0,
-				"InnerPartDist": 50,
+				"InnerPartDist": 0,
 				"OuterOffset": 0,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
