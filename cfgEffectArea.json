@@ -58,22 +58,12 @@
 					0,
 					12409.8
 				],
-				"Radius": 8,
-				"PosHeight": 55,
-				"NegHeight": 55,
-				"InnerRingCount": 5,
-				"InnerPartDist": 5,
-				"OuterRingToggle": 0,
-				"OuterPartDist": 0,
-				"OuterOffset": 1,
-				"VerticalLayers": 0,
-				"VerticalOffset": 1,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/smoke_heli_wreck_01",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
 			}
 		},
 		{
@@ -86,22 +76,12 @@
 					0,
 					2337.9
 				],
-				"Radius": 8,
-				"PosHeight": 55,
-				"NegHeight": 55,
-				"InnerRingCount": 5,
-				"InnerPartDist": 5,
-				"OuterRingToggle": 0,
-				"OuterPartDist": 0,
-				"OuterOffset": 1,
-				"VerticalLayers": 0,
-				"VerticalOffset": 1,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/smoke_heli_wreck_01",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
 			}
 		},
 		{
@@ -114,22 +94,12 @@
 					0,
 					10804.3
 				],
-				"Radius": 8,
-				"PosHeight": 55,
-				"NegHeight": 55,
-				"InnerRingCount": 5,
-				"InnerPartDist": 5,
-				"OuterRingToggle": 0,
-				"OuterPartDist": 0,
-				"OuterOffset": 1,
-				"VerticalLayers": 0,
-				"VerticalOffset": 1,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/smoke_heli_wreck_01",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
 			}
 		},
 		{
@@ -142,22 +112,12 @@
 					0,
 					10231.076172
 				],
-				"Radius": 8,
-				"PosHeight": 55,
-				"NegHeight": 55,
-				"InnerRingCount": 5,
-				"InnerPartDist": 5,
-				"OuterRingToggle": 0,
-				"OuterPartDist": 0,
-				"OuterOffset": 1,
-				"VerticalLayers": 0,
-				"VerticalOffset": 1,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/smoke_heli_wreck_01",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
 			}
 		},
 		{
@@ -170,22 +130,12 @@
 					0,
 					2327
 				],
-				"Radius": 8,
-				"PosHeight": 55,
-				"NegHeight": 55,
-				"InnerRingCount": 5,
-				"InnerPartDist": 5,
-				"OuterRingToggle": 0,
-				"OuterPartDist": 0,
-				"OuterOffset": 1,
-				"VerticalLayers": 0,
-				"VerticalOffset": 1,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/smoke_heli_wreck_01",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
+				"PPERequesterType": ""
 			}
 		},
 		{
