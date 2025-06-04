@@ -75,7 +75,7 @@
 	<event name="StaticBuilder_Wolf">
 		<pos x="1144.0" y="379.5" z="12315.4" a="0" group="SkullsMaterials"/>
 	</event>
-	<!-- Dynamic Building Materials: Jinxs -->
+	<!-- Dynamic Building Materials: Dubrovka Jinxs -->
 	<event name="StaticBuilder_Jinxs">
 		<pos x="11092.4" y="85.7" z="9739.6" a="0" group="SkullsMaterials"/>
 	</event>
