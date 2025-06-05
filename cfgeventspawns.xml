@@ -77,7 +77,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Dubrovka Jinxs -->
 	<event name="StaticBuilder_Jinxs">
-		<pos x="11071.9" y="86.7" z="9732.8" a="0" group="SkullsMaterials"/>
+		<pos x="11081.4" y="88" z="9710.9" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
