@@ -4027,10 +4027,10 @@
         <usage name="Clothes"/>
     </type>
 <type name="CargoPants_Black">
-        <nominal>28</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>18</min>
+        <min>15</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7708,10 +7708,10 @@
         <value name="Tier4"/>
     </type>
 <type name="NVGoggles">
-        <nominal>18</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>16</min>
+        <min>13</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7748,10 +7748,10 @@
         <usage name="Military"/>
     </type>
 <type name="Mag_M14_20Rnd">
-        <nominal>23</nominal>
+        <nominal>20</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>21</min>
+        <min>18</min>
         <quantmin>30</quantmin>
         <quantmax>90</quantmax>
         <cost>100</cost>
@@ -7763,10 +7763,10 @@
 
 <!-- ################ [CONTAINERLOCKED, MILITARYCLOTHES] ################-->
 <type name="PlateCarrierVest_Black">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>8</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7779,10 +7779,10 @@
 
 <!-- ################ [CONTAINERLOCKED, SPECIAL] ################-->
 <type name="M14">
-        <nominal>11</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>3600</restock>
-        <min>9</min>
+        <min>6</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -7791,10 +7791,10 @@
         <usage name="Special"/>
     </type>
 <type name="Mag_STANAG_60Rnd">
-        <nominal>24</nominal>
+        <nominal>21</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>21</min>
+        <min>18</min>
         <quantmin>15</quantmin>
         <quantmax>50</quantmax>
         <cost>100</cost>
@@ -8583,10 +8583,10 @@
 
 <!-- ################ [CONTAMINATEDAREA, MILITARYCLOTHES] ################-->
 <type name="NVGHeadstrap">
-        <nominal>21</nominal>
+        <nominal>18</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>16</min>
+        <min>13</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14191,10 +14191,10 @@
         <usage name="Military"/>
     </type>
 <type name="FAL">
-        <nominal>9</nominal>
+        <nominal>6</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>4</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -14628,10 +14628,10 @@
         <usage name="Military"/>
     </type>
 <type name="Mag_FAL_20Rnd">
-        <nominal>18</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>13</min>
+        <min>10</min>
         <quantmin>15</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -15334,10 +15334,10 @@
         <usage name="MilitaryClothes"/>
     </type>
 <type name="GorkaHelmet">
-        <nominal>6</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>6</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15477,10 +15477,10 @@
         <usage name="MilitaryClothes"/>
     </type>
 <type name="M65Jacket_Black">
-        <nominal>13</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>600</restock>
-        <min>11</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15735,10 +15735,10 @@
         <usage name="MilitaryClothes"/>
     </type>
 <type name="OMKJacket_Navy">
-        <nominal>9</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>6</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15746,10 +15746,10 @@
         <usage name="MilitaryClothes"/>
     </type>
 <type name="OMKPants_Navy">
-        <nominal>9</nominal>
+        <nominal>6</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>6</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15926,10 +15926,10 @@
         <value name="Tier4"/>
     </type>
 <type name="PlateCarrierVest_Winter">
-        <nominal>5</nominal>
+        <nominal>2</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20459,10 +20459,10 @@
 
 <!-- ################ [SPECIAL] ################-->
 <type name="AliceBag_Black">
-        <nominal>8</nominal>
+        <nominal>5</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>6</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20492,10 +20492,10 @@
         <usage name="Special"/>
     </type>
 <type name="AmmoBox">
-        <nominal>13</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
