@@ -23,8 +23,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -51,8 +51,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -79,8 +79,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -107,8 +107,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -135,8 +135,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -163,8 +163,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -191,8 +191,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -219,8 +219,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -247,8 +247,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -275,8 +275,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -359,8 +359,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -387,8 +387,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -415,8 +415,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -443,8 +443,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
@@ -471,8 +471,8 @@
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
-				"AroundPartName": "",
-				"TinyPartName": "",
+				"AroundPartName": "graphics/particles/",
+				"TinyPartName": "graphics/particles/",
 				"PPERequesterType": ""
 			}
 		},
