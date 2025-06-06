@@ -3,7 +3,7 @@
 		{
 			"AreaName": "SmokeStack1Cherno",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "EffectTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": {
 				"Pos": [
 					7241.76025390625,
@@ -31,7 +31,7 @@
 		{
 			"AreaName": "SmokeStack2",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "EffectTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": {
 				"Pos": [
 					7681.912109375,
@@ -59,7 +59,7 @@
 		{
 			"AreaName": "SmokeStack3",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "EffectTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": {
 				"Pos": [
 					10138.365234375,
@@ -87,7 +87,7 @@
 		{
 			"AreaName": "SmokeStack4",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "EffectTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": {
 				"Pos": [
 					10383.5322265625,
@@ -115,7 +115,7 @@
 		{
 			"AreaName": "SmokeStack5",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "EffectTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": {
 				"Pos": [
 					10434.00390625,
@@ -143,7 +143,7 @@
 		{
 			"AreaName": "SmokeStack6",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "EffectTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": {
 				"Pos": [
 					13118.1494140625,
@@ -171,7 +171,7 @@
 		{
 			"AreaName": "SmokeStack7",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "EffectTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": {
 				"Pos": [
 					12919.0244140625,
@@ -199,7 +199,7 @@
 		{
 			"AreaName": "SmokeStack8",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "EffectTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": {
 				"Pos": [
 					14178.1337890625,
@@ -227,7 +227,7 @@
 		{
 			"AreaName": "SmokeStack9",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "EffectTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": {
 				"Pos": [
 					12342.6044921875,
@@ -255,7 +255,7 @@
 		{
 			"AreaName": "SmokeStack10",
 			"Type": "ContaminatedArea_Static",
-			"TriggerType": "EffectTrigger",
+			"TriggerType": "effecttrigger",
 			"Data": {
 				"Pos": [
 					11574.20703125,
