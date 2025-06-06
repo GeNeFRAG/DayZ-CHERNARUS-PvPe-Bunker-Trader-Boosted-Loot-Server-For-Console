@@ -63,10 +63,6 @@
 	<event name="StaticBuilder_Melli">
 		<pos x="1419.8" y="308.3" z="9266.5" a="0" group="SkullsMaterials"/>
 	</event>
-	<!-- Dynamic Building Materials: Koslovaka Menn-->
-	<event name="StaticBuilder_Alikemenn">
-		<pos x="4563.8" y="233.2" z="4520.0" a="0" group="SkullsMaterials"/>
-	</event>
 	<!-- Dynamic Building Materials: Stary Booster-->
 	<event name="StaticBuilder_Booster">
 		<pos x="5677.9" y="473.6" z="15220.1" a="0" group="SkullsMaterials"/>
