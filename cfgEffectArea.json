@@ -64,7 +64,7 @@
 					0,
 					12409.8
 				],
-				"Radius": 3,
+				"Radius": 2,
 				"PosHeight": 22,
 				"NegHeight": 10,
 				"InnerPartDist": 3,
@@ -87,7 +87,7 @@
 					0,
 					2337.9
 				],
-				"Radius": 3,
+				"Radius": 2,
 				"PosHeight": 22,
 				"NegHeight": 10,
 				"InnerPartDist": 3,
@@ -110,7 +110,7 @@
 					0,
 					10804.3
 				],
-				"Radius": 3,
+				"Radius": 2,
 				"PosHeight": 22,
 				"NegHeight": 10,
 				"InnerPartDist": 3,
@@ -133,7 +133,7 @@
 					0,
 					10231.076172
 				],
-				"Radius": 3,
+				"Radius": 2,
 				"PosHeight": 22,
 				"NegHeight": 10,
 				"InnerPartDist": 3,
@@ -156,7 +156,7 @@
 					0,
 					2327
 				],
-				"Radius": 3,
+				"Radius": 2,
 				"PosHeight": 22,
 				"NegHeight": 10,
 				"InnerPartDist": 3,
