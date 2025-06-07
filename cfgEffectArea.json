@@ -11,15 +11,13 @@
 					3252.49462890625
 				],
 				"Radius": 2,
-				"PosHeight": 15,
-				"NegHeight": 2,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 3,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 6,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -39,15 +37,13 @@
 					3204.1982421875
 				],
 				"Radius": 2,
-				"PosHeight": 15,
-				"NegHeight": 2,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 3,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 6,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -67,15 +63,13 @@
 					1866.0216064453126
 				],
 				"Radius": 2,
-				"PosHeight": 15,
-				"NegHeight": 2,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 3,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 6,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -95,15 +89,13 @@
 					2542.181640625
 				],
 				"Radius": 2,
-				"PosHeight": 15,
-				"NegHeight": 2,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 3,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 6,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -123,15 +115,13 @@
 					2593.035400390625
 				],
 				"Radius": 2,
-				"PosHeight": 15,
-				"NegHeight": 2,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 3,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 6,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -151,15 +141,13 @@
 					7076.23876953125
 				],
 				"Radius": 2,
-				"PosHeight": 15,
-				"NegHeight": 2,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 3,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 6,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -179,15 +167,13 @@
 					10004.7958984375
 				],
 				"Radius": 2,
-				"PosHeight": 15,
-				"NegHeight": 2,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 3,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 6,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -207,15 +193,13 @@
 					13071.7763671875
 				],
 				"Radius": 2,
-				"PosHeight": 15,
-				"NegHeight": 2,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 3,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 6,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -235,15 +219,13 @@
 					14276.283203125
 				],
 				"Radius": 2,
-				"PosHeight": 15,
-				"NegHeight": 2,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 3,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 6,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -263,15 +245,13 @@
 					14508.708984375
 				],
 				"Radius": 2,
-				"PosHeight": 15,
-				"NegHeight": 2,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 3,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 6,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -326,8 +306,6 @@
 				"OuterRingToggle": 1,
 				"OuterPartDist": 10,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/spooky_mist"
 			},
 			"PlayerData": {
@@ -347,15 +325,13 @@
 					12409.8
 				],
 				"Radius": 3,
-				"PosHeight": 20,
-				"NegHeight": 3,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 5,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 10,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -375,15 +351,13 @@
 					2337.9
 				],
 				"Radius": 3,
-				"PosHeight": 20,
-				"NegHeight": 3,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 5,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 10,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -403,15 +377,13 @@
 					10804.3
 				],
 				"Radius": 3,
-				"PosHeight": 20,
-				"NegHeight": 3,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 5,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 10,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -431,15 +403,13 @@
 					10231.076172
 				],
 				"Radius": 3,
-				"PosHeight": 20,
-				"NegHeight": 3,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 5,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 10,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
@@ -459,15 +429,13 @@
 					2327
 				],
 				"Radius": 3,
-				"PosHeight": 20,
-				"NegHeight": 3,
+				"PosHeight": 22,
+				"NegHeight": 10,
 				"InnerRingCount": 1,
 				"InnerPartDist": 5,
 				"OuterRingToggle": 1,
 				"OuterPartDist": 10,
 				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
 				"ParticleName": "graphics/particles/smoke_heli_wreck_01"
 			},
 			"PlayerData": {
