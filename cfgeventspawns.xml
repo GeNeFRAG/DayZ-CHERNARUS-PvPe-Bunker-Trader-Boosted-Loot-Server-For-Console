@@ -75,6 +75,10 @@
 	<event name="StaticBuilder_Jinxs">
 		<pos x="11081.4" y="88" z="9710.9" a="0" group="SkullsMaterials"/>
 	</event>
+	<!-- Dynamic Building Materials: Novaya Life -->
+	<event name="StaticBuilder_Life">
+		<pos x="3481.3" y="222.7" z="12697.3" a="0" group="SkullsMaterials"/>
+	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
 		<pos x="10105.1" z="1616.58" a="0"/>
