@@ -257,14 +257,14 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children/>
     </event>
     <!-- Custom Attack Bear Spawns -->
     <event name="AnimalAttackBear">
-        <nominal>10</nominal> <!-- how many you want to spawn. change child min/max to the same as nominal-->
-        <min>10</min>
-        <max>10</max>
+        <nominal>5</nominal> <!-- how many you want to spawn. change child min/max to the same as nominal-->
+        <min>5</min>
+        <max>5</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>1</saferadius>
@@ -275,7 +275,7 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="10" min="10" type="Animal_UrsusArctos"/>
+            <child lootmax="0" lootmin="0" max="5" min="5" type="Animal_UrsusArctos"/>
         </children>
     </event>
     <!-- #################### CUSTOM EVENTS END ################### -->
