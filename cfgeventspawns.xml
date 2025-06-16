@@ -63,14 +63,6 @@
 	<event name="StaticBuilder_Melli">
 		<pos x="1419.8" y="308.3" z="9266.5" a="0" group="SkullsMaterials"/>
 	</event>
-	<!-- Dynamic Building Materials: Stary Booster-->
-	<event name="StaticBuilder_Booster">
-		<pos x="5677.9" y="473.6" z="15220.1" a="0" group="SkullsMaterials"/>
-	</event>
-	<!-- Dynamic Building Materials: Sinystok Wolf-->
-	<event name="StaticBuilder_Wolf">
-		<pos x="1144.0" y="379.5" z="12315.4" a="0" group="SkullsMaterials"/>
-	</event>
 	<!-- Dynamic Building Materials: Dubrovka Jinxs -->
 	<event name="StaticBuilder_Jinxs">
 		<pos x="11081.4" y="88" z="9710.9" a="0" group="SkullsMaterials"/>
