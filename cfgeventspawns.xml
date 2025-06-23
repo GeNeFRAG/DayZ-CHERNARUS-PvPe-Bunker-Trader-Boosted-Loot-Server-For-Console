@@ -55,10 +55,6 @@
 	<event name="StaticBuilder_Hatter">
 		<pos x="8465.8" y="118.6" z="12898.7" a="0" group="SkullsMaterials"/>
 	</event>
-	<!-- Dynamic Building Materials: Kamo Itachi-->
-	<event name="StaticBuilder_Itachi">
-		<pos x="3647.53" y="6.6" z="2172.87" a="0" group="SkullsMaterials"/>
-	</event>
 	<!-- Dynamic Building Materials: Krona Melli-->
 	<event name="StaticBuilder_Melli">
 		<pos x="1419.8" y="308.3" z="9266.5" a="0" group="SkullsMaterials"/>
