@@ -55,10 +55,6 @@
 	<event name="StaticBuilder_Hatter">
 		<pos x="8465.8" y="118.6" z="12898.7" a="0" group="SkullsMaterials"/>
 	</event>
-	<!-- Dynamic Building Materials: Krona Melli-->
-	<event name="StaticBuilder_Melli">
-		<pos x="1419.8" y="308.3" z="9266.5" a="0" group="SkullsMaterials"/>
-	</event>
 	<!-- Dynamic Building Materials: Dubrovka Jinxs -->
 	<event name="StaticBuilder_Jinxs">
 		<pos x="11081.4" y="88" z="9710.9" a="0" group="SkullsMaterials"/>
