@@ -1,5 +1,5 @@
 nitrado_token.txt
 **/*_old.*
-build/*
+build/
 db_copy/*
 .DS_Store
