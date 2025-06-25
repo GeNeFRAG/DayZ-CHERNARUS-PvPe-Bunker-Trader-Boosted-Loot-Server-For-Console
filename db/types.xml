@@ -686,10 +686,10 @@
     </type>
     <!-- ################ [CARPARTS] ################-->
     <type name="CanisterGasoline">
-        <nominal>59</nominal>
+        <nominal>60</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>39</min>
+        <min>40</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -4947,10 +4947,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="Hoodie_Black">
-        <nominal>45</nominal>
+        <nominal>47</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>35</min>
+        <min>37</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7872,10 +7872,10 @@
         <usage name="Containers"/>
     </type>
     <type name="Bear_White">
-        <nominal>25</nominal>
+        <nominal>26</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>10</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8541,10 +8541,10 @@
     </type>
     <!-- ################ [CONTAMINATEDAREA, MEDIC] ################-->
     <type name="AntiChemInjector">
-        <nominal>4</nominal>
+        <nominal>6</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11333,10 +11333,10 @@
         <usage name="FoodDrink"/>
     </type>
     <type name="SodaCan_Cola">
-        <nominal>24</nominal>
+        <nominal>26</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>22</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11344,10 +11344,10 @@
         <usage name="FoodDrink"/>
     </type>
     <type name="SodaCan_Fronta">
-        <nominal>24</nominal>
+        <nominal>25</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>21</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11355,10 +11355,10 @@
         <usage name="FoodDrink"/>
     </type>
     <type name="SodaCan_Kvass">
-        <nominal>24</nominal>
+        <nominal>27</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>23</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11568,10 +11568,10 @@
         <usage name="Historical"/>
     </type>
     <type name="Chainmail_Coif">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11579,10 +11579,10 @@
         <usage name="Historical"/>
     </type>
     <type name="Chainmail_Leggings">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11590,6 +11590,28 @@
         <usage name="Historical"/>
     </type>
     <type name="Chestplate">
+        <nominal>4</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Historical"/>
+    </type>
+    <type name="Mace">
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>2</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Historical"/>
+    </type>
+    <type name="MedievalBoots">
         <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
@@ -11600,33 +11622,11 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Historical"/>
     </type>
-    <type name="Mace">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>1</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Historical"/>
-    </type>
-    <type name="MedievalBoots">
-        <nominal>2</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Historical"/>
-    </type>
     <type name="Sword">
-        <nominal>2</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12077,10 +12077,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="ZagorkyChocolate">
-        <nominal>15</nominal>
+        <nominal>19</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>16</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12587,10 +12587,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="MediumGasCanister">
-        <nominal>41</nominal>
+        <nominal>42</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>31</min>
+        <min>32</min>
         <quantmin>65</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12698,10 +12698,10 @@
         <value name="Unique"/>
     </type>
     <type name="PortableGasLamp">
-        <nominal>40</nominal>
+        <nominal>41</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>30</min>
+        <min>31</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12815,10 +12815,10 @@
     </type>
     <!-- ################ [INDUSTRIAL, TOOLS] ################-->
     <type name="PetrolLighter">
-        <nominal>53</nominal>
+        <nominal>54</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>33</min>
+        <min>34</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -13116,10 +13116,10 @@
     </type>
     <!-- ################ [MEDIC] ################-->
     <type name="BandageDressing">
-        <nominal>46</nominal>
+        <nominal>50</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>36</min>
+        <min>40</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13204,10 +13204,10 @@
         <usage name="Medic"/>
     </type>
     <type name="Defibrillator">
-        <nominal>6</nominal>
+        <nominal>7</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>6</min>
         <quantmin>5</quantmin>
         <quantmax>20</quantmax>
         <cost>100</cost>
@@ -13380,10 +13380,10 @@
         <usage name="Medic"/>
     </type>
     <type name="Morphine">
-        <nominal>19</nominal>
+        <nominal>21</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>12</min>
+        <min>14</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -13611,10 +13611,10 @@
         <usage name="Medic"/>
     </type>
     <type name="VitaminBottle">
-        <nominal>42</nominal>
+        <nominal>43</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>22</min>
+        <min>23</min>
         <quantmin>15</quantmin>
         <quantmax>30</quantmax>
         <cost>100</cost>
@@ -20419,10 +20419,10 @@
         <usage name="Special"/>
     </type>
     <type name="AliceBag_Green">
-        <nominal>6</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>4</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
