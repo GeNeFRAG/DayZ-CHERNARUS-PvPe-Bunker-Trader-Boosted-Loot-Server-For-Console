@@ -67,6 +67,10 @@
 	<event name="StaticBuilder_Otti">
 		<pos x="2223.1" y="433.1" z="15259.7" a="0" group="SkullsMaterials"/>
 	</event>
+	<!-- Dynamic Building Materials: Cherno Exodus -->
+	<event name="StaticBuilder_Exodus">
+		<pos x="7249.1" y="6.3" z="3301.2" a="0" group="SkullsMaterials"/>
+	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
 		<pos x="10105.1" z="1616.58" a="0"/>
