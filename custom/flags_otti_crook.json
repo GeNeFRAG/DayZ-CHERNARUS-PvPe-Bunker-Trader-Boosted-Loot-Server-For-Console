@@ -1,7 +1,7 @@
 {
     "Objects": [
         {
-            "name": "Flag_Crook",
+            "name": "Flag_LivoniaPolice",
             "pos": [
                 2235.339599609375,
                 433.5491943359375,
@@ -17,7 +17,7 @@
             "customString": ""
         },
         {
-            "name": "Flag_Crook",
+            "name": "Flag_LivoniaPolice",
             "pos": [
                 2235.665771484375,
                 433.5491943359375,
@@ -33,7 +33,7 @@
             "customString": ""
         },
         {
-            "name": "Flag_Crook",
+            "name": "Flag_LivoniaPolice",
             "pos": [
                 2235.315673828125,
                 433.5491943359375,
@@ -49,7 +49,7 @@
             "customString": ""
         },
         {
-            "name": "Flag_Crook",
+            "name": "Flag_LivoniaPolice",
             "pos": [
                 2235.641845703125,
                 433.5491943359375,
@@ -65,7 +65,7 @@
             "customString": ""
         },
         {
-            "name": "Flag_Crook",
+            "name": "Flag_LivoniaPolice",
             "pos": [
                 2234.973388671875,
                 433.5491943359375,
