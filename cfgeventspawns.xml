@@ -7,7 +7,7 @@
 	</event>
 	<!-- Trader Humvee -->
 	<event name="VehicleOffroad02_Trader">
-		<pos x="10161.1" y="7.84476" z="1632.46" a="98"/>
+		<pos x="10161.1" y="6.1" z="1632.46" a="98"/>
 	</event>
 	<!-- Builder Truck event spawns -->
 	<event name="VehicleBuilderTruck">
