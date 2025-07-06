@@ -21,9 +21,9 @@
     </event>
     <!-- Trader Humvee for the Shop -->
     <event name="VehicleOffroad02_Trader">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>1</max>
+        <nominal>2</nominal>
+        <min>2</min>
+        <max>2</max>
         <lifetime>300</lifetime>
         <restock>0</restock>
         <saferadius>0</saferadius>
