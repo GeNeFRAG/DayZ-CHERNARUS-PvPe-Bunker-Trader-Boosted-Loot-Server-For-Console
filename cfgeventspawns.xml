@@ -17,9 +17,8 @@
 		<pos x="12040.31" z="12705.22" a="0" />
 		<!-- Cherno -->
 		<pos x="7857.89" z="3417.87" a="0" />
-		<!-- Balota temp 
+		<!-- Balota temp -->
 		<pos x="4414.75" z="2652.83" a="0" />
-		-->
 	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
