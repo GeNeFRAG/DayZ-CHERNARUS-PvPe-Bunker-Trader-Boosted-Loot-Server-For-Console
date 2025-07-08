@@ -17,9 +17,6 @@
 		<pos x="12040.31" z="12705.22" a="0" />
 		<!-- Cherno -->
 		<pos x="7857.89" z="3417.87" a="0" />
-		<!-- Balota temp
-		<pos x="4414.75" z="2652.83" a="0" />
-		 -->
 	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
@@ -76,9 +73,8 @@
 	</event>
 	<!-- Dynamic Building Materials: Vysotovo JC -->
 	<event name="StaticBuilder_JC">
-		<pos x="5521.4" y="65.8" z="2608.4" a="0" group="SkullsMaterials"/>
+		<pos x="5523.5" y="65.8" z="2602.6" a="0" group="SkullsMaterials"/>
 	</event>
-
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
 		<pos x="10105.1" z="1616.58" a="0"/>
