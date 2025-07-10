@@ -84,6 +84,10 @@
         <repeat>48</repeat>
         <text>MAX 2 ACCOUNTS (ONE MAIN AND ONE ALT)!</text>
     </message>
+      <message>
+        <repeat>48</repeat>
+        <text>MAX 8 PLAYERS PER FACTION!</text>
+    </message>
      <message>
         <repeat>48</repeat>
         <text>NO LOGGING OUT INSIDE BASES!</text>
