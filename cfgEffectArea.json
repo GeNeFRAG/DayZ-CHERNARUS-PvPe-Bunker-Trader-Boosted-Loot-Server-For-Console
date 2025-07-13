@@ -10,16 +10,11 @@
 					0,
 					2234.11
 				],
-				"Radius": 150,
-				"PosHeight": 90,
+				"Radius":150,
+				"PosHeight": 100,
 				"NegHeight": 10,
-				"InnerRingCount": 2,
-				"InnerPartDist": 50,
-				"OuterRingToggle": 1,
-				"OuterPartDist": 40,
-				"OuterOffset": 0,
-				"VerticalLayers": 0,
-				"VerticalOffset": 0,
+				"InnerPartDist": 100,
+				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
 			},
 			"PlayerData": {
