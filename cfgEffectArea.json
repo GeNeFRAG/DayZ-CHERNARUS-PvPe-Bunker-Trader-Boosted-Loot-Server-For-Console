@@ -13,8 +13,8 @@
 				"Radius": 120,
 				"PosHeight": 100,
 				"NegHeight": 10,
-				"InnerPartDist": 35,
-				"OuterOffset": 30,
+				"InnerPartDist": 80,
+				"OuterOffset": 25,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
 			},
 			"PlayerData": {
