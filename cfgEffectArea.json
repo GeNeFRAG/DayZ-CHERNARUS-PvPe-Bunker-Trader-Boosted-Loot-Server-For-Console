@@ -184,161 +184,126 @@
 				"PPERequesterType": ""
 			}
 		},
-		{
-			"AreaName": "Ship-Bow",
-			"Type": "ContaminatedArea_Static",
+		{ 	"AreaName": "Ship-Bow", 
+			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					13920,
-					0,
-					11170
-				],
+			"Data": { 
+				"Pos": [ 13920, 0, 11170 ],
 				"Radius": 60,
 				"PosHeight": 20,
 				"NegHeight": 3,
-				"InnerPartDist": 1600,
-				"OuterOffset": 25,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
+				},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{
-			"AreaName": "Ship-Center",
-			"Type": "ContaminatedArea_Static",
+        { 	"AreaName": "Ship-Center", 
+			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					13785,
-					0,
-					11155
-				],
+			"Data": { 
+				"Pos": [ 13785, 0, 11155 ],
 				"Radius": 100,
 				"PosHeight": 22,
 				"NegHeight": 3,
-				"InnerPartDist": 60,
-				"OuterOffset": 25,
+				"InnerPartDist": 100,
+				"OuterOffset": 30, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
+				},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{
-			"AreaName": "Ship-Stern",
-			"Type": "ContaminatedArea_Static",
+		{ 	"AreaName": "Ship-Stern", 
+			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					13660,
-					0,
-					11100
-				],
+			"Data": { 
+				"Pos": [ 13660, 0, 11100 ],
 				"Radius": 60,
 				"PosHeight": 20,
 				"NegHeight": 3,
-				"InnerPartDist": 60,
-				"OuterOffset": 25,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
+				},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{
-			"AreaName": "Pavlovo-North-Uphill",
-			"Type": "ContaminatedArea_Static",
+        { 	"AreaName": "Pavlovo-North-Uphill", 
+			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					2080,
-					0,
-					3500
-				],
+			"Data": { 
+				"Pos": [ 2080, 0, 3500 ],
 				"Radius": 100,
 				"PosHeight": 10,
 				"NegHeight": 20,
-				"InnerPartDist": 60,
-				"OuterOffset": 25,
+				"InnerPartDist": 100,
+				"OuterOffset": 30, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
+				},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{
-			"AreaName": "Pavlovo-South-Building1",
-			"Type": "ContaminatedArea_Static",
+        { 	"AreaName": "Pavlovo-South-Building1", 
+			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					2165,
-					0,
-					3370
-				],
+			"Data": { 
+				"Pos": [ 2165, 0, 3370 ],
 				"Radius": 75,
 				"PosHeight": 10,
 				"NegHeight": 10,
-				"InnerPartDist": 60,
-				"OuterOffset": 25,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
+				},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{
-			"AreaName": "Pavlovo-South-Building2",
-			"Type": "ContaminatedArea_Static",
+        { 	"AreaName": "Pavlovo-South-Building2", 
+			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					2215,
-					0,
-					3290
-				],
+			"Data": { 
+				"Pos": [ 2215, 0, 3290 ],
 				"Radius": 75,
 				"PosHeight": 14,
 				"NegHeight": 10,
-				"InnerPartDist": 60,
-				"OuterOffset": 25,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
+				},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
-		{
-			"AreaName": "Pavlovo-South-Downhill",
-			"Type": "ContaminatedArea_Static",
+        { 	"AreaName": "Pavlovo-South-Downhill", 
+			"Type": "ContaminatedArea_Static", 
 			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					2090,
-					0,
-					3300
-				],
+			"Data": { 
+				"Pos": [ 2090, 0, 3300 ],
 				"Radius": 60,
 				"PosHeight": 10,
 				"NegHeight": 10,
-				"InnerPartDist": 60,
-				"OuterOffset": 25,
+				"InnerPartDist": 100,
+				"OuterOffset": 20, 
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
+				},
 			"PlayerData": {
 				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
 				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
