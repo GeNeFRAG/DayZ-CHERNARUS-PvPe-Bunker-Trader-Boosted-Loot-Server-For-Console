@@ -6,15 +6,15 @@
 			"TriggerType": "ContaminatedTrigger",
 			"Data": {
 				"Pos": [
-					4370.28,
+					4351.08,
 					0,
-					2234.11
+					2193.04
 				],
 				"Radius": 120,
 				"PosHeight": 100,
 				"NegHeight": 10,
-				"InnerPartDist": 80,
-				"OuterOffset": 25,
+				"InnerPartDist": 40,
+				"OuterOffset": 0,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
 			},
 			"PlayerData": {
