@@ -32,6 +32,31 @@
         </container>
     </group>
     <!-- ################### CUSTOM GROUPS START ################### -->
+    <!-- Proto Entries for Drug Truck Event -->
+    <group name="Land_Wreck_S1023_Beige" lootmax="12">
+        <usage name="Drugcar" />
+        <container name="lootshelves">
+            <point pos="-1.350670 -0.165202 -0.306449" range="0.203125" height="0.507332" />
+            <point pos="0.544436 -0.529111 -0.225987" range="0.280310" height="0.700775" />
+            <point pos="0.659984 -0.542758 0.366683" range="0.321777" height="0.804442" />
+            <point pos="1.546815 -0.520454 0.114379" range="0.607118" height="0.100162" />
+            <point pos="-1.633856 0.304016 -0.538906" range="0.100000" height="0.250000" />
+            <point pos="-1.172977 -0.140862 -0.332076" range="0.201172" height="0.407043" />
+            <point pos="1.768351 -0.554688 0.527966" range="0.244141" height="0.610353" />
+            <point pos="1.670043 -0.556686 -0.079618" range="0.288851" height="0.722127" />
+            <point pos="0.946747 -0.555740 0.208399" range="0.493164" height="1.224564" />
+            <point pos="-1.627813 -0.600845 -0.414127" range="0.100000" height="0.251038" />
+            <point pos="-1.178743 -0.316071 -0.332286" range="0.201172" height="0.750793" />
+            <point pos="1.767034 -0.593567 0.525150" range="0.244141" height="0.250793" />
+            <point pos="1.672807 -0.495300 -0.073942" range="0.288851" height="1.067520" />
+            <point pos="0.943783 -0.533066 0.209129" range="0.493164" height="1.064041" />
+            <point pos="-1.633856 0.304016 -0.538906" range="0.100000" height="0.250000" />
+            <point pos="-1.172977 -0.140862 -0.332076" range="0.201172" height="0.407043" />
+            <point pos="1.768351 -0.554688 0.527966" range="0.244141" height="0.610353" />
+            <point pos="1.670043 -0.556686 -0.079618" range="0.288851" height="0.722127" />
+            <point pos="0.946747 -0.555740 0.208399" range="0.493164" height="1.224564" />
+        </container>
+    </group>
     <!-- Proto Entries for Container Locked Event -->
     <group name="Land_ContainerLocked_Blue_DE" lootmax="9">
         <usage name="ContainerLocked" />

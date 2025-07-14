@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
     <!-- ################### CUSTOM EVENTS START ################### -->
+    <!-- Drug Truck -->
+    <event name="StaticDrugCrash">
+        <nominal>1</nominal>
+        <min>1</min>
+        <max>1</max>
+        <lifetime>1200</lifetime>
+        <restock>0</restock>
+        <saferadius>1</saferadius>
+        <distanceradius>1</distanceradius>
+        <cleanupradius>10</cleanupradius>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="8" lootmin="4" max="1" min="1" type="Land_Wreck_S1023_Beige" />
+        </children>
+    </event>
     <!-- Admin Humvee -->
     <event name="VehicleOffroad02_Admin">
         <nominal>1</nominal>
@@ -419,6 +437,7 @@
         <limit>child</limit>
         <active>1</active>
         <children>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="Animal_CapraHircus_Spooky"/>
             <child lootmax="0" lootmin="0" max="3" min="1" type="Animal_CapraHircusF"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Black"/>
             <child lootmax="0" lootmin="0" max="1" min="0" type="Animal_CapraHircus_Brown"/>

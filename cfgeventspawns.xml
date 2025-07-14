@@ -84,6 +84,18 @@
 		<pos x="2061.32" z="3501.23" a="0" />
 		<pos x="13739.53" z="11209.66" a="0" />
 	</event>
+	<!-- Static Drug Truck -->
+	<event name="StaticDrugCrash">
+		<zone smin="1" smax="3" dmin="0" dmax="0" r="45" />
+		<pos x="13418.85" z="5932.62" />
+		<pos x="12420.16" z="8877.52" />
+		<pos x="6885.94" z="5686.20" />
+		<pos x="3270.11" z="5103.11" />
+		<pos x="6711.19" z="7539.97" />
+		<pos x="4405.39" z="10332.93" />
+		<pos x="5749.94" z="12635.39" />
+		<pos x="12441.31" z="12214.88" />
+	</event>
 	<!-- ################### CUSTOME EVENT SPWANS END ################### -->
 	<event name="VehicleCivilianSedan">
 		<pos x="12071.933594" z="9129.989258" a="317.953339" />
