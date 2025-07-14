@@ -1,6 +1,6 @@
 {
 	"Areas": [
-		 {
+		{
 			"AreaName": "PMC Base Gas",
 			"Type": "ContaminatedArea_Static",
 			"TriggerType": "ContaminatedTrigger",
@@ -10,103 +10,11 @@
 					0,
 					2234.11
 				],
-				"Radius":100,
-				"PosHeight": 22,
+				"Radius": 120,
+				"PosHeight": 100,
 				"NegHeight": 10,
-				"InnerPartDist": 100,
-				"OuterOffset": 20,
-				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
-			}
-		},
-		{
-			"AreaName": "PMC Base Gas",
-			"Type": "ContaminatedArea_Static",
-			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					4370.28,
-					10,
-					2234.11
-				],
-				"Radius":100,
-				"PosHeight": 22,
-				"NegHeight": 10,
-				"InnerPartDist": 100,
-				"OuterOffset": 20,
-				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
-			}
-		},
-		{
-			"AreaName": "PMC Base Gas",
-			"Type": "ContaminatedArea_Static",
-			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					4370.28,
-					20,
-					2234.11
-				],
-				"Radius":100,
-				"PosHeight": 22,
-				"NegHeight": 10,
-				"InnerPartDist": 100,
-				"OuterOffset": 20,
-				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
-			}
-		},
-		{
-			"AreaName": "PMC Base Gas",
-			"Type": "ContaminatedArea_Static",
-			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					4370.28,
-					30,
-					2234.11
-				],
-				"Radius":100,
-				"PosHeight": 22,
-				"NegHeight": 10,
-				"InnerPartDist": 100,
-				"OuterOffset": 20,
-				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
-			}
-		},
-		{
-			"AreaName": "PMC Base Gas",
-			"Type": "ContaminatedArea_Static",
-			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					4370.28,
-					40,
-					2234.11
-				],
-				"Radius":100,
-				"PosHeight": 22,
-				"NegHeight": 10,
-				"InnerPartDist": 100,
-				"OuterOffset": 20,
+				"InnerPartDist": 35,
+				"OuterOffset": 30,
 				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
 			},
 			"PlayerData": {
