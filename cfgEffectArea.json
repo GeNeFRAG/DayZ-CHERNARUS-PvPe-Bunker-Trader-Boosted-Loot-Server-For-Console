@@ -34,15 +34,10 @@
 					12124.40
 				],
 				"Radius": 40,
-				"PosHeight": 30,
+				"PosHeight": 40,
 				"NegHeight": 20,
-				"InnerRingCount": 1,
-				"InnerPartDist": 30,
-				"OuterRingToggle": 1,
-				"OuterPartDist": 10,
-				"OuterOffset": 0,
-				"VerticalLayers": 2,
-				"VerticalOffset": 5,
+				"InnerPartDist": 25,
+				"OuterOffset": 5,
 				"ParticleName": "graphics/particles/spooky_mist"
 			},
 			"PlayerData": {
@@ -62,13 +57,10 @@
 					12074.82
 				],
 				"Radius": 40,
-				"PosHeight": 30,
+				"PosHeight": 40,
 				"NegHeight": 20,
-				"InnerRingCount": 1,
-				"InnerPartDist": 30,
-				"OuterRingToggle": 1,
-				"OuterPartDist": 10,
-				"OuterOffset": 0,
+				"InnerPartDist": 25,
+				"OuterOffset": 5,
 				"ParticleName": "graphics/particles/spooky_mist"
 			},
 			"PlayerData": {
