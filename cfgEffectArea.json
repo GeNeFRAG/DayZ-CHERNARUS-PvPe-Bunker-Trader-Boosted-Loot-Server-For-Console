@@ -37,7 +37,7 @@
 				"PosHeight": 40,
 				"NegHeight": 20,
 				"InnerPartDist": 25,
-				"OuterOffset": 5,
+				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/spooky_mist"
 			},
 			"PlayerData": {
@@ -60,7 +60,7 @@
 				"PosHeight": 40,
 				"NegHeight": 20,
 				"InnerPartDist": 25,
-				"OuterOffset": 5,
+				"OuterOffset": 20,
 				"ParticleName": "graphics/particles/spooky_mist"
 			},
 			"PlayerData": {

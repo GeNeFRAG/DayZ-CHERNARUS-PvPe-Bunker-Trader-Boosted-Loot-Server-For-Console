@@ -1162,7 +1162,7 @@
         </children>
     </event>
     <event name="StaticMilitaryConvoy">
-        <nominal>7</nominal>
+        <nominal>5</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>1800</lifetime>
@@ -1231,7 +1231,7 @@
         </children>
     </event>
     <event name="StaticTrain">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <min>1</min>
         <max>0</max>
         <lifetime>5400</lifetime>
