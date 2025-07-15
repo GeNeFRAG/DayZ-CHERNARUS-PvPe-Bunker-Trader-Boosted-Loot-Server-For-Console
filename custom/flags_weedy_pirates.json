@@ -1,22 +1,6 @@
 {
     "Objects": [
         {
-            "name": "Land_Misc_DogHouse",
-            "pos": [
-                11591.2060546875,
-                61.09241485595703,
-                14702.0927734375
-            ],
-            "ypr": [
-                -35.99999237060547,
-                0.0,
-                -0.0
-            ],
-            "scale": 3.1999995708465578,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
             "name": "Flag_Pirates",
             "pos": [
                 11565.234375,
