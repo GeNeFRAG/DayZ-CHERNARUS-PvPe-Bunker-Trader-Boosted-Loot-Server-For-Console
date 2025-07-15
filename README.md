@@ -44,6 +44,8 @@
 * Trader Humvee event
 * Stalker Zombies
 * Attack Bear event, which can spawned in any area
+* Drug car crash event
+* Evil goats
 * For details check events.xml
 
 ## Custom objects
@@ -52,7 +54,7 @@
 * C130J plane crash events at major airfields (NWAF, Balota, Krasnostav)
 * Bridge to Prison Island
 * Additional military containers in military areas
-* Greenmount, radio zenit small mod
+* Greenmount, radio zenit small military mod
   
 ## Teleporters
 * Various teleporters for admin usage and player usage
