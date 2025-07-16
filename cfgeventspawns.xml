@@ -57,7 +57,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Berezhki Jinxs -->
 	<event name="StaticBuilder_Jinxs">
-		<pos x="15214" y="1.7" z="13581.5" a="0" group="SkullsMaterials"/>
+		<pos x="15212.7" y="2.8" z="13613.3" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Building Materials: Novaya Life -->
 	<event name="StaticBuilder_Life">
