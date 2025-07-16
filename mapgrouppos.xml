@@ -98,7 +98,6 @@
 	<group name="Land_Ruin_Slum_House2" pos="3862.879883 298.299988 7632.689941" rpy="3.585859 -2.436094 0.000000" a="90"/>
 	<group name="Land_Ruin_Slum_House3" pos="3880.010010 296.299988 7651.459961" rpy="1.457080 -3.715109 40.106396" a="49.8936"/>
 	<group name="Land_Wreck_Uaz" pos="3930.159912 294.557007 7631.859863" rpy="-0.065667 -1.514423 51.565392" a="38.4346"/>
-	<!--NewTOWN S VMC LOOT END-->
     
     <!-- Container Military -->
     <group name="Land_Container_1Mo" pos="1534.743896 454.160278 14079.396484" rpy="-0.000000 0.000000 10.159926" a="79.8401"/>
