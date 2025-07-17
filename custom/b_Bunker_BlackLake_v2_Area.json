@@ -10441,7 +10441,7 @@
       "enableCEPersistency": 0
     },
     {
-      "name": "ZmbM_Mummy",
+      "name": "Zmbm_Mummy",
       "pos": [
         13305.03125,
         69.17818450927734,
@@ -10456,7 +10456,7 @@
       "enableCEPersistency": 0
     },
     {
-      "name": "ZmbM_Mummy",
+      "name": "Zmbm_Mummy",
       "pos": [
         13304.830078125,
         69.38859558105469,
@@ -10471,7 +10471,7 @@
       "enableCEPersistency": 0
     },
     {
-      "name": "ZmbM_Mummy",
+      "name": "Zmbm_Mummy",
       "pos": [
         13315.83984375,
         69.19509887695312,
@@ -10486,7 +10486,7 @@
       "enableCEPersistency": 0
     },
     {
-      "name": "ZmbM_Mummy",
+      "name": "Zmbm_Mummy",
       "pos": [
         13309.4326171875,
         69.36559295654297,
@@ -10531,7 +10531,7 @@
       "enableCEPersistency": 0
     },
     {
-      "name": "Vodka",
+      "name": "GlassBottle",
       "pos": [
         13302.98828125,
         70.14563751220703,
@@ -10546,7 +10546,7 @@
       "enableCEPersistency": 0
     },
     {
-      "name": "Vodka",
+      "name": "GlassBottle",
       "pos": [
         13302.8046875,
         70.04810333251953,
@@ -10596,36 +10596,6 @@
         13293.7275390625,
         69.09200286865234,
         12075.552734375
-      ],
-      "ypr": [
-        0.0,
-        0.0,
-        -0.0
-      ],
-      "scale": 1.0,
-      "enableCEPersistency": 0
-    },
-    {
-      "name": "ClearSyringe",
-      "pos": [
-        13282.623046875,
-        70.10374450683594,
-        12079.05859375
-      ],
-      "ypr": [
-        0.0,
-        0.0,
-        -0.0
-      ],
-      "scale": 1.0,
-      "enableCEPersistency": 0
-    },
-    {
-      "name": "ClearSyringe",
-      "pos": [
-        13282.708984375,
-        70.10374450683594,
-        12079.01171875
       ],
       "ypr": [
         0.0,
