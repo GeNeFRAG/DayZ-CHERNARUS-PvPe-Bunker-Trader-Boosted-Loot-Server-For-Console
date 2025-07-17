@@ -7125,10 +7125,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="Tshirt_10thAnniversary">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>1</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15459,10 +15459,10 @@
         <usage name="MilitaryClothes"/>
     </type>
     <type name="GorkaHelmet">
-        <nominal>7</nominal>
+        <nominal>11</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>7</min>
+        <min>11</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
