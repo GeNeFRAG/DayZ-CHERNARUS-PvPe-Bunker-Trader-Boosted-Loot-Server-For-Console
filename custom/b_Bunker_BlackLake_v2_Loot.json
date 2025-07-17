@@ -1831,21 +1831,6 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "M4_MPBttstck_Green",
-            "pos": [
-                13314.0419921875,
-                77.5984878540039,
-                12127.96484375
-            ],
-            "ypr": [
-                79.1207046508789,
-                83.39457702636719,
-                179.99989318847657
-            ],
-            "scale": 0.9999874234199524,
-            "enableCEPersistency": 0
-        },
-        {
             "name": "M4_RISHndgrd_Green",
             "pos": [
                 13314.3828125,
@@ -2071,7 +2056,7 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "M4_MPBttstck_Black",
+            "name": "M4_MPBttstck",
             "pos": [
                 13314.2578125,
                 77.59648895263672,
@@ -2623,21 +2608,6 @@
                 -0.0
             ],
             "scale": 0.9999924898147583,
-            "enableCEPersistency": 0
-        },
-        {
-            "name": "M4_MPHndgrd_Green",
-            "pos": [
-                13313.9970703125,
-                77.60173797607422,
-                12128.1064453125
-            ],
-            "ypr": [
-                78.18365478515625,
-                83.64139556884766,
-                0.000005008798780181678
-            ],
-            "scale": 0.9999938607215881,
             "enableCEPersistency": 0
         },
         {
@@ -5566,7 +5536,7 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "ZmbM_Mummy",
+            "name": "Zmbm_Mummy",
             "pos": [
                 13302.88671875,
                 79.09102630615235,

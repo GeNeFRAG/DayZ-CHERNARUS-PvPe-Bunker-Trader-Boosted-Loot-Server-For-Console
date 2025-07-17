@@ -412,10 +412,10 @@
         <usage name="Attachment"/>
     </type>
     <type name="M4_MPBttstck">
-        <nominal>7</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7127,10 +7127,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="Tshirt_10thAnniversary">
-        <nominal>4</nominal>
+        <nominal>5</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12003,10 +12003,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Longhorn">
-        <nominal>16</nominal>
+        <nominal>18</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>11</min>
+        <min>13</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
