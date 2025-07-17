@@ -801,7 +801,7 @@
             "customString": ""
         },
         {
-            "name": "Longhorn",
+            "name": "LongHorn",
             "pos": [
                 10090.8427734375,
                 5.379823684692383,
@@ -5969,7 +5969,7 @@
             "customString": ""
         },
         {
-            "name": "AK_WoodBttstck_Black",
+            "name": "AK74_WoodBttstck_Black",
             "pos": [
                 10090.3671875,
                 5.579977989196777,
@@ -5985,7 +5985,7 @@
             "customString": ""
         },
         {
-            "name": "AK_WoodBttstck_Camo",
+            "name": "AK74_WoodBttstck_Camo",
             "pos": [
                 10090.5966796875,
                 5.577872276306152,
@@ -6045,6 +6045,22 @@
                 0.0
             ],
             "scale": 0.9999953508377075,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "AKS74U_Bttstck_Green",
+            "pos": [
+                10090.447265625,
+                4.931690216064453,
+                1686.0198974609376
+            ],
+            "ypr": [
+                47.725894927978519,
+                0.0,
+                0.0
+            ],
+            "scale": 0.9999963045120239,
             "enableCEPersistency": 0,
             "customString": ""
         },
@@ -6113,7 +6129,7 @@
             "customString": ""
         },
         {
-            "name": "AK_WoodHndgrd_Black",
+            "name": "AK74_Hndgrd_Black",
             "pos": [
                 10090.0517578125,
                 5.517111778259277,
@@ -6129,7 +6145,7 @@
             "customString": ""
         },
         {
-            "name": "AK_WoodHndgrd_Camo",
+            "name": "AK74_Hndgrd_Camo",
             "pos": [
                 10090.13671875,
                 5.528494834899902,
@@ -7217,7 +7233,7 @@
             "customString": ""
         },
         {
-            "name": "Mag_CZ550_10Rnd",
+            "name": "Mag_CZ550_10rnd",
             "pos": [
                 10095.658203125,
                 5.628322601318359,
@@ -7233,7 +7249,7 @@
             "customString": ""
         },
         {
-            "name": "Mag_CZ550_10Rnd",
+            "name": "Mag_CZ550_10rnd",
             "pos": [
                 10095.76953125,
                 5.628322601318359,
@@ -7249,7 +7265,7 @@
             "customString": ""
         },
         {
-            "name": "Mag_CZ550_10Rnd",
+            "name": "Mag_CZ550_10rnd",
             "pos": [
                 10095.5576171875,
                 5.628322601318359,
@@ -7265,7 +7281,7 @@
             "customString": ""
         },
         {
-            "name": "Mag_CZ550_10Rnd",
+            "name": "Mag_CZ550_10rnd",
             "pos": [
                 10095.4169921875,
                 5.628322601318359,
@@ -7281,7 +7297,7 @@
             "customString": ""
         },
         {
-            "name": "Mag_CZ550_10Rnd",
+            "name": "Mag_CZ550_10rnd",
             "pos": [
                 10095.6298828125,
                 5.628322601318359,
@@ -7297,7 +7313,7 @@
             "customString": ""
         },
         {
-            "name": "Mag_CZ550_10Rnd",
+            "name": "Mag_CZ550_10rnd",
             "pos": [
                 10095.490234375,
                 5.628322601318359,
@@ -7697,7 +7713,7 @@
             "customString": ""
         },
         {
-            "name": "Longhorn",
+            "name": "LongHorn",
             "pos": [
                 10095.9189453125,
                 4.91298770904541,
@@ -7713,7 +7729,7 @@
             "customString": ""
         },
         {
-            "name": "Longhorn",
+            "name": "LongHorn",
             "pos": [
                 10095.7705078125,
                 4.913018226623535,
@@ -9873,7 +9889,7 @@
             "customString": ""
         },
         {
-            "name": "M4_OEBttstck",
+            "name": "M4_OEBttstck_Black",
             "pos": [
                 10098.8837890625,
                 5.265532970428467,
@@ -9905,6 +9921,22 @@
             "customString": ""
         },
         {
+            "name": "M4_OEBttstck_Green",
+            "pos": [
+                10098.90234375,
+                5.261779308319092,
+                1684.105712890625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
             "name": "M4_MPBttstck",
             "pos": [
                 10098.732421875,
@@ -9921,11 +9953,27 @@
             "customString": ""
         },
         {
-            "name": "M4_MPBttstck",
+            "name": "M4_MPBttstck_Black",
             "pos": [
                 10098.71875,
                 5.278380870819092,
                 1684.098876953125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M4_MPBttstck_Green",
+            "pos": [
+                10098.37109375,
+                5.283355236053467,
+                1684.169189453125
             ],
             "ypr": [
                 0.0,
@@ -9953,11 +10001,27 @@
             "customString": ""
         },
         {
-            "name": "M4_CQBBttstck",
+            "name": "M4_CQBBttstck_Black",
             "pos": [
                 10098.50390625,
                 5.259368419647217,
                 1684.078369140625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M4_CQBBttstck_Green",
+            "pos": [
+                10098.5390625,
+                5.270385265350342,
+                1684.198486328125
             ],
             "ypr": [
                 0.0,
@@ -9985,11 +10049,27 @@
             "customString": ""
         },
         {
-            "name": "M4_PlasticHndgrd",
+            "name": "M4_PlasticHndgrd_Black",
             "pos": [
                 10098.921875,
                 5.652833461761475,
                 1684.027587890625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M4_PlasticHndgrd_Green",
+            "pos": [
+                10098.9501953125,
+                5.633302211761475,
+                1684.103759765625
             ],
             "ypr": [
                 0.0,
@@ -10065,11 +10145,27 @@
             "customString": ""
         },
         {
-            "name": "M4_MPHndgrd",
+            "name": "M4_MPHndgrd_Black",
             "pos": [
                 10098.5869140625,
                 5.6267409324646,
                 1684.087158203125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M4_MPHndgrd_Green",
+            "pos": [
+                10098.5419921875,
+                5.618409633636475,
+                1684.178955078125
             ],
             "ypr": [
                 0.0,
@@ -10193,7 +10289,7 @@
             "customString": ""
         },
         {
-            "name": "Camonet",
+            "name": "CamoNet",
             "pos": [
                 10101.7685546875,
                 5.536371231079102,
@@ -10209,7 +10305,7 @@
             "customString": ""
         },
         {
-            "name": "Camonet",
+            "name": "CamoNet",
             "pos": [
                 10101.822265625,
                 5.548913955688477,
@@ -14913,7 +15009,7 @@
             "customString": ""
         },
         {
-            "name": "GorkaHelmet",
+            "name": "GorkaHelmet_Green",
             "pos": [
                 10093.5615234375,
                 5.575945854187012,
@@ -14929,7 +15025,7 @@
             "customString": ""
         },
         {
-            "name": "GorkaHelmet",
+            "name": "GorkaHelmet_Green",
             "pos": [
                 10093.353515625,
                 5.544882774353027,
@@ -14961,7 +15057,7 @@
             "customString": ""
         },
         {
-            "name": "GorkaHelmet",
+            "name": "GorkaHelmet_Green",
             "pos": [
                 10093.171875,
                 5.560221195220947,
@@ -14977,7 +15073,7 @@
             "customString": ""
         },
         {
-            "name": "GorkaHelmet",
+            "name": "GorkaHelmet_Green",
             "pos": [
                 10092.994140625,
                 5.560917377471924,
@@ -14993,7 +15089,7 @@
             "customString": ""
         },
         {
-            "name": "GorkaHelmet",
+            "name": "GorkaHelmet_Green",
             "pos": [
                 10092.8046875,
                 5.573453426361084,
@@ -15569,7 +15665,7 @@
             "customString": ""
         },
         {
-            "name": "Tshirt_10thAnniversary",
+            "name": "TShirt_10thAnniversary",
             "pos": [
                 10099.380859375,
                 5.552940368652344,
@@ -17009,7 +17105,7 @@
             "customString": ""
         },
         {
-            "name": "Tshirt_10thAnniversary",
+            "name": "TShirt_10thAnniversary",
             "pos": [
                 10099.3349609375,
                 5.552940368652344,
@@ -17121,7 +17217,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.5615234375,
                 5.552706718444824,
@@ -17137,7 +17233,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.5810546875,
                 5.552706718444824,
@@ -17153,7 +17249,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.6669921875,
                 5.552706718444824,
@@ -17169,7 +17265,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.640625,
                 5.552706241607666,
@@ -17185,7 +17281,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.5947265625,
                 5.552706718444824,
@@ -17201,7 +17297,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.6201171875,
                 5.552706718444824,
@@ -18097,7 +18193,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.8583984375,
                 5.5529961585998539,
@@ -18113,7 +18209,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.7998046875,
                 5.5529961585998539,
@@ -18129,7 +18225,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.8193359375,
                 5.5529961585998539,
@@ -18145,7 +18241,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.9052734375,
                 5.5529961585998539,
@@ -18161,7 +18257,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.87890625,
                 5.552995681762695,
@@ -18177,7 +18273,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.8330078125,
                 5.5529961585998539,
@@ -18289,7 +18385,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.9765625,
                 5.5529961585998539,
@@ -18305,7 +18401,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.99609375,
                 5.5529961585998539,
@@ -18321,7 +18417,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10093.08203125,
                 5.5529961585998539,
@@ -18337,7 +18433,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10093.0556640625,
                 5.552995681762695,
@@ -18353,7 +18449,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10093.009765625,
                 5.5529961585998539,
@@ -18369,7 +18465,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10093.03515625,
                 5.5529961585998539,
@@ -18385,7 +18481,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.94921875,
                 6.3177032470703129,
@@ -18401,7 +18497,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10093.041015625,
                 6.3177032470703129,
@@ -18417,7 +18513,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10093.0126953125,
                 6.3177032470703129,
@@ -18433,7 +18529,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.966796875,
                 6.3177032470703129,
@@ -18449,7 +18545,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10093.00390625,
                 6.3177032470703129,
@@ -18465,7 +18561,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.8310546875,
                 6.3177032470703129,
@@ -18481,7 +18577,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.7724609375,
                 6.3177032470703129,
@@ -18497,7 +18593,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.7919921875,
                 6.3177032470703129,
@@ -18513,7 +18609,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.8779296875,
                 6.3177032470703129,
@@ -18529,7 +18625,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.8515625,
                 6.317702770233154,
@@ -18545,7 +18641,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.8056640625,
                 6.3177032470703129,
@@ -18561,7 +18657,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.92578125,
                 6.3177032470703129,
@@ -18577,7 +18673,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.5498046875,
                 6.3177032470703129,
@@ -18593,7 +18689,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.6416015625,
                 6.3177032470703129,
@@ -18609,7 +18705,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.61328125,
                 6.3177032470703129,
@@ -18625,7 +18721,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.5673828125,
                 6.3177032470703129,
@@ -18641,7 +18737,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.6044921875,
                 6.3177032470703129,
@@ -18657,7 +18753,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.431640625,
                 6.3177032470703129,
@@ -18673,7 +18769,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.373046875,
                 6.3177032470703129,
@@ -18689,7 +18785,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.392578125,
                 6.3177032470703129,
@@ -18705,7 +18801,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.478515625,
                 6.3177032470703129,
@@ -18721,7 +18817,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.4521484375,
                 6.317702770233154,
@@ -18737,7 +18833,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.40625,
                 6.3177032470703129,
@@ -18753,7 +18849,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.5263671875,
                 6.3177032470703129,
@@ -19345,7 +19441,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.443359375,
                 5.552706718444824,
@@ -19361,7 +19457,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.384765625,
                 5.552706718444824,
@@ -19377,7 +19473,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.404296875,
                 5.552706718444824,
@@ -19393,7 +19489,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.490234375,
                 5.552706718444824,
@@ -19409,7 +19505,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.4638671875,
                 5.552706241607666,
@@ -19425,7 +19521,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 10092.41796875,
                 5.552706718444824,
@@ -22637,6 +22733,22 @@
                 0.0
             ],
             "scale": 0.9999939203262329,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Crossbow",
+            "pos": [
+                10090.173828125,
+                6.119715690612793,
+                1691.801513671875
+            ],
+            "ypr": [
+                10.391619682312012,
+                0.0,
+                90.0
+            ],
+            "scale": 0.9999945163726807,
             "enableCEPersistency": 0,
             "customString": ""
         },
