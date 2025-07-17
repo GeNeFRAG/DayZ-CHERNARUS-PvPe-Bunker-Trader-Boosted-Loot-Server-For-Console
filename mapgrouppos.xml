@@ -19,7 +19,7 @@
 	<group name="Land_Container_1Mo" pos="8097.481445 460.008331 9327.954102" rpy="-0.000000 -0.000000 0.000000" a="90"/>
 	<group name="StaticObj_Container_1C" pos="8094.223633 460.117889 9323.747070" rpy="-0.000000 -0.000000 0.000000" a="90"/>
 
-    <!-- Kamenks Military -->
+    <!-- Kamensk MB Mod -->
     <group name="Land_Mil_Barracks2" pos="7912.791016 339.217834 14591.202148" rpy="-0.000000 -0.000000 0.000000" a="90"/>
 	<group name="Land_Mil_Barracks3" pos="7909.501953 339.969360 14614.460938" rpy="0.000000 0.000000 -89.999947" a="180"/>
 	<group name="Land_Mil_Barracks_Round" pos="7859.729492 344.908539 14678.852539" rpy="-0.000000 0.000000 -171.000122" a="-98.9999"/>
