@@ -1411,7 +1411,7 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "Plastic_Explosive_Placing",
+            "name": "Plastic_Explosive",
             "pos": [
                 13267.865234375,
                 67.68468475341797,
@@ -1426,7 +1426,7 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "Plastic_Explosive_Placing",
+            "name": "Plastic_Explosive",
             "pos": [
                 13267.7509765625,
                 67.68468475341797,
@@ -1456,7 +1456,7 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "Plastic_Explosive_Placing",
+            "name": "Plastic_Explosive",
             "pos": [
                 13268.04296875,
                 67.68468475341797,
@@ -1471,7 +1471,7 @@
             "enableCEPersistency": 0
         },
         {
-            "name": "Plastic_Explosive_Placing",
+            "name": "Plastic_Explosive",
             "pos": [
                 13267.9287109375,
                 67.68468475341797,
