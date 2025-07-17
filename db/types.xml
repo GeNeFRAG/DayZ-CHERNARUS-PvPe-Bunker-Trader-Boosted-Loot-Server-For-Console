@@ -19,55 +19,53 @@
  15. CONTAMINATEDAREA, MILITARYCLOTHES
  16. CONTAMINATEDAREA, SPECIAL
  17. DONTUSE
- 18. DRUGCAR
- 19. DRUGCAR, PLANTS
- 20. EQUIPMENT
- 21. EQUIPMENT, MILITARY
- 22. EXPLOSIVES, MILITARY
- 23. FIREFIGHTER
- 24. FIREFIGHTER, INDUSTRIAL, MILITARY, POLICE
- 25. FIREFIGHTER, MEDIC
- 26. FIREFIGHTER, MILITARY, POLICE
- 27. FIREFIGHTER, MILITARY, POLICE, WEAPONS
- 28. FOODDRINK
- 29. HIGHLOOT
- 30. HISTORICAL
- 31. HUNTING
- 32. HUNTING, INDUSTRIAL, MILITARY
- 33. HUNTING, INDUSTRIAL, MILITARY, POLICE
- 34. HUNTING, MAGSAMMO
- 35. HUNTING, MAGSAMMO, POLICE
- 36. HUNTING, MEDIC
- 37. HUNTING, MILITARY
- 38. HUNTING, MILITARY, POLICE
- 39. HUNTING, TOOLS
- 40. HUNTING, WEAPONS
- 41. INDUSTRIAL
- 42. INDUSTRIAL, MILITARY, POLICE
- 43. INDUSTRIAL, TOOLS
- 44. MAGSAMMO
- 45. MAGSAMMO, MILITARY
- 46. MAGSAMMO, POLICE
- 47. MEDIC
- 48. MEDIC, MISC
- 49. MEDIC, TOOLS
- 50. MILITARY
- 51. MILITARY, POLICE
- 52. MILITARY, WEAPONS
- 53. MILITARYCLOTHES
- 54. MILITARYCLOTHES, POLICE
- 55. MISC
- 56. NO USAGE
- 57. OFFICE, SCHOOL
- 58. PLANTS
- 59. POLICE
- 60. POLICE, PRISON
- 61. PRISON
- 62. REPAIRITEMS
- 63. SEASONAL
- 64. SPECIAL
- 65. TOOLS
- 66. WEAPONS
+ 18. EQUIPMENT
+ 19. EQUIPMENT, MILITARY
+ 20. EXPLOSIVES, MILITARY
+ 21. FIREFIGHTER
+ 22. FIREFIGHTER, INDUSTRIAL, MILITARY, POLICE
+ 23. FIREFIGHTER, MEDIC
+ 24. FIREFIGHTER, MILITARY, POLICE
+ 25. FIREFIGHTER, MILITARY, POLICE, WEAPONS
+ 26. FOODDRINK
+ 27. HIGHLOOT
+ 28. HISTORICAL
+ 29. HUNTING
+ 30. HUNTING, INDUSTRIAL, MILITARY
+ 31. HUNTING, INDUSTRIAL, MILITARY, POLICE
+ 32. HUNTING, MAGSAMMO
+ 33. HUNTING, MAGSAMMO, POLICE
+ 34. HUNTING, MEDIC
+ 35. HUNTING, MILITARY
+ 36. HUNTING, MILITARY, POLICE
+ 37. HUNTING, TOOLS
+ 38. HUNTING, WEAPONS
+ 39. INDUSTRIAL
+ 40. INDUSTRIAL, MILITARY, POLICE
+ 41. INDUSTRIAL, TOOLS
+ 42. MAGSAMMO
+ 43. MAGSAMMO, MILITARY
+ 44. MAGSAMMO, POLICE
+ 45. MEDIC
+ 46. MEDIC, MISC
+ 47. MEDIC, TOOLS
+ 48. MILITARY
+ 49. MILITARY, POLICE
+ 50. MILITARY, WEAPONS
+ 51. MILITARYCLOTHES
+ 52. MILITARYCLOTHES, POLICE
+ 53. MISC
+ 54. NO USAGE
+ 55. OFFICE, SCHOOL
+ 56. PLANTS
+ 57. POLICE
+ 58. POLICE, PRISON
+ 59. PRISON
+ 60. REPAIRITEMS
+ 61. SEASONAL
+ 62. SPECIAL
+ 63. TOOLS
+ 64. WEAPONS
 ==================================================-->
     <!-- ################ [ATTACHMENT] ################-->
     <type name="ACOGOptic">
@@ -8619,6 +8617,61 @@
         <usage name="Special"/>
     </type>
     <!-- ################ [DONTUSE] ################-->
+    <type name="AK74_Hndgrd_Black">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="AK74_Hndgrd_Camo">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="AK74_WoodBttstck_Black">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="AK74_WoodBttstck_Camo">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="AKS74U_Bttstck_Green">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
     <type name="Anniversary_FireworksLauncher">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
@@ -9829,6 +9882,127 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
+    <type name="M4_CQBBttstck_Black">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="M4_CQBBttstck_Green">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="M4_CQBBttstck_Green">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="M4_MPBttstck_Black">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="M4_MPBttstck_Green">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="M4_MPHndgrd_Black">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="M4_MPHndgrd_Green">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="M4_OEBttstck_Black">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="M4_OEBttstck_Green">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="M4_PlasticHndgrd_Black">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
+    <type name="M4_PlasticHndgrd_Green">
+        <nominal>0</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="DontUse"/>
+    </type>
     <type name="M79">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
@@ -10411,31 +10585,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
-    </type>
-    <!-- ################ [DRUGCAR] ################-->
-    <type name="Cannabis">
-        <nominal>3</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>2</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Drugcar"/>
-    </type>
-    <!-- ################ [DRUGCAR, PLANTS] ################-->
-    <type name="CannabisSeedsPack">
-        <nominal>54</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>49</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Plants"/>
-        <usage name="Drugcar"/>
     </type>
     <!-- ################ [EQUIPMENT] ################-->
     <type name="PowerGenerator">
@@ -16348,16 +16497,6 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
     </type>
-    <type name="Animal_CapraHircus_Spooky">
-        <nominal>0</nominal>
-        <lifetime>1800</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-    </type>
     <type name="Animal_CapraHircus_White">
         <nominal>0</nominal>
         <lifetime>1800</lifetime>
@@ -19323,6 +19462,17 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
+        <usage name="Plants"/>
+    </type>
+    <type name="CannabisSeedsPack">
+        <nominal>54</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>49</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Plants"/>
     </type>
     <type name="GardenLime">
