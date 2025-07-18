@@ -8,6 +8,9 @@
     </territory>
     -->
     <territory color="1124502272">
+        <!-- Zs for Ruins MVC - Putoshka -->
+        <zone name="InfectedVillageTier1" smin="0" smax="0" dmin="8" dmax="12" x="3906.84" z="7634.29" r="80"/>
+
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="9" dmax="13" x="7971.43" z="14642.8" r="110"/>
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="10" dmax="14" x="7781.25" z="14780.3" r="120"/>
         <zone name="InfectedArmyHard" smin="6" smax="8" dmin="8" dmax="12" x="1684.51" z="14254.8" r="160"/>
