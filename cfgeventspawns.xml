@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <eventposdef>
 	<!-- ################### CUSTOM EVENT SPAWNS START ################### -->
+	<!-- Custom ContaminatedArea Drops -->
+	<event name="StaticContaminatedArea_Custom">
+		<zone smin="0" smax="0" dmin="5" dmax="8" r="75" />
+		<pos x="7817.55" z="14777.72" />
+		<pos x="7943.92" z="14638.71" />
+		<pos x="11869.22" z="12549.69" />
+		<pos x="4183.88" z="11041.00" />
+		<pos x="4125.55" z="10413.03" />
+		<pos x="4498.83" z="9693.69" />
+		<pos x="5060.70" z="9880.33" />
+		<pos x="5338.72" z="9874.49" />
+		<pos x="4640.76" z="10502.46" />
+		<pos x="4430.79" z="10877.69" />
+		<pos x="4813.79" z="10498.58" />
+		<pos x="1425.08" z="14476.37" />
+		<pos x="1673.94" z="14369.44" />
+		<pos x="1689.49" z="14157.52" />
+		<pos x="1434.81" z="13679.26" />
+		<pos x="1545.62" z="13582.05" />
+		<pos x="4526.05" z="8309.43" />
+		<pos x="4930.87" z="2475.27" />
+		<pos x="2501.40" z="5096.84" />
+		<pos x="3906.846191" z="7634.296875" />
+	</event>
 	<!-- Admin Humvee -->
 	<event name="VehicleOffroad02_Admin">
 		<pos x="10077.2" y="6.1" z="1648.08" a="98" />
