@@ -5,7 +5,7 @@
     <event name="StaticContaminatedArea_Custom">
         <nominal>0</nominal>
         <min>2</min>
-        <max>3</max>
+        <max>4</max>
         <lifetime>2100</lifetime>
         <restock>0</restock>
         <saferadius>0</saferadius>
@@ -21,16 +21,16 @@
     </event>
     <!-- Drug Truck -->
     <event name="StaticDrugCrash">
-        <nominal>1</nominal>
-        <min>1</min>
-        <max>1</max>
-        <lifetime>1200</lifetime>
+        <nominal>5</nominal>
+        <min>0</min>
+        <max>0</max>
+        <lifetime>1800</lifetime>
         <restock>0</restock>
-        <saferadius>1</saferadius>
-        <distanceradius>1</distanceradius>
-        <cleanupradius>10</cleanupradius>
-        <secondary>InfectedMedic</secondary>
-        <flags deletable="1" init_random="0" remove_damaged="0" />
+        <saferadius>500</saferadius>
+        <distanceradius>1000</distanceradius>
+        <cleanupradius>1000</cleanupradius>
+        <secondary>InfectedPoliceHard</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
         <active>1</active>
@@ -314,9 +314,9 @@
     </event>
     <!-- Custom Attack Bear Spawns -->
     <event name="AnimalAttackBear">
-        <nominal>5</nominal> <!-- how many you want to spawn. change child min/max to the same as nominal-->
-        <min>5</min>
-        <max>5</max>
+        <nominal>4</nominal> <!-- how many you want to spawn. change child min/max to the same as nominal-->
+        <min>4</min>
+        <max>4</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>1</saferadius>
@@ -327,7 +327,7 @@
         <limit>custom</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="5" min="5" type="Animal_UrsusArctos"/>
+            <child lootmax="0" lootmin="0" max="4" min="4" type="Animal_UrsusArctos"/>
         </children>
     </event>
     <!-- #################### CUSTOM EVENTS END ################### -->
@@ -555,9 +555,9 @@
     -->
     <!-- Large Wolf Packs -->
     <event name="AnimalWolf">
-        <nominal>40</nominal>
-        <min>40</min>
-        <max>40</max>
+        <nominal>50</nominal>
+        <min>50</min>
+        <max>50</max>
         <lifetime>180</lifetime>
         <restock>0</restock>
         <saferadius>100</saferadius>
@@ -568,8 +568,8 @@
         <limit>child</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="6" min="2" type="Animal_CanisLupus_Grey"/>
-            <child lootmax="0" lootmin="0" max="4" min="1" type="Animal_CanisLupus_White"/>
+            <child lootmax="0" lootmin="0" max="8" min="4" type="Animal_CanisLupus_Grey"/>
+            <child lootmax="0" lootmin="0" max="6" min="2" type="Animal_CanisLupus_White"/>
         </children>
     </event>
     <event name="InfectedArmy">
@@ -1227,7 +1227,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0"/>
         <position>fixed</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>1</active>>
         <children/>
     </event>
     <event name="StaticSantaCrash">
