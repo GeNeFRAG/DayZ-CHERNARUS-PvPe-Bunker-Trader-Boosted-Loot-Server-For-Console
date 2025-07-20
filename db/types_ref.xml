@@ -13357,6 +13357,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
+        <usage name="Drugcar"/>
     </type>
 <type name="BloodBagEmpty">
         <nominal>20</nominal>
@@ -13412,6 +13413,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
+        <usage name="Drugcar"/>
     </type>
 <type name="CharcoalTablets">
         <nominal>20</nominal>
@@ -13467,6 +13469,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
+        <usage name="Drugcar"/>
     </type>
 <type name="GasMask">
         <nominal>10</nominal>
@@ -13500,6 +13503,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
+        <usage name="Drugcar"/>
     </type>
 <type name="LabCoat">
         <nominal>15</nominal>
@@ -13621,6 +13625,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
+        <usage name="Drugcar"/>
     </type>
 <type name="NBCBootsYellow">
         <nominal>3</nominal>
@@ -13720,6 +13725,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
+        <usage name="Drugcar"/>
     </type>
 <type name="Rag">
         <nominal>0</nominal>
@@ -13742,6 +13748,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
+        <usage name="Drugcar"/>
     </type>
 <type name="SalineBagIV">
         <nominal>0</nominal>
@@ -13764,6 +13771,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
+        <usage name="Drugcar"/>
     </type>
 <type name="SurgicalGloves_Blue">
         <nominal>8</nominal>
@@ -13852,6 +13860,7 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
+        <usage name="Drugcar"/>
     </type>
 
 <!-- ################ [MEDIC, MISC] ################-->
@@ -19541,6 +19550,18 @@
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Plants"/>
+        <usage name="Drugcar"/>
+    </type>
+<type name="Cannabis">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
     </type>
 <type name="GardenLime">
         <nominal>50</nominal>

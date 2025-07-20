@@ -19,53 +19,56 @@
  15. CONTAMINATEDAREA, MILITARYCLOTHES
  16. CONTAMINATEDAREA, SPECIAL
  17. DONTUSE
- 18. EQUIPMENT
- 19. EQUIPMENT, MILITARY
- 20. EXPLOSIVES, MILITARY
- 21. FIREFIGHTER
- 22. FIREFIGHTER, INDUSTRIAL, MILITARY, POLICE
- 23. FIREFIGHTER, MEDIC
- 24. FIREFIGHTER, MILITARY, POLICE
- 25. FIREFIGHTER, MILITARY, POLICE, WEAPONS
- 26. FOODDRINK
- 27. HIGHLOOT
- 28. HISTORICAL
- 29. HUNTING
- 30. HUNTING, INDUSTRIAL, MILITARY
- 31. HUNTING, INDUSTRIAL, MILITARY, POLICE
- 32. HUNTING, MAGSAMMO
- 33. HUNTING, MAGSAMMO, POLICE
- 34. HUNTING, MEDIC
- 35. HUNTING, MILITARY
- 36. HUNTING, MILITARY, POLICE
- 37. HUNTING, TOOLS
- 38. HUNTING, WEAPONS
- 39. INDUSTRIAL
- 40. INDUSTRIAL, MILITARY, POLICE
- 41. INDUSTRIAL, TOOLS
- 42. MAGSAMMO
- 43. MAGSAMMO, MILITARY
- 44. MAGSAMMO, POLICE
- 45. MEDIC
- 46. MEDIC, MISC
- 47. MEDIC, TOOLS
- 48. MILITARY
- 49. MILITARY, POLICE
- 50. MILITARY, WEAPONS
- 51. MILITARYCLOTHES
- 52. MILITARYCLOTHES, POLICE
- 53. MISC
- 54. NO USAGE
- 55. OFFICE, SCHOOL
- 56. PLANTS
- 57. POLICE
- 58. POLICE, PRISON
- 59. PRISON
- 60. REPAIRITEMS
- 61. SEASONAL
- 62. SPECIAL
- 63. TOOLS
- 64. WEAPONS
+ 18. DRUGCAR
+ 19. DRUGCAR, MEDIC
+ 20. DRUGCAR, PLANTS
+ 21. EQUIPMENT
+ 22. EQUIPMENT, MILITARY
+ 23. EXPLOSIVES, MILITARY
+ 24. FIREFIGHTER
+ 25. FIREFIGHTER, INDUSTRIAL, MILITARY, POLICE
+ 26. FIREFIGHTER, MEDIC
+ 27. FIREFIGHTER, MILITARY, POLICE
+ 28. FIREFIGHTER, MILITARY, POLICE, WEAPONS
+ 29. FOODDRINK
+ 30. HIGHLOOT
+ 31. HISTORICAL
+ 32. HUNTING
+ 33. HUNTING, INDUSTRIAL, MILITARY
+ 34. HUNTING, INDUSTRIAL, MILITARY, POLICE
+ 35. HUNTING, MAGSAMMO
+ 36. HUNTING, MAGSAMMO, POLICE
+ 37. HUNTING, MEDIC
+ 38. HUNTING, MILITARY
+ 39. HUNTING, MILITARY, POLICE
+ 40. HUNTING, TOOLS
+ 41. HUNTING, WEAPONS
+ 42. INDUSTRIAL
+ 43. INDUSTRIAL, MILITARY, POLICE
+ 44. INDUSTRIAL, TOOLS
+ 45. MAGSAMMO
+ 46. MAGSAMMO, MILITARY
+ 47. MAGSAMMO, POLICE
+ 48. MEDIC
+ 49. MEDIC, MISC
+ 50. MEDIC, TOOLS
+ 51. MILITARY
+ 52. MILITARY, POLICE
+ 53. MILITARY, WEAPONS
+ 54. MILITARYCLOTHES
+ 55. MILITARYCLOTHES, POLICE
+ 56. MISC
+ 57. NO USAGE
+ 58. OFFICE, SCHOOL
+ 59. PLANTS
+ 60. POLICE
+ 61. POLICE, PRISON
+ 62. PRISON
+ 63. REPAIRITEMS
+ 64. SEASONAL
+ 65. SPECIAL
+ 66. TOOLS
+ 67. WEAPONS
 ==================================================-->
     <!-- ################ [ATTACHMENT] ################-->
     <type name="ACOGOptic">
@@ -10597,6 +10600,164 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="DontUse"/>
     </type>
+    <!-- ################ [DRUGCAR] ################-->
+    <type name="Cannabis">
+        <nominal>10</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>8</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+    </type>
+    <!-- ################ [DRUGCAR, MEDIC] ################-->
+    <type name="BandageDressing">
+        <nominal>50</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>40</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="CanvasBag_Medical">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="Epinephrine">
+        <nominal>33</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>23</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="FirstAidKit">
+        <nominal>15</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>10</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="HipPack_Medical">
+        <nominal>8</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>5</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="Morphine">
+        <nominal>21</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>14</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="PainkillerTablets">
+        <nominal>24</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>16</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="SalineBag">
+        <nominal>25</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>15</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="StartKitIV">
+        <nominal>30</nominal>
+        <lifetime>28800</lifetime>
+        <restock>0</restock>
+        <min>20</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="TetracyclineAntibiotics">
+        <nominal>26</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>21</min>
+        <quantmin>20</quantmin>
+        <quantmax>60</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <type name="VitaminBottle">
+        <nominal>43</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>23</min>
+        <quantmin>15</quantmin>
+        <quantmax>30</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Medic"/>
+    </type>
+    <!-- ################ [DRUGCAR, PLANTS] ################-->
+    <type name="CannabisSeedsPack">
+        <nominal>54</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>49</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Drugcar"/>
+        <usage name="Plants"/>
+    </type>
     <!-- ################ [EQUIPMENT] ################-->
     <type name="PowerGenerator">
         <nominal>80</nominal>
@@ -13302,17 +13463,6 @@
         <usage name="Police"/>
     </type>
     <!-- ################ [MEDIC] ################-->
-    <type name="BandageDressing">
-        <nominal>50</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>40</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
     <type name="BloodBagEmpty">
         <nominal>20</nominal>
         <lifetime>14400</lifetime>
@@ -13357,17 +13507,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
     </type>
-    <type name="CanvasBag_Medical">
-        <nominal>8</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
     <type name="CharcoalTablets">
         <nominal>26</nominal>
         <lifetime>28800</lifetime>
@@ -13401,28 +13540,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
     </type>
-    <type name="Epinephrine">
-        <nominal>33</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>23</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
-    <type name="FirstAidKit">
-        <nominal>15</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>10</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
     <type name="GasMask">
         <nominal>13</nominal>
         <lifetime>14400</lifetime>
@@ -13441,17 +13558,6 @@
         <min>23</min>
         <quantmin>20</quantmin>
         <quantmax>100</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
-    <type name="HipPack_Medical">
-        <nominal>8</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>5</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
@@ -13566,17 +13672,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
     </type>
-    <type name="Morphine">
-        <nominal>21</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>14</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
     <type name="NBCBootsYellow">
         <nominal>3</nominal>
         <lifetime>14400</lifetime>
@@ -13665,17 +13760,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
     </type>
-    <type name="PainkillerTablets">
-        <nominal>24</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>16</min>
-        <quantmin>20</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
     <type name="Rag">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
@@ -13687,17 +13771,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
         <usage name="Medic"/>
     </type>
-    <type name="SalineBag">
-        <nominal>25</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>15</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
     <type name="SalineBagIV">
         <nominal>0</nominal>
         <lifetime>14400</lifetime>
@@ -13707,17 +13780,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
-    <type name="StartKitIV">
-        <nominal>30</nominal>
-        <lifetime>28800</lifetime>
-        <restock>0</restock>
-        <min>20</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
     </type>
     <type name="SurgicalGloves_Blue">
@@ -13775,17 +13837,6 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
     </type>
-    <type name="TetracyclineAntibiotics">
-        <nominal>26</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>21</min>
-        <quantmin>20</quantmin>
-        <quantmax>60</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
     <type name="Thermometer">
         <nominal>40</nominal>
         <lifetime>14400</lifetime>
@@ -13793,17 +13844,6 @@
         <min>30</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Medic"/>
-    </type>
-    <type name="VitaminBottle">
-        <nominal>43</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>23</min>
-        <quantmin>15</quantmin>
-        <quantmax>30</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Medic"/>
@@ -19473,17 +19513,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <usage name="Plants"/>
-    </type>
-    <type name="CannabisSeedsPack">
-        <nominal>54</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>49</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Plants"/>
     </type>
     <type name="GardenLime">
