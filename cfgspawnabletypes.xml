@@ -291,8 +291,11 @@
 		<attachments>
 			<item name="ElectronicRepairKit" />
 		</attachments>
-		<attachments>
-			<item name="MountainBag_Green" />
+		<attachments chance="1.00">
+			<item name="MountainBag_Green" chance="0.25"/>
+			<item name="MountainBag_Blue" chance="0.25"/>
+			<item name="MountainBag_Orange" chance="0.25"/>
+			<item name="MountainBag_Red" chance="0.25"/>
 		</attachments>
 		<attachments>
 			<item name="Flag_White" />
