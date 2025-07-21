@@ -121,7 +121,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Vysotovo JC -->
 	<event name="StaticBuilder_JC">
-		<pos x="5547.3" y="67.2" z="2632.7" a="0" group="SkullsMaterials"/>
+		<pos x="5508.09" y="66.47" z="2649.57" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
