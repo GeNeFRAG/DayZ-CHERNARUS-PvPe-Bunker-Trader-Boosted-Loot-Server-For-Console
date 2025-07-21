@@ -4055,6 +4055,7 @@
             <point pos="0.943783 -0.533066 0.209129" range="0.493164" height="1.064041" />
             </container>
         </group>
+    <!--
     <group name="Land_Wreck_S1023_Beige" lootmax="4">
         <usage name="RepairItems" />
         <usage name="Tools" />
@@ -4072,6 +4073,7 @@
             <point pos="0.946747 -0.555740 0.208399" range="0.493164" height="1.224564" />
             </container>
         </group>
+    -->
     <group name="Land_Wreck_Ikarus" lootmax="4">
         <usage name="RepairItems" />
         <usage name="Tools" />
