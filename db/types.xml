@@ -7128,10 +7128,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="Tshirt_10thAnniversary">
-        <nominal>5</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8470,10 +8470,10 @@
     </type>
     <!-- ################ [CONTAMINATEDAREA] ################-->
     <type name="Ammo_40mm_Chemgas">
-        <nominal>53</nominal>
+        <nominal>5</nominal>
         <lifetime>5400</lifetime>
         <restock>1800</restock>
-        <min>51</min>
+        <min>3</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -11373,10 +11373,10 @@
         <usage name="FoodDrink"/>
     </type>
     <type name="Honey">
-        <nominal>23</nominal>
+        <nominal>27</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>20</min>
+        <min>24</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11439,10 +11439,10 @@
         <usage name="FoodDrink"/>
     </type>
     <type name="Marmalade">
-        <nominal>28</nominal>
+        <nominal>32</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>23</min>
+        <min>27</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11450,10 +11450,10 @@
         <usage name="FoodDrink"/>
     </type>
     <type name="Orange">
-        <nominal>18</nominal>
+        <nominal>22</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>15</min>
+        <min>19</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11505,10 +11505,10 @@
         <usage name="FoodDrink"/>
     </type>
     <type name="PeachesCan">
-        <nominal>19</nominal>
+        <nominal>23</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>16</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11736,10 +11736,10 @@
         <usage name="FoodDrink"/>
     </type>
     <type name="SpaghettiCan">
-        <nominal>19</nominal>
+        <nominal>23</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>16</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11758,10 +11758,10 @@
         <usage name="FoodDrink"/>
     </type>
     <type name="TacticalBaconCan">
-        <nominal>14</nominal>
+        <nominal>18</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>9</min>
+        <min>13</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -11835,10 +11835,10 @@
         <usage name="FoodDrink"/>
     </type>
     <type name="WaterBottle">
-        <nominal>105</nominal>
+        <nominal>109</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>90</min>
+        <min>94</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12324,10 +12324,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Longhorn">
-        <nominal>18</nominal>
+        <nominal>15</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>13</min>
+        <min>10</min>
         <quantmin>30</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -12335,10 +12335,10 @@
         <usage name="Hunting"/>
     </type>
     <type name="Mag_CZ550_10Rnd">
-        <nominal>14</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>11</min>
+        <min>5</min>
         <quantmin>10</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -12737,10 +12737,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="Camonet">
-        <nominal>42</nominal>
+        <nominal>40</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>22</min>
+        <min>20</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -12748,10 +12748,10 @@
         <usage name="Industrial"/>
     </type>
     <type name="CanOpener">
-        <nominal>72</nominal>
+        <nominal>74</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>52</min>
+        <min>54</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -15510,10 +15510,10 @@
         <usage name="MilitaryClothes"/>
     </type>
     <type name="GorkaHelmet">
-        <nominal>8</nominal>
+        <nominal>3</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>8</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
