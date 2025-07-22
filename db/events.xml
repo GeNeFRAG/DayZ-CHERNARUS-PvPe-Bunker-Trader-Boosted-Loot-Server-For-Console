@@ -282,11 +282,11 @@
         <nominal>2</nominal>
         <min>0</min>
         <max>0</max>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <saferadius>100</saferadius>
-        <distanceradius>100</distanceradius>
-        <cleanupradius>100</cleanupradius>
+        <lifetime>10800</lifetime>
+        <restock>1200</restock>
+        <saferadius>50</saferadius>
+        <distanceradius>20</distanceradius>
+        <cleanupradius>1</cleanupradius>
         <flags deletable="0" init_random="0" remove_damaged="1"/>
         <position>fixed</position>
         <limit>child</limit>
