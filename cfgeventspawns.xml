@@ -64,7 +64,7 @@
 		<!-- Krasno Airfield -->
 		<pos x="12040.31" z="12705.22" a="0" />
 		<!-- Cherno -->
-		<pos x="7857.89" z="3417.87" a="0" />
+		<pos x="7767.52" z="3514.01" a="0" />
 	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
@@ -109,7 +109,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Novaya Life -->
 	<event name="StaticBuilder_Life">
-		<pos x="3481.3" y="222.7" z="12697.3" a="0" group="SkullsMaterials"/>
+		<pos x="3467.2" y="205.4" z="12700" a="0" group="SkullsMaterials"/>
 	</event>
 	<!-- Dynamic Building Materials: Novaya Life -->
 	<event name="StaticBuilder_Otti">
