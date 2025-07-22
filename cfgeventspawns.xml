@@ -63,8 +63,10 @@
 		<pos x="3149.57" z="13032.82" a="0" />
 		<!-- Krasno Airfield -->
 		<pos x="12040.31" z="12705.22" a="0" />
-		<!-- Cherno -->
+		<!-- Prigorodki -->
 		<pos x="7767.52" z="3514.01" a="0" />
+		<!-- Berenzino -->
+		<pos x="11689.87" z="9179.21" a="0" />
 	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">

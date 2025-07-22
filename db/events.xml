@@ -242,7 +242,7 @@
     </event>
     <!-- Builder Truck -->
     <event name="VehicleBuilderTruck">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <min>0</min>
         <max>0</max>
         <lifetime>10800</lifetime>
