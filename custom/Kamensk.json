@@ -3,28 +3,34 @@
         {
             "name": "Land_Mil_Barracks2",
             "pos": [
-                7912.791015625,
-                339.21783447265627,
-                14591.2021484375
+                7912.61279296875,
+                338.828369140625,
+                14591.1181640625
             ],
             "ypr": [
                 0.0,
                 -0.0,
                 -0.0
-            ]
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Barracks3",
             "pos": [
-                7909.501953125,
-                339.9693603515625,
-                14614.4609375
+                7909.73583984375,
+                339.63677978515627,
+                14615.0859375
             ],
             "ypr": [
-                -89.99994659423828,
-                0.0,
+                -89.9999008178711,
+                -0.10000000894069672,
                 0.0
-            ]
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Barracks_Round",
@@ -37,7 +43,10 @@
                 -171.0001220703125,
                 0.0,
                 -0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Barracks_Round",
@@ -50,20 +59,26 @@
                 -171.0001220703125,
                 0.0,
                 -0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Barracks1",
             "pos": [
-                7744.74853515625,
-                362.6929626464844,
-                14861.2431640625
+                7744.01708984375,
+                362.45428466796877,
+                14856.2216796875
             ],
             "ypr": [
                 89.99995422363281,
                 -0.0,
                 -0.0
-            ]
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Container_1Mo",
@@ -76,7 +91,10 @@
                 -80.99992370605469,
                 0.0,
                 0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Container_1Mo",
@@ -89,7 +107,10 @@
                 -40.55742263793945,
                 7.816159725189209,
                 -0.3081514835357666
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Container_1Mo",
@@ -102,33 +123,42 @@
                 -119.53556060791016,
                 6.2624993324279789,
                 -5.91709041595459
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Barracks2",
             "pos": [
-                7988.97607421875,
-                341.3109130859375,
-                14621.1787109375
+                7990.81982421875,
+                340.72900390625,
+                14621.099609375
             ],
             "ypr": [
                 0.0,
-                -0.0,
-                -0.0
-            ]
+                -0.5348010063171387,
+                -4.117844104766846
+            ],
+            "scale": 0.9991250038146973,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Barracks3",
             "pos": [
-                7990.6484375,
-                341.85980224609377,
-                14640.166015625
+                7990.34912109375,
+                341.4709777832031,
+                14638.3251953125
             ],
             "ypr": [
                 -89.99995422363281,
                 0.0,
                 0.0
-            ]
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Tent_Big1_1",
@@ -141,7 +171,10 @@
                 125.99987030029297,
                 0.0,
                 -0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Tent_Big2_1",
@@ -154,7 +187,10 @@
                 -89.99995422363281,
                 0.0,
                 0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Tent_Big3",
@@ -167,7 +203,10 @@
                 -89.99994659423828,
                 0.0,
                 0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Tent_Big1_1",
@@ -180,7 +219,10 @@
                 -170.99996948242188,
                 0.0,
                 -0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_GuardShed",
@@ -193,7 +235,10 @@
                 89.99995422363281,
                 -0.0,
                 -0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_GuardBox_Smooth",
@@ -206,7 +251,10 @@
                 53.99998474121094,
                 -0.0,
                 -0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Container_1Mo",
@@ -219,7 +267,10 @@
                 44.999969482421878,
                 -0.0,
                 -0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Container_1Mo",
@@ -232,7 +283,10 @@
                 0.0,
                 -0.0,
                 -0.0
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Mil_Guardhouse2",
@@ -245,7 +299,10 @@
                 32.50932693481445,
                 2.3186395168304445,
                 5.004209041595459
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
         },
         {
             "name": "Land_Container_1Moh",
@@ -258,7 +315,42 @@
                 -171.0001220703125,
                 -1.441323161125183,
                 -3.0865488052368166
-            ]
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Mil_CamoNet_Big_east",
+            "pos": [
+                7753.7841796875,
+                362.51202392578127,
+                14835.8876953125
+            ],
+            "ypr": [
+                55.15904998779297,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999884963035584,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Land_Misc_FireBarrel_Blue",
+            "pos": [
+                7749.97509765625,
+                361.68548583984377,
+                14833.5634765625
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 0.9999997615814209,
+            "enableCEPersistency": 0,
+            "customString": ""
         }
     ]
 }
