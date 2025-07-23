@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <eventposdef>
 	<!-- ################### CUSTOM EVENT SPAWNS START ################### -->
 	<!--NWAF AIRSTRIKES-->
@@ -98,6 +98,103 @@
 		<pos x="4527.31" z="10165.67" a="0.0" />
 		<pos x="4742.19" z="10079.16" a="0.0" />
 	</event>
+	<!-- AirStrike TISY -->
+	<event name="StaticAirStrikeTisy1">
+		<pos x="1776.315352" z="14306.642305" a="0.0" />
+		<pos x="1686.691328" z="14124.520234" a="0.0" />
+		<pos x="1652.034102" z="14264.070039" a="0.0" />
+		<pos x="1799.168867" z="14175.586641" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy2">
+		<pos x="1876.089766" z="14302.813203" a="0.0" />
+		<pos x="1569.554609" z="14225.469453" a="0.0" />
+		<pos x="1703.427656" z="14096.034883" a="0.0" />
+		<pos x="1646.681563" z="14313.279023" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy3">
+		<pos x="1683.477461" z="14236.067109" a="0.0" />
+		<pos x="1672.651289" z="14196.979219" a="0.0" />
+		<pos x="1629.822188" z="14216.053438" a="0.0" />
+		<pos x="1603.106367" z="14253.721406" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy4">
+		<pos x="1733.621016" z="14283.696992" a="0.0" />
+		<pos x="1609.503828" z="14187.347383" a="0.0" />
+		<pos x="1647.518477" z="14094.557344" a="0.0" />
+		<pos x="1713.369063" z="14373.384492" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy5">
+		<pos x="1388.13" z="14482.26" a="0.0" />
+		<pos x="1376.95" z="14460.40" a="0.0" />
+		<pos x="1409.04" z="14461.85" a="0.0" />
+		<pos x="1438.21" z="14465.26" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy6">
+		<pos x="1576.15" z="14400.50" a="0.0" />
+		<pos x="1600.95" z="14365.02" a="0.0" />
+		<pos x="1625.74" z="14418.96" a="0.0" />
+		<pos x="1566.43" z="14401.95" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy7">
+		<pos x="1697.51" z="14392.83" a="0.0" />
+		<pos x="1633.34" z="14261.62" a="0.0" />
+		<pos x="1596.39" z="14168.31" a="0.0" />
+		<pos x="1514.71" z="14129.43" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy8">
+		<pos x="1579.86" z="14164.42" a="0.0" />
+		<pos x="1580.83" z="14115.82" a="0.0" />
+		<pos x="1525.41" z="14009.87" a="0.0" />
+		<pos x="1728.63" z="14167.33" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy9">
+		<pos x="1737.92" z="14103.04" a="0.0" />
+		<pos x="1673.46" z="13965.35" a="0.0" />
+		<pos x="1708.47" z="13830.24" a="0.0" />
+		<pos x="1733.75" z="13742.76" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy10">
+		<pos x="1957.39" z="13824.41" a="0.0" />
+		<pos x="1869.88" z="13727.21" a="0.0" />
+		<pos x="1789.17" z="13813.72" a="0.0" />
+		<pos x="1812.51" z="13810.80" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy11">
+		<pos x="1879.60" z="13822.47" a="0.0" />
+		<pos x="2009.89" z="13802.05" a="0.0" />
+		<pos x="2080.87" z="13789.42" a="0.0" />
+		<pos x="2152.83" z="13729.16" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy12">
+		<pos x="1699.39" z="13627.82" a="0.0" />
+		<pos x="1644.94" z="13599.63" a="0.0" />
+		<pos x="1587.58" z="13582.13" a="0.0" />
+		<pos x="1581.74" z="13614.21" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy13">
+		<pos x="1463.12" z="13701.69" a="0.0" />
+		<pos x="1461.17" z="13670.58" a="0.0" />
+		<pos x="1400.89" z="13668.64" a="0.0" />
+		<pos x="1506.87" z="13586.99" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy14">
+		<pos x="1532.15" z="13662.81" a="0.0" />
+		<pos x="1502.98" z="13676.42" a="0.0" />
+		<pos x="1526.32" z="13619.07" a="0.0" />
+		<pos x="1439.78" z="13607.41" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy15">
+		<pos x="2029.88" z="14022.33" a="0.0" />
+		<pos x="1874.30" z="14100.09" a="0.0" />
+		<pos x="1944.31" z="14053.43" a="0.0" />
+		<pos x="1852.91" z="14134.11" a="0.0" />
+	</event>
+	<event name="StaticAirStrikeTisy16">
+		<pos x="1814.99" z="14216.72" a="0.0" />
+		<pos x="1766.37" z="14313.92" a="0.0" />
+		<pos x="1727.48" z="14388.77" a="0.0" />
+		<pos x="1707.31" z="14441.80" a="0.0" />
+	</event>
 	<!-- Custom ContaminatedArea Drops -->
 	<event name="StaticContaminatedArea_Custom">
 		<zone smin="0" smax="0" dmin="5" dmax="8" r="75" />
@@ -152,7 +249,7 @@
 	</event>
 	<!-- Trader Humvee -->
 	<event name="VehicleOffroad02_Trader">
-		<pos x="10161.1" y="6.1" z="1632.46" a="98"/>
+		<pos x="10161.1" y="6.1" z="1632.46" a="98" />
 	</event>
 	<!-- Builder Truck event spawns -->
 	<event name="VehicleBuilderTruck">
@@ -168,13 +265,13 @@
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
 		<!-- Krona area -->
-		<pos x="704.77" z="8605.92" a="0"/>
+		<pos x="704.77" z="8605.92" a="0" />
 		<!-- Tisy area -->
-		<pos x="813.40" z="12617.00" a="0"/>
+		<pos x="813.40" z="12617.00" a="0" />
 		<!-- Vysoky Kamen area -->
-		<pos x="8946.15" z="4371.49" a="0"/>
+		<pos x="8946.15" z="4371.49" a="0" />
 		<!-- Klen area -->
-		<pos x="11497.16" z="11324.61" a="0"/>
+		<pos x="11497.16" z="11324.61" a="0" />
 	</event>
 	<!-- Boats to Skalisty -->
 	<event name="VehicleCustomBunkerBoat">
@@ -186,49 +283,49 @@
 		<zone smin="0" smax="0" dmin="4" dmax="8" r="45" />
 		<pos x="11726.5" y="161.714" z="13192.8" a="0" group="Mildrop" />
 		<pos x="12221" y="194.342" z="6966.87" a="0" group="Mildrop" />
-		<pos x="4799.92" y="367.042" z="5324.21" a="0" group="Mildrop"/>
+		<pos x="4799.92" y="367.042" z="5324.21" a="0" group="Mildrop" />
 		<pos x="5535.41" y="481.277" z="14999.1" a="0" group="Mildrop" />
-		<pos x="2205.67" y="315.647" z="8110.64" a="0" group="Mildrop" /> 
+		<pos x="2205.67" y="315.647" z="8110.64" a="0" group="Mildrop" />
 		<pos x="5901.2" y="269.84" z="10836.2" a="0" group="Mildrop" />
 		<pos x="9420.66" y="242.993" z="11258.1" a="0" group="Mildrop" />
 		<pos x="8614.11" y="268.499" z="3955.65" a="0" group="Mildrop" />
 		<pos x="11319.2" y="268.943" z="8363.92" a="0" group="Mildrop" />
-    </event>
+	</event>
 	<!-- Dynamic Building Materials -->
 	<event name="StaticProxyMaterials">
-		<pos x="8469.09" z="12915.68" a="10" /> 
+		<pos x="8469.09" z="12915.68" a="10" />
 	</event>
 	<!-- Dynamic Building Materials: Severo Hatter-->
 	<event name="StaticBuilder_Hatter">
-		<pos x="8465.8" y="118.6" z="12898.7" a="0" group="SkullsMaterials"/>
+		<pos x="8465.8" y="118.6" z="12898.7" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Berezhki Jinxs -->
 	<event name="StaticBuilder_Jinxs">
-		<pos x="15212.7" y="2.8" z="13613.3" a="0" group="SkullsMaterials"/>
+		<pos x="15212.7" y="2.8" z="13613.3" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Novaya Life -->
 	<event name="StaticBuilder_Life">
-		<pos x="3467.2" y="205.4" z="12700" a="0" group="SkullsMaterials"/>
+		<pos x="3467.2" y="205.4" z="12700" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Novaya Life -->
 	<event name="StaticBuilder_Otti">
-		<pos x="2223.1" y="433.1" z="15259.7" a="0" group="SkullsMaterials"/>
+		<pos x="2223.1" y="433.1" z="15259.7" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Cherno Exodus -->
 	<event name="StaticBuilder_Exodus">
-		<pos x="7218.5" y="15.4" z="3325.8" a="0" group="SkullsMaterials"/>
+		<pos x="7218.5" y="15.4" z="3325.8" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Vysotovo JC -->
 	<event name="StaticBuilder_JC">
-		<pos x="5508.09" y="66.47" z="2649.57" a="0" group="SkullsMaterials"/>
+		<pos x="5508.09" y="66.47" z="2649.57" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Polonina RulZZe-->
 	<event name="StaticBuilder_RulZZer">
-		<pos x="210.9" y="73.8" z="3797.8" a="0" group="SkullsMaterials"/>
+		<pos x="210.9" y="73.8" z="3797.8" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
-		<pos x="10105.1" z="1616.58" a="0"/>
+		<pos x="10105.1" z="1616.58" a="0" />
 	</event>
 	<!-- Static ContainerLocked Event -->
 	<event name="StaticContainerLocked">
@@ -524,27 +621,27 @@
 	</event>
 	<event name="StaticSantaCrash">
 		<zone smin="1" smax="1" dmin="1" dmax="1" r="45" />
-		<pos x="2593.47" z="5094.11" a="0" y="201.66"/>
-		<pos x="2020.90" z="9813.24" a="0" y="238.0"/>
-		<pos x="12324.93" z="4544.31" a="0" y="253.91"/>
-		<pos x="2063.1" z="12153.5" a="30" y="253.45"/>
-		<pos x="8483.96" z="13343.2" a="0"/>
-		<pos x="8101.21" z="9333.70" a="0" y="460.27"/>
-		<pos x="9664.90" z="11309.24" a="0"/>
-		<pos x="4579.6" z="10198.0" a="0"/>
-		<pos x="7202.90" z="11336.24" a="0"/>
-		<pos x="11311.6" z="13213.2" a="0"/>
-		<pos x="6246.5" z="13359.78" a="0"/>
-		<pos x="10223.23" z="5034.9" a="0"/>
-		<pos x="6736.88" z="3699.77" a="0" y="82.85"/>
-		<pos x="5676.81" z="2567.31" a="0" y="82.82"/>
-		<pos x="5299.90" z="5314.24" a="0"/>
-		<pos x="11415.5" z="14596.7" a="0" y="90.8"/>
-		<pos x="3597.26" z="6937.65" a="340" y="341.0"/>
-		<pos x="1936.85" z="6768.97" a="0.0"/>
-		<pos x="2611.90" z="1307.24" a="0.0"/>
-		<pos x="8976.05" z="7818.34" a="0"/>
-		<pos x="11057.3" z="13985.3" a="0"/>
+		<pos x="2593.47" z="5094.11" a="0" y="201.66" />
+		<pos x="2020.90" z="9813.24" a="0" y="238.0" />
+		<pos x="12324.93" z="4544.31" a="0" y="253.91" />
+		<pos x="2063.1" z="12153.5" a="30" y="253.45" />
+		<pos x="8483.96" z="13343.2" a="0" />
+		<pos x="8101.21" z="9333.70" a="0" y="460.27" />
+		<pos x="9664.90" z="11309.24" a="0" />
+		<pos x="4579.6" z="10198.0" a="0" />
+		<pos x="7202.90" z="11336.24" a="0" />
+		<pos x="11311.6" z="13213.2" a="0" />
+		<pos x="6246.5" z="13359.78" a="0" />
+		<pos x="10223.23" z="5034.9" a="0" />
+		<pos x="6736.88" z="3699.77" a="0" y="82.85" />
+		<pos x="5676.81" z="2567.31" a="0" y="82.82" />
+		<pos x="5299.90" z="5314.24" a="0" />
+		<pos x="11415.5" z="14596.7" a="0" y="90.8" />
+		<pos x="3597.26" z="6937.65" a="340" y="341.0" />
+		<pos x="1936.85" z="6768.97" a="0.0" />
+		<pos x="2611.90" z="1307.24" a="0.0" />
+		<pos x="8976.05" z="7818.34" a="0" />
+		<pos x="11057.3" z="13985.3" a="0" />
 	</event>
 	<event name="StaticChristmasTree">
 		<pos x="6560.29" z="2462.12" a="0.0" />
@@ -1639,97 +1736,97 @@
 	</event>
 	<event name="StaticTrain">
 		<zone smin="0" smax="0" dmin="1" dmax="2" r="20" />
-		<pos x="5587.466" z="2063.353" a="0" y="7.75" group="Train_Abandoned_Cherno"/>
-		<pos x="3678.228" z="2328.108" a="0" y="6.7" group="Train_Abandoned_Kamarovo"/>
-		<pos x="11254.230" z="3290.319" a="0" y="6.65" group="Train_Abandoned_Kamy"/>
-		<pos x="1256.313" z="9349.465" a="0" y="211.82" group="Train_Abandoned_Myshkino"/>
-		<pos x="5428.630" z="12312.974" a="0" y="185.59" group="Train_Abandoned_Petrovka"/>
-		<pos x="8802.031" z="2334.222" a="0" y="8.42" group="Train_Abandoned_Prigorodki"/>
-		<pos x="13402.112" z="4303.119" a="0" y="6.711" group="Train_Abandoned_Skalisty"/>
-		<pos x="13377.262" z="13919.888" a="0" y="17.247" group="Train_Abandoned_Svetlo"/>
-		<pos x="1309.973" z="4991.340" a="0" y="166.685" group="Train_Abandoned_Zvir"/>
-		<pos x="12912.529" z="15006.073" a="0" y="57.478" group="Train_Accident_Dobroe"/>
-		<pos x="10797.634" z="2567.169" a="0" y="6.160" group="Train_Accident_Electro"/>
-		<pos x="12851.586" z="8577.874" a="0" y="6.567" group="Train_Accident_Nizhnoye"/>
-		<pos x="13590.054" z="11515.854" a="0" y="14.062" group="Train_Accident_Rify"/>
-		<pos x="9384.272" z="13392.446" a="0" y="105.328" group="Train_Accident_Severo"/>
-		<pos x="13213.484" z="6894.041" a="0" y="6.160" group="Train_Accident_Solnichniy"/>
-		<pos x="13363.302" z="5439.232" a="0" y="8.0" group="Train_Accident_Solnichniy2"/>
-		<pos x="2025.067" z="11378.385" a="0" y="249.535" group="Train_Accident_Vavilovo"/>
-		<pos x="1321.629" z="2398.199" a="0" y="6.7" group="Train_Mil_Kamenka"/>
-		<pos x="1443.256" z="6622.697" a="0" y="176.220" group="Train_Mil_Metalurg"/>
-		<pos x="673.779" z="8747.024" a="0" y="194.405" group="Train_Mil_Myshkino"/>
-		<pos x="3262.817" z="12430.286" a="0" y="219.495" group="Train_Mil_Petrovka"/>
+		<pos x="5587.466" z="2063.353" a="0" y="7.75" group="Train_Abandoned_Cherno" />
+		<pos x="3678.228" z="2328.108" a="0" y="6.7" group="Train_Abandoned_Kamarovo" />
+		<pos x="11254.230" z="3290.319" a="0" y="6.65" group="Train_Abandoned_Kamy" />
+		<pos x="1256.313" z="9349.465" a="0" y="211.82" group="Train_Abandoned_Myshkino" />
+		<pos x="5428.630" z="12312.974" a="0" y="185.59" group="Train_Abandoned_Petrovka" />
+		<pos x="8802.031" z="2334.222" a="0" y="8.42" group="Train_Abandoned_Prigorodki" />
+		<pos x="13402.112" z="4303.119" a="0" y="6.711" group="Train_Abandoned_Skalisty" />
+		<pos x="13377.262" z="13919.888" a="0" y="17.247" group="Train_Abandoned_Svetlo" />
+		<pos x="1309.973" z="4991.340" a="0" y="166.685" group="Train_Abandoned_Zvir" />
+		<pos x="12912.529" z="15006.073" a="0" y="57.478" group="Train_Accident_Dobroe" />
+		<pos x="10797.634" z="2567.169" a="0" y="6.160" group="Train_Accident_Electro" />
+		<pos x="12851.586" z="8577.874" a="0" y="6.567" group="Train_Accident_Nizhnoye" />
+		<pos x="13590.054" z="11515.854" a="0" y="14.062" group="Train_Accident_Rify" />
+		<pos x="9384.272" z="13392.446" a="0" y="105.328" group="Train_Accident_Severo" />
+		<pos x="13213.484" z="6894.041" a="0" y="6.160" group="Train_Accident_Solnichniy" />
+		<pos x="13363.302" z="5439.232" a="0" y="8.0" group="Train_Accident_Solnichniy2" />
+		<pos x="2025.067" z="11378.385" a="0" y="249.535" group="Train_Accident_Vavilovo" />
+		<pos x="1321.629" z="2398.199" a="0" y="6.7" group="Train_Mil_Kamenka" />
+		<pos x="1443.256" z="6622.697" a="0" y="176.220" group="Train_Mil_Metalurg" />
+		<pos x="673.779" z="8747.024" a="0" y="194.405" group="Train_Mil_Myshkino" />
+		<pos x="3262.817" z="12430.286" a="0" y="219.495" group="Train_Mil_Petrovka" />
 	</event>
 	<event name="StaticMilitaryConvoy">
 		<zone smin="0" smax="0" dmin="1" dmax="1" r="20" />
-		<pos x="8434.497" z="14003.119" a="0" y="205.349" group="Abandoned_Arsenovo"/>
-		<pos x="5272.803" z="2085.858" a="0" y="5.600" group="Abandoned_Balota"/>
-		<pos x="5664.508" z="3254.114" a="0" y="120.222" group="Abandoned_Cherno"/>
-		<pos x="7057.518" z="14492.741" a="0" y="349.237" group="Abandoned_Kamensk"/>
-		<pos x="3048.051" z="9986.940" a="0" y="291.746" group="Abandoned_Lopatino"/>
-		<pos x="10927.198" z="13403.151" a="0" y="219.720" group="Abandoned_Novo"/>
-		<pos x="5248.110" z="6510.306" a="0" y="263.877" group="Abandoned_Rogovo"/>
-		<pos x="616.200" z="12121.522" a="0" y="391.921" group="Abandoned_Sinystok"/>
-		<pos x="6427.380" z="8027.553" a="0" y="323.645" group="Abandoned_StarySobor"/>
-		<pos x="12678.560" z="4834.562" a="0" y="117.462" group="Abandoned_Tulga"/>
-		<pos x="3623.335" z="8078.458" a="0" y="298.206" group="Abandoned_Vybor"/>
-		<pos x="10784.112" z="6684.350" a="0" y="93.008" group="Ambush_Dolina"/>
-		<pos x="9779.0" z="10973.1" a="0" y="214.959" group="Ambush_Dubrovka"/>
-		<pos x="5768.208" z="10208.027" a="0" y="274.293" group="Ambush_Grishino"/>
-		<pos x="8387.078" z="5988.155" a="0" y="292.062" group="Ambush_Kumyrna"/>
-		<pos x="1203.912" z="7974.503" a="0" y="218.039" group="Ambush_Metalurg"/>
-		<pos x="9834.277" z="4667.238" a="0" y="84.831" group="Supply_Elektro"/>
-		<pos x="4132.739" z="5649.462" a="0" y="347.288" group="Supply_GreenMountain"/>
-		<pos x="2506.352" z="2043.815" a="0" y="6.736" group="Supply_Kamenka"/>
-		<pos x="1836.243" z="2110.332" a="0" y="4.480" group="Supply_Komarovo"/>
-		<pos x="6628.302" z="12507.082" a="0" y="168.853" group="Supply_Petrovka"/>
-		<pos x="2421.141" z="13608.731" a="0" y="301.707" group="Supply_Tisy"/>
-		<pos x="332.324" z="3059.927" a="0" y="99.673" group="Supply_Volchiypik"/>
+		<pos x="8434.497" z="14003.119" a="0" y="205.349" group="Abandoned_Arsenovo" />
+		<pos x="5272.803" z="2085.858" a="0" y="5.600" group="Abandoned_Balota" />
+		<pos x="5664.508" z="3254.114" a="0" y="120.222" group="Abandoned_Cherno" />
+		<pos x="7057.518" z="14492.741" a="0" y="349.237" group="Abandoned_Kamensk" />
+		<pos x="3048.051" z="9986.940" a="0" y="291.746" group="Abandoned_Lopatino" />
+		<pos x="10927.198" z="13403.151" a="0" y="219.720" group="Abandoned_Novo" />
+		<pos x="5248.110" z="6510.306" a="0" y="263.877" group="Abandoned_Rogovo" />
+		<pos x="616.200" z="12121.522" a="0" y="391.921" group="Abandoned_Sinystok" />
+		<pos x="6427.380" z="8027.553" a="0" y="323.645" group="Abandoned_StarySobor" />
+		<pos x="12678.560" z="4834.562" a="0" y="117.462" group="Abandoned_Tulga" />
+		<pos x="3623.335" z="8078.458" a="0" y="298.206" group="Abandoned_Vybor" />
+		<pos x="10784.112" z="6684.350" a="0" y="93.008" group="Ambush_Dolina" />
+		<pos x="9779.0" z="10973.1" a="0" y="214.959" group="Ambush_Dubrovka" />
+		<pos x="5768.208" z="10208.027" a="0" y="274.293" group="Ambush_Grishino" />
+		<pos x="8387.078" z="5988.155" a="0" y="292.062" group="Ambush_Kumyrna" />
+		<pos x="1203.912" z="7974.503" a="0" y="218.039" group="Ambush_Metalurg" />
+		<pos x="9834.277" z="4667.238" a="0" y="84.831" group="Supply_Elektro" />
+		<pos x="4132.739" z="5649.462" a="0" y="347.288" group="Supply_GreenMountain" />
+		<pos x="2506.352" z="2043.815" a="0" y="6.736" group="Supply_Kamenka" />
+		<pos x="1836.243" z="2110.332" a="0" y="4.480" group="Supply_Komarovo" />
+		<pos x="6628.302" z="12507.082" a="0" y="168.853" group="Supply_Petrovka" />
+		<pos x="2421.141" z="13608.731" a="0" y="301.707" group="Supply_Tisy" />
+		<pos x="332.324" z="3059.927" a="0" y="99.673" group="Supply_Volchiypik" />
 	</event>
 	<event name="StaticPoliceSituation">
 		<zone smin="0" smax="0" dmin="1" dmax="2" r="20" />
-		<pos x="11909.426" z="6432.040" a="0" y="49.747" group="Block_Dolina"/>
-		<pos x="10400.112" z="2237.542" a="0" y="5.930" group="Block_Elektro"/>
-		<pos x="8757.742" z="11875.513" a="0" y="206.034" group="Block_Gvozdno"/>
-		<pos x="2686.302" z="5229.044" a="0" y="-1" group="Block_Zeleno"/>
-		<pos x="8138.609" z="8564.824" a="0" y="428.844" group="Traffic_Altar"/>
-		<pos x="4888.580" z="2784.829" a="0" y="25.428" group="Traffic_Balota"/>
-		<pos x="12932.872" z="10189.173" a="0" y="5.980" group="Traffic_Berezino"/>
-		<pos x="13580.554" z="11766.809" a="0" y="30.708" group="Traffic_Berezino2"/>
-		<pos x="3433.691" z="3953.545" a="0" y="192.242" group="Traffic_Bor"/>
-		<pos x="6906.814" z="3086.961" a="0" y="7.280" group="Traffic_Cherno"/>
-		<pos x="6447.458" z="2552.698" a="0" y="5.975" group="Traffic_Cherno2"/>
-		<pos x="13404.373" z="14722.688" a="0" y="38.293" group="Traffic_Dobroe"/>
-		<pos x="10545.377" z="10260.771" a="0" y="102.047" group="Traffic_Dubrovka"/>
-		<pos x="10448.940" z="8882.513" a="0" y="223.098" group="Traffic_Gorka"/>
-		<pos x="5689.945" z="11852.006" a="0" y="221.974" group="Traffic_Grishino"/>
-		<pos x="5744.804" z="9286.175" a="0" y="315.611" group="Traffic_Grishino2"/>
-		<pos x="1894.825" z="2126.238" a="0" y="4.147" group="Traffic_Kamenka"/>
-		<pos x="7517.877" z="14048.492" a="0" y="260.978" group="Traffic_Kamensk"/>
-		<pos x="12873.966" z="3729.957" a="0" y="4.960" group="Traffic_Kamy"/>
-		<pos x="4523.444" z="4489.846" a="0" y="226.011" group="Traffic_Kozlovka"/>
-		<pos x="11087.840" z="12478.969" a="0" y="226.415" group="Traffic_Krasno"/>
-		<pos x="2515.404" z="9651.739" a="0" y="254.428" group="Traffic_Lopatino"/>
-		<pos x="7512.342" z="4660.855" a="0" y="219.617" group="Traffic_Mogilevka"/>
-		<pos x="9044.078" z="4934.135" a="0" y="113.847" group="Traffic_Mogilevka2"/>
-		<pos x="11581.700" z="14614.000" a="0" y="58.116" group="Traffic_Novo"/>
-		<pos x="3570.656" z="13899.145" a="0" y="231.642" group="Traffic_Petrovka"/>
-		<pos x="4711.930" z="6356.809" a="0" y="282.775" group="Traffic_Pogorevka"/>
-		<pos x="5828.543" z="5954.523" a="0" y="201.752" group="Traffic_Pulkovo"/>
-		<pos x="7729.012" z="12629.849" a="0" y="118.510" group="Traffic_Severo"/>
-		<pos x="1493.279" z="11113.760" a="0" y="290.985" group="Traffic_Sinystok"/>
-		<pos x="13103.048" z="7345.300" a="0" y="6.087" group="Traffic_Soln"/>
-		<pos x="10670.524" z="4568.996" a="0" y="125.785" group="Traffic_Staroye"/>
-		<pos x="6582.245" z="7508.025" a="0" y="283.046" group="Traffic_Stary"/>
-		<pos x="5346.021" z="14484.883" a="0" y="341.170" group="Traffic_StaryYar"/>
-		<pos x="9434.659" z="13915.317" a="0" y="106.461" group="Traffic_Svergino"/>
-		<pos x="13378.349" z="5439.850" a="0" y="5.920" group="Traffic_ThreeValleys"/>
-		<pos x="2244.152" z="12250.476" a="0" y="237.972" group="Traffic_Topolniki"/>
-		<pos x="4927.973" z="7844.380" a="0" y="333.543" group="Traffic_VMC"/>
-		<pos x="3518.464" z="9122.509" a="0" y="310.821" group="Traffic_Vybor"/>
+		<pos x="11909.426" z="6432.040" a="0" y="49.747" group="Block_Dolina" />
+		<pos x="10400.112" z="2237.542" a="0" y="5.930" group="Block_Elektro" />
+		<pos x="8757.742" z="11875.513" a="0" y="206.034" group="Block_Gvozdno" />
+		<pos x="2686.302" z="5229.044" a="0" y="-1" group="Block_Zeleno" />
+		<pos x="8138.609" z="8564.824" a="0" y="428.844" group="Traffic_Altar" />
+		<pos x="4888.580" z="2784.829" a="0" y="25.428" group="Traffic_Balota" />
+		<pos x="12932.872" z="10189.173" a="0" y="5.980" group="Traffic_Berezino" />
+		<pos x="13580.554" z="11766.809" a="0" y="30.708" group="Traffic_Berezino2" />
+		<pos x="3433.691" z="3953.545" a="0" y="192.242" group="Traffic_Bor" />
+		<pos x="6906.814" z="3086.961" a="0" y="7.280" group="Traffic_Cherno" />
+		<pos x="6447.458" z="2552.698" a="0" y="5.975" group="Traffic_Cherno2" />
+		<pos x="13404.373" z="14722.688" a="0" y="38.293" group="Traffic_Dobroe" />
+		<pos x="10545.377" z="10260.771" a="0" y="102.047" group="Traffic_Dubrovka" />
+		<pos x="10448.940" z="8882.513" a="0" y="223.098" group="Traffic_Gorka" />
+		<pos x="5689.945" z="11852.006" a="0" y="221.974" group="Traffic_Grishino" />
+		<pos x="5744.804" z="9286.175" a="0" y="315.611" group="Traffic_Grishino2" />
+		<pos x="1894.825" z="2126.238" a="0" y="4.147" group="Traffic_Kamenka" />
+		<pos x="7517.877" z="14048.492" a="0" y="260.978" group="Traffic_Kamensk" />
+		<pos x="12873.966" z="3729.957" a="0" y="4.960" group="Traffic_Kamy" />
+		<pos x="4523.444" z="4489.846" a="0" y="226.011" group="Traffic_Kozlovka" />
+		<pos x="11087.840" z="12478.969" a="0" y="226.415" group="Traffic_Krasno" />
+		<pos x="2515.404" z="9651.739" a="0" y="254.428" group="Traffic_Lopatino" />
+		<pos x="7512.342" z="4660.855" a="0" y="219.617" group="Traffic_Mogilevka" />
+		<pos x="9044.078" z="4934.135" a="0" y="113.847" group="Traffic_Mogilevka2" />
+		<pos x="11581.700" z="14614.000" a="0" y="58.116" group="Traffic_Novo" />
+		<pos x="3570.656" z="13899.145" a="0" y="231.642" group="Traffic_Petrovka" />
+		<pos x="4711.930" z="6356.809" a="0" y="282.775" group="Traffic_Pogorevka" />
+		<pos x="5828.543" z="5954.523" a="0" y="201.752" group="Traffic_Pulkovo" />
+		<pos x="7729.012" z="12629.849" a="0" y="118.510" group="Traffic_Severo" />
+		<pos x="1493.279" z="11113.760" a="0" y="290.985" group="Traffic_Sinystok" />
+		<pos x="13103.048" z="7345.300" a="0" y="6.087" group="Traffic_Soln" />
+		<pos x="10670.524" z="4568.996" a="0" y="125.785" group="Traffic_Staroye" />
+		<pos x="6582.245" z="7508.025" a="0" y="283.046" group="Traffic_Stary" />
+		<pos x="5346.021" z="14484.883" a="0" y="341.170" group="Traffic_StaryYar" />
+		<pos x="9434.659" z="13915.317" a="0" y="106.461" group="Traffic_Svergino" />
+		<pos x="13378.349" z="5439.850" a="0" y="5.920" group="Traffic_ThreeValleys" />
+		<pos x="2244.152" z="12250.476" a="0" y="237.972" group="Traffic_Topolniki" />
+		<pos x="4927.973" z="7844.380" a="0" y="333.543" group="Traffic_VMC" />
+		<pos x="3518.464" z="9122.509" a="0" y="310.821" group="Traffic_Vybor" />
 	</event>
-	
+
 	<event name="InfectedVillage" />
 	<event name="InfectedSolitude" />
 	<event name="InfectedArmy" />
