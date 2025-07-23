@@ -125,6 +125,10 @@
 	<event name="StaticBuilder_JC">
 		<pos x="5508.09" y="66.47" z="2649.57" a="0" group="SkullsMaterials"/>
 	</event>
+	<!-- Dynamic Building Materials: Polonina RulZZe-->
+	<event name="StaticBuilder_RulZZer">
+		<pos x="210.9" y="73.8" z="3797.8" a="0" group="SkullsMaterials"/>
+	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
 		<pos x="10105.1" z="1616.58" a="0"/>
