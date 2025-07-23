@@ -8,7 +8,7 @@
     <message>
         <delay>1</delay>
         <onconnect>1</onconnect>
-        <text>RESTARTS (Europe/Berlin): 00:00 06:00 12:00 18:00</text>
+        <text>RESTARTS (Europe/Berlin): 00:00 04:00 00:80 12:00 16:00 20:00</text>
     </message>
     <!--
     <message>
