@@ -50,54 +50,6 @@
 		<pos x="4098.93" z="11669.27" a="0.0" />
 		<pos x="4088.24" z="11709.13" a="0.0" />
 	</event>
-	<event name="StaticAirStrikeNWAF9">
-		<pos x="3972.04" z="11659.07" a="0.0" />
-		<pos x="4192.28" z="11618.25" a="0.0" />
-		<pos x="4232.14" z="11585.20" a="0.0" />
-		<pos x="4223.77" z="11466.39" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeNWAF10">
-		<pos x="4236.25" z="11489.10" a="0.0" />
-		<pos x="4154.58" z="11384.12" a="0.0" />
-		<pos x="4111.79" z="11320.94" a="0.0" />
-		<pos x="4091.38" z="11225.69" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeNWAF11">
-		<pos x="4009.66" z="10616.21" a="0.0" />
-		<pos x="4094.25" z="10712.44" a="0.0" />
-		<pos x="4253.71" z="10385.85" a="0.0" />
-		<pos x="4102.03" z="10536.51" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeNWAF12">
-		<pos x="4724.32" z="10417.11" a="0.0" />
-		<pos x="4698.06" z="10327.68" a="0.0" />
-		<pos x="4895.45" z="10231.46" a="0.0" />
-		<pos x="4699.04" z="10191.61" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeNWAF13">
-		<pos x="4866.28" z="10171.19" a="0.0" />
-		<pos x="4887.67" z="10245.07" a="0.0" />
-		<pos x="4833.22" z="10394.75" a="0.0" />
-		<pos x="4745.71" z="10330.60" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeNWAF14">
-		<pos x="4761.25" z="10608.28" a="0.0" />
-		<pos x="4768.05" z="10618.00" a="0.0" />
-		<pos x="4736.94" z="10663.69" a="0.0" />
-		<pos x="4705.82" z="10593.71" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeNWAF15">
-		<pos x="4717.49" z="10684.10" a="0.0" />
-		<pos x="4605.67" z="10611.20" a="0.0" />
-		<pos x="4509.41" z="10521.78" a="0.0" />
-		<pos x="4585.25" z="10549.97" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeNWAF16">
-		<pos x="4596.34" z="10195.80" a="0.0" />
-		<pos x="4641.07" z="10250.23" a="0.0" />
-		<pos x="4527.31" z="10165.67" a="0.0" />
-		<pos x="4742.19" z="10079.16" a="0.0" />
-	</event>
 	<!-- AirStrike TISY -->
 	<event name="StaticAirStrikeTisy1">
 		<pos x="1776.315352" z="14306.642305" a="0.0" />
@@ -146,54 +98,6 @@
 		<pos x="1580.83" z="14115.82" a="0.0" />
 		<pos x="1525.41" z="14009.87" a="0.0" />
 		<pos x="1728.63" z="14167.33" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeTisy9">
-		<pos x="1737.92" z="14103.04" a="0.0" />
-		<pos x="1673.46" z="13965.35" a="0.0" />
-		<pos x="1708.47" z="13830.24" a="0.0" />
-		<pos x="1733.75" z="13742.76" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeTisy10">
-		<pos x="1957.39" z="13824.41" a="0.0" />
-		<pos x="1869.88" z="13727.21" a="0.0" />
-		<pos x="1789.17" z="13813.72" a="0.0" />
-		<pos x="1812.51" z="13810.80" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeTisy11">
-		<pos x="1879.60" z="13822.47" a="0.0" />
-		<pos x="2009.89" z="13802.05" a="0.0" />
-		<pos x="2080.87" z="13789.42" a="0.0" />
-		<pos x="2152.83" z="13729.16" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeTisy12">
-		<pos x="1699.39" z="13627.82" a="0.0" />
-		<pos x="1644.94" z="13599.63" a="0.0" />
-		<pos x="1587.58" z="13582.13" a="0.0" />
-		<pos x="1581.74" z="13614.21" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeTisy13">
-		<pos x="1463.12" z="13701.69" a="0.0" />
-		<pos x="1461.17" z="13670.58" a="0.0" />
-		<pos x="1400.89" z="13668.64" a="0.0" />
-		<pos x="1506.87" z="13586.99" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeTisy14">
-		<pos x="1532.15" z="13662.81" a="0.0" />
-		<pos x="1502.98" z="13676.42" a="0.0" />
-		<pos x="1526.32" z="13619.07" a="0.0" />
-		<pos x="1439.78" z="13607.41" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeTisy15">
-		<pos x="2029.88" z="14022.33" a="0.0" />
-		<pos x="1874.30" z="14100.09" a="0.0" />
-		<pos x="1944.31" z="14053.43" a="0.0" />
-		<pos x="1852.91" z="14134.11" a="0.0" />
-	</event>
-	<event name="StaticAirStrikeTisy16">
-		<pos x="1814.99" z="14216.72" a="0.0" />
-		<pos x="1766.37" z="14313.92" a="0.0" />
-		<pos x="1727.48" z="14388.77" a="0.0" />
-		<pos x="1707.31" z="14441.80" a="0.0" />
 	</event>
 	<!-- Custom ContaminatedArea Drops -->
 	<event name="StaticContaminatedArea_Custom">
