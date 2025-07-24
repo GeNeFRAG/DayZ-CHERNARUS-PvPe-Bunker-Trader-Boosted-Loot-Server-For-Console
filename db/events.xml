@@ -138,141 +138,140 @@
             <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest" />
         </children>
     </event>
-    <!--TISY AIRSTRIKES-->
-    <event name="StaticAirStrikeTisy1">
+    <event name="StaticAirStrikeNWAF9">
         <nominal>1</nominal>
         <min>1</min>
         <max>1</max>
         <lifetime>2100</lifetime>
-        <restock>10</restock>
+        <restock>30</restock>
         <saferadius>0</saferadius>
         <distanceradius>1</distanceradius>
         <cleanupradius>1</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest" />
         </children>
     </event>
-    <event name="StaticAirStrikeTisy2">
+    <event name="StaticAirStrikeNWAF10">
         <nominal>1</nominal>
         <min>1</min>
         <max>1</max>
         <lifetime>2100</lifetime>
-        <restock>11</restock>
+        <restock>32</restock>
         <saferadius>0</saferadius>
         <distanceradius>1</distanceradius>
         <cleanupradius>1</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest" />
         </children>
     </event>
-    <event name="StaticAirStrikeTisy3">
+    <event name="StaticAirStrikeNWAF11">
         <nominal>1</nominal>
         <min>1</min>
         <max>1</max>
         <lifetime>2100</lifetime>
-        <restock>12</restock>
+        <restock>34</restock>
         <saferadius>0</saferadius>
         <distanceradius>1</distanceradius>
         <cleanupradius>1</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest" />
         </children>
     </event>
-    <event name="StaticAirStrikeTisy4">
+    <event name="StaticAirStrikeNWAF12">
         <nominal>1</nominal>
         <min>1</min>
         <max>1</max>
         <lifetime>2100</lifetime>
-        <restock>13</restock>
+        <restock>36</restock>
         <saferadius>0</saferadius>
         <distanceradius>1</distanceradius>
         <cleanupradius>1</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest" />
         </children>
     </event>
-    <event name="StaticAirStrikeTisy5">
+    <event name="StaticAirStrikeNWAF13">
         <nominal>1</nominal>
         <min>1</min>
         <max>1</max>
         <lifetime>2100</lifetime>
-        <restock>14</restock>
+        <restock>38</restock>
         <saferadius>0</saferadius>
         <distanceradius>1</distanceradius>
         <cleanupradius>1</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest" />
         </children>
     </event>
-    <event name="StaticAirStrikeTisy6">
+    <event name="StaticAirStrikeNWAF14">
         <nominal>1</nominal>
         <min>1</min>
         <max>1</max>
         <lifetime>2100</lifetime>
-        <restock>15</restock>
+        <restock>40</restock>
         <saferadius>0</saferadius>
         <distanceradius>1</distanceradius>
         <cleanupradius>1</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest" />
         </children>
     </event>
-    <event name="StaticAirStrikeTisy7">
+    <event name="StaticAirStrikeNWAF15">
         <nominal>1</nominal>
         <min>1</min>
         <max>1</max>
         <lifetime>2100</lifetime>
-        <restock>16</restock>
+        <restock>42</restock>
         <saferadius>0</saferadius>
         <distanceradius>1</distanceradius>
         <cleanupradius>1</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest" />
         </children>
     </event>
-    <event name="StaticAirStrikeTisy8">
+    <event name="StaticAirStrikeNWAF16">
         <nominal>1</nominal>
         <min>1</min>
         <max>1</max>
         <lifetime>2100</lifetime>
-        <restock>17</restock>
+        <restock>44</restock>
         <saferadius>0</saferadius>
         <distanceradius>1</distanceradius>
         <cleanupradius>1</cleanupradius>
-        <flags deletable="1" init_random="0" remove_damaged="0"/>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>mixed</limit>
         <active>1</active>
         <children>
-            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest"/>
+            <child lootmax="0" lootmin="0" max="1" min="1" type="ExplosionTest" />
         </children>
     </event>
     <!-- Custom ContaminatedArea Drops -->
