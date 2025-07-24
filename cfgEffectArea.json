@@ -23,6 +23,213 @@
 				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
 			}
 		},
+		{ 	"AreaName": "DevilsCastleFog1", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 6903, 0, 11417 ],
+				"Radius": 300,
+				"PosHeight": 20,
+				"NegHeight": 10,
+				"InnerRingCount": 3,
+				"InnerPartDist": 15,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 35, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/spooky_mist",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "DevilsCastleFog2", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 7055, 0, 11189 ],
+				"Radius": 300,
+				"PosHeight": 20,
+				"NegHeight": 10,
+				"InnerRingCount": 3,
+				"InnerPartDist": 15,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 35, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/spooky_mist",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "DevilsCastleFog3", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 6676, 0, 11210 ],
+				"Radius": 300,
+				"PosHeight": 20,
+				"NegHeight": 10,
+				"InnerRingCount": 3,
+				"InnerPartDist": 15,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 35, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/spooky_mist",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "DevilsCastleFog4", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 6676, 0, 11613 ],
+				"Radius": 300,
+				"PosHeight": 20,
+				"NegHeight": 10,
+				"InnerRingCount": 3,
+				"InnerPartDist": 15,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 35, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/spooky_mist",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "DevilsCastleFog5", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 7133, 0, 11752 ],
+				"Radius": 300,
+				"PosHeight": 20,
+				"NegHeight": 10,
+				"InnerRingCount": 3,
+				"InnerPartDist": 15,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 35, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/spooky_mist",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "DevilsCastleFog6", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 6865, 0, 11992 ],
+				"Radius": 300,
+				"PosHeight": 20,
+				"NegHeight": 10,
+				"InnerRingCount": 3,
+				"InnerPartDist": 15,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 35, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/spooky_mist",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "DevilsCastleFog7", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 6507, 0, 11945 ],
+				"Radius": 300,
+				"PosHeight": 20,
+				"NegHeight": 10,
+				"InnerRingCount": 3,
+				"InnerPartDist": 15,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 35, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/spooky_mist",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "DevilsCastleFog8", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 6328, 0, 11392 ],
+				"Radius": 300,
+				"PosHeight": 20,
+				"NegHeight": 10,
+				"InnerRingCount": 3,
+				"InnerPartDist": 15,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 25, 
+				"OuterOffset": -10, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/spooky_mist",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": ""
+			}
+		},
+		{ 	"AreaName": "DevilsCastleFog9", 
+			"Type": "SpookyArea", 
+			"TriggerType": "SpookyTrigger",
+			"Data": { 
+				"Pos": [ 6565, 0, 10851 ],
+				"Radius": 300,
+				"PosHeight": 20,
+				"NegHeight": 10,
+				"InnerRingCount": 3,
+				"InnerPartDist": 15,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 35, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "graphics/particles/spooky_mist",
+				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
+				"PPERequesterType": ""
+			}
+		},
 		{
 			"AreaName": "Black Lake Bunker North",
 			"Type": "SpookyArea23",
