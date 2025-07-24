@@ -66,7 +66,7 @@
 		<!-- Prigorodki -->
 		<pos x="7767.52" z="3514.01" a="0" />
 		<!-- Berenzino -->
-		<pos x="11689.87" z="9179.21" a="0" />
+		<pos x="11712.3" z="9154.9" a="0" />
 	</event>
 	<!-- Treasure hunt event spawns -->
 	<event name="StaticTreasureHunt">
