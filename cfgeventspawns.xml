@@ -113,7 +113,7 @@
 	<event name="StaticBuilder_Life">
 		<pos x="3467.2" y="205.4" z="12700" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Novaya Life -->
+	<!-- Dynamic Building Materials: Tisy Otti -->
 	<event name="StaticBuilder_Otti">
 		<pos x="2223.1" y="433.1" z="15259.7" a="0" group="SkullsMaterials" />
 	</event>
@@ -125,9 +125,13 @@
 	<event name="StaticBuilder_JC">
 		<pos x="5508.09" y="66.47" z="2649.57" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Polonina RulZZe-->
+	<!-- Dynamic Building Materials: Polonina RulZZer -->
 	<event name="StaticBuilder_RulZZer">
 		<pos x="210.9" y="73.8" z="3797.8" a="0" group="SkullsMaterials" />
+	</event>
+	<!-- Dynamic Building Materials: Vybor Seppel-->
+	<event name="StaticBuilder_Seppel">
+		<pos x="4090.5" y="324.8" z="8980.6" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
