@@ -13,8 +13,8 @@
 		<pos x="4007.93" z="11845.41" />
 		<pos x="4183.88" z="11041.00" />
 		<pos x="4125.55" z="10413.03" />
-		<pos x="4458.98 " z="9796.73" />
-		<pos x="4534.80 " z="9627.58" />
+		<pos x="4458.98" z="9796.73" />
+		<pos x="4534.80" z="9627.58" />
 		<pos x="5046.61" z="9866.72" />
 		<pos x="5330.94" z="9850.19" />
 		<pos x="4640.76" z="10502.46" />
@@ -105,10 +105,6 @@
 	<event name="StaticBuilder_Hatter">
 		<pos x="8465.8" y="118.6" z="12898.7" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Berezhki Jinxs -->
-	<event name="StaticBuilder_Jinxs">
-		<pos x="15212.7" y="2.8" z="13613.3" a="0" group="SkullsMaterials" />
-	</event>
 	<!-- Dynamic Building Materials: Novaya Life -->
 	<event name="StaticBuilder_Life">
 		<pos x="3467.2" y="205.4" z="12700" a="0" group="SkullsMaterials" />
@@ -125,7 +121,7 @@
 	<event name="StaticBuilder_JC">
 		<pos x="5508.09" y="66.47" z="2649.57" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Polonina RulZZer -->
+	<!-- Dynamic Building Materials: Zvir RulZZer -->
 	<event name="StaticBuilder_RulZZer">
 		<pos x="210.9" y="73.8" z="3797.8" a="0" group="SkullsMaterials" />
 	</event>
