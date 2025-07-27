@@ -9,7 +9,7 @@
   "PlayerData": {
     "disablePersonalLight": true,
     "spawnGearPresetFiles": [
-      "custom/vanillaplus_loadout.json"
+      "custom/vanillaplus_loadout_ssg82.json"
     ],
     "StaminaData": {
       "sprintStaminaModifierErc": 0.15,
