@@ -135,7 +135,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Novaya School Liah-->
 	<event name="StaticBuilder_Liah">
-		<pos x="3243.69" y="202.87" z="13049.6" a="0" group="SkullsMaterials" />
+		<pos x="3228.6" y="210.5" z="13056" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
