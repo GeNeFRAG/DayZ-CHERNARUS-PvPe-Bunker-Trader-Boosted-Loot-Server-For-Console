@@ -204,7 +204,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children />
     </event>
     <event name="StaticBuilder_Otti">

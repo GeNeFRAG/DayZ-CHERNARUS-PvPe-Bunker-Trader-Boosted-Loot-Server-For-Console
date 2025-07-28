@@ -115,7 +115,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Cherno Exodus -->
 	<event name="StaticBuilder_Exodus">
-		<pos x="7218.5" y="15.4" z="3325.8" a="0" group="SkullsMaterials" />
+		<pos x="586.4" y="501.8" z="13670.3" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Vysotovo JC -->
 	<event name="StaticBuilder_JC">
