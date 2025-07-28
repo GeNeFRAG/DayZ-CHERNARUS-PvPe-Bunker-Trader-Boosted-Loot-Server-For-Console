@@ -20933,10 +20933,10 @@
         <usage name="Tools"/>
     </type>
     <type name="Matchbox">
-        <nominal>60</nominal>
+        <nominal>63</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>43</min>
         <quantmin>10</quantmin>
         <quantmax>90</quantmax>
         <cost>100</cost>
