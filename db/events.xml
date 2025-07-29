@@ -332,7 +332,7 @@
         <saferadius>50</saferadius>
         <distanceradius>20</distanceradius>
         <cleanupradius>1</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>child</limit>
         <active>1</active>
