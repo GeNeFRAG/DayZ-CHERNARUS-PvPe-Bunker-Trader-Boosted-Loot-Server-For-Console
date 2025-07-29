@@ -111,6 +111,70 @@
             "scale": 0.9998895525932312,
             "enableCEPersistency": 0,
             "customString": ""
+        },
+        {
+            "name": "StaticObj_Platform1_Ramp",
+            "pos": [
+                588.9909057617188,
+                501.20745849609377,
+                13648.33203125
+            ],
+            "ypr": [
+                141.79969787597657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.37000003457069399,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Platform1_Ramp",
+            "pos": [
+                596.3055419921875,
+                501.20745849609377,
+                13654.25
+            ],
+            "ypr": [
+                -39.562801361083987,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.3700002431869507,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Platform1_Ramp",
+            "pos": [
+                596.6343994140625,
+                501.2019958496094,
+                13653.828125
+            ],
+            "ypr": [
+                -39.562801361083987,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.3700002431869507,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "StaticObj_Platform1_Ramp",
+            "pos": [
+                589.33837890625,
+                501.2055358886719,
+                13647.8916015625
+            ],
+            "ypr": [
+                141.79969787597657,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.37000003457069399,
+            "enableCEPersistency": 0,
+            "customString": ""
         }
     ]
 }
