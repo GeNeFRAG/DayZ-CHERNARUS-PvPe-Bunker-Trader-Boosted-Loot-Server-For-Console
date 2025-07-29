@@ -59,8 +59,8 @@
 	</event>
 	<!-- Builder Truck event spawns -->
 	<event name="VehicleBuilderTruck">
-		<!-- Novaya North -->
-		<pos x="3149.57" z="13032.82" a="0" />
+		<!-- Topolniki -->
+		<pos x="2733.03" z="12120.02" a="0" />
 		<!-- Krasno Airfield -->
 		<pos x="12040.31" z="12705.22" a="0" />
 		<!-- Prigorodki -->
