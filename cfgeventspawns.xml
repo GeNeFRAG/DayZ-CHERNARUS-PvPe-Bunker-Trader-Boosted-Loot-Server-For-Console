@@ -131,7 +131,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Pogorevka Epic-->
 	<event name="StaticBuilder_Epic">
-		<pos x="4414.1" y="302.6" z="6381.1" a="0" group="SkullsMaterials" />
+		<pos x="4415.0" y="302.3" z="6384.6" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Novaya School Liah-->
 	<event name="StaticBuilder_Liah">
