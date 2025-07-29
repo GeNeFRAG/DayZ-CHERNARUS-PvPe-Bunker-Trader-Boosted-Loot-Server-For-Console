@@ -296,7 +296,7 @@
         <distanceradius>20</distanceradius>
         <cleanupradius>1</cleanupradius>
         <secondary>InfectedPoliceHard</secondary>
-        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <flags deletable="0" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>child</limit>
         <active>1</active>
