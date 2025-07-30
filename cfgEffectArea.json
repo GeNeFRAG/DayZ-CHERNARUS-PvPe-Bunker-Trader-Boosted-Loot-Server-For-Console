@@ -1,28 +1,5 @@
 {
 	"Areas": [
-		{
-			"AreaName": "PMC Base Gas",
-			"Type": "ContaminatedArea_Static",
-			"TriggerType": "ContaminatedTrigger",
-			"Data": {
-				"Pos": [
-					4351.08,
-					0,
-					2193.04
-				],
-				"Radius": 120,
-				"PosHeight": 100,
-				"NegHeight": 10,
-				"InnerPartDist": 40,
-				"OuterOffset": 0,
-				"ParticleName": "graphics/particles/contaminated_area_gas_bigass"
-			},
-			"PlayerData": {
-				"AroundPartName": "graphics/particles/contaminated_area_gas_around",
-				"TinyPartName": "graphics/particles/contaminated_area_gas_around_tiny",
-				"PPERequesterType": "PPERequester_ContaminatedAreaTint"
-			}
-		},
 		{ 	"AreaName": "DevilsCastleFog1", 
 			"Type": "SpookyArea", 
 			"TriggerType": "SpookyTrigger",
