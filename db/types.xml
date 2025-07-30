@@ -7128,10 +7128,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="Tshirt_10thAnniversary">
-        <nominal>5</nominal>
+        <nominal>7</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8470,10 +8470,10 @@
     </type>
     <!-- ################ [CONTAMINATEDAREA] ################-->
     <type name="Ammo_40mm_Chemgas">
-        <nominal>53</nominal>
+        <nominal>59</nominal>
         <lifetime>5400</lifetime>
         <restock>1800</restock>
-        <min>51</min>
+        <min>57</min>
         <quantmin>100</quantmin>
         <quantmax>100</quantmax>
         <cost>100</cost>
@@ -15510,10 +15510,10 @@
         <usage name="MilitaryClothes"/>
     </type>
     <type name="GorkaHelmet">
-        <nominal>11</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>600</restock>
-        <min>11</min>
+        <min>12</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

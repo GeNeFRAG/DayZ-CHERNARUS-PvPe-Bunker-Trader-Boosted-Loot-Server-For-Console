@@ -17585,7 +17585,7 @@
             "customString": ""
         },
         {
-            "name": "GorkaHelmet_Green",
+            "name": "GorkaHelmet",
             "pos": [
                 13308.5546875,
                 80.70133209228516,
@@ -18673,7 +18673,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_ChemGas",
+            "name": "Ammo_40mm_Chemgas",
             "pos": [
                 13265.748046875,
                 67.80752563476563,
@@ -18689,7 +18689,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_ChemGas",
+            "name": "Ammo_40mm_Chemgas",
             "pos": [
                 13265.8330078125,
                 67.80950927734375,
@@ -18705,7 +18705,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_ChemGas",
+            "name": "Ammo_40mm_Chemgas",
             "pos": [
                 13265.9150390625,
                 67.80752563476563,
@@ -18721,7 +18721,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_ChemGas",
+            "name": "Ammo_40mm_Chemgas",
             "pos": [
                 13266.015625,
                 67.80752563476563,
@@ -18737,7 +18737,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_ChemGas",
+            "name": "Ammo_40mm_Chemgas",
             "pos": [
                 13266.1123046875,
                 67.80752563476563,
@@ -18753,7 +18753,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_ChemGas",
+            "name": "Ammo_40mm_Chemgas",
             "pos": [
                 13266.224609375,
                 67.80752563476563,
@@ -19073,7 +19073,7 @@
             "customString": ""
         },
         {
-            "name": "TShirt_10thAnniversary",
+            "name": "Tshirt_10thAnniversary",
             "pos": [
                 13286.8388671875,
                 77.24288177490235,
@@ -19089,7 +19089,7 @@
             "customString": ""
         },
         {
-            "name": "TShirt_10thAnniversary",
+            "name": "Tshirt_10thAnniversary",
             "pos": [
                 13286.9091796875,
                 77.24288177490235,
