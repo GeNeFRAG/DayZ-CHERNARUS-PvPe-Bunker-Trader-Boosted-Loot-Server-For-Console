@@ -534,10 +534,10 @@
         <usage name="Attachment"/>
     </type>
     <type name="MP5_PlasticHndgrd">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -556,10 +556,10 @@
         <usage name="Attachment"/>
     </type>
     <type name="MP5k_StockBttstck">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -578,10 +578,10 @@
         <usage name="Attachment"/>
     </type>
     <type name="PP19_Bttstck">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>3600</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3179,10 +3179,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="BalaclavaMask_BDU">
-        <nominal>5</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3223,10 +3223,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="BalaclavaMask_Blue">
-        <nominal>8</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3234,10 +3234,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="BalaclavaMask_Chain">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3256,10 +3256,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="BalaclavaMask_Pig">
-        <nominal>3</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>3</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3267,10 +3267,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="BalaclavaMask_Pink">
-        <nominal>8</nominal>
+        <nominal>7</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>4</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -3278,10 +3278,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="BalaclavaMask_White">
-        <nominal>4</nominal>
+        <nominal>3</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>2</min>
+        <min>1</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7963,10 +7963,10 @@
         <usage name="Containers"/>
     </type>
     <type name="DryBag_Black">
-        <nominal>7</nominal>
+        <nominal>9</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -7985,10 +7985,10 @@
         <usage name="Containers"/>
     </type>
     <type name="DryBag_Green">
-        <nominal>6</nominal>
+        <nominal>4</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>4</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14427,10 +14427,10 @@
         <usage name="Military"/>
     </type>
     <type name="HighCapacityVest_Black">
-        <nominal>5</nominal>
+        <nominal>4</nominal>
         <lifetime>14400</lifetime>
         <restock>1800</restock>
-        <min>3</min>
+        <min>2</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -14585,10 +14585,10 @@
         <value name="Tier4"/>
     </type>
     <type name="MP5K">
-        <nominal>17</nominal>
+        <nominal>16</nominal>
         <lifetime>28800</lifetime>
         <restock>1800</restock>
-        <min>14</min>
+        <min>13</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -14865,10 +14865,10 @@
         <usage name="Military"/>
     </type>
     <type name="Mag_PP19_64Rnd">
-        <nominal>13</nominal>
+        <nominal>12</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>10</min>
+        <min>9</min>
         <quantmin>20</quantmin>
         <quantmax>60</quantmax>
         <cost>100</cost>
@@ -14975,10 +14975,10 @@
         <usage name="Military"/>
     </type>
     <type name="PP19">
-        <nominal>9</nominal>
+        <nominal>8</nominal>
         <lifetime>28800</lifetime>
         <restock>3600</restock>
-        <min>6</min>
+        <min>5</min>
         <quantmin>40</quantmin>
         <quantmax>80</quantmax>
         <cost>100</cost>
@@ -15135,10 +15135,10 @@
         <usage name="Military"/>
     </type>
     <type name="SmershBag">
-        <nominal>11</nominal>
+        <nominal>10</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>6</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -16115,10 +16115,10 @@
         <value name="Tier4"/>
     </type>
     <type name="SmershVest">
-        <nominal>12</nominal>
+        <nominal>11</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>7</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19935,10 +19935,10 @@
         <usage name="Police"/>
     </type>
     <type name="PaydayMask_Chains">
-        <nominal>7</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19946,10 +19946,10 @@
         <usage name="Police"/>
     </type>
     <type name="PaydayMask_Dallas">
-        <nominal>7</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19957,10 +19957,10 @@
         <usage name="Police"/>
     </type>
     <type name="PaydayMask_Hoxton">
-        <nominal>7</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -19968,10 +19968,10 @@
         <usage name="Police"/>
     </type>
     <type name="PaydayMask_Wolf">
-        <nominal>7</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -20034,10 +20034,10 @@
         <usage name="Police"/>
     </type>
     <type name="PoliceVest">
-        <nominal>21</nominal>
+        <nominal>20</nominal>
         <lifetime>7200</lifetime>
         <restock>0</restock>
-        <min>11</min>
+        <min>10</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
