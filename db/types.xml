@@ -12462,10 +12462,10 @@
     </type>
     <!-- ################ [HUNTING, INDUSTRIAL, MILITARY, POLICE] ################-->
     <type name="Rangefinder">
-        <nominal>60</nominal>
+        <nominal>64</nominal>
         <lifetime>28800</lifetime>
         <restock>0</restock>
-        <min>40</min>
+        <min>44</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
