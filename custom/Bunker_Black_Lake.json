@@ -1265,43 +1265,11 @@
             "customString": ""
         },
         {
-            "name": "Hoodie_Black",
-            "pos": [
-                13287.2392578125,
-                77.22906494140625,
-                12144.9453125
-            ],
-            "ypr": [
-                0.0,
-                0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
             "name": "WoodenStick",
             "pos": [
                 13284.498046875,
                 76.34011840820313,
                 12145.294921875
-            ],
-            "ypr": [
-                0.0,
-                0.0,
-                -0.0
-            ],
-            "scale": 1.0,
-            "enableCEPersistency": 0,
-            "customString": ""
-        },
-        {
-            "name": "Hoodie_Black",
-            "pos": [
-                13286.5361328125,
-                76.30429077148438,
-                12149.2783203125
             ],
             "ypr": [
                 0.0,
@@ -12355,9 +12323,9 @@
         {
             "name": "MilitaryBoots_Black",
             "pos": [
-                13286.33203125,
-                69.20247650146485,
-                12116.0205078125
+                13286.361328125,
+                69.1952896118164,
+                12116.3408203125
             ],
             "ypr": [
                 0.0,
@@ -17617,7 +17585,7 @@
             "customString": ""
         },
         {
-            "name": "GorkaHelmet",
+            "name": "GorkaHelmet_Green",
             "pos": [
                 13308.5546875,
                 80.70133209228516,
@@ -18705,7 +18673,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 13265.748046875,
                 67.80752563476563,
@@ -18721,7 +18689,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 13265.8330078125,
                 67.80950927734375,
@@ -18737,7 +18705,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 13265.9150390625,
                 67.80752563476563,
@@ -18753,7 +18721,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 13266.015625,
                 67.80752563476563,
@@ -18769,7 +18737,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 13266.1123046875,
                 67.80752563476563,
@@ -18785,7 +18753,7 @@
             "customString": ""
         },
         {
-            "name": "Ammo_40mm_Chemgas",
+            "name": "Ammo_40mm_ChemGas",
             "pos": [
                 13266.224609375,
                 67.80752563476563,
@@ -19105,7 +19073,7 @@
             "customString": ""
         },
         {
-            "name": "Tshirt_10thAnniversary",
+            "name": "TShirt_10thAnniversary",
             "pos": [
                 13286.8388671875,
                 77.24288177490235,
@@ -19121,7 +19089,7 @@
             "customString": ""
         },
         {
-            "name": "Tshirt_10thAnniversary",
+            "name": "TShirt_10thAnniversary",
             "pos": [
                 13286.9091796875,
                 77.24288177490235,
@@ -19133,6 +19101,646 @@
                 -0.0
             ],
             "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "M65Jacket_Black",
+            "pos": [
+                13287.265625,
+                77.24280548095703,
+                12144.94921875
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CargoPants_Black",
+            "pos": [
+                13286.4443359375,
+                76.3205337524414,
+                12149.0185546875
+            ],
+            "ypr": [
+                0.0,
+                -0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "BalaclavaMask_Black",
+            "pos": [
+                13283.384765625,
+                69.62809753417969,
+                12114.7646484375
+            ],
+            "ypr": [
+                -35.39751052856445,
+                -76.8616714477539,
+                136.55299377441407
+            ],
+            "scale": 1.000006079673767,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "BalaclavaMask_Blackskull",
+            "pos": [
+                13283.1298828125,
+                69.62960052490235,
+                12114.6865234375
+            ],
+            "ypr": [
+                100.47049713134766,
+                74.07899475097656,
+                2.953329563140869
+            ],
+            "scale": 1.0000022649765015,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "BalaclavaMask_Green",
+            "pos": [
+                13280.451171875,
+                69.60005187988281,
+                12113.73828125
+            ],
+            "ypr": [
+                179.99989318847657,
+                -77.67849731445313,
+                -179.99989318847657
+            ],
+            "scale": 0.9999997019767761,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "BalaclavaMask_Green",
+            "pos": [
+                13280.40625,
+                69.60734558105469,
+                12114.0400390625
+            ],
+            "ypr": [
+                179.99989318847657,
+                -77.67849731445313,
+                -179.99989318847657
+            ],
+            "scale": 0.9999997019767761,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "LargeTent",
+            "pos": [
+                13288.8095703125,
+                79.42111206054688,
+                12094.7265625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MediumTent_Green",
+            "pos": [
+                13288.9033203125,
+                79.42111206054688,
+                12093.216796875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MilitaryBelt",
+            "pos": [
+                13280.7158203125,
+                70.39778137207031,
+                12113.423828125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MilitaryBelt",
+            "pos": [
+                13280.78515625,
+                70.39732360839844,
+                12113.0498046875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CivilianBelt",
+            "pos": [
+                13283.42578125,
+                70.39704132080078,
+                12113.1357421875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CivilianBelt",
+            "pos": [
+                13283.3603515625,
+                70.39759826660156,
+                12113.5908203125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "JungleBoots_Black",
+            "pos": [
+                13284.9814453125,
+                69.1952896118164,
+                12115.3681640625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "MilitaryBoots_Black",
+            "pos": [
+                13283.1123046875,
+                69.1952896118164,
+                12115.1435546875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CombatBoots_Black",
+            "pos": [
+                13281.0859375,
+                69.1952896118164,
+                12114.4541015625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CombatBoots_Green",
+            "pos": [
+                13287.1611328125,
+                69.1952896118164,
+                12116.82421875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "TTSKOBoots",
+            "pos": [
+                13278.4140625,
+                69.1952896118164,
+                12113.8515625
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "NavyUniformJacket",
+            "pos": [
+                13275.6865234375,
+                69.98168182373047,
+                12117.9296875
+            ],
+            "ypr": [
+                -81.19029998779297,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999999403953552,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "NavyUniformPants",
+            "pos": [
+                13276.451171875,
+                69.97924041748047,
+                12117.6787109375
+            ],
+            "ypr": [
+                102.34757232666016,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0000001192092896,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "GorkaEJacket_Winter",
+            "pos": [
+                13278.3125,
+                69.9784927368164,
+                12117.8193359375
+            ],
+            "ypr": [
+                160.28317260742188,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0000015497207642,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "GorkaPants_Winter",
+            "pos": [
+                13278.9462890625,
+                69.9821548461914,
+                12118.1416015625
+            ],
+            "ypr": [
+                -10.216876029968262,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0000003576278687,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CrabCan",
+            "pos": [
+                13280.19921875,
+                70.00272369384766,
+                12118.4091796875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "CrabCan",
+            "pos": [
+                13280.208984375,
+                70.00272369384766,
+                12118.1162109375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "TortillaBag",
+            "pos": [
+                13285.2314453125,
+                70.39794158935547,
+                12113.955078125
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "TortillaBag",
+            "pos": [
+                13285.12890625,
+                69.60734558105469,
+                12113.841796875
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DryBag_Black",
+            "pos": [
+                13283.005859375,
+                76.3205337524414,
+                12148.583984375
+            ],
+            "ypr": [
+                -100.60879516601563,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999977946281433,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "DryBag_Black",
+            "pos": [
+                13282.990234375,
+                76.3205337524414,
+                12149.0009765625
+            ],
+            "ypr": [
+                -100.48858642578125,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0000001192092896,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HuntingBag_Hannah",
+            "pos": [
+                13283.1875,
+                77.86195373535156,
+                12146.615234375
+            ],
+            "ypr": [
+                -93.81407165527344,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0000008344650269,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HuntingBag",
+            "pos": [
+                13283.025390625,
+                77.8656234741211,
+                12148.3671875
+            ],
+            "ypr": [
+                -96.79711151123047,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0000001192092896,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "Winchester70_Green",
+            "pos": [
+                13283.3759765625,
+                76.78101348876953,
+                12147.4873046875
+            ],
+            "ypr": [
+                88.66792297363281,
+                5.364483833312988,
+                89.74139404296875
+            ],
+            "scale": 1.0000003576278687,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HuntingJacket_Summer",
+            "pos": [
+                13283.2890625,
+                77.89957427978516,
+                12149.9111328125
+            ],
+            "ypr": [
+                100.17550659179688,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999988675117493,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HunterPants_Summer",
+            "pos": [
+                13283.326171875,
+                77.89957427978516,
+                12150.5068359375
+            ],
+            "ypr": [
+                -11.915140151977539,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999993443489075,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HunterPants_Spring",
+            "pos": [
+                13283.2861328125,
+                77.39958190917969,
+                12150.5537109375
+            ],
+            "ypr": [
+                -14.1985445022583,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0000001192092896,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HunterPants_Autumn",
+            "pos": [
+                13283.390625,
+                76.89958190917969,
+                12150.52734375
+            ],
+            "ypr": [
+                0.0,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HuntingJacket_Autumn",
+            "pos": [
+                13283.357421875,
+                76.89958190917969,
+                12149.91796875
+            ],
+            "ypr": [
+                103.32453155517578,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999993443489075,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HuntingJacket_Spring",
+            "pos": [
+                13283.318359375,
+                77.39958190917969,
+                12149.9189453125
+            ],
+            "ypr": [
+                103.89116668701172,
+                0.0,
+                -0.0
+            ],
+            "scale": 1.0000009536743165,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HipPack_Black",
+            "pos": [
+                13284.16015625,
+                77.89877319335938,
+                12151.18359375
+            ],
+            "ypr": [
+                -54.87882614135742,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999998211860657,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HipPack_Green",
+            "pos": [
+                13284.58203125,
+                77.89877319335938,
+                12151.2119140625
+            ],
+            "ypr": [
+                -50.96446990966797,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999987483024597,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HipPack_Party",
+            "pos": [
+                13284.1533203125,
+                77.3987808227539,
+                12151.15234375
+            ],
+            "ypr": [
+                -52.59463119506836,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999992251396179,
+            "enableCEPersistency": 0,
+            "customString": ""
+        },
+        {
+            "name": "HipPack_Party",
+            "pos": [
+                13284.5634765625,
+                77.3987808227539,
+                12151.19140625
+            ],
+            "ypr": [
+                -52.59463119506836,
+                0.0,
+                -0.0
+            ],
+            "scale": 0.9999992251396179,
             "enableCEPersistency": 0,
             "customString": ""
         }
