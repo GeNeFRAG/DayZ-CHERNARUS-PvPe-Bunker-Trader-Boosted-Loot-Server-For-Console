@@ -115,7 +115,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Cherno Exodus -->
 	<event name="StaticBuilder_Exodus">
-		<pos x="584.6" y="501.8" z="13650.7" a="0" group="SkullsMaterials" />
+		<pos x="555.1" y="502.0" z="13638.1" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Vysotovo JC -->
 	<event name="StaticBuilder_JC">
@@ -133,8 +133,8 @@
 	<event name="StaticBuilder_Epic">
 		<pos x="4415.0" y="302.3" z="6384.6" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Novaya School Liah-->
-	<event name="StaticBuilder_Liah">
+	<!-- Dynamic Building Materials: Novaya School Lhia-->
+	<event name="StaticBuilder_Lhia">
 		<pos x="3223.45" y="203.7" z="13080.69" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->

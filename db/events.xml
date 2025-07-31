@@ -132,7 +132,7 @@
         </children>
     </event>
     <!-- Building Material events for factions in individual bases -->
-    <event name="StaticBuilder_Liah">
+    <event name="StaticBuilder_Lhia">
         <nominal>1</nominal>
         <min>0</min>
         <max>1</max>
