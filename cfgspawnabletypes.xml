@@ -165,11 +165,17 @@
 		<attachments>
 			<item name="MetalPlate" />
 		</attachments>
-		<attachments>
-			<item name="Barrel_Red" />
+		<attachments chance="1.00">
+			<item name="Barrel_Blue" chance="0.33"/>
+			<item name="Barrel_Green" chance="0.33"/>
+			<item name="Barrel_Red" chance="0.33"/>
+			<item name="Barrel_Yellow" chance="0.33"/>
 		</attachments>
-		<attachments>
-			<item name="Barrel_Yellow" />
+		<attachments chance="1.00">
+			<item name="Barrel_Blue" chance="0.33"/>
+			<item name="Barrel_Green" chance="0.33"/>
+			<item name="Barrel_Red" chance="0.33"/>
+			<item name="Barrel_Yellow" chance="0.33"/>
 		</attachments>
 		<attachments>
 			<item name="Pliers" />
@@ -179,6 +185,12 @@
 		</attachments>
 		<attachments>
 			<item name="MetalWire" />
+		</attachments>
+		<attachments>
+			<item name="BarbedWire" />
+		</attachments>
+		<attachments>
+			<item name="BarbedWire" />
 		</attachments>
 		<attachments>
 			<item name="CombinationLock" />
@@ -292,10 +304,10 @@
 			<item name="ElectronicRepairKit" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MountainBag_Green" chance="0.25"/>
-			<item name="MountainBag_Blue" chance="0.25"/>
-			<item name="MountainBag_Orange" chance="0.25"/>
-			<item name="MountainBag_Red" chance="0.25"/>
+			<item name="MountainBag_Green" chance="0.33"/>
+			<item name="MountainBag_Blue" chance="0.33"/>
+			<item name="MountainBag_Orange" chance="0.33"/>
+			<item name="MountainBag_Red" chance="0.33"/>
 		</attachments>
 		<attachments>
 			<item name="Flag_White" />
