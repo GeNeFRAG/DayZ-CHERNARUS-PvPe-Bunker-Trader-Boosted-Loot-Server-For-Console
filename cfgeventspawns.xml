@@ -127,7 +127,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Vybor Seppel-->
 	<event name="StaticBuilder_Seppel">
-		<pos x="4090.5" y="324.8" z="8980.6" a="0" group="SkullsMaterials" />
+		<pos x="4132.4" y="335.0" z="8963.7" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Pogorevka Epic-->
 	<event name="StaticBuilder_Epic">
