@@ -129,9 +129,13 @@
 	<event name="StaticBuilder_Seppel">
 		<pos x="4103.2" y="324.5" z="8974.8" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Pogorevka Epic-->
-	<event name="StaticBuilder_Epic">
-		<pos x="4415.0" y="302.3" z="6384.6" a="0" group="SkullsMaterials" />
+	<!-- Dynamic Building Materials: Vybor Seppel-->
+	<event name="StaticBuilder_Seppel">
+		<pos x="4103.2" y="324.5" z="8974.8" a="0" group="SkullsMaterials" />
+	</event>
+	<!-- Dynamic Building Materials: Solnechny HumpySlam-->
+	<event name="StaticBuilder_Humpy">
+		<pos x="13384.2" y="4.3" z="6619.4" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Novaya School Lhia-->
 	<event name="StaticBuilder_Lhia">
