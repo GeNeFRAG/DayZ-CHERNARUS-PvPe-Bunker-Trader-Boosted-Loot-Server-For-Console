@@ -135,7 +135,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Pogorevka Epic-->
 	<event name="StaticBuilder_Epic">
-		<pos x="4403.1" y="302.3" z="6387.8" a="0" group="SkullsMaterials" />
+		<pos x=">4387.9" y="302.5" z="6382.0" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
