@@ -113,7 +113,7 @@
 	<event name="StaticBuilder_Otti">
 		<pos x="2223.1" y="433.1" z="15259.7" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Cherno Exodus -->
+	<!-- Dynamic Building Materials: Tisy Radarstation Exodus -->
 	<event name="StaticBuilder_Exodus">
 		<pos x="555.1" y="502.0" z="13638.1" a="0" group="SkullsMaterials" />
 	</event>
@@ -129,17 +129,13 @@
 	<event name="StaticBuilder_Seppel">
 		<pos x="4103.2" y="324.5" z="8974.8" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Vybor Seppel-->
-	<event name="StaticBuilder_Seppel">
-		<pos x="4103.2" y="324.5" z="8974.8" a="0" group="SkullsMaterials" />
-	</event>
-	<!-- Dynamic Building Materials: Solnechny HumpySlam-->
-	<event name="StaticBuilder_Humpy">
-		<pos x="13384.2" y="4.3" z="6619.4" a="0" group="SkullsMaterials" />
-	</event>
 	<!-- Dynamic Building Materials: Novaya School Lhia-->
 	<event name="StaticBuilder_Lhia">
 		<pos x="3223.45" y="203.7" z="13080.69" a="0" group="SkullsMaterials" />
+	</event>
+	<!-- Dynamic Building Materials: Pogorevka Epic-->
+	<event name="StaticBuilder_Epic">
+		<pos x="4403.1" y="302.3" z="6387.8" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
