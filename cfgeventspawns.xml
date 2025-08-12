@@ -121,10 +121,6 @@
 	<event name="StaticBuilder_JC">
 		<pos x="5508.09" y="66.47" z="2649.57" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Zvir RulZZer -->
-	<event name="StaticBuilder_RulZZer">
-		<pos x="210.9" y="73.8" z="3797.8" a="0" group="SkullsMaterials" />
-	</event>
 	<!-- Dynamic Building Materials: Vybor Seppel-->
 	<event name="StaticBuilder_Seppel">
 		<pos x="4103.2" y="324.5" z="8974.8" a="0" group="SkullsMaterials" />
