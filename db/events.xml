@@ -113,7 +113,7 @@
             <child lootmax="9" lootmin="9" max="1" min="1" type="Land_ContainerLocked_Yellow_DE" />
         </children>
     </event>
-    <!-- Event for Building Supplies. WoodenLogs, Planks and Metalplates (Proxy)-->
+    <!-- Event  for Building Supplies. WoodenLogs, Planks and Metalplates (Proxy)-->
     <event name="StaticProxyMaterials">
         <nominal>1</nominal>
         <min>0</min>
