@@ -6523,10 +6523,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="SkiGoggles_BlackYellow">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6534,10 +6534,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="SkiGoggles_WhiteClear">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -6545,10 +6545,10 @@
         <usage name="Clothes"/>
     </type>
     <type name="SkiGoggles_WhiteDark">
-        <nominal>0</nominal>
+        <nominal>12</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>0</min>
+        <min>8</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
