@@ -117,10 +117,6 @@
 	<event name="StaticBuilder_Exodus">
 		<pos x="555.1" y="502.0" z="13638.1" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Vysotovo JC -->
-	<event name="StaticBuilder_JC">
-		<pos x="5508.09" y="66.47" z="2649.57" a="0" group="SkullsMaterials" />
-	</event>
 	<!-- Dynamic Building Materials: Vybor Seppel-->
 	<event name="StaticBuilder_Seppel">
 		<pos x="4103.2" y="324.5" z="8974.8" a="0" group="SkullsMaterials" />
