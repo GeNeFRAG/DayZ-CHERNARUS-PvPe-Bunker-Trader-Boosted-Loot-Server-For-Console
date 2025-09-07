@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <territory-type>
     <!-- Mummies at Black Lake Bunker / replace with InfectedArmyHard -->
-    <!--
     <territory color="1910952871">
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="5" dmax="10" x="13327.85" z="12088.92" r="50"/>
         <zone name="InfectedArmyHard" smin="0" smax="0" dmin="5" dmax="10" x="13333.19" z="12173.97" r="50"/>
     </territory>
-    -->
+    
     <territory color="1124502272">
         <!-- Zs for Ruins MVC - Putoshka -->
         <zone name="InfectedVillageTier1" smin="0" smax="0" dmin="8" dmax="12" x="3906.84" z="7634.29" r="80"/>
