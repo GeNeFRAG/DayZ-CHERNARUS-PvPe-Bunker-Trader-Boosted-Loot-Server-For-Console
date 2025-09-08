@@ -135,7 +135,7 @@
 	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
-		<pos x="10105.1" z="1616.58" a="0" />
+		<pos x="10106.6" y="8.7" z="1696.5" a="0" />
 	</event>
 	<!-- Static ContainerLocked Event -->
 	<event name="StaticContainerLocked">
