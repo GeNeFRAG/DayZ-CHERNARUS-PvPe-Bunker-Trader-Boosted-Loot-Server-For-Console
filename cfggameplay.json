@@ -71,7 +71,8 @@
       "custom/Camp2.json",
       "custom/NewTown_S_VMCobj.json",
       "custom/ShootyysNovayaSchoolSurvivors.json",
-      "custom/Kamensk.json"
+      "custom/Kamensk.json",
+      "custom/BennettsGulag_Rust.json"
     ],
     "environmentMinTemps": [
       -3,
