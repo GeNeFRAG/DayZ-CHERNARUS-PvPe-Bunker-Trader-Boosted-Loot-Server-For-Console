@@ -33,42 +33,43 @@
  29. FOODDRINK
  30. HIGHLOOT
  31. HISTORICAL
- 32. HUNTING
- 33. HUNTING, INDUSTRIAL, MILITARY
- 34. HUNTING, INDUSTRIAL, MILITARY, POLICE
- 35. HUNTING, MAGSAMMO
- 36. HUNTING, MAGSAMMO, POLICE
- 37. HUNTING, MEDIC
- 38. HUNTING, MILITARY
- 39. HUNTING, MILITARY, POLICE
- 40. HUNTING, TOOLS
- 41. HUNTING, WEAPONS
- 42. INDUSTRIAL
- 43. INDUSTRIAL, MILITARY, POLICE
- 44. INDUSTRIAL, TOOLS
- 45. MAGSAMMO
- 46. MAGSAMMO, MILITARY
- 47. MAGSAMMO, POLICE
- 48. MEDIC
- 49. MEDIC, MISC
- 50. MEDIC, TOOLS
- 51. MILITARY
- 52. MILITARY, POLICE
- 53. MILITARY, WEAPONS
- 54. MILITARYCLOTHES
- 55. MILITARYCLOTHES, POLICE
- 56. MISC
- 57. NO USAGE
- 58. OFFICE, SCHOOL
- 59. PLANTS
- 60. POLICE
- 61. POLICE, PRISON
- 62. PRISON
- 63. REPAIRITEMS
- 64. SEASONAL
- 65. SPECIAL
- 66. TOOLS
- 67. WEAPONS
+ 32. HISTORICAL, SEASONAL
+ 33. HUNTING
+ 34. HUNTING, INDUSTRIAL, MILITARY
+ 35. HUNTING, INDUSTRIAL, MILITARY, POLICE
+ 36. HUNTING, MAGSAMMO
+ 37. HUNTING, MAGSAMMO, POLICE
+ 38. HUNTING, MEDIC
+ 39. HUNTING, MILITARY
+ 40. HUNTING, MILITARY, POLICE
+ 41. HUNTING, TOOLS
+ 42. HUNTING, WEAPONS
+ 43. INDUSTRIAL
+ 44. INDUSTRIAL, MILITARY, POLICE
+ 45. INDUSTRIAL, TOOLS
+ 46. MAGSAMMO
+ 47. MAGSAMMO, MILITARY
+ 48. MAGSAMMO, POLICE
+ 49. MEDIC
+ 50. MEDIC, MISC
+ 51. MEDIC, TOOLS
+ 52. MILITARY
+ 53. MILITARY, POLICE
+ 54. MILITARY, WEAPONS
+ 55. MILITARYCLOTHES
+ 56. MILITARYCLOTHES, POLICE
+ 57. MISC
+ 58. NO USAGE
+ 59. OFFICE, SCHOOL
+ 60. PLANTS
+ 61. POLICE
+ 62. POLICE, PRISON
+ 63. PRISON
+ 64. REPAIRITEMS
+ 65. SEASONAL
+ 66. SPECIAL
+ 67. TOOLS
+ 68. WEAPONS
 ==================================================-->
     <!-- ################ [ATTACHMENT] ################-->
     <type name="ACOGOptic">
@@ -11981,6 +11982,43 @@
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Historical"/>
     </type>
+    <!-- ################ [HISTORICAL, SEASONAL] ################-->
+    <type name="WitchHood_Black">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Historical"/>
+        <usage name="Seasonal"/>
+    </type>
+    <type name="WitchHood_Brown">
+        <nominal>5</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>3</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Historical"/>
+        <usage name="Seasonal"/>
+    </type>
+    <type name="WitchHood_Red">
+        <nominal>3</nominal>
+        <lifetime>14400</lifetime>
+        <restock>0</restock>
+        <min>1</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
+        <usage name="Historical"/>
+        <usage name="Seasonal"/>
+    </type>
     <!-- ################ [HUNTING] ################-->
     <type name="Ammo_HuntingBolt">
         <nominal>33</nominal>
@@ -20510,39 +20548,6 @@
         <quantmax>-1</quantmax>
         <cost>100</cost>
         <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="1" deloot="0"/>
-        <usage name="Seasonal"/>
-    </type>
-    <type name="WitchHood_Black">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Seasonal"/>
-    </type>
-    <type name="WitchHood_Brown">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
-        <usage name="Seasonal"/>
-    </type>
-    <type name="WitchHood_Red">
-        <nominal>0</nominal>
-        <lifetime>14400</lifetime>
-        <restock>0</restock>
-        <min>0</min>
-        <quantmin>-1</quantmin>
-        <quantmax>-1</quantmax>
-        <cost>100</cost>
-        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0"/>
         <usage name="Seasonal"/>
     </type>
     <type name="WoolGlovesFingerless_ChristmasBlue">
