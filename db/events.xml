@@ -341,6 +341,22 @@
         <active>0</active>
         <children />
     </event>
+     <event name="StaticMildropSpecial">
+        <nominal>1</nominal>
+        <min>0</min>
+        <max>1</max>
+        <lifetime>1200</lifetime>
+        <restock>60</restock>
+        <saferadius>0</saferadius>
+        <distanceradius>0</distanceradius>
+        <cleanupradius>1</cleanupradius>
+        <secondary>InfectedArmyHard</secondary>
+        <flags deletable="1" init_random="0" remove_damaged="0" />
+        <position>fixed</position>
+        <limit>child</limit>
+        <active>0</active>
+        <children />
+    </event>
     <!-- Custom Attack Bear Spawns -->
     <event name="AnimalAttackBear">
         <nominal>4</nominal>
