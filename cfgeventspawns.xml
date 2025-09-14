@@ -98,7 +98,7 @@
 		<pos x="11319.2" y="268.943" z="8363.92" a="0" group="Mildrop" />
 	</event>
 	<event name="StaticMildropSpecial">
-		<pos x="5901.2" y="269.84" z="10836.2" a="0" group="MildropSpecial" />
+		<pos x="5901.2" z="10836.2" a="0" group="MildropSpecial" />
 	</event>
 	<!-- Dynamic Building Materials -->
 	<event name="StaticProxyMaterials">
