@@ -98,7 +98,21 @@
 		<pos x="11319.2" y="268.943" z="8363.92" a="0" group="Mildrop" />
 	</event>
 	<event name="StaticMildropSpecial">
-		<pos x="5901.2" z="10836.2" a="0" group="MildropSpecial" />
+		<pos x="5901.2" y="269.84" z="10836.2" a="0" group="MildropSpecial" />
+
+		<!--
+		<pos x="2113.32" z="5420.38" a="0" group="MildropSpecial" />
+		<pos x="3893.22" z="7746.59" a="0" group="MildropSpecial" />
+		<pos x="4463.84" z="12781.04" a="0" group="MildropSpecial" />
+		<pos x="12282.36" z="13994.21" a="0" group="MildropSpecial" />
+		<pos x="13866.38" z="12914.71" a="0" group="MildropSpecial" />
+		<pos x="12511.78" z="8967.53" a="0" group="MildropSpecial" />
+		<pos x="13255.42 " z="6579.11" a="0" group="MildropSpecial" />
+		<pos x="12419.91" z="3342.53" a="0" group="MildropSpecial" />
+		<pos x="9460.38" z="2177.48" a="0" group="MildropSpecial" />
+		<pos x="7295.54" z="3657.98" a="0" group="MildropSpecial" />
+		<pos x="4063.34" z="2714.08" a="0" group="MildropSpecial" />
+	-->
 	</event>
 	<!-- Dynamic Building Materials -->
 	<event name="StaticProxyMaterials">

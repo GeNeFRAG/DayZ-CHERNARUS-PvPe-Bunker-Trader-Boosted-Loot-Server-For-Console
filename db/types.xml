@@ -8063,10 +8063,10 @@
         <usage name="Containers"/>
     </type>
     <type name="DuffelBagSmall_Camo">
-        <nominal>9</nominal>
+        <nominal>8</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>6</min>
+        <min>5</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>
@@ -8074,10 +8074,10 @@
         <usage name="Containers"/>
     </type>
     <type name="DuffelBagSmall_Green">
-        <nominal>8</nominal>
+        <nominal>9</nominal>
         <lifetime>14400</lifetime>
         <restock>0</restock>
-        <min>5</min>
+        <min>6</min>
         <quantmin>-1</quantmin>
         <quantmax>-1</quantmax>
         <cost>100</cost>

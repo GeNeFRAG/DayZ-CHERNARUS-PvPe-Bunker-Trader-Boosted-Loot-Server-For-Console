@@ -588,6 +588,16 @@
                     "quickBarSlot": -1
                 },
                 {
+                    "itemType": "Battery9V",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
                     "itemType": "Mag_P1_8Rnd",
                     "attributes": {
                         "healthMin": 1.0,
@@ -667,7 +677,7 @@
                         "healthMin": 1.0,
                         "healthMax": 1.0,
                         "quantityMin": 1.0,
-                        "quantityMax": 1.0  
+                        "quantityMax": 1.0
                     },
                     "quickBarSlot": -1
                 },
@@ -683,6 +693,16 @@
                 },
                 {
                     "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Battery9V",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -796,6 +816,16 @@
                     "quickBarSlot": -1
                 },
                 {
+                    "itemType": "Battery9V",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
                     "itemType": "Mag_P1_8Rnd",
                     "attributes": {
                         "healthMin": 1.0,
@@ -891,6 +921,16 @@
                 },
                 {
                     "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Battery9V",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1004,6 +1044,16 @@
                     "quickBarSlot": -1
                 },
                 {
+                    "itemType": "Battery9V",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
                     "itemType": "Mag_P1_8Rnd",
                     "attributes": {
                         "healthMin": 1.0,
@@ -1099,6 +1149,16 @@
                 },
                 {
                     "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Battery9V",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1212,6 +1272,16 @@
                     "quickBarSlot": -1
                 },
                 {
+                    "itemType": "Battery9V",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
                     "itemType": "Mag_P1_8Rnd",
                     "attributes": {
                         "healthMin": 1.0,
@@ -1307,6 +1377,16 @@
                 },
                 {
                     "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Battery9V",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1420,6 +1500,16 @@
                     "quickBarSlot": -1
                 },
                 {
+                    "itemType": "Battery9V",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
                     "itemType": "Mag_P1_8Rnd",
                     "attributes": {
                         "healthMin": 1.0,
@@ -1515,6 +1605,16 @@
                 },
                 {
                     "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Battery9V",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
@@ -1628,6 +1728,16 @@
                     "quickBarSlot": -1
                 },
                 {
+                    "itemType": "Battery9V",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
                     "itemType": "Mag_P1_8Rnd",
                     "attributes": {
                         "healthMin": 1.0,
@@ -1723,6 +1833,16 @@
                 },
                 {
                     "itemType": "Matchbox",
+                    "attributes": {
+                        "healthMin": 1.0,
+                        "healthMax": 1.0,
+                        "quantityMin": 1.0,
+                        "quantityMax": 1.0
+                    },
+                    "quickBarSlot": -1
+                },
+                {
+                    "itemType": "Battery9V",
                     "attributes": {
                         "healthMin": 1.0,
                         "healthMax": 1.0,
