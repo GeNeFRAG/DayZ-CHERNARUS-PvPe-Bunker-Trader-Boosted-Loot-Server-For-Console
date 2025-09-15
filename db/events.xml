@@ -249,7 +249,7 @@
         <flags deletable="1" init_random="0" remove_damaged="0" />
         <position>fixed</position>
         <limit>child</limit>
-        <active>1</active>
+        <active>0</active>
         <children />
     </event>
     <!-- Spawn items in a yellow backpack -->
@@ -342,9 +342,9 @@
         <children />
     </event>
      <event name="StaticMildropSpecial">
-        <nominal>1</nominal>
+        <nominal>11</nominal>
         <min>0</min>
-        <max>1</max>
+        <max>11</max>
         <lifetime>600</lifetime>
         <restock>60</restock>
         <saferadius>50</saferadius>
