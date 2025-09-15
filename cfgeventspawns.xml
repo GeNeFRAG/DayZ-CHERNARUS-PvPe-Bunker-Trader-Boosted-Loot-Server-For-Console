@@ -99,7 +99,7 @@
 	</event>
 	<event name="StaticMildropSpecial">
 		<!--
-		<pos x="5901.2" y="269.84" z="10836.2" a="0" group="MildropSpecial" />
+		<pos x="5901.2" y="269.8" z="10836.2" a="0" group="MildropSpecial" />
 	-->
 		<pos x="2113.32" z="5420.38" a="0" group="MildropSpecial" />
 		<pos x="3893.22" z="7746.59" a="0" group="MildropSpecial" />
