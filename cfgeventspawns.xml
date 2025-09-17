@@ -123,7 +123,7 @@
 	</event>
 	<!-- Dynamic Building Materials: Novaya Life -->
 	<event name="StaticBuilder_Life">
-		<pos x="3480.5" y="202.3" z="12714.4" a="0" group="SkullsMaterials" />
+		<pos x="3474.1" y="205.7" z="12667.4" a="0" group="SkullsMaterials" />
 	</event>
 	<!-- Dynamic Building Materials: Tisy Otti -->
 	<event name="StaticBuilder_Otti">
