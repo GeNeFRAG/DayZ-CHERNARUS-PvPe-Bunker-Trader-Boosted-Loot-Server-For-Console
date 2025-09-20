@@ -125,10 +125,6 @@
 	<event name="StaticBuilder_Life">
 		<pos x="3474.1" y="205.7" z="12667.4" a="0" group="SkullsMaterials" />
 	</event>
-	<!-- Dynamic Building Materials: Tisy Otti -->
-	<event name="StaticBuilder_Otti">
-		<pos x="2223.1" y="433.1" z="15259.7" a="0" group="SkullsMaterials" />
-	</event>
 	<!-- Dynamic Building Materials: Tisy Radarstation Exodus -->
 	<event name="StaticBuilder_Exodus">
 		<pos x="555.1" y="502.0" z="13638.1" a="0" group="SkullsMaterials" />

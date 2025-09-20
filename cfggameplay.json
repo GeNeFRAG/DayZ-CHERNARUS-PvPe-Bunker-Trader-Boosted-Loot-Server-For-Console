@@ -60,7 +60,6 @@
       "custom/flags_hope_chedaki.json",
       "custom/flags_weedz_pirates.json",
       "custom/flags_life_tec.json",
-      "custom/flags_otti_police.json",
       "custom/flags_exodus_apa.json",
       "custom/flags_epic_bambi.json",
       "custom/flags_lhia_snake.json",
@@ -71,8 +70,7 @@
       "custom/Camp2.json",
       "custom/NewTown_S_VMCobj.json",
       "custom/ShootyysNovayaSchoolSurvivors.json",
-      "custom/Kamensk.json",
-      "custom/BennettsGulag_Rust.json"
+      "custom/Kamensk.json"
     ],
     "environmentMinTemps": [
       -3,
