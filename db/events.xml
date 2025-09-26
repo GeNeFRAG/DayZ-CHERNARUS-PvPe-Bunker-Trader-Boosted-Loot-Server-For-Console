@@ -96,9 +96,9 @@
     </event>
     <!-- Static Container event new -->
     <event name="StaticContainerLocked">
-        <nominal>2</nominal>
+        <nominal>0</nominal>
         <min>2</min>
-        <max>2</max>
+        <max>5</max>
         <lifetime>2400</lifetime>
         <restock>0</restock>
         <saferadius>50</saferadius>

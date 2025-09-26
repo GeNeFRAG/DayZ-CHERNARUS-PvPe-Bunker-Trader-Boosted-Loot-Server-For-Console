@@ -157,6 +157,9 @@
 	<event name="StaticContainerLocked">
 		<pos x="2061.32" z="3501.23" a="0" />
 		<pos x="13739.53" z="11209.66" a="0" />
+		<pos x="13439.15" z="2884.92" a="0" />
+		<pos x="2485.88" z="1302.60" a="0" />
+		<pos x="12124.40" z="3127.70" a="0" />
 	</event>
 	<!-- Static Drug Truck -->
 	<event name="StaticDrugCrash">
