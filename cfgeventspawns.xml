@@ -149,6 +149,10 @@
 	<event name="StaticBuilder_V90">
 		<pos x="7073.4" y="42.6" z="2903.8" a="0" group="SkullsMaterials" />
 	</event>
+	<!-- Dynamic Building Materials: Stary -->
+	<event name="StaticBuilder_Ludwig">
+		<pos x="4968.7" y="474.0" z="15119.5" a="0" group="SkullsMaterials" />
+	</event>
 	<!-- Dynamic Bag with Loot for Trader (spawns in Garage near Trader) -->
 	<event name="ItemYellowBag">
 		<pos x="10106.6" y="8.7" z="1696.5" a="0" />
