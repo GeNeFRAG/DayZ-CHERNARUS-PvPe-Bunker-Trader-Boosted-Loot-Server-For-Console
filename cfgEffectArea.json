@@ -1,5 +1,143 @@
 {
 	"Areas": [
+		{ 	"AreaName": "Black Mountain", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [10278, 0, 12034 ],
+				"Radius": 130,
+				"PosHeight": 35,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "Voron", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [13475, 0, 3312],
+				"Radius": 160,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "Rog", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [11250, 0,4284],
+				"Radius": 130,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "Zub", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [6543, 0, 5596],
+				"Radius": 130,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 2,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "Krona-Est", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [1391, 0, 9268],
+				"Radius": 100,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
+        { 	"AreaName": "Krona-West", 
+			"Type": "SpookyArea23", 
+			"TriggerType": "SpookyTrigger23",
+			"Data": { 
+				"Pos": [1499, 0, 9180],
+				"Radius": 40,
+				"PosHeight": 30,
+				"NegHeight": 130,
+				"InnerRingCount": 1,
+				"InnerPartDist": 50,
+				"OuterRingToggle": 1, 
+				"OuterPartDist": 40, 
+				"OuterOffset": 0, 
+				"VerticalLayers": 0,
+				"VerticalOffset": 0,
+				"ParticleName": "graphics/particles/spooky_mist"
+				},
+			"PlayerData": {
+				"AroundPartName": "",
+				"TinyPartName": "",
+				"PPERequesterType": "PPERequester_SpookyAreaTint"
+			}
+		},
 		{ 	"AreaName": "DevilsCastleFog1", 
 			"Type": "SpookyArea", 
 			"TriggerType": "SpookyTrigger",

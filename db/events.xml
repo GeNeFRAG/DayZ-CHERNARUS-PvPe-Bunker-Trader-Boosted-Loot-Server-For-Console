@@ -1136,7 +1136,7 @@
         <flags deletable="0" init_random="0" remove_damaged="1" />
         <position>fixed</position>
         <limit>child</limit>
-        <active>0</active>
+        <active>1</active>
         <children>
             <child lootmax="8" lootmin="4" max="1" min="1" type="Bonfire" />
         </children>

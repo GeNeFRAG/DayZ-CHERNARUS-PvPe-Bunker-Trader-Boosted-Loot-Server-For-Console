@@ -2011,7 +2011,6 @@
     </group>
     <group name="Land_City_Store" lootmax="25">
         <usage name="Plants" />
-        <usage name="Seasonal" />
         <usage name="RepairItems" />
         <usage name="Tools" />
         <usage name="FoodDrink" />
@@ -2142,7 +2141,6 @@
         </group>
     <group name="Land_City_Store_WithStairs" lootmax="25">
         <usage name="Plants" />
-        <usage name="Seasonal" />
         <usage name="RepairItems" />
         <usage name="Tools" />
         <usage name="FoodDrink" />
@@ -3751,7 +3749,6 @@
         </group>
     <group name="Land_Village_store" lootmax="10">
         <usage name="Plants" />
-        <usage name="Seasonal" />
         <usage name="RepairItems" />
         <usage name="Tools" />
         <usage name="FoodDrink" />
@@ -10837,7 +10834,6 @@
         </group>
     <group name="Land_City_School" lootmax="30">
         <usage name="Plants" />
-        <usage name="Seasonal" />
         <usage name="FoodDrink" />
         <usage name="Clothes" />
         <usage name="Equipment" />
@@ -14312,7 +14308,6 @@
         <usage name="FoodDrink"/>
         <usage name="MagsAmmo"/>
         <usage name="Equipment"/>
-        <usage name="Seasonal"/>
         <container name="lootFloor" lootmax="4">
             <point pos="-0.250091 4.460939 -0.876236" range="0.5" height="1.5" />
             <point pos="-0.250091 4.460939 -0.876236" range="0.5" height="1.5" />
@@ -15066,7 +15061,6 @@
         </group>
     <group name="Land_Village_Store_Enoch" lootmax="10">
         <usage name="Plants" />
-        <usage name="Seasonal" />
         <usage name="RepairItems" />
         <usage name="Tools" />
         <usage name="FoodDrink" />
@@ -15903,7 +15897,7 @@
             </dispatch>
         </group>
     <group name="Land_Lunapark_Shooting_Gallery" lootmax="4">
-        <usage name="Seasonal" />
+        <usage name="Historical" />
         <usage name="Equipment" />
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
@@ -15946,7 +15940,7 @@
             </container>
         </group>
     <group name="Land_Lunapark_Ferris_wheel" lootmax="3">
-        <usage name="Seasonal" />
+        <usage name="Historical" />
         <usage name="Equipment" />
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
@@ -15979,7 +15973,7 @@
 				<usage name="FoodDrink"/>
 				<usage name="MagsAmmo"/>
 				<usage name="Equipment"/>
-				<usage name="Seasonal"/>
+				<usage name="Historical"/>
         <container name="lootFloor" lootmax="4">
             <point pos="-0.435867 -3.680336 -0.948185" range="0.5" height="1.5" /> 
             <point pos="0.552765 -3.680336 -4.212945" range="0.5" height="1.5" /> 
@@ -15997,7 +15991,7 @@
         </container>
     </group>
     <group name="Land_Lunapark_Autodrome" lootmax="3">
-        <usage name="Seasonal" />
+        <usage name="Historical" />
         <usage name="Equipment" />
         <usage name="MagsAmmo" />
         <usage name="FoodDrink" />
@@ -16329,6 +16323,7 @@
         <usage name="Attachment" />
         <usage name="Weapons" />
         <usage name="MagsAmmo" />
+        <usage name="Seasonal" />
         <container name="lootFloor" lootmax="10">
             <tag name="floor" />
             <tag name="shelves" />
