@@ -47,12 +47,18 @@
     "lightingConfig": 1,
     "objectSpawnersArr": [
       "custom/C130J_crashes.json",
-      "custom/b_Bunker_BlackLake_v2_Area.json",
-      "custom/b_Bunker_BlackLake_v2_Loot.json",
-      "custom/dzmc_blacklake_by_novoGOD.json",
+      "custom/Bunker_Black_Lake.json",
       "custom/BennettsTraderShip_Elektro.json",
       "custom/container_mil_garages.json",
-      "custom/PrisonBridge.json"
+      "custom/PrisonBridge.json",
+      "custom/heli_green_radio.json",
+      "custom/portal_pottys.json",
+      "custom/admin_humvee.json",
+      "custom/16355842-shop.json",
+      "custom/Camp2.json",
+      "custom/NewTown_S_VMCobj.json",
+      "custom/ShootyysNovayaSchoolSurvivors.json",
+      "custom/Kamensk.json"
     ],
     "environmentMinTemps": [-8, -6, -4, -2, 0, 2, 4, 3, 1, -1, -4, -7],                                
     "environmentMaxTemps": [-2, -1, 1, 4, 6, 8, 10, 9, 6, 3, 0, -2],
